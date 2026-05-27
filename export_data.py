@@ -275,9 +275,9 @@ def fetch_history_from_api(code):
 # ============ 数据处理 ============
 
 def build_top50_data(stocks, sector_map, price_map):
-    """构建TOP50数据（与Flask API格式一致）"""
+    """构建排行榜数据（13元以下、非ST、非亏损，与本地Flask API一致）"""
     result = []
-    for i, stock in enumerate(stocks[:50]):
+    for i, stock in enumerate(stocks[:100]):  # 取前100名再过滤
         code = stock['code']
         name = stock['name']
         rank = stock.get('order', i + 1)
@@ -293,6 +293,13 @@ def build_top50_data(stocks, sector_map, price_map):
         api_change = stock.get('rise_and_fall')
         spot = price_map.get(code, {})
         change_pct = float(api_change) if api_change is not None else spot.get('change_pct', 0)
+        price = spot.get('price', 0) or 0
+        
+        # ========== 硬性过滤：13元以下、非ST、非亏损 ==========
+        is_st = name.startswith('ST') or name.startswith('*ST')
+        is_loss = change_pct < -5 or '亏损' in name or '绩差' in name
+        if is_st or is_loss or price <= 0 or price > 13:
+            continue
         
         item = {
             'code': code,
@@ -301,7 +308,7 @@ def build_top50_data(stocks, sector_map, price_map):
             'current_rank': rank,
             'sector': sector_map.get(code, ''),
             'concept': concept,
-            'price': spot.get('price', 0) or 0,
+            'price': price,
             'change_pct': change_pct,
             'change_amt': spot.get('change_amt', 0) or 0,
             'volume': spot.get('volume', 0) or 0,
@@ -314,7 +321,7 @@ def build_top50_data(stocks, sector_map, price_map):
         }
         result.append(item)
     
-    print(f"  构建TOP50数据: {len(result)} 条")
+    print(f"  构建排行榜数据: {len(result)} 条 (从100名中过滤13元以下非ST非亏损)")
     return result
 
 
@@ -962,11 +969,16 @@ def main():
     sentiment_data = build_sentiment(top50_data)
     safe_json_dump(sentiment_data, DATA_DIR / 'sentiment.json')
     
-    # 5h. 每个股票的历史数据（从同花顺API获取近30天排名）
+    # 5h. 每个股票的历史数据（从同花顺API获取近30天排名，取前100名）
     print("\n[6/6] 导出个股历史数据...")
     history_count = 0
-    for i, stock_data in enumerate(top50_data):
-        code = stock_data['code']
+    for i, stock in enumerate(stocks[:100]):  # 用原始前100名，不是过滤后的
+        code = stock['code']
+        name = stock['name']
+        rank = stock.get('order', i + 1)
+        spot = price_map.get(code, {})
+        price = spot.get('price', 0) or 0
+        change_pct = float(stock.get('rise_and_fall')) if stock.get('rise_and_fall') else spot.get('change_pct', 0)
         
         # 尝试从同花顺API获取历史数据
         api_records = []
@@ -977,9 +989,9 @@ def main():
         if not api_records:
             history = [{
                 'date': datetime.now().strftime('%Y-%m-%d'),
-                'rank': stock_data['rank'],
-                'price': stock_data['price'],
-                'change_pct': stock_data['change_pct']
+                'rank': rank,
+                'price': price,
+                'change_pct': change_pct
             }]
         else:
             history = api_records
@@ -989,21 +1001,21 @@ def main():
             if not has_today:
                 history.append({
                     'date': today_str,
-                    'rank': stock_data['rank'],
-                    'price': stock_data['price'],
-                    'change_pct': stock_data['change_pct']
+                    'rank': rank,
+                    'price': price,
+                    'change_pct': change_pct
                 })
         
         # 计算统计
         ranks = [r['rank'] for r in history if r.get('rank')]
         history_item = {
             'code': code,
-            'name': stock_data['name'],
+            'name': name,
             'history': history,
             'continuous_days': len(history),
             'monthly_count': len(history),
-            'avg_rank': round(sum(ranks) / len(ranks), 1) if ranks else stock_data['rank'],
-            'best_rank': min(ranks) if ranks else stock_data['rank'],
+            'avg_rank': round(sum(ranks) / len(ranks), 1) if ranks else rank,
+            'best_rank': min(ranks) if ranks else rank,
             'trend': 'stable'
         }
         safe_json_dump(history_item, HISTORY_DIR / f'{code}.json')
