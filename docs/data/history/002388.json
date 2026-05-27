@@ -1,0 +1,23 @@
+{
+  "code": "002388",
+  "name": "新亚制程",
+  "history": [
+    {
+      "date": "2026-05-24",
+      "rank": 855
+    },
+    {
+      "date": "2026-05-25",
+      "rank": 204
+    },
+    {
+      "date": "2026-05-26",
+      "rank": 196
+    }
+  ],
+  "continuous_days": 3,
+  "monthly_count": 3,
+  "avg_rank": 418.3,
+  "best_rank": 196,
+  "trend": "stable"
+}

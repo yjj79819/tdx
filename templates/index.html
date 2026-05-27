@@ -1,0 +1,1096 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="refresh" content="{{ refresh_interval or 3600 }}">
+    <title>同花顺热度排名</title>
+    <style>
+        :root {
+            --bg-primary: #0f0f23;
+            --bg-card: #1a1a2e;
+            --bg-hover: #252542;
+            --bg-expand: #1e1e38;
+            --text-primary: #ffffff;
+            --text-secondary: #a0a0a0;
+            --accent-primary: #00d4ff;
+            --accent-danger: #ff4757;
+            --accent-success: #2ed573;
+            --accent-warning: #ffa502;
+            --border-color: #2d2d44;
+            --topbar-height: 44px;
+        }
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+            background: var(--bg-primary);
+            color: var(--text-primary);
+            height: 100vh;
+            overflow: hidden;
+        }
+
+        /* 全屏布局 */
+        .app-layout {
+            display: flex;
+            flex-direction: column;
+            height: 100vh;
+            width: 100vw;
+        }
+
+        /* 顶部导航栏 */
+        .topbar {
+            height: auto;
+            min-height: var(--topbar-height);
+            background: var(--bg-card);
+            border-bottom: 1px solid var(--border-color);
+            display: flex;
+            flex-direction: column;
+            flex-shrink: 0;
+        }
+        .topbar-nav {
+            display: flex;
+            align-items: center;
+            padding: 0 12px;
+            gap: 4px;
+            overflow-x: auto;
+            -webkit-overflow-scrolling: touch;
+            scrollbar-width: none;
+        }
+        .topbar-nav::-webkit-scrollbar { display: none; }
+        .nav-tab {
+            display: flex;
+            align-items: center;
+            gap: 4px;
+            padding: 8px 12px;
+            border: none;
+            background: transparent;
+            color: var(--text-secondary);
+            font-size: 13px;
+            cursor: pointer;
+            border-bottom: 2px solid transparent;
+            white-space: nowrap;
+            transition: all 0.15s;
+            flex-shrink: 0;
+        }
+        .nav-tab:hover {
+            background: var(--bg-hover);
+            color: var(--text-primary);
+        }
+        .nav-tab.active {
+            color: var(--accent-primary);
+            border-bottom-color: var(--accent-primary);
+            font-weight: 600;
+        }
+        .topbar-info {
+            display: flex;
+            align-items: center;
+            padding: 6px 12px;
+            gap: 12px;
+            border-top: 1px solid var(--border-color);
+            font-size: 12px;
+            color: var(--text-secondary);
+            overflow-x: auto;
+            -webkit-overflow-scrolling: touch;
+            scrollbar-width: none;
+        }
+        .topbar-info::-webkit-scrollbar { display: none; }
+        .topbar-info .stats {
+            display: flex;
+            gap: 12px;
+            flex-shrink: 0;
+        }
+        .topbar-info .update-info {
+            margin-left: auto;
+            display: flex;
+            align-items: center;
+            gap: 8px;
+            flex-shrink: 0;
+        }
+        .update-btn {
+            background: var(--accent-primary);
+            color: #fff;
+            border: none;
+            border-radius: 4px;
+            padding: 4px 10px;
+            font-size: 11px;
+            cursor: pointer;
+        }
+        .update-btn:hover { opacity: 0.85; }
+        .update-btn:disabled { background: #555; cursor: not-allowed; }
+        .topbar-info select {
+            padding: 3px 8px;
+            font-size: 12px;
+            border: 1px solid var(--border-color);
+            border-radius: 4px;
+            background: var(--bg-primary);
+            color: var(--text-primary);
+        }
+
+        /* 内容区域 */
+        .main-area {
+            flex: 1;
+            overflow: auto;
+            padding: 12px 14px 30px;
+            width: 100%;
+            box-sizing: border-box;
+        }
+
+        /* Grid表格 */
+        .grid-table {
+            display: grid;
+            width: 100%;
+            min-width: 0;
+        }
+        .grid-table.rank-grid {
+            grid-template-columns: 60px 90px 80px 80px 80px minmax(80px,1fr) 3fr;
+        }
+        .grid-table.rec-grid {
+            grid-template-columns: 0.5fr 2fr 0.6fr 0.8fr 1.5fr 0.6fr 0.6fr 1.2fr 2.5fr;
+        }
+        .grid-table.sector-grid {
+            grid-template-columns: 0.5fr 2fr 1fr 1fr 3fr;
+        }
+        .grid-table.concept-grid {
+            grid-template-columns: 0.5fr 2fr 1fr 3fr;
+        }
+        .grid-table.hot-grid {
+            grid-template-columns: 0.5fr 2fr 1fr 1.5fr 1.5fr 2fr;
+        }
+
+        .grid-header, .grid-cell {
+            padding: 8px 10px;
+            border-bottom: 1px solid var(--border-color);
+            font-size: 14px;
+            overflow: hidden;
+            text-overflow: ellipsis;
+            white-space: nowrap;
+            display: flex;
+            align-items: center;
+        }
+        .grid-header {
+            background: var(--bg-primary);
+            font-weight: 600;
+            color: var(--accent-primary);
+            position: sticky;
+            top: 0;
+            z-index: 2;
+            overflow: visible;
+            white-space: nowrap;
+            cursor: pointer;
+        }
+        .grid-header:hover { background: var(--bg-hover); }
+        .grid-row:hover { background: var(--bg-hover); cursor: pointer; }
+
+        .rank {
+            font-weight: bold;
+            font-size: 18px;
+            text-align: center;
+            padding: 10px 8px;
+            border-radius: 6px;
+        }
+        .rank.top3 {
+            color: #fff;
+            background: linear-gradient(135deg, #ff2d55, #ff6b6b);
+            box-shadow: 0 2px 8px rgba(255,45,85,0.4);
+        }
+        .rank.top10 {
+            color: #fff;
+            background: linear-gradient(135deg, #ff9500, #ffcc00);
+            box-shadow: 0 2px 8px rgba(255,149,0,0.3);
+        }
+        .rank.top20 {
+            color: #fff;
+            background: linear-gradient(135deg, #5ac8fa, #34aadc);
+            box-shadow: 0 2px 6px rgba(90,200,250,0.3);
+        }
+        .rank.top50 {
+            color: #fff;
+            background: linear-gradient(135deg, #30d158, #28cd41);
+            box-shadow: 0 2px 6px rgba(48,209,88,0.3);
+        }
+        .rank.top100 {
+            color: var(--text-primary);
+            background: linear-gradient(135deg, #8e8e93, #636366);
+        }
+        .rank:not(.top3):not(.top10):not(.top20):not(.top50):not(.top100) {
+            color: var(--text-primary);
+            background: rgba(255,255,255,0.08);
+        }
+        .price { font-family: monospace; font-size: 16px; font-weight: bold; }
+        .change-up { color: var(--accent-danger); font-size: 15px; font-weight: bold; }
+        .change-down { color: var(--accent-success); font-size: 15px; font-weight: bold; }
+        .change-neutral { color: var(--text-secondary); }
+
+        .sector-tag {
+            display: inline-block;
+            padding: 2px 8px;
+            background: rgba(0, 212, 255, 0.15);
+            border-radius: 4px;
+            font-size: 12px;
+            color: var(--accent-primary);
+            margin-right: 5px;
+        }
+        .concept-tag {
+            display: inline-block;
+            padding: 1px 6px;
+            background: rgba(255, 107, 107, 0.15);
+            border-radius: 4px;
+            font-size: 11px;
+            color: var(--accent-danger);
+            margin: 1px 2px;
+            max-width: 80px;
+            overflow: hidden;
+            text-overflow: ellipsis;
+            white-space: nowrap;
+            vertical-align: middle;
+        }
+        .loading { text-align: center; padding: 60px 20px; color: var(--text-secondary); font-size: 14px; }
+        .sector-count {
+            display: inline-block;
+            padding: 2px 8px;
+            background: var(--accent-danger);
+            color: white;
+            border-radius: 10px;
+            font-size: 12px;
+        }
+
+        .expand-panel {
+            background: var(--bg-expand);
+            padding: 10px 15px;
+            margin: 0;
+            font-size: 13px;
+        }
+        .expand-row {
+            display: none;
+            grid-column: 1 / -1;
+            padding: 12px 15px;
+            background: var(--bg-expand);
+            border-bottom: 1px solid var(--border-color);
+            overflow-x: auto;
+        }
+        .expand-row.show { display: block; }
+        .expand-loading {
+            text-align: center;
+            padding: 10px;
+            color: var(--text-secondary);
+            font-size: 13px;
+        }
+
+        .score-value { font-weight: bold; font-size: 16px; }
+        .score-high { color: var(--accent-danger); }
+        .score-mid { color: var(--accent-warning); }
+        .score-low { color: var(--accent-primary); }
+        /* ====== 移动端适配 ====== */
+        @media (max-width:768px) {
+            .main-area { padding: 8px 8px 20px; }
+            .grid-table { grid-template-columns:40px minmax(100px,2fr) repeat(6,minmax(60px,1fr));font-size:12px; }
+            .expand-row { font-size:11px; }
+            .nav-tab { padding: 7px 8px; font-size: 12px; }
+            .topbar-info { padding: 5px 8px; gap: 8px; }
+        }
+        @media (max-width:480px) {
+            .grid-table { grid-template-columns:35px minmax(80px,2fr) repeat(6,minmax(45px,1fr));font-size:10px; }
+            .nav-tab { padding: 6px 6px; font-size: 11px; }
+            .topbar-info { font-size: 11px; }
+        }
+    </style>
+</head>
+<body>
+    <div class="app-layout">
+        <!-- 顶部导航栏 -->
+        <div class="topbar">
+            <div class="topbar-nav">
+                <button class="nav-tab active" onclick="switchTab('rank', this)">🏆 TOP50</button>
+                <button class="nav-tab" onclick="switchTab('sector', this)">📊 板块&行业</button>
+                <button class="nav-tab" onclick="switchTab('concept', this)">🧰 概念分析</button>
+                <button class="nav-tab" onclick="switchTab('recommend', this)">⭐ 推荐股票</button>
+                <button class="nav-tab" onclick="switchTab('review', this)">📋 每日复盘</button>
+            </div>
+            <div class="topbar-info">
+                <div class="stats">
+                    <span id="stockCount">股票: --</span>
+                    <span id="recordCount">记录: --</span>
+                    <span id="dayCount">天数: --</span>
+                </div>
+                <select id="datePicker" onchange="changeDate()">
+                    {% for d in dates %}
+                    <option value="{{ d }}" {% if d == selected_date %}selected{% endif %}>{{ d }}</option>
+                    {% endfor %}
+                </select>
+                <div class="update-info">
+                    <span id="updateStatus">&#9200; 实时</span>
+                    <button class="update-btn" id="updateBtn" onclick="triggerUpdate()">&#x21bb; 立即更新</button>
+                    <button class="update-btn" id="cookieBtn" onclick="showCookieModal()" style="background:#666;margin-left:8px">&#128273; Cookie</button>
+                </div>
+            </div>
+        </div>
+
+        <!-- 主内容区 -->
+        <div class="main-area" id="content">
+            <div class="loading">加载中...</div>
+        </div>
+    </div>
+
+    <!-- Cookie设置弹窗 -->
+    <div id="cookieModal" style="display:none;position:fixed;top:0;left:0;width:100%;height:100%;background:rgba(0,0,0,0.8);z-index:1000;align-items:center;justify-content:center">
+        <div style="background:var(--bg-card);border:1px solid var(--border-color);border-radius:8px;padding:24px;width:90%;max-width:600px;max-height:80vh;overflow-y:auto">
+            <h3 style="margin-bottom:16px;color:var(--accent-primary)">&#128273; 设置同花顺Cookie</h3>
+            <div id="cookieStatus" style="margin-bottom:16px;padding:12px;background:var(--bg-hover);border-radius:4px;font-size:13px">
+                检测中...
+            </div>
+            <div style="margin-bottom:16px">
+                <label style="display:block;margin-bottom:8px;font-size:13px;color:var(--text-secondary)">获取Cookie方法：</label>
+                <ol style="font-size:12px;color:var(--text-secondary);line-height:1.8;margin-left:16px">
+                    <li>打开同花顺官网 <a href="https://ms.10jqka.com.cn/" target="_blank" style="color:var(--accent-primary)">https://ms.10jqka.com.cn/</a></li>
+                    <li>按 <b>F12</b> 打开开发者工具</li>
+                    <li>切换到 <b>Console(控制台)</b> 标签</li>
+                    <li>输入 <code style="background:#333;padding:2px 4px;border-radius:3px">document.cookie</code> 并按回车</li>
+                    <li>复制输出的长字符串（以 <code style="background:#333;padding:2px 4px;border-radius:3px">v=</code> 开头）</li>
+                    <li>粘贴到下方输入框</li>
+                </ol>
+            </div>
+            <textarea id="cookieInput" placeholder="请粘贴从控制台获取的cookie..." style="width:100%;height:120px;background:var(--bg-primary);border:1px solid var(--border-color);border-radius:4px;padding:12px;color:var(--text-primary);font-size:12px;resize:vertical"></textarea>
+            <div style="margin-top:16px;display:flex;gap:12px;justify-content:flex-end">
+                <button onclick="closeCookieModal()" style="padding:8px 16px;background:var(--bg-hover);border:1px solid var(--border-color);border-radius:4px;color:var(--text-primary);cursor:pointer">取消</button>
+                <button onclick="testCookie()" style="padding:8px 16px;background:#666;border:1px solid var(--border-color);border-radius:4px;color:var(--text-primary);cursor:pointer">测试Cookie</button>
+                <button onclick="saveCookie()" style="padding:8px 16px;background:var(--accent-primary);border:none;border-radius:4px;color:#000;cursor:pointer;font-weight:bold">保存</button>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        var currentTab = 'rank';
+        var currentData = [];
+        var tabDataCache = {};
+        var tabLoading = {};
+
+        var sortColumn = null;
+        var sortDirection = 'desc';
+        var filteredData = [];
+        var expandedCode = null;
+
+        // Cookie管理函数
+        function showCookieModal() {
+            document.getElementById('cookieModal').style.display = 'flex';
+            checkCookieStatus();
+        }
+
+        function closeCookieModal() {
+            document.getElementById('cookieModal').style.display = 'none';
+        }
+
+        function checkCookieStatus() {
+            fetch('/api/cookie/status')
+                .then(r => r.json())
+                .then(data => {
+                    var statusDiv = document.getElementById('cookieStatus');
+                    if (data.has_cookie) {
+                        statusDiv.innerHTML = '<span style="color:var(--accent-success)">&#10004; ' + data.message + ' (长度: ' + data.length + ')</span>';
+                    } else {
+                        statusDiv.innerHTML = '<span style="color:var(--accent-danger)">&#10008; ' + data.message + '</span>';
+                    }
+                });
+        }
+
+        function testCookie() {
+            var statusDiv = document.getElementById('cookieStatus');
+            statusDiv.innerHTML = '测试中...';
+            fetch('/api/cookie/test')
+                .then(r => r.json())
+                .then(data => {
+                    if (data.valid) {
+                        statusDiv.innerHTML = '<span style="color:var(--accent-success)">&#10004; ' + data.message + ' (获取到 ' + data.test_data_count + ' 条测试数据)</span>';
+                    } else {
+                        statusDiv.innerHTML = '<span style="color:var(--accent-danger)">&#10008; ' + data.message + '</span>';
+                    }
+                });
+        }
+
+        function saveCookie() {
+            var cookie = document.getElementById('cookieInput').value.trim();
+            if (!cookie) {
+                alert('请输入Cookie');
+                return;
+            }
+            fetch('/api/cookie/set', {
+                method: 'POST',
+                headers: {'Content-Type': 'application/json'},
+                body: JSON.stringify({cookie: cookie})
+            })
+            .then(r => r.json())
+            .then(data => {
+                if (data.success) {
+                    alert('Cookie保存成功！');
+                    checkCookieStatus();
+                } else {
+                    alert('保存失败: ' + data.message);
+                }
+            });
+        }
+
+        // 获取股票历史数据（用于新上榜股票）
+        function fetchStockHistory(code) {
+            return fetch('/api/stock/fetch_history/' + code, {method: 'POST'})
+                .then(r => r.json())
+                .then(data => {
+                    if (data.success) {
+                        console.log('[' + code + '] 历史数据获取成功: ' + data.count + ' 天');
+                        return true;
+                    } else {
+                        console.warn('[' + code + '] 历史数据获取失败: ' + data.message);
+                        if (data.message.includes('Cookie')) {
+                            showCookieModal();
+                        }
+                        return false;
+                    }
+                });
+        }
+
+        function switchTab(tab, el) {
+            currentTab = tab;
+            document.querySelectorAll('.nav-tab').forEach(function(t) { t.classList.remove('active'); });
+            if (el) el.classList.add('active');
+            sortColumn = null;
+            expandedCode = null;
+            loadData();
+        }
+
+        function changeDate() {
+            tabDataCache = {};
+            tabLoading = {};
+            loadData();
+            loadStats();
+        }
+
+        function getSelectedDate() {
+            var el = document.getElementById('datePicker');
+            return el ? el.value : '';
+        }
+
+        function formatPrice(p) { return (p === null || p === undefined) ? '-' : p.toFixed(2); }
+
+        function formatChange(pct) {
+            if (pct === null || pct === undefined) return '-';
+            var s = pct > 0 ? '+' : '';
+            var c = pct > 0 ? 'change-up' : (pct < 0 ? 'change-down' : 'change-neutral');
+            return '<span class="' + c + '">' + s + pct.toFixed(2) + '%</span>';
+        }
+
+        function sortData(col) {
+            if (sortColumn === col) { sortDirection = sortDirection === 'asc' ? 'desc' : 'asc'; }
+            else { sortColumn = col; sortDirection = 'desc'; }
+            currentData.sort(function(a, b) {
+                var va = a[col], vb = b[col];
+                if (va === null || va === undefined) va = -Infinity;
+                if (vb === null || vb === undefined) vb = -Infinity;
+                if (typeof va === 'string') va = va.toLowerCase();
+                if (typeof vb === 'string') vb = vb.toLowerCase();
+                if (va < vb) return sortDirection === 'asc' ? -1 : 1;
+                if (va > vb) return sortDirection === 'asc' ? 1 : -1;
+                return 0;
+            });
+            renderRankTable();
+        }
+
+        function getScoreClass(s) { if (s >= 90) return 'score-high'; if (s >= 80) return 'score-mid'; return 'score-low'; }
+
+        function renderRankTable() {
+            var html = '<div class="grid-table rank-grid">';
+            var cols = ['排名', '股票', '最新价', '涨跌幅', '上榜天数', '板块', '概念', '涨停原因'];
+            var keys = ['rank', 'name', 'price', 'change_pct', 'continuous_days', 'sector', 'concept', 'limit_up_reason'];
+            cols.forEach(function(l, i) { html += '<div class="grid-header" onclick="sortData(\'' + keys[i] + '\')">' + l + '</div>'; });
+            currentData.forEach(function(item) {
+                var rc = item.rank <= 3 ? 'rank top3' : (item.rank <= 10 ? 'rank top10' : (item.rank <= 20 ? 'rank top20' : (item.rank <= 50 ? 'rank top50' : 'rank top100')));
+                var sectorTags = item.sector ? '<span class="sector-tag">' + item.sector + '</span>' : '';
+                var conceptArr = item.concept ? item.concept.split(',') : [];
+                var conceptTags = conceptArr.slice(0, 3).map(function(c) { return '<span class="concept-tag">' + c.trim() + '</span>'; }).join('');
+                var reasonText = item.limit_up_reason || '-';
+                var daysTag = item.continuous_days > 0
+                    ? '<span style="color:' + (item.continuous_days >= 5 ? 'var(--accent-danger)' : 'var(--accent-warning)') + ';font-weight:bold">' + item.continuous_days + '天</span>'
+                    : '-';
+                html += '<div class="grid-cell ' + rc + '">' + item.rank + '</div>';
+                html += '<div class="grid-cell" onclick="toggleExpand(\'' + item.code + '\')" style="cursor:pointer"><b>' + item.name + '</b><br><small style="color:#666">' + item.code + '</small></div>';
+                html += '<div class="grid-cell price">' + formatPrice(item.price) + '</div>';
+                html += '<div class="grid-cell">' + formatChange(item.change_pct) + '</div>';
+                html += '<div class="grid-cell">' + daysTag + '</div>';
+                html += '<div class="grid-cell">' + sectorTags + '</div>';
+                html += '<div class="grid-cell">' + conceptTags + '</div>';
+                html += '<div class="grid-cell"><small style="color:#ccc">' + reasonText + '</small></div>';
+                html += '<div class="expand-row" id="expand-' + item.code + '"><div class="expand-loading" style="padding:8px;color:var(--text-secondary);font-size:12px">加载中...</div></div>';
+            });
+            html += '</div>';
+            document.getElementById('content').innerHTML = html;
+        }
+
+        function renderFilteredTable(data) {
+            var html = '';
+            
+            html += '<div class="grid-table rank-grid">';
+            var cols = ['当前排名', '股票', '最新价', '涨跌幅', '板块', '概念', '排名历史'];
+            var keys = ['rank', 'name', 'price', 'change_pct', 'sector', 'concept', ''];
+            cols.forEach(function(l, i) {
+                if (keys[i]) {
+                    var arrow = (sortColumn === keys[i]) ? (sortDirection === 'asc' ? ' ↑' : ' ↓') : '';
+                    html += '<div class="grid-header" style="cursor:pointer" onclick="sortFilteredData(\'' + keys[i] + '\')">' + l + arrow + '</div>';
+                } else {
+                    html += '<div class="grid-header">' + l + '</div>';
+                }
+            });
+            
+            data.forEach(function(item) {
+                var rc = item.rank <= 3 ? 'rank top3' : (item.rank <= 10 ? 'rank top10' : (item.rank <= 20 ? 'rank top20' : (item.rank <= 50 ? 'rank top50' : 'rank top100')));
+                var sectorTags = item.sector ? '<span class="sector-tag">' + item.sector + '</span>' : '';
+                var conceptArr = item.concept ? item.concept.split(',') : [];
+                var conceptTags = conceptArr.map(function(c) { return '<span class="concept-tag">' + c.trim() + '</span>'; }).join('');
+                var priceColor = item.change_pct > 0 ? 'change-up' : (item.change_pct < 0 ? 'change-down' : '');
+                
+                html += '<div class="grid-cell ' + rc + '">' + item.rank + '</div>';
+                var marketCode = item.code.startsWith('6') ? '17' : '33';
+                var stockLink = 'https://ms.10jqka.com.cn/thsHotDetail/?name=' + encodeURIComponent(item.name) + '&code=' + item.code + '&marketCode=' + marketCode;
+                html += '<div class="grid-cell" style="white-space:normal;overflow:visible;line-height:1.4"><a href="' + stockLink + '" target="_blank" style="color:var(--text-primary);text-decoration:none;font-weight:bold">' + item.name + '</a></div>';
+                html += '<div class="grid-cell price ' + priceColor + '">¥' + (item.price ? item.price.toFixed(2) : '-') + '</div>';
+                html += '<div class="grid-cell">' + formatChange(item.change_pct) + '</div>';
+                html += '<div class="grid-cell">' + sectorTags + '</div>';
+                html += '<div class="grid-cell" style="line-height:1.6;white-space:normal;overflow:visible">' + conceptTags + '</div>';
+                html += '<div class="grid-cell"><div id="chart-' + item.code + '" style="width:100%;height:55px"></div></div>';
+            });
+            html += '</div>';
+            document.getElementById('content').innerHTML = html;
+            
+            data.forEach(function(item) {
+                loadMiniChart(item.code, 'chart-' + item.code);
+            });
+        }
+
+        function sortFilteredData(col) {
+            if (sortColumn === col) { sortDirection = sortDirection === 'asc' ? 'desc' : 'asc'; }
+            else { sortColumn = col; sortDirection = 'desc'; }
+            filteredData.sort(function(a, b) {
+                var va = a[col], vb = b[col];
+                if (va === null || va === undefined) va = col === 'price' || col === 'change_pct' || col === 'rank' ? -Infinity : '';
+                if (vb === null || vb === undefined) vb = col === 'price' || col === 'change_pct' || col === 'rank' ? -Infinity : '';
+                if (typeof va === 'string') va = va.toLowerCase();
+                if (typeof vb === 'string') vb = vb.toLowerCase();
+                if (va < vb) return sortDirection === 'asc' ? -1 : 1;
+                if (va > vb) return sortDirection === 'asc' ? 1 : -1;
+                return 0;
+            });
+            renderFilteredTable(filteredData);
+        }
+
+        function loadMiniChart(code, containerId) {
+            fetch('/api/stock_history_filtered/' + code)
+                .then(function(r) { return r.json(); })
+                .then(function(data) {
+                    var container = document.getElementById(containerId);
+                    if (!container || !data.history || data.history.length === 0) {
+                        if (container) container.innerHTML = '<span style="font-size:10px;color:#666">-</span>';
+                        return;
+                    }
+                    // 显示最近30天排名历史，上榜显示柱子+日期+名次，未上榜留空
+                    var history = data.history;
+                    
+                    var html = '<div style="display:flex;align-items:flex-end;gap:1px;padding:2px 1px;background:#0a0a0f;border-radius:3px;overflow-x:auto">';
+                    history.forEach(function(h, i) {
+                        var dateStr = h.date.substring(8); // 只取DD
+                        var isLast = (i === history.length - 1);
+                        
+                        if (h.rank === null || h.rank === undefined) {
+                            // 未上榜：留空，只显示日期
+                            html += '<div style="display:flex;flex-direction:column;align-items:center;flex:1;min-width:16px">';
+                            html += '<span style="font-size:7px;color:#444;margin-bottom:2px">' + dateStr + '</span>';
+                            html += '<div style="width:100%;height:2px;background:rgba(255,255,255,0.05);border-radius:1px"></div>';
+                            html += '</div>';
+                            return;
+                        }
+                        
+                        // 每个排名高度唯一：用指数函数 60 * (0.96)^rank，#1=60px #2=57.6 #3=55.3 ... #100=2.4
+                        var barH = Math.max(2, 60 * Math.pow(0.96, h.rank - 1));
+                        barH = Math.round(barH * 10) / 10; // 保留一位小数
+                        
+                        // 柱状图颜色与排名背景一致：#1金、#2-3红、#4-5浅红、#6-10橙、#11-20蓝、#21-50绿、#51-100灰
+                        var color, glow = '', borderR = '1px 1px 0 0', extraW = 0;
+                        if (h.rank === 1) {
+                            color = '#ffd700'; // 金色：#1
+                            glow = 'box-shadow:0 0 8px #ffd700,0 0 16px rgba(255,215,0,0.6);';
+                            extraW = 2;
+                        } else if (h.rank === 2) {
+                            color = '#ff2d55'; // 亮红：#2
+                            glow = 'box-shadow:0 0 6px rgba(255,45,85,0.7);';
+                            extraW = 1;
+                        } else if (h.rank === 3) {
+                            color = '#ff4757'; // 红：#3
+                            glow = 'box-shadow:0 0 5px rgba(255,71,87,0.5);';
+                        } else if (h.rank <= 5) {
+                            color = '#ff6b6b'; // 浅红：#4-5
+                        } else if (h.rank <= 10) {
+                            color = '#ff9500'; // 橙：#6-10
+                        } else if (h.rank <= 20) {
+                            color = '#5ac8fa'; // 蓝：#11-20
+                        } else if (h.rank <= 50) {
+                            color = '#30d158'; // 绿：#21-50
+                        } else {
+                            color = '#8e8e93'; // 灰：#51-100
+                        }
+                        
+                        html += '<div style="display:flex;flex-direction:column;align-items:center;flex:1;min-width:' + (16 + extraW) + 'px;position:relative">';
+                        // 排名在上方显示
+                        html += '<span style="font-size:7px;color:' + color + ';font-weight:bold;margin-bottom:1px">' + h.rank + '</span>';
+                        // 柱子作为背景容器
+                        html += '<div style="width:100%;height:' + barH + 'px;background:' + color + ';border-radius:' + borderR + ';opacity:' + (isLast ? '1' : '0.85') + ';' + glow + ';position:relative;min-height:14px;display:flex;align-items:center;justify-content:center" title="' + h.date + ' #' + h.rank + '">';
+                        // 日期显示在柱子中（居中）
+                        html += '<span style="font-size:7px;color:#fff;text-shadow:0 0 2px rgba(0,0,0,0.9);white-space:nowrap">' + dateStr + '</span>';
+                        html += '</div>';
+                        html += '</div>';
+                    });
+                    html += '</div>';
+                    container.innerHTML = html;
+                })
+                .catch(function() {
+                    var container = document.getElementById(containerId);
+                    if (container) container.innerHTML = '<span style="font-size:10px;color:#666">-</span>';
+                });
+        }
+
+        function showHistoryChart(code, name) {
+            fetch('/api/stock_history_filtered/' + code)
+                .then(function(r) { return r.json(); })
+                .then(function(data) {
+                    if (!data.history || data.history.length === 0) { alert('暂无历史数据'); return; }
+                    
+                    var html = '<div style="position:fixed;top:0;left:0;right:0;bottom:0;background:rgba(0,0,0,0.7);z-index:1000;display:flex;align-items:center;justify-content:center" onclick="this.remove()">';
+                    html += '<div style="background:var(--bg-card);padding:20px;border-radius:8px;max-width:90vw;max-height:80vh;overflow:auto" onclick="event.stopPropagation()">';
+                    html += '<h3 style="margin-bottom:10px">' + name + ' (' + code + ') 上榜历史</h3>';
+                    
+                    // 找排名第一的日期
+                    var top1Dates = data.history.filter(function(h) { return h.rank === 1; });
+                    if (top1Dates.length > 0) {
+                        html += '<div style="margin-bottom:10px;padding:8px 12px;background:rgba(255,71,87,0.1);border-radius:4px;font-size:13px">';
+                        html += '🏆 <b style="color:#ff4757">排名第一</b>：' + top1Dates.map(function(h) { return h.date; }).join('、');
+                        html += '</div>';
+                    }
+                    
+                    html += '<div style="margin-bottom:12px;font-size:12px;color:var(--text-secondary)">共上榜 ' + data.count + ' 次（只显示前100名记录）</div>';
+                    
+                    // 竖向柱状图 - 排名走势（排名越小柱越高）
+                    var maxRank = 1;
+                    data.history.forEach(function(h) { if (h.rank > maxRank) maxRank = h.rank; });
+                    var chartH = 160;
+                    html += '<div style="display:flex;align-items:flex-end;gap:2px;height:' + (chartH + 30) + 'px;padding:10px;background:var(--bg-primary);border-radius:6px;overflow-x:auto">';
+                    data.history.forEach(function(h) {
+                        var pct = 1 - ((h.rank - 1) / Math.max(1, maxRank - 1));
+                        var barH = Math.max(8, pct * chartH);
+                        var color = h.rank <= 3 ? '#ff4757' : (h.rank <= 10 ? '#ffa502' : (h.rank <= 30 ? '#00d4ff' : (h.rank <= 50 ? '#3d3d5c' : '#2a2a3e')));
+                        html += '<div style="display:flex;flex-direction:column;align-items:center;min-width:28px">';
+                        html += '<span style="font-size:9px;font-weight:bold;color:' + color + '">#' + h.rank + '</span>';
+                        html += '<div style="width:20px;height:' + barH + 'px;background:' + color + ';border-radius:2px 2px 0 0;opacity:0.85"></div>';
+                        html += '<span style="font-size:7px;color:var(--text-secondary);writing-mode:vertical-lr;height:40px">' + h.date.substring(5) + '</span>';
+                        html += '</div>';
+                    });
+                    html += '</div>';
+                    
+                    // 排名变化（MACD风格）
+                    if (data.history.length >= 2) {
+                        html += '<div style="margin-top:12px;font-size:12px;color:var(--accent-primary);font-weight:bold">排名变化（MACD）</div>';
+                        html += '<div style="margin-top:6px;font-size:10px;color:var(--text-secondary)"><span style="color:#2ed573">■</span> 排名上升 <span style="color:#ff4757;margin-left:8px">■</span> 排名下降</div>';
+                        var maxChange = 1;
+                        for (var i = 1; i < data.history.length; i++) {
+                            var diff = Math.abs(data.history[i].rank - data.history[i-1].rank);
+                            if (diff > maxChange) maxChange = diff;
+                        }
+                        var halfH = 60;
+                        html += '<div style="display:flex;align-items:center;gap:2px;height:' + (halfH*2+20) + 'px;padding:10px;background:var(--bg-primary);border-radius:6px;overflow-x:auto;margin-top:6px;position:relative">';
+                        html += '<div style="position:absolute;left:8px;right:8px;top:50%;height:1px;background:rgba(255,255,255,0.15)"></div>';
+                        data.history.forEach(function(h, i) {
+                            if (i === 0) {
+                                html += '<div style="display:flex;flex-direction:column;align-items:center;min-width:28px">';
+                                html += '<div style="width:16px;height:2px;background:#888;border-radius:1px"></div>';
+                                html += '<span style="font-size:7px;color:var(--text-secondary);margin-top:3px">' + h.date.substring(8) + '</span>';
+                                html += '</div>';
+                                return;
+                            }
+                            var prevRank = data.history[i-1].rank;
+                            var diff = prevRank - h.rank;
+                            var pct = Math.min(1, Math.abs(diff) / maxChange);
+                            var barH = Math.max(3, pct * halfH * 0.8);
+                            var color = diff > 0 ? '#2ed573' : (diff < 0 ? '#ff4757' : '#555');
+                            html += '<div style="display:flex;flex-direction:column;align-items:center;min-width:28px">';
+                            if (diff > 0) {
+                                html += '<div style="width:16px;height:' + barH + 'px;background:' + color + ';border-radius:2px;margin-bottom:auto" title="' + h.date + ' ↑' + diff + '"></div>';
+                            } else if (diff < 0) {
+                                html += '<div style="width:16px;height:' + barH + 'px;background:' + color + ';border-radius:2px;margin-top:auto" title="' + h.date + ' ↓' + Math.abs(diff) + '"></div>';
+                            } else {
+                                html += '<div style="width:16px;height:2px;background:#555"></div>';
+                            }
+                            html += '<span style="font-size:7px;color:var(--text-secondary);margin-top:3px">' + h.date.substring(8) + '</span>';
+                            html += '</div>';
+                        });
+                        html += '</div>';
+                    }
+                    
+                    html += '<div style="margin-top:15px;text-align:center"><button onclick="this.parentElement.parentElement.parentElement.remove()" style="padding:8px 20px;background:var(--accent-primary);color:#fff;border:none;border-radius:4px;cursor:pointer">关闭</button></div>';
+                    html += '</div></div>';
+                    document.body.insertAdjacentHTML('beforeend', html);
+                });
+        }
+
+        function toggleExpand(code) {
+            if (expandedCode && expandedCode !== code) {
+                var oldPanel = document.getElementById('expand-' + expandedCode);
+                if (oldPanel) oldPanel.classList.remove('show');
+            }
+            var panel = document.getElementById('expand-' + code);
+            if (!panel) return;
+            if (expandedCode === code) { panel.classList.remove('show'); expandedCode = null; return; }
+            expandedCode = code;
+            panel.classList.add('show');
+            panel.innerHTML = '<div class="expand-loading" style="padding:8px;color:var(--text-secondary);font-size:12px">加载中...</div>';
+            fetch('/api/stock_history/' + code)
+                .then(function(r) { return r.json(); })
+                .then(function(d) { renderExpandPanel(d, panel); })
+                .catch(function() { panel.innerHTML = '<div class="expand-loading" style="padding:8px;color:var(--text-secondary);font-size:12px">暂无历史数据</div>'; });
+            setTimeout(function() { panel.scrollIntoView({behavior:'smooth',block:'nearest'}); }, 100);
+        }
+
+        function renderExpandPanel(data, panel) {
+            if (!data.history || data.history.length === 0) { panel.innerHTML = '<div class="expand-loading">暂无历史数据</div>'; return; }
+            var trendText = data.trend === 'up' ? '📈 上升' : (data.trend === 'down' ? '📉 下降' : '➡️ 稳定');
+            var trendColor = data.trend === 'up' ? '#ff4757' : (data.trend === 'down' ? '#2ed573' : '#ffa502');
+            
+            var html = '<div style="display:flex;flex-wrap:wrap;gap:12px 24px;margin-bottom:12px;font-size:13px">';
+            html += '<b style="font-size:15px">' + (data.name || '') + '</b><span style="color:var(--text-secondary)">' + data.code + '</span>';
+            html += '<span>📅 <b>' + data.continuous_days + '</b>天</span>';
+            html += '<span>🔢 <b>' + data.monthly_count + '</b>次</span>';
+            html += '<span>📊 <b>' + data.avg_rank + '</b></span>';
+            html += '<span>🏆 <b style="color:#ffa502">#' + data.best_rank + '</b></span>';
+            html += '<span style="color:' + trendColor + '">' + trendText + '</span>';
+            html += '</div>';
+            
+            html += '<div style="overflow-x:auto;padding-bottom:8px;-webkit-overflow-scrolling:touch">';
+            html += '<div style="display:flex;gap:4px;min-width:max-content;align-items:flex-end">';
+            data.history.forEach(function(item) {
+                var bg, height;
+                if (item.rank <= 3) { bg = '#ff4757'; height = 36; }
+                else if (item.rank <= 10) { bg = '#ffa502'; height = 30; }
+                else if (item.rank <= 50) { bg = '#00d4ff'; height = 24; }
+                else { bg = '#3d3d5c'; height = 18; }
+                var opacity = Math.max(0.4, 1 - (item.rank / 600));
+                html += '<div style="display:flex;flex-direction:column;align-items:center;min-width:38px;cursor:default" title="' + item.date + ' : 排名#' + item.rank + '">';
+                html += '<span style="font-size:10px;font-weight:bold;color:var(--text-secondary);margin-bottom:2px">#' + item.rank + '</span>';
+                html += '<div style="width:28px;height:' + height + 'px;background:' + bg + ';opacity:' + opacity.toFixed(2) + ';border-radius:3px 3px 0 0"></div>';
+                html += '<span style="font-size:9px;color:var(--text-secondary);margin-top:3px">' + item.date.substring(5) + '</span>';
+                html += '</div>';
+            });
+            html += '</div></div>';
+            html += '<div style="font-size:11px;color:var(--text-secondary);margin-top:6px;text-align:center">' + data.history[0].date + ' ~ ' + data.history[data.history.length-1].date + '（共' + data.history.length + '天）</div>';
+            panel.innerHTML = html;
+        }
+
+        function renderRecommendTable(data, sentiment) {
+            var hh = '';
+            if (sentiment) {
+                var sc = sentiment.sentiment >= 70 ? '#ff4757' : (sentiment.sentiment >= 50 ? '#ffa502' : '#2ed573');
+                hh = '<div style="display:flex;justify-content:space-between;align-items:center;margin-bottom:15px;padding:10px 15px;background:var(--bg-card);border-radius:6px">';
+                hh += '<div><span style="color:var(--text-secondary)">情绪指数:</span> <b style="color:' + sc + ';font-size:18px">' + sentiment.sentiment + '</b></div>';
+                hh += '<div style="font-size:13px;color:var(--text-secondary)">上涨:' + sentiment.up + ' | 下跌:' + sentiment.down + ' | 涨停:' + sentiment.limit_up + '</div>';
+                hh += '</div>';
+            }
+            var html = hh + '<div class="grid-table rec-grid">';
+            ['排名', '股票', '评分', '最新价', '涨跌幅', '上榜天数', '风险', '止损/止盈', '推荐理由'].forEach(function(l) { html += '<div class="grid-header">' + l + '</div>'; });
+            data.forEach(function(item, i) {
+                var sc = getScoreClass(item.score);
+                var rc = item.risk_level === '追高风险' ? '#ff4757' : (item.risk_level === '高风险' ? '#ffa502' : (item.risk_level === '中风险' ? '#00d4ff' : '#2ed573'));
+                var cp = item.change_pct ? (item.change_pct > 0 ? '+' + item.change_pct.toFixed(2) + '%' : item.change_pct.toFixed(2) + '%') : '-';
+                var cc = item.change_pct > 0 ? 'change-up' : (item.change_pct < 0 ? 'change-down' : 'change-neutral');
+                html += '<div class="grid-cell rank">' + (i+1) + '</div>';
+                html += '<div class="grid-cell"><b>' + item.name + '</b><br><small style="color:#666">' + item.code + '</small></div>';
+                html += '<div class="grid-cell"><span class="score-value ' + sc + '">' + item.score + '</span></div>';
+                html += '<div class="grid-cell price">' + (item.price ? '\u00a5' + item.price.toFixed(2) : '-') + '</div>';
+                html += '<div class="grid-cell ' + cc + '">' + cp + '</div>';
+                html += '<div class="grid-cell">' + (item.continuous_days > 0 ? '<b>' + item.continuous_days + '</b>天' : '-') + '</div>';
+                html += '<div class="grid-cell" style="color:' + rc + '">' + item.risk_level + '</div>';
+                html += '<div class="grid-cell" style="font-size:12px;color:var(--text-secondary)">' + (item.stop_loss ? '止损\u00a5' + item.stop_loss : '-') + (item.take_profit1 ? '<br>止盈\u00a5' + item.take_profit1 + '/\u00a5' + item.take_profit2 : '') + '</div>';
+                html += '<div class="grid-cell" style="font-size:12px">' + item.reasons + '</div>';
+            });
+            html += '</div>';
+            return html;
+        }
+
+        function renderTabContent(tab, data) {
+            var content = document.getElementById('content');
+            if (tab === 'rank') {
+                currentData = data;
+                filteredData = data;
+                renderFilteredTable(data);
+            } else if (tab === 'sector') {
+                // 板块&行业合并显示
+                var sectorData = data.sector || [];
+                var industryData = data.industry_hot || [];
+                var html = '<div style="margin-bottom:16px"><h3 style="color:var(--accent-primary);margin-bottom:8px">📊 板块热度</h3>';
+                html += '<div class="grid-table sector-grid">';
+                ['排名', '板块', '上榜数量', '平均涨跌', '代表股票'].forEach(function(l) { html += '<div class="grid-header">' + l + '</div>'; });
+                sectorData.forEach(function(item, i) {
+                    var stocks = item.stocks.map(function(s) { return s.name; }).join('\u3001');
+                    var ac = item.avg_change > 0 ? '+' + item.avg_change + '%' : item.avg_change + '%';
+                    var cc = item.avg_change > 0 ? 'change-up' : (item.avg_change < 0 ? 'change-down' : 'change-neutral');
+                    html += '<div class="grid-cell rank">' + (i+1) + '</div>';
+                    html += '<div class="grid-cell"><b>' + item.sector + '</b></div>';
+                    html += '<div class="grid-cell"><span class="sector-count">' + item.count + '</span></div>';
+                    html += '<div class="grid-cell ' + cc + '">' + ac + '</div>';
+                    html += '<div class="grid-cell"><small>' + stocks + '</small></div>';
+                });
+                html += '</div></div>';
+                // 行业热榜
+                html += '<div><h3 style="color:var(--accent-primary);margin-bottom:8px">🏭 行业热榜</h3>';
+                html += '<div class="grid-table hot-grid">';
+                ['排名', '行业', '涨跌幅', '热度', '涨停家数', '上榜天数'].forEach(function(l) { html += '<div class="grid-header">' + l + '</div>'; });
+                industryData.forEach(function(item) {
+                    var rc = item.rank <= 3 ? 'rank top3' : (item.rank <= 10 ? 'rank top10' : (item.rank <= 20 ? 'rank top20' : (item.rank <= 50 ? 'rank top50' : 'rank top100')));
+                    var cc = item.change_pct > 0 ? 'change-up' : (item.change_pct < 0 ? 'change-down' : 'change-neutral');
+                    var ct = item.change_pct > 0 ? '+' + item.change_pct + '%' : item.change_pct + '%';
+                    var hn = parseFloat(item.heat);
+                    var ht = hn >= 10000 ? (hn / 10000).toFixed(1) + '\u4e07' : Math.round(hn);
+                    html += '<div class="grid-cell ' + rc + '">' + item.rank + '</div>';
+                    html += '<div class="grid-cell"><b>' + item.name + '</b></div>';
+                    html += '<div class="grid-cell ' + cc + '">' + ct + '</div>';
+                    html += '<div class="grid-cell" style="color:var(--accent-primary)">' + ht + '</div>';
+                    html += '<div class="grid-cell" style="color:#ff4757">' + (item.limit_up_tag || '-') + '</div>';
+                    html += '<div class="grid-cell" style="color:var(--text-secondary);font-size:12px">' + (item.hot_tag || '-') + '</div>';
+                });
+                html += '</div></div>';
+                content.innerHTML = html;
+            } else if (tab === 'concept') {
+                // 概念分析+概念热榜合并显示
+                var conceptData = data.concept || [];
+                var conceptHotData = data.concept_hot || [];
+                var html = '<div style="margin-bottom:16px"><h3 style="color:var(--accent-primary);margin-bottom:8px">🧰 概念分析</h3>';
+                html += '<div class="grid-table concept-grid">';
+                ['排名', '概念', '上榜数量', '代表股票'].forEach(function(l) { html += '<div class="grid-header">' + l + '</div>'; });
+                conceptData.forEach(function(item, i) {
+                    var stocks = item.stocks.map(function(s) { return s.name; }).join('\u3001');
+                    html += '<div class="grid-cell rank">' + (i+1) + '</div>';
+                    html += '<div class="grid-cell"><b>' + item.concept + '</b></div>';
+                    html += '<div class="grid-cell"><span class="sector-count">' + item.count + '</span></div>';
+                    html += '<div class="grid-cell"><small>' + stocks + '</small></div>';
+                });
+                html += '</div></div>';
+                // 概念热榜
+                html += '<div><h3 style="color:var(--accent-primary);margin-bottom:8px">🔥 概念热榜</h3>';
+                html += '<div class="grid-table hot-grid">';
+                ['排名', '概念', '涨跌幅', '热度', '涨停家数', '上榜天数'].forEach(function(l) { html += '<div class="grid-header">' + l + '</div>'; });
+                conceptHotData.forEach(function(item) {
+                    var rc = item.rank <= 3 ? 'rank top3' : (item.rank <= 10 ? 'rank top10' : (item.rank <= 20 ? 'rank top20' : (item.rank <= 50 ? 'rank top50' : 'rank top100')));
+                    var cc = item.change_pct > 0 ? 'change-up' : (item.change_pct < 0 ? 'change-down' : 'change-neutral');
+                    var ct = item.change_pct > 0 ? '+' + item.change_pct + '%' : item.change_pct + '%';
+                    var hn = parseFloat(item.heat);
+                    var ht = hn >= 10000 ? (hn / 10000).toFixed(1) + '\u4e07' : Math.round(hn);
+                    html += '<div class="grid-cell ' + rc + '">' + item.rank + '</div>';
+                    html += '<div class="grid-cell"><b>' + item.name + '</b></div>';
+                    html += '<div class="grid-cell ' + cc + '">' + ct + '</div>';
+                    html += '<div class="grid-cell" style="color:var(--accent-primary)">' + ht + '</div>';
+                    html += '<div class="grid-cell" style="color:#ff4757">' + (item.limit_up_tag || '-') + '</div>';
+                    html += '<div class="grid-cell" style="color:var(--text-secondary);font-size:12px">' + (item.hot_tag || '-') + '</div>';
+                });
+                html += '</div></div>';
+                content.innerHTML = html;
+            } else if (tab === 'recommend') {
+                if (data.length === 0) { content.innerHTML = '<div class="loading">暂无推荐数据</div>'; return; }
+                content.innerHTML = renderRecommendTable(data[0], data[1]);
+            } else if (tab === 'review') {
+                renderReviewTab(data);
+            }
+        }
+
+        function renderReviewTab(data) {
+            var reviews = data || [];
+            if (!Array.isArray(reviews)) reviews = [];
+
+            fetch('/api/weights').then(function(r) { return r.json(); })
+                .then(function(w) { refreshReviewContent(reviews, w); })
+                .catch(function() { refreshReviewContent(reviews, null); });
+        }
+
+        function refreshReviewContent(reviews, weights) {
+            var weightLabels = {
+                concept_heat: '概念热度', persistence: '上榜连续性', frequency: '上榜频率',
+                sector_support: '板块支撑', concept_group: '概念梯队',
+                speed: '排名速度', price: '低价优势', board: '连板溢价',
+                tech: '技术信号', liquidity: '流动性', ta: '技术分析',
+                rank_score: '当前排名', change_score: '涨跌幅度', continuous_score: '连续上榜',
+                monthly_score: '月度频率', trend_score: '排名趋势', best_rank_score: '历史最佳',
+                avg_rank_score: '平均排名', momentum_score: '动量飙升'
+            };
+
+            var html = '';
+            html += '<div style="margin-bottom:15px;padding:12px 16px;background:var(--bg-card);border-radius:8px">';
+            html += '<b style="color:var(--accent-primary);font-size:15px">🤖 选股算法</b>';
+            if (weights && weights.version) {
+                html += '<span style="float:right;color:var(--text-secondary);font-size:11px">版本 v' + weights.version + '</span>';
+            }
+            html += '<div style="margin-top:10px;display:flex;flex-wrap:wrap;gap:6px 12px;font-size:12px">';
+            if (weights) {
+                for (var key in weightLabels) {
+                    if (weights[key] !== undefined) {
+                        var val = weights[key];
+                        var cls = val >= 15 ? 'color:#2ed573;font-weight:bold' : (val >= 8 ? 'color:#ffa502' : 'color:var(--text-secondary)');
+                        html += '<span><span style="' + cls + '">●</span> ' + weightLabels[key] +
+                                ' <b style="' + cls + '">' + val + '分</b></span>';
+                    }
+                }
+            }
+            html += '</div>';
+            html += '<div style="margin-top:12px;padding:10px;background:rgba(0,212,255,0.05);border-radius:6px;font-size:12px;color:var(--text-secondary);line-height:1.8">';
+            html += '📌 <b>运作机制</b>：每次数据更新时，从TOP50中按以上12个维度综合评分，取前8名推荐。<br>';
+            html += '📌 <b>每日复盘</b>：对比上次推荐股票的真实涨跌，计算命中率。<br>';
+            html += '📌 <b>自我优化</b>：最近3次胜率≥60%则增加"趋势"和"动量"权重；胜率<40%则降低"涨跌"和"动量"权重。</div>';
+            html += '</div>';
+
+            html += '<div style="margin-bottom:15px"><b style="color:var(--accent-primary)">📈 胜率走势（近30天）</b></div>';
+            if (reviews.length === 0) {
+                html += '<div style="text-align:center;padding:40px;color:var(--text-secondary)">暂无复盘数据<br><small>下次数据更新后将自动生成</small></div>';
+            } else {
+                html += '<div style="overflow-x:auto;padding-bottom:8px;-webkit-overflow-scrolling:touch">';
+                html += '<div style="display:flex;gap:4px;min-width:max-content;align-items:flex-end;height:120px">';
+                var recent = reviews.slice(-30);
+                var avgWinRate = 0;
+                recent.forEach(function(r) {
+                    var h = Math.max(6, r.win_rate * 1.2);
+                    var bg = r.win_rate >= 60 ? '#2ed573' : (r.win_rate >= 40 ? '#ffa502' : '#ff4757');
+                    html += '<div style="display:flex;flex-direction:column;align-items:center;min-width:36px;cursor:default" title="' + r.review_date + '：' + r.win_count + '涨/' + (r.total-r.win_count) + '跌">';
+                    html += '<span style="font-size:9px;font-weight:bold;color:' + bg + '">' + r.win_rate.toFixed(0) + '%</span>';
+                    html += '<div style="width:22px;height:' + h + 'px;background:' + bg + ';border-radius:3px 3px 0 0;margin-top:2px"></div>';
+                    html += '<span style="font-size:8px;color:var(--text-secondary);margin-top:3px;transform:rotate(-45deg)">' + r.review_date.substring(5) + '</span>';
+                    html += '</div>';
+                    avgWinRate += r.win_rate;
+                });
+                if (recent.length > 0) avgWinRate = (avgWinRate / recent.length).toFixed(1);
+                html += '</div></div>';
+                html += '<div style="font-size:12px;color:var(--text-secondary);margin-top:4px;text-align:center">';
+                html += '📊 平均胜率 <b style="color:' + (avgWinRate >= 50 ? '#2ed573' : '#ff4757') + '">' + avgWinRate + '%</b>（' + recent.length + '天）</div>';
+
+                var showReviews = recent.slice(-1);
+                html += '<div style="margin-top:20px"><b style="color:var(--accent-primary)">📋 当日复盘详情</b></div>';
+                showReviews.forEach(function(rv) {
+                    var totalWin = 0, totalStocks = 0;
+                    (rv.results || []).forEach(function(s) { totalStocks++; if (s.price_change > 0) totalWin++; });
+                    var sc = rv.win_rate >= 50 ? '#2ed573' : '#ff4757';
+                    html += '<div style="margin-top:10px;padding:10px 14px;background:var(--bg-card);border-radius:6px">';
+                    html += '<div style="display:flex;justify-content:space-between;align-items:center;margin-bottom:8px">';
+                    html += '<b>' + rv.target_date + ' → ' + rv.review_date + '</b>';
+                    html += '<span style="color:' + sc + ';font-weight:bold">胜率 ' + rv.win_rate.toFixed(0) + '%（' + totalWin + '涨/' + (totalStocks-totalWin) + '跌）</span></div>';
+                    if (rv.results && rv.results.length > 0) {
+                        html += '<table style="width:100%;border-collapse:collapse;font-size:12px">';
+                        html += '<tr style="color:var(--text-secondary);border-bottom:1px solid var(--border-color)"><td style="padding:4px 6px">股票</td><td style="padding:4px 6px">前日</td><td style="padding:4px 6px">今日</td><td style="padding:4px 6px">涨跌</td></tr>';
+                        rv.results.forEach(function(s) {
+                            var cl = s.price_change > 0 ? 'color:#2ed573' : 'color:#ff4757';
+                            html += '<tr style="border-bottom:1px solid var(--border-color)">';
+                            html += '<td style="padding:4px 6px"><b>' + s.name + '</b><br><small style="color:#666">' + s.code + '</small></td>';
+                            html += '<td style="padding:4px 6px">#' + (s.prev_rank||'-') + ' ¥' + (s.prev_price||0).toFixed(2) + '</td>';
+                            html += '<td style="padding:4px 6px">#' + (s.today_rank||'-') + ' ¥' + (s.today_price||0).toFixed(2) + '</td>';
+                            html += '<td style="padding:4px 6px;' + cl + ';font-weight:bold">' + (s.price_change>=0?'+':'') + s.price_change.toFixed(1) + '%</td></tr>';
+                        });
+                        html += '</table>';
+                    }
+                    html += '</div>';
+                });
+            }
+            document.getElementById('content').innerHTML = html;
+        }
+
+        function loadData() {
+            var content = document.getElementById('content');
+            var cacheKey = currentTab + '|' + getSelectedDate();
+            if (tabDataCache[cacheKey]) { renderTabContent(currentTab, tabDataCache[cacheKey]); return; }
+            if (tabLoading[cacheKey]) return;
+            tabLoading[cacheKey] = true;
+            content.innerHTML = '<div class="loading">加载中...</div>';
+
+            var d = getSelectedDate();
+
+            if (currentTab === 'sector') {
+                // 板块&行业合并：同时加载板块和行业热榜数据
+                Promise.all([
+                    fetch('/api/sector/' + d).then(function(r) { return r.json(); }),
+                    fetch('/api/industry_hot').then(function(r) { return r.json(); })
+                ]).then(function(results) {
+                    tabDataCache[cacheKey] = {sector: results[0], industry_hot: results[1]};
+                    tabLoading[cacheKey] = false;
+                    renderTabContent('sector', tabDataCache[cacheKey]);
+                }).catch(function() { tabLoading[cacheKey] = false; content.innerHTML = '<div class="loading">加载失败</div>'; });
+                return;
+            }
+
+            if (currentTab === 'concept') {
+                // 概念分析合并：同时加载概念分析和概念热榜数据
+                Promise.all([
+                    fetch('/api/concept/' + d).then(function(r) { return r.json(); }),
+                    fetch('/api/concept_hot').then(function(r) { return r.json(); })
+                ]).then(function(results) {
+                    tabDataCache[cacheKey] = {concept: results[0], concept_hot: results[1]};
+                    tabLoading[cacheKey] = false;
+                    renderTabContent('concept', tabDataCache[cacheKey]);
+                }).catch(function() { tabLoading[cacheKey] = false; content.innerHTML = '<div class="loading">加载失败</div>'; });
+                return;
+            }
+
+            if (currentTab === 'recommend') {
+                Promise.all([
+                    fetch('/api/recommendations').then(function(r) { return r.json(); }),
+                    fetch('/api/sentiment').then(function(r) { return r.json(); })
+                ]).then(function(results) {
+                    tabDataCache[cacheKey] = results; tabLoading[cacheKey] = false;
+                    renderTabContent('recommend', results);
+                }).catch(function() { tabLoading[cacheKey] = false; content.innerHTML = '<div class="loading">加载失败</div>'; });
+                return;
+            }
+
+            if (currentTab === 'review') {
+                fetch('/api/review').then(function(r) { return r.json(); }).then(function(data) {
+                    tabDataCache[cacheKey] = data; tabLoading[cacheKey] = false;
+                    renderTabContent('review', data);
+                }).catch(function() { tabLoading[cacheKey] = false; content.innerHTML = '<div class="loading">加载失败</div>'; });
+                return;
+            }
+
+            if (currentTab === 'rank') {
+                fetch('/api/filtered_hot/' + d).then(function(r) { return r.json(); }).then(function(data) {
+                    tabDataCache[cacheKey] = data; tabLoading[cacheKey] = false;
+                    if (data.length > 0) document.getElementById('stockCount').textContent = '股票: ' + data.length;
+                    renderTabContent('rank', data);
+                }).catch(function() { tabLoading[cacheKey] = false; content.innerHTML = '<div class="loading">加载失败</div>'; });
+            }
+        }
+
+        function loadStats() {
+            fetch('/api/stats').then(function(r) { return r.json(); }).then(function(d) {
+                if (d.unique_stocks) document.getElementById('stockCount').textContent = '股票: ' + d.unique_stocks;
+                if (d.total_records) document.getElementById('recordCount').textContent = '记录: ' + d.total_records;
+                if (d.dates) document.getElementById('dayCount').textContent = '天数: ' + d.dates;
+            }).catch(function() {});
+        }
+
+        function triggerUpdate() {
+            var btn = document.getElementById('updateBtn');
+            btn.disabled = true; btn.textContent = '更新中...';
+            document.getElementById('updateStatus').textContent = '🔄 更新中';
+            fetch('/api/update_now', { method: 'POST' })
+                .then(function(r) { return r.json(); })
+                .then(function(d) {
+                    if (d.status === 'ok') {
+                        document.getElementById('updateStatus').textContent = '✅ ' + (d.updated || '');
+                    } else {
+                        document.getElementById('updateStatus').textContent = '❌ ' + (d.message || '失败');
+                    }
+                }).catch(function() {
+                    document.getElementById('updateStatus').textContent = '❌ 更新失败';
+                }).finally(function() {
+                    btn.disabled = false; btn.textContent = '↻ 立即更新';
+                    tabDataCache = {}; tabLoading = {}; loadData();
+                });
+        }
+
+        loadStats();
+        try { loadData(); } catch(e) { document.getElementById('content').innerHTML = '<div style="color:red;padding:20px">Error: ' + e.message + '</div>'; }
+    </script>
+</body>
+</html>

@@ -1,0 +1,28 @@
+# Database files (too large for GitHub)
+*.db
+
+# Data export files
+*.csv
+
+# Generated reports
+reports/
+
+# Python cache
+__pycache__/
+*.pyc
+
+# IDE / Editor
+.trae-cn/
+.vscode/
+.idea/
+
+# Virtual environment
+venv/
+.env
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Cookie (sensitive)
+cookie.txt

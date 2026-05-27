@@ -1,0 +1,17 @@
+{
+  "code": "002281",
+  "name": "光迅科技",
+  "history": [
+    {
+      "date": "2026-05-27",
+      "rank": 23,
+      "price": 207.23,
+      "change_pct": 0.2467
+    }
+  ],
+  "continuous_days": 1,
+  "monthly_count": 1,
+  "avg_rank": 23.0,
+  "best_rank": 23,
+  "trend": "stable"
+}

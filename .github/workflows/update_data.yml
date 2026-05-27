@@ -1,0 +1,87 @@
+name: 更新热度排名数据
+
+on:
+  schedule:
+    # 开盘前 9:00（北京时间=UTC+8，即UTC 1:00）
+    - cron: '0 1 * * 1-5'
+    # 盘中每小时 10:00-14:00（北京时间，即UTC 2:00-6:00）
+    - cron: '0 2-6 * * 1-5'
+    # 收盘后 17:00（北京时间，即UTC 9:00）
+    - cron: '0 9 * * 1-5'
+  push:
+    branches:
+      - main
+    paths:
+      - 'export_data.py'
+  workflow_dispatch:
+    # 允许手动触发
+
+# 设置 GITHUB_TOKEN 权限
+permissions:
+  contents: write
+  pages: write
+  id-token: write
+
+# 允许一个并发部署
+concurrency:
+  group: "pages"
+  cancel-in-progress: false
+
+jobs:
+  update-data:
+    runs-on: ubuntu-latest
+    steps:
+      - name: 检出代码
+        uses: actions/checkout@v4
+        with:
+          # 使用 GITHUB_TOKEN 进行身份验证，确保后续可以推送
+          token: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: 设置 Python 3.11
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+          cache: 'pip'
+
+      - name: 安装依赖
+        run: |
+          python -m pip install --upgrade pip
+          pip install requests levistock
+
+      - name: 运行数据导出脚本
+        env:
+          THS_COOKIE: ${{ secrets.THS_COOKIE }}
+        run: |
+          python export_data.py
+
+      - name: 检查数据文件是否有变化
+        id: check_changes
+        run: |
+          git add -A docs/data/
+          if git diff --cached --quiet; then
+            echo "没有数据变更，跳过提交"
+            echo "has_changes=false" >> $GITHUB_OUTPUT
+          else
+            echo "检测到数据变更"
+            echo "has_changes=true" >> $GITHUB_OUTPUT
+          fi
+
+      - name: 提交并推送数据更新
+        if: steps.check_changes.outputs.has_changes == 'true'
+        run: |
+          git config --local user.email "github-actions[bot]@users.noreply.github.com"
+          git config --local user.name "github-actions[bot]"
+          git commit -m "chore(data): 自动更新热度排名数据 $(date +'%Y-%m-%d %H:%M')"
+          git push
+
+      - name: 设置 Pages
+        uses: actions/configure-pages@v4
+
+      - name: 上传 Pages 产物
+        uses: actions/upload-pages-artifact@v3
+        with:
+          path: './docs'
+
+      - name: 部署到 GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v4

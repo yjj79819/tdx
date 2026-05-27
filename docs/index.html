@@ -1,0 +1,606 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>同花顺热度排名</title>
+    <style>
+        :root {
+            --bg-primary: #0f0f23;
+            --bg-card: #1a1a2e;
+            --bg-hover: #252542;
+            --bg-expand: #1e1e38;
+            --text-primary: #ffffff;
+            --text-secondary: #a0a0a0;
+            --accent-primary: #00d4ff;
+            --accent-danger: #ff4757;
+            --accent-success: #2ed573;
+            --accent-warning: #ffa502;
+            --border-color: #2d2d44;
+            --topbar-height: 44px;
+        }
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+            background: var(--bg-primary);
+            color: var(--text-primary);
+            height: 100vh;
+            overflow: hidden;
+        }
+        .app-layout { display: flex; flex-direction: column; height: 100vh; width: 100vw; }
+        .topbar {
+            height: auto;
+            min-height: var(--topbar-height);
+            background: var(--bg-card);
+            border-bottom: 1px solid var(--border-color);
+            display: flex;
+            flex-direction: column;
+            flex-shrink: 0;
+        }
+        .topbar-nav {
+            display: flex;
+            align-items: center;
+            padding: 0 12px;
+            gap: 4px;
+            overflow-x: auto;
+            -webkit-overflow-scrolling: touch;
+            scrollbar-width: none;
+        }
+        .topbar-nav::-webkit-scrollbar { display: none; }
+        .nav-tab {
+            display: flex;
+            align-items: center;
+            gap: 4px;
+            padding: 8px 12px;
+            border: none;
+            background: transparent;
+            color: var(--text-secondary);
+            font-size: 13px;
+            cursor: pointer;
+            border-bottom: 2px solid transparent;
+            white-space: nowrap;
+            transition: all 0.15s;
+            flex-shrink: 0;
+        }
+        .nav-tab:hover { background: var(--bg-hover); color: var(--text-primary); }
+        .nav-tab.active { color: var(--accent-primary); border-bottom-color: var(--accent-primary); font-weight: 600; }
+        .topbar-info {
+            display: flex;
+            align-items: center;
+            padding: 6px 12px;
+            gap: 12px;
+            border-top: 1px solid var(--border-color);
+            font-size: 12px;
+            color: var(--text-secondary);
+            overflow-x: auto;
+            -webkit-overflow-scrolling: touch;
+            scrollbar-width: none;
+        }
+        .topbar-info::-webkit-scrollbar { display: none; }
+        .topbar-info .stats { display: flex; gap: 12px; flex-shrink: 0; }
+        .topbar-info select {
+            padding: 3px 8px;
+            font-size: 12px;
+            border: 1px solid var(--border-color);
+            border-radius: 4px;
+            background: var(--bg-primary);
+            color: var(--text-primary);
+        }
+        .main-area {
+            flex: 1;
+            overflow: auto;
+            padding: 12px 14px 30px;
+            width: 100%;
+            box-sizing: border-box;
+        }
+        .grid-table { display: grid; width: 100%; min-width: 0; }
+        .grid-table.rank-grid { grid-template-columns: 60px 90px 80px 80px 80px minmax(80px,1fr) 3fr; }
+        .grid-table.rec-grid { grid-template-columns: 0.5fr 2fr 0.6fr 0.8fr 1.5fr 0.6fr 0.6fr 1.2fr 2.5fr; }
+        .grid-table.sector-grid { grid-template-columns: 0.5fr 2fr 1fr 1fr 3fr; }
+        .grid-table.concept-grid { grid-template-columns: 0.5fr 2fr 1fr 3fr; }
+        .grid-table.hot-grid { grid-template-columns: 0.5fr 2fr 1fr 1.5fr 1.5fr 2fr; }
+        .grid-header, .grid-cell {
+            padding: 8px 10px;
+            border-bottom: 1px solid var(--border-color);
+            font-size: 14px;
+            overflow: hidden;
+            text-overflow: ellipsis;
+            white-space: nowrap;
+            display: flex;
+            align-items: center;
+        }
+        .grid-header {
+            background: var(--bg-primary);
+            font-weight: 600;
+            color: var(--accent-primary);
+            position: sticky;
+            top: 0;
+            z-index: 2;
+            overflow: visible;
+            white-space: nowrap;
+            cursor: pointer;
+        }
+        .grid-header:hover { background: var(--bg-hover); }
+        .grid-row:hover { background: var(--bg-hover); cursor: pointer; }
+        .rank {
+            font-weight: bold;
+            font-size: 18px;
+            text-align: center;
+            padding: 10px 8px;
+            border-radius: 6px;
+        }
+        .rank.top3 { color: #fff; background: linear-gradient(135deg, #ff2d55, #ff6b6b); box-shadow: 0 2px 8px rgba(255,45,85,0.4); }
+        .rank.top10 { color: #fff; background: linear-gradient(135deg, #ff9500, #ffcc00); box-shadow: 0 2px 8px rgba(255,149,0,0.3); }
+        .rank.top20 { color: #fff; background: linear-gradient(135deg, #5ac8fa, #34aadc); box-shadow: 0 2px 6px rgba(90,200,250,0.3); }
+        .rank.top50 { color: #fff; background: linear-gradient(135deg, #30d158, #28cd41); box-shadow: 0 2px 6px rgba(48,209,88,0.3); }
+        .rank.top100 { color: var(--text-primary); background: linear-gradient(135deg, #8e8e93, #636366); }
+        .rank:not(.top3):not(.top10):not(.top20):not(.top50):not(.top100) { color: var(--text-primary); background: rgba(255,255,255,0.08); }
+        .price { font-family: monospace; font-size: 16px; font-weight: bold; }
+        .change-up { color: var(--accent-danger); font-size: 15px; font-weight: bold; }
+        .change-down { color: var(--accent-success); font-size: 15px; font-weight: bold; }
+        .change-neutral { color: var(--text-secondary); }
+        .sector-tag {
+            display: inline-block;
+            padding: 2px 8px;
+            background: rgba(0, 212, 255, 0.15);
+            border-radius: 4px;
+            font-size: 12px;
+            color: var(--accent-primary);
+            margin-right: 5px;
+        }
+        .concept-tag {
+            display: inline-block;
+            padding: 1px 6px;
+            background: rgba(255, 107, 107, 0.15);
+            border-radius: 4px;
+            font-size: 11px;
+            color: var(--accent-danger);
+            margin: 1px 2px;
+            max-width: 80px;
+            overflow: hidden;
+            text-overflow: ellipsis;
+            white-space: nowrap;
+            vertical-align: middle;
+        }
+        .loading { text-align: center; padding: 60px 20px; color: var(--text-secondary); font-size: 14px; }
+        .sector-count {
+            display: inline-block;
+            padding: 2px 8px;
+            background: var(--accent-danger);
+            color: white;
+            border-radius: 10px;
+            font-size: 12px;
+        }
+        .score-value { font-weight: bold; font-size: 16px; }
+        .score-high { color: var(--accent-danger); }
+        .score-mid { color: var(--accent-warning); }
+        .score-low { color: var(--accent-primary); }
+        @media (max-width:768px) {
+            .main-area { padding: 8px 8px 20px; }
+            .grid-table { grid-template-columns:40px minmax(100px,2fr) repeat(6,minmax(60px,1fr));font-size:12px; }
+            .nav-tab { padding: 7px 8px; font-size: 12px; }
+            .topbar-info { padding: 5px 8px; gap: 8px; }
+        }
+        @media (max-width:480px) {
+            .grid-table { grid-template-columns:35px minmax(80px,2fr) repeat(6,minmax(45px,1fr));font-size:10px; }
+            .nav-tab { padding: 6px 6px; font-size: 11px; }
+            .topbar-info { font-size: 11px; }
+        }
+    </style>
+</head>
+<body>
+    <div class="app-layout">
+        <div class="topbar">
+            <div class="topbar-nav">
+                <button class="nav-tab active" onclick="switchTab('rank', this)">🏆 TOP50</button>
+                <button class="nav-tab" onclick="switchTab('sector', this)">📊 板块&行业</button>
+                <button class="nav-tab" onclick="switchTab('concept', this)">🧰 概念分析</button>
+                <button class="nav-tab" onclick="switchTab('recommend', this)">⭐ 推荐股票</button>
+                <button class="nav-tab" onclick="switchTab('review', this)">📋 每日复盘</button>
+            </div>
+            <div class="topbar-info">
+                <div class="stats">
+                    <span id="stockCount">股票: --</span>
+                    <span id="recordCount">记录: --</span>
+                    <span id="dayCount">天数: --</span>
+                </div>
+                <select id="datePicker" onchange="changeDate()"></select>
+                <div class="update-info" style="margin-left:auto;display:flex;align-items:center;gap:8px">
+                    <span id="updateStatus" style="font-size:11px">⏰ 9点/盘中每小时/收盘后</span>
+                    <button class="update-btn" onclick="triggerUpdate()" style="background:var(--accent-primary);color:#fff;border:none;border-radius:4px;padding:4px 10px;font-size:11px;cursor:pointer">↻ 手动更新</button>
+                    <button class="update-btn" onclick="showCookieModal()" style="background:#666;color:#fff;border:none;border-radius:4px;padding:4px 10px;font-size:11px;cursor:pointer">🔑 Cookie</button>
+                </div>
+            </div>
+        </div>
+        <div class="main-area" id="content">
+            <div class="loading">加载中...</div>
+        </div>
+    </div>
+
+    <!-- Cookie设置弹窗 -->
+    <div id="cookieModal" style="display:none;position:fixed;top:0;left:0;width:100%;height:100%;background:rgba(0,0,0,0.8);z-index:1000;align-items:center;justify-content:center">
+        <div style="background:var(--bg-card);border:1px solid var(--border-color);border-radius:8px;padding:24px;width:90%;max-width:600px;max-height:80vh;overflow-y:auto">
+            <h3 style="margin-bottom:16px;color:var(--accent-primary)">🔑 设置同花顺Cookie</h3>
+            <div style="margin-bottom:16px;padding:12px;background:var(--bg-hover);border-radius:4px;font-size:13px;color:var(--text-secondary)">
+                ⚠️ GitHub Pages版无法在网页上设置Cookie，请在GitHub仓库中设置：<br>
+                <a href="https://github.com/yjj79819/tdx/settings/secrets/actions" target="_blank" style="color:var(--accent-primary)">Settings → Secrets → Actions</a><br>
+                添加密钥 <code style="background:#333;padding:2px 4px;border-radius:3px">THS_COOKIE</code>，值为你的同花顺Cookie。
+            </div>
+            <div style="margin-bottom:16px">
+                <label style="display:block;margin-bottom:8px;font-size:13px;color:var(--text-secondary)">获取Cookie方法：</label>
+                <ol style="font-size:12px;color:var(--text-secondary);line-height:1.8;margin-left:16px">
+                    <li>打开同花顺官网 <a href="https://ms.10jqka.com.cn/" target="_blank" style="color:var(--accent-primary)">https://ms.10jqka.com.cn/</a></li>
+                    <li>按 <b>F12</b> 打开开发者工具</li>
+                    <li>切换到 <b>Console(控制台)</b> 标签</li>
+                    <li>输入 <code style="background:#333;padding:2px 4px;border-radius:3px">document.cookie</code> 并按回车</li>
+                    <li>复制输出的长字符串（以 <code style="background:#333;padding:2px 4px;border-radius:3px">v=</code> 开头）</li>
+                    <li>粘贴到GitHub Secrets中</li>
+                </ol>
+            </div>
+            <div style="margin-top:16px;text-align:right">
+                <button onclick="closeCookieModal()" style="padding:8px 16px;background:var(--bg-hover);border:1px solid var(--border-color);border-radius:4px;color:var(--text-primary);cursor:pointer">关闭</button>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        var currentTab = 'rank';
+        var currentData = [];
+        var tabDataCache = {};
+        var tabLoading = {};
+        var sortColumn = null;
+        var sortDirection = 'desc';
+        var filteredData = [];
+        var allDates = [];
+
+        // 静态数据路径
+        var DATA_PATH = 'data/';
+
+        function showCookieModal() {
+            document.getElementById('cookieModal').style.display = 'flex';
+        }
+        function closeCookieModal() {
+            document.getElementById('cookieModal').style.display = 'none';
+        }
+
+        function triggerUpdate() {
+            var status = document.getElementById('updateStatus');
+            status.textContent = '🔄 触发中...';
+            // GitHub Pages版：跳转到Actions页面手动触发
+            window.open('https://github.com/yjj79819/tdx/actions/workflows/update_data.yml', '_blank');
+            status.textContent = '⏰ 已打开Actions页面，请点击Run workflow';
+            setTimeout(function() { status.textContent = '⏰ 9点/盘中每小时/收盘后'; }, 5000);
+        }
+
+        function switchTab(tab, el) {
+            currentTab = tab;
+            document.querySelectorAll('.nav-tab').forEach(function(t) { t.classList.remove('active'); });
+            if (el) el.classList.add('active');
+            sortColumn = null;
+            loadData();
+        }
+
+        function changeDate() {
+            tabDataCache = {};
+            tabLoading = {};
+            loadData();
+        }
+
+        function getSelectedDate() {
+            var el = document.getElementById('datePicker');
+            return el ? el.value : '';
+        }
+
+        function formatPrice(p) { return (p === null || p === undefined) ? '-' : p.toFixed(2); }
+
+        function formatChange(pct) {
+            if (pct === null || pct === undefined) return '-';
+            var s = pct > 0 ? '+' : '';
+            var c = pct > 0 ? 'change-up' : (pct < 0 ? 'change-down' : 'change-neutral');
+            return '<span class="' + c + '">' + s + pct.toFixed(2) + '%</span>';
+        }
+
+        function sortFilteredData(col) {
+            if (sortColumn === col) { sortDirection = sortDirection === 'asc' ? 'desc' : 'asc'; }
+            else { sortColumn = col; sortDirection = 'desc'; }
+            filteredData.sort(function(a, b) {
+                var va = a[col], vb = b[col];
+                if (va === null || va === undefined) va = col === 'price' || col === 'change_pct' || col === 'rank' ? -Infinity : '';
+                if (vb === null || vb === undefined) vb = col === 'price' || col === 'change_pct' || col === 'rank' ? -Infinity : '';
+                if (typeof va === 'string') va = va.toLowerCase();
+                if (typeof vb === 'string') vb = vb.toLowerCase();
+                if (va < vb) return sortDirection === 'asc' ? -1 : 1;
+                if (va > vb) return sortDirection === 'asc' ? 1 : -1;
+                return 0;
+            });
+            renderFilteredTable(filteredData);
+        }
+
+        function renderFilteredTable(data) {
+            var html = '<div class="grid-table rank-grid">';
+            var cols = ['当前排名', '股票', '最新价', '涨跌幅', '板块', '概念', '排名历史'];
+            var keys = ['rank', 'name', 'price', 'change_pct', 'sector', 'concept', ''];
+            cols.forEach(function(l, i) {
+                if (keys[i]) {
+                    var arrow = (sortColumn === keys[i]) ? (sortDirection === 'asc' ? ' ↑' : ' ↓') : '';
+                    html += '<div class="grid-header" style="cursor:pointer" onclick="sortFilteredData(\'' + keys[i] + '\')">' + l + arrow + '</div>';
+                } else {
+                    html += '<div class="grid-header">' + l + '</div>';
+                }
+            });
+            
+            data.forEach(function(item) {
+                var rc = item.rank <= 3 ? 'rank top3' : (item.rank <= 10 ? 'rank top10' : (item.rank <= 20 ? 'rank top20' : (item.rank <= 50 ? 'rank top50' : 'rank top100')));
+                var sectorTags = item.sector ? '<span class="sector-tag">' + item.sector + '</span>' : '';
+                var conceptArr = item.concept ? item.concept.split(',') : [];
+                var conceptTags = conceptArr.map(function(c) { return '<span class="concept-tag">' + c.trim() + '</span>'; }).join('');
+                var priceColor = item.change_pct > 0 ? 'change-up' : (item.change_pct < 0 ? 'change-down' : '');
+                
+                html += '<div class="grid-cell ' + rc + '">' + item.rank + '</div>';
+                var marketCode = item.code.startsWith('6') ? '17' : '33';
+                var stockLink = 'https://ms.10jqka.com.cn/thsHotDetail/?name=' + encodeURIComponent(item.name) + '&code=' + item.code + '&marketCode=' + marketCode;
+                html += '<div class="grid-cell" style="white-space:normal;overflow:visible;line-height:1.4"><a href="' + stockLink + '" target="_blank" style="color:var(--text-primary);text-decoration:none;font-weight:bold">' + item.name + '</a></div>';
+                html += '<div class="grid-cell price ' + priceColor + '">¥' + (item.price ? item.price.toFixed(2) : '-') + '</div>';
+                html += '<div class="grid-cell">' + formatChange(item.change_pct) + '</div>';
+                html += '<div class="grid-cell">' + sectorTags + '</div>';
+                html += '<div class="grid-cell" style="line-height:1.6;white-space:normal;overflow:visible">' + conceptTags + '</div>';
+                html += '<div class="grid-cell"><div id="chart-' + item.code + '" style="width:100%;height:55px"></div></div>';
+            });
+            html += '</div>';
+            document.getElementById('content').innerHTML = html;
+            
+            data.forEach(function(item) {
+                loadMiniChart(item.code, 'chart-' + item.code);
+            });
+        }
+
+        function loadMiniChart(code, containerId) {
+            fetch(DATA_PATH + 'history/' + code + '.json')
+                .then(function(r) { return r.json(); })
+                .then(function(data) {
+                    var container = document.getElementById(containerId);
+                    if (!container || !data.history || data.history.length === 0) {
+                        if (container) container.innerHTML = '<span style="font-size:10px;color:#666">-</span>';
+                        return;
+                    }
+                    var history = data.history;
+                    var html = '<div style="display:flex;align-items:flex-end;gap:1px;padding:2px 1px;background:#0a0a0f;border-radius:3px;overflow-x:auto">';
+                    history.forEach(function(h, i) {
+                        var dateStr = h.date.substring(8);
+                        var isLast = (i === history.length - 1);
+                        
+                        if (h.rank === null || h.rank === undefined) {
+                            html += '<div style="display:flex;flex-direction:column;align-items:center;flex:1;min-width:16px">';
+                            html += '<span style="font-size:7px;color:#444;margin-bottom:2px">' + dateStr + '</span>';
+                            html += '<div style="width:100%;height:2px;background:rgba(255,255,255,0.05);border-radius:1px"></div>';
+                            html += '</div>';
+                            return;
+                        }
+                        
+                        var barH = Math.max(2, 60 * Math.pow(0.96, h.rank - 1));
+                        barH = Math.round(barH * 10) / 10;
+                        var color, glow = '', borderR = '1px 1px 0 0', extraW = 0;
+                        if (h.rank === 1) { color = '#ffd700'; glow = 'box-shadow:0 0 8px #ffd700,0 0 16px rgba(255,215,0,0.6);'; extraW = 2; }
+                        else if (h.rank === 2) { color = '#ff2d55'; glow = 'box-shadow:0 0 6px rgba(255,45,85,0.7);'; extraW = 1; }
+                        else if (h.rank === 3) { color = '#ff4757'; glow = 'box-shadow:0 0 5px rgba(255,71,87,0.5);'; }
+                        else if (h.rank <= 5) { color = '#ff6b6b'; }
+                        else if (h.rank <= 10) { color = '#ff9500'; }
+                        else if (h.rank <= 20) { color = '#5ac8fa'; }
+                        else if (h.rank <= 50) { color = '#30d158'; }
+                        else { color = '#8e8e93'; }
+                        
+                        html += '<div style="display:flex;flex-direction:column;align-items:center;flex:1;min-width:' + (16 + extraW) + 'px;position:relative">';
+                        html += '<span style="font-size:7px;color:' + color + ';font-weight:bold;margin-bottom:1px">' + h.rank + '</span>';
+                        html += '<div style="width:100%;height:' + barH + 'px;background:' + color + ';border-radius:' + borderR + ';opacity:' + (isLast ? '1' : '0.85') + ';' + glow + ';position:relative;min-height:14px;display:flex;align-items:center;justify-content:center" title="' + h.date + ' #' + h.rank + '">';
+                        html += '<span style="font-size:7px;color:#fff;text-shadow:0 0 2px rgba(0,0,0,0.9);white-space:nowrap">' + dateStr + '</span>';
+                        html += '</div></div>';
+                    });
+                    html += '</div>';
+                    container.innerHTML = html;
+                })
+                .catch(function() {
+                    var container = document.getElementById(containerId);
+                    if (container) container.innerHTML = '<span style="font-size:10px;color:#666">-</span>';
+                });
+        }
+
+        function getScoreClass(s) { if (s >= 90) return 'score-high'; if (s >= 80) return 'score-mid'; return 'score-low'; }
+
+        function renderRecommendTable(data, sentiment) {
+            var hh = '';
+            if (sentiment) {
+                var sc = sentiment.sentiment >= 70 ? '#ff4757' : (sentiment.sentiment >= 50 ? '#ffa502' : '#2ed573');
+                hh = '<div style="display:flex;justify-content:space-between;align-items:center;margin-bottom:15px;padding:10px 15px;background:var(--bg-card);border-radius:6px">';
+                hh += '<div><span style="color:var(--text-secondary)">情绪指数:</span> <b style="color:' + sc + ';font-size:18px">' + sentiment.sentiment + '</b></div>';
+                hh += '<div style="font-size:13px;color:var(--text-secondary)">上涨:' + sentiment.up + ' | 下跌:' + sentiment.down + ' | 涨停:' + sentiment.limit_up + '</div>';
+                hh += '</div>';
+            }
+            var html = hh + '<div class="grid-table rec-grid">';
+            ['排名', '股票', '评分', '最新价', '涨跌幅', '上榜天数', '风险', '止损/止盈', '推荐理由'].forEach(function(l) { html += '<div class="grid-header">' + l + '</div>'; });
+            data.forEach(function(item, i) {
+                var sc = getScoreClass(item.score);
+                var rc = item.risk_level === '追高风险' ? '#ff4757' : (item.risk_level === '高风险' ? '#ffa502' : (item.risk_level === '中风险' ? '#00d4ff' : '#2ed573'));
+                var cp = item.change_pct ? (item.change_pct > 0 ? '+' + item.change_pct.toFixed(2) + '%' : item.change_pct.toFixed(2) + '%') : '-';
+                var cc = item.change_pct > 0 ? 'change-up' : (item.change_pct < 0 ? 'change-down' : 'change-neutral');
+                html += '<div class="grid-cell rank">' + (i+1) + '</div>';
+                html += '<div class="grid-cell"><b>' + item.name + '</b><br><small style="color:#666">' + item.code + '</small></div>';
+                html += '<div class="grid-cell"><span class="score-value ' + sc + '">' + item.score + '</span></div>';
+                html += '<div class="grid-cell price">' + (item.price ? '¥' + item.price.toFixed(2) : '-') + '</div>';
+                html += '<div class="grid-cell ' + cc + '">' + cp + '</div>';
+                html += '<div class="grid-cell">' + (item.continuous_days > 0 ? '<b>' + item.continuous_days + '</b>天' : '-') + '</div>';
+                html += '<div class="grid-cell" style="color:' + rc + '">' + item.risk_level + '</div>';
+                html += '<div class="grid-cell" style="font-size:12px;color:var(--text-secondary)">' + (item.stop_loss ? '止损¥' + item.stop_loss : '-') + (item.take_profit1 ? '<br>止盈¥' + item.take_profit1 + '/¥' + item.take_profit2 : '') + '</div>';
+                html += '<div class="grid-cell" style="font-size:12px">' + item.reasons + '</div>';
+            });
+            html += '</div>';
+            return html;
+        }
+
+        function renderTabContent(tab, data) {
+            var content = document.getElementById('content');
+            if (tab === 'rank') {
+                currentData = data;
+                filteredData = data;
+                renderFilteredTable(data);
+            } else if (tab === 'sector') {
+                var sectorData = data.sector || [];
+                var industryData = data.industry_hot || [];
+                var html = '<div style="margin-bottom:16px"><h3 style="color:var(--accent-primary);margin-bottom:8px">📊 板块热度</h3>';
+                html += '<div class="grid-table sector-grid">';
+                ['排名', '板块', '上榜数量', '平均涨跌', '代表股票'].forEach(function(l) { html += '<div class="grid-header">' + l + '</div>'; });
+                sectorData.forEach(function(item, i) {
+                    var stocks = item.stocks.map(function(s) { return s.name; }).join('、');
+                    var ac = item.avg_change > 0 ? '+' + item.avg_change + '%' : item.avg_change + '%';
+                    var cc = item.avg_change > 0 ? 'change-up' : (item.avg_change < 0 ? 'change-down' : 'change-neutral');
+                    html += '<div class="grid-cell rank">' + (i+1) + '</div>';
+                    html += '<div class="grid-cell"><b>' + item.sector + '</b></div>';
+                    html += '<div class="grid-cell"><span class="sector-count">' + item.count + '</span></div>';
+                    html += '<div class="grid-cell ' + cc + '">' + ac + '</div>';
+                    html += '<div class="grid-cell"><small>' + stocks + '</small></div>';
+                });
+                html += '</div></div>';
+                html += '<div><h3 style="color:var(--accent-primary);margin-bottom:8px">🏭 行业热榜</h3>';
+                html += '<div class="grid-table hot-grid">';
+                ['排名', '行业', '涨跌幅', '热度', '涨停家数', '上榜天数'].forEach(function(l) { html += '<div class="grid-header">' + l + '</div>'; });
+                industryData.forEach(function(item) {
+                    var rc = item.rank <= 3 ? 'rank top3' : (item.rank <= 10 ? 'rank top10' : (item.rank <= 20 ? 'rank top20' : (item.rank <= 50 ? 'rank top50' : 'rank top100')));
+                    var cc = item.change_pct > 0 ? 'change-up' : (item.change_pct < 0 ? 'change-down' : 'change-neutral');
+                    var ct = item.change_pct > 0 ? '+' + item.change_pct + '%' : item.change_pct + '%';
+                    var hn = parseFloat(item.heat);
+                    var ht = hn >= 10000 ? (hn / 10000).toFixed(1) + '万' : Math.round(hn);
+                    html += '<div class="grid-cell ' + rc + '">' + item.rank + '</div>';
+                    html += '<div class="grid-cell"><b>' + item.name + '</b></div>';
+                    html += '<div class="grid-cell ' + cc + '">' + ct + '</div>';
+                    html += '<div class="grid-cell" style="color:var(--accent-primary)">' + ht + '</div>';
+                    html += '<div class="grid-cell" style="color:#ff4757">' + (item.limit_up_tag || '-') + '</div>';
+                    html += '<div class="grid-cell" style="color:var(--text-secondary);font-size:12px">' + (item.hot_tag || '-') + '</div>';
+                });
+                html += '</div></div>';
+                content.innerHTML = html;
+            } else if (tab === 'concept') {
+                var conceptData = data.concept || [];
+                var conceptHotData = data.concept_hot || [];
+                var html = '<div style="margin-bottom:16px"><h3 style="color:var(--accent-primary);margin-bottom:8px">🧰 概念分析</h3>';
+                html += '<div class="grid-table concept-grid">';
+                ['排名', '概念', '上榜数量', '代表股票'].forEach(function(l) { html += '<div class="grid-header">' + l + '</div>'; });
+                conceptData.forEach(function(item, i) {
+                    var stocks = item.stocks.map(function(s) { return s.name; }).join('、');
+                    html += '<div class="grid-cell rank">' + (i+1) + '</div>';
+                    html += '<div class="grid-cell"><b>' + item.concept + '</b></div>';
+                    html += '<div class="grid-cell"><span class="sector-count">' + item.count + '</span></div>';
+                    html += '<div class="grid-cell"><small>' + stocks + '</small></div>';
+                });
+                html += '</div></div>';
+                html += '<div><h3 style="color:var(--accent-primary);margin-bottom:8px">🔥 概念热榜</h3>';
+                html += '<div class="grid-table hot-grid">';
+                ['排名', '概念', '涨跌幅', '热度', '涨停家数', '上榜天数'].forEach(function(l) { html += '<div class="grid-header">' + l + '</div>'; });
+                conceptHotData.forEach(function(item) {
+                    var rc = item.rank <= 3 ? 'rank top3' : (item.rank <= 10 ? 'rank top10' : (item.rank <= 20 ? 'rank top20' : (item.rank <= 50 ? 'rank top50' : 'rank top100')));
+                    var cc = item.change_pct > 0 ? 'change-up' : (item.change_pct < 0 ? 'change-down' : 'change-neutral');
+                    var ct = item.change_pct > 0 ? '+' + item.change_pct + '%' : item.change_pct + '%';
+                    var hn = parseFloat(item.heat);
+                    var ht = hn >= 10000 ? (hn / 10000).toFixed(1) + '万' : Math.round(hn);
+                    html += '<div class="grid-cell ' + rc + '">' + item.rank + '</div>';
+                    html += '<div class="grid-cell"><b>' + item.name + '</b></div>';
+                    html += '<div class="grid-cell ' + cc + '">' + ct + '</div>';
+                    html += '<div class="grid-cell" style="color:var(--accent-primary)">' + ht + '</div>';
+                    html += '<div class="grid-cell" style="color:#ff4757">' + (item.limit_up_tag || '-') + '</div>';
+                    html += '<div class="grid-cell" style="color:var(--text-secondary);font-size:12px">' + (item.hot_tag || '-') + '</div>';
+                });
+                html += '</div></div>';
+                content.innerHTML = html;
+            } else if (tab === 'recommend') {
+                if (data.length === 0) { content.innerHTML = '<div class="loading">暂无推荐数据</div>'; return; }
+                content.innerHTML = renderRecommendTable(data[0], data[1]);
+            } else if (tab === 'review') {
+                content.innerHTML = '<div class="loading">复盘数据加载中...</div>';
+            }
+        }
+
+        function loadData() {
+            var content = document.getElementById('content');
+            var cacheKey = currentTab + '|' + getSelectedDate();
+            if (tabDataCache[cacheKey]) { renderTabContent(currentTab, tabDataCache[cacheKey]); return; }
+            if (tabLoading[cacheKey]) return;
+            tabLoading[cacheKey] = true;
+            content.innerHTML = '<div class="loading">加载中...</div>';
+
+            var d = getSelectedDate();
+
+            if (currentTab === 'sector') {
+                Promise.all([
+                    fetch(DATA_PATH + 'sector.json').then(function(r) { return r.json(); }),
+                    fetch(DATA_PATH + 'industry_hot.json').then(function(r) { return r.json(); })
+                ]).then(function(results) {
+                    tabDataCache[cacheKey] = {sector: results[0], industry_hot: results[1]};
+                    tabLoading[cacheKey] = false;
+                    renderTabContent('sector', tabDataCache[cacheKey]);
+                }).catch(function() { tabLoading[cacheKey] = false; content.innerHTML = '<div class="loading">加载失败</div>'; });
+                return;
+            }
+
+            if (currentTab === 'concept') {
+                Promise.all([
+                    fetch(DATA_PATH + 'concept.json').then(function(r) { return r.json(); }),
+                    fetch(DATA_PATH + 'concept_hot.json').then(function(r) { return r.json(); })
+                ]).then(function(results) {
+                    tabDataCache[cacheKey] = {concept: results[0], concept_hot: results[1]};
+                    tabLoading[cacheKey] = false;
+                    renderTabContent('concept', tabDataCache[cacheKey]);
+                }).catch(function() { tabLoading[cacheKey] = false; content.innerHTML = '<div class="loading">加载失败</div>'; });
+                return;
+            }
+
+            if (currentTab === 'recommend') {
+                Promise.all([
+                    fetch(DATA_PATH + 'recommendations.json').then(function(r) { return r.json(); }),
+                    fetch(DATA_PATH + 'sentiment.json').then(function(r) { return r.json(); })
+                ]).then(function(results) {
+                    tabDataCache[cacheKey] = results; tabLoading[cacheKey] = false;
+                    renderTabContent('recommend', results);
+                }).catch(function() { tabLoading[cacheKey] = false; content.innerHTML = '<div class="loading">加载失败</div>'; });
+                return;
+            }
+
+            if (currentTab === 'review') {
+                fetch(DATA_PATH + 'review_results.json').then(function(r) { return r.json(); }).then(function(data) {
+                    tabDataCache[cacheKey] = data; tabLoading[cacheKey] = false;
+                    renderTabContent('review', data);
+                }).catch(function() { tabLoading[cacheKey] = false; content.innerHTML = '<div class="loading">加载失败</div>'; });
+                return;
+            }
+
+            if (currentTab === 'rank') {
+                fetch(DATA_PATH + 'top50.json').then(function(r) { return r.json(); }).then(function(data) {
+                    tabDataCache[cacheKey] = data; tabLoading[cacheKey] = false;
+                    if (data.length > 0) document.getElementById('stockCount').textContent = '股票: ' + data.length;
+                    renderTabContent('rank', data);
+                }).catch(function() { tabLoading[cacheKey] = false; content.innerHTML = '<div class="loading">加载失败</div>'; });
+            }
+        }
+
+        function loadStats() {
+            fetch(DATA_PATH + 'meta.json').then(function(r) { return r.json(); }).then(function(d) {
+                if (d.unique_stocks) document.getElementById('stockCount').textContent = '股票: ' + d.unique_stocks;
+                if (d.total_records) document.getElementById('recordCount').textContent = '记录: ' + d.total_records;
+                if (d.dates) document.getElementById('dayCount').textContent = '天数: ' + d.dates;
+                if (d.available_dates) {
+                    allDates = d.available_dates;
+                    var select = document.getElementById('datePicker');
+                    select.innerHTML = '';
+                    allDates.forEach(function(dt) {
+                        var opt = document.createElement('option');
+                        opt.value = dt;
+                        opt.textContent = dt;
+                        if (dt === d.latest_date) opt.selected = true;
+                        select.appendChild(opt);
+                    });
+                }
+            }).catch(function() {});
+        }
+
+        loadStats();
+        try { loadData(); } catch(e) { document.getElementById('content').innerHTML = '<div style="color:red;padding:20px">Error: ' + e.message + '</div>'; }
+    </script>
+</body>
+</html>

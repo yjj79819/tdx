@@ -1,0 +1,17 @@
+{
+  "code": "301308",
+  "name": "江波龙",
+  "history": [
+    {
+      "date": "2026-05-26",
+      "rank": 50,
+      "price": 538.95,
+      "change_pct": -4.695
+    }
+  ],
+  "continuous_days": 0,
+  "monthly_count": 1,
+  "avg_rank": 50.0,
+  "best_rank": 50,
+  "trend": "stable"
+}

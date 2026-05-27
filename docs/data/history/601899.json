@@ -1,0 +1,17 @@
+{
+  "code": "601899",
+  "name": "紫金矿业",
+  "history": [
+    {
+      "date": "2026-05-26",
+      "rank": 50,
+      "price": 32.9,
+      "change_pct": 4.9442
+    }
+  ],
+  "continuous_days": 0,
+  "monthly_count": 1,
+  "avg_rank": 50.0,
+  "best_rank": 50,
+  "trend": "stable"
+}
