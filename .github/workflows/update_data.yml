@@ -13,6 +13,9 @@ on:
       - main
     paths:
       - 'export_data.py'
+      - 'docs/index.html'
+      - 'docs/data/**'
+      - '.github/workflows/update_data.yml'
   workflow_dispatch:
     # 允许手动触发
 
