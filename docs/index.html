@@ -192,7 +192,7 @@
     <div class="app-layout">
         <div class="topbar">
             <div class="topbar-nav">
-                <button class="nav-tab active" onclick="switchTab('rank', this)">🏆 TOP50</button>
+                <button class="nav-tab active" onclick="switchTab('rank', this)">🏆 排行榜</button>
                 <button class="nav-tab" onclick="switchTab('sector', this)">📊 板块&行业</button>
                 <button class="nav-tab" onclick="switchTab('concept', this)">🧰 概念分析</button>
                 <button class="nav-tab" onclick="switchTab('recommend', this)">⭐ 推荐股票</button>
@@ -423,7 +423,9 @@
                 var cp = item.change_pct ? (item.change_pct > 0 ? '+' + item.change_pct.toFixed(2) + '%' : item.change_pct.toFixed(2) + '%') : '-';
                 var cc = item.change_pct > 0 ? 'change-up' : (item.change_pct < 0 ? 'change-down' : 'change-neutral');
                 html += '<div class="grid-cell rank">' + (i+1) + '</div>';
-                html += '<div class="grid-cell"><b>' + item.name + '</b><br><small style="color:#666">' + item.code + '</small></div>';
+                var marketCode = item.code && item.code.startsWith('6') ? '17' : '33';
+                var stockLink = 'https://ms.10jqka.com.cn/thsHotDetail/?name=' + encodeURIComponent(item.name) + '&code=' + item.code + '&marketCode=' + marketCode;
+                html += '<div class="grid-cell"><a href="' + stockLink + '" target="_blank" style="color:var(--text-primary);text-decoration:none"><b>' + item.name + '</b></a><br><small style="color:#666">' + item.code + '</small></div>';
                 html += '<div class="grid-cell"><span class="score-value ' + sc + '">' + item.score + '</span></div>';
                 html += '<div class="grid-cell price">' + (item.price ? '¥' + item.price.toFixed(2) : '-') + '</div>';
                 html += '<div class="grid-cell ' + cc + '">' + cp + '</div>';

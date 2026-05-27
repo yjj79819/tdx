@@ -130,19 +130,6 @@
     "sector": "电力"
   },
   {
-    "best_rank": 20,
-    "change_pct": 4.8983,
-    "code": "600667",
-    "concept": "存储芯片,先进封装",
-    "limit_up_reason": "",
-    "market_cap": 6092584952.0,
-    "name": "太极实业",
-    "pe_ratio": 63.39,
-    "price": 13.92,
-    "rank": 32,
-    "sector": "工程咨询服务Ⅱ"
-  },
-  {
     "best_rank": 33,
     "change_pct": 10.0342,
     "code": "002012",
@@ -180,19 +167,6 @@
     "price": 4.92,
     "rank": 60,
     "sector": "电力"
-  },
-  {
-    "best_rank": 69,
-    "change_pct": 10.0223,
-    "code": "002706",
-    "concept": "智能电网,数据中心(AIDC)",
-    "limit_up_reason": "",
-    "market_cap": 1231310287.09,
-    "name": "良信股份",
-    "pe_ratio": 76.15,
-    "price": 14.82,
-    "rank": 69,
-    "sector": "电网设备"
   },
   {
     "best_rank": 41,

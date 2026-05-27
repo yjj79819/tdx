@@ -1744,7 +1744,7 @@ def api_top50(date):
 
 @app.route('/api/filtered_hot/<date>')
 def api_filtered_hot(date):
-    """获取过滤后的热门股票（价格<15、排除ST、排除亏损、只显示曾进前100的）"""
+    """获取过滤后的热门股票（价格<13、排除ST、排除亏损、只显示曾进前100的）"""
     conn = sqlite3.connect(DB_PATH)
     c = conn.cursor()
     
@@ -1782,10 +1782,10 @@ def api_filtered_hot(date):
         code, name, rank, price, change_pct, sector, concept, limit_up_reason, pe_ratio, market_cap = row
         
         # 过滤条件：
-        # 1. 价格 < 15（price为0或None说明无数据，也排除）
+        # 1. 价格 < 13（price为0或None说明无数据，也排除）
         # 2. 排除ST（名称包含ST）
         # 3. 排除亏损（市盈率为负或为0，pe_ratio<=0说明亏损或数据缺失）
-        if not price or price >= 15:
+        if not price or price >= 13:
             continue
         if name and ('ST' in name.upper() or '*ST' in name or '退' in name):
             continue
