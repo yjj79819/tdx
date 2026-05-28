@@ -3,10 +3,6 @@
   "name": "红星发展",
   "history": [
     {
-      "date": "2026-04-26",
-      "rank": 446
-    },
-    {
       "date": "2026-04-27",
       "rank": 894
     },
@@ -120,18 +116,26 @@
     },
     {
       "date": "2026-05-25",
-      "rank": 194
+      "rank": 188
     },
     {
       "date": "2026-05-26",
-      "rank": 51,
-      "price": 29.78,
-      "change_pct": 10.0111
+      "rank": 100
+    },
+    {
+      "date": "2026-05-27",
+      "rank": 114
+    },
+    {
+      "date": "2026-05-28",
+      "rank": 93,
+      "price": 33.22,
+      "change_pct": 10.0
     }
   ],
-  "continuous_days": 31,
-  "monthly_count": 31,
-  "avg_rank": 490.1,
-  "best_rank": 51,
+  "continuous_days": 32,
+  "monthly_count": 32,
+  "avg_rank": 468.7,
+  "best_rank": 93,
   "trend": "stable"
 }
