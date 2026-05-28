@@ -1236,8 +1236,25 @@ def get_recommendations():
 
     # ========== 过滤逻辑 ==========
 
-    # 价格过滤: 必须有有效价格且价格<20元
-    recommendations = [r for r in recommendations if r.get('price') and r['price'] > 0 and r['price'] < 20]
+    # 价格过滤: 必须有有效价格且价格<=20元
+    recommendations = [r for r in recommendations if r.get('price') and r['price'] > 0 and r['price'] <= 20]
+
+    # ST股和亏损股过滤
+    filtered = []
+    for r in recommendations:
+        name = r.get('name', '')
+        pe_ratio = r.get('pe_ratio')
+        
+        # 排除ST股和*ST股
+        if name.startswith('ST') or name.startswith('*ST'):
+            continue
+        
+        # 排除亏损股（pe_ratio为0、负数或None视为亏损或无法判断）
+        if pe_ratio is None or pe_ratio == 0 or pe_ratio < 0:
+            continue
+        
+        filtered.append(r)
+    recommendations = filtered
 
     # 交易所过滤: 排除北交所和科创板
     filtered = []

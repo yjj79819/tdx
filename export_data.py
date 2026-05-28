@@ -275,7 +275,7 @@ def fetch_history_from_api(code):
 # ============ 数据处理 ============
 
 def build_top50_data(stocks, sector_map, price_map):
-    """构建排行榜数据（13元以下、非ST、非亏损，与本地Flask API一致）"""
+    """构建排行榜数据（20元以下、非ST、非亏损，与本地Flask API一致）"""
     result = []
     for i, stock in enumerate(stocks[:100]):  # 取前100名再过滤
         code = stock['code']
@@ -294,11 +294,13 @@ def build_top50_data(stocks, sector_map, price_map):
         spot = price_map.get(code, {})
         change_pct = float(api_change) if api_change is not None else spot.get('change_pct', 0)
         price = spot.get('price', 0) or 0
+        pe_ratio = spot.get('pe_ratio')
         
-        # ========== 硬性过滤：13元以下、非ST、非亏损 ==========
+        # ========== 硬性过滤：20元以下、非ST、非亏损 ==========
         is_st = name.startswith('ST') or name.startswith('*ST')
-        is_loss = change_pct < -5 or '亏损' in name or '绩差' in name
-        if is_st or is_loss or price <= 0 or price > 13:
+        # 排除亏损股（pe_ratio为0、负数或None视为亏损或无法判断）
+        is_loss = pe_ratio is None or pe_ratio == 0 or pe_ratio < 0
+        if is_st or is_loss or price <= 0 or price > 20:
             continue
         
         item = {
@@ -321,7 +323,7 @@ def build_top50_data(stocks, sector_map, price_map):
         }
         result.append(item)
     
-    print(f"  构建排行榜数据: {len(result)} 条 (从100名中过滤13元以下非ST非亏损)")
+    print(f"  构建排行榜数据: {len(result)} 条 (从100名中过滤20元以下非ST非亏损)")
     return result
 
 
@@ -534,14 +536,16 @@ def build_recommendations(top50_data, sector_data):
         score = 0.0
         reasons = []
 
-        # --- 硬性过滤：13元以下、非ST、非亏损、前100名 ---
+        # --- 硬性过滤：20元以下、非ST、非亏损、前100名 ---
         is_st = name.startswith('ST') or name.startswith('*ST')
         change_pct = item.get('change_pct') or 0
         price = item.get('price') or 0
-        is_loss = change_pct < -5 or '亏损' in name or '绩差' in name
+        # 排除亏损股（pe_ratio为0、负数或None视为亏损或无法判断）
+        pe_ratio = item.get('pe_ratio')
+        is_loss = pe_ratio is None or pe_ratio == 0 or pe_ratio < 0
 
         # 硬性条件：必须满足才推荐
-        if is_st or is_loss or price <= 0 or price > 13:
+        if is_st or is_loss or price <= 0 or price > 20:
             continue
 
         # --- 走下坡路股票直接跳过 ---
