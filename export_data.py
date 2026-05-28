@@ -1029,11 +1029,33 @@ def main():
     
     print(f"  ✓ 导出 {history_count} 只股票历史数据")
     
-    # 6. 保存元数据
+    # 6. 保存元数据（与前端docs/index.html格式一致）
+    # 统计所有历史数据中的日期
+    all_dates = set()
+    history_dir = HISTORY_DIR
+    if history_dir.exists():
+        for f in history_dir.glob('*.json'):
+            try:
+                with open(f, 'r', encoding='utf-8') as fh:
+                    hdata = json.load(fh)
+                    for h in hdata.get('history', []):
+                        if h.get('date'):
+                            all_dates.add(h['date'])
+            except:
+                pass
+    
+    available_dates = sorted(all_dates, reverse=True) if all_dates else [datetime.now().strftime('%Y-%m-%d')]
+    latest_date = available_dates[0] if available_dates else datetime.now().strftime('%Y-%m-%d')
+    
     meta = {
         'last_update': datetime.now().strftime('%Y-%m-%d %H:%M:%S'),
         'stock_count': len(top50_data),
-        'data_version': '2.0'
+        'data_version': '3.0',
+        'unique_stocks': len(top50_data),
+        'total_records': len(top50_data) * len(available_dates) if available_dates else len(top50_data),
+        'dates': len(available_dates),
+        'latest_date': latest_date,
+        'available_dates': available_dates
     }
     safe_json_dump(meta, DATA_DIR / 'meta.json')
     
