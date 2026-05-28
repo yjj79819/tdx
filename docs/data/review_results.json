@@ -791,5 +791,14 @@
     "win_count": 0,
     "total": 8,
     "rank_improved": 0
+  },
+  {
+    "review_date": "2026-05-28",
+    "target_date": "2026-05-28",
+    "results": [],
+    "win_rate": 0,
+    "win_count": 0,
+    "total": 0,
+    "rank_improved": 0
   }
 ]
