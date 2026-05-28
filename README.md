@@ -1,6 +1,6 @@
 # 同花顺热度排名系统 📊
 
-基于同花顺热榜API的股票热度排名Web系统，含全屏Dashboard、30天排名历史、13因子推荐算法、每日复盘自优化。
+基于同花顺热榜API的股票热度排名Web系统，含全屏Dashboard、30天排名历史、多因子推荐算法、每日复盘自优化、智能过滤机制。
 
 [![GitHub Pages](https://img.shields.io/badge/在线访问-GitHub%20Pages-brightgreen)](https://yjj79819.github.io/tdx/)
 [![Python](https://img.shields.io/badge/Python-3.9+-green)](https://www.python.org/)
