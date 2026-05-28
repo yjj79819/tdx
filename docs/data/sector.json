@@ -5,21 +5,21 @@
     "avg_change": 3.95,
     "stocks": [
       {
-        "code": "601991",
-        "name": "大唐发电",
-        "rank": 3,
-        "change_pct": 4.54
-      },
-      {
         "code": "600396",
         "name": "华电辽能",
-        "rank": 4,
+        "rank": 3,
         "change_pct": 6.95
+      },
+      {
+        "code": "601991",
+        "name": "大唐发电",
+        "rank": 4,
+        "change_pct": 4.54
       },
       {
         "code": "600578",
         "name": "京能电力",
-        "rank": 6,
+        "rank": 5,
         "change_pct": -0.72
       },
       {
@@ -31,8 +31,45 @@
       {
         "code": "600726",
         "name": "华电能源",
-        "rank": 18,
+        "rank": 19,
         "change_pct": 10.04
+      }
+    ]
+  },
+  {
+    "sector": "元件",
+    "count": 11,
+    "avg_change": 4.82,
+    "stocks": [
+      {
+        "code": "000636",
+        "name": "风华高科",
+        "rank": 8,
+        "change_pct": 10.0
+      },
+      {
+        "code": "002579",
+        "name": "中京电子",
+        "rank": 11,
+        "change_pct": 3.87
+      },
+      {
+        "code": "002463",
+        "name": "沪电股份",
+        "rank": 17,
+        "change_pct": 2.93
+      },
+      {
+        "code": "002636",
+        "name": "金安国纪",
+        "rank": 29,
+        "change_pct": 9.99
+      },
+      {
+        "code": "002552",
+        "name": "宝鼎科技",
+        "rank": 31,
+        "change_pct": 9.99
       }
     ]
   },
@@ -74,43 +111,6 @@
     ]
   },
   {
-    "sector": "元件",
-    "count": 10,
-    "avg_change": 5.45,
-    "stocks": [
-      {
-        "code": "000636",
-        "name": "风华高科",
-        "rank": 8,
-        "change_pct": 10.0
-      },
-      {
-        "code": "002579",
-        "name": "中京电子",
-        "rank": 10,
-        "change_pct": 3.87
-      },
-      {
-        "code": "002463",
-        "name": "沪电股份",
-        "rank": 17,
-        "change_pct": 2.93
-      },
-      {
-        "code": "002552",
-        "name": "宝鼎科技",
-        "rank": 30,
-        "change_pct": 9.99
-      },
-      {
-        "code": "002636",
-        "name": "金安国纪",
-        "rank": 32,
-        "change_pct": 9.99
-      }
-    ]
-  },
-  {
     "sector": "消费电子",
     "count": 8,
     "avg_change": 1.24,
@@ -118,31 +118,31 @@
       {
         "code": "601138",
         "name": "工业富联",
-        "rank": 11,
+        "rank": 10,
         "change_pct": 4.77
       },
       {
         "code": "000021",
         "name": "深科技",
-        "rank": 19,
+        "rank": 20,
         "change_pct": -2.8
-      },
-      {
-        "code": "002241",
-        "name": "歌尔股份",
-        "rank": 22,
-        "change_pct": 0.07
       },
       {
         "code": "603629",
         "name": "利通电子",
-        "rank": 24,
+        "rank": 22,
         "change_pct": 2.35
+      },
+      {
+        "code": "002241",
+        "name": "歌尔股份",
+        "rank": 24,
+        "change_pct": 0.07
       },
       {
         "code": "002655",
         "name": "共达电声",
-        "rank": 50,
+        "rank": 53,
         "change_pct": 5.45
       }
     ]
@@ -155,32 +155,32 @@
       {
         "code": "000725",
         "name": "京东方A",
-        "rank": 5,
+        "rank": 6,
         "change_pct": -2.1
       },
       {
         "code": "603773",
         "name": "沃格光电",
-        "rank": 36,
+        "rank": 37,
         "change_pct": 10.0
       },
       {
         "code": "002217",
         "name": "合力泰",
-        "rank": 77,
+        "rank": 80,
         "change_pct": 4.25
       },
       {
         "code": "600703",
         "name": "三安光电",
-        "rank": 80,
+        "rank": 82,
         "change_pct": 0.84
       },
       {
-        "code": "000509",
-        "name": "华塑控股",
-        "rank": 90,
-        "change_pct": 9.98
+        "code": "002222",
+        "name": "福晶科技",
+        "rank": 88,
+        "change_pct": 7.08
       }
     ]
   },
@@ -192,7 +192,7 @@
       {
         "code": "600522",
         "name": "中天科技",
-        "rank": 20,
+        "rank": 18,
         "change_pct": 2.38
       },
       {
@@ -204,7 +204,7 @@
       {
         "code": "002281",
         "name": "光迅科技",
-        "rank": 43,
+        "rank": 42,
         "change_pct": 2.87
       },
       {
@@ -216,8 +216,45 @@
       {
         "code": "300308",
         "name": "中际旭创",
-        "rank": 82,
+        "rank": 78,
         "change_pct": 2.44
+      }
+    ]
+  },
+  {
+    "sector": "通用设备",
+    "count": 5,
+    "avg_change": 7.47,
+    "stocks": [
+      {
+        "code": "600172",
+        "name": "黄河旋风",
+        "rank": 26,
+        "change_pct": 10.02
+      },
+      {
+        "code": "002639",
+        "name": "雪人集团",
+        "rank": 39,
+        "change_pct": 9.97
+      },
+      {
+        "code": "300179",
+        "name": "四方达",
+        "rank": 60,
+        "change_pct": 20.01
+      },
+      {
+        "code": "603667",
+        "name": "五洲新春",
+        "rank": 87,
+        "change_pct": -4.51
+      },
+      {
+        "code": "002131",
+        "name": "利欧股份",
+        "rank": 98,
+        "change_pct": 1.86
       }
     ]
   },
@@ -235,51 +272,20 @@
       {
         "code": "000657",
         "name": "中钨高新",
-        "rank": 53,
+        "rank": 50,
         "change_pct": 4.67
       },
       {
         "code": "600111",
         "name": "北方稀土",
-        "rank": 62,
+        "rank": 63,
         "change_pct": 3.07
       },
       {
         "code": "002149",
         "name": "西部材料",
-        "rank": 63,
+        "rank": 64,
         "change_pct": -0.84
-      }
-    ]
-  },
-  {
-    "sector": "通用设备",
-    "count": 4,
-    "avg_change": 8.87,
-    "stocks": [
-      {
-        "code": "600172",
-        "name": "黄河旋风",
-        "rank": 25,
-        "change_pct": 10.02
-      },
-      {
-        "code": "002639",
-        "name": "雪人集团",
-        "rank": 38,
-        "change_pct": 9.97
-      },
-      {
-        "code": "300179",
-        "name": "四方达",
-        "rank": 60,
-        "change_pct": 20.01
-      },
-      {
-        "code": "603667",
-        "name": "五洲新春",
-        "rank": 85,
-        "change_pct": -4.51
       }
     ]
   },
@@ -291,19 +297,19 @@
       {
         "code": "605006",
         "name": "山东玻纤",
-        "rank": 29,
+        "rank": 30,
         "change_pct": 8.46
       },
       {
         "code": "603256",
         "name": "宏和科技",
-        "rank": 37,
+        "rank": 36,
         "change_pct": 10.0
       },
       {
         "code": "600176",
         "name": "中国巨石",
-        "rank": 79,
+        "rank": 77,
         "change_pct": 4.35
       },
       {
@@ -322,19 +328,19 @@
       {
         "code": "301217",
         "name": "铜冠铜箔",
-        "rank": 26,
+        "rank": 25,
         "change_pct": 12.8
       },
       {
         "code": "600110",
         "name": "诺德股份",
-        "rank": 57,
+        "rank": 55,
         "change_pct": 10.04
       },
       {
         "code": "002709",
         "name": "天赐材料",
-        "rank": 68,
+        "rank": 69,
         "change_pct": -3.82
       }
     ]
@@ -347,19 +353,19 @@
       {
         "code": "002129",
         "name": "TCL中环",
-        "rank": 51,
+        "rank": 52,
         "change_pct": 4.73
       },
       {
         "code": "300274",
         "name": "阳光电源",
-        "rank": 72,
+        "rank": 71,
         "change_pct": 2.4
       },
       {
         "code": "603778",
         "name": "国晟科技",
-        "rank": 78,
+        "rank": 79,
         "change_pct": -5.07
       }
     ]
@@ -397,7 +403,7 @@
       {
         "code": "300285",
         "name": "国瓷材料",
-        "rank": 95,
+        "rank": 92,
         "change_pct": 8.93
       }
     ]
@@ -410,13 +416,13 @@
       {
         "code": "000988",
         "name": "华工科技",
-        "rank": 34,
+        "rank": 35,
         "change_pct": 2.72
       },
       {
         "code": "002957",
         "name": "科瑞技术",
-        "rank": 81,
+        "rank": 83,
         "change_pct": 9.99
       }
     ]
@@ -455,7 +461,7 @@
       {
         "code": "002297",
         "name": "博云新材",
-        "rank": 28,
+        "rank": 27,
         "change_pct": -9.75
       }
     ]
@@ -468,7 +474,7 @@
       {
         "code": "600186",
         "name": "莲花控股",
-        "rank": 39,
+        "rank": 38,
         "change_pct": -7.41
       }
     ]
@@ -507,7 +513,7 @@
       {
         "code": "300058",
         "name": "蓝色光标",
-        "rank": 56,
+        "rank": 51,
         "change_pct": 3.17
       }
     ]
@@ -520,7 +526,7 @@
       {
         "code": "600580",
         "name": "卧龙电驱",
-        "rank": 58,
+        "rank": 59,
         "change_pct": -6.48
       }
     ]
@@ -559,7 +565,7 @@
       {
         "code": "603618",
         "name": "杭电股份",
-        "rank": 71,
+        "rank": 72,
         "change_pct": 4.89
       }
     ]
@@ -572,7 +578,7 @@
       {
         "code": "600667",
         "name": "太极实业",
-        "rank": 83,
+        "rank": 84,
         "change_pct": -2.23
       }
     ]
@@ -585,7 +591,7 @@
       {
         "code": "002364",
         "name": "中恒电气",
-        "rank": 93,
+        "rank": 94,
         "change_pct": 2.87
       }
     ]
@@ -604,32 +610,6 @@
     ]
   },
   {
-    "sector": "风电设备",
-    "count": 1,
-    "avg_change": 1.36,
-    "stocks": [
-      {
-        "code": "002202",
-        "name": "金风科技",
-        "rank": 98,
-        "change_pct": 1.36
-      }
-    ]
-  },
-  {
-    "sector": "计算机设备",
-    "count": 1,
-    "avg_change": 0.33,
-    "stocks": [
-      {
-        "code": "000066",
-        "name": "中国长城",
-        "rank": 99,
-        "change_pct": 0.33
-      }
-    ]
-  },
-  {
     "sector": "医疗服务",
     "count": 1,
     "avg_change": 5.46,
@@ -637,7 +617,7 @@
       {
         "code": "002044",
         "name": "美年健康",
-        "rank": 100,
+        "rank": 99,
         "change_pct": 5.46
       }
     ]

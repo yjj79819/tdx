@@ -4,14 +4,14 @@
   "history": [
     {
       "date": "2026-05-28",
-      "rank": 3,
+      "rank": 4,
       "price": 8.06,
       "change_pct": 4.5396
     }
   ],
   "continuous_days": 1,
   "monthly_count": 1,
-  "avg_rank": 3.0,
-  "best_rank": 3,
+  "avg_rank": 4.0,
+  "best_rank": 4,
   "trend": "stable"
 }
