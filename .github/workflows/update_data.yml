@@ -2,12 +2,18 @@ name: 更新热度排名数据
 
 on:
   schedule:
-    # 开盘前 9:00（北京时间=UTC+8，即UTC 1:00）
-    - cron: '0 1 * * 1-5'
-    # 盘中每小时 10:00-14:00（北京时间，即UTC 2:00-6:00）
-    - cron: '0 2-6 * * 1-5'
-    # 收盘后 17:00（北京时间，即UTC 9:00）
-    - cron: '0 9 * * 1-5'
+    # === 开盘时段：每小时更新排名和板块 ===
+    # 9:00-15:00（UTC 1:00-7:00）
+    - cron: '0 1-7 * * 1-5'
+    
+    # === 收盘后：每2小时 ===
+    # 15:00-20:00（UTC 7:00-12:00）
+    - cron: '0 8,10,12 * * 1-5'
+    
+    # === 非交易时段：每4小时 ===
+    # 20:00-次日8:00
+    - cron: '0 13,17,21 * * 1-5'
+    - cron: '0 0 * * 1-5'
   push:
     branches:
       - main
@@ -17,15 +23,12 @@ on:
       - 'docs/data/**'
       - '.github/workflows/update_data.yml'
   workflow_dispatch:
-    # 允许手动触发
 
-# 设置 GITHUB_TOKEN 权限
 permissions:
   contents: write
   pages: write
   id-token: write
 
-# 允许一个并发部署
 concurrency:
   group: "pages"
   cancel-in-progress: false
@@ -37,7 +40,6 @@ jobs:
       - name: 检出代码
         uses: actions/checkout@v4
         with:
-          # 使用 GITHUB_TOKEN 进行身份验证，确保后续可以推送
           token: ${{ secrets.GITHUB_TOKEN }}
 
       - name: 设置 Python 3.11
@@ -54,37 +56,29 @@ jobs:
       - name: 运行数据导出脚本
         env:
           THS_COOKIE: ${{ secrets.THS_COOKIE }}
-        run: |
-          python export_data.py
+        run: python export_data.py
 
-      - name: 检查数据文件是否有变化
-        id: check_changes
+      - name: 检查数据变化
+        id: check
         run: |
           git add -A docs/data/
           if git diff --cached --quiet; then
-            echo "没有数据变更，跳过提交"
             echo "has_changes=false" >> $GITHUB_OUTPUT
           else
-            echo "检测到数据变更"
             echo "has_changes=true" >> $GITHUB_OUTPUT
           fi
 
-      - name: 提交并推送数据更新
-        if: steps.check_changes.outputs.has_changes == 'true'
+      - name: 提交并推送
+        if: steps.check.outputs.has_changes == 'true'
         run: |
           git config --local user.email "github-actions[bot]@users.noreply.github.com"
           git config --local user.name "github-actions[bot]"
-          git commit -m "chore(data): 自动更新热度排名数据 $(date +'%Y-%m-%d %H:%M')"
+          git commit -m "chore(data): 更新热度排名数据 $(date +'%Y-%m-%d %H:%M')"
           git push
 
-      - name: 设置 Pages
+      - name: 部署 Pages
         uses: actions/configure-pages@v4
-
-      - name: 上传 Pages 产物
-        uses: actions/upload-pages-artifact@v3
+      - uses: actions/upload-pages-artifact@v3
         with:
           path: './docs'
-
-      - name: 部署到 GitHub Pages
-        id: deployment
-        uses: actions/deploy-pages@v4
+      - uses: actions/deploy-pages@v4
