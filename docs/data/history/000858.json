@@ -1,141 +1,141 @@
 {
-  "code": "002297",
-  "name": "博云新材",
+  "code": "000858",
+  "name": "五粮液",
   "history": [
     {
       "date": "2026-04-27",
-      "rank": 3
+      "rank": 128
     },
     {
       "date": "2026-04-28",
-      "rank": 4
+      "rank": 75
     },
     {
       "date": "2026-04-29",
-      "rank": 4
+      "rank": 18
     },
     {
       "date": "2026-04-30",
-      "rank": 10
+      "rank": 1
     },
     {
       "date": "2026-05-01",
-      "rank": 8
+      "rank": 1
     },
     {
       "date": "2026-05-02",
-      "rank": 11
+      "rank": 2
     },
     {
       "date": "2026-05-03",
-      "rank": 10
+      "rank": 5
     },
     {
       "date": "2026-05-04",
-      "rank": 13
+      "rank": 10
     },
     {
       "date": "2026-05-05",
-      "rank": 8
+      "rank": 1
     },
     {
       "date": "2026-05-06",
-      "rank": 25
+      "rank": 51
     },
     {
       "date": "2026-05-07",
-      "rank": 26
+      "rank": 127
     },
     {
       "date": "2026-05-08",
-      "rank": 42
+      "rank": 89
     },
     {
       "date": "2026-05-09",
-      "rank": 33
+      "rank": 116
     },
     {
       "date": "2026-05-10",
-      "rank": 43
+      "rank": 170
     },
     {
       "date": "2026-05-11",
-      "rank": 52
+      "rank": 142
     },
     {
       "date": "2026-05-12",
-      "rank": 12
+      "rank": 98
     },
     {
       "date": "2026-05-13",
-      "rank": 56
+      "rank": 76
     },
     {
       "date": "2026-05-14",
-      "rank": 41
+      "rank": 97
     },
     {
       "date": "2026-05-15",
-      "rank": 43
+      "rank": 54
     },
     {
       "date": "2026-05-16",
-      "rank": 49
+      "rank": 96
     },
     {
       "date": "2026-05-17",
-      "rank": 35
+      "rank": 87
     },
     {
       "date": "2026-05-18",
-      "rank": 60
+      "rank": 133
     },
     {
       "date": "2026-05-19",
-      "rank": 129
+      "rank": 134
     },
     {
       "date": "2026-05-20",
-      "rank": 22
+      "rank": 153
     },
     {
       "date": "2026-05-21",
-      "rank": 33
+      "rank": 117
     },
     {
       "date": "2026-05-22",
-      "rank": 41
+      "rank": 74
     },
     {
       "date": "2026-05-23",
-      "rank": 48
+      "rank": 107
     },
     {
       "date": "2026-05-24",
-      "rank": 26
+      "rank": 176
     },
     {
       "date": "2026-05-25",
-      "rank": 28
+      "rank": 171
     },
     {
       "date": "2026-05-26",
-      "rank": 55
+      "rank": 65
     },
     {
       "date": "2026-05-27",
-      "rank": 14
+      "rank": 113
     },
     {
       "date": "2026-05-28",
-      "rank": 14,
-      "price": 22.9,
-      "change_pct": -3.3347
+      "rank": 99,
+      "price": 81.49,
+      "change_pct": -2.8609
     }
   ],
   "continuous_days": 32,
   "monthly_count": 32,
-  "avg_rank": 31.2,
-  "best_rank": 3,
+  "avg_rank": 87.1,
+  "best_rank": 1,
   "trend": "stable"
 }

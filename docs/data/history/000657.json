@@ -124,7 +124,7 @@
     },
     {
       "date": "2026-05-27",
-      "rank": 56
+      "rank": 54
     },
     {
       "date": "2026-05-28",
@@ -136,6 +136,6 @@
   "continuous_days": 32,
   "monthly_count": 32,
   "avg_rank": 148.0,
-  "best_rank": 56,
+  "best_rank": 54,
   "trend": "stable"
 }
