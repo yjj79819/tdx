@@ -3,10 +3,6 @@
   "name": "蔚蓝锂芯",
   "history": [
     {
-      "date": "2026-04-26",
-      "rank": 468
-    },
-    {
       "date": "2026-04-27",
       "rank": 473
     },
@@ -124,12 +120,22 @@
     },
     {
       "date": "2026-05-26",
-      "rank": 46
+      "rank": 77
+    },
+    {
+      "date": "2026-05-27",
+      "rank": 78
+    },
+    {
+      "date": "2026-05-28",
+      "rank": 82,
+      "price": 22.78,
+      "change_pct": 1.92
     }
   ],
-  "continuous_days": 31,
-  "monthly_count": 31,
-  "avg_rank": 323.4,
+  "continuous_days": 32,
+  "monthly_count": 32,
+  "avg_rank": 304.7,
   "best_rank": 46,
   "trend": "stable"
 }

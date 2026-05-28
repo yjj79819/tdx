@@ -3,10 +3,6 @@
   "name": "再升科技",
   "history": [
     {
-      "date": "2026-04-26",
-      "rank": 37
-    },
-    {
       "date": "2026-04-27",
       "rank": 22
     },
@@ -128,14 +124,18 @@
     },
     {
       "date": "2026-05-27",
-      "rank": 4,
+      "rank": 9
+    },
+    {
+      "date": "2026-05-28",
+      "rank": 10,
       "price": 21.39,
       "change_pct": 6.5239
     }
   ],
   "continuous_days": 32,
   "monthly_count": 32,
-  "avg_rank": 31.3,
-  "best_rank": 4,
+  "avg_rank": 30.7,
+  "best_rank": 5,
   "trend": "stable"
 }

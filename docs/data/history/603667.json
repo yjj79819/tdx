@@ -3,10 +3,6 @@
   "name": "五洲新春",
   "history": [
     {
-      "date": "2026-04-26",
-      "rank": 370
-    },
-    {
       "date": "2026-04-27",
       "rank": 315
     },
@@ -124,18 +120,22 @@
     },
     {
       "date": "2026-05-26",
-      "rank": 64
+      "rank": 59
     },
     {
       "date": "2026-05-27",
-      "rank": 52,
+      "rank": 58
+    },
+    {
+      "date": "2026-05-28",
+      "rank": 78,
       "price": 78.05,
       "change_pct": -9.9977
     }
   ],
   "continuous_days": 32,
   "monthly_count": 32,
-  "avg_rank": 191.8,
+  "avg_rank": 182.7,
   "best_rank": 19,
   "trend": "stable"
 }

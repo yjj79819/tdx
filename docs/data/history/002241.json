@@ -3,10 +3,6 @@
   "name": "歌尔股份",
   "history": [
     {
-      "date": "2026-04-26",
-      "rank": 130
-    },
-    {
       "date": "2026-04-27",
       "rank": 239
     },
@@ -124,18 +120,22 @@
     },
     {
       "date": "2026-05-26",
-      "rank": 14
+      "rank": 15
     },
     {
       "date": "2026-05-27",
+      "rank": 15
+    },
+    {
+      "date": "2026-05-28",
       "rank": 17,
       "price": 28.27,
-      "change_pct": 3.5531
+      "change_pct": 3.55
     }
   ],
   "continuous_days": 32,
   "monthly_count": 32,
-  "avg_rank": 225.8,
-  "best_rank": 14,
+  "avg_rank": 222.2,
+  "best_rank": 15,
   "trend": "stable"
 }

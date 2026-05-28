@@ -1,0 +1,29 @@
+{
+  "code": "300291",
+  "name": "百纳千成",
+  "history": [
+    {
+      "date": "2026-04-27",
+      "rank": 1867
+    },
+    {
+      "date": "2026-05-26",
+      "rank": 266
+    },
+    {
+      "date": "2026-05-27",
+      "rank": 246
+    },
+    {
+      "date": "2026-05-28",
+      "rank": 97,
+      "price": 6.71,
+      "change_pct": 20.04
+    }
+  ],
+  "continuous_days": 4,
+  "monthly_count": 4,
+  "avg_rank": 619.0,
+  "best_rank": 97,
+  "trend": "stable"
+}

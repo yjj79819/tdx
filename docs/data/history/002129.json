@@ -3,10 +3,6 @@
   "name": "TCL中环",
   "history": [
     {
-      "date": "2026-04-26",
-      "rank": 618
-    },
-    {
       "date": "2026-04-27",
       "rank": 654
     },
@@ -124,18 +120,22 @@
     },
     {
       "date": "2026-05-26",
-      "rank": 95
+      "rank": 72
     },
     {
       "date": "2026-05-27",
-      "rank": 40,
+      "rank": 70
+    },
+    {
+      "date": "2026-05-28",
+      "rank": 24,
       "price": 9.93,
-      "change_pct": 9.9668
+      "change_pct": 9.97
     }
   ],
   "continuous_days": 32,
   "monthly_count": 32,
-  "avg_rank": 454.1,
-  "best_rank": 40,
+  "avg_rank": 435.8,
+  "best_rank": 24,
   "trend": "stable"
 }

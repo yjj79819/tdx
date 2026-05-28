@@ -3,10 +3,6 @@
   "name": "晶方科技",
   "history": [
     {
-      "date": "2026-04-26",
-      "rank": 356
-    },
-    {
       "date": "2026-04-27",
       "rank": 552
     },
@@ -124,10 +120,14 @@
     },
     {
       "date": "2026-05-26",
-      "rank": 21
+      "rank": 28
     },
     {
       "date": "2026-05-27",
+      "rank": 28
+    },
+    {
+      "date": "2026-05-28",
       "rank": 36,
       "price": 43.01,
       "change_pct": -4.6341
@@ -135,7 +135,7 @@
   ],
   "continuous_days": 32,
   "monthly_count": 32,
-  "avg_rank": 393.1,
+  "avg_rank": 383.1,
   "best_rank": 15,
   "trend": "stable"
 }

@@ -497,5 +497,103 @@
     "win_count": 4,
     "total": 8,
     "rank_improved": 1
+  },
+  {
+    "review_date": "2026-05-28",
+    "target_date": "2026-05-27",
+    "results": [
+      {
+        "code": "600396",
+        "name": "华电辽能",
+        "prev_rank": 6,
+        "prev_price": 18.57,
+        "today_rank": "-",
+        "today_price": 18.57,
+        "price_change": 0.0,
+        "still_in_top50": false,
+        "rank_change": 0
+      },
+      {
+        "code": "000725",
+        "name": "京东方A",
+        "prev_rank": 5,
+        "prev_price": 5.72,
+        "today_rank": 5,
+        "today_price": 5.72,
+        "price_change": 0.0,
+        "still_in_top50": true,
+        "rank_change": 0
+      },
+      {
+        "code": "600584",
+        "name": "长电科技",
+        "prev_rank": 1,
+        "prev_price": 86.16,
+        "today_rank": "-",
+        "today_price": 86.16,
+        "price_change": 0.0,
+        "still_in_top50": false,
+        "rank_change": 0
+      },
+      {
+        "code": "600578",
+        "name": "京能电力",
+        "prev_rank": 10,
+        "prev_price": 9.7,
+        "today_rank": 12,
+        "today_price": 9.7,
+        "price_change": 0.0,
+        "still_in_top50": true,
+        "rank_change": -2
+      },
+      {
+        "code": "002185",
+        "name": "华天科技",
+        "prev_rank": 2,
+        "prev_price": 20.15,
+        "today_rank": "-",
+        "today_price": 20.15,
+        "price_change": 0.0,
+        "still_in_top50": false,
+        "rank_change": 0
+      },
+      {
+        "code": "600726",
+        "name": "华电能源",
+        "prev_rank": 15,
+        "prev_price": 8.37,
+        "today_rank": 9,
+        "today_price": 8.37,
+        "price_change": 0.0,
+        "still_in_top50": true,
+        "rank_change": 6
+      },
+      {
+        "code": "002156",
+        "name": "通富微电",
+        "prev_rank": 8,
+        "prev_price": 71.52,
+        "today_rank": "-",
+        "today_price": 71.52,
+        "price_change": 0.0,
+        "still_in_top50": false,
+        "rank_change": 0
+      },
+      {
+        "code": "000636",
+        "name": "风华高科",
+        "prev_rank": 16,
+        "prev_price": 44.22,
+        "today_rank": "-",
+        "today_price": 44.22,
+        "price_change": 0.0,
+        "still_in_top50": false,
+        "rank_change": 0
+      }
+    ],
+    "win_rate": 0.0,
+    "win_count": 0,
+    "total": 8,
+    "rank_improved": 1
   }
 ]
