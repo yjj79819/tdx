@@ -105,20 +105,61 @@ git add .; git commit -m "msg"; git push
 
 ---
 
-## 四、自我进化原则
+## 四、GitHub Actions 手动触发
 
-### 4.1 核心原则
+### 4.1 浏览器操作触发
+
+**URL格式**：`https://github.com/用户名/仓库/actions/workflows/工作流文件名.yml`
+
+**操作步骤**：
+1. 导航到工作流页面
+2. 点击 "Run workflow" 按钮
+3. 确认触发
+
+### 4.2 GitHub CLI 触发
+
+```bash
+# 检查是否安装
+gh auth status
+
+# 触发工作流
+gh workflow run "工作流名称" --repo 用户名/仓库名
+```
+
+### 4.3 API 触发
+
+需要 Personal Access Token：
+```bash
+curl -X POST \
+  -H "Authorization: token YOUR_TOKEN" \
+  -H "Accept: application/vnd.github+json" \
+  https://api.github.com/repos/用户名/仓库/actions/workflows/工作流.yml/dispatches \
+  -d '{"ref":"main"}'
+```
+
+---
+
+## 五、自我进化原则
+
+### 5.1 核心原则
 
 1. **自己能做的事，不让用户代替**
 2. **先尝试工具，失败再找替代方案**
 3. **记录每次失败的原因和解决方案**
 
-### 4.2 工具优先级
+### 5.2 工具优先级
 
 1. 直接工具调用（git、Write、Read等）
 2. 浏览器操作（browser_*）
-3. 命令行执行（RunCommand）
-4. 请求用户协助（最后手段）
+3. GitHub CLI (gh)
+4. GitHub API (curl/Python)
+5. 请求用户协助（最后手段）
+
+### 5.3 已知限制
+
+- 浏览器工具可能在某些情况下不可用
+- GitHub CLI 可能未安装
+- API触发需要 Personal Access Token
 
 ---
 
