@@ -61,6 +61,103 @@ def make_headers():
     }
 
 
+# ============ 问财条件模板 ============
+
+def build_iwencai_query(conditions: dict) -> str:
+    """
+    根据条件构建问财查询语句
+    
+    Args:
+        conditions: {
+            "hot_range": 300,           # 热度范围
+            "new_enter": False,         # 是否新进入
+            "price_max": 13,            # 最高股价
+            "exclude_st": True,         # 排除ST
+            "exclude_kcb": True,        # 排除科创板
+            "exclude_bjb": True,        # 排除北交所
+            "exclude_new": 60,          # 排除新股天数
+            "exclude_loss": True,       # 排除亏损
+        }
+    
+    Returns:
+        问财查询语句
+    """
+    parts = []
+    
+    # 热度范围
+    hot_range = conditions.get("hot_range", 100)
+    if conditions.get("new_enter"):
+        parts.append(f"新进入热门股票前{hot_range}名")
+    else:
+        parts.append(f"热门股票前{hot_range}名")
+    
+    # 股价范围
+    if conditions.get("price_max"):
+        parts.append(f"股价低于{conditions['price_max']}元")
+    
+    # 排除条件
+    if conditions.get("exclude_st", True):
+        parts.append("非ST")
+    if conditions.get("exclude_kcb", True):
+        parts.append("非科创板")
+    if conditions.get("exclude_bjb", True):
+        parts.append("非北交所")
+    if conditions.get("exclude_new"):
+        parts.append(f"上市超过{conditions['exclude_new']}天")
+    if conditions.get("exclude_loss", True):
+        parts.append("市盈率大于0")
+    
+    return "；".join(parts)
+
+
+def fetch_iwencai_hot(conditions: dict = None):
+    """
+    通过问财获取热门股票（支持多条件筛选）
+    
+    Args:
+        conditions: 筛选条件字典，None则使用默认条件
+    
+    Returns:
+        股票列表
+    """
+    # 默认条件
+    if conditions is None:
+        conditions = {
+            "hot_range": 100,
+            "price_max": 20,
+            "exclude_st": True,
+            "exclude_kcb": True,
+            "exclude_bjb": True,
+            "exclude_new": 60,
+            "exclude_loss": True,
+        }
+    
+    query = build_iwencai_query(conditions)
+    print(f"  问财查询: {query}")
+    
+    try:
+        from urllib.parse import quote
+        url = f"https://www.iwencai.com/unifiedwap?question={quote(query)}"
+        
+        headers = {
+            'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36',
+            'Accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+            'Referer': 'https://www.iwencai.com/',
+        }
+        
+        resp = requests.get(url, headers=headers, timeout=30)
+        
+        # 问财返回的是HTML，需要解析
+        # 这里简化处理，返回空列表，实际使用需要解析HTML或使用问财API
+        print(f"  问财返回状态: {resp.status_code}")
+        print(f"  提示: 问财需要浏览器解析，建议使用前端直接调用")
+        return []
+        
+    except Exception as e:
+        print(f"  ERROR 问财查询失败: {e}")
+        return []
+
+
 # ============ 数据获取 ============
 
 def fetch_hot_rank():

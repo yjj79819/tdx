@@ -196,6 +196,7 @@
                 <button class="nav-tab" onclick="switchTab('sector', this)">📊 板块&行业</button>
                 <button class="nav-tab" onclick="switchTab('concept', this)">🧰 概念分析</button>
                 <button class="nav-tab" onclick="switchTab('recommend', this)">⭐ 推荐股票</button>
+                <button class="nav-tab" onclick="switchTab('iwencai', this)">🔍 问财选股</button>
                 <button class="nav-tab" onclick="switchTab('review', this)">📋 每日复盘</button>
             </div>
             <div class="topbar-info">
@@ -268,8 +269,50 @@
             status.textContent = '🔄 触发中...';
             // GitHub Pages版：跳转到Actions页面手动触发
             window.open('https://github.com/yjj79819/tdx/actions/workflows/update_data.yml', '_blank');
-            status.textContent = '⏰ 已打开Actions页面，请点击Run workflow';
-            setTimeout(function() { status.textContent = '⏰ 9点/盘中每小时/收盘后'; }, 5000);
+            setTimeout(function() { status.textContent = '⏰ 9点/盘中每小时/收盘后'; }, 2000);
+        }
+
+        // ========== 问财选股功能 ==========
+        function buildIwencaiQuery() {
+            var parts = [];
+            
+            // 热度范围
+            var hotRange = document.getElementById('iwHotRange').value;
+            var newEnter = document.getElementById('iwNewEnter').checked;
+            if (newEnter) {
+                parts.push('新进入热门股票前' + hotRange + '名');
+            } else {
+                parts.push('热门股票前' + hotRange + '名');
+            }
+            
+            // 股价范围
+            var priceMax = document.getElementById('iwPriceMax').value;
+            parts.push('股价低于' + priceMax + '元');
+            
+            // 排除条件
+            if (document.getElementById('iwExcludeSt').checked) parts.push('非ST');
+            if (document.getElementById('iwExcludeKcb').checked) parts.push('非科创板');
+            if (document.getElementById('iwExcludeBjb').checked) parts.push('非北交所');
+            if (document.getElementById('iwExcludeNew').checked) parts.push('上市超过60天');
+            if (document.getElementById('iwExcludeLoss').checked) parts.push('市盈率大于0');
+            
+            return parts.join('；');
+        }
+
+        function executeIwencaiQuery() {
+            var query = buildIwencaiQuery();
+            var resultDiv = document.getElementById('iwencaiResult');
+            
+            resultDiv.innerHTML = '<h4 style="margin-bottom:10px;">生成的查询语句：</h4>';
+            resultDiv.innerHTML += '<div style="background:var(--bg-primary);padding:15px;border-radius:4px;margin-bottom:15px;font-family:monospace;">' + query + '</div>';
+            resultDiv.innerHTML += '<p style="margin-bottom:10px;">点击下方按钮在问财中执行查询：</p>';
+            resultDiv.innerHTML += '<a href="https://www.iwencai.com/screener" target="_blank" onclick="setTimeout(function(){var w=window.open(\'https://www.iwencai.com/screener/result?w=' + encodeURIComponent(query) + '\',\'_blank\');},100)" style="display:inline-block;background:var(--accent-primary);color:#fff;padding:10px 20px;border-radius:4px;text-decoration:none;">🔍 在问财中查询</a>';
+        }
+
+        function openIwencaiDirect() {
+            var query = buildIwencaiQuery();
+            var url = 'https://www.iwencai.com/screener/result?w=' + encodeURIComponent(query);
+            window.open(url, '_blank');
         }
 
         function switchTab(tab, el) {
@@ -515,7 +558,99 @@
                 if (data.length === 0) { content.innerHTML = '<div class="loading">暂无推荐数据</div>'; return; }
                 content.innerHTML = renderRecommendTable(data[0], data[1]);
             } else if (tab === 'review') {
-                content.innerHTML = '<div class="loading">复盘数据加载中...</div>';
+                if (!data || data.length === 0) { content.innerHTML = '<div class="loading">暂无复盘数据</div>'; return; }
+                var html = '<div style="margin-bottom:16px"><h3 style="color:var(--accent-primary);margin-bottom:8px">📋 每日复盘</h3>';
+                data.forEach(function(review) {
+                    html += '<div style="background:var(--bg-card);border-radius:8px;padding:15px;margin-bottom:15px;">';
+                    html += '<div style="display:flex;justify-content:space-between;align-items:center;margin-bottom:10px;">';
+                    html += '<h4 style="color:var(--accent-primary)">' + review.review_date + ' 复盘</h4>';
+                    html += '<span style="font-size:12px;color:var(--text-secondary)">目标日期: ' + review.target_date + '</span>';
+                    html += '</div>';
+                    if (review.results && review.results.length > 0) {
+                        html += '<div style="margin-bottom:10px;font-size:13px;">';
+                        html += '<span style="color:var(--accent-success)">胜率: ' + review.win_rate + '%</span> | ';
+                        html += '<span>上涨: ' + review.win_count + '/' + review.total + '</span> | ';
+                        html += '<span>排名提升: ' + review.rank_improved + '只</span>';
+                        html += '</div>';
+                        html += '<div class="grid-table" style="grid-template-columns: 0.5fr 1.5fr 1fr 1fr 1fr 1fr 1fr;">';
+                        ['股票', '昨日排名', '今日排名', '昨日价格', '今日价格', '涨跌', '排名变化'].forEach(function(l) { html += '<div class="grid-header">' + l + '</div>'; });
+                        review.results.forEach(function(item) {
+                            var pc = item.price_change > 0 ? 'change-up' : (item.price_change < 0 ? 'change-down' : 'change-neutral');
+                            var pt = item.price_change > 0 ? '+' + item.price_change.toFixed(2) + '%' : item.price_change.toFixed(2) + '%';
+                            var rc = item.rank_change > 0 ? 'change-up' : (item.rank_change < 0 ? 'change-down' : 'change-neutral');
+                            var rt = item.rank_change > 0 ? '+' + item.rank_change : item.rank_change;
+                            html += '<div class="grid-cell"><b>' + item.name + '</b><br><small>' + item.code + '</small></div>';
+                            html += '<div class="grid-cell">' + item.prev_rank + '</div>';
+                            html += '<div class="grid-cell">' + (item.today_rank || '-') + '</div>';
+                            html += '<div class="grid-cell">¥' + item.prev_price.toFixed(2) + '</div>';
+                            html += '<div class="grid-cell">¥' + (item.today_price || '-').toFixed(2) + '</div>';
+                            html += '<div class="grid-cell ' + pc + '">' + pt + '</div>';
+                            html += '<div class="grid-cell ' + rc + '">' + rt + '</div>';
+                        });
+                        html += '</div>';
+                    } else {
+                        html += '<div style="color:var(--text-secondary);font-size:13px;">暂无复盘记录</div>';
+                    }
+                    html += '</div>';
+                });
+                html += '</div>';
+                content.innerHTML = html;
+            } else if (tab === 'iwencai') {
+                // 问财选股页面
+                var html = '<div style="padding:20px;max-width:1200px;margin:0 auto;">';
+                html += '<h2 style="color:var(--accent-primary);margin-bottom:20px;">🔍 问财智能选股</h2>';
+                
+                // 条件选择器
+                html += '<div style="background:var(--bg-card);border-radius:8px;padding:20px;margin-bottom:20px;">';
+                html += '<h3 style="margin-bottom:15px;">筛选条件</h3>';
+                
+                // 热度范围
+                html += '<div style="margin-bottom:15px;">';
+                html += '<label style="display:block;margin-bottom:5px;">热度范围：</label>';
+                html += '<select id="iwHotRange" style="background:var(--bg-primary);color:var(--text-primary);border:1px solid var(--border-color);border-radius:4px;padding:8px 12px;margin-right:10px;">';
+                html += '<option value="50">前50名</option>';
+                html += '<option value="100" selected>前100名</option>';
+                html += '<option value="200">前200名</option>';
+                html += '<option value="300">前300名</option>';
+                html += '</select>';
+                html += '<label style="margin-left:20px;"><input type="checkbox" id="iwNewEnter"> 新进入热度榜</label>';
+                html += '</div>';
+                
+                // 股价范围
+                html += '<div style="margin-bottom:15px;">';
+                html += '<label style="display:block;margin-bottom:5px;">股价范围：</label>';
+                html += '<select id="iwPriceMax" style="background:var(--bg-primary);color:var(--text-primary);border:1px solid var(--border-color);border-radius:4px;padding:8px 12px;">';
+                html += '<option value="10">低于10元</option>';
+                html += '<option value="13">低于13元</option>';
+                html += '<option value="15">低于15元</option>';
+                html += '<option value="20" selected>低于20元</option>';
+                html += '<option value="30">低于30元</option>';
+                html += '</select>';
+                html += '</div>';
+                
+                // 排除条件
+                html += '<div style="margin-bottom:15px;">';
+                html += '<label style="display:block;margin-bottom:5px;">排除条件：</label>';
+                html += '<label style="margin-right:15px;"><input type="checkbox" id="iwExcludeSt" checked> ST股</label>';
+                html += '<label style="margin-right:15px;"><input type="checkbox" id="iwExcludeKcb" checked> 科创板</label>';
+                html += '<label style="margin-right:15px;"><input type="checkbox" id="iwExcludeBjb" checked> 北交所</label>';
+                html += '<label style="margin-right:15px;"><input type="checkbox" id="iwExcludeNew" checked> 新股(60天)</label>';
+                html += '<label><input type="checkbox" id="iwExcludeLoss" checked> 亏损股</label>';
+                html += '</div>';
+                
+                // 查询按钮
+                html += '<button onclick="executeIwencaiQuery()" style="background:var(--accent-primary);color:#fff;border:none;border-radius:4px;padding:10px 20px;font-size:14px;cursor:pointer;margin-right:10px;">🔍 执行查询</button>';
+                html += '<button onclick="openIwencaiDirect()" style="background:#666;color:#fff;border:none;border-radius:4px;padding:10px 20px;font-size:14px;cursor:pointer;">🔗 打开问财</button>';
+                
+                html += '</div>';
+                
+                // 查询结果显示区
+                html += '<div id="iwencaiResult" style="background:var(--bg-card);border-radius:8px;padding:20px;">';
+                html += '<p style="color:var(--text-secondary);">点击"执行查询"生成问财查询语句，或直接"打开问财"进行筛选</p>';
+                html += '</div>';
+                
+                html += '</div>';
+                content.innerHTML = html;
             }
         }
 
@@ -569,6 +704,13 @@
                     tabDataCache[cacheKey] = data; tabLoading[cacheKey] = false;
                     renderTabContent('review', data);
                 }).catch(function() { tabLoading[cacheKey] = false; content.innerHTML = '<div class="loading">加载失败</div>'; });
+                return;
+            }
+
+            if (currentTab === 'iwencai') {
+                // 问财选股不需要加载数据，直接渲染
+                tabLoading[cacheKey] = false;
+                renderTabContent('iwencai', null);
                 return;
             }
 
