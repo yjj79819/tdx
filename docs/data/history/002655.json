@@ -3,10 +3,6 @@
   "name": "共达电声",
   "history": [
     {
-      "date": "2026-04-27",
-      "rank": 119
-    },
-    {
       "date": "2026-04-28",
       "rank": 78
     },
@@ -124,18 +120,18 @@
     },
     {
       "date": "2026-05-27",
-      "rank": 62
+      "rank": 61
     },
     {
       "date": "2026-05-28",
-      "rank": 46,
+      "rank": 62,
       "price": 42.57,
       "change_pct": 9.4907
     }
   ],
-  "continuous_days": 32,
-  "monthly_count": 32,
-  "avg_rank": 191.2,
+  "continuous_days": 31,
+  "monthly_count": 31,
+  "avg_rank": 194.0,
   "best_rank": 23,
   "trend": "stable"
 }

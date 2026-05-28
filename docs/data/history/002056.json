@@ -3,10 +3,6 @@
   "name": "横店东磁",
   "history": [
     {
-      "date": "2026-04-27",
-      "rank": 1707
-    },
-    {
       "date": "2026-04-28",
       "rank": 1078
     },
@@ -124,18 +120,18 @@
     },
     {
       "date": "2026-05-27",
-      "rank": 161
+      "rank": 143
     },
     {
       "date": "2026-05-28",
-      "rank": 100,
+      "rank": 76,
       "price": 26.97,
       "change_pct": 9.9918
     }
   ],
-  "continuous_days": 32,
-  "monthly_count": 32,
-  "avg_rank": 1113.4,
-  "best_rank": 100,
+  "continuous_days": 31,
+  "monthly_count": 31,
+  "avg_rank": 1092.9,
+  "best_rank": 76,
   "trend": "stable"
 }

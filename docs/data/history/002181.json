@@ -3,10 +3,6 @@
   "name": "粤传媒",
   "history": [
     {
-      "date": "2026-04-27",
-      "rank": 93
-    },
-    {
       "date": "2026-04-28",
       "rank": 69
     },
@@ -124,18 +120,18 @@
     },
     {
       "date": "2026-05-27",
-      "rank": 35
+      "rank": 36
     },
     {
       "date": "2026-05-28",
-      "rank": 27,
+      "rank": 58,
       "price": 16.0,
       "change_pct": 6.6667
     }
   ],
-  "continuous_days": 32,
-  "monthly_count": 32,
-  "avg_rank": 53.2,
+  "continuous_days": 31,
+  "monthly_count": 31,
+  "avg_rank": 53.0,
   "best_rank": 7,
   "trend": "stable"
 }

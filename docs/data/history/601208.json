@@ -3,10 +3,6 @@
   "name": "东材科技",
   "history": [
     {
-      "date": "2026-04-27",
-      "rank": 347
-    },
-    {
       "date": "2026-04-28",
       "rank": 115
     },
@@ -124,18 +120,18 @@
     },
     {
       "date": "2026-05-27",
-      "rank": 138
+      "rank": 112
     },
     {
       "date": "2026-05-28",
-      "rank": 80,
+      "rank": 87,
       "price": 54.43,
-      "change_pct": 4.17
+      "change_pct": 4.1722
     }
   ],
-  "continuous_days": 32,
-  "monthly_count": 32,
-  "avg_rank": 171.9,
+  "continuous_days": 31,
+  "monthly_count": 31,
+  "avg_rank": 165.6,
   "best_rank": 68,
   "trend": "stable"
 }

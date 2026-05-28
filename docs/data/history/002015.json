@@ -3,10 +3,6 @@
   "name": "协鑫能科",
   "history": [
     {
-      "date": "2026-04-27",
-      "rank": 49
-    },
-    {
       "date": "2026-04-28",
       "rank": 91
     },
@@ -124,18 +120,18 @@
     },
     {
       "date": "2026-05-27",
-      "rank": 55
+      "rank": 50
     },
     {
       "date": "2026-05-28",
-      "rank": 43,
+      "rank": 57,
       "price": 23.0,
       "change_pct": 5.9908
     }
   ],
-  "continuous_days": 32,
-  "monthly_count": 32,
-  "avg_rank": 72.2,
+  "continuous_days": 31,
+  "monthly_count": 31,
+  "avg_rank": 73.2,
   "best_rank": 7,
   "trend": "stable"
 }

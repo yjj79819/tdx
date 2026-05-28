@@ -1,97 +1,93 @@
 {
-  "code": "000509",
-  "name": "华塑控股",
+  "code": "002669",
+  "name": "康达新材",
   "history": [
     {
-      "date": "2026-05-06",
-      "rank": 562
-    },
-    {
       "date": "2026-05-07",
-      "rank": 514
+      "rank": 1273
     },
     {
       "date": "2026-05-08",
-      "rank": 667
+      "rank": 655
     },
     {
       "date": "2026-05-09",
-      "rank": 512
+      "rank": 589
     },
     {
       "date": "2026-05-10",
-      "rank": 1247
-    },
-    {
-      "date": "2026-05-11",
-      "rank": 1641
+      "rank": 1545
     },
     {
       "date": "2026-05-12",
-      "rank": 1496
+      "rank": 1794
+    },
+    {
+      "date": "2026-05-14",
+      "rank": 834
     },
     {
       "date": "2026-05-15",
-      "rank": 1194
+      "rank": 737
     },
     {
       "date": "2026-05-16",
-      "rank": 1136
+      "rank": 779
     },
     {
       "date": "2026-05-17",
-      "rank": 1230
+      "rank": 1374
     },
     {
       "date": "2026-05-18",
-      "rank": 1438
+      "rank": 1611
     },
     {
       "date": "2026-05-19",
-      "rank": 1724
+      "rank": 1507
     },
     {
       "date": "2026-05-20",
-      "rank": 1021
+      "rank": 1135
     },
     {
       "date": "2026-05-21",
-      "rank": 1282
+      "rank": 958
     },
     {
       "date": "2026-05-22",
-      "rank": 1051
+      "rank": 571
     },
     {
       "date": "2026-05-23",
-      "rank": 1039
+      "rank": 477
     },
     {
       "date": "2026-05-24",
-      "rank": 433
+      "rank": 961
     },
     {
       "date": "2026-05-25",
-      "rank": 198
+      "rank": 1127
     },
     {
       "date": "2026-05-26",
-      "rank": 52
+      "rank": 393
     },
     {
       "date": "2026-05-27",
-      "rank": 58
+      "rank": 235
     },
     {
       "date": "2026-05-28",
-      "rank": 16,
-      "price": 5.73,
-      "change_pct": 9.9808
+      "rank": 55,
+      "price": 17.57,
+      "change_pct": 10.0188
     }
   ],
-  "continuous_days": 21,
-  "monthly_count": 21,
-  "avg_rank": 881.5,
-  "best_rank": 16,
+  "continuous_days": 20,
+  "monthly_count": 20,
+  "avg_rank": 930.5,
+  "best_rank": 55,
   "trend": "stable"
 }

@@ -3,10 +3,6 @@
   "name": "生益科技",
   "history": [
     {
-      "date": "2026-04-27",
-      "rank": 186
-    },
-    {
       "date": "2026-04-28",
       "rank": 159
     },
@@ -128,14 +124,14 @@
     },
     {
       "date": "2026-05-28",
-      "rank": 38,
+      "rank": 34,
       "price": 135.64,
       "change_pct": 2.9447
     }
   ],
-  "continuous_days": 32,
-  "monthly_count": 32,
-  "avg_rank": 165.3,
+  "continuous_days": 31,
+  "monthly_count": 31,
+  "avg_rank": 164.5,
   "best_rank": 21,
   "trend": "stable"
 }
