@@ -298,8 +298,13 @@ def build_top50_data(stocks, sector_map, price_map):
         
         # ========== 硬性过滤：20元以下、非ST、非亏损 ==========
         is_st = name.startswith('ST') or name.startswith('*ST')
-        # 排除亏损股（pe_ratio为0、负数或None视为亏损或无法判断）
-        is_loss = pe_ratio is None or pe_ratio == 0 or pe_ratio < 0
+        # 排除亏损股：
+        # 1. 如果有pe_ratio数据，pe_ratio<=0视为亏损
+        # 2. 如果没有pe_ratio数据，通过涨跌幅和名称判断
+        if pe_ratio is not None:
+            is_loss = pe_ratio <= 0  # pe_ratio为0或负数视为亏损
+        else:
+            is_loss = change_pct < -5 or '亏损' in name or '绩差' in name
         if is_st or is_loss or price <= 0 or price > 20:
             continue
         
@@ -540,9 +545,14 @@ def build_recommendations(top50_data, sector_data):
         is_st = name.startswith('ST') or name.startswith('*ST')
         change_pct = item.get('change_pct') or 0
         price = item.get('price') or 0
-        # 排除亏损股（pe_ratio为0、负数或None视为亏损或无法判断）
+        # 排除亏损股：
+        # 1. 如果有pe_ratio数据，pe_ratio<=0视为亏损
+        # 2. 如果没有pe_ratio数据，通过涨跌幅和名称判断
         pe_ratio = item.get('pe_ratio')
-        is_loss = pe_ratio is None or pe_ratio == 0 or pe_ratio < 0
+        if pe_ratio is not None:
+            is_loss = pe_ratio <= 0
+        else:
+            is_loss = change_pct < -5 or '亏损' in name or '绩差' in name
 
         # 硬性条件：必须满足才推荐
         if is_st or is_loss or price <= 0 or price > 20:

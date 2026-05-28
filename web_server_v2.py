@@ -1244,13 +1244,20 @@ def get_recommendations():
     for r in recommendations:
         name = r.get('name', '')
         pe_ratio = r.get('pe_ratio')
+        change_pct = r.get('change_pct', 0)
         
         # 排除ST股和*ST股
         if name.startswith('ST') or name.startswith('*ST'):
             continue
         
-        # 排除亏损股（pe_ratio为0、负数或None视为亏损或无法判断）
-        if pe_ratio is None or pe_ratio == 0 or pe_ratio < 0:
+        # 排除亏损股：
+        # 1. 如果有pe_ratio数据，pe_ratio<=0视为亏损
+        # 2. 如果没有pe_ratio数据，通过涨跌幅和名称判断
+        if pe_ratio is not None:
+            is_loss = pe_ratio <= 0
+        else:
+            is_loss = change_pct < -5 or '亏损' in name or '绩差' in name
+        if is_loss:
             continue
         
         filtered.append(r)
@@ -1799,15 +1806,22 @@ def api_filtered_hot(date):
         code, name, rank, price, change_pct, sector, concept, limit_up_reason, pe_ratio, market_cap = row
         
         # 过滤条件：
-        # 1. 价格 < 13（price为0或None说明无数据，也排除）
+        # 1. 价格 <= 20（price为0或None说明无数据，也排除）
         # 2. 排除ST（名称包含ST）
-        # 3. 排除亏损（市盈率为负或为0，pe_ratio<=0说明亏损或数据缺失）
-        if not price or price >= 13:
+        # 3. 排除亏损（市盈率为负或为0，pe_ratio<=0说明亏损；无数据时通过涨跌幅和名称判断）
+        if not price or price > 20:
             continue
         if name and ('ST' in name.upper() or '*ST' in name or '退' in name):
             continue
-        if pe_ratio is None or pe_ratio <= 0:
-            continue
+        # 亏损判断：有pe_ratio时用pe_ratio，无时通过涨跌幅和名称判断
+        if pe_ratio is not None:
+            if pe_ratio <= 0:
+                continue
+        else:
+            if change_pct and change_pct < -5:
+                continue
+            if name and ('亏损' in name or '绩差' in name):
+                continue
             
         result.append({
             'code': code,
