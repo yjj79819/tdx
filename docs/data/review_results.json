@@ -1094,5 +1094,103 @@
     "win_count": 2,
     "total": 8,
     "rank_improved": 0
+  },
+  {
+    "review_date": "2026-05-28",
+    "target_date": "2026-05-28",
+    "results": [
+      {
+        "code": "600396",
+        "name": "华电辽能",
+        "prev_rank": 5,
+        "prev_price": 19.58,
+        "today_rank": 6,
+        "today_price": 19.26,
+        "price_change": -1.63,
+        "still_in_top50": true,
+        "rank_change": -1
+      },
+      {
+        "code": "601991",
+        "name": "大唐发电",
+        "prev_rank": 4,
+        "prev_price": 7.9,
+        "today_rank": 4,
+        "today_price": 8.0,
+        "price_change": 1.27,
+        "still_in_top50": true,
+        "rank_change": 0
+      },
+      {
+        "code": "000725",
+        "name": "京东方A",
+        "prev_rank": 6,
+        "prev_price": 5.65,
+        "today_rank": 7,
+        "today_price": 5.68,
+        "price_change": 0.53,
+        "still_in_top50": true,
+        "rank_change": -1
+      },
+      {
+        "code": "600578",
+        "name": "京能电力",
+        "prev_rank": 11,
+        "prev_price": 9.35,
+        "today_rank": "-",
+        "today_price": 9.35,
+        "price_change": 0.0,
+        "still_in_top50": false,
+        "rank_change": 0
+      },
+      {
+        "code": "600863",
+        "name": "华能蒙电",
+        "prev_rank": 17,
+        "prev_price": 6.65,
+        "today_rank": 13,
+        "today_price": 6.64,
+        "price_change": -0.15,
+        "still_in_top50": true,
+        "rank_change": 4
+      },
+      {
+        "code": "002579",
+        "name": "中京电子",
+        "prev_rank": 12,
+        "prev_price": 18.19,
+        "today_rank": 12,
+        "today_price": 18.19,
+        "price_change": 0.0,
+        "still_in_top50": true,
+        "rank_change": 0
+      },
+      {
+        "code": "600726",
+        "name": "华电能源",
+        "prev_rank": 51,
+        "prev_price": 9.21,
+        "today_rank": 25,
+        "today_price": 9.21,
+        "price_change": 0.0,
+        "still_in_top50": true,
+        "rank_change": 26
+      },
+      {
+        "code": "600744",
+        "name": "华银电力",
+        "prev_rank": 70,
+        "prev_price": 8.68,
+        "today_rank": 82,
+        "today_price": 8.76,
+        "price_change": 0.92,
+        "still_in_top50": true,
+        "rank_change": -12
+      }
+    ],
+    "win_rate": 37.5,
+    "win_count": 3,
+    "total": 8,
+    "rank_improved": 2
   }
 ]

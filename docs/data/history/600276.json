@@ -1,141 +1,141 @@
 {
-  "code": "601991",
-  "name": "大唐发电",
+  "code": "600276",
+  "name": "恒瑞医药",
   "history": [
     {
       "date": "2026-04-27",
-      "rank": 595
+      "rank": 189
     },
     {
       "date": "2026-04-28",
-      "rank": 190
+      "rank": 304
     },
     {
       "date": "2026-04-29",
-      "rank": 409
+      "rank": 282
     },
     {
       "date": "2026-04-30",
-      "rank": 396
+      "rank": 266
     },
     {
       "date": "2026-05-01",
-      "rank": 14
+      "rank": 286
     },
     {
       "date": "2026-05-02",
-      "rank": 1
+      "rank": 291
     },
     {
       "date": "2026-05-03",
-      "rank": 1
+      "rank": 175
     },
     {
       "date": "2026-05-04",
-      "rank": 7
+      "rank": 229
     },
     {
       "date": "2026-05-05",
-      "rank": 25
+      "rank": 338
     },
     {
       "date": "2026-05-06",
-      "rank": 20
+      "rank": 373
     },
     {
       "date": "2026-05-07",
-      "rank": 5
+      "rank": 299
     },
     {
       "date": "2026-05-08",
-      "rank": 3
+      "rank": 249
     },
     {
       "date": "2026-05-09",
-      "rank": 2
+      "rank": 291
     },
     {
       "date": "2026-05-10",
-      "rank": 8
+      "rank": 233
     },
     {
       "date": "2026-05-11",
-      "rank": 4
+      "rank": 33
     },
     {
       "date": "2026-05-12",
-      "rank": 1
+      "rank": 147
     },
     {
       "date": "2026-05-13",
-      "rank": 1
+      "rank": 217
     },
     {
       "date": "2026-05-14",
-      "rank": 1
+      "rank": 244
     },
     {
       "date": "2026-05-15",
-      "rank": 3
+      "rank": 250
     },
     {
       "date": "2026-05-16",
-      "rank": 3
+      "rank": 287
     },
     {
       "date": "2026-05-17",
-      "rank": 1
+      "rank": 212
     },
     {
       "date": "2026-05-18",
-      "rank": 1
+      "rank": 234
     },
     {
       "date": "2026-05-19",
-      "rank": 2
+      "rank": 200
     },
     {
       "date": "2026-05-20",
-      "rank": 1
+      "rank": 220
     },
     {
       "date": "2026-05-21",
-      "rank": 3
+      "rank": 238
     },
     {
       "date": "2026-05-22",
-      "rank": 7
+      "rank": 250
     },
     {
       "date": "2026-05-23",
-      "rank": 8
+      "rank": 258
     },
     {
       "date": "2026-05-24",
-      "rank": 3
+      "rank": 201
     },
     {
       "date": "2026-05-25",
-      "rank": 7
+      "rank": 269
     },
     {
       "date": "2026-05-26",
-      "rank": 4
+      "rank": 147
     },
     {
       "date": "2026-05-27",
-      "rank": 4
+      "rank": 153
     },
     {
       "date": "2026-05-28",
-      "rank": 4,
-      "price": 8.0,
-      "change_pct": 3.7613
+      "rank": 93,
+      "price": 48.0,
+      "change_pct": -4.7052
     }
   ],
   "continuous_days": 32,
   "monthly_count": 32,
-  "avg_rank": 54.2,
-  "best_rank": 1,
+  "avg_rank": 233.1,
+  "best_rank": 33,
   "trend": "stable"
 }
