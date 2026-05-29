@@ -3,10 +3,6 @@
   "name": "天孚通信",
   "history": [
     {
-      "date": "2026-04-27",
-      "rank": 144
-    },
-    {
       "date": "2026-04-28",
       "rank": 199
     },
@@ -128,14 +124,18 @@
     },
     {
       "date": "2026-05-28",
-      "rank": 71,
-      "price": 447.56,
-      "change_pct": 4.4213
+      "rank": 60
+    },
+    {
+      "date": "2026-05-29",
+      "rank": 39,
+      "price": 464.41,
+      "change_pct": 3.8766
     }
   ],
   "continuous_days": 32,
   "monthly_count": 32,
-  "avg_rank": 142.4,
-  "best_rank": 44,
+  "avg_rank": 138.8,
+  "best_rank": 39,
   "trend": "stable"
 }

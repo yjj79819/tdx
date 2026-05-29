@@ -1584,5 +1584,103 @@
     "win_count": 0,
     "total": 8,
     "rank_improved": 3
+  },
+  {
+    "review_date": "2026-05-29",
+    "target_date": "2026-05-28",
+    "results": [
+      {
+        "code": "601991",
+        "name": "大唐发电",
+        "prev_rank": 6,
+        "prev_price": 8.0,
+        "today_rank": 3,
+        "today_price": 8.4,
+        "price_change": 5.0,
+        "still_in_top50": true,
+        "rank_change": 3
+      },
+      {
+        "code": "600396",
+        "name": "华电辽能",
+        "prev_rank": 10,
+        "prev_price": 19.26,
+        "today_rank": "-",
+        "today_price": 19.26,
+        "price_change": 0.0,
+        "still_in_top50": false,
+        "rank_change": 0
+      },
+      {
+        "code": "000725",
+        "name": "京东方A",
+        "prev_rank": 7,
+        "prev_price": 5.68,
+        "today_rank": "-",
+        "today_price": 5.68,
+        "price_change": 0.0,
+        "still_in_top50": false,
+        "rank_change": 0
+      },
+      {
+        "code": "002579",
+        "name": "中京电子",
+        "prev_rank": 5,
+        "prev_price": 18.19,
+        "today_rank": "-",
+        "today_price": 18.19,
+        "price_change": 0.0,
+        "still_in_top50": false,
+        "rank_change": 0
+      },
+      {
+        "code": "600726",
+        "name": "华电能源",
+        "prev_rank": 12,
+        "prev_price": 9.21,
+        "today_rank": 18,
+        "today_price": 10.13,
+        "price_change": 9.99,
+        "still_in_top50": true,
+        "rank_change": -6
+      },
+      {
+        "code": "000509",
+        "name": "华塑控股",
+        "prev_rank": 16,
+        "prev_price": 5.73,
+        "today_rank": "-",
+        "today_price": 5.73,
+        "price_change": 0.0,
+        "still_in_top50": false,
+        "rank_change": 0
+      },
+      {
+        "code": "600172",
+        "name": "黄河旋风",
+        "prev_rank": 13,
+        "prev_price": 14.6,
+        "today_rank": 11,
+        "today_price": 14.43,
+        "price_change": -1.16,
+        "still_in_top50": true,
+        "rank_change": 2
+      },
+      {
+        "code": "000539",
+        "name": "粤电力A",
+        "prev_rank": 26,
+        "prev_price": 8.07,
+        "today_rank": 49,
+        "today_price": 8.88,
+        "price_change": 10.04,
+        "still_in_top50": true,
+        "rank_change": -23
+      }
+    ],
+    "win_rate": 37.5,
+    "win_count": 3,
+    "total": 8,
+    "rank_improved": 2
   }
 ]
