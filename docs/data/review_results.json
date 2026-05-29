@@ -1682,5 +1682,103 @@
     "win_count": 3,
     "total": 8,
     "rank_improved": 2
+  },
+  {
+    "review_date": "2026-05-29",
+    "target_date": "2026-05-29",
+    "results": [
+      {
+        "code": "601991",
+        "name": "大唐发电",
+        "prev_rank": 3,
+        "prev_price": 8.4,
+        "today_rank": 1,
+        "today_price": 8.63,
+        "price_change": 2.74,
+        "still_in_top50": true,
+        "rank_change": 2
+      },
+      {
+        "code": "600578",
+        "name": "京能电力",
+        "prev_rank": 10,
+        "prev_price": 9.44,
+        "today_rank": 11,
+        "today_price": 9.38,
+        "price_change": -0.64,
+        "still_in_top50": true,
+        "rank_change": -1
+      },
+      {
+        "code": "600726",
+        "name": "华电能源",
+        "prev_rank": 18,
+        "prev_price": 10.13,
+        "today_rank": 15,
+        "today_price": 10.13,
+        "price_change": 0.0,
+        "still_in_top50": true,
+        "rank_change": 3
+      },
+      {
+        "code": "600863",
+        "name": "华能蒙电",
+        "prev_rank": 14,
+        "prev_price": 7.3,
+        "today_rank": 19,
+        "today_price": 7.3,
+        "price_change": 0.0,
+        "still_in_top50": true,
+        "rank_change": -5
+      },
+      {
+        "code": "600172",
+        "name": "黄河旋风",
+        "prev_rank": 11,
+        "prev_price": 14.43,
+        "today_rank": 16,
+        "today_price": 14.08,
+        "price_change": -2.43,
+        "still_in_top50": true,
+        "rank_change": -5
+      },
+      {
+        "code": "000767",
+        "name": "晋控电力",
+        "prev_rank": 45,
+        "prev_price": 5.58,
+        "today_rank": 58,
+        "today_price": 5.58,
+        "price_change": 0.0,
+        "still_in_top50": true,
+        "rank_change": -13
+      },
+      {
+        "code": "000539",
+        "name": "粤电力A",
+        "prev_rank": 49,
+        "prev_price": 8.88,
+        "today_rank": 44,
+        "today_price": 8.88,
+        "price_change": 0.0,
+        "still_in_top50": true,
+        "rank_change": 5
+      },
+      {
+        "code": "002251",
+        "name": "步步高",
+        "prev_rank": 35,
+        "prev_price": 4.88,
+        "today_rank": 56,
+        "today_price": 4.88,
+        "price_change": 0.0,
+        "still_in_top50": true,
+        "rank_change": -21
+      }
+    ],
+    "win_rate": 12.5,
+    "win_count": 1,
+    "total": 8,
+    "rank_improved": 3
   }
 ]

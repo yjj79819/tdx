@@ -3,10 +3,6 @@
   "name": "恒瑞医药",
   "history": [
     {
-      "date": "2026-04-27",
-      "rank": 189
-    },
-    {
       "date": "2026-04-28",
       "rank": 304
     },
@@ -124,18 +120,22 @@
     },
     {
       "date": "2026-05-27",
-      "rank": 150
+      "rank": 147
     },
     {
       "date": "2026-05-28",
-      "rank": 98,
-      "price": 48.0,
-      "change_pct": -4.7052
+      "rank": 116
+    },
+    {
+      "date": "2026-05-29",
+      "rank": 78,
+      "price": 50.19,
+      "change_pct": 4.5625
     }
   ],
   "continuous_days": 32,
   "monthly_count": 32,
-  "avg_rank": 233.1,
+  "avg_rank": 230.1,
   "best_rank": 33,
   "trend": "stable"
 }

@@ -3,10 +3,6 @@
   "name": "蓝思科技",
   "history": [
     {
-      "date": "2026-04-27",
-      "rank": 469
-    },
-    {
       "date": "2026-04-28",
       "rank": 579
     },
@@ -124,18 +120,22 @@
     },
     {
       "date": "2026-05-27",
-      "rank": 61
+      "rank": 67
     },
     {
       "date": "2026-05-28",
-      "rank": 87,
-      "price": 40.23,
-      "change_pct": -0.1241
+      "rank": 81
+    },
+    {
+      "date": "2026-05-29",
+      "rank": 60,
+      "price": 40.5,
+      "change_pct": 0.6711
     }
   ],
   "continuous_days": 32,
   "monthly_count": 32,
-  "avg_rank": 234.6,
+  "avg_rank": 221.8,
   "best_rank": 4,
   "trend": "stable"
 }
