@@ -3,18 +3,6 @@
   "name": "胜宏科技",
   "history": [
     {
-      "date": "2026-04-28",
-      "rank": 40
-    },
-    {
-      "date": "2026-04-29",
-      "rank": 137
-    },
-    {
-      "date": "2026-04-30",
-      "rank": 174
-    },
-    {
       "date": "2026-05-01",
       "rank": 197
     },
@@ -124,18 +112,30 @@
     },
     {
       "date": "2026-05-28",
-      "rank": 67
+      "rank": 66
     },
     {
       "date": "2026-05-29",
-      "rank": 76,
-      "price": 368.52,
-      "change_pct": -1.8066
+      "rank": 102
+    },
+    {
+      "date": "2026-05-30",
+      "rank": 99
+    },
+    {
+      "date": "2026-05-31",
+      "rank": 55
+    },
+    {
+      "date": "2026-06-01",
+      "rank": 52,
+      "price": 342.35,
+      "change_pct": -7.1014
     }
   ],
   "continuous_days": 32,
   "monthly_count": 32,
-  "avg_rank": 91.1,
+  "avg_rank": 87.3,
   "best_rank": 17,
   "trend": "stable"
 }

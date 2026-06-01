@@ -3,18 +3,6 @@
   "name": "步步高",
   "history": [
     {
-      "date": "2026-04-28",
-      "rank": 966
-    },
-    {
-      "date": "2026-04-29",
-      "rank": 1038
-    },
-    {
-      "date": "2026-04-30",
-      "rank": 1177
-    },
-    {
       "date": "2026-05-01",
       "rank": 1185
     },
@@ -124,18 +112,30 @@
     },
     {
       "date": "2026-05-28",
-      "rank": 58
+      "rank": 50
     },
     {
       "date": "2026-05-29",
-      "rank": 56,
-      "price": 4.88,
-      "change_pct": 9.9099
+      "rank": 23
+    },
+    {
+      "date": "2026-05-30",
+      "rank": 24
+    },
+    {
+      "date": "2026-05-31",
+      "rank": 27
+    },
+    {
+      "date": "2026-06-01",
+      "rank": 35,
+      "price": 5.0,
+      "change_pct": 2.459
     }
   ],
   "continuous_days": 32,
   "monthly_count": 32,
-  "avg_rank": 867.6,
-  "best_rank": 46,
+  "avg_rank": 769.6,
+  "best_rank": 23,
   "trend": "stable"
 }

@@ -1,0 +1,17 @@
+{
+  "code": "920190",
+  "name": "雷神科技",
+  "history": [
+    {
+      "date": "2026-06-01",
+      "rank": 90,
+      "price": 0,
+      "change_pct": 30.0
+    }
+  ],
+  "continuous_days": 1,
+  "monthly_count": 1,
+  "avg_rank": 90.0,
+  "best_rank": 90,
+  "trend": "stable"
+}
