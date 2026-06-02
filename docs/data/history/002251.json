@@ -3,10 +3,6 @@
   "name": "步步高",
   "history": [
     {
-      "date": "2026-05-01",
-      "rank": 1185
-    },
-    {
       "date": "2026-05-02",
       "rank": 1247
     },
@@ -128,14 +124,18 @@
     },
     {
       "date": "2026-06-01",
-      "rank": 35,
-      "price": 5.0,
-      "change_pct": 2.459
+      "rank": 40
+    },
+    {
+      "date": "2026-06-02",
+      "rank": 67,
+      "price": 4.76,
+      "change_pct": -5.0
     }
   ],
   "continuous_days": 32,
   "monthly_count": 32,
-  "avg_rank": 769.6,
+  "avg_rank": 734.8,
   "best_rank": 23,
   "trend": "stable"
 }

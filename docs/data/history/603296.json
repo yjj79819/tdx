@@ -3,10 +3,6 @@
   "name": "华勤技术",
   "history": [
     {
-      "date": "2026-05-01",
-      "rank": 827
-    },
-    {
       "date": "2026-05-02",
       "rank": 839
     },
@@ -124,18 +120,22 @@
     },
     {
       "date": "2026-05-31",
-      "rank": 138
+      "rank": 121
     },
     {
       "date": "2026-06-01",
-      "rank": 92,
-      "price": 117.04,
-      "change_pct": 10.0
+      "rank": 74
+    },
+    {
+      "date": "2026-06-02",
+      "rank": 78,
+      "price": 124.15,
+      "change_pct": 6.0065
     }
   ],
   "continuous_days": 32,
   "monthly_count": 32,
-  "avg_rank": 687.2,
-  "best_rank": 92,
+  "avg_rank": 662.7,
+  "best_rank": 74,
   "trend": "stable"
 }

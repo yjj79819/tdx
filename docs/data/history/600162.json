@@ -3,10 +3,6 @@
   "name": "香江控股",
   "history": [
     {
-      "date": "2026-05-01",
-      "rank": 1530
-    },
-    {
       "date": "2026-05-02",
       "rank": 1451
     },
@@ -48,18 +44,22 @@
     },
     {
       "date": "2026-05-31",
-      "rank": 35
+      "rank": 36
     },
     {
       "date": "2026-06-01",
-      "rank": 42,
-      "price": 2.92,
-      "change_pct": 4.6595
+      "rank": 43
+    },
+    {
+      "date": "2026-06-02",
+      "rank": 86,
+      "price": 3.21,
+      "change_pct": 9.9315
     }
   ],
   "continuous_days": 13,
   "monthly_count": 13,
-  "avg_rank": 614.8,
+  "avg_rank": 503.9,
   "best_rank": 25,
   "trend": "stable"
 }

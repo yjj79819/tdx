@@ -3,10 +3,6 @@
   "name": "软通动力",
   "history": [
     {
-      "date": "2026-05-01",
-      "rank": 1282
-    },
-    {
       "date": "2026-05-02",
       "rank": 1165
     },
@@ -124,18 +120,22 @@
     },
     {
       "date": "2026-05-31",
-      "rank": 95
+      "rank": 74
     },
     {
       "date": "2026-06-01",
-      "rank": 55,
-      "price": 39.65,
-      "change_pct": 20.0061
+      "rank": 64
+    },
+    {
+      "date": "2026-06-02",
+      "rank": 77,
+      "price": 42.17,
+      "change_pct": 6.3556
     }
   ],
   "continuous_days": 32,
   "monthly_count": 32,
-  "avg_rank": 1000.1,
-  "best_rank": 55,
+  "avg_rank": 962.1,
+  "best_rank": 64,
   "trend": "stable"
 }

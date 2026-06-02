@@ -3,10 +3,6 @@
   "name": "中国长城",
   "history": [
     {
-      "date": "2026-05-01",
-      "rank": 3
-    },
-    {
       "date": "2026-05-02",
       "rank": 5
     },
@@ -124,18 +120,22 @@
     },
     {
       "date": "2026-05-31",
-      "rank": 25
+      "rank": 26
     },
     {
       "date": "2026-06-01",
-      "rank": 48,
-      "price": 18.48,
-      "change_pct": 3.8202
+      "rank": 47
+    },
+    {
+      "date": "2026-06-02",
+      "rank": 94,
+      "price": 18.14,
+      "change_pct": -1.8398
     }
   ],
   "continuous_days": 32,
   "monthly_count": 32,
-  "avg_rank": 26.2,
+  "avg_rank": 29.0,
   "best_rank": 1,
   "trend": "stable"
 }
