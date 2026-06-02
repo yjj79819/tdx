@@ -3,10 +3,6 @@
   "name": "天地在线",
   "history": [
     {
-      "date": "2026-05-01",
-      "rank": 1338
-    },
-    {
       "date": "2026-05-02",
       "rank": 1387
     },
@@ -72,18 +68,22 @@
     },
     {
       "date": "2026-05-31",
-      "rank": 96
+      "rank": 75
     },
     {
       "date": "2026-06-01",
-      "rank": 37,
-      "price": 25.11,
-      "change_pct": 9.9869
+      "rank": 55
+    },
+    {
+      "date": "2026-06-02",
+      "rank": 82,
+      "price": 26.0,
+      "change_pct": 3.5444
     }
   ],
   "continuous_days": 19,
   "monthly_count": 19,
-  "avg_rank": 1068.7,
-  "best_rank": 37,
+  "avg_rank": 1002.5,
+  "best_rank": 55,
   "trend": "stable"
 }

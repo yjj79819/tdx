@@ -1,0 +1,17 @@
+{
+  "code": "920725",
+  "name": "惠丰钻石",
+  "history": [
+    {
+      "date": "2026-06-02",
+      "rank": 72,
+      "price": 0,
+      "change_pct": 30.0
+    }
+  ],
+  "continuous_days": 1,
+  "monthly_count": 1,
+  "avg_rank": 72.0,
+  "best_rank": 72,
+  "trend": "stable"
+}
