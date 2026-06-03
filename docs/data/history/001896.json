@@ -3,10 +3,6 @@
   "name": "豫能控股",
   "history": [
     {
-      "date": "2026-05-02",
-      "rank": 31
-    },
-    {
       "date": "2026-05-03",
       "rank": 42
     },
@@ -128,14 +124,18 @@
     },
     {
       "date": "2026-06-02",
-      "rank": 22,
-      "price": 18.25,
-      "change_pct": 3.3994
+      "rank": 16
+    },
+    {
+      "date": "2026-06-03",
+      "rank": 44,
+      "price": 20.08,
+      "change_pct": 10.0274
     }
   ],
   "continuous_days": 32,
   "monthly_count": 32,
-  "avg_rank": 54.4,
+  "avg_rank": 54.6,
   "best_rank": 14,
   "trend": "stable"
 }

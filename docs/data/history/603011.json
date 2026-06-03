@@ -3,10 +3,6 @@
   "name": "合锻智能",
   "history": [
     {
-      "date": "2026-05-02",
-      "rank": 1194
-    },
-    {
       "date": "2026-05-03",
       "rank": 1000
     },
@@ -124,18 +120,22 @@
     },
     {
       "date": "2026-06-01",
-      "rank": 32
+      "rank": 33
     },
     {
       "date": "2026-06-02",
-      "rank": 19,
-      "price": 28.99,
-      "change_pct": 5.7643
+      "rank": 30
+    },
+    {
+      "date": "2026-06-03",
+      "rank": 20,
+      "price": 31.47,
+      "change_pct": 8.5547
     }
   ],
   "continuous_days": 32,
   "monthly_count": 32,
-  "avg_rank": 870.7,
-  "best_rank": 19,
+  "avg_rank": 834.3,
+  "best_rank": 20,
   "trend": "stable"
 }

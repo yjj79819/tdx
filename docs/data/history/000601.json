@@ -3,10 +3,6 @@
   "name": "韶能股份",
   "history": [
     {
-      "date": "2026-05-02",
-      "rank": 557
-    },
-    {
       "date": "2026-05-03",
       "rank": 644
     },
@@ -124,18 +120,22 @@
     },
     {
       "date": "2026-06-01",
-      "rank": 81
+      "rank": 66
     },
     {
       "date": "2026-06-02",
-      "rank": 69,
-      "price": 8.99,
-      "change_pct": 10.0367
+      "rank": 71
+    },
+    {
+      "date": "2026-06-03",
+      "rank": 26,
+      "price": 9.38,
+      "change_pct": 4.3382
     }
   ],
   "continuous_days": 32,
   "monthly_count": 32,
-  "avg_rank": 304.0,
-  "best_rank": 31,
+  "avg_rank": 287.0,
+  "best_rank": 26,
   "trend": "stable"
 }

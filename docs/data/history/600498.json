@@ -3,10 +3,6 @@
   "name": "烽火通信",
   "history": [
     {
-      "date": "2026-05-02",
-      "rank": 129
-    },
-    {
       "date": "2026-05-03",
       "rank": 132
     },
@@ -124,18 +120,22 @@
     },
     {
       "date": "2026-06-01",
-      "rank": 105
+      "rank": 103
     },
     {
       "date": "2026-06-02",
-      "rank": 74,
-      "price": 49.5,
-      "change_pct": 4.1
+      "rank": 77
+    },
+    {
+      "date": "2026-06-03",
+      "rank": 61,
+      "price": 52.2,
+      "change_pct": 5.4747
     }
   ],
   "continuous_days": 32,
   "monthly_count": 32,
-  "avg_rank": 114.4,
+  "avg_rank": 112.3,
   "best_rank": 14,
   "trend": "stable"
 }

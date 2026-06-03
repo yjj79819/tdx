@@ -3,10 +3,6 @@
   "name": "中际旭创",
   "history": [
     {
-      "date": "2026-05-02",
-      "rank": 57
-    },
-    {
       "date": "2026-05-03",
       "rank": 66
     },
@@ -124,18 +120,22 @@
     },
     {
       "date": "2026-06-01",
-      "rank": 38
+      "rank": 36
     },
     {
       "date": "2026-06-02",
-      "rank": 37,
-      "price": 1191.81,
-      "change_pct": 5.4699
+      "rank": 26
+    },
+    {
+      "date": "2026-06-03",
+      "rank": 14,
+      "price": 1286.13,
+      "change_pct": 7.9031
     }
   ],
   "continuous_days": 32,
   "monthly_count": 32,
-  "avg_rank": 58.5,
+  "avg_rank": 56.8,
   "best_rank": 9,
   "trend": "stable"
 }

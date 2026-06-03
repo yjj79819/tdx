@@ -3,10 +3,6 @@
   "name": "麦格米特",
   "history": [
     {
-      "date": "2026-05-02",
-      "rank": 351
-    },
-    {
       "date": "2026-05-03",
       "rank": 303
     },
@@ -124,18 +120,22 @@
     },
     {
       "date": "2026-06-01",
-      "rank": 121
+      "rank": 98
     },
     {
       "date": "2026-06-02",
-      "rank": 85,
-      "price": 147.95,
-      "change_pct": 10.0
+      "rank": 69
+    },
+    {
+      "date": "2026-06-03",
+      "rank": 40,
+      "price": 160.2,
+      "change_pct": 8.1311
     }
   ],
   "continuous_days": 32,
   "monthly_count": 32,
-  "avg_rank": 367.4,
-  "best_rank": 85,
+  "avg_rank": 356.5,
+  "best_rank": 40,
   "trend": "stable"
 }

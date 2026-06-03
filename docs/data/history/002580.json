@@ -3,10 +3,6 @@
   "name": "圣阳股份",
   "history": [
     {
-      "date": "2026-05-02",
-      "rank": 19
-    },
-    {
       "date": "2026-05-03",
       "rank": 27
     },
@@ -124,18 +120,22 @@
     },
     {
       "date": "2026-06-01",
-      "rank": 16
+      "rank": 15
     },
     {
       "date": "2026-06-02",
-      "rank": 17,
-      "price": 26.96,
-      "change_pct": 0.936
+      "rank": 21
+    },
+    {
+      "date": "2026-06-03",
+      "rank": 24,
+      "price": 24.68,
+      "change_pct": -8.457
     }
   ],
   "continuous_days": 32,
   "monthly_count": 32,
-  "avg_rank": 31.3,
+  "avg_rank": 31.6,
   "best_rank": 1,
   "trend": "stable"
 }

@@ -3,14 +3,6 @@
   "name": "上海电力",
   "history": [
     {
-      "date": "2026-05-01",
-      "rank": 820
-    },
-    {
-      "date": "2026-05-02",
-      "rank": 761
-    },
-    {
       "date": "2026-05-03",
       "rank": 752
     },
@@ -124,18 +116,26 @@
     },
     {
       "date": "2026-05-31",
-      "rank": 53
+      "rank": 55
     },
     {
       "date": "2026-06-01",
-      "rank": 64,
-      "price": 20.59,
-      "change_pct": -7.5853
+      "rank": 120
+    },
+    {
+      "date": "2026-06-02",
+      "rank": 151
+    },
+    {
+      "date": "2026-06-03",
+      "rank": 58,
+      "price": 20.69,
+      "change_pct": 3.9196
     }
   ],
   "continuous_days": 32,
   "monthly_count": 32,
-  "avg_rank": 415.0,
+  "avg_rank": 373.9,
   "best_rank": 27,
   "trend": "stable"
 }
