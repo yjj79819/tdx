@@ -2172,5 +2172,103 @@
     "win_count": 3,
     "total": 8,
     "rank_improved": 2
+  },
+  {
+    "review_date": "2026-06-03",
+    "target_date": "2026-06-03",
+    "results": [
+      {
+        "code": "600578",
+        "name": "京能电力",
+        "prev_rank": 5,
+        "prev_price": 9.34,
+        "today_rank": 9,
+        "today_price": 9.34,
+        "price_change": 0.0,
+        "still_in_top50": true,
+        "rank_change": -4
+      },
+      {
+        "code": "601991",
+        "name": "大唐发电",
+        "prev_rank": 1,
+        "prev_price": 8.92,
+        "today_rank": 1,
+        "today_price": 9.1,
+        "price_change": 2.02,
+        "still_in_top50": true,
+        "rank_change": 0
+      },
+      {
+        "code": "000725",
+        "name": "京东方A",
+        "prev_rank": 9,
+        "prev_price": 5.65,
+        "today_rank": 11,
+        "today_price": 5.59,
+        "price_change": -1.06,
+        "still_in_top50": true,
+        "rank_change": -2
+      },
+      {
+        "code": "002185",
+        "name": "华天科技",
+        "prev_rank": 10,
+        "prev_price": 19.36,
+        "today_rank": 15,
+        "today_price": 19.16,
+        "price_change": -1.03,
+        "still_in_top50": true,
+        "rank_change": -5
+      },
+      {
+        "code": "600863",
+        "name": "华能蒙电",
+        "prev_rank": 15,
+        "prev_price": 7.11,
+        "today_rank": 7,
+        "today_price": 7.39,
+        "price_change": 3.94,
+        "still_in_top50": true,
+        "rank_change": 8
+      },
+      {
+        "code": "000601",
+        "name": "韶能股份",
+        "prev_rank": 26,
+        "prev_price": 9.38,
+        "today_rank": 29,
+        "today_price": 9.3,
+        "price_change": -0.85,
+        "still_in_top50": true,
+        "rank_change": -3
+      },
+      {
+        "code": "000767",
+        "name": "晋控电力",
+        "prev_rank": 30,
+        "prev_price": 5.94,
+        "today_rank": 25,
+        "today_price": 6.07,
+        "price_change": 2.19,
+        "still_in_top50": true,
+        "rank_change": 5
+      },
+      {
+        "code": "002081",
+        "name": "金螳螂",
+        "prev_rank": 22,
+        "prev_price": 6.7,
+        "today_rank": 35,
+        "today_price": 6.65,
+        "price_change": -0.75,
+        "still_in_top50": true,
+        "rank_change": -13
+      }
+    ],
+    "win_rate": 37.5,
+    "win_count": 3,
+    "total": 8,
+    "rank_improved": 2
   }
 ]

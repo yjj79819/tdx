@@ -3,14 +3,6 @@
   "name": "特变电工",
   "history": [
     {
-      "date": "2026-05-01",
-      "rank": 143
-    },
-    {
-      "date": "2026-05-02",
-      "rank": 127
-    },
-    {
       "date": "2026-05-03",
       "rank": 138
     },
@@ -124,18 +116,26 @@
     },
     {
       "date": "2026-05-31",
-      "rank": 58
+      "rank": 59
     },
     {
       "date": "2026-06-01",
-      "rank": 54,
-      "price": 26.46,
-      "change_pct": 4.3787
+      "rank": 132
+    },
+    {
+      "date": "2026-06-02",
+      "rank": 124
+    },
+    {
+      "date": "2026-06-03",
+      "rank": 95,
+      "price": 26.23,
+      "change_pct": 0.4211
     }
   ],
   "continuous_days": 32,
   "monthly_count": 32,
-  "avg_rank": 124.4,
+  "avg_rank": 125.2,
   "best_rank": 34,
   "trend": "stable"
 }
