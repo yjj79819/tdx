@@ -3,10 +3,6 @@
   "name": "铜峰电子",
   "history": [
     {
-      "date": "2026-04-28",
-      "rank": 1833
-    },
-    {
       "date": "2026-05-05",
       "rank": 1831
     },
@@ -84,12 +80,42 @@
     },
     {
       "date": "2026-05-28",
-      "rank": 263
+      "rank": 345
+    },
+    {
+      "date": "2026-05-29",
+      "rank": 450
+    },
+    {
+      "date": "2026-05-30",
+      "rank": 444
+    },
+    {
+      "date": "2026-05-31",
+      "rank": 542
+    },
+    {
+      "date": "2026-06-01",
+      "rank": 317
+    },
+    {
+      "date": "2026-06-02",
+      "rank": 268
+    },
+    {
+      "date": "2026-06-03",
+      "rank": 140
+    },
+    {
+      "date": "2026-06-04",
+      "rank": 86,
+      "price": 12.22,
+      "change_pct": 9.991
     }
   ],
-  "continuous_days": 21,
-  "monthly_count": 21,
-  "avg_rank": 1121.9,
-  "best_rank": 263,
+  "continuous_days": 27,
+  "monthly_count": 27,
+  "avg_rank": 890.9,
+  "best_rank": 86,
   "trend": "stable"
 }

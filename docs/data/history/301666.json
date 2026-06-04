@@ -3,18 +3,6 @@
   "name": "大普微",
   "history": [
     {
-      "date": "2026-05-01",
-      "rank": 222
-    },
-    {
-      "date": "2026-05-02",
-      "rank": 192
-    },
-    {
-      "date": "2026-05-03",
-      "rank": 176
-    },
-    {
       "date": "2026-05-04",
       "rank": 153
     },
@@ -124,18 +112,30 @@
     },
     {
       "date": "2026-05-31",
-      "rank": 114
+      "rank": 115
     },
     {
       "date": "2026-06-01",
-      "rank": 99,
-      "price": 723.0,
-      "change_pct": -4.6174
+      "rank": 163
+    },
+    {
+      "date": "2026-06-02",
+      "rank": 203
+    },
+    {
+      "date": "2026-06-03",
+      "rank": 99
+    },
+    {
+      "date": "2026-06-04",
+      "rank": 36,
+      "price": 857.9,
+      "change_pct": 11.8805
     }
   ],
   "continuous_days": 32,
   "monthly_count": 32,
-  "avg_rank": 128.7,
+  "avg_rank": 122.9,
   "best_rank": 14,
   "trend": "stable"
 }

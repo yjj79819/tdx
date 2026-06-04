@@ -3,10 +3,6 @@
   "name": "粤电力A",
   "history": [
     {
-      "date": "2026-05-03",
-      "rank": 220
-    },
-    {
       "date": "2026-05-04",
       "rank": 221
     },
@@ -124,18 +120,22 @@
     },
     {
       "date": "2026-06-02",
-      "rank": 30
+      "rank": 27
     },
     {
       "date": "2026-06-03",
-      "rank": 14,
-      "price": 9.4,
-      "change_pct": 2.9573
+      "rank": 27
+    },
+    {
+      "date": "2026-06-04",
+      "rank": 40,
+      "price": 9.17,
+      "change_pct": -2.4468
     }
   ],
   "continuous_days": 32,
   "monthly_count": 32,
-  "avg_rank": 235.2,
+  "avg_rank": 229.8,
   "best_rank": 10,
   "trend": "stable"
 }

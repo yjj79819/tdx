@@ -3,10 +3,6 @@
   "name": "春秋电子",
   "history": [
     {
-      "date": "2026-05-03",
-      "rank": 1129
-    },
-    {
       "date": "2026-05-04",
       "rank": 1138
     },
@@ -128,14 +124,18 @@
     },
     {
       "date": "2026-06-03",
-      "rank": 16,
-      "price": 31.33,
-      "change_pct": 4.3638
+      "rank": 12
+    },
+    {
+      "date": "2026-06-04",
+      "rank": 14,
+      "price": 29.36,
+      "change_pct": -6.2879
     }
   ],
   "continuous_days": 32,
   "monthly_count": 32,
-  "avg_rank": 459.8,
+  "avg_rank": 424.8,
   "best_rank": 6,
   "trend": "stable"
 }

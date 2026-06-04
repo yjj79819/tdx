@@ -3,10 +3,6 @@
   "name": "洁美科技",
   "history": [
     {
-      "date": "2026-05-03",
-      "rank": 1015
-    },
-    {
       "date": "2026-05-04",
       "rank": 873
     },
@@ -120,18 +116,22 @@
     },
     {
       "date": "2026-06-02",
-      "rank": 102
+      "rank": 101
     },
     {
       "date": "2026-06-03",
-      "rank": 93,
-      "price": 86.72,
-      "change_pct": 7.8607
+      "rank": 81
+    },
+    {
+      "date": "2026-06-04",
+      "rank": 52,
+      "price": 94.39,
+      "change_pct": 8.8446
     }
   ],
   "continuous_days": 31,
   "monthly_count": 31,
-  "avg_rank": 924.2,
-  "best_rank": 93,
+  "avg_rank": 892.7,
+  "best_rank": 52,
   "trend": "stable"
 }

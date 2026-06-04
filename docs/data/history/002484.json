@@ -3,10 +3,6 @@
   "name": "江海股份",
   "history": [
     {
-      "date": "2026-05-03",
-      "rank": 683
-    },
-    {
       "date": "2026-05-04",
       "rank": 631
     },
@@ -128,14 +124,18 @@
     },
     {
       "date": "2026-06-03",
-      "rank": 71,
-      "price": 87.59,
-      "change_pct": 4.95
+      "rank": 58
+    },
+    {
+      "date": "2026-06-04",
+      "rank": 34,
+      "price": 96.35,
+      "change_pct": 10.0011
     }
   ],
   "continuous_days": 32,
   "monthly_count": 32,
-  "avg_rank": 357.5,
-  "best_rank": 55,
+  "avg_rank": 336.8,
+  "best_rank": 34,
   "trend": "stable"
 }
