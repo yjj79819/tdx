@@ -3,10 +3,6 @@
   "name": "华能蒙电",
   "history": [
     {
-      "date": "2026-05-04",
-      "rank": 1909
-    },
-    {
       "date": "2026-05-05",
       "rank": 1662
     },
@@ -124,18 +120,22 @@
     },
     {
       "date": "2026-06-03",
-      "rank": 22
+      "rank": 23
     },
     {
       "date": "2026-06-04",
-      "rank": 16,
-      "price": 6.88,
-      "change_pct": -6.9012
+      "rank": 23
+    },
+    {
+      "date": "2026-06-05",
+      "rank": 54,
+      "price": 6.44,
+      "change_pct": -6.3953
     }
   ],
   "continuous_days": 32,
   "monthly_count": 32,
-  "avg_rank": 625.9,
+  "avg_rank": 568.2,
   "best_rank": 1,
   "trend": "stable"
 }

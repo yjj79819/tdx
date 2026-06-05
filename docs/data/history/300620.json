@@ -3,18 +3,6 @@
   "name": "光库科技",
   "history": [
     {
-      "date": "2026-05-02",
-      "rank": 378
-    },
-    {
-      "date": "2026-05-03",
-      "rank": 419
-    },
-    {
-      "date": "2026-05-04",
-      "rank": 455
-    },
-    {
       "date": "2026-05-05",
       "rank": 334
     },
@@ -124,18 +112,30 @@
     },
     {
       "date": "2026-06-01",
-      "rank": 89
+      "rank": 71
     },
     {
       "date": "2026-06-02",
-      "rank": 80,
-      "price": 320.02,
-      "change_pct": 14.8466
+      "rank": 130
+    },
+    {
+      "date": "2026-06-03",
+      "rank": 262
+    },
+    {
+      "date": "2026-06-04",
+      "rank": 170
+    },
+    {
+      "date": "2026-06-05",
+      "rank": 99,
+      "price": 335.45,
+      "change_pct": 5.1118
     }
   ],
   "continuous_days": 32,
   "monthly_count": 32,
-  "avg_rank": 341.6,
-  "best_rank": 80,
+  "avg_rank": 320.1,
+  "best_rank": 71,
   "trend": "stable"
 }

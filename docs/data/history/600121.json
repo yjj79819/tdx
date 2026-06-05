@@ -3,10 +3,6 @@
   "name": "郑州煤电",
   "history": [
     {
-      "date": "2026-05-04",
-      "rank": 1985
-    },
-    {
       "date": "2026-05-05",
       "rank": 1655
     },
@@ -100,18 +96,22 @@
     },
     {
       "date": "2026-06-03",
-      "rank": 23
+      "rank": 22
     },
     {
       "date": "2026-06-04",
-      "rank": 27,
-      "price": 5.7,
-      "change_pct": 0.1757
+      "rank": 27
+    },
+    {
+      "date": "2026-06-05",
+      "rank": 96,
+      "price": 5.35,
+      "change_pct": -6.1404
     }
   ],
   "continuous_days": 26,
   "monthly_count": 26,
-  "avg_rank": 1054.7,
-  "best_rank": 23,
+  "avg_rank": 982.0,
+  "best_rank": 22,
   "trend": "stable"
 }

@@ -3,10 +3,6 @@
   "name": "山东玻纤",
   "history": [
     {
-      "date": "2026-05-04",
-      "rank": 266
-    },
-    {
       "date": "2026-05-05",
       "rank": 247
     },
@@ -124,18 +120,22 @@
     },
     {
       "date": "2026-06-03",
-      "rank": 100
+      "rank": 94
     },
     {
       "date": "2026-06-04",
-      "rank": 51,
-      "price": 18.43,
-      "change_pct": 7.2135
+      "rank": 75
+    },
+    {
+      "date": "2026-06-05",
+      "rank": 82,
+      "price": 19.19,
+      "change_pct": 4.3407
     }
   ],
   "continuous_days": 32,
   "monthly_count": 32,
-  "avg_rank": 179.2,
+  "avg_rank": 174.1,
   "best_rank": 41,
   "trend": "stable"
 }
