@@ -2466,5 +2466,103 @@
     "win_count": 1,
     "total": 8,
     "rank_improved": 1
+  },
+  {
+    "review_date": "2026-06-05",
+    "target_date": "2026-06-05",
+    "results": [
+      {
+        "code": "000725",
+        "name": "京东方A",
+        "prev_rank": 1,
+        "prev_price": 6.58,
+        "today_rank": 2,
+        "today_price": 6.43,
+        "price_change": -2.28,
+        "still_in_top50": true,
+        "rank_change": -1
+      },
+      {
+        "code": "002421",
+        "name": "达实智能",
+        "prev_rank": 7,
+        "prev_price": 5.21,
+        "today_rank": 17,
+        "today_price": 5.21,
+        "price_change": 0.0,
+        "still_in_top50": true,
+        "rank_change": -10
+      },
+      {
+        "code": "603601",
+        "name": "再升科技",
+        "prev_rank": 17,
+        "prev_price": 15.91,
+        "today_rank": 8,
+        "today_price": 16.49,
+        "price_change": 3.65,
+        "still_in_top50": true,
+        "rank_change": 9
+      },
+      {
+        "code": "002185",
+        "name": "华天科技",
+        "prev_rank": 24,
+        "prev_price": 18.56,
+        "today_rank": "-",
+        "today_price": 18.56,
+        "price_change": 0.0,
+        "still_in_top50": false,
+        "rank_change": 0
+      },
+      {
+        "code": "002361",
+        "name": "神剑股份",
+        "prev_rank": 13,
+        "prev_price": 16.81,
+        "today_rank": 34,
+        "today_price": 16.81,
+        "price_change": 0.0,
+        "still_in_top50": true,
+        "rank_change": -21
+      },
+      {
+        "code": "000100",
+        "name": "TCL科技",
+        "prev_rank": 41,
+        "prev_price": 5.02,
+        "today_rank": 81,
+        "today_price": 4.89,
+        "price_change": -2.59,
+        "still_in_top50": true,
+        "rank_change": -40
+      },
+      {
+        "code": "600403",
+        "name": "大有能源",
+        "prev_rank": 14,
+        "prev_price": 8.14,
+        "today_rank": 28,
+        "today_price": 8.14,
+        "price_change": 0.0,
+        "still_in_top50": true,
+        "rank_change": -14
+      },
+      {
+        "code": "600707",
+        "name": "彩虹股份",
+        "prev_rank": 46,
+        "prev_price": 12.05,
+        "today_rank": 63,
+        "today_price": 11.71,
+        "price_change": -2.82,
+        "still_in_top50": true,
+        "rank_change": -17
+      }
+    ],
+    "win_rate": 12.5,
+    "win_count": 1,
+    "total": 8,
+    "rank_improved": 1
   }
 ]

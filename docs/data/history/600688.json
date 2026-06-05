@@ -1,37 +1,37 @@
 {
-  "code": "603330",
-  "name": "天洋新材",
+  "code": "600688",
+  "name": "上海石化",
   "history": [
     {
-      "date": "2026-05-31",
+      "date": "2026-05-09",
       "rank": 1401
     },
     {
-      "date": "2026-06-01",
-      "rank": 404
+      "date": "2026-05-10",
+      "rank": 1584
     },
     {
       "date": "2026-06-02",
-      "rank": 164
+      "rank": 463
     },
     {
       "date": "2026-06-03",
-      "rank": 81
+      "rank": 199
     },
     {
       "date": "2026-06-04",
-      "rank": 45
+      "rank": 94
     },
     {
       "date": "2026-06-05",
-      "rank": 49,
-      "price": 8.61,
-      "change_pct": -8.5016
+      "rank": 97,
+      "price": 3.49,
+      "change_pct": 3.2544
     }
   ],
   "continuous_days": 6,
   "monthly_count": 6,
-  "avg_rank": 357.3,
-  "best_rank": 45,
+  "avg_rank": 639.7,
+  "best_rank": 94,
   "trend": "stable"
 }

@@ -3,10 +3,6 @@
   "name": "红板科技",
   "history": [
     {
-      "date": "2026-05-04",
-      "rank": 160
-    },
-    {
       "date": "2026-05-05",
       "rank": 163
     },
@@ -124,18 +120,22 @@
     },
     {
       "date": "2026-06-03",
-      "rank": 79
+      "rank": 62
     },
     {
       "date": "2026-06-04",
-      "rank": 13,
-      "price": 106.99,
-      "change_pct": 9.4863
+      "rank": 86
+    },
+    {
+      "date": "2026-06-05",
+      "rank": 96,
+      "price": 98.48,
+      "change_pct": -7.954
     }
   ],
   "continuous_days": 32,
   "monthly_count": 32,
-  "avg_rank": 96.2,
-  "best_rank": 13,
+  "avg_rank": 95.9,
+  "best_rank": 22,
   "trend": "stable"
 }

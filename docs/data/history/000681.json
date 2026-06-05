@@ -3,18 +3,6 @@
   "name": "视觉中国",
   "history": [
     {
-      "date": "2026-05-02",
-      "rank": 223
-    },
-    {
-      "date": "2026-05-03",
-      "rank": 221
-    },
-    {
-      "date": "2026-05-04",
-      "rank": 226
-    },
-    {
       "date": "2026-05-05",
       "rank": 304
     },
@@ -124,18 +112,30 @@
     },
     {
       "date": "2026-06-01",
-      "rank": 52
+      "rank": 50
     },
     {
       "date": "2026-06-02",
-      "rank": 42,
-      "price": 23.19,
-      "change_pct": 2.3841
+      "rank": 104
+    },
+    {
+      "date": "2026-06-03",
+      "rank": 150
+    },
+    {
+      "date": "2026-06-04",
+      "rank": 76
+    },
+    {
+      "date": "2026-06-05",
+      "rank": 50,
+      "price": 24.31,
+      "change_pct": 4.7845
     }
   ],
   "continuous_days": 32,
   "monthly_count": 32,
-  "avg_rank": 501.3,
-  "best_rank": 42,
+  "avg_rank": 490.9,
+  "best_rank": 50,
   "trend": "stable"
 }
