@@ -3,18 +3,6 @@
   "name": "麦捷科技",
   "history": [
     {
-      "date": "2026-05-05",
-      "rank": 1731
-    },
-    {
-      "date": "2026-05-06",
-      "rank": 1452
-    },
-    {
-      "date": "2026-05-07",
-      "rank": 1772
-    },
-    {
       "date": "2026-05-10",
       "rank": 1461
     },
@@ -112,18 +100,30 @@
     },
     {
       "date": "2026-06-04",
-      "rank": 55
+      "rank": 51
     },
     {
       "date": "2026-06-05",
-      "rank": 62,
-      "price": 22.28,
-      "change_pct": 14.4325
+      "rank": 27
+    },
+    {
+      "date": "2026-06-06",
+      "rank": 15
+    },
+    {
+      "date": "2026-06-07",
+      "rank": 51
+    },
+    {
+      "date": "2026-06-08",
+      "rank": 77,
+      "price": 23.14,
+      "change_pct": 3.86
     }
   ],
   "continuous_days": 29,
   "monthly_count": 29,
-  "avg_rank": 935.2,
-  "best_rank": 55,
+  "avg_rank": 768.0,
+  "best_rank": 15,
   "trend": "stable"
 }

@@ -1,9 +1,9 @@
 {
-  "up": 16,
-  "down": 7,
+  "up": 32,
+  "down": 6,
   "flat": 0,
-  "limit_up": 6,
+  "limit_up": 17,
   "limit_down": 0,
-  "sentiment": 62.6,
-  "update_time": "2026-06-05 09:32:03"
+  "sentiment": 75.5,
+  "update_time": "2026-06-08 10:18:10"
 }

@@ -3,14 +3,6 @@
   "name": "京能电力",
   "history": [
     {
-      "date": "2026-05-05",
-      "rank": 1955
-    },
-    {
-      "date": "2026-05-07",
-      "rank": 1712
-    },
-    {
       "date": "2026-05-08",
       "rank": 1932
     },
@@ -116,18 +108,30 @@
     },
     {
       "date": "2026-06-04",
-      "rank": 26
+      "rank": 28
     },
     {
       "date": "2026-06-05",
-      "rank": 30,
-      "price": 8.46,
-      "change_pct": -9.6154
+      "rank": 64
+    },
+    {
+      "date": "2026-06-06",
+      "rank": 70
+    },
+    {
+      "date": "2026-06-07",
+      "rank": 12
+    },
+    {
+      "date": "2026-06-08",
+      "rank": 23,
+      "price": 8.82,
+      "change_pct": 4.2553
     }
   ],
-  "continuous_days": 30,
-  "monthly_count": 30,
-  "avg_rank": 318.3,
+  "continuous_days": 31,
+  "monthly_count": 31,
+  "avg_rank": 194.3,
   "best_rank": 3,
   "trend": "stable"
 }

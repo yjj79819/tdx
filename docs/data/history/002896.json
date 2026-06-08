@@ -3,18 +3,6 @@
   "name": "中大力德",
   "history": [
     {
-      "date": "2026-05-05",
-      "rank": 1656
-    },
-    {
-      "date": "2026-05-06",
-      "rank": 1044
-    },
-    {
-      "date": "2026-05-07",
-      "rank": 379
-    },
-    {
       "date": "2026-05-08",
       "rank": 587
     },
@@ -124,18 +112,30 @@
     },
     {
       "date": "2026-06-04",
-      "rank": 144
+      "rank": 97
     },
     {
       "date": "2026-06-05",
-      "rank": 46,
-      "price": 86.77,
-      "change_pct": 10.0025
+      "rank": 29
+    },
+    {
+      "date": "2026-06-06",
+      "rank": 31
+    },
+    {
+      "date": "2026-06-07",
+      "rank": 39
+    },
+    {
+      "date": "2026-06-08",
+      "rank": 15,
+      "price": 95.2,
+      "change_pct": 9.7153
     }
   ],
   "continuous_days": 32,
   "monthly_count": 32,
-  "avg_rank": 540.1,
-  "best_rank": 46,
+  "avg_rank": 444.5,
+  "best_rank": 15,
   "trend": "stable"
 }

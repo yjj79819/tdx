@@ -3,18 +3,6 @@
   "name": "大唐发电",
   "history": [
     {
-      "date": "2026-05-05",
-      "rank": 25
-    },
-    {
-      "date": "2026-05-06",
-      "rank": 20
-    },
-    {
-      "date": "2026-05-07",
-      "rank": 5
-    },
-    {
       "date": "2026-05-08",
       "rank": 3
     },
@@ -128,14 +116,26 @@
     },
     {
       "date": "2026-06-05",
-      "rank": 1,
-      "price": 7.93,
-      "change_pct": -9.9886
+      "rank": 5
+    },
+    {
+      "date": "2026-06-06",
+      "rank": 4
+    },
+    {
+      "date": "2026-06-07",
+      "rank": 3
+    },
+    {
+      "date": "2026-06-08",
+      "rank": 4,
+      "price": 7.27,
+      "change_pct": -8.3228
     }
   ],
   "continuous_days": 32,
   "monthly_count": 32,
-  "avg_rank": 4.1,
+  "avg_rank": 3.0,
   "best_rank": 1,
   "trend": "stable"
 }

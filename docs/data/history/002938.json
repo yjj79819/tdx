@@ -3,18 +3,6 @@
   "name": "鹏鼎控股",
   "history": [
     {
-      "date": "2026-05-05",
-      "rank": 454
-    },
-    {
-      "date": "2026-05-06",
-      "rank": 491
-    },
-    {
-      "date": "2026-05-07",
-      "rank": 573
-    },
-    {
       "date": "2026-05-08",
       "rank": 499
     },
@@ -124,18 +112,30 @@
     },
     {
       "date": "2026-06-04",
-      "rank": 81
+      "rank": 115
     },
     {
       "date": "2026-06-05",
-      "rank": 95,
-      "price": 106.15,
-      "change_pct": -4.37
+      "rank": 171
+    },
+    {
+      "date": "2026-06-06",
+      "rank": 194
+    },
+    {
+      "date": "2026-06-07",
+      "rank": 49
+    },
+    {
+      "date": "2026-06-08",
+      "rank": 74,
+      "price": 112.0,
+      "change_pct": 5.5111
     }
   ],
   "continuous_days": 32,
   "monthly_count": 32,
-  "avg_rank": 203.5,
+  "avg_rank": 169.4,
   "best_rank": 10,
   "trend": "stable"
 }
