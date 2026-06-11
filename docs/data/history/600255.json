@@ -3,18 +3,6 @@
   "name": "鑫科材料",
   "history": [
     {
-      "date": "2026-05-08",
-      "rank": 1591
-    },
-    {
-      "date": "2026-05-09",
-      "rank": 1545
-    },
-    {
-      "date": "2026-05-10",
-      "rank": 1999
-    },
-    {
       "date": "2026-05-17",
       "rank": 1933
     },
@@ -92,14 +80,26 @@
     },
     {
       "date": "2026-06-08",
-      "rank": 56,
-      "price": 4.61,
-      "change_pct": 2.6726
+      "rank": 86
+    },
+    {
+      "date": "2026-06-09",
+      "rank": 126
+    },
+    {
+      "date": "2026-06-10",
+      "rank": 102
+    },
+    {
+      "date": "2026-06-11",
+      "rank": 81,
+      "price": 4.26,
+      "change_pct": 6.2344
     }
   ],
   "continuous_days": 23,
   "monthly_count": 23,
-  "avg_rank": 952.2,
+  "avg_rank": 743.7,
   "best_rank": 26,
   "trend": "stable"
 }

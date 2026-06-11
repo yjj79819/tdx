@@ -3,10 +3,6 @@
   "name": "江丰电子",
   "history": [
     {
-      "date": "2026-05-10",
-      "rank": 279
-    },
-    {
       "date": "2026-05-11",
       "rank": 421
     },
@@ -124,18 +120,22 @@
     },
     {
       "date": "2026-06-09",
-      "rank": 116
+      "rank": 103
     },
     {
       "date": "2026-06-10",
-      "rank": 89,
-      "price": 243.67,
-      "change_pct": 8.3556
+      "rank": 44
+    },
+    {
+      "date": "2026-06-11",
+      "rank": 27,
+      "price": 292.4,
+      "change_pct": 19.9984
     }
   ],
   "continuous_days": 32,
   "monthly_count": 32,
-  "avg_rank": 356.6,
-  "best_rank": 89,
+  "avg_rank": 346.9,
+  "best_rank": 27,
   "trend": "stable"
 }

@@ -3,10 +3,6 @@
   "name": "隆基绿能",
   "history": [
     {
-      "date": "2026-05-10",
-      "rank": 183
-    },
-    {
       "date": "2026-05-11",
       "rank": 166
     },
@@ -124,18 +120,22 @@
     },
     {
       "date": "2026-06-09",
-      "rank": 44
+      "rank": 21
     },
     {
       "date": "2026-06-10",
-      "rank": 2,
-      "price": 14.08,
-      "change_pct": 8.8099
+      "rank": 15
+    },
+    {
+      "date": "2026-06-11",
+      "rank": 72,
+      "price": 13.54,
+      "change_pct": -3.8352
     }
   ],
   "continuous_days": 32,
   "monthly_count": 32,
-  "avg_rank": 151.3,
-  "best_rank": 2,
+  "avg_rank": 147.5,
+  "best_rank": 15,
   "trend": "stable"
 }

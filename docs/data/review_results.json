@@ -2760,5 +2760,103 @@
     "win_count": 1,
     "total": 8,
     "rank_improved": 1
+  },
+  {
+    "review_date": "2026-06-11",
+    "target_date": "2026-06-10",
+    "results": [
+      {
+        "code": "601991",
+        "name": "大唐发电",
+        "prev_rank": 3,
+        "prev_price": 7.76,
+        "today_rank": 2,
+        "today_price": 8.0,
+        "price_change": 3.09,
+        "still_in_top50": true,
+        "rank_change": 1
+      },
+      {
+        "code": "601012",
+        "name": "隆基绿能",
+        "prev_rank": 2,
+        "prev_price": 14.08,
+        "today_rank": 72,
+        "today_price": 13.54,
+        "price_change": -3.84,
+        "still_in_top50": true,
+        "rank_change": -70
+      },
+      {
+        "code": "002361",
+        "name": "神剑股份",
+        "prev_rank": 1,
+        "prev_price": 19.1,
+        "today_rank": "-",
+        "today_price": 19.1,
+        "price_change": 0.0,
+        "still_in_top50": false,
+        "rank_change": 0
+      },
+      {
+        "code": "002354",
+        "name": "天娱数科",
+        "prev_rank": 7,
+        "prev_price": 8.87,
+        "today_rank": "-",
+        "today_price": 8.87,
+        "price_change": 0.0,
+        "still_in_top50": false,
+        "rank_change": 0
+      },
+      {
+        "code": "002421",
+        "name": "达实智能",
+        "prev_rank": 12,
+        "prev_price": 5.43,
+        "today_rank": "-",
+        "today_price": 5.43,
+        "price_change": 0.0,
+        "still_in_top50": false,
+        "rank_change": 0
+      },
+      {
+        "code": "002585",
+        "name": "双星新材",
+        "prev_rank": 28,
+        "prev_price": 13.42,
+        "today_rank": "-",
+        "today_price": 13.42,
+        "price_change": 0.0,
+        "still_in_top50": false,
+        "rank_change": 0
+      },
+      {
+        "code": "001696",
+        "name": "宗申动力",
+        "prev_rank": 18,
+        "prev_price": 19.05,
+        "today_rank": "-",
+        "today_price": 19.05,
+        "price_change": 0.0,
+        "still_in_top50": false,
+        "rank_change": 0
+      },
+      {
+        "code": "002669",
+        "name": "康达新材",
+        "prev_rank": 53,
+        "prev_price": 19.13,
+        "today_rank": "-",
+        "today_price": 19.13,
+        "price_change": 0.0,
+        "still_in_top50": false,
+        "rank_change": 0
+      }
+    ],
+    "win_rate": 12.5,
+    "win_count": 1,
+    "total": 8,
+    "rank_improved": 1
   }
 ]

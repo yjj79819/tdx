@@ -3,10 +3,6 @@
   "name": "铜冠铜箔",
   "history": [
     {
-      "date": "2026-05-10",
-      "rank": 194
-    },
-    {
       "date": "2026-05-11",
       "rank": 65
     },
@@ -128,14 +124,18 @@
     },
     {
       "date": "2026-06-10",
-      "rank": 38,
-      "price": 122.8,
-      "change_pct": 0.0326
+      "rank": 50
+    },
+    {
+      "date": "2026-06-11",
+      "rank": 46,
+      "price": 127.02,
+      "change_pct": 3.4609
     }
   ],
   "continuous_days": 32,
   "monthly_count": 32,
-  "avg_rank": 125.7,
+  "avg_rank": 121.4,
   "best_rank": 21,
   "trend": "stable"
 }

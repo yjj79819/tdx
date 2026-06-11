@@ -3,10 +3,6 @@
   "name": "绿的谐波",
   "history": [
     {
-      "date": "2026-05-10",
-      "rank": 554
-    },
-    {
       "date": "2026-05-11",
       "rank": 658
     },
@@ -124,18 +120,22 @@
     },
     {
       "date": "2026-06-09",
-      "rank": 91
+      "rank": 90
     },
     {
       "date": "2026-06-10",
-      "rank": 87,
-      "price": 424.0,
-      "change_pct": 0.9115
+      "rank": 91
+    },
+    {
+      "date": "2026-06-11",
+      "rank": 94,
+      "price": 375.44,
+      "change_pct": -11.4623
     }
   ],
   "continuous_days": 32,
   "monthly_count": 32,
-  "avg_rank": 299.2,
+  "avg_rank": 284.9,
   "best_rank": 15,
   "trend": "stable"
 }
