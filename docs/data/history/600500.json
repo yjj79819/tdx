@@ -3,10 +3,6 @@
   "name": "中化国际",
   "history": [
     {
-      "date": "2026-05-10",
-      "rank": 1367
-    },
-    {
       "date": "2026-05-12",
       "rank": 597
     },
@@ -120,18 +116,22 @@
     },
     {
       "date": "2026-06-09",
-      "rank": 154
+      "rank": 121
     },
     {
       "date": "2026-06-10",
-      "rank": 96,
-      "price": 6.55,
-      "change_pct": 10.084
+      "rank": 72
+    },
+    {
+      "date": "2026-06-11",
+      "rank": 69,
+      "price": 7.21,
+      "change_pct": 10.0763
     }
   ],
   "continuous_days": 31,
   "monthly_count": 31,
-  "avg_rank": 894.5,
-  "best_rank": 96,
+  "avg_rank": 850.7,
+  "best_rank": 69,
   "trend": "stable"
 }

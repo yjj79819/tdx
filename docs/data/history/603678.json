@@ -3,18 +3,6 @@
   "name": "火炬电子",
   "history": [
     {
-      "date": "2026-05-08",
-      "rank": 1606
-    },
-    {
-      "date": "2026-05-09",
-      "rank": 1411
-    },
-    {
-      "date": "2026-05-10",
-      "rank": 1490
-    },
-    {
       "date": "2026-05-11",
       "rank": 1801
     },
@@ -112,18 +100,30 @@
     },
     {
       "date": "2026-06-07",
-      "rank": 110
+      "rank": 115
     },
     {
       "date": "2026-06-08",
-      "rank": 92,
-      "price": 56.68,
-      "change_pct": -10.0032
+      "rank": 122
+    },
+    {
+      "date": "2026-06-09",
+      "rank": 249
+    },
+    {
+      "date": "2026-06-10",
+      "rank": 131
+    },
+    {
+      "date": "2026-06-11",
+      "rank": 87,
+      "price": 61.91,
+      "change_pct": 10.0036
     }
   ],
   "continuous_days": 29,
   "monthly_count": 29,
-  "avg_rank": 607.9,
+  "avg_rank": 469.8,
   "best_rank": 39,
   "trend": "stable"
 }
