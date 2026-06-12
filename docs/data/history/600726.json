@@ -3,22 +3,6 @@
   "name": "华电能源",
   "history": [
     {
-      "date": "2026-05-08",
-      "rank": 82
-    },
-    {
-      "date": "2026-05-09",
-      "rank": 85
-    },
-    {
-      "date": "2026-05-10",
-      "rank": 32
-    },
-    {
-      "date": "2026-05-11",
-      "rank": 21
-    },
-    {
       "date": "2026-05-12",
       "rank": 36
     },
@@ -124,18 +108,34 @@
     },
     {
       "date": "2026-06-07",
-      "rank": 30
+      "rank": 31
     },
     {
       "date": "2026-06-08",
-      "rank": 61,
-      "price": 8.8,
-      "change_pct": -5.8824
+      "rank": 50
+    },
+    {
+      "date": "2026-06-09",
+      "rank": 91
+    },
+    {
+      "date": "2026-06-10",
+      "rank": 157
+    },
+    {
+      "date": "2026-06-11",
+      "rank": 73
+    },
+    {
+      "date": "2026-06-12",
+      "rank": 84,
+      "price": 8.09,
+      "change_pct": -0.3695
     }
   ],
   "continuous_days": 32,
   "monthly_count": 32,
-  "avg_rank": 80.7,
+  "avg_rank": 86.1,
   "best_rank": 6,
   "trend": "stable"
 }

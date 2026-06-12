@@ -3,10 +3,6 @@
   "name": "弘信电子",
   "history": [
     {
-      "date": "2026-05-11",
-      "rank": 624
-    },
-    {
       "date": "2026-05-12",
       "rank": 533
     },
@@ -124,18 +120,22 @@
     },
     {
       "date": "2026-06-10",
-      "rank": 157
+      "rank": 120
     },
     {
       "date": "2026-06-11",
+      "rank": 109
+    },
+    {
+      "date": "2026-06-12",
       "rank": 73,
-      "price": 44.01,
-      "change_pct": 1.5
+      "price": 46.9,
+      "change_pct": 6.5667
     }
   ],
   "continuous_days": 32,
   "monthly_count": 32,
-  "avg_rank": 224.8,
+  "avg_rank": 207.6,
   "best_rank": 22,
   "trend": "stable"
 }

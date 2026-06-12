@@ -3,10 +3,6 @@
   "name": "中船特气",
   "history": [
     {
-      "date": "2026-05-11",
-      "rank": 753
-    },
-    {
       "date": "2026-05-12",
       "rank": 286
     },
@@ -124,18 +120,22 @@
     },
     {
       "date": "2026-06-10",
-      "rank": 31
+      "rank": 29
     },
     {
       "date": "2026-06-11",
-      "rank": 15,
-      "price": 349.8,
-      "change_pct": 19.7945
+      "rank": 38
+    },
+    {
+      "date": "2026-06-12",
+      "rank": 47,
+      "price": 302.0,
+      "change_pct": -13.665
     }
   ],
   "continuous_days": 32,
   "monthly_count": 32,
-  "avg_rank": 372.2,
-  "best_rank": 15,
+  "avg_rank": 350.8,
+  "best_rank": 29,
   "trend": "stable"
 }

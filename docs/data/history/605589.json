@@ -3,10 +3,6 @@
   "name": "圣泉集团",
   "history": [
     {
-      "date": "2026-05-11",
-      "rank": 509
-    },
-    {
       "date": "2026-05-12",
       "rank": 273
     },
@@ -128,14 +124,18 @@
     },
     {
       "date": "2026-06-11",
-      "rank": 11,
-      "price": 61.0,
-      "change_pct": 1.4975
+      "rank": 27
+    },
+    {
+      "date": "2026-06-12",
+      "rank": 57,
+      "price": 58.32,
+      "change_pct": -3.3637
     }
   ],
   "continuous_days": 32,
   "monthly_count": 32,
-  "avg_rank": 235.4,
-  "best_rank": 11,
+  "avg_rank": 221.8,
+  "best_rank": 13,
   "trend": "stable"
 }

@@ -2956,5 +2956,103 @@
     "win_count": 2,
     "total": 8,
     "rank_improved": 1
+  },
+  {
+    "review_date": "2026-06-12",
+    "target_date": "2026-06-11",
+    "results": [
+      {
+        "code": "601991",
+        "name": "大唐发电",
+        "prev_rank": 5,
+        "prev_price": 7.99,
+        "today_rank": 8,
+        "today_price": 8.09,
+        "price_change": 1.25,
+        "still_in_top50": true,
+        "rank_change": -3
+      },
+      {
+        "code": "000725",
+        "name": "京东方A",
+        "prev_rank": 4,
+        "prev_price": 5.83,
+        "today_rank": 7,
+        "today_price": 5.57,
+        "price_change": -4.46,
+        "still_in_top50": true,
+        "rank_change": -3
+      },
+      {
+        "code": "600500",
+        "name": "中化国际",
+        "prev_rank": 69,
+        "prev_price": 7.21,
+        "today_rank": 21,
+        "today_price": 7.93,
+        "price_change": 9.99,
+        "still_in_top50": true,
+        "rank_change": 48
+      },
+      {
+        "code": "600667",
+        "name": "太极实业",
+        "prev_rank": 20,
+        "prev_price": 17.51,
+        "today_rank": "-",
+        "today_price": 17.51,
+        "price_change": 0.0,
+        "still_in_top50": false,
+        "rank_change": 0
+      },
+      {
+        "code": "600186",
+        "name": "莲花控股",
+        "prev_rank": 12,
+        "prev_price": 12.63,
+        "today_rank": "-",
+        "today_price": 12.63,
+        "price_change": 0.0,
+        "still_in_top50": false,
+        "rank_change": 0
+      },
+      {
+        "code": "002549",
+        "name": "凯美特气",
+        "prev_rank": 53,
+        "prev_price": 18.15,
+        "today_rank": "-",
+        "today_price": 18.15,
+        "price_change": 0.0,
+        "still_in_top50": false,
+        "rank_change": 0
+      },
+      {
+        "code": "002129",
+        "name": "TCL中环",
+        "prev_rank": 80,
+        "prev_price": 10.13,
+        "today_rank": 42,
+        "today_price": 9.98,
+        "price_change": -1.48,
+        "still_in_top50": true,
+        "rank_change": 38
+      },
+      {
+        "code": "603399",
+        "name": "永杉锂业",
+        "prev_rank": 56,
+        "prev_price": 19.18,
+        "today_rank": "-",
+        "today_price": 19.18,
+        "price_change": 0.0,
+        "still_in_top50": false,
+        "rank_change": 0
+      }
+    ],
+    "win_rate": 25.0,
+    "win_count": 2,
+    "total": 8,
+    "rank_improved": 2
   }
 ]

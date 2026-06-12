@@ -3,10 +3,6 @@
   "name": "盛新锂能",
   "history": [
     {
-      "date": "2026-05-11",
-      "rank": 226
-    },
-    {
       "date": "2026-05-12",
       "rank": 199
     },
@@ -124,18 +120,22 @@
     },
     {
       "date": "2026-06-10",
-      "rank": 46
+      "rank": 40
     },
     {
       "date": "2026-06-11",
-      "rank": 47,
-      "price": 50.98,
-      "change_pct": 6.8763
+      "rank": 56
+    },
+    {
+      "date": "2026-06-12",
+      "rank": 50,
+      "price": 51.08,
+      "change_pct": 0.1962
     }
   ],
   "continuous_days": 32,
   "monthly_count": 32,
-  "avg_rank": 317.4,
-  "best_rank": 46,
+  "avg_rank": 312.0,
+  "best_rank": 40,
   "trend": "stable"
 }

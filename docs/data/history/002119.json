@@ -3,10 +3,6 @@
   "name": "康强电子",
   "history": [
     {
-      "date": "2026-05-11",
-      "rank": 476
-    },
-    {
       "date": "2026-05-12",
       "rank": 422
     },
@@ -124,18 +120,22 @@
     },
     {
       "date": "2026-06-10",
-      "rank": 59
+      "rank": 47
     },
     {
       "date": "2026-06-11",
-      "rank": 39,
-      "price": 31.2,
-      "change_pct": 10.0141
+      "rank": 20
+    },
+    {
+      "date": "2026-06-12",
+      "rank": 40,
+      "price": 31.96,
+      "change_pct": 2.4359
     }
   ],
   "continuous_days": 32,
   "monthly_count": 32,
-  "avg_rank": 343.6,
-  "best_rank": 39,
+  "avg_rank": 329.0,
+  "best_rank": 20,
   "trend": "stable"
 }
