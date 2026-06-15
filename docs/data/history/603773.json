@@ -3,18 +3,6 @@
   "name": "沃格光电",
   "history": [
     {
-      "date": "2026-05-12",
-      "rank": 124
-    },
-    {
-      "date": "2026-05-13",
-      "rank": 107
-    },
-    {
-      "date": "2026-05-14",
-      "rank": 101
-    },
-    {
       "date": "2026-05-15",
       "rank": 25
     },
@@ -124,18 +112,30 @@
     },
     {
       "date": "2026-06-11",
-      "rank": 13
+      "rank": 4
     },
     {
       "date": "2026-06-12",
-      "rank": 1,
-      "price": 129.8,
-      "change_pct": -6.9267
+      "rank": 12
+    },
+    {
+      "date": "2026-06-13",
+      "rank": 34
+    },
+    {
+      "date": "2026-06-14",
+      "rank": 35
+    },
+    {
+      "date": "2026-06-15",
+      "rank": 37,
+      "price": 137.3,
+      "change_pct": 5.7781
     }
   ],
   "continuous_days": 32,
   "monthly_count": 32,
-  "avg_rank": 59.0,
-  "best_rank": 1,
+  "avg_rank": 52.0,
+  "best_rank": 4,
   "trend": "stable"
 }

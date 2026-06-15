@@ -3,18 +3,6 @@
   "name": "金安国纪",
   "history": [
     {
-      "date": "2026-05-12",
-      "rank": 212
-    },
-    {
-      "date": "2026-05-13",
-      "rank": 306
-    },
-    {
-      "date": "2026-05-14",
-      "rank": 332
-    },
-    {
       "date": "2026-05-15",
       "rank": 471
     },
@@ -124,18 +112,30 @@
     },
     {
       "date": "2026-06-11",
-      "rank": 18
+      "rank": 21
     },
     {
       "date": "2026-06-12",
-      "rank": 23,
-      "price": 89.88,
-      "change_pct": 5.9906
+      "rank": 13
+    },
+    {
+      "date": "2026-06-13",
+      "rank": 22
+    },
+    {
+      "date": "2026-06-14",
+      "rank": 39
+    },
+    {
+      "date": "2026-06-15",
+      "rank": 21,
+      "price": 97.34,
+      "change_pct": 8.3
     }
   ],
   "continuous_days": 32,
   "monthly_count": 32,
-  "avg_rank": 172.8,
-  "best_rank": 15,
+  "avg_rank": 148.6,
+  "best_rank": 13,
   "trend": "stable"
 }

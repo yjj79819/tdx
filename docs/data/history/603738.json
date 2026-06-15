@@ -3,22 +3,6 @@
   "name": "泰晶科技",
   "history": [
     {
-      "date": "2026-05-11",
-      "rank": 62
-    },
-    {
-      "date": "2026-05-12",
-      "rank": 161
-    },
-    {
-      "date": "2026-05-13",
-      "rank": 120
-    },
-    {
-      "date": "2026-05-14",
-      "rank": 68
-    },
-    {
       "date": "2026-05-15",
       "rank": 48
     },
@@ -124,18 +108,34 @@
     },
     {
       "date": "2026-06-10",
-      "rank": 216
+      "rank": 114
     },
     {
       "date": "2026-06-11",
-      "rank": 83,
-      "price": 47.04,
-      "change_pct": 7.5
+      "rank": 126
+    },
+    {
+      "date": "2026-06-12",
+      "rank": 36
+    },
+    {
+      "date": "2026-06-13",
+      "rank": 27
+    },
+    {
+      "date": "2026-06-14",
+      "rank": 34
+    },
+    {
+      "date": "2026-06-15",
+      "rank": 25,
+      "price": 56.91,
+      "change_pct": 9.9923
     }
   ],
   "continuous_days": 32,
   "monthly_count": 32,
-  "avg_rank": 229.3,
-  "best_rank": 48,
+  "avg_rank": 218.4,
+  "best_rank": 25,
   "trend": "stable"
 }
