@@ -3,10 +3,6 @@
   "name": "盛龙股份",
   "history": [
     {
-      "date": "2026-05-15",
-      "rank": 1276
-    },
-    {
       "date": "2026-05-16",
       "rank": 1295
     },
@@ -124,18 +120,22 @@
     },
     {
       "date": "2026-06-14",
-      "rank": 88
+      "rank": 85
     },
     {
       "date": "2026-06-15",
-      "rank": 49,
-      "price": 30.51,
-      "change_pct": 9.9856
+      "rank": 77
+    },
+    {
+      "date": "2026-06-16",
+      "rank": 51,
+      "price": 33.56,
+      "change_pct": 9.9967
     }
   ],
   "continuous_days": 32,
   "monthly_count": 32,
-  "avg_rank": 708.5,
+  "avg_rank": 671.0,
   "best_rank": 35,
   "trend": "stable"
 }

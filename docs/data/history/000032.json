@@ -3,10 +3,6 @@
   "name": "深桑达A",
   "history": [
     {
-      "date": "2026-05-15",
-      "rank": 1920
-    },
-    {
       "date": "2026-05-16",
       "rank": 1479
     },
@@ -124,18 +120,22 @@
     },
     {
       "date": "2026-06-14",
-      "rank": 122
+      "rank": 120
     },
     {
       "date": "2026-06-15",
-      "rank": 61,
-      "price": 20.81,
-      "change_pct": 9.9894
+      "rank": 80
+    },
+    {
+      "date": "2026-06-16",
+      "rank": 50,
+      "price": 22.89,
+      "change_pct": 9.9952
     }
   ],
   "continuous_days": 32,
   "monthly_count": 32,
-  "avg_rank": 1093.5,
-  "best_rank": 61,
+  "avg_rank": 1035.6,
+  "best_rank": 50,
   "trend": "stable"
 }
