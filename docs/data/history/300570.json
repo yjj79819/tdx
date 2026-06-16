@@ -3,10 +3,6 @@
   "name": "太辰光",
   "history": [
     {
-      "date": "2026-05-15",
-      "rank": 434
-    },
-    {
       "date": "2026-05-16",
       "rank": 484
     },
@@ -124,18 +120,22 @@
     },
     {
       "date": "2026-06-14",
-      "rank": 76
+      "rank": 68
     },
     {
       "date": "2026-06-15",
-      "rank": 30,
-      "price": 222.1,
-      "change_pct": 20.0022
+      "rank": 68
+    },
+    {
+      "date": "2026-06-16",
+      "rank": 89,
+      "price": 261.32,
+      "change_pct": 17.7172
     }
   ],
   "continuous_days": 32,
   "monthly_count": 32,
-  "avg_rank": 360.9,
-  "best_rank": 30,
+  "avg_rank": 351.1,
+  "best_rank": 68,
   "trend": "stable"
 }

@@ -3,10 +3,6 @@
   "name": "德福科技",
   "history": [
     {
-      "date": "2026-05-15",
-      "rank": 709
-    },
-    {
       "date": "2026-05-16",
       "rank": 670
     },
@@ -124,18 +120,22 @@
     },
     {
       "date": "2026-06-14",
-      "rank": 114
+      "rank": 112
     },
     {
       "date": "2026-06-15",
-      "rank": 84,
-      "price": 161.07,
-      "change_pct": 16.4979
+      "rank": 123
+    },
+    {
+      "date": "2026-06-16",
+      "rank": 53,
+      "price": 173.72,
+      "change_pct": 7.8475
     }
   ],
   "continuous_days": 32,
   "monthly_count": 32,
-  "avg_rank": 261.7,
-  "best_rank": 84,
+  "avg_rank": 242.4,
+  "best_rank": 53,
   "trend": "stable"
 }

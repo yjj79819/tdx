@@ -3,10 +3,6 @@
   "name": "盛和资源",
   "history": [
     {
-      "date": "2026-05-15",
-      "rank": 678
-    },
-    {
       "date": "2026-05-16",
       "rank": 758
     },
@@ -128,14 +124,18 @@
     },
     {
       "date": "2026-06-15",
-      "rank": 97,
-      "price": 26.39,
-      "change_pct": 2.2868
+      "rank": 56
+    },
+    {
+      "date": "2026-06-16",
+      "rank": 49,
+      "price": 29.03,
+      "change_pct": 10.0038
     }
   ],
   "continuous_days": 32,
   "monthly_count": 32,
-  "avg_rank": 453.8,
+  "avg_rank": 432.8,
   "best_rank": 46,
   "trend": "stable"
 }

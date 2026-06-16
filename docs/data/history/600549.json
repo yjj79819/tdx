@@ -3,10 +3,6 @@
   "name": "厦门钨业",
   "history": [
     {
-      "date": "2026-05-15",
-      "rank": 580
-    },
-    {
       "date": "2026-05-16",
       "rank": 636
     },
@@ -128,14 +124,18 @@
     },
     {
       "date": "2026-06-15",
-      "rank": 46,
-      "price": 71.28,
-      "change_pct": 10.0
+      "rank": 51
+    },
+    {
+      "date": "2026-06-16",
+      "rank": 87,
+      "price": 78.41,
+      "change_pct": 10.0028
     }
   ],
   "continuous_days": 32,
   "monthly_count": 32,
-  "avg_rank": 295.4,
-  "best_rank": 46,
+  "avg_rank": 280.1,
+  "best_rank": 51,
   "trend": "stable"
 }

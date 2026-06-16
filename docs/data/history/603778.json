@@ -3,10 +3,6 @@
   "name": "国晟科技",
   "history": [
     {
-      "date": "2026-05-15",
-      "rank": 109
-    },
-    {
       "date": "2026-05-16",
       "rank": 139
     },
@@ -124,18 +120,22 @@
     },
     {
       "date": "2026-06-14",
-      "rank": 83
+      "rank": 79
     },
     {
       "date": "2026-06-15",
-      "rank": 56,
-      "price": 17.82,
-      "change_pct": -2.3026
+      "rank": 57
+    },
+    {
+      "date": "2026-06-16",
+      "rank": 50,
+      "price": 16.04,
+      "change_pct": -9.9888
     }
   ],
   "continuous_days": 32,
   "monthly_count": 32,
-  "avg_rank": 77.2,
+  "avg_rank": 75.2,
   "best_rank": 29,
   "trend": "stable"
 }
