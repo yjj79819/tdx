@@ -3,10 +3,6 @@
   "name": "华电辽能",
   "history": [
     {
-      "date": "2026-05-16",
-      "rank": 12
-    },
-    {
       "date": "2026-05-17",
       "rank": 3
     },
@@ -128,14 +124,18 @@
     },
     {
       "date": "2026-06-16",
-      "rank": 16,
-      "price": 18.55,
-      "change_pct": 4.0381
+      "rank": 10
+    },
+    {
+      "date": "2026-06-17",
+      "rank": 19,
+      "price": 17.95,
+      "change_pct": -3.2345
     }
   ],
   "continuous_days": 32,
   "monthly_count": 32,
-  "avg_rank": 13.2,
+  "avg_rank": 13.3,
   "best_rank": 2,
   "trend": "stable"
 }

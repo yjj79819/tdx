@@ -3,10 +3,6 @@
   "name": "信维通信",
   "history": [
     {
-      "date": "2026-05-16",
-      "rank": 77
-    },
-    {
       "date": "2026-05-17",
       "rank": 22
     },
@@ -128,14 +124,18 @@
     },
     {
       "date": "2026-06-16",
-      "rank": 77,
-      "price": 100.16,
-      "change_pct": 2.5179
+      "rank": 33
+    },
+    {
+      "date": "2026-06-17",
+      "rank": 42,
+      "price": 105.64,
+      "change_pct": 5.4912
     }
   ],
   "continuous_days": 32,
   "monthly_count": 32,
-  "avg_rank": 50.8,
+  "avg_rank": 48.3,
   "best_rank": 12,
   "trend": "stable"
 }

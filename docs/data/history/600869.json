@@ -3,10 +3,6 @@
   "name": "远东股份",
   "history": [
     {
-      "date": "2026-05-16",
-      "rank": 195
-    },
-    {
       "date": "2026-05-17",
       "rank": 256
     },
@@ -124,18 +120,22 @@
     },
     {
       "date": "2026-06-15",
-      "rank": 27
+      "rank": 26
     },
     {
       "date": "2026-06-16",
-      "rank": 38,
-      "price": 34.0,
-      "change_pct": 4.0392
+      "rank": 29
+    },
+    {
+      "date": "2026-06-17",
+      "rank": 48,
+      "price": 33.05,
+      "change_pct": -2.7941
     }
   ],
   "continuous_days": 32,
   "monthly_count": 32,
-  "avg_rank": 132.1,
+  "avg_rank": 127.2,
   "best_rank": 15,
   "trend": "stable"
 }

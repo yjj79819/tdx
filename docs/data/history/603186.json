@@ -3,10 +3,6 @@
   "name": "华正新材",
   "history": [
     {
-      "date": "2026-05-16",
-      "rank": 665
-    },
-    {
       "date": "2026-05-17",
       "rank": 699
     },
@@ -124,18 +120,22 @@
     },
     {
       "date": "2026-06-15",
-      "rank": 151
+      "rank": 141
     },
     {
       "date": "2026-06-16",
-      "rank": 85,
-      "price": 206.06,
-      "change_pct": 9.9984
+      "rank": 120
+    },
+    {
+      "date": "2026-06-17",
+      "rank": 68,
+      "price": 226.67,
+      "change_pct": 10.0019
     }
   ],
   "continuous_days": 32,
   "monthly_count": 32,
-  "avg_rank": 337.2,
-  "best_rank": 85,
+  "avg_rank": 319.4,
+  "best_rank": 68,
   "trend": "stable"
 }

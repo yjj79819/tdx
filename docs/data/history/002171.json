@@ -3,10 +3,6 @@
   "name": "楚江新材",
   "history": [
     {
-      "date": "2026-05-16",
-      "rank": 830
-    },
-    {
       "date": "2026-05-17",
       "rank": 845
     },
@@ -124,18 +120,22 @@
     },
     {
       "date": "2026-06-15",
-      "rank": 121
+      "rank": 99
     },
     {
       "date": "2026-06-16",
-      "rank": 41,
-      "price": 14.34,
-      "change_pct": 4.14
+      "rank": 96
+    },
+    {
+      "date": "2026-06-17",
+      "rank": 89,
+      "price": 14.77,
+      "change_pct": 3.0683
     }
   ],
   "continuous_days": 32,
   "monthly_count": 32,
-  "avg_rank": 440.9,
-  "best_rank": 41,
+  "avg_rank": 418.8,
+  "best_rank": 48,
   "trend": "stable"
 }

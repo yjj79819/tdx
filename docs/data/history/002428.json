@@ -3,10 +3,6 @@
   "name": "云南锗业",
   "history": [
     {
-      "date": "2026-05-16",
-      "rank": 72
-    },
-    {
       "date": "2026-05-17",
       "rank": 61
     },
@@ -124,18 +120,22 @@
     },
     {
       "date": "2026-06-15",
-      "rank": 11
+      "rank": 13
     },
     {
       "date": "2026-06-16",
-      "rank": 13,
-      "price": 101.2,
-      "change_pct": -0.2857
+      "rank": 21
+    },
+    {
+      "date": "2026-06-17",
+      "rank": 35,
+      "price": 98.98,
+      "change_pct": -2.2036
     }
   ],
   "continuous_days": 32,
   "monthly_count": 32,
-  "avg_rank": 58.4,
-  "best_rank": 11,
+  "avg_rank": 57.6,
+  "best_rank": 13,
   "trend": "stable"
 }

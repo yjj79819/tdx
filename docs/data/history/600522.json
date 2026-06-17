@@ -3,10 +3,6 @@
   "name": "中天科技",
   "history": [
     {
-      "date": "2026-05-16",
-      "rank": 15
-    },
-    {
       "date": "2026-05-17",
       "rank": 12
     },
@@ -128,14 +124,18 @@
     },
     {
       "date": "2026-06-16",
+      "rank": 5
+    },
+    {
+      "date": "2026-06-17",
       "rank": 9,
-      "price": 54.15,
-      "change_pct": 5.4528
+      "price": 54.47,
+      "change_pct": 0.591
     }
   ],
   "continuous_days": 32,
   "monthly_count": 32,
-  "avg_rank": 14.3,
+  "avg_rank": 14.0,
   "best_rank": 2,
   "trend": "stable"
 }
