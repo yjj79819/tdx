@@ -3,10 +3,6 @@
   "name": "光华科技",
   "history": [
     {
-      "date": "2026-05-16",
-      "rank": 851
-    },
-    {
       "date": "2026-05-17",
       "rank": 523
     },
@@ -124,18 +120,22 @@
     },
     {
       "date": "2026-06-15",
-      "rank": 107
+      "rank": 97
     },
     {
       "date": "2026-06-16",
-      "rank": 58,
-      "price": 35.85,
-      "change_pct": 10.0031
+      "rank": 70
+    },
+    {
+      "date": "2026-06-17",
+      "rank": 52,
+      "price": 39.44,
+      "change_pct": 10.0139
     }
   ],
   "continuous_days": 32,
   "monthly_count": 32,
-  "avg_rank": 306.1,
-  "best_rank": 58,
+  "avg_rank": 281.2,
+  "best_rank": 52,
   "trend": "stable"
 }

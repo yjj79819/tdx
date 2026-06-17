@@ -3,10 +3,6 @@
   "name": "亿纬锂能",
   "history": [
     {
-      "date": "2026-05-16",
-      "rank": 373
-    },
-    {
       "date": "2026-05-17",
       "rank": 335
     },
@@ -124,18 +120,22 @@
     },
     {
       "date": "2026-06-15",
-      "rank": 18
+      "rank": 20
     },
     {
       "date": "2026-06-16",
-      "rank": 20,
-      "price": 66.88,
-      "change_pct": 13.7996
+      "rank": 73
+    },
+    {
+      "date": "2026-06-17",
+      "rank": 100,
+      "price": 67.54,
+      "change_pct": 0.9868
     }
   ],
   "continuous_days": 32,
   "monthly_count": 32,
-  "avg_rank": 299.4,
-  "best_rank": 18,
+  "avg_rank": 292.6,
+  "best_rank": 20,
   "trend": "stable"
 }
