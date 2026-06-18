@@ -3,14 +3,6 @@
   "name": "翔鹭钨业",
   "history": [
     {
-      "date": "2026-05-16",
-      "rank": 493
-    },
-    {
-      "date": "2026-05-17",
-      "rank": 495
-    },
-    {
       "date": "2026-05-18",
       "rank": 342
     },
@@ -124,18 +116,26 @@
     },
     {
       "date": "2026-06-15",
-      "rank": 73
+      "rank": 74
     },
     {
       "date": "2026-06-16",
-      "rank": 90,
-      "price": 46.35,
-      "change_pct": 7.0933
+      "rank": 128
+    },
+    {
+      "date": "2026-06-17",
+      "rank": 71
+    },
+    {
+      "date": "2026-06-18",
+      "rank": 22,
+      "price": 47.72,
+      "change_pct": 10.0046
     }
   ],
   "continuous_days": 32,
   "monthly_count": 32,
-  "avg_rank": 367.2,
-  "best_rank": 29,
+  "avg_rank": 340.5,
+  "best_rank": 22,
   "trend": "stable"
 }

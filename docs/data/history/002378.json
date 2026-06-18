@@ -3,10 +3,6 @@
   "name": "章源钨业",
   "history": [
     {
-      "date": "2026-05-17",
-      "rank": 463
-    },
-    {
       "date": "2026-05-18",
       "rank": 356
     },
@@ -124,18 +120,22 @@
     },
     {
       "date": "2026-06-16",
-      "rank": 90
+      "rank": 97
     },
     {
       "date": "2026-06-17",
-      "rank": 94,
-      "price": 34.88,
-      "change_pct": -7.92
+      "rank": 69
+    },
+    {
+      "date": "2026-06-18",
+      "rank": 29,
+      "price": 37.11,
+      "change_pct": 6.3933
     }
   ],
   "continuous_days": 32,
   "monthly_count": 32,
-  "avg_rank": 340.3,
-  "best_rank": 40,
+  "avg_rank": 326.2,
+  "best_rank": 29,
   "trend": "stable"
 }

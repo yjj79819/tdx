@@ -3,10 +3,6 @@
   "name": "大族激光",
   "history": [
     {
-      "date": "2026-05-17",
-      "rank": 125
-    },
-    {
       "date": "2026-05-18",
       "rank": 135
     },
@@ -124,18 +120,22 @@
     },
     {
       "date": "2026-06-16",
-      "rank": 35
+      "rank": 42
     },
     {
       "date": "2026-06-17",
-      "rank": 63,
-      "price": 135.84,
-      "change_pct": -0.5709
+      "rank": 56
+    },
+    {
+      "date": "2026-06-18",
+      "rank": 55,
+      "price": 134.9,
+      "change_pct": -0.692
     }
   ],
   "continuous_days": 32,
   "monthly_count": 32,
-  "avg_rank": 159.6,
-  "best_rank": 35,
+  "avg_rank": 157.4,
+  "best_rank": 42,
   "trend": "stable"
 }
