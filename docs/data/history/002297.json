@@ -3,10 +3,6 @@
   "name": "博云新材",
   "history": [
     {
-      "date": "2026-05-18",
-      "rank": 60
-    },
-    {
       "date": "2026-05-19",
       "rank": 129
     },
@@ -124,18 +120,22 @@
     },
     {
       "date": "2026-06-17",
-      "rank": 48
+      "rank": 49
     },
     {
       "date": "2026-06-18",
-      "rank": 51,
+      "rank": 56
+    },
+    {
+      "date": "2026-06-19",
+      "rank": 45,
       "price": 28.36,
       "change_pct": 10.0078
     }
   ],
   "continuous_days": 32,
   "monthly_count": 32,
-  "avg_rank": 95.6,
+  "avg_rank": 95.3,
   "best_rank": 13,
   "trend": "stable"
 }

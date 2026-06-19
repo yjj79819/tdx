@@ -3,10 +3,6 @@
   "name": "华天科技",
   "history": [
     {
-      "date": "2026-05-18",
-      "rank": 33
-    },
-    {
       "date": "2026-05-19",
       "rank": 9
     },
@@ -128,14 +124,18 @@
     },
     {
       "date": "2026-06-18",
-      "rank": 16,
+      "rank": 15
+    },
+    {
+      "date": "2026-06-19",
+      "rank": 17,
       "price": 19.61,
       "change_pct": 2.9396
     }
   ],
   "continuous_days": 32,
   "monthly_count": 32,
-  "avg_rank": 22.9,
+  "avg_rank": 22.4,
   "best_rank": 1,
   "trend": "stable"
 }

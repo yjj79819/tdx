@@ -3,10 +3,6 @@
   "name": "中国平安",
   "history": [
     {
-      "date": "2026-05-18",
-      "rank": 310
-    },
-    {
       "date": "2026-05-19",
       "rank": 347
     },
@@ -124,18 +120,22 @@
     },
     {
       "date": "2026-06-17",
-      "rank": 99
+      "rank": 70
     },
     {
       "date": "2026-06-18",
-      "rank": 33,
+      "rank": 39
+    },
+    {
+      "date": "2026-06-19",
+      "rank": 35,
       "price": 49.38,
       "change_pct": -6.4064
     }
   ],
   "continuous_days": 32,
   "monthly_count": 32,
-  "avg_rank": 334.2,
-  "best_rank": 33,
+  "avg_rank": 324.9,
+  "best_rank": 35,
   "trend": "stable"
 }

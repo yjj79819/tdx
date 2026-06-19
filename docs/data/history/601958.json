@@ -3,10 +3,6 @@
   "name": "金钼股份",
   "history": [
     {
-      "date": "2026-05-18",
-      "rank": 1148
-    },
-    {
       "date": "2026-05-19",
       "rank": 1106
     },
@@ -124,18 +120,22 @@
     },
     {
       "date": "2026-06-17",
-      "rank": 70
+      "rank": 69
     },
     {
       "date": "2026-06-18",
-      "rank": 64,
+      "rank": 73
+    },
+    {
+      "date": "2026-06-19",
+      "rank": 100,
       "price": 27.7,
       "change_pct": -2.7046
     }
   ],
   "continuous_days": 32,
   "monthly_count": 32,
-  "avg_rank": 424.3,
+  "avg_rank": 391.8,
   "best_rank": 10,
   "trend": "stable"
 }

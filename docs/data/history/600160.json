@@ -3,10 +3,6 @@
   "name": "巨化股份",
   "history": [
     {
-      "date": "2026-05-18",
-      "rank": 281
-    },
-    {
       "date": "2026-05-19",
       "rank": 331
     },
@@ -124,10 +120,14 @@
     },
     {
       "date": "2026-06-17",
-      "rank": 74
+      "rank": 76
     },
     {
       "date": "2026-06-18",
+      "rank": 77
+    },
+    {
+      "date": "2026-06-19",
       "rank": 86,
       "price": 44.12,
       "change_pct": -7.5052
@@ -135,7 +135,7 @@
   ],
   "continuous_days": 32,
   "monthly_count": 32,
-  "avg_rank": 206.8,
+  "avg_rank": 200.5,
   "best_rank": 25,
   "trend": "stable"
 }

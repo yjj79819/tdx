@@ -3,14 +3,6 @@
   "name": "顺络电子",
   "history": [
     {
-      "date": "2026-05-17",
-      "rank": 897
-    },
-    {
-      "date": "2026-05-18",
-      "rank": 562
-    },
-    {
       "date": "2026-05-19",
       "rank": 788
     },
@@ -124,18 +116,26 @@
     },
     {
       "date": "2026-06-16",
-      "rank": 121
+      "rank": 115
     },
     {
       "date": "2026-06-17",
-      "rank": 44,
-      "price": 66.52,
-      "change_pct": 8.5332
+      "rank": 113
+    },
+    {
+      "date": "2026-06-18",
+      "rank": 97
+    },
+    {
+      "date": "2026-06-19",
+      "rank": 74,
+      "price": 71.16,
+      "change_pct": 6.9753
     }
   ],
   "continuous_days": 32,
   "monthly_count": 32,
-  "avg_rank": 331.2,
+  "avg_rank": 292.9,
   "best_rank": 30,
   "trend": "stable"
 }

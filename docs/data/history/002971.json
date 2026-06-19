@@ -3,10 +3,6 @@
   "name": "和远气体",
   "history": [
     {
-      "date": "2026-05-18",
-      "rank": 326
-    },
-    {
       "date": "2026-05-19",
       "rank": 475
     },
@@ -124,18 +120,22 @@
     },
     {
       "date": "2026-06-17",
-      "rank": 127
+      "rank": 115
     },
     {
       "date": "2026-06-18",
-      "rank": 77,
+      "rank": 99
+    },
+    {
+      "date": "2026-06-19",
+      "rank": 84,
       "price": 67.38,
       "change_pct": 10.0082
     }
   ],
   "continuous_days": 32,
   "monthly_count": 32,
-  "avg_rank": 514.2,
+  "avg_rank": 506.9,
   "best_rank": 21,
   "trend": "stable"
 }

@@ -3,10 +3,6 @@
   "name": "东方国信",
   "history": [
     {
-      "date": "2026-05-18",
-      "rank": 66
-    },
-    {
       "date": "2026-05-19",
       "rank": 139
     },
@@ -124,18 +120,22 @@
     },
     {
       "date": "2026-06-17",
-      "rank": 137
+      "rank": 104
     },
     {
       "date": "2026-06-18",
-      "rank": 72,
+      "rank": 70
+    },
+    {
+      "date": "2026-06-19",
+      "rank": 41,
       "price": 18.7,
       "change_pct": 20.0257
     }
   ],
   "continuous_days": 32,
   "monthly_count": 32,
-  "avg_rank": 437.3,
-  "best_rank": 66,
+  "avg_rank": 435.4,
+  "best_rank": 41,
   "trend": "stable"
 }
