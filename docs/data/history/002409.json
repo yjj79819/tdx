@@ -3,18 +3,6 @@
   "name": "雅克科技",
   "history": [
     {
-      "date": "2026-05-19",
-      "rank": 86
-    },
-    {
-      "date": "2026-05-20",
-      "rank": 154
-    },
-    {
-      "date": "2026-05-21",
-      "rank": 190
-    },
-    {
       "date": "2026-05-22",
       "rank": 138
     },
@@ -124,18 +112,30 @@
     },
     {
       "date": "2026-06-18",
-      "rank": 81
+      "rank": 60
     },
     {
       "date": "2026-06-19",
-      "rank": 46,
-      "price": 150.16,
-      "change_pct": 1.5143
+      "rank": 52
+    },
+    {
+      "date": "2026-06-20",
+      "rank": 53
+    },
+    {
+      "date": "2026-06-21",
+      "rank": 79
+    },
+    {
+      "date": "2026-06-22",
+      "rank": 68,
+      "price": 162.37,
+      "change_pct": 8.1313
     }
   ],
   "continuous_days": 32,
   "monthly_count": 32,
-  "avg_rank": 162.8,
+  "avg_rank": 155.2,
   "best_rank": 25,
   "trend": "stable"
 }
