@@ -3936,5 +3936,103 @@
     "win_count": 5,
     "total": 8,
     "rank_improved": 2
+  },
+  {
+    "review_date": "2026-06-22",
+    "target_date": "2026-06-22",
+    "results": [
+      {
+        "code": "000725",
+        "name": "京东方A",
+        "prev_rank": 2,
+        "prev_price": 6.88,
+        "today_rank": 2,
+        "today_price": 6.93,
+        "price_change": 0.73,
+        "still_in_top50": true,
+        "rank_change": 0
+      },
+      {
+        "code": "601991",
+        "name": "大唐发电",
+        "prev_rank": 3,
+        "prev_price": 8.36,
+        "today_rank": 9,
+        "today_price": 8.37,
+        "price_change": 0.12,
+        "still_in_top50": true,
+        "rank_change": -6
+      },
+      {
+        "code": "002185",
+        "name": "华天科技",
+        "prev_rank": 9,
+        "prev_price": 19.9,
+        "today_rank": "-",
+        "today_price": 19.9,
+        "price_change": 0.0,
+        "still_in_top50": false,
+        "rank_change": 0
+      },
+      {
+        "code": "600703",
+        "name": "三安光电",
+        "prev_rank": 15,
+        "prev_price": 19.29,
+        "today_rank": 15,
+        "today_price": 19.29,
+        "price_change": 0.0,
+        "still_in_top50": true,
+        "rank_change": 0
+      },
+      {
+        "code": "600110",
+        "name": "诺德股份",
+        "prev_rank": 28,
+        "prev_price": 16.72,
+        "today_rank": 29,
+        "today_price": 17.15,
+        "price_change": 2.57,
+        "still_in_top50": true,
+        "rank_change": -1
+      },
+      {
+        "code": "000630",
+        "name": "铜陵有色",
+        "prev_rank": 61,
+        "prev_price": 7.84,
+        "today_rank": 72,
+        "today_price": 7.93,
+        "price_change": 1.15,
+        "still_in_top50": true,
+        "rank_change": -11
+      },
+      {
+        "code": "002171",
+        "name": "楚江新材",
+        "prev_rank": 23,
+        "prev_price": 16.09,
+        "today_rank": 30,
+        "today_price": 16.43,
+        "price_change": 2.11,
+        "still_in_top50": true,
+        "rank_change": -7
+      },
+      {
+        "code": "600396",
+        "name": "华电辽能",
+        "prev_rank": 62,
+        "prev_price": 16.18,
+        "today_rank": "-",
+        "today_price": 16.18,
+        "price_change": 0.0,
+        "still_in_top50": false,
+        "rank_change": 0
+      }
+    ],
+    "win_rate": 62.5,
+    "win_count": 5,
+    "total": 8,
+    "rank_improved": 0
   }
 ]
