@@ -3,10 +3,6 @@
   "name": "深科技",
   "history": [
     {
-      "date": "2026-05-22",
-      "rank": 26
-    },
-    {
       "date": "2026-05-23",
       "rank": 24
     },
@@ -124,18 +120,22 @@
     },
     {
       "date": "2026-06-21",
-      "rank": 24
+      "rank": 23
     },
     {
       "date": "2026-06-22",
-      "rank": 27,
-      "price": 46.68,
-      "change_pct": 5.9946
+      "rank": 21
+    },
+    {
+      "date": "2026-06-23",
+      "rank": 26,
+      "price": 45.7,
+      "change_pct": -2.0994
     }
   ],
   "continuous_days": 32,
   "monthly_count": 32,
-  "avg_rank": 43.4,
+  "avg_rank": 43.2,
   "best_rank": 6,
   "trend": "stable"
 }

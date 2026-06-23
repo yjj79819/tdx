@@ -3,10 +3,6 @@
   "name": "银之杰",
   "history": [
     {
-      "date": "2026-05-22",
-      "rank": 1306
-    },
-    {
       "date": "2026-05-23",
       "rank": 1307
     },
@@ -124,18 +120,22 @@
     },
     {
       "date": "2026-06-21",
-      "rank": 79
+      "rank": 77
     },
     {
       "date": "2026-06-22",
-      "rank": 50,
-      "price": 32.35,
-      "change_pct": 19.9926
+      "rank": 29
+    },
+    {
+      "date": "2026-06-23",
+      "rank": 17,
+      "price": 38.82,
+      "change_pct": 20.0
     }
   ],
   "continuous_days": 32,
   "monthly_count": 32,
-  "avg_rank": 504.0,
-  "best_rank": 50,
+  "avg_rank": 463.0,
+  "best_rank": 17,
   "trend": "stable"
 }

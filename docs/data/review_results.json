@@ -4034,5 +4034,103 @@
     "win_count": 5,
     "total": 8,
     "rank_improved": 0
+  },
+  {
+    "review_date": "2026-06-23",
+    "target_date": "2026-06-22",
+    "results": [
+      {
+        "code": "000725",
+        "name": "京东方A",
+        "prev_rank": 2,
+        "prev_price": 6.93,
+        "today_rank": 4,
+        "today_price": 6.77,
+        "price_change": -2.31,
+        "still_in_top50": true,
+        "rank_change": -2
+      },
+      {
+        "code": "601991",
+        "name": "大唐发电",
+        "prev_rank": 9,
+        "prev_price": 8.37,
+        "today_rank": 1,
+        "today_price": 8.34,
+        "price_change": -0.36,
+        "still_in_top50": true,
+        "rank_change": 8
+      },
+      {
+        "code": "600703",
+        "name": "三安光电",
+        "prev_rank": 15,
+        "prev_price": 19.29,
+        "today_rank": 20,
+        "today_price": 19.83,
+        "price_change": 2.8,
+        "still_in_top50": true,
+        "rank_change": -5
+      },
+      {
+        "code": "000630",
+        "name": "铜陵有色",
+        "prev_rank": 72,
+        "prev_price": 7.93,
+        "today_rank": "-",
+        "today_price": 7.93,
+        "price_change": 0.0,
+        "still_in_top50": false,
+        "rank_change": 0
+      },
+      {
+        "code": "002171",
+        "name": "楚江新材",
+        "prev_rank": 30,
+        "prev_price": 16.43,
+        "today_rank": "-",
+        "today_price": 16.43,
+        "price_change": 0.0,
+        "still_in_top50": false,
+        "rank_change": 0
+      },
+      {
+        "code": "600110",
+        "name": "诺德股份",
+        "prev_rank": 29,
+        "prev_price": 17.15,
+        "today_rank": "-",
+        "today_price": 17.15,
+        "price_change": 0.0,
+        "still_in_top50": false,
+        "rank_change": 0
+      },
+      {
+        "code": "002167",
+        "name": "东方锆业",
+        "prev_rank": 48,
+        "prev_price": 17.74,
+        "today_rank": 64,
+        "today_price": 19.51,
+        "price_change": 9.98,
+        "still_in_top50": true,
+        "rank_change": -16
+      },
+      {
+        "code": "002421",
+        "name": "达实智能",
+        "prev_rank": 54,
+        "prev_price": 4.21,
+        "today_rank": 89,
+        "today_price": 4.02,
+        "price_change": -4.51,
+        "still_in_top50": true,
+        "rank_change": -35
+      }
+    ],
+    "win_rate": 25.0,
+    "win_count": 2,
+    "total": 8,
+    "rank_improved": 1
   }
 ]

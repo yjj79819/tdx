@@ -3,10 +3,6 @@
   "name": "亨通股份",
   "history": [
     {
-      "date": "2026-05-22",
-      "rank": 615
-    },
-    {
       "date": "2026-05-23",
       "rank": 627
     },
@@ -124,18 +120,22 @@
     },
     {
       "date": "2026-06-21",
-      "rank": 30
+      "rank": 31
     },
     {
       "date": "2026-06-22",
-      "rank": 49,
-      "price": 10.58,
-      "change_pct": 8.4016
+      "rank": 65
+    },
+    {
+      "date": "2026-06-23",
+      "rank": 92,
+      "price": 10.37,
+      "change_pct": -1.9849
     }
   ],
   "continuous_days": 32,
   "monthly_count": 32,
-  "avg_rank": 292.8,
+  "avg_rank": 277.0,
   "best_rank": 11,
   "trend": "stable"
 }
