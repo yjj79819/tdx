@@ -3,14 +3,6 @@
   "name": "香农芯创",
   "history": [
     {
-      "date": "2026-05-23",
-      "rank": 356
-    },
-    {
-      "date": "2026-05-24",
-      "rank": 107
-    },
-    {
       "date": "2026-05-25",
       "rank": 195
     },
@@ -124,18 +116,26 @@
     },
     {
       "date": "2026-06-22",
-      "rank": 74
+      "rank": 82
     },
     {
       "date": "2026-06-23",
-      "rank": 88,
-      "price": 283.51,
-      "change_pct": -1.49
+      "rank": 126
+    },
+    {
+      "date": "2026-06-24",
+      "rank": 75
+    },
+    {
+      "date": "2026-06-25",
+      "rank": 63,
+      "price": 306.25,
+      "change_pct": 5.7493
     }
   ],
   "continuous_days": 32,
   "monthly_count": 32,
-  "avg_rank": 217.3,
+  "avg_rank": 208.6,
   "best_rank": 25,
   "trend": "stable"
 }

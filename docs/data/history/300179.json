@@ -3,18 +3,6 @@
   "name": "四方达",
   "history": [
     {
-      "date": "2026-05-22",
-      "rank": 131
-    },
-    {
-      "date": "2026-05-23",
-      "rank": 152
-    },
-    {
-      "date": "2026-05-24",
-      "rank": 159
-    },
-    {
       "date": "2026-05-25",
       "rank": 228
     },
@@ -128,14 +116,26 @@
     },
     {
       "date": "2026-06-22",
-      "rank": 53,
-      "price": 57.48,
-      "change_pct": 20.0
+      "rank": 103
+    },
+    {
+      "date": "2026-06-23",
+      "rank": 157
+    },
+    {
+      "date": "2026-06-24",
+      "rank": 148
+    },
+    {
+      "date": "2026-06-25",
+      "rank": 79,
+      "price": 62.0,
+      "change_pct": 4.0268
     }
   ],
   "continuous_days": 32,
   "monthly_count": 32,
-  "avg_rank": 224.7,
-  "best_rank": 53,
+  "avg_rank": 224.5,
+  "best_rank": 63,
   "trend": "stable"
 }

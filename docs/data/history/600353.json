@@ -3,14 +3,6 @@
   "name": "旭光电子",
   "history": [
     {
-      "date": "2026-05-23",
-      "rank": 357
-    },
-    {
-      "date": "2026-05-24",
-      "rank": 521
-    },
-    {
       "date": "2026-05-25",
       "rank": 624
     },
@@ -124,18 +116,26 @@
     },
     {
       "date": "2026-06-22",
-      "rank": 28
+      "rank": 29
     },
     {
       "date": "2026-06-23",
-      "rank": 39,
-      "price": 48.8,
-      "change_pct": 5.6
+      "rank": 36
+    },
+    {
+      "date": "2026-06-24",
+      "rank": 48
+    },
+    {
+      "date": "2026-06-25",
+      "rank": 72,
+      "price": 48.75,
+      "change_pct": -7.845
     }
   ],
   "continuous_days": 32,
   "monthly_count": 32,
-  "avg_rank": 243.3,
+  "avg_rank": 219.6,
   "best_rank": 15,
   "trend": "stable"
 }

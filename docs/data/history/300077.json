@@ -3,14 +3,6 @@
   "name": "国民技术",
   "history": [
     {
-      "date": "2026-05-23",
-      "rank": 825
-    },
-    {
-      "date": "2026-05-24",
-      "rank": 432
-    },
-    {
       "date": "2026-05-25",
       "rank": 407
     },
@@ -124,18 +116,26 @@
     },
     {
       "date": "2026-06-22",
-      "rank": 121
+      "rank": 88
     },
     {
       "date": "2026-06-23",
-      "rank": 71,
-      "price": 26.73,
-      "change_pct": 15.71
+      "rank": 267
+    },
+    {
+      "date": "2026-06-24",
+      "rank": 169
+    },
+    {
+      "date": "2026-06-25",
+      "rank": 54,
+      "price": 29.03,
+      "change_pct": 12.6067
     }
   ],
   "continuous_days": 32,
   "monthly_count": 32,
-  "avg_rank": 745.8,
-  "best_rank": 71,
+  "avg_rank": 718.5,
+  "best_rank": 54,
   "trend": "stable"
 }
