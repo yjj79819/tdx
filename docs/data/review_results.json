@@ -4230,5 +4230,103 @@
     "win_count": 2,
     "total": 8,
     "rank_improved": 2
+  },
+  {
+    "review_date": "2026-06-26",
+    "target_date": "2026-06-25",
+    "results": [
+      {
+        "code": "000725",
+        "name": "京东方A",
+        "prev_rank": 1,
+        "prev_price": 7.52,
+        "today_rank": 2,
+        "today_price": 7.79,
+        "price_change": 3.59,
+        "still_in_top50": true,
+        "rank_change": -1
+      },
+      {
+        "code": "601991",
+        "name": "大唐发电",
+        "prev_rank": 10,
+        "prev_price": 7.47,
+        "today_rank": 11,
+        "today_price": 7.32,
+        "price_change": -2.01,
+        "still_in_top50": true,
+        "rank_change": -1
+      },
+      {
+        "code": "600172",
+        "name": "黄河旋风",
+        "prev_rank": 2,
+        "prev_price": 18.27,
+        "today_rank": "-",
+        "today_price": 18.27,
+        "price_change": 0.0,
+        "still_in_top50": false,
+        "rank_change": 0
+      },
+      {
+        "code": "000100",
+        "name": "TCL科技",
+        "prev_rank": 34,
+        "prev_price": 5.34,
+        "today_rank": 45,
+        "today_price": 5.4,
+        "price_change": 1.12,
+        "still_in_top50": true,
+        "rank_change": -11
+      },
+      {
+        "code": "000783",
+        "name": "长江证券",
+        "prev_rank": 57,
+        "prev_price": 10.15,
+        "today_rank": "-",
+        "today_price": 10.15,
+        "price_change": 0.0,
+        "still_in_top50": false,
+        "rank_change": 0
+      },
+      {
+        "code": "600909",
+        "name": "华安证券",
+        "prev_rank": 97,
+        "prev_price": 12.05,
+        "today_rank": 86,
+        "today_price": 12.14,
+        "price_change": 0.75,
+        "still_in_top50": true,
+        "rank_change": 11
+      },
+      {
+        "code": "600110",
+        "name": "诺德股份",
+        "prev_rank": 68,
+        "prev_price": 15.77,
+        "today_rank": 69,
+        "today_price": 15.29,
+        "price_change": -3.04,
+        "still_in_top50": true,
+        "rank_change": -1
+      },
+      {
+        "code": "002141",
+        "name": "贤丰控股",
+        "prev_rank": 76,
+        "prev_price": 5.24,
+        "today_rank": 63,
+        "today_price": 5.76,
+        "price_change": 9.92,
+        "still_in_top50": true,
+        "rank_change": 13
+      }
+    ],
+    "win_rate": 50.0,
+    "win_count": 4,
+    "total": 8,
+    "rank_improved": 2
   }
 ]
