@@ -3,18 +3,6 @@
   "name": "宏昌电子",
   "history": [
     {
-      "date": "2026-05-26",
-      "rank": 290
-    },
-    {
-      "date": "2026-05-27",
-      "rank": 193
-    },
-    {
-      "date": "2026-05-28",
-      "rank": 172
-    },
-    {
       "date": "2026-05-29",
       "rank": 219
     },
@@ -124,18 +112,30 @@
     },
     {
       "date": "2026-06-25",
-      "rank": 54
+      "rank": 52
     },
     {
       "date": "2026-06-26",
-      "rank": 67,
-      "price": 26.23,
-      "change_pct": 5.1303
+      "rank": 52
+    },
+    {
+      "date": "2026-06-27",
+      "rank": 48
+    },
+    {
+      "date": "2026-06-28",
+      "rank": 59
+    },
+    {
+      "date": "2026-06-29",
+      "rank": 94,
+      "price": 24.32,
+      "change_pct": -7.2817
     }
   ],
   "continuous_days": 32,
   "monthly_count": 32,
-  "avg_rank": 133.8,
+  "avg_rank": 119.1,
   "best_rank": 37,
   "trend": "stable"
 }

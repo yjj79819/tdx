@@ -3,18 +3,6 @@
   "name": "兴发集团",
   "history": [
     {
-      "date": "2026-05-26",
-      "rank": 1102
-    },
-    {
-      "date": "2026-05-27",
-      "rank": 1192
-    },
-    {
-      "date": "2026-05-28",
-      "rank": 1392
-    },
-    {
       "date": "2026-05-29",
       "rank": 1461
     },
@@ -124,18 +112,30 @@
     },
     {
       "date": "2026-06-25",
-      "rank": 49
+      "rank": 60
     },
     {
       "date": "2026-06-26",
-      "rank": 44,
-      "price": 48.8,
-      "change_pct": 2.7801
+      "rank": 40
+    },
+    {
+      "date": "2026-06-27",
+      "rank": 35
+    },
+    {
+      "date": "2026-06-28",
+      "rank": 89
+    },
+    {
+      "date": "2026-06-29",
+      "rank": 99,
+      "price": 47.88,
+      "change_pct": -1.8852
     }
   ],
   "continuous_days": 32,
   "monthly_count": 32,
-  "avg_rank": 651.2,
-  "best_rank": 44,
+  "avg_rank": 543.2,
+  "best_rank": 35,
   "trend": "stable"
 }

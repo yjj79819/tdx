@@ -1,93 +1,109 @@
 {
-  "code": "001399",
-  "name": "惠科股份",
+  "code": "688432",
+  "name": "有研硅",
   "history": [
     {
-      "date": "2026-06-06",
-      "rank": 1722
+      "date": "2026-06-02",
+      "rank": 1629
+    },
+    {
+      "date": "2026-06-03",
+      "rank": 1218
+    },
+    {
+      "date": "2026-06-08",
+      "rank": 749
+    },
+    {
+      "date": "2026-06-09",
+      "rank": 637
+    },
+    {
+      "date": "2026-06-10",
+      "rank": 908
     },
     {
       "date": "2026-06-11",
-      "rank": 1056
+      "rank": 844
     },
     {
       "date": "2026-06-12",
-      "rank": 399
+      "rank": 1080
     },
     {
       "date": "2026-06-13",
-      "rank": 227
+      "rank": 1201
     },
     {
       "date": "2026-06-14",
-      "rank": 166
+      "rank": 421
     },
     {
       "date": "2026-06-15",
-      "rank": 267
+      "rank": 752
     },
     {
       "date": "2026-06-16",
-      "rank": 528
+      "rank": 672
     },
     {
       "date": "2026-06-17",
-      "rank": 721
+      "rank": 898
     },
     {
       "date": "2026-06-18",
-      "rank": 232
+      "rank": 915
     },
     {
       "date": "2026-06-19",
-      "rank": 169
+      "rank": 891
     },
     {
       "date": "2026-06-20",
-      "rank": 103
+      "rank": 905
     },
     {
       "date": "2026-06-21",
-      "rank": 524
+      "rank": 1108
     },
     {
       "date": "2026-06-22",
-      "rank": 590
+      "rank": 1241
     },
     {
       "date": "2026-06-23",
-      "rank": 423
+      "rank": 1279
     },
     {
       "date": "2026-06-24",
-      "rank": 368
+      "rank": 833
     },
     {
       "date": "2026-06-25",
-      "rank": 1
+      "rank": 177
     },
     {
       "date": "2026-06-26",
-      "rank": 3
+      "rank": 62
     },
     {
       "date": "2026-06-27",
-      "rank": 5
+      "rank": 82
     },
     {
       "date": "2026-06-28",
-      "rank": 7
+      "rank": 127
     },
     {
       "date": "2026-06-29",
-      "rank": 8,
-      "price": 34.66,
-      "change_pct": -17.4762
+      "rank": 69,
+      "price": 37.08,
+      "change_pct": 20.0
     }
   ],
-  "continuous_days": 20,
-  "monthly_count": 20,
-  "avg_rank": 375.9,
-  "best_rank": 1,
+  "continuous_days": 24,
+  "monthly_count": 24,
+  "avg_rank": 779.1,
+  "best_rank": 62,
   "trend": "stable"
 }

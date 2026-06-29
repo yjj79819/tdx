@@ -4328,5 +4328,103 @@
     "win_count": 4,
     "total": 8,
     "rank_improved": 2
+  },
+  {
+    "review_date": "2026-06-29",
+    "target_date": "2026-06-26",
+    "results": [
+      {
+        "code": "000725",
+        "name": "京东方A",
+        "prev_rank": 2,
+        "prev_price": 7.79,
+        "today_rank": 1,
+        "today_price": 7.95,
+        "price_change": 2.05,
+        "still_in_top50": true,
+        "rank_change": 1
+      },
+      {
+        "code": "601991",
+        "name": "大唐发电",
+        "prev_rank": 11,
+        "prev_price": 7.32,
+        "today_rank": 32,
+        "today_price": 7.04,
+        "price_change": -3.83,
+        "still_in_top50": true,
+        "rank_change": -21
+      },
+      {
+        "code": "002354",
+        "name": "天娱数科",
+        "prev_rank": 21,
+        "prev_price": 8.83,
+        "today_rank": 19,
+        "today_price": 9.11,
+        "price_change": 3.17,
+        "still_in_top50": true,
+        "rank_change": 2
+      },
+      {
+        "code": "002456",
+        "name": "欧菲光",
+        "prev_rank": 50,
+        "prev_price": 9.52,
+        "today_rank": "-",
+        "today_price": 9.52,
+        "price_change": 0.0,
+        "still_in_top50": false,
+        "rank_change": 0
+      },
+      {
+        "code": "002141",
+        "name": "贤丰控股",
+        "prev_rank": 63,
+        "prev_price": 5.76,
+        "today_rank": "-",
+        "today_price": 5.76,
+        "price_change": 0.0,
+        "still_in_top50": false,
+        "rank_change": 0
+      },
+      {
+        "code": "000100",
+        "name": "TCL科技",
+        "prev_rank": 45,
+        "prev_price": 5.4,
+        "today_rank": 75,
+        "today_price": 5.29,
+        "price_change": -2.04,
+        "still_in_top50": true,
+        "rank_change": -30
+      },
+      {
+        "code": "002617",
+        "name": "露笑科技",
+        "prev_rank": 78,
+        "prev_price": 9.66,
+        "today_rank": 36,
+        "today_price": 10.12,
+        "price_change": 4.76,
+        "still_in_top50": true,
+        "rank_change": 42
+      },
+      {
+        "code": "300088",
+        "name": "长信科技",
+        "prev_rank": 82,
+        "prev_price": 11.67,
+        "today_rank": "-",
+        "today_price": 11.67,
+        "price_change": 0.0,
+        "still_in_top50": false,
+        "rank_change": 0
+      }
+    ],
+    "win_rate": 37.5,
+    "win_count": 3,
+    "total": 8,
+    "rank_improved": 3
   }
 ]

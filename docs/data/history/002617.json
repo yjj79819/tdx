@@ -3,18 +3,6 @@
   "name": "露笑科技",
   "history": [
     {
-      "date": "2026-05-26",
-      "rank": 16
-    },
-    {
-      "date": "2026-05-27",
-      "rank": 38
-    },
-    {
-      "date": "2026-05-28",
-      "rank": 41
-    },
-    {
       "date": "2026-05-29",
       "rank": 62
     },
@@ -124,18 +112,30 @@
     },
     {
       "date": "2026-06-25",
-      "rank": 91
+      "rank": 71
     },
     {
       "date": "2026-06-26",
-      "rank": 78,
-      "price": 9.66,
-      "change_pct": 7.4527
+      "rank": 55
+    },
+    {
+      "date": "2026-06-27",
+      "rank": 49
+    },
+    {
+      "date": "2026-06-28",
+      "rank": 61
+    },
+    {
+      "date": "2026-06-29",
+      "rank": 36,
+      "price": 10.12,
+      "change_pct": 4.7619
     }
   ],
   "continuous_days": 32,
   "monthly_count": 32,
-  "avg_rank": 170.1,
-  "best_rank": 16,
+  "avg_rank": 170.3,
+  "best_rank": 36,
   "trend": "stable"
 }

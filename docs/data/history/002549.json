@@ -3,22 +3,6 @@
   "name": "凯美特气",
   "history": [
     {
-      "date": "2026-05-25",
-      "rank": 638
-    },
-    {
-      "date": "2026-05-26",
-      "rank": 470
-    },
-    {
-      "date": "2026-05-27",
-      "rank": 696
-    },
-    {
-      "date": "2026-05-28",
-      "rank": 628
-    },
-    {
       "date": "2026-05-29",
       "rank": 802
     },
@@ -124,18 +108,34 @@
     },
     {
       "date": "2026-06-24",
-      "rank": 103
+      "rank": 111
     },
     {
       "date": "2026-06-25",
-      "rank": 88,
-      "price": 19.81,
-      "change_pct": 1.9033
+      "rank": 150
+    },
+    {
+      "date": "2026-06-26",
+      "rank": 152
+    },
+    {
+      "date": "2026-06-27",
+      "rank": 44
+    },
+    {
+      "date": "2026-06-28",
+      "rank": 63
+    },
+    {
+      "date": "2026-06-29",
+      "rank": 62,
+      "price": 20.89,
+      "change_pct": 10.0053
     }
   ],
   "continuous_days": 32,
   "monthly_count": 32,
-  "avg_rank": 445.4,
-  "best_rank": 73,
+  "avg_rank": 381.7,
+  "best_rank": 44,
   "trend": "stable"
 }

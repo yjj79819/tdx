@@ -3,18 +3,6 @@
   "name": "飞凯材料",
   "history": [
     {
-      "date": "2026-05-26",
-      "rank": 509
-    },
-    {
-      "date": "2026-05-27",
-      "rank": 437
-    },
-    {
-      "date": "2026-05-28",
-      "rank": 508
-    },
-    {
       "date": "2026-05-29",
       "rank": 708
     },
@@ -124,18 +112,30 @@
     },
     {
       "date": "2026-06-25",
-      "rank": 127
+      "rank": 102
     },
     {
       "date": "2026-06-26",
-      "rank": 72,
-      "price": 61.29,
-      "change_pct": 8.1715
+      "rank": 77
+    },
+    {
+      "date": "2026-06-27",
+      "rank": 71
+    },
+    {
+      "date": "2026-06-28",
+      "rank": 79
+    },
+    {
+      "date": "2026-06-29",
+      "rank": 61,
+      "price": 64.26,
+      "change_pct": 4.8458
     }
   ],
   "continuous_days": 32,
   "monthly_count": 32,
-  "avg_rank": 391.3,
-  "best_rank": 72,
+  "avg_rank": 351.8,
+  "best_rank": 61,
   "trend": "stable"
 }
