@@ -3,10 +3,6 @@
   "name": "合肥城建",
   "history": [
     {
-      "date": "2026-05-29",
-      "rank": 267
-    },
-    {
       "date": "2026-05-30",
       "rank": 284
     },
@@ -124,18 +120,22 @@
     },
     {
       "date": "2026-06-28",
-      "rank": 94
+      "rank": 83
     },
     {
       "date": "2026-06-29",
-      "rank": 60,
-      "price": 18.38,
-      "change_pct": 9.994
+      "rank": 54
+    },
+    {
+      "date": "2026-06-30",
+      "rank": 59,
+      "price": 20.22,
+      "change_pct": 10.0109
     }
   ],
   "continuous_days": 32,
   "monthly_count": 32,
-  "avg_rank": 243.7,
-  "best_rank": 60,
+  "avg_rank": 236.7,
+  "best_rank": 54,
   "trend": "stable"
 }

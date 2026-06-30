@@ -3,22 +3,6 @@
   "name": "欧菲光",
   "history": [
     {
-      "date": "2026-05-26",
-      "rank": 271
-    },
-    {
-      "date": "2026-05-27",
-      "rank": 146
-    },
-    {
-      "date": "2026-05-28",
-      "rank": 201
-    },
-    {
-      "date": "2026-05-29",
-      "rank": 261
-    },
-    {
       "date": "2026-05-30",
       "rank": 330
     },
@@ -124,18 +108,34 @@
     },
     {
       "date": "2026-06-25",
-      "rank": 164
+      "rank": 108
     },
     {
       "date": "2026-06-26",
-      "rank": 50,
-      "price": 9.52,
-      "change_pct": 8.8
+      "rank": 93
+    },
+    {
+      "date": "2026-06-27",
+      "rank": 120
+    },
+    {
+      "date": "2026-06-28",
+      "rank": 212
+    },
+    {
+      "date": "2026-06-29",
+      "rank": 157
+    },
+    {
+      "date": "2026-06-30",
+      "rank": 97,
+      "price": 9.46,
+      "change_pct": 5.9351
     }
   ],
   "continuous_days": 32,
   "monthly_count": 32,
-  "avg_rank": 256.3,
-  "best_rank": 50,
+  "avg_rank": 246.8,
+  "best_rank": 63,
   "trend": "stable"
 }

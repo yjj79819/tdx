@@ -3,10 +3,6 @@
   "name": "东山精密",
   "history": [
     {
-      "date": "2026-05-29",
-      "rank": 66
-    },
-    {
       "date": "2026-05-30",
       "rank": 66
     },
@@ -128,14 +124,18 @@
     },
     {
       "date": "2026-06-29",
-      "rank": 39,
-      "price": 249.59,
-      "change_pct": -4.1219
+      "rank": 29
+    },
+    {
+      "date": "2026-06-30",
+      "rank": 30,
+      "price": 262.35,
+      "change_pct": 5.1124
     }
   ],
   "continuous_days": 32,
   "monthly_count": 32,
-  "avg_rank": 32.4,
+  "avg_rank": 31.0,
   "best_rank": 7,
   "trend": "stable"
 }

@@ -3,10 +3,6 @@
   "name": "旗滨集团",
   "history": [
     {
-      "date": "2026-05-29",
-      "rank": 1271
-    },
-    {
       "date": "2026-05-30",
       "rank": 1271
     },
@@ -124,18 +120,22 @@
     },
     {
       "date": "2026-06-28",
-      "rank": 115
+      "rank": 103
     },
     {
       "date": "2026-06-29",
-      "rank": 77,
-      "price": 9.82,
-      "change_pct": 9.9664
+      "rank": 58
+    },
+    {
+      "date": "2026-06-30",
+      "rank": 89,
+      "price": 10.23,
+      "change_pct": 4.1752
     }
   ],
   "continuous_days": 32,
   "monthly_count": 32,
-  "avg_rank": 515.2,
-  "best_rank": 59,
+  "avg_rank": 477.2,
+  "best_rank": 58,
   "trend": "stable"
 }

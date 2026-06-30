@@ -3,10 +3,6 @@
   "name": "京东方A",
   "history": [
     {
-      "date": "2026-05-29",
-      "rank": 8
-    },
-    {
       "date": "2026-05-30",
       "rank": 10
     },
@@ -128,14 +124,18 @@
     },
     {
       "date": "2026-06-29",
+      "rank": 1
+    },
+    {
+      "date": "2026-06-30",
       "rank": 1,
-      "price": 7.95,
-      "change_pct": 2.0539
+      "price": 8.68,
+      "change_pct": 9.1824
     }
   ],
   "continuous_days": 32,
   "monthly_count": 32,
-  "avg_rank": 3.6,
+  "avg_rank": 3.3,
   "best_rank": 1,
   "trend": "stable"
 }

@@ -4426,5 +4426,103 @@
     "win_count": 3,
     "total": 8,
     "rank_improved": 3
+  },
+  {
+    "review_date": "2026-06-30",
+    "target_date": "2026-06-29",
+    "results": [
+      {
+        "code": "000725",
+        "name": "京东方A",
+        "prev_rank": 1,
+        "prev_price": 7.95,
+        "today_rank": 1,
+        "today_price": 8.68,
+        "price_change": 9.18,
+        "still_in_top50": true,
+        "rank_change": 0
+      },
+      {
+        "code": "002354",
+        "name": "天娱数科",
+        "prev_rank": 19,
+        "prev_price": 9.11,
+        "today_rank": 12,
+        "today_price": 9.3,
+        "price_change": 2.09,
+        "still_in_top50": true,
+        "rank_change": 7
+      },
+      {
+        "code": "600707",
+        "name": "彩虹股份",
+        "prev_rank": 15,
+        "prev_price": 15.35,
+        "today_rank": 41,
+        "today_price": 16.89,
+        "price_change": 10.03,
+        "still_in_top50": true,
+        "rank_change": -26
+      },
+      {
+        "code": "601991",
+        "name": "大唐发电",
+        "prev_rank": 32,
+        "prev_price": 7.04,
+        "today_rank": 22,
+        "today_price": 7.08,
+        "price_change": 0.57,
+        "still_in_top50": true,
+        "rank_change": 10
+      },
+      {
+        "code": "601636",
+        "name": "旗滨集团",
+        "prev_rank": 77,
+        "prev_price": 9.82,
+        "today_rank": 89,
+        "today_price": 10.23,
+        "price_change": 4.18,
+        "still_in_top50": true,
+        "rank_change": -12
+      },
+      {
+        "code": "600360",
+        "name": "华微电子",
+        "prev_rank": 87,
+        "prev_price": 14.24,
+        "today_rank": 91,
+        "today_price": 14.66,
+        "price_change": 2.95,
+        "still_in_top50": true,
+        "rank_change": -4
+      },
+      {
+        "code": "000100",
+        "name": "TCL科技",
+        "prev_rank": 75,
+        "prev_price": 5.29,
+        "today_rank": 31,
+        "today_price": 5.82,
+        "price_change": 10.02,
+        "still_in_top50": true,
+        "rank_change": 44
+      },
+      {
+        "code": "002129",
+        "name": "TCL中环",
+        "prev_rank": 26,
+        "prev_price": 11.73,
+        "today_rank": 29,
+        "today_price": 12.02,
+        "price_change": 2.47,
+        "still_in_top50": true,
+        "rank_change": -3
+      }
+    ],
+    "win_rate": 100.0,
+    "win_count": 8,
+    "total": 8,
+    "rank_improved": 3
   }
 ]

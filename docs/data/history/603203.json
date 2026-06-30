@@ -3,10 +3,6 @@
   "name": "快克智能",
   "history": [
     {
-      "date": "2026-05-29",
-      "rank": 388
-    },
-    {
       "date": "2026-05-30",
       "rank": 430
     },
@@ -124,18 +120,22 @@
     },
     {
       "date": "2026-06-28",
-      "rank": 140
+      "rank": 138
     },
     {
       "date": "2026-06-29",
-      "rank": 97,
-      "price": 80.0,
-      "change_pct": 5.2632
+      "rank": 125
+    },
+    {
+      "date": "2026-06-30",
+      "rank": 90,
+      "price": 76.78,
+      "change_pct": -4.025
     }
   ],
   "continuous_days": 32,
   "monthly_count": 32,
-  "avg_rank": 299.9,
-  "best_rank": 97,
+  "avg_rank": 291.4,
+  "best_rank": 90,
   "trend": "stable"
 }

@@ -3,10 +3,6 @@
   "name": "凯盛科技",
   "history": [
     {
-      "date": "2026-05-29",
-      "rank": 454
-    },
-    {
       "date": "2026-05-30",
       "rank": 480
     },
@@ -128,14 +124,18 @@
     },
     {
       "date": "2026-06-29",
-      "rank": 34,
-      "price": 31.48,
-      "change_pct": 6.3514
+      "rank": 28
+    },
+    {
+      "date": "2026-06-30",
+      "rank": 35,
+      "price": 32.58,
+      "change_pct": 3.4943
     }
   ],
   "continuous_days": 32,
   "monthly_count": 32,
-  "avg_rank": 160.0,
+  "avg_rank": 146.7,
   "best_rank": 13,
   "trend": "stable"
 }
