@@ -3,10 +3,6 @@
   "name": "多氟多",
   "history": [
     {
-      "date": "2026-05-30",
-      "rank": 106
-    },
-    {
       "date": "2026-05-31",
       "rank": 51
     },
@@ -124,18 +120,22 @@
     },
     {
       "date": "2026-06-29",
-      "rank": 8
+      "rank": 7
     },
     {
       "date": "2026-06-30",
-      "rank": 20,
-      "price": 50.23,
-      "change_pct": 10.0088
+      "rank": 8
+    },
+    {
+      "date": "2026-07-01",
+      "rank": 11,
+      "price": 55.25,
+      "change_pct": 9.994
     }
   ],
   "continuous_days": 32,
   "monthly_count": 32,
-  "avg_rank": 43.4,
+  "avg_rank": 40.0,
   "best_rank": 1,
   "trend": "stable"
 }

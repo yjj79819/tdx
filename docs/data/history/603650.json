@@ -3,10 +3,6 @@
   "name": "彤程新材",
   "history": [
     {
-      "date": "2026-05-30",
-      "rank": 801
-    },
-    {
       "date": "2026-05-31",
       "rank": 839
     },
@@ -124,18 +120,22 @@
     },
     {
       "date": "2026-06-29",
-      "rank": 49
+      "rank": 53
     },
     {
       "date": "2026-06-30",
-      "rank": 37,
-      "price": 97.98,
-      "change_pct": 3.7814
+      "rank": 62
+    },
+    {
+      "date": "2026-07-01",
+      "rank": 85,
+      "price": 92.49,
+      "change_pct": -5.6032
     }
   ],
   "continuous_days": 32,
   "monthly_count": 32,
-  "avg_rank": 390.3,
+  "avg_rank": 368.8,
   "best_rank": 19,
   "trend": "stable"
 }

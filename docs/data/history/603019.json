@@ -3,10 +3,6 @@
   "name": "中科曙光",
   "history": [
     {
-      "date": "2026-05-30",
-      "rank": 163
-    },
-    {
       "date": "2026-05-31",
       "rank": 190
     },
@@ -124,18 +120,22 @@
     },
     {
       "date": "2026-06-29",
-      "rank": 27
+      "rank": 18
     },
     {
       "date": "2026-06-30",
-      "rank": 13,
-      "price": 107.23,
-      "change_pct": 10.0021
+      "rank": 27
+    },
+    {
+      "date": "2026-07-01",
+      "rank": 37,
+      "price": 102.45,
+      "change_pct": -4.4577
     }
   ],
   "continuous_days": 32,
   "monthly_count": 32,
-  "avg_rank": 182.0,
-  "best_rank": 13,
+  "avg_rank": 178.2,
+  "best_rank": 18,
   "trend": "stable"
 }

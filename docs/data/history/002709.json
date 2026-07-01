@@ -3,10 +3,6 @@
   "name": "天赐材料",
   "history": [
     {
-      "date": "2026-05-30",
-      "rank": 115
-    },
-    {
       "date": "2026-05-31",
       "rank": 83
     },
@@ -124,18 +120,22 @@
     },
     {
       "date": "2026-06-29",
-      "rank": 83
+      "rank": 74
     },
     {
       "date": "2026-06-30",
-      "rank": 55,
-      "price": 51.43,
-      "change_pct": 1.0214
+      "rank": 37
+    },
+    {
+      "date": "2026-07-01",
+      "rank": 28,
+      "price": 54.47,
+      "change_pct": 5.9109
     }
   ],
   "continuous_days": 32,
   "monthly_count": 32,
-  "avg_rank": 94.4,
+  "avg_rank": 90.9,
   "best_rank": 19,
   "trend": "stable"
 }

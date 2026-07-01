@@ -3,14 +3,6 @@
   "name": "北京君正",
   "history": [
     {
-      "date": "2026-05-29",
-      "rank": 352
-    },
-    {
-      "date": "2026-05-30",
-      "rank": 360
-    },
-    {
       "date": "2026-05-31",
       "rank": 195
     },
@@ -124,18 +116,26 @@
     },
     {
       "date": "2026-06-28",
-      "rank": 102
+      "rank": 95
     },
     {
       "date": "2026-06-29",
-      "rank": 78,
-      "price": 242.05,
-      "change_pct": 3.7906
+      "rank": 89
+    },
+    {
+      "date": "2026-06-30",
+      "rank": 69
+    },
+    {
+      "date": "2026-07-01",
+      "rank": 77,
+      "price": 259.05,
+      "change_pct": 4.0779
     }
   ],
   "continuous_days": 32,
   "monthly_count": 32,
-  "avg_rank": 223.1,
+  "avg_rank": 205.6,
   "best_rank": 37,
   "trend": "stable"
 }

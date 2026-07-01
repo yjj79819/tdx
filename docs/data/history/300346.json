@@ -3,10 +3,6 @@
   "name": "南大光电",
   "history": [
     {
-      "date": "2026-05-30",
-      "rank": 420
-    },
-    {
       "date": "2026-05-31",
       "rank": 411
     },
@@ -124,18 +120,22 @@
     },
     {
       "date": "2026-06-29",
-      "rank": 52
+      "rank": 65
     },
     {
       "date": "2026-06-30",
-      "rank": 76,
-      "price": 92.65,
-      "change_pct": 2.9444
+      "rank": 73
+    },
+    {
+      "date": "2026-07-01",
+      "rank": 90,
+      "price": 88.74,
+      "change_pct": -4.2202
     }
   ],
   "continuous_days": 32,
   "monthly_count": 32,
-  "avg_rank": 177.4,
+  "avg_rank": 167.4,
   "best_rank": 29,
   "trend": "stable"
 }

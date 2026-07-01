@@ -3,10 +3,6 @@
   "name": "TCL科技",
   "history": [
     {
-      "date": "2026-05-30",
-      "rank": 244
-    },
-    {
       "date": "2026-05-31",
       "rank": 161
     },
@@ -124,18 +120,22 @@
     },
     {
       "date": "2026-06-29",
-      "rank": 25
+      "rank": 17
     },
     {
       "date": "2026-06-30",
-      "rank": 31,
-      "price": 5.82,
-      "change_pct": 10.0189
+      "rank": 9
+    },
+    {
+      "date": "2026-07-01",
+      "rank": 14,
+      "price": 6.12,
+      "change_pct": 5.1546
     }
   ],
   "continuous_days": 32,
   "monthly_count": 32,
-  "avg_rank": 108.5,
-  "best_rank": 22,
+  "avg_rank": 100.4,
+  "best_rank": 9,
   "trend": "stable"
 }

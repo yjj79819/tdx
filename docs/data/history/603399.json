@@ -3,10 +3,6 @@
   "name": "永杉锂业",
   "history": [
     {
-      "date": "2026-05-30",
-      "rank": 144
-    },
-    {
       "date": "2026-05-31",
       "rank": 86
     },
@@ -124,18 +120,22 @@
     },
     {
       "date": "2026-06-29",
-      "rank": 93
+      "rank": 78
     },
     {
       "date": "2026-06-30",
-      "rank": 81,
-      "price": 22.48,
-      "change_pct": 5.2927
+      "rank": 88
+    },
+    {
+      "date": "2026-07-01",
+      "rank": 94,
+      "price": 22.72,
+      "change_pct": 1.0676
     }
   ],
   "continuous_days": 32,
   "monthly_count": 32,
-  "avg_rank": 145.9,
+  "avg_rank": 144.1,
   "best_rank": 25,
   "trend": "stable"
 }
