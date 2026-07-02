@@ -3,10 +3,6 @@
   "name": "昊华科技",
   "history": [
     {
-      "date": "2026-05-31",
-      "rank": 295
-    },
-    {
       "date": "2026-06-01",
       "rank": 192
     },
@@ -124,18 +120,22 @@
     },
     {
       "date": "2026-06-30",
-      "rank": 23
+      "rank": 21
     },
     {
       "date": "2026-07-01",
-      "rank": 23,
-      "price": 81.0,
-      "change_pct": 7.4556
+      "rank": 21
+    },
+    {
+      "date": "2026-07-02",
+      "rank": 33,
+      "price": 82.17,
+      "change_pct": 1.4444
     }
   ],
   "continuous_days": 32,
   "monthly_count": 32,
-  "avg_rank": 56.4,
+  "avg_rank": 48.1,
   "best_rank": 8,
   "trend": "stable"
 }

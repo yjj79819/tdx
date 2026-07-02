@@ -3,10 +3,6 @@
   "name": "埃斯顿",
   "history": [
     {
-      "date": "2026-05-31",
-      "rank": 410
-    },
-    {
       "date": "2026-06-01",
       "rank": 395
     },
@@ -124,18 +120,22 @@
     },
     {
       "date": "2026-06-30",
-      "rank": 51
+      "rank": 42
     },
     {
       "date": "2026-07-01",
-      "rank": 53,
-      "price": 41.06,
-      "change_pct": 9.992
+      "rank": 18
+    },
+    {
+      "date": "2026-07-02",
+      "rank": 31,
+      "price": 40.7,
+      "change_pct": -0.8768
     }
   ],
   "continuous_days": 32,
   "monthly_count": 32,
-  "avg_rank": 95.9,
+  "avg_rank": 82.7,
   "best_rank": 15,
   "trend": "stable"
 }

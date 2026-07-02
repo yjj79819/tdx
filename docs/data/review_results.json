@@ -4622,5 +4622,103 @@
     "win_count": 4,
     "total": 8,
     "rank_improved": 2
+  },
+  {
+    "review_date": "2026-07-02",
+    "target_date": "2026-07-01",
+    "results": [
+      {
+        "code": "000725",
+        "name": "京东方A",
+        "prev_rank": 1,
+        "prev_price": 8.77,
+        "today_rank": 1,
+        "today_price": 9.1,
+        "price_change": 3.76,
+        "still_in_top50": true,
+        "rank_change": 0
+      },
+      {
+        "code": "601991",
+        "name": "大唐发电",
+        "prev_rank": 9,
+        "prev_price": 7.79,
+        "today_rank": "-",
+        "today_price": 7.79,
+        "price_change": 0.0,
+        "still_in_top50": false,
+        "rank_change": 0
+      },
+      {
+        "code": "000100",
+        "name": "TCL科技",
+        "prev_rank": 14,
+        "prev_price": 6.12,
+        "today_rank": 9,
+        "today_price": 5.92,
+        "price_change": -3.27,
+        "still_in_top50": true,
+        "rank_change": 5
+      },
+      {
+        "code": "002354",
+        "name": "天娱数科",
+        "prev_rank": 16,
+        "prev_price": 9.4,
+        "today_rank": 20,
+        "today_price": 10.34,
+        "price_change": 10.0,
+        "still_in_top50": true,
+        "rank_change": -4
+      },
+      {
+        "code": "600707",
+        "name": "彩虹股份",
+        "prev_rank": 17,
+        "prev_price": 17.66,
+        "today_rank": "-",
+        "today_price": 17.66,
+        "price_change": 0.0,
+        "still_in_top50": false,
+        "rank_change": 0
+      },
+      {
+        "code": "000783",
+        "name": "长江证券",
+        "prev_rank": 78,
+        "prev_price": 10.54,
+        "today_rank": "-",
+        "today_price": 10.54,
+        "price_change": 0.0,
+        "still_in_top50": false,
+        "rank_change": 0
+      },
+      {
+        "code": "000620",
+        "name": "盈新发展",
+        "prev_rank": 35,
+        "prev_price": 3.85,
+        "today_rank": "-",
+        "today_price": 3.85,
+        "price_change": 0.0,
+        "still_in_top50": false,
+        "rank_change": 0
+      },
+      {
+        "code": "600172",
+        "name": "黄河旋风",
+        "prev_rank": 43,
+        "prev_price": 16.39,
+        "today_rank": 21,
+        "today_price": 18.03,
+        "price_change": 10.01,
+        "still_in_top50": true,
+        "rank_change": 22
+      }
+    ],
+    "win_rate": 37.5,
+    "win_count": 3,
+    "total": 8,
+    "rank_improved": 2
   }
 ]

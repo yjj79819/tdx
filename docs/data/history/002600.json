@@ -3,10 +3,6 @@
   "name": "领益智造",
   "history": [
     {
-      "date": "2026-05-31",
-      "rank": 105
-    },
-    {
       "date": "2026-06-01",
       "rank": 219
     },
@@ -124,18 +120,22 @@
     },
     {
       "date": "2026-06-30",
-      "rank": 60
+      "rank": 68
     },
     {
       "date": "2026-07-01",
-      "rank": 79,
-      "price": 17.8,
-      "change_pct": 2.6528
+      "rank": 82
+    },
+    {
+      "date": "2026-07-02",
+      "rank": 99,
+      "price": 17.18,
+      "change_pct": -3.4831
     }
   ],
   "continuous_days": 32,
   "monthly_count": 32,
-  "avg_rank": 158.7,
+  "avg_rank": 158.8,
   "best_rank": 37,
   "trend": "stable"
 }

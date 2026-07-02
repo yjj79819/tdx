@@ -3,10 +3,6 @@
   "name": "有研新材",
   "history": [
     {
-      "date": "2026-05-31",
-      "rank": 349
-    },
-    {
       "date": "2026-06-01",
       "rank": 344
     },
@@ -128,14 +124,18 @@
     },
     {
       "date": "2026-07-01",
-      "rank": 4,
-      "price": 59.94,
-      "change_pct": -10.0
+      "rank": 6
+    },
+    {
+      "date": "2026-07-02",
+      "rank": 10,
+      "price": 57.81,
+      "change_pct": -3.5536
     }
   ],
   "continuous_days": 32,
   "monthly_count": 32,
-  "avg_rank": 104.7,
+  "avg_rank": 94.2,
   "best_rank": 2,
   "trend": "stable"
 }

@@ -1,57 +1,61 @@
 {
-  "code": "000566",
-  "name": "海南海药",
+  "code": "002653",
+  "name": "海思科",
   "history": [
     {
+      "date": "2026-06-01",
+      "rank": 1625
+    },
+    {
       "date": "2026-06-22",
-      "rank": 521
+      "rank": 1105
     },
     {
       "date": "2026-06-23",
-      "rank": 194
+      "rank": 867
     },
     {
       "date": "2026-06-24",
-      "rank": 222
+      "rank": 1529
     },
     {
       "date": "2026-06-25",
-      "rank": 392
+      "rank": 1825
     },
     {
       "date": "2026-06-26",
-      "rank": 507
+      "rank": 1281
     },
     {
       "date": "2026-06-27",
-      "rank": 527
+      "rank": 1333
     },
     {
       "date": "2026-06-28",
-      "rank": 241
+      "rank": 717
     },
     {
       "date": "2026-06-29",
-      "rank": 142
+      "rank": 462
     },
     {
       "date": "2026-06-30",
-      "rank": 62
+      "rank": 263
     },
     {
       "date": "2026-07-01",
-      "rank": 38
+      "rank": 192
     },
     {
       "date": "2026-07-02",
-      "rank": 56,
-      "price": 6.04,
-      "change_pct": 10.0182
+      "rank": 79,
+      "price": 78.8,
+      "change_pct": 8.0044
     }
   ],
-  "continuous_days": 11,
-  "monthly_count": 11,
-  "avg_rank": 263.8,
-  "best_rank": 38,
+  "continuous_days": 12,
+  "monthly_count": 12,
+  "avg_rank": 939.8,
+  "best_rank": 79,
   "trend": "stable"
 }
