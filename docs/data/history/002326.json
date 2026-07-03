@@ -3,10 +3,6 @@
   "name": "永太科技",
   "history": [
     {
-      "date": "2026-06-01",
-      "rank": 1041
-    },
-    {
       "date": "2026-06-02",
       "rank": 504
     },
@@ -124,18 +120,22 @@
     },
     {
       "date": "2026-07-01",
-      "rank": 26
+      "rank": 21
     },
     {
       "date": "2026-07-02",
-      "rank": 29,
-      "price": 28.0,
-      "change_pct": 7.61
+      "rank": 34
+    },
+    {
+      "date": "2026-07-03",
+      "rank": 87,
+      "price": 25.81,
+      "change_pct": -7.8214
     }
   ],
   "continuous_days": 32,
   "monthly_count": 32,
-  "avg_rank": 458.2,
-  "best_rank": 26,
+  "avg_rank": 428.4,
+  "best_rank": 21,
   "trend": "stable"
 }

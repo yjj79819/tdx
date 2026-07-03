@@ -3,10 +3,6 @@
   "name": "立讯精密",
   "history": [
     {
-      "date": "2026-06-01",
-      "rank": 46
-    },
-    {
       "date": "2026-06-02",
       "rank": 48
     },
@@ -124,18 +120,22 @@
     },
     {
       "date": "2026-07-01",
-      "rank": 66
+      "rank": 67
     },
     {
       "date": "2026-07-02",
-      "rank": 53,
-      "price": 60.9,
-      "change_pct": -8.06
+      "rank": 41
+    },
+    {
+      "date": "2026-07-03",
+      "rank": 49,
+      "price": 64.44,
+      "change_pct": 5.8128
     }
   ],
   "continuous_days": 32,
   "monthly_count": 32,
-  "avg_rank": 74.4,
+  "avg_rank": 74.2,
   "best_rank": 17,
   "trend": "stable"
 }

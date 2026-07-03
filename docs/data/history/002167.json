@@ -3,10 +3,6 @@
   "name": "东方锆业",
   "history": [
     {
-      "date": "2026-06-01",
-      "rank": 917
-    },
-    {
       "date": "2026-06-02",
       "rank": 280
     },
@@ -128,14 +124,18 @@
     },
     {
       "date": "2026-07-02",
-      "rank": 22,
-      "price": 26.05,
-      "change_pct": 7.29
+      "rank": 37
+    },
+    {
+      "date": "2026-07-03",
+      "rank": 95,
+      "price": 25.04,
+      "change_pct": -3.8772
     }
   ],
   "continuous_days": 32,
   "monthly_count": 32,
-  "avg_rank": 257.4,
+  "avg_rank": 232.2,
   "best_rank": 22,
   "trend": "stable"
 }
