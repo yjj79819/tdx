@@ -3,22 +3,6 @@
   "name": "牧原股份",
   "history": [
     {
-      "date": "2026-06-01",
-      "rank": 266
-    },
-    {
-      "date": "2026-06-02",
-      "rank": 283
-    },
-    {
-      "date": "2026-06-03",
-      "rank": 271
-    },
-    {
-      "date": "2026-06-04",
-      "rank": 356
-    },
-    {
       "date": "2026-06-05",
       "rank": 212
     },
@@ -124,18 +108,34 @@
     },
     {
       "date": "2026-07-01",
-      "rank": 115
+      "rank": 119
     },
     {
       "date": "2026-07-02",
-      "rank": 96,
-      "price": 37.35,
-      "change_pct": 1.0
+      "rank": 176
+    },
+    {
+      "date": "2026-07-03",
+      "rank": 216
+    },
+    {
+      "date": "2026-07-04",
+      "rank": 158
+    },
+    {
+      "date": "2026-07-05",
+      "rank": 63
+    },
+    {
+      "date": "2026-07-06",
+      "rank": 55,
+      "price": 38.68,
+      "change_pct": 4.8238
     }
   ],
   "continuous_days": 32,
   "monthly_count": 32,
-  "avg_rank": 279.9,
-  "best_rank": 88,
+  "avg_rank": 261.2,
+  "best_rank": 55,
   "trend": "stable"
 }

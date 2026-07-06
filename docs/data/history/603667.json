@@ -3,18 +3,6 @@
   "name": "五洲新春",
   "history": [
     {
-      "date": "2026-06-02",
-      "rank": 172
-    },
-    {
-      "date": "2026-06-03",
-      "rank": 165
-    },
-    {
-      "date": "2026-06-04",
-      "rank": 73
-    },
-    {
       "date": "2026-06-05",
       "rank": 134
     },
@@ -124,18 +112,30 @@
     },
     {
       "date": "2026-07-02",
-      "rank": 73
+      "rank": 47
     },
     {
       "date": "2026-07-03",
-      "rank": 31,
-      "price": 76.15,
-      "change_pct": 8.51
+      "rank": 54
+    },
+    {
+      "date": "2026-07-04",
+      "rank": 69
+    },
+    {
+      "date": "2026-07-05",
+      "rank": 78
+    },
+    {
+      "date": "2026-07-06",
+      "rank": 51,
+      "price": 68.54,
+      "change_pct": -9.9934
     }
   ],
   "continuous_days": 32,
   "monthly_count": 32,
-  "avg_rank": 277.8,
-  "best_rank": 31,
+  "avg_rank": 271.0,
+  "best_rank": 47,
   "trend": "stable"
 }

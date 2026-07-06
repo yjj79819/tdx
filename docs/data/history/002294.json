@@ -3,18 +3,6 @@
   "name": "信立泰",
   "history": [
     {
-      "date": "2026-06-02",
-      "rank": 1129
-    },
-    {
-      "date": "2026-06-03",
-      "rank": 1030
-    },
-    {
-      "date": "2026-06-04",
-      "rank": 928
-    },
-    {
       "date": "2026-06-05",
       "rank": 819
     },
@@ -124,18 +112,30 @@
     },
     {
       "date": "2026-07-02",
-      "rank": 168
+      "rank": 127
     },
     {
       "date": "2026-07-03",
-      "rank": 100,
-      "price": 40.08,
-      "change_pct": 9.99
+      "rank": 45
+    },
+    {
+      "date": "2026-07-04",
+      "rank": 40
+    },
+    {
+      "date": "2026-07-05",
+      "rank": 64
+    },
+    {
+      "date": "2026-07-06",
+      "rank": 94,
+      "price": 39.83,
+      "change_pct": -0.6238
     }
   ],
   "continuous_days": 32,
   "monthly_count": 32,
-  "avg_rank": 939.5,
-  "best_rank": 100,
+  "avg_rank": 846.2,
+  "best_rank": 40,
   "trend": "stable"
 }

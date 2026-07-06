@@ -4818,5 +4818,103 @@
     "win_count": 1,
     "total": 8,
     "rank_improved": 1
+  },
+  {
+    "review_date": "2026-07-06",
+    "target_date": "2026-07-03",
+    "results": [
+      {
+        "code": "601991",
+        "name": "大唐发电",
+        "prev_rank": 5,
+        "prev_price": 7.67,
+        "today_rank": 16,
+        "today_price": 7.39,
+        "price_change": -3.65,
+        "still_in_top50": true,
+        "rank_change": -11
+      },
+      {
+        "code": "000100",
+        "name": "TCL科技",
+        "prev_rank": 25,
+        "prev_price": 5.65,
+        "today_rank": "-",
+        "today_price": 5.65,
+        "price_change": 0.0,
+        "still_in_top50": false,
+        "rank_change": 0
+      },
+      {
+        "code": "002185",
+        "name": "华天科技",
+        "prev_rank": 24,
+        "prev_price": 19.51,
+        "today_rank": 25,
+        "today_price": 19.94,
+        "price_change": 2.2,
+        "still_in_top50": true,
+        "rank_change": -1
+      },
+      {
+        "code": "600110",
+        "name": "诺德股份",
+        "prev_rank": 17,
+        "prev_price": 15.75,
+        "today_rank": "-",
+        "today_price": 15.75,
+        "price_change": 0.0,
+        "still_in_top50": false,
+        "rank_change": 0
+      },
+      {
+        "code": "600601",
+        "name": "方正科技",
+        "prev_rank": 55,
+        "prev_price": 15.12,
+        "today_rank": 82,
+        "today_price": 14.99,
+        "price_change": -0.86,
+        "still_in_top50": true,
+        "rank_change": -27
+      },
+      {
+        "code": "002600",
+        "name": "领益智造",
+        "prev_rank": 21,
+        "prev_price": 18.02,
+        "today_rank": "-",
+        "today_price": 18.02,
+        "price_change": 0.0,
+        "still_in_top50": false,
+        "rank_change": 0
+      },
+      {
+        "code": "000566",
+        "name": "海南海药",
+        "prev_rank": 20,
+        "prev_price": 6.14,
+        "today_rank": 22,
+        "today_price": 6.43,
+        "price_change": 4.72,
+        "still_in_top50": true,
+        "rank_change": -2
+      },
+      {
+        "code": "000700",
+        "name": "模塑科技",
+        "prev_rank": 85,
+        "prev_price": 17.6,
+        "today_rank": "-",
+        "today_price": 17.6,
+        "price_change": 0.0,
+        "still_in_top50": false,
+        "rank_change": 0
+      }
+    ],
+    "win_rate": 25.0,
+    "win_count": 2,
+    "total": 8,
+    "rank_improved": 0
   }
 ]

@@ -3,18 +3,6 @@
   "name": "航天发展",
   "history": [
     {
-      "date": "2026-06-02",
-      "rank": 139
-    },
-    {
-      "date": "2026-06-03",
-      "rank": 234
-    },
-    {
-      "date": "2026-06-04",
-      "rank": 78
-    },
-    {
       "date": "2026-06-05",
       "rank": 121
     },
@@ -124,18 +112,30 @@
     },
     {
       "date": "2026-07-02",
-      "rank": 76
+      "rank": 63
     },
     {
       "date": "2026-07-03",
-      "rank": 74,
-      "price": 19.39,
-      "change_pct": 4.47
+      "rank": 123
+    },
+    {
+      "date": "2026-07-04",
+      "rank": 127
+    },
+    {
+      "date": "2026-07-05",
+      "rank": 85
+    },
+    {
+      "date": "2026-07-06",
+      "rank": 91,
+      "price": 17.7,
+      "change_pct": -8.7158
     }
   ],
   "continuous_days": 32,
   "monthly_count": 32,
-  "avg_rank": 167.8,
+  "avg_rank": 164.2,
   "best_rank": 24,
   "trend": "stable"
 }
