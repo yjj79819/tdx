@@ -3,10 +3,6 @@
   "name": "立昂微",
   "history": [
     {
-      "date": "2026-06-05",
-      "rank": 72
-    },
-    {
       "date": "2026-06-06",
       "rank": 58
     },
@@ -124,18 +120,22 @@
     },
     {
       "date": "2026-07-05",
-      "rank": 36
+      "rank": 35
     },
     {
       "date": "2026-07-06",
-      "rank": 39,
-      "price": 59.49,
-      "change_pct": -8.0099
+      "rank": 46
+    },
+    {
+      "date": "2026-07-07",
+      "rank": 74,
+      "price": 60.53,
+      "change_pct": 1.7482
     }
   ],
   "continuous_days": 32,
   "monthly_count": 32,
-  "avg_rank": 58.7,
+  "avg_rank": 59.0,
   "best_rank": 14,
   "trend": "stable"
 }

@@ -3,10 +3,6 @@
   "name": "三安光电",
   "history": [
     {
-      "date": "2026-06-05",
-      "rank": 62
-    },
-    {
       "date": "2026-06-06",
       "rank": 67
     },
@@ -124,18 +120,22 @@
     },
     {
       "date": "2026-07-05",
-      "rank": 52
+      "rank": 57
     },
     {
       "date": "2026-07-06",
-      "rank": 79,
-      "price": 17.35,
-      "change_pct": -4.8272
+      "rank": 37
+    },
+    {
+      "date": "2026-07-07",
+      "rank": 23,
+      "price": 17.78,
+      "change_pct": 2.4784
     }
   ],
   "continuous_days": 32,
   "monthly_count": 32,
-  "avg_rank": 37.8,
+  "avg_rank": 35.4,
   "best_rank": 6,
   "trend": "stable"
 }

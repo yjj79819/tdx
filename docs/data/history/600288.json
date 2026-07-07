@@ -1,0 +1,41 @@
+{
+  "code": "600288",
+  "name": "大恒科技",
+  "history": [
+    {
+      "date": "2026-06-06",
+      "rank": 1705
+    },
+    {
+      "date": "2026-06-19",
+      "rank": 1982
+    },
+    {
+      "date": "2026-06-20",
+      "rank": 1970
+    },
+    {
+      "date": "2026-06-29",
+      "rank": 1937
+    },
+    {
+      "date": "2026-07-05",
+      "rank": 668
+    },
+    {
+      "date": "2026-07-06",
+      "rank": 168
+    },
+    {
+      "date": "2026-07-07",
+      "rank": 59,
+      "price": 15.55,
+      "change_pct": 9.9717
+    }
+  ],
+  "continuous_days": 7,
+  "monthly_count": 7,
+  "avg_rank": 1212.7,
+  "best_rank": 59,
+  "trend": "stable"
+}

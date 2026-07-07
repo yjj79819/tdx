@@ -3,22 +3,6 @@
   "name": "通鼎互联",
   "history": [
     {
-      "date": "2026-06-02",
-      "rank": 20
-    },
-    {
-      "date": "2026-06-03",
-      "rank": 12
-    },
-    {
-      "date": "2026-06-04",
-      "rank": 10
-    },
-    {
-      "date": "2026-06-05",
-      "rank": 32
-    },
-    {
       "date": "2026-06-06",
       "rank": 44
     },
@@ -124,18 +108,34 @@
     },
     {
       "date": "2026-07-02",
-      "rank": 71
+      "rank": 78
     },
     {
       "date": "2026-07-03",
-      "rank": 58,
-      "price": 25.47,
-      "change_pct": -4.36
+      "rank": 87
+    },
+    {
+      "date": "2026-07-04",
+      "rank": 81
+    },
+    {
+      "date": "2026-07-05",
+      "rank": 92
+    },
+    {
+      "date": "2026-07-06",
+      "rank": 105
+    },
+    {
+      "date": "2026-07-07",
+      "rank": 92,
+      "price": 23.16,
+      "change_pct": -4.0199
     }
   ],
   "continuous_days": 32,
   "monthly_count": 32,
-  "avg_rank": 42.0,
+  "avg_rank": 52.4,
   "best_rank": 3,
   "trend": "stable"
 }

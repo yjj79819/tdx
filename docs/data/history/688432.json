@@ -3,14 +3,6 @@
   "name": "有研硅",
   "history": [
     {
-      "date": "2026-06-02",
-      "rank": 1629
-    },
-    {
-      "date": "2026-06-03",
-      "rank": 1218
-    },
-    {
       "date": "2026-06-08",
       "rank": 749
     },
@@ -92,18 +84,50 @@
     },
     {
       "date": "2026-06-28",
-      "rank": 127
+      "rank": 115
     },
     {
       "date": "2026-06-29",
-      "rank": 69,
-      "price": 37.08,
+      "rank": 187
+    },
+    {
+      "date": "2026-06-30",
+      "rank": 159
+    },
+    {
+      "date": "2026-07-01",
+      "rank": 168
+    },
+    {
+      "date": "2026-07-02",
+      "rank": 283
+    },
+    {
+      "date": "2026-07-03",
+      "rank": 397
+    },
+    {
+      "date": "2026-07-04",
+      "rank": 404
+    },
+    {
+      "date": "2026-07-05",
+      "rank": 415
+    },
+    {
+      "date": "2026-07-06",
+      "rank": 76
+    },
+    {
+      "date": "2026-07-07",
+      "rank": 61,
+      "price": 46.14,
       "change_pct": 20.0
     }
   ],
-  "continuous_days": 24,
-  "monthly_count": 24,
-  "avg_rank": 779.1,
-  "best_rank": 62,
+  "continuous_days": 30,
+  "monthly_count": 30,
+  "avg_rank": 597.3,
+  "best_rank": 61,
   "trend": "stable"
 }

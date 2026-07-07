@@ -4916,5 +4916,103 @@
     "win_count": 2,
     "total": 8,
     "rank_improved": 0
+  },
+  {
+    "review_date": "2026-07-07",
+    "target_date": "2026-07-06",
+    "results": [
+      {
+        "code": "600172",
+        "name": "黄河旋风",
+        "prev_rank": 12,
+        "prev_price": 18.55,
+        "today_rank": 9,
+        "today_price": 18.36,
+        "price_change": -1.02,
+        "still_in_top50": true,
+        "rank_change": 3
+      },
+      {
+        "code": "000566",
+        "name": "海南海药",
+        "prev_rank": 22,
+        "prev_price": 6.43,
+        "today_rank": "-",
+        "today_price": 6.43,
+        "price_change": 0.0,
+        "still_in_top50": false,
+        "rank_change": 0
+      },
+      {
+        "code": "601991",
+        "name": "大唐发电",
+        "prev_rank": 16,
+        "prev_price": 7.39,
+        "today_rank": "-",
+        "today_price": 7.39,
+        "price_change": 0.0,
+        "still_in_top50": false,
+        "rank_change": 0
+      },
+      {
+        "code": "000066",
+        "name": "中国长城",
+        "prev_rank": 9,
+        "prev_price": 18.82,
+        "today_rank": 41,
+        "today_price": 18.58,
+        "price_change": -1.28,
+        "still_in_top50": true,
+        "rank_change": -32
+      },
+      {
+        "code": "002141",
+        "name": "贤丰控股",
+        "prev_rank": 50,
+        "prev_price": 5.65,
+        "today_rank": 31,
+        "today_price": 5.85,
+        "price_change": 3.54,
+        "still_in_top50": true,
+        "rank_change": 19
+      },
+      {
+        "code": "002185",
+        "name": "华天科技",
+        "prev_rank": 25,
+        "prev_price": 19.94,
+        "today_rank": "-",
+        "today_price": 19.94,
+        "price_change": 0.0,
+        "still_in_top50": false,
+        "rank_change": 0
+      },
+      {
+        "code": "600601",
+        "name": "方正科技",
+        "prev_rank": 82,
+        "prev_price": 14.99,
+        "today_rank": 69,
+        "today_price": 14.7,
+        "price_change": -1.93,
+        "still_in_top50": true,
+        "rank_change": 13
+      },
+      {
+        "code": "000070",
+        "name": "特发信息",
+        "prev_rank": 66,
+        "prev_price": 18.79,
+        "today_rank": "-",
+        "today_price": 18.79,
+        "price_change": 0.0,
+        "still_in_top50": false,
+        "rank_change": 0
+      }
+    ],
+    "win_rate": 12.5,
+    "win_count": 1,
+    "total": 8,
+    "rank_improved": 3
   }
 ]

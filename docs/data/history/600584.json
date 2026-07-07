@@ -3,10 +3,6 @@
   "name": "长电科技",
   "history": [
     {
-      "date": "2026-06-05",
-      "rank": 16
-    },
-    {
       "date": "2026-06-06",
       "rank": 19
     },
@@ -128,14 +124,18 @@
     },
     {
       "date": "2026-07-06",
-      "rank": 4,
-      "price": 95.09,
-      "change_pct": 4.6325
+      "rank": 1
+    },
+    {
+      "date": "2026-07-07",
+      "rank": 2,
+      "price": 100.99,
+      "change_pct": 6.2046
     }
   ],
   "continuous_days": 32,
   "monthly_count": 32,
-  "avg_rank": 8.7,
+  "avg_rank": 8.2,
   "best_rank": 1,
   "trend": "stable"
 }
