@@ -3,10 +3,6 @@
   "name": "百合花",
   "history": [
     {
-      "date": "2026-06-06",
-      "rank": 196
-    },
-    {
       "date": "2026-06-07",
       "rank": 176
     },
@@ -124,18 +120,22 @@
     },
     {
       "date": "2026-07-06",
-      "rank": 32
+      "rank": 23
     },
     {
       "date": "2026-07-07",
-      "rank": 19,
-      "price": 72.45,
-      "change_pct": 10.01
+      "rank": 22
+    },
+    {
+      "date": "2026-07-08",
+      "rank": 37,
+      "price": 70.9,
+      "change_pct": -2.1394
     }
   ],
   "continuous_days": 32,
   "monthly_count": 32,
-  "avg_rank": 156.9,
-  "best_rank": 19,
+  "avg_rank": 151.8,
+  "best_rank": 22,
   "trend": "stable"
 }

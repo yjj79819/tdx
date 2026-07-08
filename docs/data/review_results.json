@@ -5014,5 +5014,103 @@
     "win_count": 1,
     "total": 8,
     "rank_improved": 3
+  },
+  {
+    "review_date": "2026-07-08",
+    "target_date": "2026-07-07",
+    "results": [
+      {
+        "code": "000725",
+        "name": "京东方A",
+        "prev_rank": 3,
+        "prev_price": 7.58,
+        "today_rank": 1,
+        "today_price": 7.88,
+        "price_change": 3.96,
+        "still_in_top50": true,
+        "rank_change": 2
+      },
+      {
+        "code": "002617",
+        "name": "露笑科技",
+        "prev_rank": 20,
+        "prev_price": 9.7,
+        "today_rank": "-",
+        "today_price": 9.7,
+        "price_change": 0.0,
+        "still_in_top50": false,
+        "rank_change": 0
+      },
+      {
+        "code": "002354",
+        "name": "天娱数科",
+        "prev_rank": 14,
+        "prev_price": 8.71,
+        "today_rank": "-",
+        "today_price": 8.71,
+        "price_change": 0.0,
+        "still_in_top50": false,
+        "rank_change": 0
+      },
+      {
+        "code": "001248",
+        "name": "华润新能源",
+        "prev_rank": 7,
+        "prev_price": 18.51,
+        "today_rank": "-",
+        "today_price": 18.51,
+        "price_change": 0.0,
+        "still_in_top50": false,
+        "rank_change": 0
+      },
+      {
+        "code": "600172",
+        "name": "黄河旋风",
+        "prev_rank": 9,
+        "prev_price": 18.36,
+        "today_rank": 8,
+        "today_price": 18.73,
+        "price_change": 2.02,
+        "still_in_top50": true,
+        "rank_change": 1
+      },
+      {
+        "code": "600360",
+        "name": "华微电子",
+        "prev_rank": 24,
+        "prev_price": 15.32,
+        "today_rank": "-",
+        "today_price": 15.32,
+        "price_change": 0.0,
+        "still_in_top50": false,
+        "rank_change": 0
+      },
+      {
+        "code": "002141",
+        "name": "贤丰控股",
+        "prev_rank": 31,
+        "prev_price": 5.85,
+        "today_rank": 64,
+        "today_price": 5.66,
+        "price_change": -3.25,
+        "still_in_top50": true,
+        "rank_change": -33
+      },
+      {
+        "code": "000100",
+        "name": "TCL科技",
+        "prev_rank": 35,
+        "prev_price": 5.26,
+        "today_rank": 30,
+        "today_price": 5.14,
+        "price_change": -2.28,
+        "still_in_top50": true,
+        "rank_change": 5
+      }
+    ],
+    "win_rate": 25.0,
+    "win_count": 2,
+    "total": 8,
+    "rank_improved": 3
   }
 ]

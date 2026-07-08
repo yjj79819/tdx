@@ -3,10 +3,6 @@
   "name": "惠科股份",
   "history": [
     {
-      "date": "2026-06-06",
-      "rank": 1722
-    },
-    {
       "date": "2026-06-11",
       "rank": 1056
     },
@@ -108,18 +104,22 @@
     },
     {
       "date": "2026-07-06",
-      "rank": 33
+      "rank": 37
     },
     {
       "date": "2026-07-07",
-      "rank": 50,
-      "price": 34.78,
-      "change_pct": -8.76
+      "rank": 39
+    },
+    {
+      "date": "2026-07-08",
+      "rank": 48,
+      "price": 36.07,
+      "change_pct": 3.709
     }
   ],
   "continuous_days": 28,
   "monthly_count": 28,
-  "avg_rank": 276.5,
+  "avg_rank": 216.5,
   "best_rank": 1,
   "trend": "stable"
 }

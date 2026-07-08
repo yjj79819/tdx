@@ -3,10 +3,6 @@
   "name": "方正科技",
   "history": [
     {
-      "date": "2026-06-06",
-      "rank": 443
-    },
-    {
       "date": "2026-06-07",
       "rank": 264
     },
@@ -124,18 +120,22 @@
     },
     {
       "date": "2026-07-06",
-      "rank": 59
+      "rank": 60
     },
     {
       "date": "2026-07-07",
-      "rank": 69,
-      "price": 14.7,
-      "change_pct": -1.93
+      "rank": 64
+    },
+    {
+      "date": "2026-07-08",
+      "rank": 84,
+      "price": 13.88,
+      "change_pct": -5.5782
     }
   ],
   "continuous_days": 32,
   "monthly_count": 32,
-  "avg_rank": 193.8,
+  "avg_rank": 182.4,
   "best_rank": 48,
   "trend": "stable"
 }

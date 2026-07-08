@@ -3,10 +3,6 @@
   "name": "大恒科技",
   "history": [
     {
-      "date": "2026-06-06",
-      "rank": 1705
-    },
-    {
       "date": "2026-06-19",
       "rank": 1982
     },
@@ -24,18 +20,22 @@
     },
     {
       "date": "2026-07-06",
-      "rank": 168
+      "rank": 93
     },
     {
       "date": "2026-07-07",
-      "rank": 59,
-      "price": 15.55,
-      "change_pct": 9.97
+      "rank": 73
+    },
+    {
+      "date": "2026-07-08",
+      "rank": 51,
+      "price": 17.11,
+      "change_pct": 10.0322
     }
   ],
   "continuous_days": 7,
   "monthly_count": 7,
-  "avg_rank": 1212.7,
-  "best_rank": 59,
+  "avg_rank": 967.7,
+  "best_rank": 51,
   "trend": "stable"
 }

@@ -3,10 +3,6 @@
   "name": "江波龙",
   "history": [
     {
-      "date": "2026-06-06",
-      "rank": 163
-    },
-    {
       "date": "2026-06-07",
       "rank": 163
     },
@@ -124,18 +120,22 @@
     },
     {
       "date": "2026-07-06",
-      "rank": 24
+      "rank": 34
     },
     {
       "date": "2026-07-07",
-      "rank": 38,
-      "price": 627.9,
-      "change_pct": -7.91
+      "rank": 40
+    },
+    {
+      "date": "2026-07-08",
+      "rank": 61,
+      "price": 624.2,
+      "change_pct": -0.5893
     }
   ],
   "continuous_days": 32,
   "monthly_count": 32,
-  "avg_rank": 107.8,
+  "avg_rank": 105.0,
   "best_rank": 1,
   "trend": "stable"
 }

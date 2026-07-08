@@ -3,10 +3,6 @@
   "name": "亨通光电",
   "history": [
     {
-      "date": "2026-06-06",
-      "rank": 13
-    },
-    {
       "date": "2026-06-07",
       "rank": 5
     },
@@ -128,14 +124,18 @@
     },
     {
       "date": "2026-07-07",
-      "rank": 8,
-      "price": 80.89,
-      "change_pct": -4.39
+      "rank": 10
+    },
+    {
+      "date": "2026-07-08",
+      "rank": 14,
+      "price": 80.69,
+      "change_pct": -0.2472
     }
   ],
   "continuous_days": 32,
   "monthly_count": 32,
-  "avg_rank": 8.8,
+  "avg_rank": 8.9,
   "best_rank": 2,
   "trend": "stable"
 }

@@ -3,10 +3,6 @@
   "name": "东岳硅材",
   "history": [
     {
-      "date": "2026-06-06",
-      "rank": 769
-    },
-    {
       "date": "2026-06-07",
       "rank": 624
     },
@@ -128,14 +124,18 @@
     },
     {
       "date": "2026-07-07",
-      "rank": 78,
-      "price": 23.3,
-      "change_pct": 5.81
+      "rank": 54
+    },
+    {
+      "date": "2026-07-08",
+      "rank": 36,
+      "price": 26.05,
+      "change_pct": 11.8026
     }
   ],
   "continuous_days": 32,
   "monthly_count": 32,
-  "avg_rank": 282.4,
-  "best_rank": 53,
+  "avg_rank": 258.7,
+  "best_rank": 36,
   "trend": "stable"
 }

@@ -3,10 +3,6 @@
   "name": "万通发展",
   "history": [
     {
-      "date": "2026-06-06",
-      "rank": 257
-    },
-    {
       "date": "2026-06-07",
       "rank": 292
     },
@@ -124,18 +120,22 @@
     },
     {
       "date": "2026-07-06",
-      "rank": 71
+      "rank": 58
     },
     {
       "date": "2026-07-07",
-      "rank": 54,
-      "price": 18.6,
-      "change_pct": 9.99
+      "rank": 47
+    },
+    {
+      "date": "2026-07-08",
+      "rank": 53,
+      "price": 20.25,
+      "change_pct": 8.871
     }
   ],
   "continuous_days": 32,
   "monthly_count": 32,
-  "avg_rank": 263.2,
-  "best_rank": 54,
+  "avg_rank": 256.2,
+  "best_rank": 47,
   "trend": "stable"
 }
