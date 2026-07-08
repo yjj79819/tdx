@@ -3,10 +3,6 @@
   "name": "青龙管业",
   "history": [
     {
-      "date": "2026-06-06",
-      "rank": 440
-    },
-    {
       "date": "2026-06-07",
       "rank": 226
     },
@@ -128,14 +124,18 @@
     },
     {
       "date": "2026-07-07",
-      "rank": 45,
-      "price": 14.99,
-      "change_pct": 6.54
+      "rank": 39
+    },
+    {
+      "date": "2026-07-08",
+      "rank": 15,
+      "price": 15.48,
+      "change_pct": 3.2688
     }
   ],
   "continuous_days": 32,
   "monthly_count": 32,
-  "avg_rank": 461.2,
-  "best_rank": 38,
+  "avg_rank": 447.7,
+  "best_rank": 15,
   "trend": "stable"
 }

@@ -3,14 +3,6 @@
   "name": "神州数码",
   "history": [
     {
-      "date": "2026-06-05",
-      "rank": 1088
-    },
-    {
-      "date": "2026-06-06",
-      "rank": 1054
-    },
-    {
       "date": "2026-06-07",
       "rank": 960
     },
@@ -124,18 +116,26 @@
     },
     {
       "date": "2026-07-05",
-      "rank": 168
+      "rank": 156
     },
     {
       "date": "2026-07-06",
-      "rank": 85,
-      "price": 28.88,
-      "change_pct": 3.2535
+      "rank": 230
+    },
+    {
+      "date": "2026-07-07",
+      "rank": 97
+    },
+    {
+      "date": "2026-07-08",
+      "rank": 60,
+      "price": 28.56,
+      "change_pct": 6.4877
     }
   ],
   "continuous_days": 32,
   "monthly_count": 32,
-  "avg_rank": 681.8,
-  "best_rank": 85,
+  "avg_rank": 624.0,
+  "best_rank": 60,
   "trend": "stable"
 }
