@@ -3,10 +3,6 @@
   "name": "宿迁联盛",
   "history": [
     {
-      "date": "2026-06-07",
-      "rank": 826
-    },
-    {
       "date": "2026-06-08",
       "rank": 316
     },
@@ -124,18 +120,22 @@
     },
     {
       "date": "2026-07-07",
-      "rank": 38
+      "rank": 31
     },
     {
       "date": "2026-07-08",
-      "rank": 13,
-      "price": 21.91,
-      "change_pct": 8.2
+      "rank": 46
+    },
+    {
+      "date": "2026-07-09",
+      "rank": 82,
+      "price": 20.98,
+      "change_pct": -4.2446
     }
   ],
   "continuous_days": 32,
   "monthly_count": 32,
-  "avg_rank": 185.0,
-  "best_rank": 13,
+  "avg_rank": 162.5,
+  "best_rank": 16,
   "trend": "stable"
 }

@@ -3,14 +3,6 @@
   "name": "北方稀土",
   "history": [
     {
-      "date": "2026-06-06",
-      "rank": 221
-    },
-    {
-      "date": "2026-06-07",
-      "rank": 151
-    },
-    {
       "date": "2026-06-08",
       "rank": 143
     },
@@ -124,18 +116,26 @@
     },
     {
       "date": "2026-07-06",
-      "rank": 197
+      "rank": 173
     },
     {
       "date": "2026-07-07",
-      "rank": 94,
-      "price": 47.45,
-      "change_pct": 0.3
+      "rank": 188
+    },
+    {
+      "date": "2026-07-08",
+      "rank": 47
+    },
+    {
+      "date": "2026-07-09",
+      "rank": 53,
+      "price": 42.98,
+      "change_pct": -6.6058
     }
   ],
   "continuous_days": 32,
   "monthly_count": 32,
-  "avg_rank": 144.1,
-  "best_rank": 51,
+  "avg_rank": 137.8,
+  "best_rank": 47,
   "trend": "stable"
 }

@@ -3,10 +3,6 @@
   "name": "深圳华强",
   "history": [
     {
-      "date": "2026-06-07",
-      "rank": 168
-    },
-    {
       "date": "2026-06-08",
       "rank": 155
     },
@@ -124,18 +120,22 @@
     },
     {
       "date": "2026-07-07",
-      "rank": 88
+      "rank": 73
     },
     {
       "date": "2026-07-08",
-      "rank": 55,
-      "price": 33.86,
-      "change_pct": 4.41
+      "rank": 76
+    },
+    {
+      "date": "2026-07-09",
+      "rank": 86,
+      "price": 32.14,
+      "change_pct": -5.0797
     }
   ],
   "continuous_days": 32,
   "monthly_count": 32,
-  "avg_rank": 275.9,
-  "best_rank": 55,
+  "avg_rank": 273.6,
+  "best_rank": 73,
   "trend": "stable"
 }
