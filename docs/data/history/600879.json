@@ -3,14 +3,6 @@
   "name": "航天电子",
   "history": [
     {
-      "date": "2026-06-07",
-      "rank": 45
-    },
-    {
-      "date": "2026-06-08",
-      "rank": 76
-    },
-    {
       "date": "2026-06-09",
       "rank": 101
     },
@@ -124,18 +116,26 @@
     },
     {
       "date": "2026-07-07",
-      "rank": 120
+      "rank": 112
     },
     {
       "date": "2026-07-08",
-      "rank": 85,
-      "price": 20.77,
-      "change_pct": 0.68
+      "rank": 140
+    },
+    {
+      "date": "2026-07-09",
+      "rank": 39
+    },
+    {
+      "date": "2026-07-10",
+      "rank": 19,
+      "price": 23.29,
+      "change_pct": 10.0142
     }
   ],
   "continuous_days": 32,
   "monthly_count": 32,
-  "avg_rank": 157.9,
-  "best_rank": 45,
+  "avg_rank": 157.4,
+  "best_rank": 19,
   "trend": "stable"
 }

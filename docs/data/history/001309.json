@@ -3,10 +3,6 @@
   "name": "德明利",
   "history": [
     {
-      "date": "2026-06-08",
-      "rank": 163
-    },
-    {
       "date": "2026-06-09",
       "rank": 197
     },
@@ -124,18 +120,22 @@
     },
     {
       "date": "2026-07-08",
-      "rank": 68
+      "rank": 60
     },
     {
       "date": "2026-07-09",
-      "rank": 52,
-      "price": 860.48,
-      "change_pct": 4.3006
+      "rank": 70
+    },
+    {
+      "date": "2026-07-10",
+      "rank": 59,
+      "price": 799.98,
+      "change_pct": -7.031
     }
   ],
   "continuous_days": 32,
   "monthly_count": 32,
-  "avg_rank": 81.9,
+  "avg_rank": 79.0,
   "best_rank": 16,
   "trend": "stable"
 }

@@ -1,0 +1,17 @@
+{
+  "code": "301005",
+  "name": "超捷股份",
+  "history": [
+    {
+      "date": "2026-07-10",
+      "rank": 83,
+      "price": 114.88,
+      "change_pct": 11.6424
+    }
+  ],
+  "continuous_days": 1,
+  "monthly_count": 1,
+  "avg_rank": 83.0,
+  "best_rank": 83,
+  "trend": "stable"
+}

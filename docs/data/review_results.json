@@ -5308,5 +5308,103 @@
     "win_count": 5,
     "total": 8,
     "rank_improved": 2
+  },
+  {
+    "review_date": "2026-07-10",
+    "target_date": "2026-07-09",
+    "results": [
+      {
+        "code": "000725",
+        "name": "京东方A",
+        "prev_rank": 1,
+        "prev_price": 8.15,
+        "today_rank": "-",
+        "today_price": 8.15,
+        "price_change": 0.0,
+        "still_in_top50": false,
+        "rank_change": 0
+      },
+      {
+        "code": "000100",
+        "name": "TCL科技",
+        "prev_rank": 27,
+        "prev_price": 5.36,
+        "today_rank": 58,
+        "today_price": 5.12,
+        "price_change": -4.48,
+        "still_in_top50": true,
+        "rank_change": -31
+      },
+      {
+        "code": "600172",
+        "name": "黄河旋风",
+        "prev_rank": 8,
+        "prev_price": 18.7,
+        "today_rank": "-",
+        "today_price": 18.7,
+        "price_change": 0.0,
+        "still_in_top50": false,
+        "rank_change": 0
+      },
+      {
+        "code": "000066",
+        "name": "中国长城",
+        "prev_rank": 15,
+        "prev_price": 19.88,
+        "today_rank": 24,
+        "today_price": 19.45,
+        "price_change": -2.16,
+        "still_in_top50": true,
+        "rank_change": -9
+      },
+      {
+        "code": "002456",
+        "name": "欧菲光",
+        "prev_rank": 68,
+        "prev_price": 9.51,
+        "today_rank": "-",
+        "today_price": 9.51,
+        "price_change": 0.0,
+        "still_in_top50": false,
+        "rank_change": 0
+      },
+      {
+        "code": "600360",
+        "name": "华微电子",
+        "prev_rank": 51,
+        "prev_price": 15.99,
+        "today_rank": 43,
+        "today_price": 16.79,
+        "price_change": 5.0,
+        "still_in_top50": true,
+        "rank_change": 8
+      },
+      {
+        "code": "002137",
+        "name": "实益达",
+        "prev_rank": 91,
+        "prev_price": 12.25,
+        "today_rank": 70,
+        "today_price": 12.02,
+        "price_change": -1.88,
+        "still_in_top50": true,
+        "rank_change": 21
+      },
+      {
+        "code": "600601",
+        "name": "方正科技",
+        "prev_rank": 99,
+        "prev_price": 13.88,
+        "today_rank": "-",
+        "today_price": 13.88,
+        "price_change": 0.0,
+        "still_in_top50": false,
+        "rank_change": 0
+      }
+    ],
+    "win_rate": 12.5,
+    "win_count": 1,
+    "total": 8,
+    "rank_improved": 2
   }
 ]
