@@ -3,18 +3,6 @@
   "name": "融捷股份",
   "history": [
     {
-      "date": "2026-06-09",
-      "rank": 413
-    },
-    {
-      "date": "2026-06-10",
-      "rank": 167
-    },
-    {
-      "date": "2026-06-11",
-      "rank": 107
-    },
-    {
       "date": "2026-06-12",
       "rank": 98
     },
@@ -124,18 +112,30 @@
     },
     {
       "date": "2026-07-09",
-      "rank": 101
+      "rank": 70
     },
     {
       "date": "2026-07-10",
-      "rank": 84,
-      "price": 71.15,
-      "change_pct": -10.01
+      "rank": 19
+    },
+    {
+      "date": "2026-07-11",
+      "rank": 49
+    },
+    {
+      "date": "2026-07-12",
+      "rank": 117
+    },
+    {
+      "date": "2026-07-13",
+      "rank": 81,
+      "price": 72.4,
+      "change_pct": 1.7569
     }
   ],
   "continuous_days": 32,
   "monthly_count": 32,
-  "avg_rank": 254.6,
-  "best_rank": 84,
+  "avg_rank": 237.8,
+  "best_rank": 19,
   "trend": "stable"
 }

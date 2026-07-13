@@ -5406,5 +5406,103 @@
     "win_count": 1,
     "total": 8,
     "rank_improved": 2
+  },
+  {
+    "review_date": "2026-07-13",
+    "target_date": "2026-07-10",
+    "results": [
+      {
+        "code": "000100",
+        "name": "TCL科技",
+        "prev_rank": 58,
+        "prev_price": 5.12,
+        "today_rank": "-",
+        "today_price": 5.12,
+        "price_change": 0.0,
+        "still_in_top50": false,
+        "rank_change": 0
+      },
+      {
+        "code": "001248",
+        "name": "华润新能源",
+        "prev_rank": 52,
+        "prev_price": 14.5,
+        "today_rank": "-",
+        "today_price": 14.5,
+        "price_change": 0.0,
+        "still_in_top50": false,
+        "rank_change": 0
+      },
+      {
+        "code": "002354",
+        "name": "天娱数科",
+        "prev_rank": 27,
+        "prev_price": 8.54,
+        "today_rank": "-",
+        "today_price": 8.54,
+        "price_change": 0.0,
+        "still_in_top50": false,
+        "rank_change": 0
+      },
+      {
+        "code": "601991",
+        "name": "大唐发电",
+        "prev_rank": 42,
+        "prev_price": 6.64,
+        "today_rank": "-",
+        "today_price": 6.64,
+        "price_change": 0.0,
+        "still_in_top50": false,
+        "rank_change": 0
+      },
+      {
+        "code": "002465",
+        "name": "海格通信",
+        "prev_rank": 94,
+        "prev_price": 13.58,
+        "today_rank": "-",
+        "today_price": 13.58,
+        "price_change": 0.0,
+        "still_in_top50": false,
+        "rank_change": 0
+      },
+      {
+        "code": "000066",
+        "name": "中国长城",
+        "prev_rank": 24,
+        "prev_price": 19.45,
+        "today_rank": "-",
+        "today_price": 19.45,
+        "price_change": 0.0,
+        "still_in_top50": false,
+        "rank_change": 0
+      },
+      {
+        "code": "600360",
+        "name": "华微电子",
+        "prev_rank": 43,
+        "prev_price": 16.79,
+        "today_rank": 30,
+        "today_price": 17.02,
+        "price_change": 1.37,
+        "still_in_top50": true,
+        "rank_change": 13
+      },
+      {
+        "code": "002342",
+        "name": "巨力索具",
+        "prev_rank": 40,
+        "prev_price": 11.07,
+        "today_rank": "-",
+        "today_price": 11.07,
+        "price_change": 0.0,
+        "still_in_top50": false,
+        "rank_change": 0
+      }
+    ],
+    "win_rate": 12.5,
+    "win_count": 1,
+    "total": 8,
+    "rank_improved": 1
   }
 ]

@@ -3,18 +3,6 @@
   "name": "华微电子",
   "history": [
     {
-      "date": "2026-06-09",
-      "rank": 441
-    },
-    {
-      "date": "2026-06-10",
-      "rank": 547
-    },
-    {
-      "date": "2026-06-11",
-      "rank": 588
-    },
-    {
       "date": "2026-06-12",
       "rank": 660
     },
@@ -128,14 +116,26 @@
     },
     {
       "date": "2026-07-10",
-      "rank": 43,
-      "price": 16.79,
-      "change_pct": 5.0
+      "rank": 31
+    },
+    {
+      "date": "2026-07-11",
+      "rank": 27
+    },
+    {
+      "date": "2026-07-12",
+      "rank": 24
+    },
+    {
+      "date": "2026-07-13",
+      "rank": 30,
+      "price": 17.02,
+      "change_pct": 1.3699
     }
   ],
   "continuous_days": 32,
   "monthly_count": 32,
-  "avg_rank": 299.3,
-  "best_rank": 37,
+  "avg_rank": 252.2,
+  "best_rank": 24,
   "trend": "stable"
 }

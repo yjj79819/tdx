@@ -3,18 +3,6 @@
   "name": "浪潮信息",
   "history": [
     {
-      "date": "2026-06-09",
-      "rank": 199
-    },
-    {
-      "date": "2026-06-10",
-      "rank": 286
-    },
-    {
-      "date": "2026-06-11",
-      "rank": 340
-    },
-    {
       "date": "2026-06-12",
       "rank": 292
     },
@@ -124,18 +112,30 @@
     },
     {
       "date": "2026-07-09",
-      "rank": 8
+      "rank": 7
     },
     {
       "date": "2026-07-10",
-      "rank": 11,
-      "price": 89.52,
-      "change_pct": 4.11
+      "rank": 6
+    },
+    {
+      "date": "2026-07-11",
+      "rank": 8
+    },
+    {
+      "date": "2026-07-12",
+      "rank": 13
+    },
+    {
+      "date": "2026-07-13",
+      "rank": 14,
+      "price": 85.49,
+      "change_pct": -4.5018
     }
   ],
   "continuous_days": 32,
   "monthly_count": 32,
-  "avg_rank": 150.2,
+  "avg_rank": 125.3,
   "best_rank": 6,
   "trend": "stable"
 }
