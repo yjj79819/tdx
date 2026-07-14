@@ -3,10 +3,6 @@
   "name": "士兰微",
   "history": [
     {
-      "date": "2026-06-12",
-      "rank": 329
-    },
-    {
       "date": "2026-06-13",
       "rank": 299
     },
@@ -124,18 +120,22 @@
     },
     {
       "date": "2026-07-12",
-      "rank": 59
+      "rank": 68
     },
     {
       "date": "2026-07-13",
-      "rank": 88,
-      "price": 41.93,
-      "change_pct": -5.8
+      "rank": 85
+    },
+    {
+      "date": "2026-07-14",
+      "rank": 79,
+      "price": 40.79,
+      "change_pct": -2.695
     }
   ],
   "continuous_days": 32,
   "monthly_count": 32,
-  "avg_rank": 60.9,
+  "avg_rank": 53.3,
   "best_rank": 10,
   "trend": "stable"
 }

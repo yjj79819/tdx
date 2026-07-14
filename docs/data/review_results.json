@@ -5504,5 +5504,103 @@
     "win_count": 1,
     "total": 8,
     "rank_improved": 1
+  },
+  {
+    "review_date": "2026-07-14",
+    "target_date": "2026-07-13",
+    "results": [
+      {
+        "code": "600488",
+        "name": "津药药业",
+        "prev_rank": 29,
+        "prev_price": 6.07,
+        "today_rank": 98,
+        "today_price": 6.33,
+        "price_change": 4.28,
+        "still_in_top50": true,
+        "rank_change": -69
+      },
+      {
+        "code": "600360",
+        "name": "华微电子",
+        "prev_rank": 30,
+        "prev_price": 17.02,
+        "today_rank": "-",
+        "today_price": 17.02,
+        "price_change": 0.0,
+        "still_in_top50": false,
+        "rank_change": 0
+      },
+      {
+        "code": "603118",
+        "name": "共进股份",
+        "prev_rank": 44,
+        "prev_price": 14.8,
+        "today_rank": "-",
+        "today_price": 14.8,
+        "price_change": 0.0,
+        "still_in_top50": false,
+        "rank_change": 0
+      },
+      {
+        "code": "002490",
+        "name": "山东墨龙",
+        "prev_rank": 51,
+        "prev_price": 8.26,
+        "today_rank": "-",
+        "today_price": 8.26,
+        "price_change": 0.0,
+        "still_in_top50": false,
+        "rank_change": 0
+      },
+      {
+        "code": "300059",
+        "name": "东方财富",
+        "prev_rank": 89,
+        "prev_price": 19.84,
+        "today_rank": 67,
+        "today_price": 19.58,
+        "price_change": -1.31,
+        "still_in_top50": true,
+        "rank_change": 22
+      },
+      {
+        "code": "002129",
+        "name": "TCL中环",
+        "prev_rank": 90,
+        "prev_price": 10.49,
+        "today_rank": 92,
+        "today_price": 10.0,
+        "price_change": -4.67,
+        "still_in_top50": true,
+        "rank_change": -2
+      },
+      {
+        "code": "600129",
+        "name": "太极集团",
+        "prev_rank": 22,
+        "prev_price": 17.94,
+        "today_rank": "-",
+        "today_price": 17.94,
+        "price_change": 0.0,
+        "still_in_top50": false,
+        "rank_change": 0
+      },
+      {
+        "code": "600186",
+        "name": "莲花控股",
+        "prev_rank": 39,
+        "prev_price": 11.05,
+        "today_rank": "-",
+        "today_price": 11.05,
+        "price_change": 0.0,
+        "still_in_top50": false,
+        "rank_change": 0
+      }
+    ],
+    "win_rate": 12.5,
+    "win_count": 1,
+    "total": 8,
+    "rank_improved": 1
   }
 ]
