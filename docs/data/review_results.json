@@ -5602,5 +5602,103 @@
     "win_count": 1,
     "total": 8,
     "rank_improved": 1
+  },
+  {
+    "review_date": "2026-07-14",
+    "target_date": "2026-07-14",
+    "results": [
+      {
+        "code": "000725",
+        "name": "京东方A",
+        "prev_rank": 1,
+        "prev_price": 6.96,
+        "today_rank": 5,
+        "today_price": 7.02,
+        "price_change": 0.86,
+        "still_in_top50": true,
+        "rank_change": -4
+      },
+      {
+        "code": "600488",
+        "name": "津药药业",
+        "prev_rank": 98,
+        "prev_price": 6.33,
+        "today_rank": 79,
+        "today_price": 6.47,
+        "price_change": 2.21,
+        "still_in_top50": true,
+        "rank_change": 19
+      },
+      {
+        "code": "600707",
+        "name": "彩虹股份",
+        "prev_rank": 93,
+        "prev_price": 11.2,
+        "today_rank": "-",
+        "today_price": 11.2,
+        "price_change": 0.0,
+        "still_in_top50": false,
+        "rank_change": 0
+      },
+      {
+        "code": "600601",
+        "name": "方正科技",
+        "prev_rank": 70,
+        "prev_price": 12.42,
+        "today_rank": "-",
+        "today_price": 12.42,
+        "price_change": 0.0,
+        "still_in_top50": false,
+        "rank_change": 0
+      },
+      {
+        "code": "600664",
+        "name": "哈药股份",
+        "prev_rank": 72,
+        "prev_price": 4.08,
+        "today_rank": 48,
+        "today_price": 4.08,
+        "price_change": 0.0,
+        "still_in_top50": true,
+        "rank_change": 24
+      },
+      {
+        "code": "000100",
+        "name": "TCL科技",
+        "prev_rank": 37,
+        "prev_price": 5.1,
+        "today_rank": 43,
+        "today_price": 5.13,
+        "price_change": 0.59,
+        "still_in_top50": true,
+        "rank_change": -6
+      },
+      {
+        "code": "001248",
+        "name": "华润新能源",
+        "prev_rank": 90,
+        "prev_price": 13.29,
+        "today_rank": 98,
+        "today_price": 13.38,
+        "price_change": 0.68,
+        "still_in_top50": true,
+        "rank_change": -8
+      },
+      {
+        "code": "300164",
+        "name": "通源石油",
+        "prev_rank": 38,
+        "prev_price": 11.38,
+        "today_rank": 29,
+        "today_price": 11.38,
+        "price_change": 0.0,
+        "still_in_top50": true,
+        "rank_change": 9
+      }
+    ],
+    "win_rate": 50.0,
+    "win_count": 4,
+    "total": 8,
+    "rank_improved": 3
   }
 ]

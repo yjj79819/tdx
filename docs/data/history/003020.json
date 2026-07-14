@@ -1,0 +1,41 @@
+{
+  "code": "003020",
+  "name": "立方制药",
+  "history": [
+    {
+      "date": "2026-07-08",
+      "rank": 715
+    },
+    {
+      "date": "2026-07-09",
+      "rank": 439
+    },
+    {
+      "date": "2026-07-10",
+      "rank": 114
+    },
+    {
+      "date": "2026-07-11",
+      "rank": 95
+    },
+    {
+      "date": "2026-07-12",
+      "rank": 118
+    },
+    {
+      "date": "2026-07-13",
+      "rank": 51
+    },
+    {
+      "date": "2026-07-14",
+      "rank": 80,
+      "price": 20.8,
+      "change_pct": 0.9219
+    }
+  ],
+  "continuous_days": 7,
+  "monthly_count": 7,
+  "avg_rank": 230.3,
+  "best_rank": 51,
+  "trend": "stable"
+}

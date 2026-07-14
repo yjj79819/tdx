@@ -128,9 +128,9 @@
     },
     {
       "date": "2026-07-14",
-      "rank": 3,
+      "rank": 2,
       "price": 102.7,
-      "change_pct": 3.69
+      "change_pct": 3.685
     }
   ],
   "continuous_days": 32,
