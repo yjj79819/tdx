@@ -1,0 +1,37 @@
+{
+  "code": "688192",
+  "name": "迪哲医药",
+  "history": [
+    {
+      "date": "2026-07-02",
+      "rank": 1808
+    },
+    {
+      "date": "2026-07-03",
+      "rank": 1135
+    },
+    {
+      "date": "2026-07-04",
+      "rank": 1272
+    },
+    {
+      "date": "2026-07-13",
+      "rank": 499
+    },
+    {
+      "date": "2026-07-14",
+      "rank": 254
+    },
+    {
+      "date": "2026-07-15",
+      "rank": 97,
+      "price": 67.6,
+      "change_pct": 20.0071
+    }
+  ],
+  "continuous_days": 6,
+  "monthly_count": 6,
+  "avg_rank": 844.2,
+  "best_rank": 97,
+  "trend": "stable"
+}

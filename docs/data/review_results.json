@@ -5798,5 +5798,103 @@
     "win_count": 2,
     "total": 8,
     "rank_improved": 2
+  },
+  {
+    "review_date": "2026-07-15",
+    "target_date": "2026-07-15",
+    "results": [
+      {
+        "code": "600488",
+        "name": "津药药业",
+        "prev_rank": 20,
+        "prev_price": 6.82,
+        "today_rank": 26,
+        "today_price": 6.98,
+        "price_change": 2.35,
+        "still_in_top50": true,
+        "rank_change": -6
+      },
+      {
+        "code": "600664",
+        "name": "哈药股份",
+        "prev_rank": 35,
+        "prev_price": 4.49,
+        "today_rank": 8,
+        "today_price": 4.49,
+        "price_change": 0.0,
+        "still_in_top50": true,
+        "rank_change": 27
+      },
+      {
+        "code": "002354",
+        "name": "天娱数科",
+        "prev_rank": 14,
+        "prev_price": 7.58,
+        "today_rank": 38,
+        "today_price": 7.69,
+        "price_change": 1.45,
+        "still_in_top50": true,
+        "rank_change": -24
+      },
+      {
+        "code": "000100",
+        "name": "TCL科技",
+        "prev_rank": 67,
+        "prev_price": 5.0,
+        "today_rank": "-",
+        "today_price": 5.0,
+        "price_change": 0.0,
+        "still_in_top50": false,
+        "rank_change": 0
+      },
+      {
+        "code": "600129",
+        "name": "太极集团",
+        "prev_rank": 43,
+        "prev_price": 18.11,
+        "today_rank": 86,
+        "today_price": 17.98,
+        "price_change": -0.72,
+        "still_in_top50": true,
+        "rank_change": -43
+      },
+      {
+        "code": "601991",
+        "name": "大唐发电",
+        "prev_rank": 49,
+        "prev_price": 5.73,
+        "today_rank": 48,
+        "today_price": 5.78,
+        "price_change": 0.87,
+        "still_in_top50": true,
+        "rank_change": 1
+      },
+      {
+        "code": "000066",
+        "name": "中国长城",
+        "prev_rank": 57,
+        "prev_price": 16.56,
+        "today_rank": 88,
+        "today_price": 16.51,
+        "price_change": -0.3,
+        "still_in_top50": true,
+        "rank_change": -31
+      },
+      {
+        "code": "000989",
+        "name": "九芝堂",
+        "prev_rank": 66,
+        "prev_price": 9.97,
+        "today_rank": "-",
+        "today_price": 9.97,
+        "price_change": 0.0,
+        "still_in_top50": false,
+        "rank_change": 0
+      }
+    ],
+    "win_rate": 37.5,
+    "win_count": 3,
+    "total": 8,
+    "rank_improved": 2
   }
 ]

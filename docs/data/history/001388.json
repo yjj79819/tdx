@@ -1,0 +1,33 @@
+{
+  "code": "001388",
+  "name": "信通电子",
+  "history": [
+    {
+      "date": "2026-06-30",
+      "rank": 1394
+    },
+    {
+      "date": "2026-07-12",
+      "rank": 589
+    },
+    {
+      "date": "2026-07-13",
+      "rank": 201
+    },
+    {
+      "date": "2026-07-14",
+      "rank": 131
+    },
+    {
+      "date": "2026-07-15",
+      "rank": 72,
+      "price": 35.68,
+      "change_pct": 9.9877
+    }
+  ],
+  "continuous_days": 5,
+  "monthly_count": 5,
+  "avg_rank": 477.4,
+  "best_rank": 72,
+  "trend": "stable"
+}
