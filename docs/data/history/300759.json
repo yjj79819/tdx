@@ -3,10 +3,6 @@
   "name": "康龙化成",
   "history": [
     {
-      "date": "2026-06-13",
-      "rank": 933
-    },
-    {
       "date": "2026-06-14",
       "rank": 1061
     },
@@ -124,18 +120,22 @@
     },
     {
       "date": "2026-07-13",
-      "rank": 110
+      "rank": 104
     },
     {
       "date": "2026-07-14",
-      "rank": 91,
-      "price": 36.93,
-      "change_pct": 8.36
+      "rank": 54
+    },
+    {
+      "date": "2026-07-15",
+      "rank": 27,
+      "price": 39.1,
+      "change_pct": 5.876
     }
   ],
   "continuous_days": 32,
   "monthly_count": 32,
-  "avg_rank": 565.1,
-  "best_rank": 91,
+  "avg_rank": 535.4,
+  "best_rank": 27,
   "trend": "stable"
 }
