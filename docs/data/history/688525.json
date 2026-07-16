@@ -3,10 +3,6 @@
   "name": "佰维存储",
   "history": [
     {
-      "date": "2026-06-14",
-      "rank": 167
-    },
-    {
       "date": "2026-06-15",
       "rank": 184
     },
@@ -124,18 +120,22 @@
     },
     {
       "date": "2026-07-14",
-      "rank": 47
+      "rank": 25
     },
     {
       "date": "2026-07-15",
-      "rank": 27,
-      "price": 304.4,
-      "change_pct": -15.06
+      "rank": 27
+    },
+    {
+      "date": "2026-07-16",
+      "rank": 80,
+      "price": 302.47,
+      "change_pct": -0.634
     }
   ],
   "continuous_days": 32,
   "monthly_count": 32,
-  "avg_rank": 129.6,
-  "best_rank": 27,
+  "avg_rank": 126.2,
+  "best_rank": 25,
   "trend": "stable"
 }

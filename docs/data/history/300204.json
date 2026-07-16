@@ -3,10 +3,6 @@
   "name": "舒泰神",
   "history": [
     {
-      "date": "2026-06-14",
-      "rank": 1194
-    },
-    {
       "date": "2026-06-15",
       "rank": 1327
     },
@@ -124,18 +120,22 @@
     },
     {
       "date": "2026-07-14",
-      "rank": 175
+      "rank": 101
     },
     {
       "date": "2026-07-15",
-      "rank": 89,
-      "price": 26.26,
-      "change_pct": 13.68
+      "rank": 109
+    },
+    {
+      "date": "2026-07-16",
+      "rank": 36,
+      "price": 28.39,
+      "change_pct": 8.1112
     }
   ],
   "continuous_days": 32,
   "monthly_count": 32,
-  "avg_rank": 697.9,
-  "best_rank": 89,
+  "avg_rank": 660.1,
+  "best_rank": 36,
   "trend": "stable"
 }

@@ -5896,5 +5896,103 @@
     "win_count": 3,
     "total": 8,
     "rank_improved": 2
+  },
+  {
+    "review_date": "2026-07-16",
+    "target_date": "2026-07-15",
+    "results": [
+      {
+        "code": "600664",
+        "name": "哈药股份",
+        "prev_rank": 8,
+        "prev_price": 4.49,
+        "today_rank": 23,
+        "today_price": 4.94,
+        "price_change": 10.02,
+        "still_in_top50": true,
+        "rank_change": -15
+      },
+      {
+        "code": "001896",
+        "name": "豫能控股",
+        "prev_rank": 5,
+        "prev_price": 14.95,
+        "today_rank": "-",
+        "today_price": 14.95,
+        "price_change": 0.0,
+        "still_in_top50": false,
+        "rank_change": 0
+      },
+      {
+        "code": "600488",
+        "name": "津药药业",
+        "prev_rank": 26,
+        "prev_price": 6.98,
+        "today_rank": 35,
+        "today_price": 7.17,
+        "price_change": 2.72,
+        "still_in_top50": true,
+        "rank_change": -9
+      },
+      {
+        "code": "603669",
+        "name": "灵康药业",
+        "prev_rank": 46,
+        "prev_price": 8.11,
+        "today_rank": "-",
+        "today_price": 8.11,
+        "price_change": 0.0,
+        "still_in_top50": false,
+        "rank_change": 0
+      },
+      {
+        "code": "001248",
+        "name": "华润新能源",
+        "prev_rank": 74,
+        "prev_price": 13.41,
+        "today_rank": "-",
+        "today_price": 13.41,
+        "price_change": 0.0,
+        "still_in_top50": false,
+        "rank_change": 0
+      },
+      {
+        "code": "601991",
+        "name": "大唐发电",
+        "prev_rank": 48,
+        "prev_price": 5.78,
+        "today_rank": 40,
+        "today_price": 5.68,
+        "price_change": -1.73,
+        "still_in_top50": true,
+        "rank_change": 8
+      },
+      {
+        "code": "000566",
+        "name": "海南海药",
+        "prev_rank": 41,
+        "prev_price": 5.15,
+        "today_rank": 51,
+        "today_price": 5.67,
+        "price_change": 10.1,
+        "still_in_top50": true,
+        "rank_change": -10
+      },
+      {
+        "code": "002354",
+        "name": "天娱数科",
+        "prev_rank": 38,
+        "prev_price": 7.69,
+        "today_rank": 29,
+        "today_price": 7.81,
+        "price_change": 1.56,
+        "still_in_top50": true,
+        "rank_change": 9
+      }
+    ],
+    "win_rate": 50.0,
+    "win_count": 4,
+    "total": 8,
+    "rank_improved": 2
   }
 ]

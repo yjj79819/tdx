@@ -3,10 +3,6 @@
   "name": "中国卫星",
   "history": [
     {
-      "date": "2026-06-14",
-      "rank": 140
-    },
-    {
       "date": "2026-06-15",
       "rank": 192
     },
@@ -124,18 +120,22 @@
     },
     {
       "date": "2026-07-14",
-      "rank": 18
+      "rank": 17
     },
     {
       "date": "2026-07-15",
-      "rank": 15,
-      "price": 73.92,
-      "change_pct": -10.0
+      "rank": 20
+    },
+    {
+      "date": "2026-07-16",
+      "rank": 61,
+      "price": 69.93,
+      "change_pct": -5.4113
     }
   ],
   "continuous_days": 32,
   "monthly_count": 32,
-  "avg_rank": 132.7,
+  "avg_rank": 130.4,
   "best_rank": 4,
   "trend": "stable"
 }

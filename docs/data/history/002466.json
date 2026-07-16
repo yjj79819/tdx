@@ -3,10 +3,6 @@
   "name": "天齐锂业",
   "history": [
     {
-      "date": "2026-06-14",
-      "rank": 86
-    },
-    {
       "date": "2026-06-15",
       "rank": 104
     },
@@ -124,18 +120,22 @@
     },
     {
       "date": "2026-07-14",
-      "rank": 42
+      "rank": 57
     },
     {
       "date": "2026-07-15",
-      "rank": 78,
-      "price": 47.43,
-      "change_pct": 0.17
+      "rank": 100
+    },
+    {
+      "date": "2026-07-16",
+      "rank": 25,
+      "price": 50.31,
+      "change_pct": 6.0721
     }
   ],
   "continuous_days": 32,
   "monthly_count": 32,
-  "avg_rank": 148.2,
-  "best_rank": 42,
+  "avg_rank": 147.4,
+  "best_rank": 25,
   "trend": "stable"
 }

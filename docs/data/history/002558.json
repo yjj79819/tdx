@@ -3,10 +3,6 @@
   "name": "巨人网络",
   "history": [
     {
-      "date": "2026-06-14",
-      "rank": 799
-    },
-    {
       "date": "2026-06-15",
       "rank": 910
     },
@@ -124,18 +120,22 @@
     },
     {
       "date": "2026-07-14",
-      "rank": 50
+      "rank": 37
     },
     {
       "date": "2026-07-15",
-      "rank": 23,
-      "price": 29.56,
-      "change_pct": 10.01
+      "rank": 22
+    },
+    {
+      "date": "2026-07-16",
+      "rank": 52,
+      "price": 30.33,
+      "change_pct": 2.6049
     }
   ],
   "continuous_days": 32,
   "monthly_count": 32,
-  "avg_rank": 387.1,
-  "best_rank": 23,
+  "avg_rank": 363.3,
+  "best_rank": 22,
   "trend": "stable"
 }

@@ -1,0 +1,33 @@
+{
+  "code": "300534",
+  "name": "陇神戎发",
+  "history": [
+    {
+      "date": "2026-07-12",
+      "rank": 158
+    },
+    {
+      "date": "2026-07-13",
+      "rank": 138
+    },
+    {
+      "date": "2026-07-14",
+      "rank": 140
+    },
+    {
+      "date": "2026-07-15",
+      "rank": 186
+    },
+    {
+      "date": "2026-07-16",
+      "rank": 45,
+      "price": 11.38,
+      "change_pct": 5.3704
+    }
+  ],
+  "continuous_days": 5,
+  "monthly_count": 5,
+  "avg_rank": 133.4,
+  "best_rank": 45,
+  "trend": "stable"
+}

@@ -3,10 +3,6 @@
   "name": "众生药业",
   "history": [
     {
-      "date": "2026-06-14",
-      "rank": 1003
-    },
-    {
       "date": "2026-06-15",
       "rank": 1191
     },
@@ -124,18 +120,22 @@
     },
     {
       "date": "2026-07-14",
-      "rank": 27
+      "rank": 23
     },
     {
       "date": "2026-07-15",
-      "rank": 24,
-      "price": 33.29,
-      "change_pct": 6.87
+      "rank": 28
+    },
+    {
+      "date": "2026-07-16",
+      "rank": 54,
+      "price": 32.01,
+      "change_pct": -3.845
     }
   ],
   "continuous_days": 32,
   "monthly_count": 32,
-  "avg_rank": 432.7,
-  "best_rank": 24,
+  "avg_rank": 403.0,
+  "best_rank": 23,
   "trend": "stable"
 }
