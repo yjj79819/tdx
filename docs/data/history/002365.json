@@ -1,0 +1,37 @@
+{
+  "code": "002365",
+  "name": "永安药业",
+  "history": [
+    {
+      "date": "2026-06-21",
+      "rank": 1759
+    },
+    {
+      "date": "2026-06-22",
+      "rank": 1850
+    },
+    {
+      "date": "2026-07-13",
+      "rank": 1288
+    },
+    {
+      "date": "2026-07-14",
+      "rank": 374
+    },
+    {
+      "date": "2026-07-15",
+      "rank": 161
+    },
+    {
+      "date": "2026-07-16",
+      "rank": 76,
+      "price": 13.18,
+      "change_pct": 10.0167
+    }
+  ],
+  "continuous_days": 6,
+  "monthly_count": 6,
+  "avg_rank": 918.0,
+  "best_rank": 76,
+  "trend": "stable"
+}

@@ -5994,5 +5994,103 @@
     "win_count": 4,
     "total": 8,
     "rank_improved": 2
+  },
+  {
+    "review_date": "2026-07-16",
+    "target_date": "2026-07-16",
+    "results": [
+      {
+        "code": "600664",
+        "name": "哈药股份",
+        "prev_rank": 23,
+        "prev_price": 4.94,
+        "today_rank": 8,
+        "today_price": 4.94,
+        "price_change": 0.0,
+        "still_in_top50": true,
+        "rank_change": 15
+      },
+      {
+        "code": "000725",
+        "name": "京东方A",
+        "prev_rank": 6,
+        "prev_price": 6.08,
+        "today_rank": "-",
+        "today_price": 6.08,
+        "price_change": 0.0,
+        "still_in_top50": false,
+        "rank_change": 0
+      },
+      {
+        "code": "000566",
+        "name": "海南海药",
+        "prev_rank": 51,
+        "prev_price": 5.67,
+        "today_rank": 22,
+        "today_price": 5.67,
+        "price_change": 0.0,
+        "still_in_top50": true,
+        "rank_change": 29
+      },
+      {
+        "code": "600488",
+        "name": "津药药业",
+        "prev_rank": 35,
+        "prev_price": 7.17,
+        "today_rank": "-",
+        "today_price": 7.17,
+        "price_change": 0.0,
+        "still_in_top50": false,
+        "rank_change": 0
+      },
+      {
+        "code": "601991",
+        "name": "大唐发电",
+        "prev_rank": 40,
+        "prev_price": 5.68,
+        "today_rank": 53,
+        "today_price": 5.69,
+        "price_change": 0.18,
+        "still_in_top50": true,
+        "rank_change": -13
+      },
+      {
+        "code": "002354",
+        "name": "天娱数科",
+        "prev_rank": 29,
+        "prev_price": 7.81,
+        "today_rank": 14,
+        "today_price": 7.96,
+        "price_change": 1.92,
+        "still_in_top50": true,
+        "rank_change": 15
+      },
+      {
+        "code": "600611",
+        "name": "大众交通",
+        "prev_rank": 73,
+        "prev_price": 4.09,
+        "today_rank": 88,
+        "today_price": 4.09,
+        "price_change": 0.0,
+        "still_in_top50": true,
+        "rank_change": -15
+      },
+      {
+        "code": "603993",
+        "name": "洛阳钼业",
+        "prev_rank": 76,
+        "prev_price": 18.37,
+        "today_rank": "-",
+        "today_price": 18.37,
+        "price_change": 0.0,
+        "still_in_top50": false,
+        "rank_change": 0
+      }
+    ],
+    "win_rate": 25.0,
+    "win_count": 2,
+    "total": 8,
+    "rank_improved": 3
   }
 ]

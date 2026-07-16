@@ -1,0 +1,37 @@
+{
+  "code": "000676",
+  "name": "智度股份",
+  "history": [
+    {
+      "date": "2026-06-22",
+      "rank": 1890
+    },
+    {
+      "date": "2026-07-01",
+      "rank": 1959
+    },
+    {
+      "date": "2026-07-09",
+      "rank": 1927
+    },
+    {
+      "date": "2026-07-14",
+      "rank": 448
+    },
+    {
+      "date": "2026-07-15",
+      "rank": 166
+    },
+    {
+      "date": "2026-07-16",
+      "rank": 60,
+      "price": 6.22,
+      "change_pct": 10.0885
+    }
+  ],
+  "continuous_days": 6,
+  "monthly_count": 6,
+  "avg_rank": 1075.0,
+  "best_rank": 60,
+  "trend": "stable"
+}
