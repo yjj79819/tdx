@@ -3,10 +3,6 @@
   "name": "常山药业",
   "history": [
     {
-      "date": "2026-06-15",
-      "rank": 835
-    },
-    {
       "date": "2026-06-16",
       "rank": 380
     },
@@ -124,18 +120,22 @@
     },
     {
       "date": "2026-07-15",
-      "rank": 68
+      "rank": 65
     },
     {
       "date": "2026-07-16",
-      "rank": 55,
+      "rank": 71
+    },
+    {
+      "date": "2026-07-17",
+      "rank": 92,
       "price": 31.7,
-      "change_pct": 10.45
+      "change_pct": 0.0
     }
   ],
   "continuous_days": 32,
   "monthly_count": 32,
-  "avg_rank": 764.2,
-  "best_rank": 55,
+  "avg_rank": 741.4,
+  "best_rank": 65,
   "trend": "stable"
 }

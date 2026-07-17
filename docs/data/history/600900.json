@@ -3,22 +3,6 @@
   "name": "长江电力",
   "history": [
     {
-      "date": "2026-06-12",
-      "rank": 109
-    },
-    {
-      "date": "2026-06-13",
-      "rank": 111
-    },
-    {
-      "date": "2026-06-14",
-      "rank": 153
-    },
-    {
-      "date": "2026-06-15",
-      "rank": 282
-    },
-    {
       "date": "2026-06-16",
       "rank": 311
     },
@@ -124,18 +108,34 @@
     },
     {
       "date": "2026-07-12",
-      "rank": 151
+      "rank": 137
     },
     {
       "date": "2026-07-13",
-      "rank": 83,
-      "price": 28.42,
-      "change_pct": 1.39
+      "rank": 204
+    },
+    {
+      "date": "2026-07-14",
+      "rank": 213
+    },
+    {
+      "date": "2026-07-15",
+      "rank": 200
+    },
+    {
+      "date": "2026-07-16",
+      "rank": 98
+    },
+    {
+      "date": "2026-07-17",
+      "rank": 56,
+      "price": 28.06,
+      "change_pct": 2.2222
     }
   ],
   "continuous_days": 32,
   "monthly_count": 32,
-  "avg_rank": 245.1,
-  "best_rank": 77,
+  "avg_rank": 245.7,
+  "best_rank": 56,
   "trend": "stable"
 }

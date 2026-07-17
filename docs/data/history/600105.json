@@ -3,10 +3,6 @@
   "name": "永鼎股份",
   "history": [
     {
-      "date": "2026-06-15",
-      "rank": 21
-    },
-    {
       "date": "2026-06-16",
       "rank": 17
     },
@@ -124,18 +120,22 @@
     },
     {
       "date": "2026-07-15",
-      "rank": 70
+      "rank": 71
     },
     {
       "date": "2026-07-16",
-      "rank": 93,
-      "price": 44.53,
-      "change_pct": -5.38
+      "rank": 66
+    },
+    {
+      "date": "2026-07-17",
+      "rank": 38,
+      "price": 40.38,
+      "change_pct": -9.342
     }
   ],
   "continuous_days": 32,
   "monthly_count": 32,
-  "avg_rank": 47.6,
+  "avg_rank": 47.3,
   "best_rank": 4,
   "trend": "stable"
 }

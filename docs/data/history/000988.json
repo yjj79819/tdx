@@ -3,10 +3,6 @@
   "name": "华工科技",
   "history": [
     {
-      "date": "2026-06-15",
-      "rank": 52
-    },
-    {
       "date": "2026-06-16",
       "rank": 51
     },
@@ -124,18 +120,22 @@
     },
     {
       "date": "2026-07-15",
-      "rank": 33
+      "rank": 30
     },
     {
       "date": "2026-07-16",
-      "rank": 31,
-      "price": 130.69,
-      "change_pct": -10.0
+      "rank": 35
+    },
+    {
+      "date": "2026-07-17",
+      "rank": 76,
+      "price": 117.62,
+      "change_pct": -10.0008
     }
   ],
   "continuous_days": 32,
   "monthly_count": 32,
-  "avg_rank": 54.7,
+  "avg_rank": 55.5,
   "best_rank": 7,
   "trend": "stable"
 }

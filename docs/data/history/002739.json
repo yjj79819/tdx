@@ -3,10 +3,6 @@
   "name": "儒意电影",
   "history": [
     {
-      "date": "2026-06-15",
-      "rank": 1221
-    },
-    {
       "date": "2026-06-16",
       "rank": 701
     },
@@ -124,18 +120,22 @@
     },
     {
       "date": "2026-07-15",
-      "rank": 65
+      "rank": 58
     },
     {
       "date": "2026-07-16",
-      "rank": 30,
-      "price": 10.32,
-      "change_pct": 10.02
+      "rank": 33
+    },
+    {
+      "date": "2026-07-17",
+      "rank": 55,
+      "price": 10.37,
+      "change_pct": 0.4845
     }
   ],
   "continuous_days": 32,
   "monthly_count": 32,
-  "avg_rank": 454.6,
-  "best_rank": 30,
+  "avg_rank": 418.0,
+  "best_rank": 33,
   "trend": "stable"
 }

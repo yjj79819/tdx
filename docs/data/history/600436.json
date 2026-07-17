@@ -3,10 +3,6 @@
   "name": "片仔癀",
   "history": [
     {
-      "date": "2026-06-15",
-      "rank": 1177
-    },
-    {
       "date": "2026-06-16",
       "rank": 1053
     },
@@ -124,18 +120,22 @@
     },
     {
       "date": "2026-07-15",
-      "rank": 64
+      "rank": 47
     },
     {
       "date": "2026-07-16",
-      "rank": 15,
-      "price": 141.15,
-      "change_pct": 10.0
+      "rank": 31
+    },
+    {
+      "date": "2026-07-17",
+      "rank": 27,
+      "price": 144.82,
+      "change_pct": 2.6001
     }
   ],
   "continuous_days": 32,
   "monthly_count": 32,
-  "avg_rank": 746.6,
-  "best_rank": 15,
+  "avg_rank": 710.7,
+  "best_rank": 27,
   "trend": "stable"
 }

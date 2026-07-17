@@ -3,10 +3,6 @@
   "name": "美诺华",
   "history": [
     {
-      "date": "2026-06-15",
-      "rank": 656
-    },
-    {
       "date": "2026-06-16",
       "rank": 813
     },
@@ -128,14 +124,18 @@
     },
     {
       "date": "2026-07-16",
-      "rank": 1,
-      "price": 38.35,
-      "change_pct": -1.67
+      "rank": 7
+    },
+    {
+      "date": "2026-07-17",
+      "rank": 68,
+      "price": 34.52,
+      "change_pct": -9.987
     }
   ],
   "continuous_days": 32,
   "monthly_count": 32,
-  "avg_rank": 371.2,
-  "best_rank": 1,
+  "avg_rank": 353.1,
+  "best_rank": 4,
   "trend": "stable"
 }

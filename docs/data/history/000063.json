@@ -3,10 +3,6 @@
   "name": "中兴通讯",
   "history": [
     {
-      "date": "2026-06-15",
-      "rank": 78
-    },
-    {
       "date": "2026-06-16",
       "rank": 116
     },
@@ -124,18 +120,22 @@
     },
     {
       "date": "2026-07-15",
-      "rank": 16
+      "rank": 15
     },
     {
       "date": "2026-07-16",
-      "rank": 25,
-      "price": 40.0,
-      "change_pct": 1.39
+      "rank": 13
+    },
+    {
+      "date": "2026-07-17",
+      "rank": 13,
+      "price": 36.0,
+      "change_pct": -10.0
     }
   ],
   "continuous_days": 32,
   "monthly_count": 32,
-  "avg_rank": 84.7,
-  "best_rank": 15,
+  "avg_rank": 82.2,
+  "best_rank": 13,
   "trend": "stable"
 }
