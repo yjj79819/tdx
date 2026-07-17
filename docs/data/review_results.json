@@ -6190,5 +6190,103 @@
     "win_count": 5,
     "total": 8,
     "rank_improved": 2
+  },
+  {
+    "review_date": "2026-07-17",
+    "target_date": "2026-07-17",
+    "results": [
+      {
+        "code": "600664",
+        "name": "哈药股份",
+        "prev_rank": 1,
+        "prev_price": 5.0,
+        "today_rank": 2,
+        "today_price": 5.33,
+        "price_change": 6.6,
+        "still_in_top50": true,
+        "rank_change": -1
+      },
+      {
+        "code": "000725",
+        "name": "京东方A",
+        "prev_rank": 5,
+        "prev_price": 6.1,
+        "today_rank": 5,
+        "today_price": 6.07,
+        "price_change": -0.49,
+        "still_in_top50": true,
+        "rank_change": 0
+      },
+      {
+        "code": "002141",
+        "name": "贤丰控股",
+        "prev_rank": 24,
+        "prev_price": 6.21,
+        "today_rank": 25,
+        "today_price": 6.04,
+        "price_change": -2.74,
+        "still_in_top50": true,
+        "rank_change": -1
+      },
+      {
+        "code": "001896",
+        "name": "豫能控股",
+        "prev_rank": 26,
+        "prev_price": 14.17,
+        "today_rank": 60,
+        "today_price": 13.96,
+        "price_change": -1.48,
+        "still_in_top50": true,
+        "rank_change": -34
+      },
+      {
+        "code": "601991",
+        "name": "大唐发电",
+        "prev_rank": 16,
+        "prev_price": 5.82,
+        "today_rank": 31,
+        "today_price": 5.8,
+        "price_change": -0.34,
+        "still_in_top50": true,
+        "rank_change": -15
+      },
+      {
+        "code": "600396",
+        "name": "华电辽能",
+        "prev_rank": 23,
+        "prev_price": 12.1,
+        "today_rank": 43,
+        "today_price": 11.65,
+        "price_change": -3.72,
+        "still_in_top50": true,
+        "rank_change": -20
+      },
+      {
+        "code": "001248",
+        "name": "华润新能源",
+        "prev_rank": 48,
+        "prev_price": 12.95,
+        "today_rank": 59,
+        "today_price": 12.67,
+        "price_change": -2.16,
+        "still_in_top50": true,
+        "rank_change": -11
+      },
+      {
+        "code": "600162",
+        "name": "香江控股",
+        "prev_rank": 25,
+        "prev_price": 2.96,
+        "today_rank": 12,
+        "today_price": 3.06,
+        "price_change": 3.38,
+        "still_in_top50": true,
+        "rank_change": 13
+      }
+    ],
+    "win_rate": 25.0,
+    "win_count": 2,
+    "total": 8,
+    "rank_improved": 1
   }
 ]
