@@ -3,18 +3,6 @@
   "name": "东方财富",
   "history": [
     {
-      "date": "2026-06-16",
-      "rank": 223
-    },
-    {
-      "date": "2026-06-17",
-      "rank": 205
-    },
-    {
-      "date": "2026-06-18",
-      "rank": 349
-    },
-    {
       "date": "2026-06-19",
       "rank": 391
     },
@@ -128,14 +116,26 @@
     },
     {
       "date": "2026-07-17",
-      "rank": 93,
-      "price": 19.7,
-      "change_pct": -0.61
+      "rank": 159
+    },
+    {
+      "date": "2026-07-18",
+      "rank": 151
+    },
+    {
+      "date": "2026-07-19",
+      "rank": 68
+    },
+    {
+      "date": "2026-07-20",
+      "rank": 54,
+      "price": 20.18,
+      "change_pct": 2.4365
     }
   ],
   "continuous_days": 32,
   "monthly_count": 32,
-  "avg_rank": 132.7,
+  "avg_rank": 119.0,
   "best_rank": 10,
   "trend": "stable"
 }

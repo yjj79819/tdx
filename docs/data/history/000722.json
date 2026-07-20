@@ -3,18 +3,6 @@
   "name": "湖南发展",
   "history": [
     {
-      "date": "2026-06-16",
-      "rank": 386
-    },
-    {
-      "date": "2026-06-17",
-      "rank": 425
-    },
-    {
-      "date": "2026-06-18",
-      "rank": 605
-    },
-    {
       "date": "2026-06-19",
       "rank": 713
     },
@@ -124,18 +112,30 @@
     },
     {
       "date": "2026-07-16",
-      "rank": 85
+      "rank": 75
     },
     {
       "date": "2026-07-17",
-      "rank": 22,
-      "price": 13.83,
-      "change_pct": 10.02
+      "rank": 21
+    },
+    {
+      "date": "2026-07-18",
+      "rank": 21
+    },
+    {
+      "date": "2026-07-19",
+      "rank": 47
+    },
+    {
+      "date": "2026-07-20",
+      "rank": 31,
+      "price": 15.21,
+      "change_pct": 9.9783
     }
   ],
   "continuous_days": 32,
   "monthly_count": 32,
-  "avg_rank": 1082.4,
-  "best_rank": 22,
+  "avg_rank": 1040.9,
+  "best_rank": 21,
   "trend": "stable"
 }
