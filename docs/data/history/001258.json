@@ -3,10 +3,6 @@
   "name": "立新能源",
   "history": [
     {
-      "date": "2026-06-19",
-      "rank": 1645
-    },
-    {
       "date": "2026-06-20",
       "rank": 1488
     },
@@ -76,7 +72,7 @@
     },
     {
       "date": "2026-07-16",
-      "rank": 86
+      "rank": 63
     },
     {
       "date": "2026-07-17",
@@ -88,18 +84,22 @@
     },
     {
       "date": "2026-07-19",
-      "rank": 42
+      "rank": 37
     },
     {
       "date": "2026-07-20",
-      "rank": 65,
-      "price": 9.1,
-      "change_pct": 10.04
+      "rank": 15
+    },
+    {
+      "date": "2026-07-21",
+      "rank": 28,
+      "price": 10.01,
+      "change_pct": 10.0
     }
   ],
   "continuous_days": 23,
   "monthly_count": 23,
-  "avg_rank": 1346.8,
-  "best_rank": 23,
+  "avg_rank": 1273.1,
+  "best_rank": 15,
   "trend": "stable"
 }

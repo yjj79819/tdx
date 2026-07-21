@@ -1,141 +1,129 @@
 {
-  "code": "600667",
-  "name": "太极实业",
+  "code": "001206",
+  "name": "依依股份",
   "history": [
     {
-      "date": "2026-06-20",
-      "rank": 3
-    },
-    {
-      "date": "2026-06-21",
-      "rank": 4
-    },
-    {
       "date": "2026-06-22",
-      "rank": 10
+      "rank": 996
     },
     {
       "date": "2026-06-23",
-      "rank": 10
+      "rank": 948
     },
     {
       "date": "2026-06-24",
-      "rank": 11
+      "rank": 1281
     },
     {
       "date": "2026-06-25",
-      "rank": 3
+      "rank": 1649
     },
     {
       "date": "2026-06-26",
-      "rank": 6
+      "rank": 1347
     },
     {
       "date": "2026-06-27",
-      "rank": 3
+      "rank": 1233
     },
     {
       "date": "2026-06-28",
-      "rank": 2
+      "rank": 980
     },
     {
       "date": "2026-06-29",
-      "rank": 3
+      "rank": 1193
     },
     {
       "date": "2026-06-30",
-      "rank": 2
+      "rank": 1667
     },
     {
       "date": "2026-07-01",
-      "rank": 3
+      "rank": 1748
     },
     {
       "date": "2026-07-02",
-      "rank": 2
+      "rank": 1990
     },
     {
       "date": "2026-07-03",
-      "rank": 6
+      "rank": 1936
     },
     {
       "date": "2026-07-04",
-      "rank": 6
-    },
-    {
-      "date": "2026-07-05",
-      "rank": 2
+      "rank": 1902
     },
     {
       "date": "2026-07-06",
-      "rank": 4
+      "rank": 609
     },
     {
       "date": "2026-07-07",
-      "rank": 5
+      "rank": 437
     },
     {
       "date": "2026-07-08",
-      "rank": 4
+      "rank": 504
     },
     {
       "date": "2026-07-09",
-      "rank": 8
+      "rank": 1054
     },
     {
       "date": "2026-07-10",
-      "rank": 17
+      "rank": 861
     },
     {
       "date": "2026-07-11",
-      "rank": 18
+      "rank": 837
     },
     {
       "date": "2026-07-12",
-      "rank": 10
+      "rank": 1191
     },
     {
       "date": "2026-07-13",
-      "rank": 18
+      "rank": 589
     },
     {
       "date": "2026-07-14",
-      "rank": 14
+      "rank": 509
     },
     {
       "date": "2026-07-15",
-      "rank": 17
+      "rank": 526
     },
     {
       "date": "2026-07-16",
-      "rank": 29
+      "rank": 307
     },
     {
       "date": "2026-07-17",
-      "rank": 39
+      "rank": 161
     },
     {
       "date": "2026-07-18",
-      "rank": 54
+      "rank": 132
     },
     {
       "date": "2026-07-19",
-      "rank": 32
+      "rank": 225
     },
     {
       "date": "2026-07-20",
-      "rank": 27
+      "rank": 172
     },
     {
       "date": "2026-07-21",
-      "rank": 14,
-      "price": 16.0,
-      "change_pct": 5.4713
+      "rank": 96,
+      "price": 21.56,
+      "change_pct": -9.9791
     }
   ],
-  "continuous_days": 32,
-  "monthly_count": 32,
-  "avg_rank": 12.1,
-  "best_rank": 2,
+  "continuous_days": 29,
+  "monthly_count": 29,
+  "avg_rank": 933.8,
+  "best_rank": 96,
   "trend": "stable"
 }

@@ -6386,5 +6386,103 @@
     "win_count": 5,
     "total": 8,
     "rank_improved": 0
+  },
+  {
+    "review_date": "2026-07-21",
+    "target_date": "2026-07-20",
+    "results": [
+      {
+        "code": "601991",
+        "name": "大唐发电",
+        "prev_rank": 1,
+        "prev_price": 6.38,
+        "today_rank": 9,
+        "today_price": 6.33,
+        "price_change": -0.78,
+        "still_in_top50": true,
+        "rank_change": -8
+      },
+      {
+        "code": "600664",
+        "name": "哈药股份",
+        "prev_rank": 8,
+        "prev_price": 5.31,
+        "today_rank": 18,
+        "today_price": 5.33,
+        "price_change": 0.38,
+        "still_in_top50": true,
+        "rank_change": -10
+      },
+      {
+        "code": "000725",
+        "name": "京东方A",
+        "prev_rank": 6,
+        "prev_price": 5.79,
+        "today_rank": 6,
+        "today_price": 6.14,
+        "price_change": 6.04,
+        "still_in_top50": true,
+        "rank_change": 0
+      },
+      {
+        "code": "600396",
+        "name": "华电辽能",
+        "prev_rank": 12,
+        "prev_price": 12.82,
+        "today_rank": 11,
+        "today_price": 12.66,
+        "price_change": -1.25,
+        "still_in_top50": true,
+        "rank_change": 1
+      },
+      {
+        "code": "600863",
+        "name": "华能蒙电",
+        "prev_rank": 53,
+        "prev_price": 5.02,
+        "today_rank": "-",
+        "today_price": 5.02,
+        "price_change": 0.0,
+        "still_in_top50": false,
+        "rank_change": 0
+      },
+      {
+        "code": "001896",
+        "name": "豫能控股",
+        "prev_rank": 22,
+        "prev_price": 14.82,
+        "today_rank": "-",
+        "today_price": 14.82,
+        "price_change": 0.0,
+        "still_in_top50": false,
+        "rank_change": 0
+      },
+      {
+        "code": "600227",
+        "name": "赤天化",
+        "prev_rank": 26,
+        "prev_price": 3.37,
+        "today_rank": "-",
+        "today_price": 3.37,
+        "price_change": 0.0,
+        "still_in_top50": false,
+        "rank_change": 0
+      },
+      {
+        "code": "001258",
+        "name": "立新能源",
+        "prev_rank": 65,
+        "prev_price": 9.1,
+        "today_rank": 28,
+        "today_price": 10.01,
+        "price_change": 10.0,
+        "still_in_top50": true,
+        "rank_change": 37
+      }
+    ],
+    "win_rate": 37.5,
+    "win_count": 3,
+    "total": 8,
+    "rank_improved": 2
   }
 ]

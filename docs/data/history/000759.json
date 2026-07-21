@@ -3,10 +3,6 @@
   "name": "中百集团",
   "history": [
     {
-      "date": "2026-06-19",
-      "rank": 276
-    },
-    {
       "date": "2026-06-20",
       "rank": 274
     },
@@ -112,7 +108,7 @@
     },
     {
       "date": "2026-07-16",
-      "rank": 44
+      "rank": 54
     },
     {
       "date": "2026-07-17",
@@ -128,14 +124,18 @@
     },
     {
       "date": "2026-07-20",
-      "rank": 45,
-      "price": 7.22,
-      "change_pct": 3.44
+      "rank": 59
+    },
+    {
+      "date": "2026-07-21",
+      "rank": 99,
+      "price": 6.66,
+      "change_pct": -7.7562
     }
   ],
   "continuous_days": 32,
   "monthly_count": 32,
-  "avg_rank": 247.5,
-  "best_rank": 44,
+  "avg_rank": 242.7,
+  "best_rank": 46,
   "trend": "stable"
 }

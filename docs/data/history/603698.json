@@ -3,10 +3,6 @@
   "name": "航天工程",
   "history": [
     {
-      "date": "2026-06-19",
-      "rank": 1136
-    },
-    {
       "date": "2026-06-20",
       "rank": 1124
     },
@@ -112,7 +108,7 @@
     },
     {
       "date": "2026-07-16",
-      "rank": 93
+      "rank": 70
     },
     {
       "date": "2026-07-17",
@@ -124,18 +120,22 @@
     },
     {
       "date": "2026-07-19",
-      "rank": 71
+      "rank": 54
     },
     {
       "date": "2026-07-20",
-      "rank": 30,
-      "price": 23.48,
-      "change_pct": -9.83
+      "rank": 37
+    },
+    {
+      "date": "2026-07-21",
+      "rank": 93,
+      "price": 24.55,
+      "change_pct": 4.5571
     }
   ],
   "continuous_days": 32,
   "monthly_count": 32,
-  "avg_rank": 372.9,
+  "avg_rank": 339.2,
   "best_rank": 20,
   "trend": "stable"
 }

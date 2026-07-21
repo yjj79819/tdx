@@ -3,10 +3,6 @@
   "name": "光迅科技",
   "history": [
     {
-      "date": "2026-06-19",
-      "rank": 22
-    },
-    {
       "date": "2026-06-20",
       "rank": 23
     },
@@ -112,7 +108,7 @@
     },
     {
       "date": "2026-07-16",
-      "rank": 45
+      "rank": 64
     },
     {
       "date": "2026-07-17",
@@ -124,18 +120,22 @@
     },
     {
       "date": "2026-07-19",
-      "rank": 36
+      "rank": 39
     },
     {
       "date": "2026-07-20",
-      "rank": 90,
-      "price": 170.51,
-      "change_pct": -10.0
+      "rank": 36
+    },
+    {
+      "date": "2026-07-21",
+      "rank": 20,
+      "price": 181.6,
+      "change_pct": 6.504
     }
   ],
   "continuous_days": 32,
   "monthly_count": 32,
-  "avg_rank": 54.9,
-  "best_rank": 22,
+  "avg_rank": 53.9,
+  "best_rank": 20,
   "trend": "stable"
 }
