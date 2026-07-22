@@ -3,10 +3,6 @@
   "name": "长川科技",
   "history": [
     {
-      "date": "2026-06-20",
-      "rank": 364
-    },
-    {
       "date": "2026-06-21",
       "rank": 281
     },
@@ -112,30 +108,34 @@
     },
     {
       "date": "2026-07-17",
-      "rank": 225
+      "rank": 210
     },
     {
       "date": "2026-07-18",
-      "rank": 257
+      "rank": 250
     },
     {
       "date": "2026-07-19",
-      "rank": 167
+      "rank": 261
     },
     {
       "date": "2026-07-20",
-      "rank": 47
+      "rank": 40
     },
     {
       "date": "2026-07-21",
-      "rank": 29,
-      "price": 318.0,
-      "change_pct": 20.0
+      "rank": 39
+    },
+    {
+      "date": "2026-07-22",
+      "rank": 63,
+      "price": 309.05,
+      "change_pct": -2.8145
     }
   ],
   "continuous_days": 32,
   "monthly_count": 32,
-  "avg_rank": 162.6,
-  "best_rank": 29,
+  "avg_rank": 155.6,
+  "best_rank": 39,
   "trend": "stable"
 }

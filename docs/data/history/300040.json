@@ -3,14 +3,6 @@
   "name": "九洲集团",
   "history": [
     {
-      "date": "2026-06-19",
-      "rank": 1538
-    },
-    {
-      "date": "2026-06-20",
-      "rank": 1639
-    },
-    {
       "date": "2026-06-21",
       "rank": 1384
     },
@@ -68,30 +60,38 @@
     },
     {
       "date": "2026-07-16",
-      "rank": 254
+      "rank": 193
     },
     {
       "date": "2026-07-17",
-      "rank": 354
+      "rank": 307
     },
     {
       "date": "2026-07-18",
-      "rank": 273
+      "rank": 227
     },
     {
       "date": "2026-07-19",
-      "rank": 182
+      "rank": 157
     },
     {
       "date": "2026-07-20",
-      "rank": 73,
-      "price": 6.83,
-      "change_pct": 18.17
+      "rank": 314
+    },
+    {
+      "date": "2026-07-21",
+      "rank": 148
+    },
+    {
+      "date": "2026-07-22",
+      "rank": 58,
+      "price": 7.25,
+      "change_pct": 11.8827
     }
   ],
   "continuous_days": 21,
   "monthly_count": 21,
-  "avg_rank": 1322.7,
-  "best_rank": 73,
+  "avg_rank": 1184.1,
+  "best_rank": 58,
   "trend": "stable"
 }
