@@ -1,0 +1,29 @@
+{
+  "code": "002879",
+  "name": "长缆科技",
+  "history": [
+    {
+      "date": "2026-07-20",
+      "rank": 618
+    },
+    {
+      "date": "2026-07-21",
+      "rank": 258
+    },
+    {
+      "date": "2026-07-22",
+      "rank": 184
+    },
+    {
+      "date": "2026-07-23",
+      "rank": 83,
+      "price": 16.41,
+      "change_pct": 9.9866
+    }
+  ],
+  "continuous_days": 4,
+  "monthly_count": 4,
+  "avg_rank": 285.8,
+  "best_rank": 83,
+  "trend": "stable"
+}

@@ -3,14 +3,6 @@
   "name": "北方华创",
   "history": [
     {
-      "date": "2026-06-20",
-      "rank": 173
-    },
-    {
-      "date": "2026-06-21",
-      "rank": 396
-    },
-    {
       "date": "2026-06-22",
       "rank": 433
     },
@@ -112,30 +104,38 @@
     },
     {
       "date": "2026-07-17",
-      "rank": 121
+      "rank": 101
     },
     {
       "date": "2026-07-18",
-      "rank": 157
+      "rank": 126
     },
     {
       "date": "2026-07-19",
-      "rank": 235
+      "rank": 187
     },
     {
       "date": "2026-07-20",
-      "rank": 180
+      "rank": 60
     },
     {
       "date": "2026-07-21",
-      "rank": 27,
-      "price": 744.6,
-      "change_pct": 10.0
+      "rank": 41
+    },
+    {
+      "date": "2026-07-22",
+      "rank": 64
+    },
+    {
+      "date": "2026-07-23",
+      "rank": 62,
+      "price": 728.98,
+      "change_pct": -4.5838
     }
   ],
   "continuous_days": 32,
   "monthly_count": 32,
-  "avg_rank": 199.2,
-  "best_rank": 27,
+  "avg_rank": 179.0,
+  "best_rank": 41,
   "trend": "stable"
 }

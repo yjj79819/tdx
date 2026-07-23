@@ -3,10 +3,6 @@
   "name": "瑞芯微",
   "history": [
     {
-      "date": "2026-06-21",
-      "rank": 685
-    },
-    {
       "date": "2026-06-22",
       "rank": 654
     },
@@ -124,18 +120,22 @@
     },
     {
       "date": "2026-07-21",
-      "rank": 58
+      "rank": 44
     },
     {
       "date": "2026-07-22",
-      "rank": 73,
-      "price": 228.86,
-      "change_pct": 10.0
+      "rank": 35
+    },
+    {
+      "date": "2026-07-23",
+      "rank": 25,
+      "price": 210.99,
+      "change_pct": -7.8083
     }
   ],
   "continuous_days": 32,
   "monthly_count": 32,
-  "avg_rank": 347.6,
-  "best_rank": 48,
+  "avg_rank": 325.3,
+  "best_rank": 25,
   "trend": "stable"
 }

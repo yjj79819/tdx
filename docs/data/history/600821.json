@@ -3,14 +3,6 @@
   "name": "金开新能",
   "history": [
     {
-      "date": "2026-06-20",
-      "rank": 782
-    },
-    {
-      "date": "2026-06-21",
-      "rank": 744
-    },
-    {
       "date": "2026-06-22",
       "rank": 717
     },
@@ -112,30 +104,38 @@
     },
     {
       "date": "2026-07-17",
-      "rank": 327
+      "rank": 361
     },
     {
       "date": "2026-07-18",
-      "rank": 364
+      "rank": 383
     },
     {
       "date": "2026-07-19",
-      "rank": 134
+      "rank": 75
     },
     {
       "date": "2026-07-20",
-      "rank": 66
+      "rank": 69
     },
     {
       "date": "2026-07-21",
-      "rank": 46,
-      "price": 6.73,
-      "change_pct": 7.85
+      "rank": 144
+    },
+    {
+      "date": "2026-07-22",
+      "rank": 145
+    },
+    {
+      "date": "2026-07-23",
+      "rank": 81,
+      "price": 7.08,
+      "change_pct": 1.7241
     }
   ],
   "continuous_days": 32,
   "monthly_count": 32,
-  "avg_rank": 525.4,
-  "best_rank": 46,
+  "avg_rank": 487.8,
+  "best_rank": 69,
   "trend": "stable"
 }

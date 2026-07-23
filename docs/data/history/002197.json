@@ -1,0 +1,37 @@
+{
+  "code": "002197",
+  "name": "证通电子",
+  "history": [
+    {
+      "date": "2026-07-14",
+      "rank": 1979
+    },
+    {
+      "date": "2026-07-19",
+      "rank": 427
+    },
+    {
+      "date": "2026-07-20",
+      "rank": 327
+    },
+    {
+      "date": "2026-07-21",
+      "rank": 143
+    },
+    {
+      "date": "2026-07-22",
+      "rank": 78
+    },
+    {
+      "date": "2026-07-23",
+      "rank": 34,
+      "price": 7.67,
+      "change_pct": 10.043
+    }
+  ],
+  "continuous_days": 6,
+  "monthly_count": 6,
+  "avg_rank": 498.0,
+  "best_rank": 34,
+  "trend": "stable"
+}

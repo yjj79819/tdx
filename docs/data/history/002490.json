@@ -3,10 +3,6 @@
   "name": "山东墨龙",
   "history": [
     {
-      "date": "2026-06-21",
-      "rank": 833
-    },
-    {
       "date": "2026-06-22",
       "rank": 1026
     },
@@ -124,18 +120,22 @@
     },
     {
       "date": "2026-07-21",
-      "rank": 207
+      "rank": 165
     },
     {
       "date": "2026-07-22",
-      "rank": 98,
-      "price": 7.77,
-      "change_pct": 6.0
+      "rank": 160
+    },
+    {
+      "date": "2026-07-23",
+      "rank": 93,
+      "price": 8.3,
+      "change_pct": 6.8211
     }
   ],
   "continuous_days": 32,
   "monthly_count": 32,
-  "avg_rank": 663.2,
+  "avg_rank": 640.7,
   "best_rank": 49,
   "trend": "stable"
 }

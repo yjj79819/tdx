@@ -3,10 +3,6 @@
   "name": "兴森科技",
   "history": [
     {
-      "date": "2026-06-21",
-      "rank": 45
-    },
-    {
       "date": "2026-06-22",
       "rank": 51
     },
@@ -128,14 +124,18 @@
     },
     {
       "date": "2026-07-22",
-      "rank": 43,
-      "price": 35.01,
-      "change_pct": 7.13
+      "rank": 63
+    },
+    {
+      "date": "2026-07-23",
+      "rank": 74,
+      "price": 34.48,
+      "change_pct": -1.5139
     }
   ],
   "continuous_days": 32,
   "monthly_count": 32,
-  "avg_rank": 110.1,
-  "best_rank": 43,
+  "avg_rank": 111.6,
+  "best_rank": 49,
   "trend": "stable"
 }

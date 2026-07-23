@@ -3,10 +3,6 @@
   "name": "通富微电",
   "history": [
     {
-      "date": "2026-06-21",
-      "rank": 29
-    },
-    {
       "date": "2026-06-22",
       "rank": 49
     },
@@ -124,18 +120,22 @@
     },
     {
       "date": "2026-07-21",
-      "rank": 7
+      "rank": 4
     },
     {
       "date": "2026-07-22",
-      "rank": 3,
-      "price": 74.9,
-      "change_pct": 8.08
+      "rank": 5
+    },
+    {
+      "date": "2026-07-23",
+      "rank": 7,
+      "price": 70.7,
+      "change_pct": -5.6075
     }
   ],
   "continuous_days": 32,
   "monthly_count": 32,
-  "avg_rank": 30.1,
-  "best_rank": 3,
+  "avg_rank": 29.3,
+  "best_rank": 4,
   "trend": "stable"
 }
