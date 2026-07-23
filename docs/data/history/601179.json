@@ -3,18 +3,6 @@
   "name": "中国西电",
   "history": [
     {
-      "date": "2026-06-19",
-      "rank": 207
-    },
-    {
-      "date": "2026-06-20",
-      "rank": 197
-    },
-    {
-      "date": "2026-06-21",
-      "rank": 47
-    },
-    {
       "date": "2026-06-22",
       "rank": 78
     },
@@ -112,30 +100,42 @@
     },
     {
       "date": "2026-07-16",
-      "rank": 147
+      "rank": 174
     },
     {
       "date": "2026-07-17",
-      "rank": 229
+      "rank": 195
     },
     {
       "date": "2026-07-18",
-      "rank": 224
+      "rank": 221
     },
     {
       "date": "2026-07-19",
-      "rank": 110
+      "rank": 105
     },
     {
       "date": "2026-07-20",
-      "rank": 70,
-      "price": 12.33,
-      "change_pct": 5.93
+      "rank": 152
+    },
+    {
+      "date": "2026-07-21",
+      "rank": 181
+    },
+    {
+      "date": "2026-07-22",
+      "rank": 31
+    },
+    {
+      "date": "2026-07-23",
+      "rank": 94,
+      "price": 13.65,
+      "change_pct": 9.9919
     }
   ],
   "continuous_days": 32,
   "monthly_count": 32,
-  "avg_rank": 200.6,
-  "best_rank": 47,
+  "avg_rank": 198.2,
+  "best_rank": 31,
   "trend": "stable"
 }

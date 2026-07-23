@@ -3,10 +3,6 @@
   "name": "中嘉博创",
   "history": [
     {
-      "date": "2026-06-21",
-      "rank": 320
-    },
-    {
       "date": "2026-06-22",
       "rank": 465
     },
@@ -124,18 +120,22 @@
     },
     {
       "date": "2026-07-21",
-      "rank": 89
+      "rank": 120
     },
     {
       "date": "2026-07-22",
-      "rank": 81,
-      "price": 3.99,
-      "change_pct": 5.0
+      "rank": 217
+    },
+    {
+      "date": "2026-07-23",
+      "rank": 71,
+      "price": 3.83,
+      "change_pct": -4.01
     }
   ],
   "continuous_days": 32,
   "monthly_count": 32,
-  "avg_rank": 1187.2,
-  "best_rank": 81,
+  "avg_rank": 1184.6,
+  "best_rank": 71,
   "trend": "stable"
 }

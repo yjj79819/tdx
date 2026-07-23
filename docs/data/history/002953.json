@@ -1,0 +1,25 @@
+{
+  "code": "002953",
+  "name": "日丰股份",
+  "history": [
+    {
+      "date": "2026-07-21",
+      "rank": 648
+    },
+    {
+      "date": "2026-07-22",
+      "rank": 315
+    },
+    {
+      "date": "2026-07-23",
+      "rank": 91,
+      "price": 10.27,
+      "change_pct": 4.1582
+    }
+  ],
+  "continuous_days": 3,
+  "monthly_count": 3,
+  "avg_rank": 351.3,
+  "best_rank": 91,
+  "trend": "stable"
+}
