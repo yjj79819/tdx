@@ -3,10 +3,6 @@
   "name": "中曼石油",
   "history": [
     {
-      "date": "2026-06-22",
-      "rank": 1815
-    },
-    {
       "date": "2026-06-24",
       "rank": 1639
     },
@@ -96,18 +92,22 @@
     },
     {
       "date": "2026-07-22",
-      "rank": 116
+      "rank": 101
     },
     {
       "date": "2026-07-23",
-      "rank": 43,
-      "price": 23.47,
-      "change_pct": 9.98
+      "rank": 66
+    },
+    {
+      "date": "2026-07-24",
+      "rank": 15,
+      "price": 24.11,
+      "change_pct": 2.7269
     }
   ],
   "continuous_days": 25,
   "monthly_count": 25,
-  "avg_rank": 905.4,
-  "best_rank": 43,
+  "avg_rank": 833.7,
+  "best_rank": 15,
   "trend": "stable"
 }

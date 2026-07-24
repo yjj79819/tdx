@@ -3,10 +3,6 @@
   "name": "美利云",
   "history": [
     {
-      "date": "2026-06-22",
-      "rank": 197
-    },
-    {
       "date": "2026-06-23",
       "rank": 170
     },
@@ -124,18 +120,22 @@
     },
     {
       "date": "2026-07-22",
-      "rank": 15
+      "rank": 13
     },
     {
       "date": "2026-07-23",
-      "rank": 6,
-      "price": 17.74,
-      "change_pct": 9.98
+      "rank": 13
+    },
+    {
+      "date": "2026-07-24",
+      "rank": 7,
+      "price": 16.33,
+      "change_pct": -7.9481
     }
   ],
   "continuous_days": 32,
   "monthly_count": 32,
-  "avg_rank": 412.1,
-  "best_rank": 6,
+  "avg_rank": 406.3,
+  "best_rank": 7,
   "trend": "stable"
 }

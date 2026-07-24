@@ -1,0 +1,29 @@
+{
+  "code": "301234",
+  "name": "五洲医疗",
+  "history": [
+    {
+      "date": "2026-07-21",
+      "rank": 316
+    },
+    {
+      "date": "2026-07-22",
+      "rank": 220
+    },
+    {
+      "date": "2026-07-23",
+      "rank": 178
+    },
+    {
+      "date": "2026-07-24",
+      "rank": 65,
+      "price": 58.75,
+      "change_pct": 19.9959
+    }
+  ],
+  "continuous_days": 4,
+  "monthly_count": 4,
+  "avg_rank": 194.8,
+  "best_rank": 65,
+  "trend": "stable"
+}

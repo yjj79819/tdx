@@ -3,10 +3,6 @@
   "name": "杰瑞股份",
   "history": [
     {
-      "date": "2026-06-22",
-      "rank": 668
-    },
-    {
       "date": "2026-06-23",
       "rank": 727
     },
@@ -124,18 +120,22 @@
     },
     {
       "date": "2026-07-22",
-      "rank": 83
+      "rank": 74
     },
     {
       "date": "2026-07-23",
-      "rank": 21,
-      "price": 135.11,
-      "change_pct": 10.0
+      "rank": 82
+    },
+    {
+      "date": "2026-07-24",
+      "rank": 37,
+      "price": 138.32,
+      "change_pct": 2.3758
     }
   ],
   "continuous_days": 32,
   "monthly_count": 32,
-  "avg_rank": 559.0,
-  "best_rank": 21,
+  "avg_rank": 540.9,
+  "best_rank": 37,
   "trend": "stable"
 }

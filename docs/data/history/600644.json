@@ -3,10 +3,6 @@
   "name": "乐山电力",
   "history": [
     {
-      "date": "2026-06-22",
-      "rank": 1949
-    },
-    {
       "date": "2026-06-23",
       "rank": 1423
     },
@@ -112,18 +108,22 @@
     },
     {
       "date": "2026-07-22",
-      "rank": 63
+      "rank": 77
     },
     {
       "date": "2026-07-23",
-      "rank": 45,
-      "price": 10.43,
-      "change_pct": -1.6
+      "rank": 88
+    },
+    {
+      "date": "2026-07-24",
+      "rank": 94,
+      "price": 9.55,
+      "change_pct": -8.4372
     }
   ],
   "continuous_days": 29,
   "monthly_count": 29,
-  "avg_rank": 1158.8,
-  "best_rank": 45,
+  "avg_rank": 1096.8,
+  "best_rank": 46,
   "trend": "stable"
 }

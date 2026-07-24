@@ -1,0 +1,37 @@
+{
+  "code": "605162",
+  "name": "新中港",
+  "history": [
+    {
+      "date": "2026-07-19",
+      "rank": 1551
+    },
+    {
+      "date": "2026-07-20",
+      "rank": 1978
+    },
+    {
+      "date": "2026-07-21",
+      "rank": 467
+    },
+    {
+      "date": "2026-07-22",
+      "rank": 235
+    },
+    {
+      "date": "2026-07-23",
+      "rank": 236
+    },
+    {
+      "date": "2026-07-24",
+      "rank": 68,
+      "price": 8.82,
+      "change_pct": 4.3787
+    }
+  ],
+  "continuous_days": 6,
+  "monthly_count": 6,
+  "avg_rank": 755.8,
+  "best_rank": 68,
+  "trend": "stable"
+}

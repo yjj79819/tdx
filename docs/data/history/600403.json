@@ -3,10 +3,6 @@
   "name": "大有能源",
   "history": [
     {
-      "date": "2026-06-22",
-      "rank": 385
-    },
-    {
       "date": "2026-06-23",
       "rank": 384
     },
@@ -124,18 +120,22 @@
     },
     {
       "date": "2026-07-22",
-      "rank": 102
+      "rank": 120
     },
     {
       "date": "2026-07-23",
-      "rank": 53,
-      "price": 5.94,
-      "change_pct": 4.21
+      "rank": 153
+    },
+    {
+      "date": "2026-07-24",
+      "rank": 97,
+      "price": 5.49,
+      "change_pct": -7.5758
     }
   ],
   "continuous_days": 32,
   "monthly_count": 32,
-  "avg_rank": 710.3,
-  "best_rank": 53,
+  "avg_rank": 705.0,
+  "best_rank": 97,
   "trend": "stable"
 }

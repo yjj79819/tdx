@@ -6876,5 +6876,103 @@
     "win_count": 5,
     "total": 8,
     "rank_improved": 3
+  },
+  {
+    "review_date": "2026-07-24",
+    "target_date": "2026-07-23",
+    "results": [
+      {
+        "code": "001258",
+        "name": "立新能源",
+        "prev_rank": 4,
+        "prev_price": 12.11,
+        "today_rank": 1,
+        "today_price": 13.32,
+        "price_change": 9.99,
+        "still_in_top50": true,
+        "rank_change": 3
+      },
+      {
+        "code": "600664",
+        "name": "哈药股份",
+        "prev_rank": 8,
+        "prev_price": 6.0,
+        "today_rank": 4,
+        "today_price": 5.71,
+        "price_change": -4.83,
+        "still_in_top50": true,
+        "rank_change": 4
+      },
+      {
+        "code": "600396",
+        "name": "华电辽能",
+        "prev_rank": 5,
+        "prev_price": 16.41,
+        "today_rank": 3,
+        "today_price": 15.6,
+        "price_change": -4.94,
+        "still_in_top50": true,
+        "rank_change": 2
+      },
+      {
+        "code": "601991",
+        "name": "大唐发电",
+        "prev_rank": 14,
+        "prev_price": 6.99,
+        "today_rank": "-",
+        "today_price": 6.99,
+        "price_change": 0.0,
+        "still_in_top50": false,
+        "rank_change": 0
+      },
+      {
+        "code": "600744",
+        "name": "华银电力",
+        "prev_rank": 9,
+        "prev_price": 7.88,
+        "today_rank": 8,
+        "today_price": 7.92,
+        "price_change": 0.51,
+        "still_in_top50": true,
+        "rank_change": 1
+      },
+      {
+        "code": "000815",
+        "name": "美利云",
+        "prev_rank": 6,
+        "prev_price": 17.74,
+        "today_rank": "-",
+        "today_price": 17.74,
+        "price_change": 0.0,
+        "still_in_top50": false,
+        "rank_change": 0
+      },
+      {
+        "code": "603118",
+        "name": "共进股份",
+        "prev_rank": 11,
+        "prev_price": 16.6,
+        "today_rank": 35,
+        "today_price": 16.16,
+        "price_change": -2.65,
+        "still_in_top50": true,
+        "rank_change": -24
+      },
+      {
+        "code": "000725",
+        "name": "京东方A",
+        "prev_rank": 18,
+        "prev_price": 6.06,
+        "today_rank": 19,
+        "today_price": 5.84,
+        "price_change": -3.63,
+        "still_in_top50": true,
+        "rank_change": -1
+      }
+    ],
+    "win_rate": 25.0,
+    "win_count": 2,
+    "total": 8,
+    "rank_improved": 4
   }
 ]

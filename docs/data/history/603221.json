@@ -1,0 +1,41 @@
+{
+  "code": "603221",
+  "name": "爱丽家居",
+  "history": [
+    {
+      "date": "2026-07-05",
+      "rank": 1454
+    },
+    {
+      "date": "2026-07-06",
+      "rank": 1650
+    },
+    {
+      "date": "2026-07-20",
+      "rank": 570
+    },
+    {
+      "date": "2026-07-21",
+      "rank": 482
+    },
+    {
+      "date": "2026-07-22",
+      "rank": 396
+    },
+    {
+      "date": "2026-07-23",
+      "rank": 348
+    },
+    {
+      "date": "2026-07-24",
+      "rank": 96,
+      "price": 14.0,
+      "change_pct": 9.9764
+    }
+  ],
+  "continuous_days": 7,
+  "monthly_count": 7,
+  "avg_rank": 713.7,
+  "best_rank": 96,
+  "trend": "stable"
+}

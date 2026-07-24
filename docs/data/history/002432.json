@@ -3,10 +3,6 @@
   "name": "九安医疗",
   "history": [
     {
-      "date": "2026-06-22",
-      "rank": 625
-    },
-    {
       "date": "2026-06-23",
       "rank": 728
     },
@@ -124,18 +120,22 @@
     },
     {
       "date": "2026-07-22",
-      "rank": 26
+      "rank": 27
     },
     {
       "date": "2026-07-23",
-      "rank": 34,
-      "price": 73.48,
-      "change_pct": -10.0
+      "rank": 34
+    },
+    {
+      "date": "2026-07-24",
+      "rank": 33,
+      "price": 67.98,
+      "change_pct": -7.485
     }
   ],
   "continuous_days": 32,
   "monthly_count": 32,
-  "avg_rank": 507.9,
+  "avg_rank": 489.5,
   "best_rank": 5,
   "trend": "stable"
 }
