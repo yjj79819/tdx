@@ -3,18 +3,6 @@
   "name": "国瓷材料",
   "history": [
     {
-      "date": "2026-06-23",
-      "rank": 75
-    },
-    {
-      "date": "2026-06-24",
-      "rank": 44
-    },
-    {
-      "date": "2026-06-25",
-      "rank": 34
-    },
-    {
       "date": "2026-06-26",
       "rank": 59
     },
@@ -124,18 +112,30 @@
     },
     {
       "date": "2026-07-23",
-      "rank": 53
+      "rank": 56
     },
     {
       "date": "2026-07-24",
-      "rank": 74,
-      "price": 57.21,
-      "change_pct": -5.98
+      "rank": 102
+    },
+    {
+      "date": "2026-07-25",
+      "rank": 106
+    },
+    {
+      "date": "2026-07-26",
+      "rank": 37
+    },
+    {
+      "date": "2026-07-27",
+      "rank": 84,
+      "price": 62.44,
+      "change_pct": 9.1418
     }
   ],
   "continuous_days": 32,
   "monthly_count": 32,
-  "avg_rank": 122.7,
-  "best_rank": 34,
+  "avg_rank": 125.9,
+  "best_rank": 35,
   "trend": "stable"
 }

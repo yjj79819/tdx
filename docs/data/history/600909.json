@@ -3,18 +3,6 @@
   "name": "华安证券",
   "history": [
     {
-      "date": "2026-06-23",
-      "rank": 65
-    },
-    {
-      "date": "2026-06-24",
-      "rank": 79
-    },
-    {
-      "date": "2026-06-25",
-      "rank": 81
-    },
-    {
       "date": "2026-06-26",
       "rank": 104
     },
@@ -124,18 +112,30 @@
     },
     {
       "date": "2026-07-23",
-      "rank": 150
+      "rank": 157
     },
     {
       "date": "2026-07-24",
-      "rank": 59,
-      "price": 9.01,
-      "change_pct": -1.42
+      "rank": 255
+    },
+    {
+      "date": "2026-07-25",
+      "rank": 259
+    },
+    {
+      "date": "2026-07-26",
+      "rank": 118
+    },
+    {
+      "date": "2026-07-27",
+      "rank": 86,
+      "price": 8.16,
+      "change_pct": -9.434
     }
   ],
   "continuous_days": 32,
   "monthly_count": 32,
-  "avg_rank": 185.7,
-  "best_rank": 59,
+  "avg_rank": 199.4,
+  "best_rank": 78,
   "trend": "stable"
 }

@@ -3,10 +3,6 @@
   "name": "湖南天雁",
   "history": [
     {
-      "date": "2026-06-25",
-      "rank": 1863
-    },
-    {
       "date": "2026-06-28",
       "rank": 1951
     },
@@ -16,18 +12,30 @@
     },
     {
       "date": "2026-07-23",
-      "rank": 108
+      "rank": 95
     },
     {
       "date": "2026-07-24",
-      "rank": 92,
-      "price": 6.84,
-      "change_pct": 9.97
+      "rank": 66
+    },
+    {
+      "date": "2026-07-25",
+      "rank": 56
+    },
+    {
+      "date": "2026-07-26",
+      "rank": 124
+    },
+    {
+      "date": "2026-07-27",
+      "rank": 81,
+      "price": 7.08,
+      "change_pct": 3.5088
     }
   ],
-  "continuous_days": 5,
-  "monthly_count": 5,
-  "avg_rank": 866.2,
-  "best_rank": 92,
+  "continuous_days": 7,
+  "monthly_count": 7,
+  "avg_rank": 384.3,
+  "best_rank": 56,
   "trend": "stable"
 }

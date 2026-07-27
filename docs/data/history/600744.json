@@ -3,18 +3,6 @@
   "name": "华银电力",
   "history": [
     {
-      "date": "2026-06-23",
-      "rank": 633
-    },
-    {
-      "date": "2026-06-24",
-      "rank": 776
-    },
-    {
-      "date": "2026-06-25",
-      "rank": 688
-    },
-    {
       "date": "2026-06-26",
       "rank": 982
     },
@@ -124,18 +112,30 @@
     },
     {
       "date": "2026-07-23",
-      "rank": 11
+      "rank": 12
     },
     {
       "date": "2026-07-24",
-      "rank": 8,
-      "price": 7.53,
-      "change_pct": -4.44
+      "rank": 56
+    },
+    {
+      "date": "2026-07-25",
+      "rank": 63
+    },
+    {
+      "date": "2026-07-26",
+      "rank": 29
+    },
+    {
+      "date": "2026-07-27",
+      "rank": 25,
+      "price": 7.61,
+      "change_pct": 1.0624
     }
   ],
   "continuous_days": 32,
   "monthly_count": 32,
-  "avg_rank": 609.2,
+  "avg_rank": 548.9,
   "best_rank": 6,
   "trend": "stable"
 }

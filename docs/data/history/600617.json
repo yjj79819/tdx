@@ -1,45 +1,45 @@
 {
-  "code": "002879",
-  "name": "长缆科技",
+  "code": "600617",
+  "name": "国新能源",
   "history": [
     {
-      "date": "2026-07-20",
-      "rank": 618
+      "date": "2026-07-18",
+      "rank": 1394
     },
     {
-      "date": "2026-07-21",
-      "rank": 258
+      "date": "2026-07-19",
+      "rank": 1381
     },
     {
       "date": "2026-07-22",
-      "rank": 119
+      "rank": 1972
     },
     {
       "date": "2026-07-23",
-      "rank": 61
+      "rank": 393
     },
     {
       "date": "2026-07-24",
-      "rank": 26
+      "rank": 120
     },
     {
       "date": "2026-07-25",
-      "rank": 16
+      "rank": 84
     },
     {
       "date": "2026-07-26",
-      "rank": 40
+      "rank": 162
     },
     {
       "date": "2026-07-27",
-      "rank": 35,
-      "price": 19.86,
-      "change_pct": 10.0277
+      "rank": 58,
+      "price": 3.73,
+      "change_pct": 10.0295
     }
   ],
   "continuous_days": 8,
   "monthly_count": 8,
-  "avg_rank": 146.6,
-  "best_rank": 16,
+  "avg_rank": 695.5,
+  "best_rank": 58,
   "trend": "stable"
 }

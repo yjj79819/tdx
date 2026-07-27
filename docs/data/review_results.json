@@ -7072,5 +7072,103 @@
     "win_count": 2,
     "total": 8,
     "rank_improved": 1
+  },
+  {
+    "review_date": "2026-07-27",
+    "target_date": "2026-07-24",
+    "results": [
+      {
+        "code": "001258",
+        "name": "立新能源",
+        "prev_rank": 1,
+        "prev_price": 13.03,
+        "today_rank": 2,
+        "today_price": 14.33,
+        "price_change": 9.98,
+        "still_in_top50": true,
+        "rank_change": -1
+      },
+      {
+        "code": "601179",
+        "name": "中国西电",
+        "prev_rank": 5,
+        "prev_price": 13.55,
+        "today_rank": 30,
+        "today_price": 14.09,
+        "price_change": 3.99,
+        "still_in_top50": true,
+        "rank_change": -25
+      },
+      {
+        "code": "600744",
+        "name": "华银电力",
+        "prev_rank": 8,
+        "prev_price": 7.53,
+        "today_rank": 25,
+        "today_price": 7.61,
+        "price_change": 1.06,
+        "still_in_top50": true,
+        "rank_change": -17
+      },
+      {
+        "code": "002498",
+        "name": "汉缆股份",
+        "prev_rank": 21,
+        "prev_price": 6.5,
+        "today_rank": 38,
+        "today_price": 7.1,
+        "price_change": 9.23,
+        "still_in_top50": true,
+        "rank_change": -17
+      },
+      {
+        "code": "000533",
+        "name": "顺钠股份",
+        "prev_rank": 25,
+        "prev_price": 9.55,
+        "today_rank": 16,
+        "today_price": 10.51,
+        "price_change": 10.05,
+        "still_in_top50": true,
+        "rank_change": 9
+      },
+      {
+        "code": "000595",
+        "name": "新能股份",
+        "prev_rank": 42,
+        "prev_price": 6.07,
+        "today_rank": 90,
+        "today_price": 5.88,
+        "price_change": -3.13,
+        "still_in_top50": true,
+        "rank_change": -48
+      },
+      {
+        "code": "002298",
+        "name": "中电鑫龙",
+        "prev_rank": 47,
+        "prev_price": 8.1,
+        "today_rank": 62,
+        "today_price": 8.45,
+        "price_change": 4.32,
+        "still_in_top50": true,
+        "rank_change": -15
+      },
+      {
+        "code": "601678",
+        "name": "滨化股份",
+        "prev_rank": 17,
+        "prev_price": 6.54,
+        "today_rank": 46,
+        "today_price": 7.06,
+        "price_change": 7.95,
+        "still_in_top50": true,
+        "rank_change": -29
+      }
+    ],
+    "win_rate": 87.5,
+    "win_count": 7,
+    "total": 8,
+    "rank_improved": 1
   }
 ]

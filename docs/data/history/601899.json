@@ -3,18 +3,6 @@
   "name": "紫金矿业",
   "history": [
     {
-      "date": "2026-06-23",
-      "rank": 114
-    },
-    {
-      "date": "2026-06-24",
-      "rank": 52
-    },
-    {
-      "date": "2026-06-25",
-      "rank": 80
-    },
-    {
       "date": "2026-06-26",
       "rank": 109
     },
@@ -124,18 +112,30 @@
     },
     {
       "date": "2026-07-23",
-      "rank": 27
+      "rank": 28
     },
     {
       "date": "2026-07-24",
-      "rank": 26,
-      "price": 31.51,
-      "change_pct": -4.69
+      "rank": 40
+    },
+    {
+      "date": "2026-07-25",
+      "rank": 43
+    },
+    {
+      "date": "2026-07-26",
+      "rank": 49
+    },
+    {
+      "date": "2026-07-27",
+      "rank": 37,
+      "price": 31.77,
+      "change_pct": 0.8251
     }
   ],
   "continuous_days": 32,
   "monthly_count": 32,
-  "avg_rank": 70.9,
+  "avg_rank": 67.8,
   "best_rank": 19,
   "trend": "stable"
 }
