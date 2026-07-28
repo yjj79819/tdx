@@ -7268,5 +7268,103 @@
     "win_count": 3,
     "total": 8,
     "rank_improved": 2
+  },
+  {
+    "review_date": "2026-07-28",
+    "target_date": "2026-07-28",
+    "results": [
+      {
+        "code": "000533",
+        "name": "顺钠股份",
+        "prev_rank": 11,
+        "prev_price": 11.56,
+        "today_rank": 13,
+        "today_price": 11.56,
+        "price_change": 0.0,
+        "still_in_top50": true,
+        "rank_change": -2
+      },
+      {
+        "code": "600664",
+        "name": "哈药股份",
+        "prev_rank": 16,
+        "prev_price": 5.55,
+        "today_rank": 9,
+        "today_price": 5.74,
+        "price_change": 3.42,
+        "still_in_top50": true,
+        "rank_change": 7
+      },
+      {
+        "code": "002309",
+        "name": "中利集团",
+        "prev_rank": 29,
+        "prev_price": 3.37,
+        "today_rank": 32,
+        "today_price": 3.37,
+        "price_change": 0.0,
+        "still_in_top50": true,
+        "rank_change": -3
+      },
+      {
+        "code": "600396",
+        "name": "华电辽能",
+        "prev_rank": 19,
+        "prev_price": 16.42,
+        "today_rank": 15,
+        "today_price": 16.58,
+        "price_change": 0.97,
+        "still_in_top50": true,
+        "rank_change": 4
+      },
+      {
+        "code": "001248",
+        "name": "华润新能源",
+        "prev_rank": 30,
+        "prev_price": 14.37,
+        "today_rank": 33,
+        "today_price": 14.27,
+        "price_change": -0.7,
+        "still_in_top50": true,
+        "rank_change": -3
+      },
+      {
+        "code": "002580",
+        "name": "圣阳股份",
+        "prev_rank": 13,
+        "prev_price": 17.16,
+        "today_rank": 26,
+        "today_price": 16.92,
+        "price_change": -1.4,
+        "still_in_top50": true,
+        "rank_change": -13
+      },
+      {
+        "code": "002549",
+        "name": "凯美特气",
+        "prev_rank": 21,
+        "prev_price": 13.94,
+        "today_rank": 31,
+        "today_price": 14.01,
+        "price_change": 0.5,
+        "still_in_top50": true,
+        "rank_change": -10
+      },
+      {
+        "code": "600667",
+        "name": "太极实业",
+        "prev_rank": 3,
+        "prev_price": 18.16,
+        "today_rank": 3,
+        "today_price": 18.37,
+        "price_change": 1.16,
+        "still_in_top50": true,
+        "rank_change": 0
+      }
+    ],
+    "win_rate": 50.0,
+    "win_count": 4,
+    "total": 8,
+    "rank_improved": 2
   }
 ]

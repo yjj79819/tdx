@@ -1,81 +1,69 @@
 {
-  "code": "000676",
-  "name": "智度股份",
+  "code": "300663",
+  "name": "科蓝软件",
   "history": [
     {
-      "date": "2026-07-01",
-      "rank": 1959
-    },
-    {
-      "date": "2026-07-09",
-      "rank": 1927
-    },
-    {
-      "date": "2026-07-14",
-      "rank": 448
-    },
-    {
       "date": "2026-07-15",
-      "rank": 143
+      "rank": 1273
     },
     {
       "date": "2026-07-16",
-      "rank": 28
+      "rank": 847
     },
     {
       "date": "2026-07-17",
-      "rank": 22
+      "rank": 1365
     },
     {
       "date": "2026-07-18",
-      "rank": 17
+      "rank": 1321
     },
     {
       "date": "2026-07-19",
-      "rank": 90
+      "rank": 547
     },
     {
       "date": "2026-07-20",
-      "rank": 45
+      "rank": 315
     },
     {
       "date": "2026-07-21",
-      "rank": 92
+      "rank": 271
     },
     {
       "date": "2026-07-22",
-      "rank": 178
+      "rank": 386
     },
     {
       "date": "2026-07-23",
-      "rank": 183
+      "rank": 604
     },
     {
       "date": "2026-07-24",
-      "rank": 218
+      "rank": 913
     },
     {
       "date": "2026-07-25",
-      "rank": 213
+      "rank": 890
     },
     {
       "date": "2026-07-26",
-      "rank": 112
+      "rank": 823
     },
     {
       "date": "2026-07-27",
-      "rank": 55
+      "rank": 114
     },
     {
       "date": "2026-07-28",
-      "rank": 39,
-      "price": 7.45,
-      "change_pct": 4.6348
+      "rank": 91,
+      "price": 8.96,
+      "change_pct": 19.9465
     }
   ],
-  "continuous_days": 17,
-  "monthly_count": 17,
-  "avg_rank": 339.4,
-  "best_rank": 17,
+  "continuous_days": 14,
+  "monthly_count": 14,
+  "avg_rank": 697.1,
+  "best_rank": 91,
   "trend": "stable"
 }
