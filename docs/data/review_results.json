@@ -7170,5 +7170,103 @@
     "win_count": 7,
     "total": 8,
     "rank_improved": 1
+  },
+  {
+    "review_date": "2026-07-28",
+    "target_date": "2026-07-27",
+    "results": [
+      {
+        "code": "001258",
+        "name": "立新能源",
+        "prev_rank": 2,
+        "prev_price": 14.33,
+        "today_rank": "-",
+        "today_price": 14.33,
+        "price_change": 0.0,
+        "still_in_top50": false,
+        "rank_change": 0
+      },
+      {
+        "code": "600664",
+        "name": "哈药股份",
+        "prev_rank": 8,
+        "prev_price": 5.64,
+        "today_rank": 16,
+        "today_price": 5.55,
+        "price_change": -1.6,
+        "still_in_top50": true,
+        "rank_change": -8
+      },
+      {
+        "code": "601991",
+        "name": "大唐发电",
+        "prev_rank": 19,
+        "prev_price": 6.22,
+        "today_rank": 36,
+        "today_price": 6.02,
+        "price_change": -3.22,
+        "still_in_top50": true,
+        "rank_change": -17
+      },
+      {
+        "code": "000533",
+        "name": "顺钠股份",
+        "prev_rank": 16,
+        "prev_price": 10.51,
+        "today_rank": 11,
+        "today_price": 11.56,
+        "price_change": 9.99,
+        "still_in_top50": true,
+        "rank_change": 5
+      },
+      {
+        "code": "600396",
+        "name": "华电辽能",
+        "prev_rank": 9,
+        "prev_price": 15.68,
+        "today_rank": 19,
+        "today_price": 16.42,
+        "price_change": 4.72,
+        "still_in_top50": true,
+        "rank_change": -10
+      },
+      {
+        "code": "600744",
+        "name": "华银电力",
+        "prev_rank": 25,
+        "prev_price": 7.61,
+        "today_rank": 61,
+        "today_price": 7.43,
+        "price_change": -2.37,
+        "still_in_top50": true,
+        "rank_change": -36
+      },
+      {
+        "code": "601179",
+        "name": "中国西电",
+        "prev_rank": 30,
+        "prev_price": 14.09,
+        "today_rank": "-",
+        "today_price": 14.09,
+        "price_change": 0.0,
+        "still_in_top50": false,
+        "rank_change": 0
+      },
+      {
+        "code": "002309",
+        "name": "中利集团",
+        "prev_rank": 50,
+        "prev_price": 3.06,
+        "today_rank": 29,
+        "today_price": 3.37,
+        "price_change": 10.13,
+        "still_in_top50": true,
+        "rank_change": 21
+      }
+    ],
+    "win_rate": 37.5,
+    "win_count": 3,
+    "total": 8,
+    "rank_improved": 2
   }
 ]

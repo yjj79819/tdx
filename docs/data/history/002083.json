@@ -3,10 +3,6 @@
   "name": "孚日股份",
   "history": [
     {
-      "date": "2026-06-26",
-      "rank": 360
-    },
-    {
       "date": "2026-06-27",
       "rank": 380
     },
@@ -124,18 +120,22 @@
     },
     {
       "date": "2026-07-26",
-      "rank": 27
+      "rank": 30
     },
     {
       "date": "2026-07-27",
-      "rank": 15,
-      "price": 12.0,
-      "change_pct": 4.17
+      "rank": 74
+    },
+    {
+      "date": "2026-07-28",
+      "rank": 60,
+      "price": 10.8,
+      "change_pct": -10.0
     }
   ],
   "continuous_days": 32,
   "monthly_count": 32,
-  "avg_rank": 472.8,
+  "avg_rank": 465.4,
   "best_rank": 11,
   "trend": "stable"
 }

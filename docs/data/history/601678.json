@@ -3,10 +3,6 @@
   "name": "滨化股份",
   "history": [
     {
-      "date": "2026-06-26",
-      "rank": 462
-    },
-    {
       "date": "2026-06-27",
       "rank": 454
     },
@@ -124,18 +120,22 @@
     },
     {
       "date": "2026-07-26",
-      "rank": 52
+      "rank": 54
     },
     {
       "date": "2026-07-27",
-      "rank": 46,
-      "price": 7.06,
-      "change_pct": 7.95
+      "rank": 89
+    },
+    {
+      "date": "2026-07-28",
+      "rank": 87,
+      "price": 6.48,
+      "change_pct": -8.3569
     }
   ],
   "continuous_days": 32,
   "monthly_count": 32,
-  "avg_rank": 244.2,
+  "avg_rank": 233.9,
   "best_rank": 27,
   "trend": "stable"
 }

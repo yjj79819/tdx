@@ -1,0 +1,33 @@
+{
+  "code": "601218",
+  "name": "吉鑫科技",
+  "history": [
+    {
+      "date": "2026-07-22",
+      "rank": 1376
+    },
+    {
+      "date": "2026-07-23",
+      "rank": 1935
+    },
+    {
+      "date": "2026-07-26",
+      "rank": 423
+    },
+    {
+      "date": "2026-07-27",
+      "rank": 259
+    },
+    {
+      "date": "2026-07-28",
+      "rank": 84,
+      "price": 4.57,
+      "change_pct": 2.0134
+    }
+  ],
+  "continuous_days": 5,
+  "monthly_count": 5,
+  "avg_rank": 815.4,
+  "best_rank": 84,
+  "trend": "stable"
+}
