@@ -1,17 +1,17 @@
 {
-  "code": "920176",
-  "name": "维琪科技",
+  "code": "920065",
+  "name": "千岸科技",
   "history": [
     {
       "date": "2026-07-29",
-      "rank": 57,
+      "rank": 84,
       "price": 0,
-      "change_pct": -25.3986
+      "change_pct": 147.2428
     }
   ],
   "continuous_days": 1,
   "monthly_count": 1,
-  "avg_rank": 57.0,
-  "best_rank": 57,
+  "avg_rank": 84.0,
+  "best_rank": 84,
   "trend": "stable"
 }

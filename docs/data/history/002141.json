@@ -3,10 +3,6 @@
   "name": "贤丰控股",
   "history": [
     {
-      "date": "2026-06-27",
-      "rank": 39
-    },
-    {
       "date": "2026-06-28",
       "rank": 101
     },
@@ -124,18 +120,22 @@
     },
     {
       "date": "2026-07-27",
-      "rank": 37
+      "rank": 39
     },
     {
       "date": "2026-07-28",
-      "rank": 25,
-      "price": 5.73,
-      "change_pct": 0.0
+      "rank": 40
+    },
+    {
+      "date": "2026-07-29",
+      "rank": 23,
+      "price": 6.3,
+      "change_pct": 9.9476
     }
   ],
   "continuous_days": 32,
   "monthly_count": 32,
   "avg_rank": 110.8,
-  "best_rank": 25,
+  "best_rank": 23,
   "trend": "stable"
 }

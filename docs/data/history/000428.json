@@ -1,0 +1,29 @@
+{
+  "code": "000428",
+  "name": "华天酒店",
+  "history": [
+    {
+      "date": "2026-07-26",
+      "rank": 538
+    },
+    {
+      "date": "2026-07-27",
+      "rank": 304
+    },
+    {
+      "date": "2026-07-28",
+      "rank": 173
+    },
+    {
+      "date": "2026-07-29",
+      "rank": 54,
+      "price": 4.04,
+      "change_pct": 10.0817
+    }
+  ],
+  "continuous_days": 4,
+  "monthly_count": 4,
+  "avg_rank": 267.2,
+  "best_rank": 54,
+  "trend": "stable"
+}

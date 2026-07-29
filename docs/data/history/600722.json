@@ -3,10 +3,6 @@
   "name": "金牛化工",
   "history": [
     {
-      "date": "2026-06-27",
-      "rank": 1146
-    },
-    {
       "date": "2026-06-28",
       "rank": 1483
     },
@@ -124,18 +120,22 @@
     },
     {
       "date": "2026-07-27",
-      "rank": 100
+      "rank": 102
     },
     {
       "date": "2026-07-28",
-      "rank": 59,
-      "price": 9.26,
-      "change_pct": -10.01
+      "rank": 46
+    },
+    {
+      "date": "2026-07-29",
+      "rank": 15,
+      "price": 10.19,
+      "change_pct": 10.0432
     }
   ],
   "continuous_days": 32,
   "monthly_count": 32,
-  "avg_rank": 699.8,
-  "best_rank": 22,
+  "avg_rank": 664.1,
+  "best_rank": 15,
   "trend": "stable"
 }

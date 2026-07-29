@@ -3,10 +3,6 @@
   "name": "新亚制程",
   "history": [
     {
-      "date": "2026-06-27",
-      "rank": 1930
-    },
-    {
       "date": "2026-07-01",
       "rank": 1629
     },
@@ -60,18 +56,22 @@
     },
     {
       "date": "2026-07-27",
-      "rank": 109
+      "rank": 105
     },
     {
       "date": "2026-07-28",
-      "rank": 63,
-      "price": 5.28,
-      "change_pct": 10.0
+      "rank": 133
+    },
+    {
+      "date": "2026-07-29",
+      "rank": 77,
+      "price": 4.89,
+      "change_pct": -7.197
     }
   ],
   "continuous_days": 16,
   "monthly_count": 16,
-  "avg_rank": 1070.4,
-  "best_rank": 63,
+  "avg_rank": 958.7,
+  "best_rank": 77,
   "trend": "stable"
 }

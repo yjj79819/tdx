@@ -3,14 +3,6 @@
   "name": "托伦斯",
   "history": [
     {
-      "date": "2026-06-26",
-      "rank": 1830
-    },
-    {
-      "date": "2026-06-27",
-      "rank": 912
-    },
-    {
       "date": "2026-06-28",
       "rank": 1275
     },
@@ -120,18 +112,26 @@
     },
     {
       "date": "2026-07-26",
-      "rank": 43
+      "rank": 44
     },
     {
       "date": "2026-07-27",
-      "rank": 49,
-      "price": 175.0,
-      "change_pct": 0.57
+      "rank": 38
+    },
+    {
+      "date": "2026-07-28",
+      "rank": 22
+    },
+    {
+      "date": "2026-07-29",
+      "rank": 51,
+      "price": 198.2,
+      "change_pct": 13.7636
     }
   ],
   "continuous_days": 31,
   "monthly_count": 31,
-  "avg_rank": 559.2,
+  "avg_rank": 472.7,
   "best_rank": 16,
   "trend": "stable"
 }

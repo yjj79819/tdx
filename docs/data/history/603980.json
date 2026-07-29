@@ -1,85 +1,77 @@
 {
-  "code": "000676",
-  "name": "智度股份",
+  "code": "603980",
+  "name": "吉华集团",
   "history": [
     {
-      "date": "2026-07-01",
-      "rank": 1959
+      "date": "2026-06-28",
+      "rank": 1960
     },
     {
-      "date": "2026-07-09",
-      "rank": 1927
+      "date": "2026-06-29",
+      "rank": 1896
     },
     {
       "date": "2026-07-14",
-      "rank": 448
-    },
-    {
-      "date": "2026-07-15",
-      "rank": 143
+      "rank": 1688
     },
     {
       "date": "2026-07-16",
-      "rank": 28
+      "rank": 761
     },
     {
       "date": "2026-07-17",
-      "rank": 22
+      "rank": 423
     },
     {
       "date": "2026-07-18",
-      "rank": 17
+      "rank": 340
     },
     {
       "date": "2026-07-19",
-      "rank": 90
+      "rank": 984
     },
     {
       "date": "2026-07-20",
-      "rank": 45
+      "rank": 1178
     },
     {
       "date": "2026-07-21",
-      "rank": 92
+      "rank": 1842
     },
     {
       "date": "2026-07-22",
-      "rank": 178
+      "rank": 1710
     },
     {
       "date": "2026-07-23",
-      "rank": 183
+      "rank": 1842
     },
     {
       "date": "2026-07-24",
-      "rank": 218
+      "rank": 1470
     },
     {
       "date": "2026-07-25",
-      "rank": 213
-    },
-    {
-      "date": "2026-07-26",
-      "rank": 112
+      "rank": 1694
     },
     {
       "date": "2026-07-27",
-      "rank": 53
+      "rank": 562
     },
     {
       "date": "2026-07-28",
-      "rank": 104
+      "rank": 220
     },
     {
       "date": "2026-07-29",
-      "rank": 74,
-      "price": 7.19,
-      "change_pct": -3.4899
+      "rank": 80,
+      "price": 6.68,
+      "change_pct": 2.7692
     }
   ],
-  "continuous_days": 18,
-  "monthly_count": 18,
-  "avg_rank": 328.1,
-  "best_rank": 17,
+  "continuous_days": 16,
+  "monthly_count": 16,
+  "avg_rank": 1165.6,
+  "best_rank": 80,
   "trend": "stable"
 }

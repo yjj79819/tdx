@@ -3,14 +3,6 @@
   "name": "药明康德",
   "history": [
     {
-      "date": "2026-06-26",
-      "rank": 95
-    },
-    {
-      "date": "2026-06-27",
-      "rank": 126
-    },
-    {
       "date": "2026-06-28",
       "rank": 52
     },
@@ -124,18 +116,26 @@
     },
     {
       "date": "2026-07-26",
-      "rank": 71
+      "rank": 76
     },
     {
       "date": "2026-07-27",
-      "rank": 73,
-      "price": 124.66,
-      "change_pct": -0.27
+      "rank": 119
+    },
+    {
+      "date": "2026-07-28",
+      "rank": 67
+    },
+    {
+      "date": "2026-07-29",
+      "rank": 29,
+      "price": 125.54,
+      "change_pct": 2.0484
     }
   ],
   "continuous_days": 32,
   "monthly_count": 32,
-  "avg_rank": 82.3,
+  "avg_rank": 80.0,
   "best_rank": 22,
   "trend": "stable"
 }

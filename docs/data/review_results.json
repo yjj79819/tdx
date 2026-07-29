@@ -7366,5 +7366,103 @@
     "win_count": 4,
     "total": 8,
     "rank_improved": 2
+  },
+  {
+    "review_date": "2026-07-29",
+    "target_date": "2026-07-28",
+    "results": [
+      {
+        "code": "600664",
+        "name": "哈药股份",
+        "prev_rank": 9,
+        "prev_price": 5.74,
+        "today_rank": 20,
+        "today_price": 5.48,
+        "price_change": -4.53,
+        "still_in_top50": true,
+        "rank_change": -11
+      },
+      {
+        "code": "000533",
+        "name": "顺钠股份",
+        "prev_rank": 13,
+        "prev_price": 11.56,
+        "today_rank": 11,
+        "today_price": 12.59,
+        "price_change": 8.91,
+        "still_in_top50": true,
+        "rank_change": 2
+      },
+      {
+        "code": "600667",
+        "name": "太极实业",
+        "prev_rank": 3,
+        "prev_price": 18.37,
+        "today_rank": "-",
+        "today_price": 18.37,
+        "price_change": 0.0,
+        "still_in_top50": false,
+        "rank_change": 0
+      },
+      {
+        "code": "600396",
+        "name": "华电辽能",
+        "prev_rank": 15,
+        "prev_price": 16.58,
+        "today_rank": 10,
+        "today_price": 17.0,
+        "price_change": 2.53,
+        "still_in_top50": true,
+        "rank_change": 5
+      },
+      {
+        "code": "002141",
+        "name": "贤丰控股",
+        "prev_rank": 25,
+        "prev_price": 5.73,
+        "today_rank": 23,
+        "today_price": 6.3,
+        "price_change": 9.95,
+        "still_in_top50": true,
+        "rank_change": 2
+      },
+      {
+        "code": "002195",
+        "name": "岩山科技",
+        "prev_rank": 18,
+        "prev_price": 6.83,
+        "today_rank": 16,
+        "today_price": 6.64,
+        "price_change": -2.78,
+        "still_in_top50": true,
+        "rank_change": 2
+      },
+      {
+        "code": "000566",
+        "name": "海南海药",
+        "prev_rank": 28,
+        "prev_price": 5.83,
+        "today_rank": "-",
+        "today_price": 5.83,
+        "price_change": 0.0,
+        "still_in_top50": false,
+        "rank_change": 0
+      },
+      {
+        "code": "002309",
+        "name": "中利集团",
+        "prev_rank": 32,
+        "prev_price": 3.37,
+        "today_rank": 42,
+        "today_price": 3.23,
+        "price_change": -4.15,
+        "still_in_top50": true,
+        "rank_change": -10
+      }
+    ],
+    "win_rate": 37.5,
+    "win_count": 3,
+    "total": 8,
+    "rank_improved": 4
   }
 ]

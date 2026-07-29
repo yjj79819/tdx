@@ -3,10 +3,6 @@
   "name": "创新医疗",
   "history": [
     {
-      "date": "2026-06-27",
-      "rank": 580
-    },
-    {
       "date": "2026-06-28",
       "rank": 394
     },
@@ -124,18 +120,22 @@
     },
     {
       "date": "2026-07-27",
-      "rank": 24
+      "rank": 22
     },
     {
       "date": "2026-07-28",
-      "rank": 10,
-      "price": 22.76,
-      "change_pct": 10.0
+      "rank": 20
+    },
+    {
+      "date": "2026-07-29",
+      "rank": 9,
+      "price": 20.48,
+      "change_pct": -10.0176
     }
   ],
   "continuous_days": 32,
   "monthly_count": 32,
-  "avg_rank": 318.0,
-  "best_rank": 10,
+  "avg_rank": 300.4,
+  "best_rank": 9,
   "trend": "stable"
 }

@@ -1,73 +1,69 @@
 {
-  "code": "300663",
-  "name": "科蓝软件",
+  "code": "605179",
+  "name": "一鸣食品",
   "history": [
     {
       "date": "2026-07-15",
-      "rank": 1273
+      "rank": 1907
     },
     {
       "date": "2026-07-16",
-      "rank": 847
+      "rank": 332
     },
     {
       "date": "2026-07-17",
-      "rank": 1365
+      "rank": 276
     },
     {
       "date": "2026-07-18",
-      "rank": 1321
+      "rank": 268
     },
     {
       "date": "2026-07-19",
-      "rank": 547
+      "rank": 348
     },
     {
       "date": "2026-07-20",
-      "rank": 315
+      "rank": 652
     },
     {
       "date": "2026-07-21",
-      "rank": 271
+      "rank": 1138
     },
     {
       "date": "2026-07-22",
-      "rank": 386
+      "rank": 1298
     },
     {
       "date": "2026-07-23",
-      "rank": 604
+      "rank": 1303
     },
     {
       "date": "2026-07-24",
-      "rank": 913
+      "rank": 1055
     },
     {
       "date": "2026-07-25",
-      "rank": 890
-    },
-    {
-      "date": "2026-07-26",
-      "rank": 823
+      "rank": 1286
     },
     {
       "date": "2026-07-27",
-      "rank": 89
+      "rank": 245
     },
     {
       "date": "2026-07-28",
-      "rank": 83
+      "rank": 119
     },
     {
       "date": "2026-07-29",
-      "rank": 67,
-      "price": 9.32,
-      "change_pct": 4.0179
+      "rank": 49,
+      "price": 16.01,
+      "change_pct": 10.0344
     }
   ],
-  "continuous_days": 15,
-  "monthly_count": 15,
-  "avg_rank": 652.9,
-  "best_rank": 67,
+  "continuous_days": 14,
+  "monthly_count": 14,
+  "avg_rank": 734.0,
+  "best_rank": 49,
   "trend": "stable"
 }

@@ -3,10 +3,6 @@
   "name": "华润新能源",
   "history": [
     {
-      "date": "2026-06-27",
-      "rank": 130
-    },
-    {
       "date": "2026-06-28",
       "rank": 431
     },
@@ -124,18 +120,22 @@
     },
     {
       "date": "2026-07-27",
-      "rank": 23
+      "rank": 25
     },
     {
       "date": "2026-07-28",
-      "rank": 33,
-      "price": 14.27,
-      "change_pct": 2.15
+      "rank": 35
+    },
+    {
+      "date": "2026-07-29",
+      "rank": 37,
+      "price": 14.11,
+      "change_pct": -1.1212
     }
   ],
   "continuous_days": 32,
   "monthly_count": 32,
-  "avg_rank": 82.7,
+  "avg_rank": 79.9,
   "best_rank": 2,
   "trend": "stable"
 }

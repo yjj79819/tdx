@@ -3,10 +3,6 @@
   "name": "昭衍新药",
   "history": [
     {
-      "date": "2026-06-27",
-      "rank": 760
-    },
-    {
       "date": "2026-06-28",
       "rank": 352
     },
@@ -124,18 +120,22 @@
     },
     {
       "date": "2026-07-27",
-      "rank": 81
+      "rank": 87
     },
     {
       "date": "2026-07-28",
-      "rank": 74,
-      "price": 45.57,
-      "change_pct": -8.31
+      "rank": 97
+    },
+    {
+      "date": "2026-07-29",
+      "rank": 86,
+      "price": 44.2,
+      "change_pct": -2.8089
     }
   ],
   "continuous_days": 32,
   "monthly_count": 32,
-  "avg_rank": 210.2,
+  "avg_rank": 190.1,
   "best_rank": 6,
   "trend": "stable"
 }

@@ -3,10 +3,6 @@
   "name": "张江高科",
   "history": [
     {
-      "date": "2026-06-27",
-      "rank": 353
-    },
-    {
       "date": "2026-06-28",
       "rank": 257
     },
@@ -124,18 +120,22 @@
     },
     {
       "date": "2026-07-27",
-      "rank": 11
+      "rank": 10
     },
     {
       "date": "2026-07-28",
-      "rank": 5,
-      "price": 31.04,
-      "change_pct": 9.99
+      "rank": 16
+    },
+    {
+      "date": "2026-07-29",
+      "rank": 7,
+      "price": 32.15,
+      "change_pct": 3.576
     }
   ],
   "continuous_days": 32,
   "monthly_count": 32,
-  "avg_rank": 475.8,
-  "best_rank": 5,
+  "avg_rank": 465.3,
+  "best_rank": 7,
   "trend": "stable"
 }
