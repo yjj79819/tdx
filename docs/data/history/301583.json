@@ -124,14 +124,14 @@
     },
     {
       "date": "2026-07-29",
-      "rank": 51,
+      "rank": 39,
       "price": 193.82,
-      "change_pct": 10.69
+      "change_pct": 10.691
     }
   ],
   "continuous_days": 31,
   "monthly_count": 31,
-  "avg_rank": 472.7,
+  "avg_rank": 472.4,
   "best_rank": 16,
   "trend": "stable"
 }

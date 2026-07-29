@@ -4,14 +4,14 @@
   "history": [
     {
       "date": "2026-07-29",
-      "rank": 84,
+      "rank": 89,
       "price": 0,
-      "change_pct": 147.2428
+      "change_pct": 138.8066
     }
   ],
   "continuous_days": 1,
   "monthly_count": 1,
-  "avg_rank": 84.0,
-  "best_rank": 84,
+  "avg_rank": 89.0,
+  "best_rank": 89,
   "trend": "stable"
 }

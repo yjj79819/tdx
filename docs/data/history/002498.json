@@ -3,10 +3,6 @@
   "name": "汉缆股份",
   "history": [
     {
-      "date": "2026-06-27",
-      "rank": 851
-    },
-    {
       "date": "2026-06-28",
       "rank": 828
     },
@@ -124,18 +120,22 @@
     },
     {
       "date": "2026-07-27",
-      "rank": 66
+      "rank": 82
     },
     {
       "date": "2026-07-28",
-      "rank": 44,
-      "price": 6.54,
-      "change_pct": -7.89
+      "rank": 49
+    },
+    {
+      "date": "2026-07-29",
+      "rank": 100,
+      "price": 7.19,
+      "change_pct": 9.9388
     }
   ],
   "continuous_days": 32,
   "monthly_count": 32,
-  "avg_rank": 718.2,
+  "avg_rank": 695.4,
   "best_rank": 33,
   "trend": "stable"
 }
