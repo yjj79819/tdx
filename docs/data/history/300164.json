@@ -3,10 +3,6 @@
   "name": "通源石油",
   "history": [
     {
-      "date": "2026-06-28",
-      "rank": 1283
-    },
-    {
       "date": "2026-06-29",
       "rank": 1607
     },
@@ -116,18 +112,22 @@
     },
     {
       "date": "2026-07-28",
-      "rank": 78
+      "rank": 77
     },
     {
       "date": "2026-07-29",
-      "rank": 61,
-      "price": 10.8,
-      "change_pct": -0.09
+      "rank": 66
+    },
+    {
+      "date": "2026-07-30",
+      "rank": 40,
+      "price": 11.7,
+      "change_pct": 8.1481
     }
   ],
   "continuous_days": 30,
   "monthly_count": 30,
-  "avg_rank": 476.3,
+  "avg_rank": 435.0,
   "best_rank": 31,
   "trend": "stable"
 }

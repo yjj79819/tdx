@@ -7562,5 +7562,103 @@
     "win_count": 3,
     "total": 8,
     "rank_improved": 4
+  },
+  {
+    "review_date": "2026-07-30",
+    "target_date": "2026-07-29",
+    "results": [
+      {
+        "code": "600396",
+        "name": "华电辽能",
+        "prev_rank": 4,
+        "prev_price": 16.16,
+        "today_rank": "-",
+        "today_price": 16.16,
+        "price_change": 0.0,
+        "still_in_top50": false,
+        "rank_change": 0
+      },
+      {
+        "code": "000533",
+        "name": "顺钠股份",
+        "prev_rank": 10,
+        "prev_price": 12.13,
+        "today_rank": "-",
+        "today_price": 12.13,
+        "price_change": 0.0,
+        "still_in_top50": false,
+        "rank_change": 0
+      },
+      {
+        "code": "002195",
+        "name": "岩山科技",
+        "prev_rank": 21,
+        "prev_price": 6.69,
+        "today_rank": 51,
+        "today_price": 6.66,
+        "price_change": -0.45,
+        "still_in_top50": true,
+        "rank_change": -30
+      },
+      {
+        "code": "600744",
+        "name": "华银电力",
+        "prev_rank": 34,
+        "prev_price": 7.11,
+        "today_rank": "-",
+        "today_price": 7.11,
+        "price_change": 0.0,
+        "still_in_top50": false,
+        "rank_change": 0
+      },
+      {
+        "code": "002141",
+        "name": "贤丰控股",
+        "prev_rank": 22,
+        "prev_price": 6.3,
+        "today_rank": "-",
+        "today_price": 6.3,
+        "price_change": 0.0,
+        "still_in_top50": false,
+        "rank_change": 0
+      },
+      {
+        "code": "002298",
+        "name": "中电鑫龙",
+        "prev_rank": 36,
+        "prev_price": 8.77,
+        "today_rank": 32,
+        "today_price": 8.99,
+        "price_change": 2.51,
+        "still_in_top50": true,
+        "rank_change": 4
+      },
+      {
+        "code": "600722",
+        "name": "金牛化工",
+        "prev_rank": 16,
+        "prev_price": 10.19,
+        "today_rank": 21,
+        "today_price": 10.92,
+        "price_change": 7.16,
+        "still_in_top50": true,
+        "rank_change": -5
+      },
+      {
+        "code": "600693",
+        "name": "东百集团",
+        "prev_rank": 25,
+        "prev_price": 9.47,
+        "today_rank": 11,
+        "today_price": 9.3,
+        "price_change": -1.8,
+        "still_in_top50": true,
+        "rank_change": 14
+      }
+    ],
+    "win_rate": 25.0,
+    "win_count": 2,
+    "total": 8,
+    "rank_improved": 2
   }
 ]

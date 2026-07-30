@@ -3,10 +3,6 @@
   "name": "宏桥控股",
   "history": [
     {
-      "date": "2026-06-25",
-      "rank": 1993
-    },
-    {
       "date": "2026-06-29",
       "rank": 1957
     },
@@ -80,18 +76,42 @@
     },
     {
       "date": "2026-07-23",
-      "rank": 173
+      "rank": 204
     },
     {
       "date": "2026-07-24",
-      "rank": 82,
-      "price": 19.06,
-      "change_pct": -6.8
+      "rank": 228
+    },
+    {
+      "date": "2026-07-25",
+      "rank": 223
+    },
+    {
+      "date": "2026-07-26",
+      "rank": 281
+    },
+    {
+      "date": "2026-07-27",
+      "rank": 298
+    },
+    {
+      "date": "2026-07-28",
+      "rank": 185
+    },
+    {
+      "date": "2026-07-29",
+      "rank": 160
+    },
+    {
+      "date": "2026-07-30",
+      "rank": 95,
+      "price": 21.51,
+      "change_pct": 4.8733
     }
   ],
-  "continuous_days": 21,
-  "monthly_count": 21,
-  "avg_rank": 750.6,
-  "best_rank": 82,
+  "continuous_days": 26,
+  "monthly_count": 26,
+  "avg_rank": 584.2,
+  "best_rank": 95,
   "trend": "stable"
 }

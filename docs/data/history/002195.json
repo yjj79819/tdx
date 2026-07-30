@@ -3,10 +3,6 @@
   "name": "岩山科技",
   "history": [
     {
-      "date": "2026-06-28",
-      "rank": 440
-    },
-    {
       "date": "2026-06-29",
       "rank": 465
     },
@@ -128,14 +124,18 @@
     },
     {
       "date": "2026-07-29",
-      "rank": 21,
-      "price": 6.69,
-      "change_pct": -2.05
+      "rank": 64
+    },
+    {
+      "date": "2026-07-30",
+      "rank": 51,
+      "price": 6.66,
+      "change_pct": -0.4484
     }
   ],
   "continuous_days": 32,
   "monthly_count": 32,
-  "avg_rank": 332.4,
-  "best_rank": 21,
+  "avg_rank": 321.6,
+  "best_rank": 23,
   "trend": "stable"
 }

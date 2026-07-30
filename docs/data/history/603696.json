@@ -1,0 +1,25 @@
+{
+  "code": "603696",
+  "name": "安记食品",
+  "history": [
+    {
+      "date": "2026-07-28",
+      "rank": 574
+    },
+    {
+      "date": "2026-07-29",
+      "rank": 245
+    },
+    {
+      "date": "2026-07-30",
+      "rank": 68,
+      "price": 13.23,
+      "change_pct": 9.9751
+    }
+  ],
+  "continuous_days": 3,
+  "monthly_count": 3,
+  "avg_rank": 295.7,
+  "best_rank": 68,
+  "trend": "stable"
+}

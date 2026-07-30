@@ -3,10 +3,6 @@
   "name": "中电鑫龙",
   "history": [
     {
-      "date": "2026-06-28",
-      "rank": 1430
-    },
-    {
       "date": "2026-06-29",
       "rank": 1344
     },
@@ -120,18 +116,22 @@
     },
     {
       "date": "2026-07-28",
-      "rank": 91
+      "rank": 71
     },
     {
       "date": "2026-07-29",
-      "rank": 36,
-      "price": 8.77,
-      "change_pct": 10.04
+      "rank": 65
+    },
+    {
+      "date": "2026-07-30",
+      "rank": 32,
+      "price": 8.99,
+      "change_pct": 2.5086
     }
   ],
   "continuous_days": 31,
   "monthly_count": 31,
-  "avg_rank": 1287.7,
+  "avg_rank": 1242.9,
   "best_rank": 26,
   "trend": "stable"
 }

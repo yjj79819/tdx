@@ -3,10 +3,6 @@
   "name": "贵州茅台",
   "history": [
     {
-      "date": "2026-06-28",
-      "rank": 168
-    },
-    {
       "date": "2026-06-29",
       "rank": 297
     },
@@ -124,18 +120,22 @@
     },
     {
       "date": "2026-07-28",
-      "rank": 53
+      "rank": 56
     },
     {
       "date": "2026-07-29",
-      "rank": 97,
-      "price": 1321.0,
-      "change_pct": 0.08
+      "rank": 29
+    },
+    {
+      "date": "2026-07-30",
+      "rank": 89,
+      "price": 1352.0,
+      "change_pct": 2.346
     }
   ],
   "continuous_days": 32,
   "monthly_count": 32,
-  "avg_rank": 158.8,
+  "avg_rank": 154.3,
   "best_rank": 14,
   "trend": "stable"
 }

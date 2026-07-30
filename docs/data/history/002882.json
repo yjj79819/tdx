@@ -1,0 +1,25 @@
+{
+  "code": "002882",
+  "name": "金龙羽",
+  "history": [
+    {
+      "date": "2026-07-28",
+      "rank": 393
+    },
+    {
+      "date": "2026-07-29",
+      "rank": 165
+    },
+    {
+      "date": "2026-07-30",
+      "rank": 58,
+      "price": 21.62,
+      "change_pct": 10.0254
+    }
+  ],
+  "continuous_days": 3,
+  "monthly_count": 3,
+  "avg_rank": 205.3,
+  "best_rank": 58,
+  "trend": "stable"
+}

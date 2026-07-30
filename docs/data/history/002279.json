@@ -3,10 +3,6 @@
   "name": "久其软件",
   "history": [
     {
-      "date": "2026-06-28",
-      "rank": 1528
-    },
-    {
       "date": "2026-06-29",
       "rank": 1667
     },
@@ -120,18 +116,22 @@
     },
     {
       "date": "2026-07-28",
-      "rank": 129
+      "rank": 139
     },
     {
       "date": "2026-07-29",
-      "rank": 53,
-      "price": 6.67,
-      "change_pct": 3.09
+      "rank": 180
+    },
+    {
+      "date": "2026-07-30",
+      "rank": 81,
+      "price": 6.72,
+      "change_pct": 0.7496
     }
   ],
   "continuous_days": 31,
   "monthly_count": 31,
-  "avg_rank": 1154.5,
-  "best_rank": 53,
+  "avg_rank": 1112.3,
+  "best_rank": 81,
   "trend": "stable"
 }

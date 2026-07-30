@@ -1,0 +1,25 @@
+{
+  "code": "605388",
+  "name": "均瑶健康",
+  "history": [
+    {
+      "date": "2026-07-28",
+      "rank": 403
+    },
+    {
+      "date": "2026-07-29",
+      "rank": 198
+    },
+    {
+      "date": "2026-07-30",
+      "rank": 77,
+      "price": 6.12,
+      "change_pct": 10.0719
+    }
+  ],
+  "continuous_days": 3,
+  "monthly_count": 3,
+  "avg_rank": 226.0,
+  "best_rank": 77,
+  "trend": "stable"
+}

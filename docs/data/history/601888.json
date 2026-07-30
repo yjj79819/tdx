@@ -3,10 +3,6 @@
   "name": "中国中免",
   "history": [
     {
-      "date": "2026-06-28",
-      "rank": 208
-    },
-    {
       "date": "2026-06-29",
       "rank": 328
     },
@@ -124,18 +120,22 @@
     },
     {
       "date": "2026-07-28",
-      "rank": 67
+      "rank": 61
     },
     {
       "date": "2026-07-29",
-      "rank": 67,
-      "price": 57.38,
-      "change_pct": 3.37
+      "rank": 70
+    },
+    {
+      "date": "2026-07-30",
+      "rank": 87,
+      "price": 57.74,
+      "change_pct": 0.61
     }
   ],
   "continuous_days": 32,
   "monthly_count": 32,
-  "avg_rank": 208.8,
-  "best_rank": 64,
+  "avg_rank": 205.0,
+  "best_rank": 61,
   "trend": "stable"
 }

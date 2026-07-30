@@ -1,0 +1,37 @@
+{
+  "code": "301677",
+  "name": "欣兴工具",
+  "history": [
+    {
+      "date": "2026-07-19",
+      "rank": 1287
+    },
+    {
+      "date": "2026-07-20",
+      "rank": 1672
+    },
+    {
+      "date": "2026-07-24",
+      "rank": 1665
+    },
+    {
+      "date": "2026-07-25",
+      "rank": 1293
+    },
+    {
+      "date": "2026-07-29",
+      "rank": 93
+    },
+    {
+      "date": "2026-07-30",
+      "rank": 33,
+      "price": 87.31,
+      "change_pct": 159.9762
+    }
+  ],
+  "continuous_days": 6,
+  "monthly_count": 6,
+  "avg_rank": 1007.2,
+  "best_rank": 33,
+  "trend": "stable"
+}

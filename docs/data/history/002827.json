@@ -1,0 +1,41 @@
+{
+  "code": "002827",
+  "name": "高争民爆",
+  "history": [
+    {
+      "date": "2026-07-13",
+      "rank": 1608
+    },
+    {
+      "date": "2026-07-22",
+      "rank": 1900
+    },
+    {
+      "date": "2026-07-26",
+      "rank": 1986
+    },
+    {
+      "date": "2026-07-27",
+      "rank": 1102
+    },
+    {
+      "date": "2026-07-28",
+      "rank": 368
+    },
+    {
+      "date": "2026-07-29",
+      "rank": 253
+    },
+    {
+      "date": "2026-07-30",
+      "rank": 75,
+      "price": 31.45,
+      "change_pct": 10.0035
+    }
+  ],
+  "continuous_days": 7,
+  "monthly_count": 7,
+  "avg_rank": 1041.7,
+  "best_rank": 75,
+  "trend": "stable"
+}
