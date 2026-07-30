@@ -3,10 +3,6 @@
   "name": "全志科技",
   "history": [
     {
-      "date": "2026-06-28",
-      "rank": 500
-    },
-    {
       "date": "2026-06-29",
       "rank": 524
     },
@@ -124,18 +120,22 @@
     },
     {
       "date": "2026-07-28",
-      "rank": 87
+      "rank": 81
     },
     {
       "date": "2026-07-29",
-      "rank": 76,
-      "price": 39.74,
-      "change_pct": 1.09
+      "rank": 59
+    },
+    {
+      "date": "2026-07-30",
+      "rank": 98,
+      "price": 31.82,
+      "change_pct": -19.9295
     }
   ],
   "continuous_days": 32,
   "monthly_count": 32,
-  "avg_rank": 302.6,
+  "avg_rank": 289.3,
   "best_rank": 49,
   "trend": "stable"
 }

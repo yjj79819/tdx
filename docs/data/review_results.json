@@ -7660,5 +7660,103 @@
     "win_count": 2,
     "total": 8,
     "rank_improved": 2
+  },
+  {
+    "review_date": "2026-07-30",
+    "target_date": "2026-07-30",
+    "results": [
+      {
+        "code": "001258",
+        "name": "立新能源",
+        "prev_rank": 2,
+        "prev_price": 11.82,
+        "today_rank": 3,
+        "today_price": 12.35,
+        "price_change": 4.48,
+        "still_in_top50": true,
+        "rank_change": -1
+      },
+      {
+        "code": "600664",
+        "name": "哈药股份",
+        "prev_rank": 15,
+        "prev_price": 5.47,
+        "today_rank": 12,
+        "today_price": 5.56,
+        "price_change": 1.65,
+        "still_in_top50": true,
+        "rank_change": 3
+      },
+      {
+        "code": "002298",
+        "name": "中电鑫龙",
+        "prev_rank": 32,
+        "prev_price": 8.99,
+        "today_rank": 45,
+        "today_price": 8.81,
+        "price_change": -2.0,
+        "still_in_top50": true,
+        "rank_change": -13
+      },
+      {
+        "code": "600693",
+        "name": "东百集团",
+        "prev_rank": 11,
+        "prev_price": 9.3,
+        "today_rank": 14,
+        "today_price": 9.19,
+        "price_change": -1.18,
+        "still_in_top50": true,
+        "rank_change": -3
+      },
+      {
+        "code": "605179",
+        "name": "一鸣食品",
+        "prev_rank": 9,
+        "prev_price": 17.61,
+        "today_rank": 22,
+        "today_price": 17.61,
+        "price_change": 0.0,
+        "still_in_top50": true,
+        "rank_change": -13
+      },
+      {
+        "code": "600578",
+        "name": "京能电力",
+        "prev_rank": 73,
+        "prev_price": 5.79,
+        "today_rank": 88,
+        "today_price": 5.77,
+        "price_change": -0.35,
+        "still_in_top50": true,
+        "rank_change": -15
+      },
+      {
+        "code": "600722",
+        "name": "金牛化工",
+        "prev_rank": 21,
+        "prev_price": 10.92,
+        "today_rank": 18,
+        "today_price": 10.88,
+        "price_change": -0.37,
+        "still_in_top50": true,
+        "rank_change": 3
+      },
+      {
+        "code": "003032",
+        "name": "传智教育",
+        "prev_rank": 29,
+        "prev_price": 8.01,
+        "today_rank": 47,
+        "today_price": 8.01,
+        "price_change": 0.0,
+        "still_in_top50": true,
+        "rank_change": -18
+      }
+    ],
+    "win_rate": 25.0,
+    "win_count": 2,
+    "total": 8,
+    "rank_improved": 2
   }
 ]
