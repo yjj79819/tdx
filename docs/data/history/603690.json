@@ -3,14 +3,6 @@
   "name": "至纯科技",
   "history": [
     {
-      "date": "2026-06-28",
-      "rank": 170
-    },
-    {
-      "date": "2026-06-29",
-      "rank": 201
-    },
-    {
       "date": "2026-06-30",
       "rank": 189
     },
@@ -124,18 +116,26 @@
     },
     {
       "date": "2026-07-28",
-      "rank": 68
+      "rank": 73
     },
     {
       "date": "2026-07-29",
-      "rank": 75,
-      "price": 24.77,
-      "change_pct": -4.73
+      "rank": 136
+    },
+    {
+      "date": "2026-07-30",
+      "rank": 140
+    },
+    {
+      "date": "2026-07-31",
+      "rank": 94,
+      "price": 21.7,
+      "change_pct": -2.6469
     }
   ],
   "continuous_days": 32,
   "monthly_count": 32,
-  "avg_rank": 336.8,
+  "avg_rank": 334.6,
   "best_rank": 25,
   "trend": "stable"
 }

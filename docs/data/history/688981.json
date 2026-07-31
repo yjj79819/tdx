@@ -3,18 +3,6 @@
   "name": "中芯国际",
   "history": [
     {
-      "date": "2026-06-27",
-      "rank": 285
-    },
-    {
-      "date": "2026-06-28",
-      "rank": 184
-    },
-    {
-      "date": "2026-06-29",
-      "rank": 139
-    },
-    {
       "date": "2026-06-30",
       "rank": 160
     },
@@ -124,18 +112,30 @@
     },
     {
       "date": "2026-07-27",
-      "rank": 58
+      "rank": 54
     },
     {
       "date": "2026-07-28",
-      "rank": 93,
-      "price": 136.7,
-      "change_pct": -4.92
+      "rank": 63
+    },
+    {
+      "date": "2026-07-29",
+      "rank": 73
+    },
+    {
+      "date": "2026-07-30",
+      "rank": 71
+    },
+    {
+      "date": "2026-07-31",
+      "rank": 96,
+      "price": 123.99,
+      "change_pct": 0.8131
     }
   ],
   "continuous_days": 32,
   "monthly_count": 32,
-  "avg_rank": 119.3,
+  "avg_rank": 106.8,
   "best_rank": 21,
   "trend": "stable"
 }

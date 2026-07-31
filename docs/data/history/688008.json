@@ -3,18 +3,6 @@
   "name": "澜起科技",
   "history": [
     {
-      "date": "2026-06-27",
-      "rank": 141
-    },
-    {
-      "date": "2026-06-28",
-      "rank": 45
-    },
-    {
-      "date": "2026-06-29",
-      "rank": 69
-    },
-    {
       "date": "2026-06-30",
       "rank": 69
     },
@@ -124,18 +112,30 @@
     },
     {
       "date": "2026-07-27",
-      "rank": 49
+      "rank": 48
     },
     {
       "date": "2026-07-28",
-      "rank": 94,
-      "price": 206.04,
-      "change_pct": -9.41
+      "rank": 50
+    },
+    {
+      "date": "2026-07-29",
+      "rank": 61
+    },
+    {
+      "date": "2026-07-30",
+      "rank": 42
+    },
+    {
+      "date": "2026-07-31",
+      "rank": 64,
+      "price": 204.9,
+      "change_pct": 4.1264
     }
   ],
   "continuous_days": 32,
   "monthly_count": 32,
-  "avg_rank": 79.1,
+  "avg_rank": 74.9,
   "best_rank": 15,
   "trend": "stable"
 }

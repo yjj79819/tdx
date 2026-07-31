@@ -3,18 +3,6 @@
   "name": "三花智控",
   "history": [
     {
-      "date": "2026-06-27",
-      "rank": 167
-    },
-    {
-      "date": "2026-06-28",
-      "rank": 128
-    },
-    {
-      "date": "2026-06-29",
-      "rank": 60
-    },
-    {
       "date": "2026-06-30",
       "rank": 85
     },
@@ -124,18 +112,30 @@
     },
     {
       "date": "2026-07-27",
-      "rank": 101
+      "rank": 107
     },
     {
       "date": "2026-07-28",
-      "rank": 86,
-      "price": 35.58,
-      "change_pct": -1.25
+      "rank": 96
+    },
+    {
+      "date": "2026-07-29",
+      "rank": 109
+    },
+    {
+      "date": "2026-07-30",
+      "rank": 49
+    },
+    {
+      "date": "2026-07-31",
+      "rank": 68,
+      "price": 37.53,
+      "change_pct": 5.8376
     }
   ],
   "continuous_days": 32,
   "monthly_count": 32,
-  "avg_rank": 76.4,
+  "avg_rank": 72.9,
   "best_rank": 7,
   "trend": "stable"
 }

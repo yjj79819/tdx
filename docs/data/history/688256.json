@@ -3,14 +3,6 @@
   "name": "寒武纪",
   "history": [
     {
-      "date": "2026-06-28",
-      "rank": 240
-    },
-    {
-      "date": "2026-06-29",
-      "rank": 55
-    },
-    {
       "date": "2026-06-30",
       "rank": 125
     },
@@ -124,18 +116,26 @@
     },
     {
       "date": "2026-07-28",
-      "rank": 29
+      "rank": 49
     },
     {
       "date": "2026-07-29",
-      "rank": 94,
-      "price": 1146.9,
-      "change_pct": 1.68
+      "rank": 38
+    },
+    {
+      "date": "2026-07-30",
+      "rank": 46
+    },
+    {
+      "date": "2026-07-31",
+      "rank": 81,
+      "price": 1106.0,
+      "change_pct": 6.0983
     }
   ],
   "continuous_days": 32,
   "monthly_count": 32,
-  "avg_rank": 123.7,
-  "best_rank": 29,
+  "avg_rank": 117.3,
+  "best_rank": 36,
   "trend": "stable"
 }
