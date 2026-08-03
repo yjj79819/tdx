@@ -3,18 +3,6 @@
   "name": "恒尚节能",
   "history": [
     {
-      "date": "2026-06-30",
-      "rank": 565
-    },
-    {
-      "date": "2026-07-01",
-      "rank": 426
-    },
-    {
-      "date": "2026-07-02",
-      "rank": 365
-    },
-    {
       "date": "2026-07-03",
       "rank": 156
     },
@@ -124,18 +112,30 @@
     },
     {
       "date": "2026-07-30",
-      "rank": 84
+      "rank": 90
     },
     {
       "date": "2026-07-31",
-      "rank": 43,
-      "price": 25.0,
-      "change_pct": -4.62
+      "rank": 89
+    },
+    {
+      "date": "2026-08-01",
+      "rank": 103
+    },
+    {
+      "date": "2026-08-02",
+      "rank": 142
+    },
+    {
+      "date": "2026-08-03",
+      "rank": 83,
+      "price": 25.51,
+      "change_pct": 2.04
     }
   ],
   "continuous_days": 32,
   "monthly_count": 32,
-  "avg_rank": 120.6,
+  "avg_rank": 90.1,
   "best_rank": 15,
   "trend": "stable"
 }

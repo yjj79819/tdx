@@ -3,18 +3,6 @@
   "name": "海南海药",
   "history": [
     {
-      "date": "2026-06-30",
-      "rank": 62
-    },
-    {
-      "date": "2026-07-01",
-      "rank": 34
-    },
-    {
-      "date": "2026-07-02",
-      "rank": 23
-    },
-    {
       "date": "2026-07-03",
       "rank": 37
     },
@@ -124,18 +112,30 @@
     },
     {
       "date": "2026-07-30",
-      "rank": 37
+      "rank": 50
     },
     {
       "date": "2026-07-31",
-      "rank": 36,
-      "price": 5.86,
-      "change_pct": -1.51
+      "rank": 78
+    },
+    {
+      "date": "2026-08-01",
+      "rank": 92
+    },
+    {
+      "date": "2026-08-02",
+      "rank": 92
+    },
+    {
+      "date": "2026-08-03",
+      "rank": 82,
+      "price": 5.67,
+      "change_pct": -3.2423
     }
   ],
   "continuous_days": 32,
   "monthly_count": 32,
-  "avg_rank": 87.2,
+  "avg_rank": 93.5,
   "best_rank": 20,
   "trend": "stable"
 }

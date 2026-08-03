@@ -3,10 +3,6 @@
   "name": "智度股份",
   "history": [
     {
-      "date": "2026-07-01",
-      "rank": 1959
-    },
-    {
       "date": "2026-07-09",
       "rank": 1927
     },
@@ -68,18 +64,38 @@
     },
     {
       "date": "2026-07-28",
-      "rank": 122
+      "rank": 134
     },
     {
       "date": "2026-07-29",
-      "rank": 72,
-      "price": 7.17,
-      "change_pct": -3.76
+      "rank": 188
+    },
+    {
+      "date": "2026-07-30",
+      "rank": 121
+    },
+    {
+      "date": "2026-07-31",
+      "rank": 36
+    },
+    {
+      "date": "2026-08-01",
+      "rank": 31
+    },
+    {
+      "date": "2026-08-02",
+      "rank": 63
+    },
+    {
+      "date": "2026-08-03",
+      "rank": 47,
+      "price": 7.59,
+      "change_pct": 1.3351
     }
   ],
-  "continuous_days": 18,
-  "monthly_count": 18,
-  "avg_rank": 329.0,
+  "continuous_days": 22,
+  "monthly_count": 22,
+  "avg_rank": 199.5,
   "best_rank": 17,
   "trend": "stable"
 }

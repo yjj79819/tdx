@@ -7856,5 +7856,103 @@
     "win_count": 3,
     "total": 8,
     "rank_improved": 0
+  },
+  {
+    "review_date": "2026-08-03",
+    "target_date": "2026-07-31",
+    "results": [
+      {
+        "code": "001258",
+        "name": "立新能源",
+        "prev_rank": 14,
+        "prev_price": 12.34,
+        "today_rank": 12,
+        "today_price": 12.73,
+        "price_change": 3.16,
+        "still_in_top50": true,
+        "rank_change": 2
+      },
+      {
+        "code": "600664",
+        "name": "哈药股份",
+        "prev_rank": 26,
+        "prev_price": 5.89,
+        "today_rank": 14,
+        "today_price": 5.99,
+        "price_change": 1.7,
+        "still_in_top50": true,
+        "rank_change": 12
+      },
+      {
+        "code": "600396",
+        "name": "华电辽能",
+        "prev_rank": 13,
+        "prev_price": 14.1,
+        "today_rank": 13,
+        "today_price": 15.51,
+        "price_change": 10.0,
+        "still_in_top50": true,
+        "rank_change": 0
+      },
+      {
+        "code": "002185",
+        "name": "华天科技",
+        "prev_rank": 10,
+        "prev_price": 15.47,
+        "today_rank": 26,
+        "today_price": 14.77,
+        "price_change": -4.52,
+        "still_in_top50": true,
+        "rank_change": -16
+      },
+      {
+        "code": "600667",
+        "name": "太极实业",
+        "prev_rank": 5,
+        "prev_price": 17.23,
+        "today_rank": "-",
+        "today_price": 17.23,
+        "price_change": 0.0,
+        "still_in_top50": false,
+        "rank_change": 0
+      },
+      {
+        "code": "600744",
+        "name": "华银电力",
+        "prev_rank": 88,
+        "prev_price": 6.93,
+        "today_rank": "-",
+        "today_price": 6.93,
+        "price_change": 0.0,
+        "still_in_top50": false,
+        "rank_change": 0
+      },
+      {
+        "code": "603118",
+        "name": "共进股份",
+        "prev_rank": 39,
+        "prev_price": 14.51,
+        "today_rank": "-",
+        "today_price": 14.51,
+        "price_change": 0.0,
+        "still_in_top50": false,
+        "rank_change": 0
+      },
+      {
+        "code": "002195",
+        "name": "岩山科技",
+        "prev_rank": 83,
+        "prev_price": 6.8,
+        "today_rank": 91,
+        "today_price": 6.87,
+        "price_change": 1.03,
+        "still_in_top50": true,
+        "rank_change": -8
+      }
+    ],
+    "win_rate": 50.0,
+    "win_count": 4,
+    "total": 8,
+    "rank_improved": 2
   }
 ]

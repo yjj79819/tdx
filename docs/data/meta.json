@@ -1,12 +1,15 @@
 {
-  "last_update": "2026-07-31 07:46:44",
-  "stock_count": 31,
+  "last_update": "2026-08-03 08:22:09",
+  "stock_count": 39,
   "data_version": "3.0",
-  "unique_stocks": 31,
-  "total_records": 3007,
-  "dates": 97,
-  "latest_date": "2026-07-31",
+  "unique_stocks": 39,
+  "total_records": 3900,
+  "dates": 100,
+  "latest_date": "2026-08-03",
   "available_dates": [
+    "2026-08-03",
+    "2026-08-02",
+    "2026-08-01",
     "2026-07-31",
     "2026-07-30",
     "2026-07-29",
@@ -104,6 +107,5 @@
     "2026-04-28",
     "2026-04-27",
     "2026-04-26"
-  ],
-  "last_price_update": "2026-08-03 04:48:04"
+  ]
 }
