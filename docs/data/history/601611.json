@@ -3,10 +3,6 @@
   "name": "中国核建",
   "history": [
     {
-      "date": "2026-07-03",
-      "rank": 878
-    },
-    {
       "date": "2026-07-04",
       "rank": 859
     },
@@ -124,18 +120,22 @@
     },
     {
       "date": "2026-08-02",
-      "rank": 68
+      "rank": 57
     },
     {
       "date": "2026-08-03",
-      "rank": 38,
-      "price": 11.61,
-      "change_pct": 10.0474
+      "rank": 47
+    },
+    {
+      "date": "2026-08-04",
+      "rank": 30,
+      "price": 12.22,
+      "change_pct": 5.168
     }
   ],
   "continuous_days": 32,
   "monthly_count": 32,
-  "avg_rank": 902.9,
-  "best_rank": 38,
+  "avg_rank": 876.4,
+  "best_rank": 30,
   "trend": "stable"
 }

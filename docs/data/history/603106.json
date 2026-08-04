@@ -1,0 +1,37 @@
+{
+  "code": "603106",
+  "name": "恒银科技",
+  "history": [
+    {
+      "date": "2026-07-30",
+      "rank": 775
+    },
+    {
+      "date": "2026-07-31",
+      "rank": 232
+    },
+    {
+      "date": "2026-08-01",
+      "rank": 157
+    },
+    {
+      "date": "2026-08-02",
+      "rank": 177
+    },
+    {
+      "date": "2026-08-03",
+      "rank": 142
+    },
+    {
+      "date": "2026-08-04",
+      "rank": 44,
+      "price": 9.04,
+      "change_pct": 9.9757
+    }
+  ],
+  "continuous_days": 6,
+  "monthly_count": 6,
+  "avg_rank": 254.5,
+  "best_rank": 44,
+  "trend": "stable"
+}

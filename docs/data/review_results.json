@@ -7954,5 +7954,103 @@
     "win_count": 4,
     "total": 8,
     "rank_improved": 2
+  },
+  {
+    "review_date": "2026-08-04",
+    "target_date": "2026-08-03",
+    "results": [
+      {
+        "code": "600396",
+        "name": "华电辽能",
+        "prev_rank": 13,
+        "prev_price": 15.51,
+        "today_rank": 3,
+        "today_price": 16.26,
+        "price_change": 4.84,
+        "still_in_top50": true,
+        "rank_change": 10
+      },
+      {
+        "code": "300058",
+        "name": "蓝色光标",
+        "prev_rank": 5,
+        "prev_price": 14.72,
+        "today_rank": 17,
+        "today_price": 15.51,
+        "price_change": 5.37,
+        "still_in_top50": true,
+        "rank_change": -12
+      },
+      {
+        "code": "002131",
+        "name": "利欧股份",
+        "prev_rank": 2,
+        "prev_price": 5.13,
+        "today_rank": 1,
+        "today_price": 5.37,
+        "price_change": 4.68,
+        "still_in_top50": true,
+        "rank_change": 1
+      },
+      {
+        "code": "001258",
+        "name": "立新能源",
+        "prev_rank": 12,
+        "prev_price": 12.73,
+        "today_rank": 25,
+        "today_price": 13.28,
+        "price_change": 4.32,
+        "still_in_top50": true,
+        "rank_change": -13
+      },
+      {
+        "code": "002354",
+        "name": "天娱数科",
+        "prev_rank": 6,
+        "prev_price": 7.16,
+        "today_rank": 8,
+        "today_price": 7.88,
+        "price_change": 10.06,
+        "still_in_top50": true,
+        "rank_change": -2
+      },
+      {
+        "code": "000815",
+        "name": "美利云",
+        "prev_rank": 8,
+        "prev_price": 16.7,
+        "today_rank": 5,
+        "today_price": 18.37,
+        "price_change": 10.0,
+        "still_in_top50": true,
+        "rank_change": 3
+      },
+      {
+        "code": "600664",
+        "name": "哈药股份",
+        "prev_rank": 14,
+        "prev_price": 5.99,
+        "today_rank": 15,
+        "today_price": 6.38,
+        "price_change": 6.51,
+        "still_in_top50": true,
+        "rank_change": -1
+      },
+      {
+        "code": "002185",
+        "name": "华天科技",
+        "prev_rank": 26,
+        "prev_price": 14.77,
+        "today_rank": 33,
+        "today_price": 15.53,
+        "price_change": 5.15,
+        "still_in_top50": true,
+        "rank_change": -7
+      }
+    ],
+    "win_rate": 100.0,
+    "win_count": 8,
+    "total": 8,
+    "rank_improved": 3
   }
 ]
