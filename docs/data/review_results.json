@@ -8052,5 +8052,103 @@
     "win_count": 8,
     "total": 8,
     "rank_improved": 3
+  },
+  {
+    "review_date": "2026-08-04",
+    "target_date": "2026-08-04",
+    "results": [
+      {
+        "code": "002131",
+        "name": "利欧股份",
+        "prev_rank": 1,
+        "prev_price": 5.37,
+        "today_rank": "-",
+        "today_price": 5.37,
+        "price_change": 0.0,
+        "still_in_top50": false,
+        "rank_change": 0
+      },
+      {
+        "code": "002354",
+        "name": "天娱数科",
+        "prev_rank": 8,
+        "prev_price": 7.88,
+        "today_rank": "-",
+        "today_price": 7.88,
+        "price_change": 0.0,
+        "still_in_top50": false,
+        "rank_change": 0
+      },
+      {
+        "code": "600396",
+        "name": "华电辽能",
+        "prev_rank": 3,
+        "prev_price": 16.26,
+        "today_rank": "-",
+        "today_price": 16.26,
+        "price_change": 0.0,
+        "still_in_top50": false,
+        "rank_change": 0
+      },
+      {
+        "code": "000815",
+        "name": "美利云",
+        "prev_rank": 5,
+        "prev_price": 18.37,
+        "today_rank": "-",
+        "today_price": 18.37,
+        "price_change": 0.0,
+        "still_in_top50": false,
+        "rank_change": 0
+      },
+      {
+        "code": "600664",
+        "name": "哈药股份",
+        "prev_rank": 15,
+        "prev_price": 6.38,
+        "today_rank": "-",
+        "today_price": 6.38,
+        "price_change": 0.0,
+        "still_in_top50": false,
+        "rank_change": 0
+      },
+      {
+        "code": "002421",
+        "name": "达实智能",
+        "prev_rank": 24,
+        "prev_price": 3.48,
+        "today_rank": "-",
+        "today_price": 3.48,
+        "price_change": 0.0,
+        "still_in_top50": false,
+        "rank_change": 0
+      },
+      {
+        "code": "001258",
+        "name": "立新能源",
+        "prev_rank": 25,
+        "prev_price": 13.28,
+        "today_rank": "-",
+        "today_price": 13.28,
+        "price_change": 0.0,
+        "still_in_top50": false,
+        "rank_change": 0
+      },
+      {
+        "code": "000533",
+        "name": "顺钠股份",
+        "prev_rank": 13,
+        "prev_price": 12.6,
+        "today_rank": "-",
+        "today_price": 12.6,
+        "price_change": 0.0,
+        "still_in_top50": false,
+        "rank_change": 0
+      }
+    ],
+    "win_rate": 0.0,
+    "win_count": 0,
+    "total": 8,
+    "rank_improved": 0
   }
 ]
