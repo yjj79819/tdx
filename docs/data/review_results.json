@@ -8150,5 +8150,103 @@
     "win_count": 0,
     "total": 8,
     "rank_improved": 0
+  },
+  {
+    "review_date": "2026-08-05",
+    "target_date": "2026-08-04",
+    "results": [
+      {
+        "code": "000595",
+        "name": "新能股份",
+        "prev_rank": 58,
+        "prev_price": 6.56,
+        "today_rank": 33,
+        "today_price": 6.75,
+        "price_change": 2.9,
+        "still_in_top50": true,
+        "rank_change": 25
+      },
+      {
+        "code": "600468",
+        "name": "百利电气",
+        "prev_rank": 90,
+        "prev_price": 6.72,
+        "today_rank": "-",
+        "today_price": 6.72,
+        "price_change": 0.0,
+        "still_in_top50": false,
+        "rank_change": 0
+      },
+      {
+        "code": "601700",
+        "name": "风范股份",
+        "prev_rank": 98,
+        "prev_price": 5.92,
+        "today_rank": 52,
+        "today_price": 6.51,
+        "price_change": 9.97,
+        "still_in_top50": true,
+        "rank_change": 46
+      },
+      {
+        "code": "000566",
+        "name": "海南海药",
+        "prev_rank": 56,
+        "prev_price": 5.86,
+        "today_rank": 97,
+        "today_price": 6.0,
+        "price_change": 2.39,
+        "still_in_top50": true,
+        "rank_change": -41
+      },
+      {
+        "code": "002195",
+        "name": "岩山科技",
+        "prev_rank": 54,
+        "prev_price": 7.03,
+        "today_rank": "-",
+        "today_price": 7.03,
+        "price_change": 0.0,
+        "still_in_top50": false,
+        "rank_change": 0
+      },
+      {
+        "code": "002498",
+        "name": "汉缆股份",
+        "prev_rank": 63,
+        "prev_price": 7.38,
+        "today_rank": 83,
+        "today_price": 7.16,
+        "price_change": -2.98,
+        "still_in_top50": true,
+        "rank_change": -20
+      },
+      {
+        "code": "600588",
+        "name": "用友网络",
+        "prev_rank": 96,
+        "prev_price": 11.38,
+        "today_rank": "-",
+        "today_price": 11.38,
+        "price_change": 0.0,
+        "still_in_top50": false,
+        "rank_change": 0
+      },
+      {
+        "code": "601179",
+        "name": "中国西电",
+        "prev_rank": 51,
+        "prev_price": 14.37,
+        "today_rank": 76,
+        "today_price": 14.15,
+        "price_change": -1.53,
+        "still_in_top50": true,
+        "rank_change": -25
+      }
+    ],
+    "win_rate": 37.5,
+    "win_count": 3,
+    "total": 8,
+    "rank_improved": 2
   }
 ]

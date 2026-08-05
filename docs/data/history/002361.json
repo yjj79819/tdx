@@ -3,10 +3,6 @@
   "name": "神剑股份",
   "history": [
     {
-      "date": "2026-07-04",
-      "rank": 177
-    },
-    {
       "date": "2026-07-05",
       "rank": 45
     },
@@ -124,18 +120,22 @@
     },
     {
       "date": "2026-08-03",
-      "rank": 47
+      "rank": 45
     },
     {
       "date": "2026-08-04",
-      "rank": 57,
-      "price": 11.1,
-      "change_pct": 10.01
+      "rank": 51
+    },
+    {
+      "date": "2026-08-05",
+      "rank": 51,
+      "price": 11.3,
+      "change_pct": 1.8919
     }
   ],
   "continuous_days": 32,
   "monthly_count": 32,
-  "avg_rank": 242.2,
+  "avg_rank": 238.1,
   "best_rank": 30,
   "trend": "stable"
 }

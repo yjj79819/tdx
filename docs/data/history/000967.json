@@ -3,10 +3,6 @@
   "name": "盈峰环境",
   "history": [
     {
-      "date": "2026-07-04",
-      "rank": 615
-    },
-    {
       "date": "2026-07-05",
       "rank": 709
     },
@@ -124,18 +120,22 @@
     },
     {
       "date": "2026-08-03",
-      "rank": 79
+      "rank": 85
     },
     {
       "date": "2026-08-04",
-      "rank": 52,
-      "price": 9.09,
-      "change_pct": 5.21
+      "rank": 143
+    },
+    {
+      "date": "2026-08-05",
+      "rank": 93,
+      "price": 9.38,
+      "change_pct": 3.1903
     }
   ],
   "continuous_days": 32,
   "monthly_count": 32,
-  "avg_rank": 923.3,
-  "best_rank": 52,
+  "avg_rank": 910.0,
+  "best_rank": 85,
   "trend": "stable"
 }
