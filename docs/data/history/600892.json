@@ -1,0 +1,33 @@
+{
+  "code": "600892",
+  "name": "大晟文化",
+  "history": [
+    {
+      "date": "2026-07-08",
+      "rank": 1339
+    },
+    {
+      "date": "2026-08-03",
+      "rank": 1174
+    },
+    {
+      "date": "2026-08-04",
+      "rank": 444
+    },
+    {
+      "date": "2026-08-05",
+      "rank": 205
+    },
+    {
+      "date": "2026-08-06",
+      "rank": 71,
+      "price": 4.58,
+      "change_pct": 10.0962
+    }
+  ],
+  "continuous_days": 5,
+  "monthly_count": 5,
+  "avg_rank": 646.6,
+  "best_rank": 71,
+  "trend": "stable"
+}

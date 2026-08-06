@@ -8346,5 +8346,103 @@
     "win_count": 7,
     "total": 8,
     "rank_improved": 4
+  },
+  {
+    "review_date": "2026-08-06",
+    "target_date": "2026-08-05",
+    "results": [
+      {
+        "code": "600396",
+        "name": "华电辽能",
+        "prev_rank": 17,
+        "prev_price": 17.53,
+        "today_rank": 20,
+        "today_price": 17.18,
+        "price_change": -2.0,
+        "still_in_top50": true,
+        "rank_change": -3
+      },
+      {
+        "code": "000815",
+        "name": "美利云",
+        "prev_rank": 8,
+        "prev_price": 18.85,
+        "today_rank": 21,
+        "today_price": 18.11,
+        "price_change": -3.93,
+        "still_in_top50": true,
+        "rank_change": -13
+      },
+      {
+        "code": "002354",
+        "name": "天娱数科",
+        "prev_rank": 12,
+        "prev_price": 7.92,
+        "today_rank": 12,
+        "today_price": 7.93,
+        "price_change": 0.13,
+        "still_in_top50": true,
+        "rank_change": 0
+      },
+      {
+        "code": "002131",
+        "name": "利欧股份",
+        "prev_rank": 7,
+        "prev_price": 5.67,
+        "today_rank": 17,
+        "today_price": 5.43,
+        "price_change": -4.23,
+        "still_in_top50": true,
+        "rank_change": -10
+      },
+      {
+        "code": "003032",
+        "name": "传智教育",
+        "prev_rank": 15,
+        "prev_price": 11.73,
+        "today_rank": "-",
+        "today_price": 11.73,
+        "price_change": 0.0,
+        "still_in_top50": false,
+        "rank_change": 0
+      },
+      {
+        "code": "002421",
+        "name": "达实智能",
+        "prev_rank": 31,
+        "prev_price": 3.53,
+        "today_rank": 77,
+        "today_price": 3.4,
+        "price_change": -3.68,
+        "still_in_top50": true,
+        "rank_change": -46
+      },
+      {
+        "code": "600664",
+        "name": "哈药股份",
+        "prev_rank": 21,
+        "prev_price": 6.77,
+        "today_rank": 10,
+        "today_price": 6.51,
+        "price_change": -3.84,
+        "still_in_top50": true,
+        "rank_change": 11
+      },
+      {
+        "code": "000981",
+        "name": "山子高科",
+        "prev_rank": 28,
+        "prev_price": 3.17,
+        "today_rank": "-",
+        "today_price": 3.17,
+        "price_change": 0.0,
+        "still_in_top50": false,
+        "rank_change": 0
+      }
+    ],
+    "win_rate": 12.5,
+    "win_count": 1,
+    "total": 8,
+    "rank_improved": 1
   }
 ]

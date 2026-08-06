@@ -3,10 +3,6 @@
   "name": "达实智能",
   "history": [
     {
-      "date": "2026-07-05",
-      "rank": 420
-    },
-    {
       "date": "2026-07-06",
       "rank": 432
     },
@@ -124,18 +120,22 @@
     },
     {
       "date": "2026-08-04",
-      "rank": 57
+      "rank": 64
     },
     {
       "date": "2026-08-05",
-      "rank": 31,
-      "price": 3.53,
-      "change_pct": 1.44
+      "rank": 104
+    },
+    {
+      "date": "2026-08-06",
+      "rank": 77,
+      "price": 3.4,
+      "change_pct": -3.966
     }
   ],
   "continuous_days": 32,
   "monthly_count": 32,
-  "avg_rank": 493.6,
-  "best_rank": 31,
+  "avg_rank": 485.4,
+  "best_rank": 47,
   "trend": "stable"
 }

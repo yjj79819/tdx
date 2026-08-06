@@ -3,10 +3,6 @@
   "name": "兴业科技",
   "history": [
     {
-      "date": "2026-07-05",
-      "rank": 126
-    },
-    {
       "date": "2026-07-06",
       "rank": 140
     },
@@ -124,18 +120,22 @@
     },
     {
       "date": "2026-08-04",
-      "rank": 142
+      "rank": 133
     },
     {
       "date": "2026-08-05",
-      "rank": 62,
-      "price": 26.93,
-      "change_pct": 10.01
+      "rank": 119
+    },
+    {
+      "date": "2026-08-06",
+      "rank": 76,
+      "price": 28.7,
+      "change_pct": 6.5726
     }
   ],
   "continuous_days": 32,
   "monthly_count": 32,
-  "avg_rank": 213.6,
+  "avg_rank": 213.5,
   "best_rank": 41,
   "trend": "stable"
 }

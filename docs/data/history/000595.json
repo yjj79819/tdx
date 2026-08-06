@@ -3,10 +3,6 @@
   "name": "新能股份",
   "history": [
     {
-      "date": "2026-07-05",
-      "rank": 399
-    },
-    {
       "date": "2026-07-06",
       "rank": 474
     },
@@ -124,18 +120,22 @@
     },
     {
       "date": "2026-08-04",
-      "rank": 66
+      "rank": 75
     },
     {
       "date": "2026-08-05",
-      "rank": 36,
-      "price": 6.67,
-      "change_pct": 1.68
+      "rank": 152
+    },
+    {
+      "date": "2026-08-06",
+      "rank": 90,
+      "price": 6.26,
+      "change_pct": -6.1469
     }
   ],
   "continuous_days": 32,
   "monthly_count": 32,
-  "avg_rank": 735.2,
+  "avg_rank": 729.5,
   "best_rank": 36,
   "trend": "stable"
 }

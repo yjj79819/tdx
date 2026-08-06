@@ -3,10 +3,6 @@
   "name": "易点天下",
   "history": [
     {
-      "date": "2026-07-05",
-      "rank": 260
-    },
-    {
       "date": "2026-07-06",
       "rank": 403
     },
@@ -124,18 +120,22 @@
     },
     {
       "date": "2026-08-04",
-      "rank": 36
+      "rank": 37
     },
     {
       "date": "2026-08-05",
-      "rank": 33,
-      "price": 39.01,
-      "change_pct": 3.75
+      "rank": 50
+    },
+    {
+      "date": "2026-08-06",
+      "rank": 66,
+      "price": 38.04,
+      "change_pct": -2.4865
     }
   ],
   "continuous_days": 32,
   "monthly_count": 32,
-  "avg_rank": 402.2,
+  "avg_rank": 396.7,
   "best_rank": 14,
   "trend": "stable"
 }
