@@ -3,14 +3,6 @@
   "name": "三环集团",
   "history": [
     {
-      "date": "2026-07-05",
-      "rank": 177
-    },
-    {
-      "date": "2026-07-06",
-      "rank": 197
-    },
-    {
       "date": "2026-07-07",
       "rank": 190
     },
@@ -124,18 +116,26 @@
     },
     {
       "date": "2026-08-04",
-      "rank": 53
+      "rank": 50
     },
     {
       "date": "2026-08-05",
-      "rank": 87,
-      "price": 128.19,
-      "change_pct": 5.96
+      "rank": 62
+    },
+    {
+      "date": "2026-08-06",
+      "rank": 57
+    },
+    {
+      "date": "2026-08-07",
+      "rank": 98,
+      "price": 127.39,
+      "change_pct": 0.3071
     }
   ],
   "continuous_days": 32,
   "monthly_count": 32,
-  "avg_rank": 182.8,
+  "avg_rank": 175.1,
   "best_rank": 29,
   "trend": "stable"
 }

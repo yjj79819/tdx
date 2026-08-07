@@ -3,47 +3,15 @@
   "name": "恒银科技",
   "history": [
     {
-      "date": "2026-07-30",
-      "rank": 775
-    },
-    {
-      "date": "2026-07-31",
-      "rank": 232
-    },
-    {
-      "date": "2026-08-01",
-      "rank": 157
-    },
-    {
-      "date": "2026-08-02",
-      "rank": 177
-    },
-    {
-      "date": "2026-08-03",
-      "rank": 127
-    },
-    {
-      "date": "2026-08-04",
-      "rank": 84
-    },
-    {
-      "date": "2026-08-05",
-      "rank": 64
-    },
-    {
-      "date": "2026-08-06",
-      "rank": 91
-    },
-    {
       "date": "2026-08-07",
-      "rank": 67,
+      "rank": 75,
       "price": 9.04,
-      "change_pct": -9.96
+      "change_pct": -9.9602
     }
   ],
-  "continuous_days": 9,
-  "monthly_count": 9,
-  "avg_rank": 197.1,
-  "best_rank": 64,
+  "continuous_days": 1,
+  "monthly_count": 1,
+  "avg_rank": 75.0,
+  "best_rank": 75,
   "trend": "stable"
 }
