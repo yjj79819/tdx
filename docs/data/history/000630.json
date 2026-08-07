@@ -3,10 +3,6 @@
   "name": "铜陵有色",
   "history": [
     {
-      "date": "2026-07-06",
-      "rank": 211
-    },
-    {
       "date": "2026-07-07",
       "rank": 228
     },
@@ -124,18 +120,22 @@
     },
     {
       "date": "2026-08-05",
-      "rank": 127
+      "rank": 131
     },
     {
       "date": "2026-08-06",
-      "rank": 81,
-      "price": 6.57,
-      "change_pct": -1.5
+      "rank": 102
+    },
+    {
+      "date": "2026-08-07",
+      "rank": 88,
+      "price": 6.91,
+      "change_pct": 5.175
     }
   ],
   "continuous_days": 32,
   "monthly_count": 32,
-  "avg_rank": 233.0,
-  "best_rank": 81,
+  "avg_rank": 229.9,
+  "best_rank": 88,
   "trend": "stable"
 }

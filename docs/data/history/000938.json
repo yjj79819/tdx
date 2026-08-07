@@ -3,10 +3,6 @@
   "name": "紫光股份",
   "history": [
     {
-      "date": "2026-07-06",
-      "rank": 20
-    },
-    {
       "date": "2026-07-07",
       "rank": 4
     },
@@ -124,18 +120,22 @@
     },
     {
       "date": "2026-08-05",
-      "rank": 12
+      "rank": 13
     },
     {
       "date": "2026-08-06",
-      "rank": 14,
-      "price": 37.94,
-      "change_pct": 2.71
+      "rank": 16
+    },
+    {
+      "date": "2026-08-07",
+      "rank": 24,
+      "price": 37.77,
+      "change_pct": -0.4481
     }
   ],
   "continuous_days": 32,
   "monthly_count": 32,
-  "avg_rank": 7.4,
+  "avg_rank": 7.7,
   "best_rank": 2,
   "trend": "stable"
 }
