@@ -3,22 +3,6 @@
   "name": "招金黄金",
   "history": [
     {
-      "date": "2026-07-06",
-      "rank": 497
-    },
-    {
-      "date": "2026-07-07",
-      "rank": 171
-    },
-    {
-      "date": "2026-07-08",
-      "rank": 459
-    },
-    {
-      "date": "2026-07-09",
-      "rank": 557
-    },
-    {
       "date": "2026-07-10",
       "rank": 579
     },
@@ -124,18 +108,34 @@
     },
     {
       "date": "2026-08-05",
-      "rank": 140
+      "rank": 145
     },
     {
       "date": "2026-08-06",
-      "rank": 70,
-      "price": 16.48,
-      "change_pct": 5.51
+      "rank": 134
+    },
+    {
+      "date": "2026-08-07",
+      "rank": 70
+    },
+    {
+      "date": "2026-08-08",
+      "rank": 66
+    },
+    {
+      "date": "2026-08-09",
+      "rank": 88
+    },
+    {
+      "date": "2026-08-10",
+      "rank": 76,
+      "price": 19.0,
+      "change_pct": 4.7435
     }
   ],
   "continuous_days": 32,
   "monthly_count": 32,
-  "avg_rank": 451.3,
-  "best_rank": 70,
+  "avg_rank": 410.2,
+  "best_rank": 66,
   "trend": "stable"
 }

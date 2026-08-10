@@ -3,18 +3,6 @@
   "name": "通宇通讯",
   "history": [
     {
-      "date": "2026-07-07",
-      "rank": 773
-    },
-    {
-      "date": "2026-07-08",
-      "rank": 725
-    },
-    {
-      "date": "2026-07-09",
-      "rank": 263
-    },
-    {
       "date": "2026-07-10",
       "rank": 405
     },
@@ -124,18 +112,30 @@
     },
     {
       "date": "2026-08-06",
-      "rank": 26
+      "rank": 27
     },
     {
       "date": "2026-08-07",
-      "rank": 5,
-      "price": 37.19,
-      "change_pct": 10.0
+      "rank": 24
+    },
+    {
+      "date": "2026-08-08",
+      "rank": 29
+    },
+    {
+      "date": "2026-08-09",
+      "rank": 41
+    },
+    {
+      "date": "2026-08-10",
+      "rank": 51,
+      "price": 33.96,
+      "change_pct": -8.6582
     }
   ],
   "continuous_days": 32,
   "monthly_count": 32,
-  "avg_rank": 704.2,
-  "best_rank": 5,
+  "avg_rank": 653.6,
+  "best_rank": 24,
   "trend": "stable"
 }

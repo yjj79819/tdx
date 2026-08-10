@@ -3,18 +3,6 @@
   "name": "金风科技",
   "history": [
     {
-      "date": "2026-07-07",
-      "rank": 69
-    },
-    {
-      "date": "2026-07-08",
-      "rank": 65
-    },
-    {
-      "date": "2026-07-09",
-      "rank": 20
-    },
-    {
       "date": "2026-07-10",
       "rank": 20
     },
@@ -124,18 +112,30 @@
     },
     {
       "date": "2026-08-06",
-      "rank": 54
+      "rank": 52
     },
     {
       "date": "2026-08-07",
-      "rank": 54,
-      "price": 21.8,
-      "change_pct": 6.03
+      "rank": 66
+    },
+    {
+      "date": "2026-08-08",
+      "rank": 74
+    },
+    {
+      "date": "2026-08-09",
+      "rank": 68
+    },
+    {
+      "date": "2026-08-10",
+      "rank": 59,
+      "price": 21.17,
+      "change_pct": -2.9358
     }
   ],
   "continuous_days": 32,
   "monthly_count": 32,
-  "avg_rank": 109.7,
+  "avg_rank": 111.5,
   "best_rank": 20,
   "trend": "stable"
 }
