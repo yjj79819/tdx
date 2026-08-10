@@ -1,103 +1,5 @@
 [
   {
-    "review_date": "2026-05-26",
-    "target_date": "2026-05-26",
-    "results": [
-      {
-        "code": "000725",
-        "name": "京东方A",
-        "prev_rank": 3,
-        "prev_price": 5.77,
-        "today_rank": 3,
-        "today_price": 5.77,
-        "price_change": 0.0,
-        "still_in_top50": true,
-        "rank_change": 0
-      },
-      {
-        "code": "600584",
-        "name": "长电科技",
-        "prev_rank": 1,
-        "prev_price": 88.19,
-        "today_rank": 1,
-        "today_price": 88.19,
-        "price_change": 0.0,
-        "still_in_top50": true,
-        "rank_change": 0
-      },
-      {
-        "code": "002185",
-        "name": "华天科技",
-        "prev_rank": 2,
-        "prev_price": 18.67,
-        "today_rank": 2,
-        "today_price": 18.67,
-        "price_change": 0.0,
-        "still_in_top50": true,
-        "rank_change": 0
-      },
-      {
-        "code": "002156",
-        "name": "通富微电",
-        "prev_rank": 5,
-        "prev_price": 75.39,
-        "today_rank": 5,
-        "today_price": 75.39,
-        "price_change": 0.0,
-        "still_in_top50": true,
-        "rank_change": 0
-      },
-      {
-        "code": "000021",
-        "name": "深科技",
-        "prev_rank": 4,
-        "prev_price": 42.75,
-        "today_rank": 4,
-        "today_price": 42.75,
-        "price_change": 0.0,
-        "still_in_top50": true,
-        "rank_change": 0
-      },
-      {
-        "code": "603629",
-        "name": "利通电子",
-        "prev_rank": 10,
-        "prev_price": 211.94,
-        "today_rank": 20,
-        "today_price": 211.94,
-        "price_change": 0.0,
-        "still_in_top50": true,
-        "rank_change": -10
-      },
-      {
-        "code": "600396",
-        "name": "华电辽能",
-        "prev_rank": 14,
-        "prev_price": 16.88,
-        "today_rank": 19,
-        "today_price": 16.88,
-        "price_change": 0.0,
-        "still_in_top50": true,
-        "rank_change": -5
-      },
-      {
-        "code": "002579",
-        "name": "中京电子",
-        "prev_rank": 6,
-        "prev_price": 15.04,
-        "today_rank": 6,
-        "today_price": 15.04,
-        "price_change": 0.0,
-        "still_in_top50": true,
-        "rank_change": 0
-      }
-    ],
-    "win_rate": 0.0,
-    "win_count": 0,
-    "total": 8,
-    "rank_improved": 0
-  },
-  {
     "review_date": "2026-05-27",
     "target_date": "2026-05-26",
     "results": [
@@ -8727,6 +8629,104 @@
     ],
     "win_rate": 62.5,
     "win_count": 5,
+    "total": 8,
+    "rank_improved": 3
+  },
+  {
+    "review_date": "2026-08-10",
+    "target_date": "2026-08-10",
+    "results": [
+      {
+        "code": "600664",
+        "name": "哈药股份",
+        "prev_rank": 3,
+        "prev_price": 7.52,
+        "today_rank": 2,
+        "today_price": 7.52,
+        "price_change": 0.0,
+        "still_in_top50": true,
+        "rank_change": 1
+      },
+      {
+        "code": "001258",
+        "name": "立新能源",
+        "prev_rank": 5,
+        "prev_price": 14.48,
+        "today_rank": 4,
+        "today_price": 14.48,
+        "price_change": 0.0,
+        "still_in_top50": true,
+        "rank_change": 1
+      },
+      {
+        "code": "601700",
+        "name": "风范股份",
+        "prev_rank": 20,
+        "prev_price": 7.08,
+        "today_rank": 27,
+        "today_price": 7.08,
+        "price_change": 0.0,
+        "still_in_top50": true,
+        "rank_change": -7
+      },
+      {
+        "code": "600721",
+        "name": "百花医药",
+        "prev_rank": 13,
+        "prev_price": 11.59,
+        "today_rank": 15,
+        "today_price": 11.59,
+        "price_change": 0.0,
+        "still_in_top50": true,
+        "rank_change": -2
+      },
+      {
+        "code": "600396",
+        "name": "华电辽能",
+        "prev_rank": 6,
+        "prev_price": 17.18,
+        "today_rank": 7,
+        "today_price": 17.21,
+        "price_change": 0.17,
+        "still_in_top50": true,
+        "rank_change": -1
+      },
+      {
+        "code": "000566",
+        "name": "海南海药",
+        "prev_rank": 28,
+        "prev_price": 6.16,
+        "today_rank": 18,
+        "today_price": 6.05,
+        "price_change": -1.79,
+        "still_in_top50": true,
+        "rank_change": 10
+      },
+      {
+        "code": "000725",
+        "name": "京东方A",
+        "prev_rank": 12,
+        "prev_price": 5.82,
+        "today_rank": 12,
+        "today_price": 5.89,
+        "price_change": 1.2,
+        "still_in_top50": true,
+        "rank_change": 0
+      },
+      {
+        "code": "603399",
+        "name": "永杉锂业",
+        "prev_rank": 24,
+        "prev_price": 16.42,
+        "today_rank": 28,
+        "today_price": 16.52,
+        "price_change": 0.61,
+        "still_in_top50": true,
+        "rank_change": -4
+      }
+    ],
+    "win_rate": 37.5,
+    "win_count": 3,
     "total": 8,
     "rank_improved": 3
   }
