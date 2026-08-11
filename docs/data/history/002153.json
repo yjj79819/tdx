@@ -1,0 +1,17 @@
+{
+  "code": "002153",
+  "name": "石基信息",
+  "history": [
+    {
+      "date": "2026-08-11",
+      "rank": 68,
+      "price": 9.01,
+      "change_pct": -0.3319
+    }
+  ],
+  "continuous_days": 1,
+  "monthly_count": 1,
+  "avg_rank": 68.0,
+  "best_rank": 68,
+  "trend": "stable"
+}

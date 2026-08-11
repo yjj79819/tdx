@@ -3,10 +3,6 @@
   "name": "国际复材",
   "history": [
     {
-      "date": "2026-07-10",
-      "rank": 189
-    },
-    {
       "date": "2026-07-11",
       "rank": 231
     },
@@ -124,18 +120,22 @@
     },
     {
       "date": "2026-08-09",
-      "rank": 42
+      "rank": 36
     },
     {
       "date": "2026-08-10",
-      "rank": 74,
-      "price": 38.12,
-      "change_pct": -0.52
+      "rank": 26
+    },
+    {
+      "date": "2026-08-11",
+      "rank": 100,
+      "price": 39.72,
+      "change_pct": 4.1973
     }
   ],
   "continuous_days": 32,
   "monthly_count": 32,
-  "avg_rank": 108.8,
+  "avg_rank": 104.3,
   "best_rank": 13,
   "trend": "stable"
 }
