@@ -1,0 +1,41 @@
+{
+  "code": "603887",
+  "name": "城地香江",
+  "history": [
+    {
+      "date": "2026-07-19",
+      "rank": 1942
+    },
+    {
+      "date": "2026-08-02",
+      "rank": 1853
+    },
+    {
+      "date": "2026-08-03",
+      "rank": 1703
+    },
+    {
+      "date": "2026-08-04",
+      "rank": 1965
+    },
+    {
+      "date": "2026-08-10",
+      "rank": 446
+    },
+    {
+      "date": "2026-08-11",
+      "rank": 178
+    },
+    {
+      "date": "2026-08-12",
+      "rank": 45,
+      "price": 11.35,
+      "change_pct": 9.9806
+    }
+  ],
+  "continuous_days": 7,
+  "monthly_count": 7,
+  "avg_rank": 1161.7,
+  "best_rank": 45,
+  "trend": "stable"
+}

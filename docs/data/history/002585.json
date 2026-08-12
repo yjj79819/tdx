@@ -3,10 +3,6 @@
   "name": "双星新材",
   "history": [
     {
-      "date": "2026-07-11",
-      "rank": 430
-    },
-    {
       "date": "2026-07-12",
       "rank": 483
     },
@@ -124,18 +120,22 @@
     },
     {
       "date": "2026-08-10",
-      "rank": 96
+      "rank": 73
     },
     {
       "date": "2026-08-11",
-      "rank": 43,
-      "price": 10.52,
-      "change_pct": 10.0418
+      "rank": 41
+    },
+    {
+      "date": "2026-08-12",
+      "rank": 11,
+      "price": 10.89,
+      "change_pct": 3.5171
     }
   ],
   "continuous_days": 32,
   "monthly_count": 32,
-  "avg_rank": 450.8,
-  "best_rank": 43,
+  "avg_rank": 436.9,
+  "best_rank": 11,
   "trend": "stable"
 }

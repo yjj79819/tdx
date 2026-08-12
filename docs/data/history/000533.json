@@ -3,10 +3,6 @@
   "name": "顺钠股份",
   "history": [
     {
-      "date": "2026-07-11",
-      "rank": 1390
-    },
-    {
       "date": "2026-07-12",
       "rank": 1492
     },
@@ -124,18 +120,22 @@
     },
     {
       "date": "2026-08-10",
-      "rank": 64
+      "rank": 70
     },
     {
       "date": "2026-08-11",
-      "rank": 41,
-      "price": 12.87,
-      "change_pct": 1.7391
+      "rank": 102
+    },
+    {
+      "date": "2026-08-12",
+      "rank": 82,
+      "price": 12.63,
+      "change_pct": -1.8648
     }
   ],
   "continuous_days": 32,
   "monthly_count": 32,
-  "avg_rank": 547.2,
+  "avg_rank": 508.4,
   "best_rank": 16,
   "trend": "stable"
 }
