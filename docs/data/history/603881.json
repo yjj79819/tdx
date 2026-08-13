@@ -3,10 +3,6 @@
   "name": "数据港",
   "history": [
     {
-      "date": "2026-07-12",
-      "rank": 150
-    },
-    {
       "date": "2026-07-13",
       "rank": 185
     },
@@ -124,18 +120,22 @@
     },
     {
       "date": "2026-08-11",
-      "rank": 85
+      "rank": 83
     },
     {
       "date": "2026-08-12",
-      "rank": 45,
-      "price": 26.88,
-      "change_pct": 2.28
+      "rank": 111
+    },
+    {
+      "date": "2026-08-13",
+      "rank": 75,
+      "price": 26.4,
+      "change_pct": -1.7857
     }
   ],
   "continuous_days": 32,
   "monthly_count": 32,
-  "avg_rank": 279.3,
-  "best_rank": 45,
+  "avg_rank": 279.0,
+  "best_rank": 75,
   "trend": "stable"
 }

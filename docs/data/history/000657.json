@@ -3,10 +3,6 @@
   "name": "中钨高新",
   "history": [
     {
-      "date": "2026-07-12",
-      "rank": 154
-    },
-    {
       "date": "2026-07-13",
       "rank": 78
     },
@@ -124,18 +120,22 @@
     },
     {
       "date": "2026-08-11",
-      "rank": 30
+      "rank": 37
     },
     {
       "date": "2026-08-12",
-      "rank": 31,
-      "price": 70.43,
-      "change_pct": 3.35
+      "rank": 59
+    },
+    {
+      "date": "2026-08-13",
+      "rank": 58,
+      "price": 66.7,
+      "change_pct": -5.296
     }
   ],
   "continuous_days": 32,
   "monthly_count": 32,
-  "avg_rank": 152.9,
+  "avg_rank": 151.0,
   "best_rank": 12,
   "trend": "stable"
 }

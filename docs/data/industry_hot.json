@@ -1,1 +1,222 @@
-[]
+[
+  {
+    "rank": 1,
+    "name": "电力",
+    "code": "881145",
+    "change_pct": 0.25,
+    "heat": "592819.0",
+    "limit_up_tag": "3家涨停",
+    "hot_tag": "连续146天上榜",
+    "etf_name": "电力ETF",
+    "etf_code": "159158"
+  },
+  {
+    "rank": 2,
+    "name": "证券",
+    "code": "881157",
+    "change_pct": 0.3,
+    "heat": "444557.0",
+    "limit_up_tag": "",
+    "hot_tag": "连续905天上榜",
+    "etf_name": "证券ETF",
+    "etf_code": "515850"
+  },
+  {
+    "rank": 3,
+    "name": "半导体",
+    "code": "881121",
+    "change_pct": -1.91,
+    "heat": "425039.5",
+    "limit_up_tag": "",
+    "hot_tag": "连续905天上榜",
+    "etf_name": "芯片ETF",
+    "etf_code": "159560"
+  },
+  {
+    "rank": 4,
+    "name": "医疗服务",
+    "code": "881175",
+    "change_pct": 3.99,
+    "heat": "393092.5",
+    "limit_up_tag": "6家涨停",
+    "hot_tag": "10天8次上榜",
+    "etf_name": "医疗ETF",
+    "etf_code": "159847"
+  },
+  {
+    "rank": 5,
+    "name": "银行",
+    "code": "881155",
+    "change_pct": 0.29,
+    "heat": "220656.0",
+    "limit_up_tag": "",
+    "hot_tag": "连续905天上榜",
+    "etf_name": "银行ETF",
+    "etf_code": "560670"
+  },
+  {
+    "rank": 6,
+    "name": "通信设备",
+    "code": "881129",
+    "change_pct": -0.5,
+    "heat": "179994.5",
+    "limit_up_tag": "3家涨停",
+    "hot_tag": "连续129天上榜",
+    "etf_name": "通信ETF",
+    "etf_code": "515880"
+  },
+  {
+    "rank": 7,
+    "name": "电网设备",
+    "code": "881278",
+    "change_pct": -0.72,
+    "heat": "172065.5",
+    "limit_up_tag": "2家涨停",
+    "hot_tag": "连续146天上榜",
+    "etf_name": "电网设备ETF",
+    "etf_code": "560390"
+  },
+  {
+    "rank": 8,
+    "name": "白酒",
+    "code": "881273",
+    "change_pct": 0.06,
+    "heat": "155032.5",
+    "limit_up_tag": "",
+    "hot_tag": "连续516天上榜",
+    "etf_name": "食品饮料ETF",
+    "etf_code": "515710"
+  },
+  {
+    "rank": 9,
+    "name": "文化传媒",
+    "code": "881164",
+    "change_pct": -0.64,
+    "heat": "146035.5",
+    "limit_up_tag": "2家涨停",
+    "hot_tag": "10天9次上榜",
+    "etf_name": "传媒ETF",
+    "etf_code": "516190"
+  },
+  {
+    "rank": 10,
+    "name": "化学制药",
+    "code": "881140",
+    "change_pct": 1.38,
+    "heat": "134579.5",
+    "limit_up_tag": "2家涨停",
+    "hot_tag": "连续38天上榜",
+    "etf_name": "创新药ETF",
+    "etf_code": "517380"
+  },
+  {
+    "rank": 11,
+    "name": "元件",
+    "code": "881270",
+    "change_pct": -1.91,
+    "heat": "116297.0",
+    "limit_up_tag": "",
+    "hot_tag": "连续92天上榜",
+    "etf_name": "消费电子ETF",
+    "etf_code": "562950"
+  },
+  {
+    "rank": 12,
+    "name": "贵金属",
+    "code": "881169",
+    "change_pct": -5.2,
+    "heat": "105066.5",
+    "limit_up_tag": "",
+    "hot_tag": "连续19天上榜",
+    "etf_name": "黄金股ETF",
+    "etf_code": "517400"
+  },
+  {
+    "rank": 13,
+    "name": "中药",
+    "code": "881141",
+    "change_pct": 1.59,
+    "heat": "103244.0",
+    "limit_up_tag": "3家涨停",
+    "hot_tag": "10天10次上榜",
+    "etf_name": "中药ETF",
+    "etf_code": "560080"
+  },
+  {
+    "rank": 14,
+    "name": "IT服务",
+    "code": "881271",
+    "change_pct": -1.31,
+    "heat": "74740.5",
+    "limit_up_tag": "",
+    "hot_tag": "",
+    "etf_name": "软件ETF",
+    "etf_code": "159852"
+  },
+  {
+    "rank": 15,
+    "name": "房地产",
+    "code": "881153",
+    "change_pct": -2.26,
+    "heat": "67707.0",
+    "limit_up_tag": "2家涨停",
+    "hot_tag": "5天3次上榜",
+    "etf_name": "地产ETF",
+    "etf_code": "159707"
+  },
+  {
+    "rank": 16,
+    "name": "电池",
+    "code": "881281",
+    "change_pct": -1.46,
+    "heat": "62674.0",
+    "limit_up_tag": "1家涨停",
+    "hot_tag": "连续111天上榜",
+    "etf_name": "新能源电池ETF",
+    "etf_code": "159071"
+  },
+  {
+    "rank": 17,
+    "name": "半导体设备",
+    "code": "884229",
+    "change_pct": -1.92,
+    "heat": "62296.0",
+    "limit_up_tag": "",
+    "hot_tag": "连续41天上榜",
+    "etf_name": "半导体设备ETF",
+    "etf_code": "159558"
+  },
+  {
+    "rank": 18,
+    "name": "软件开发",
+    "code": "881272",
+    "change_pct": -1.78,
+    "heat": "61319.0",
+    "limit_up_tag": "1家涨停",
+    "hot_tag": "连续28天上榜",
+    "etf_name": "软件ETF",
+    "etf_code": "159590"
+  },
+  {
+    "rank": 19,
+    "name": "影视院线",
+    "code": "881274",
+    "change_pct": -1.95,
+    "heat": "58692.5",
+    "limit_up_tag": "1家涨停",
+    "hot_tag": "5天4次上榜",
+    "etf_name": "影视ETF",
+    "etf_code": "516620"
+  },
+  {
+    "rank": 20,
+    "name": "小金属",
+    "code": "881170",
+    "change_pct": -2.68,
+    "heat": "58325.5",
+    "limit_up_tag": "",
+    "hot_tag": "10天10次上榜",
+    "etf_name": "工业有色ETF",
+    "etf_code": "560860"
+  }
+]
