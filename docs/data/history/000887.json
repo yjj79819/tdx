@@ -3,10 +3,6 @@
   "name": "中鼎股份",
   "history": [
     {
-      "date": "2026-07-13",
-      "rank": 566
-    },
-    {
       "date": "2026-07-14",
       "rank": 560
     },
@@ -124,18 +120,22 @@
     },
     {
       "date": "2026-08-12",
-      "rank": 155
+      "rank": 116
     },
     {
       "date": "2026-08-13",
-      "rank": 82,
-      "price": 23.69,
-      "change_pct": 9.98
+      "rank": 112
+    },
+    {
+      "date": "2026-08-14",
+      "rank": 49,
+      "price": 21.41,
+      "change_pct": -9.6243
     }
   ],
   "continuous_days": 32,
   "monthly_count": 32,
-  "avg_rank": 904.6,
-  "best_rank": 82,
+  "avg_rank": 888.2,
+  "best_rank": 49,
   "trend": "stable"
 }

@@ -3,10 +3,6 @@
   "name": "皇氏集团",
   "history": [
     {
-      "date": "2026-07-13",
-      "rank": 818
-    },
-    {
       "date": "2026-07-14",
       "rank": 1184
     },
@@ -84,18 +80,22 @@
     },
     {
       "date": "2026-08-12",
-      "rank": 83
+      "rank": 77
     },
     {
       "date": "2026-08-13",
-      "rank": 44,
-      "price": 4.62,
-      "change_pct": 10.0
+      "rank": 76
+    },
+    {
+      "date": "2026-08-14",
+      "rank": 40,
+      "price": 4.56,
+      "change_pct": -1.2987
     }
   ],
   "continuous_days": 22,
   "monthly_count": 22,
-  "avg_rank": 1233.0,
-  "best_rank": 44,
+  "avg_rank": 1198.8,
+  "best_rank": 40,
   "trend": "stable"
 }

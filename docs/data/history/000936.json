@@ -1,0 +1,29 @@
+{
+  "code": "000936",
+  "name": "华西股份",
+  "history": [
+    {
+      "date": "2026-08-11",
+      "rank": 780
+    },
+    {
+      "date": "2026-08-12",
+      "rank": 250
+    },
+    {
+      "date": "2026-08-13",
+      "rank": 105
+    },
+    {
+      "date": "2026-08-14",
+      "rank": 59,
+      "price": 6.97,
+      "change_pct": 9.9369
+    }
+  ],
+  "continuous_days": 4,
+  "monthly_count": 4,
+  "avg_rank": 298.5,
+  "best_rank": 59,
+  "trend": "stable"
+}

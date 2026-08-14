@@ -1,0 +1,25 @@
+{
+  "code": "600613",
+  "name": "神奇制药",
+  "history": [
+    {
+      "date": "2026-08-12",
+      "rank": 559
+    },
+    {
+      "date": "2026-08-13",
+      "rank": 275
+    },
+    {
+      "date": "2026-08-14",
+      "rank": 94,
+      "price": 6.41,
+      "change_pct": 9.9485
+    }
+  ],
+  "continuous_days": 3,
+  "monthly_count": 3,
+  "avg_rank": 309.3,
+  "best_rank": 94,
+  "trend": "stable"
+}

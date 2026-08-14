@@ -1,0 +1,37 @@
+{
+  "code": "002172",
+  "name": "澳洋健康",
+  "history": [
+    {
+      "date": "2026-07-14",
+      "rank": 1473
+    },
+    {
+      "date": "2026-07-15",
+      "rank": 1364
+    },
+    {
+      "date": "2026-08-11",
+      "rank": 691
+    },
+    {
+      "date": "2026-08-12",
+      "rank": 259
+    },
+    {
+      "date": "2026-08-13",
+      "rank": 162
+    },
+    {
+      "date": "2026-08-14",
+      "rank": 76,
+      "price": 4.54,
+      "change_pct": 9.9274
+    }
+  ],
+  "continuous_days": 6,
+  "monthly_count": 6,
+  "avg_rank": 670.8,
+  "best_rank": 76,
+  "trend": "stable"
+}

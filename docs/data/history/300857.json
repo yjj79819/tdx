@@ -3,10 +3,6 @@
   "name": "协创数据",
   "history": [
     {
-      "date": "2026-07-13",
-      "rank": 400
-    },
-    {
       "date": "2026-07-14",
       "rank": 429
     },
@@ -124,18 +120,22 @@
     },
     {
       "date": "2026-08-12",
-      "rank": 105
+      "rank": 91
     },
     {
       "date": "2026-08-13",
-      "rank": 88,
-      "price": 256.0,
-      "change_pct": 2.48
+      "rank": 106
+    },
+    {
+      "date": "2026-08-14",
+      "rank": 98,
+      "price": 257.61,
+      "change_pct": 0.6289
     }
   ],
   "continuous_days": 32,
   "monthly_count": 32,
-  "avg_rank": 235.2,
+  "avg_rank": 225.9,
   "best_rank": 49,
   "trend": "stable"
 }

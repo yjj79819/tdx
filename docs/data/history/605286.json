@@ -1,0 +1,37 @@
+{
+  "code": "605286",
+  "name": "同力天启",
+  "history": [
+    {
+      "date": "2026-08-09",
+      "rank": 1326
+    },
+    {
+      "date": "2026-08-10",
+      "rank": 474
+    },
+    {
+      "date": "2026-08-11",
+      "rank": 255
+    },
+    {
+      "date": "2026-08-12",
+      "rank": 202
+    },
+    {
+      "date": "2026-08-13",
+      "rank": 149
+    },
+    {
+      "date": "2026-08-14",
+      "rank": 66,
+      "price": 30.85,
+      "change_pct": -9.4749
+    }
+  ],
+  "continuous_days": 6,
+  "monthly_count": 6,
+  "avg_rank": 412.0,
+  "best_rank": 66,
+  "trend": "stable"
+}
