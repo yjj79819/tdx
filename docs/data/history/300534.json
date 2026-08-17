@@ -3,18 +3,6 @@
   "name": "陇神戎发",
   "history": [
     {
-      "date": "2026-07-14",
-      "rank": 140
-    },
-    {
-      "date": "2026-07-15",
-      "rank": 126
-    },
-    {
-      "date": "2026-07-16",
-      "rank": 219
-    },
-    {
       "date": "2026-07-17",
       "rank": 419
     },
@@ -124,18 +112,30 @@
     },
     {
       "date": "2026-08-13",
-      "rank": 78
+      "rank": 87
     },
     {
       "date": "2026-08-14",
-      "rank": 97,
-      "price": 18.9,
-      "change_pct": -0.11
+      "rank": 153
+    },
+    {
+      "date": "2026-08-15",
+      "rank": 163
+    },
+    {
+      "date": "2026-08-16",
+      "rank": 90
+    },
+    {
+      "date": "2026-08-17",
+      "rank": 99,
+      "price": 20.23,
+      "change_pct": 7.037
     }
   ],
   "continuous_days": 32,
   "monthly_count": 32,
-  "avg_rank": 149.6,
+  "avg_rank": 147.5,
   "best_rank": 52,
   "trend": "stable"
 }
