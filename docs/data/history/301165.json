@@ -3,18 +3,6 @@
   "name": "锐捷网络",
   "history": [
     {
-      "date": "2026-07-14",
-      "rank": 222
-    },
-    {
-      "date": "2026-07-15",
-      "rank": 166
-    },
-    {
-      "date": "2026-07-16",
-      "rank": 228
-    },
-    {
       "date": "2026-07-17",
       "rank": 259
     },
@@ -124,18 +112,30 @@
     },
     {
       "date": "2026-08-13",
-      "rank": 51
+      "rank": 68
     },
     {
       "date": "2026-08-14",
-      "rank": 95,
-      "price": 143.9,
-      "change_pct": 0.42
+      "rank": 54
+    },
+    {
+      "date": "2026-08-15",
+      "rank": 46
+    },
+    {
+      "date": "2026-08-16",
+      "rank": 59
+    },
+    {
+      "date": "2026-08-17",
+      "rank": 69,
+      "price": 144.45,
+      "change_pct": 0.3822
     }
   ],
   "continuous_days": 32,
   "monthly_count": 32,
-  "avg_rank": 128.4,
+  "avg_rank": 113.8,
   "best_rank": 27,
   "trend": "stable"
 }

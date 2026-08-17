@@ -3,18 +3,6 @@
   "name": "云赛智联",
   "history": [
     {
-      "date": "2026-07-14",
-      "rank": 483
-    },
-    {
-      "date": "2026-07-15",
-      "rank": 112
-    },
-    {
-      "date": "2026-07-16",
-      "rank": 82
-    },
-    {
       "date": "2026-07-17",
       "rank": 108
     },
@@ -124,18 +112,30 @@
     },
     {
       "date": "2026-08-13",
-      "rank": 63
+      "rank": 55
     },
     {
       "date": "2026-08-14",
-      "rank": 71,
-      "price": 20.56,
-      "change_pct": 6.2
+      "rank": 60
+    },
+    {
+      "date": "2026-08-15",
+      "rank": 68
+    },
+    {
+      "date": "2026-08-16",
+      "rank": 99
+    },
+    {
+      "date": "2026-08-17",
+      "rank": 80,
+      "price": 19.84,
+      "change_pct": -3.5019
     }
   ],
   "continuous_days": 32,
   "monthly_count": 32,
-  "avg_rank": 243.7,
+  "avg_rank": 229.7,
   "best_rank": 49,
   "trend": "stable"
 }

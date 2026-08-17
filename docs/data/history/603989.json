@@ -3,18 +3,6 @@
   "name": "艾华集团",
   "history": [
     {
-      "date": "2026-07-14",
-      "rank": 544
-    },
-    {
-      "date": "2026-07-15",
-      "rank": 277
-    },
-    {
-      "date": "2026-07-16",
-      "rank": 641
-    },
-    {
       "date": "2026-07-17",
       "rank": 641
     },
@@ -124,18 +112,30 @@
     },
     {
       "date": "2026-08-13",
-      "rank": 171
+      "rank": 142
     },
     {
       "date": "2026-08-14",
-      "rank": 95,
-      "price": 32.99,
-      "change_pct": 10.0
+      "rank": 100
+    },
+    {
+      "date": "2026-08-15",
+      "rank": 87
+    },
+    {
+      "date": "2026-08-16",
+      "rank": 166
+    },
+    {
+      "date": "2026-08-17",
+      "rank": 84,
+      "price": 31.71,
+      "change_pct": -3.88
     }
   ],
   "continuous_days": 32,
   "monthly_count": 32,
-  "avg_rank": 715.8,
-  "best_rank": 95,
+  "avg_rank": 679.9,
+  "best_rank": 84,
   "trend": "stable"
 }

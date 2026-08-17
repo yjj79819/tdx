@@ -3,14 +3,6 @@
   "name": "北京文化",
   "history": [
     {
-      "date": "2026-07-14",
-      "rank": 1587
-    },
-    {
-      "date": "2026-07-15",
-      "rank": 1288
-    },
-    {
       "date": "2026-07-21",
       "rank": 1443
     },
@@ -96,18 +88,30 @@
     },
     {
       "date": "2026-08-13",
-      "rank": 27
+      "rank": 34
     },
     {
       "date": "2026-08-14",
-      "rank": 15,
-      "price": 5.92,
-      "change_pct": -5.43
+      "rank": 44
+    },
+    {
+      "date": "2026-08-15",
+      "rank": 43
+    },
+    {
+      "date": "2026-08-16",
+      "rank": 60
+    },
+    {
+      "date": "2026-08-17",
+      "rank": 26,
+      "price": 5.33,
+      "change_pct": -9.9662
     }
   ],
-  "continuous_days": 25,
-  "monthly_count": 25,
-  "avg_rank": 953.7,
-  "best_rank": 15,
+  "continuous_days": 26,
+  "monthly_count": 26,
+  "avg_rank": 812.8,
+  "best_rank": 26,
   "trend": "stable"
 }

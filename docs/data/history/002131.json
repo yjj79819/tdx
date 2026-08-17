@@ -3,18 +3,6 @@
   "name": "利欧股份",
   "history": [
     {
-      "date": "2026-07-14",
-      "rank": 137
-    },
-    {
-      "date": "2026-07-15",
-      "rank": 207
-    },
-    {
-      "date": "2026-07-16",
-      "rank": 199
-    },
-    {
       "date": "2026-07-17",
       "rank": 205
     },
@@ -124,18 +112,30 @@
     },
     {
       "date": "2026-08-13",
-      "rank": 15
+      "rank": 20
     },
     {
       "date": "2026-08-14",
-      "rank": 12,
-      "price": 5.33,
-      "change_pct": -4.14
+      "rank": 53
+    },
+    {
+      "date": "2026-08-15",
+      "rank": 62
+    },
+    {
+      "date": "2026-08-16",
+      "rank": 61
+    },
+    {
+      "date": "2026-08-17",
+      "rank": 49,
+      "price": 5.27,
+      "change_pct": -1.1257
     }
   ],
   "continuous_days": 32,
   "monthly_count": 32,
-  "avg_rank": 126.8,
+  "avg_rank": 116.6,
   "best_rank": 1,
   "trend": "stable"
 }

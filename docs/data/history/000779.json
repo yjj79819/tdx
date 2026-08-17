@@ -3,18 +3,6 @@
   "name": "甘咨询",
   "history": [
     {
-      "date": "2026-07-14",
-      "rank": 208
-    },
-    {
-      "date": "2026-07-15",
-      "rank": 244
-    },
-    {
-      "date": "2026-07-16",
-      "rank": 78
-    },
-    {
       "date": "2026-07-17",
       "rank": 15
     },
@@ -124,18 +112,30 @@
     },
     {
       "date": "2026-08-13",
-      "rank": 94
+      "rank": 102
     },
     {
       "date": "2026-08-14",
-      "rank": 56,
-      "price": 9.66,
-      "change_pct": -9.97
+      "rank": 85
+    },
+    {
+      "date": "2026-08-15",
+      "rank": 116
+    },
+    {
+      "date": "2026-08-16",
+      "rank": 80
+    },
+    {
+      "date": "2026-08-17",
+      "rank": 75,
+      "price": 10.63,
+      "change_pct": 10.0414
     }
   ],
   "continuous_days": 32,
   "monthly_count": 32,
-  "avg_rank": 215.1,
+  "avg_rank": 208.1,
   "best_rank": 15,
   "trend": "stable"
 }

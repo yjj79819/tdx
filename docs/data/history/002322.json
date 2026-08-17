@@ -1,0 +1,37 @@
+{
+  "code": "002322",
+  "name": "理工能科",
+  "history": [
+    {
+      "date": "2026-08-12",
+      "rank": 742
+    },
+    {
+      "date": "2026-08-13",
+      "rank": 327
+    },
+    {
+      "date": "2026-08-14",
+      "rank": 106
+    },
+    {
+      "date": "2026-08-15",
+      "rank": 63
+    },
+    {
+      "date": "2026-08-16",
+      "rank": 137
+    },
+    {
+      "date": "2026-08-17",
+      "rank": 60,
+      "price": 13.27,
+      "change_pct": 1.6858
+    }
+  ],
+  "continuous_days": 6,
+  "monthly_count": 6,
+  "avg_rank": 239.2,
+  "best_rank": 60,
+  "trend": "stable"
+}
