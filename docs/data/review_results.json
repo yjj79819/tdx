@@ -1,103 +1,5 @@
 [
   {
-    "review_date": "2026-05-29",
-    "target_date": "2026-05-29",
-    "results": [
-      {
-        "code": "601991",
-        "name": "大唐发电",
-        "prev_rank": 3,
-        "prev_price": 8.4,
-        "today_rank": 1,
-        "today_price": 8.63,
-        "price_change": 2.74,
-        "still_in_top50": true,
-        "rank_change": 2
-      },
-      {
-        "code": "600578",
-        "name": "京能电力",
-        "prev_rank": 10,
-        "prev_price": 9.44,
-        "today_rank": 11,
-        "today_price": 9.38,
-        "price_change": -0.64,
-        "still_in_top50": true,
-        "rank_change": -1
-      },
-      {
-        "code": "600726",
-        "name": "华电能源",
-        "prev_rank": 18,
-        "prev_price": 10.13,
-        "today_rank": 15,
-        "today_price": 10.13,
-        "price_change": 0.0,
-        "still_in_top50": true,
-        "rank_change": 3
-      },
-      {
-        "code": "600863",
-        "name": "华能蒙电",
-        "prev_rank": 14,
-        "prev_price": 7.3,
-        "today_rank": 19,
-        "today_price": 7.3,
-        "price_change": 0.0,
-        "still_in_top50": true,
-        "rank_change": -5
-      },
-      {
-        "code": "600172",
-        "name": "黄河旋风",
-        "prev_rank": 11,
-        "prev_price": 14.43,
-        "today_rank": 16,
-        "today_price": 14.08,
-        "price_change": -2.43,
-        "still_in_top50": true,
-        "rank_change": -5
-      },
-      {
-        "code": "000767",
-        "name": "晋控电力",
-        "prev_rank": 45,
-        "prev_price": 5.58,
-        "today_rank": 58,
-        "today_price": 5.58,
-        "price_change": 0.0,
-        "still_in_top50": true,
-        "rank_change": -13
-      },
-      {
-        "code": "000539",
-        "name": "粤电力A",
-        "prev_rank": 49,
-        "prev_price": 8.88,
-        "today_rank": 44,
-        "today_price": 8.88,
-        "price_change": 0.0,
-        "still_in_top50": true,
-        "rank_change": 5
-      },
-      {
-        "code": "002251",
-        "name": "步步高",
-        "prev_rank": 35,
-        "prev_price": 4.88,
-        "today_rank": 56,
-        "today_price": 4.88,
-        "price_change": 0.0,
-        "still_in_top50": true,
-        "rank_change": -21
-      }
-    ],
-    "win_rate": 12.5,
-    "win_count": 1,
-    "total": 8,
-    "rank_improved": 3
-  },
-  {
     "review_date": "2026-06-01",
     "target_date": "2026-05-29",
     "results": [
@@ -8816,6 +8718,104 @@
     ],
     "win_rate": 37.5,
     "win_count": 3,
+    "total": 8,
+    "rank_improved": 2
+  },
+  {
+    "review_date": "2026-08-18",
+    "target_date": "2026-08-18",
+    "results": [
+      {
+        "code": "002081",
+        "name": "金螳螂",
+        "prev_rank": 2,
+        "prev_price": 6.4,
+        "today_rank": 2,
+        "today_price": 6.22,
+        "price_change": -2.81,
+        "still_in_top50": true,
+        "rank_change": 0
+      },
+      {
+        "code": "603118",
+        "name": "共进股份",
+        "prev_rank": 3,
+        "prev_price": 18.58,
+        "today_rank": 7,
+        "today_price": 18.81,
+        "price_change": 1.24,
+        "still_in_top50": true,
+        "rank_change": -4
+      },
+      {
+        "code": "600172",
+        "name": "黄河旋风",
+        "prev_rank": 8,
+        "prev_price": 14.18,
+        "today_rank": 10,
+        "today_price": 14.11,
+        "price_change": -0.49,
+        "still_in_top50": true,
+        "rank_change": -2
+      },
+      {
+        "code": "000620",
+        "name": "盈新发展",
+        "prev_rank": 6,
+        "prev_price": 3.41,
+        "today_rank": 13,
+        "today_price": 3.41,
+        "price_change": 0.0,
+        "still_in_top50": true,
+        "rank_change": -7
+      },
+      {
+        "code": "600664",
+        "name": "哈药股份",
+        "prev_rank": 26,
+        "prev_price": 9.07,
+        "today_rank": 25,
+        "today_price": 9.03,
+        "price_change": -0.44,
+        "still_in_top50": true,
+        "rank_change": 1
+      },
+      {
+        "code": "600613",
+        "name": "神奇制药",
+        "prev_rank": 18,
+        "prev_price": 7.76,
+        "today_rank": 32,
+        "today_price": 7.76,
+        "price_change": 0.0,
+        "still_in_top50": true,
+        "rank_change": -14
+      },
+      {
+        "code": "600721",
+        "name": "百花医药",
+        "prev_rank": 37,
+        "prev_price": 13.93,
+        "today_rank": 36,
+        "today_price": 13.7,
+        "price_change": -1.65,
+        "still_in_top50": true,
+        "rank_change": 1
+      },
+      {
+        "code": "600186",
+        "name": "莲花控股",
+        "prev_rank": 14,
+        "prev_price": 12.81,
+        "today_rank": 15,
+        "today_price": 12.7,
+        "price_change": -0.86,
+        "still_in_top50": true,
+        "rank_change": -1
+      }
+    ],
+    "win_rate": 12.5,
+    "win_count": 1,
     "total": 8,
     "rank_improved": 2
   }
