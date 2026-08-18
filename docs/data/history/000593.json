@@ -3,22 +3,6 @@
   "name": "德龙汇能",
   "history": [
     {
-      "date": "2026-07-14",
-      "rank": 384
-    },
-    {
-      "date": "2026-07-15",
-      "rank": 331
-    },
-    {
-      "date": "2026-07-16",
-      "rank": 610
-    },
-    {
-      "date": "2026-07-17",
-      "rank": 590
-    },
-    {
       "date": "2026-07-18",
       "rank": 550
     },
@@ -124,18 +108,34 @@
     },
     {
       "date": "2026-08-13",
-      "rank": 121
+      "rank": 145
     },
     {
       "date": "2026-08-14",
-      "rank": 73,
-      "price": 25.02,
-      "change_pct": -10.0
+      "rank": 144
+    },
+    {
+      "date": "2026-08-15",
+      "rank": 138
+    },
+    {
+      "date": "2026-08-16",
+      "rank": 304
+    },
+    {
+      "date": "2026-08-17",
+      "rank": 319
+    },
+    {
+      "date": "2026-08-18",
+      "rank": 75,
+      "price": 26.52,
+      "change_pct": 1.7652
     }
   ],
   "continuous_days": 32,
   "monthly_count": 32,
-  "avg_rank": 407.0,
-  "best_rank": 73,
+  "avg_rank": 376.2,
+  "best_rank": 75,
   "trend": "stable"
 }

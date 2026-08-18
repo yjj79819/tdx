@@ -3,10 +3,6 @@
   "name": "传智教育",
   "history": [
     {
-      "date": "2026-07-17",
-      "rank": 1836
-    },
-    {
       "date": "2026-07-18",
       "rank": 1765
     },
@@ -100,14 +96,18 @@
     },
     {
       "date": "2026-08-17",
-      "rank": 73,
-      "price": 12.51,
-      "change_pct": 2.04
+      "rank": 71
+    },
+    {
+      "date": "2026-08-18",
+      "rank": 34,
+      "price": 12.69,
+      "change_pct": 1.4388
     }
   ],
   "continuous_days": 25,
   "monthly_count": 25,
-  "avg_rank": 222.0,
+  "avg_rank": 149.8,
   "best_rank": 5,
   "trend": "stable"
 }

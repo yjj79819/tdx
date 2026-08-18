@@ -3,10 +3,6 @@
   "name": "华森制药",
   "history": [
     {
-      "date": "2026-07-17",
-      "rank": 1140
-    },
-    {
       "date": "2026-07-18",
       "rank": 1123
     },
@@ -60,18 +56,22 @@
     },
     {
       "date": "2026-08-16",
-      "rank": 210
+      "rank": 209
     },
     {
       "date": "2026-08-17",
-      "rank": 92,
-      "price": 16.79,
-      "change_pct": 10.03
+      "rank": 178
+    },
+    {
+      "date": "2026-08-18",
+      "rank": 58,
+      "price": 15.8,
+      "change_pct": -5.8964
     }
   ],
   "continuous_days": 16,
   "monthly_count": 16,
-  "avg_rank": 1124.9,
-  "best_rank": 92,
+  "avg_rank": 1062.6,
+  "best_rank": 58,
   "trend": "stable"
 }

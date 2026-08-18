@@ -3,10 +3,6 @@
   "name": "星网锐捷",
   "history": [
     {
-      "date": "2026-07-17",
-      "rank": 16
-    },
-    {
       "date": "2026-07-18",
       "rank": 18
     },
@@ -124,18 +120,22 @@
     },
     {
       "date": "2026-08-16",
-      "rank": 39
+      "rank": 41
     },
     {
       "date": "2026-08-17",
-      "rank": 28,
-      "price": 33.91,
-      "change_pct": 3.8
+      "rank": 56
+    },
+    {
+      "date": "2026-08-18",
+      "rank": 56,
+      "price": 32.49,
+      "change_pct": -4.1876
     }
   ],
   "continuous_days": 32,
   "monthly_count": 32,
-  "avg_rank": 96.2,
+  "avg_rank": 98.4,
   "best_rank": 13,
   "trend": "stable"
 }

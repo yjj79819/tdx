@@ -3,10 +3,6 @@
   "name": "哈药股份",
   "history": [
     {
-      "date": "2026-07-17",
-      "rank": 4
-    },
-    {
       "date": "2026-07-18",
       "rank": 7
     },
@@ -124,18 +120,22 @@
     },
     {
       "date": "2026-08-16",
-      "rank": 26
+      "rank": 25
     },
     {
       "date": "2026-08-17",
-      "rank": 18,
-      "price": 9.01,
-      "change_pct": 1.12
+      "rank": 23
+    },
+    {
+      "date": "2026-08-18",
+      "rank": 26,
+      "price": 9.07,
+      "change_pct": 0.6659
     }
   ],
   "continuous_days": 32,
   "monthly_count": 32,
-  "avg_rank": 12.2,
+  "avg_rank": 13.0,
   "best_rank": 2,
   "trend": "stable"
 }

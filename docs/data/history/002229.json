@@ -3,10 +3,6 @@
   "name": "鸿博股份",
   "history": [
     {
-      "date": "2026-07-17",
-      "rank": 992
-    },
-    {
       "date": "2026-07-18",
       "rank": 946
     },
@@ -124,18 +120,22 @@
     },
     {
       "date": "2026-08-16",
-      "rank": 62
+      "rank": 57
     },
     {
       "date": "2026-08-17",
-      "rank": 17,
-      "price": 13.82,
-      "change_pct": 10.03
+      "rank": 69
+    },
+    {
+      "date": "2026-08-18",
+      "rank": 46,
+      "price": 12.57,
+      "change_pct": -9.0449
     }
   ],
   "continuous_days": 32,
   "monthly_count": 32,
-  "avg_rank": 510.8,
-  "best_rank": 17,
+  "avg_rank": 482.7,
+  "best_rank": 25,
   "trend": "stable"
 }

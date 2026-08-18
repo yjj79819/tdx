@@ -1,0 +1,25 @@
+{
+  "code": "600281",
+  "name": "华阳新材",
+  "history": [
+    {
+      "date": "2026-08-16",
+      "rank": 1235
+    },
+    {
+      "date": "2026-08-17",
+      "rank": 522
+    },
+    {
+      "date": "2026-08-18",
+      "rank": 76,
+      "price": 4.96,
+      "change_pct": 2.268
+    }
+  ],
+  "continuous_days": 3,
+  "monthly_count": 3,
+  "avg_rank": 611.0,
+  "best_rank": 76,
+  "trend": "stable"
+}
