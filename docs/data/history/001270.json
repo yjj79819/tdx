@@ -124,18 +124,18 @@
     },
     {
       "date": "2026-08-18",
-      "rank": 329
+      "rank": 258
     },
     {
       "date": "2026-08-19",
-      "rank": 86,
-      "price": 113.05,
-      "change_pct": -5.44
+      "rank": 87,
+      "price": 111.4,
+      "change_pct": -6.8005
     }
   ],
   "continuous_days": 32,
   "monthly_count": 32,
-  "avg_rank": 491.6,
-  "best_rank": 86,
+  "avg_rank": 489.4,
+  "best_rank": 87,
   "trend": "stable"
 }
