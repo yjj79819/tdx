@@ -4,7 +4,7 @@
     "name": "煤炭开采加工",
     "code": "881105",
     "change_pct": 2.17,
-    "heat": "462612.0",
+    "heat": "458213.0",
     "limit_up_tag": "4家涨停",
     "hot_tag": "10天9次上榜",
     "etf_name": "煤炭ETF",
@@ -15,73 +15,73 @@
     "name": "半导体",
     "code": "881121",
     "change_pct": -6.42,
-    "heat": "374815.5",
+    "heat": "382178.5",
     "limit_up_tag": "1家涨停",
     "hot_tag": "连续909天上榜",
-    "etf_name": "科创芯片ETF",
-    "etf_code": "588750"
+    "etf_name": "芯片ETF",
+    "etf_code": "159560"
   },
   {
     "rank": 3,
-    "name": "证券",
-    "code": "881157",
-    "change_pct": -1.26,
-    "heat": "310210.5",
-    "limit_up_tag": "",
-    "hot_tag": "连续909天上榜",
-    "etf_name": "证券ETF",
-    "etf_code": "159016"
-  },
-  {
-    "rank": 4,
     "name": "银行",
     "code": "881155",
     "change_pct": 1.4,
-    "heat": "295598.0",
+    "heat": "323184.5",
     "limit_up_tag": "",
     "hot_tag": "连续909天上榜",
     "etf_name": "银行ETF",
-    "etf_code": "516310"
+    "etf_code": "159887"
+  },
+  {
+    "rank": 4,
+    "name": "证券",
+    "code": "881157",
+    "change_pct": -1.26,
+    "heat": "294382.5",
+    "limit_up_tag": "",
+    "hot_tag": "连续909天上榜",
+    "etf_name": "证券ETF",
+    "etf_code": "515850"
   },
   {
     "rank": 5,
     "name": "电力",
     "code": "881145",
     "change_pct": -2.11,
-    "heat": "198350.0",
+    "heat": "184932.0",
     "limit_up_tag": "",
     "hot_tag": "连续150天上榜",
     "etf_name": "电力ETF",
-    "etf_code": "159158"
+    "etf_code": "516370"
   },
   {
     "rank": 6,
     "name": "种植业与林业",
     "code": "881101",
     "change_pct": -2.21,
-    "heat": "177929.5",
+    "heat": "166420.0",
     "limit_up_tag": "",
     "hot_tag": "5天3次上榜",
     "etf_name": "农业ETF",
-    "etf_code": "512620"
+    "etf_code": "562900"
   },
   {
     "rank": 7,
     "name": "化学制药",
     "code": "881140",
     "change_pct": -1.92,
-    "heat": "157978.5",
+    "heat": "148285.5",
     "limit_up_tag": "1家涨停",
     "hot_tag": "连续42天上榜",
     "etf_name": "创新药ETF",
-    "etf_code": "515120"
+    "etf_code": "517110"
   },
   {
     "rank": 8,
     "name": "贵金属",
     "code": "881169",
     "change_pct": -0.63,
-    "heat": "101243.0",
+    "heat": "108438.5",
     "limit_up_tag": "",
     "hot_tag": "连续23天上榜",
     "etf_name": "黄金股ETF",
@@ -89,134 +89,134 @@
   },
   {
     "rank": 9,
-    "name": "白酒",
-    "code": "881273",
-    "change_pct": -1.79,
-    "heat": "74672.5",
-    "limit_up_tag": "",
-    "hot_tag": "连续520天上榜",
-    "etf_name": "消费ETF",
-    "etf_code": "560680"
-  },
-  {
-    "rank": 10,
     "name": "元件",
     "code": "881270",
     "change_pct": -6.33,
-    "heat": "73318.0",
+    "heat": "75276.0",
     "limit_up_tag": "",
     "hot_tag": "连续96天上榜",
     "etf_name": "消费电子ETF",
     "etf_code": "561100"
   },
   {
+    "rank": 10,
+    "name": "厨卫电器",
+    "code": "881174",
+    "change_pct": 4.22,
+    "heat": "74300.0",
+    "limit_up_tag": "1家涨停",
+    "hot_tag": "首次上榜",
+    "etf_name": "",
+    "etf_code": ""
+  },
+  {
     "rank": 11,
-    "name": "房地产",
-    "code": "881153",
-    "change_pct": -1.19,
-    "heat": "69686.0",
-    "limit_up_tag": "3家涨停",
-    "hot_tag": "10天8次上榜",
-    "etf_name": "地产ETF",
-    "etf_code": "159707"
+    "name": "白酒",
+    "code": "881273",
+    "change_pct": -1.79,
+    "heat": "67519.5",
+    "limit_up_tag": "",
+    "hot_tag": "连续520天上榜",
+    "etf_name": "食品饮料ETF",
+    "etf_code": "515710"
   },
   {
     "rank": 12,
     "name": "油气开采及服务",
     "code": "881107",
     "change_pct": 0.32,
-    "heat": "65418.0",
+    "heat": "62678.0",
     "limit_up_tag": "",
     "hot_tag": "",
     "etf_name": "石油ETF",
-    "etf_code": "159018"
+    "etf_code": "159181"
   },
   {
     "rank": 13,
+    "name": "房地产",
+    "code": "881153",
+    "change_pct": -1.19,
+    "heat": "62313.0",
+    "limit_up_tag": "3家涨停",
+    "hot_tag": "10天8次上榜",
+    "etf_name": "地产ETF",
+    "etf_code": "159707"
+  },
+  {
+    "rank": 14,
     "name": "中药",
     "code": "881141",
     "change_pct": -1.16,
-    "heat": "61606.5",
+    "heat": "59445.0",
     "limit_up_tag": "1家涨停",
     "hot_tag": "10天9次上榜",
     "etf_name": "中药ETF",
     "etf_code": "560080"
   },
   {
-    "rank": 14,
+    "rank": 15,
     "name": "电网设备",
     "code": "881278",
     "change_pct": -3.36,
-    "heat": "59586.5",
+    "heat": "56201.0",
     "limit_up_tag": "2家涨停",
     "hot_tag": "连续150天上榜",
     "etf_name": "电网设备ETF",
-    "etf_code": "561380"
-  },
-  {
-    "rank": 15,
-    "name": "软件开发",
-    "code": "881272",
-    "change_pct": -3.65,
-    "heat": "58970.0",
-    "limit_up_tag": "",
-    "hot_tag": "连续32天上榜",
-    "etf_name": "计算机ETF",
-    "etf_code": "159586"
+    "etf_code": "159320"
   },
   {
     "rank": 16,
     "name": "通信设备",
     "code": "881129",
     "change_pct": -5.75,
-    "heat": "54510.0",
+    "heat": "54090.5",
     "limit_up_tag": "",
     "hot_tag": "连续133天上榜",
     "etf_name": "通信ETF",
-    "etf_code": "159583"
+    "etf_code": "159507"
   },
   {
     "rank": 17,
+    "name": "软件开发",
+    "code": "881272",
+    "change_pct": -3.65,
+    "heat": "52620.5",
+    "limit_up_tag": "",
+    "hot_tag": "连续32天上榜",
+    "etf_name": "软件ETF",
+    "etf_code": "159590"
+  },
+  {
+    "rank": 18,
     "name": "种子生产",
     "code": "884001",
     "change_pct": 0.07,
-    "heat": "52661.0",
+    "heat": "49336.0",
     "limit_up_tag": "",
     "hot_tag": "",
     "etf_name": "",
     "etf_code": ""
   },
   {
-    "rank": 18,
-    "name": "电池",
-    "code": "881281",
-    "change_pct": -3.06,
-    "heat": "46707.5",
-    "limit_up_tag": "1家涨停",
-    "hot_tag": "连续115天上榜",
-    "etf_name": "电池ETF",
-    "etf_code": "159796"
-  },
-  {
     "rank": 19,
     "name": "半导体设备",
     "code": "884229",
     "change_pct": -8.01,
-    "heat": "45508.5",
+    "heat": "48831.0",
     "limit_up_tag": "",
     "hot_tag": "连续45天上榜",
     "etf_name": "半导体设备ETF",
-    "etf_code": "159327"
+    "etf_code": "159516"
   },
   {
     "rank": 20,
-    "name": "农产品加工",
-    "code": "881103",
-    "change_pct": -1.89,
-    "heat": "43994.5",
-    "limit_up_tag": "3家涨停",
-    "hot_tag": "",
-    "etf_name": "农业ETF",
-    "etf_code": "512620"
+    "name": "电池",
+    "code": "881281",
+    "change_pct": -3.06,
+    "heat": "46607.5",
+    "limit_up_tag": "1家涨停",
+    "hot_tag": "连续115天上榜",
+    "etf_name": "电池ETF",
+    "etf_code": "159796"
   }
 ]
