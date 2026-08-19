@@ -3,10 +3,6 @@
   "name": "盈新发展",
   "history": [
     {
-      "date": "2026-07-18",
-      "rank": 344
-    },
-    {
       "date": "2026-07-19",
       "rank": 407
     },
@@ -124,18 +120,22 @@
     },
     {
       "date": "2026-08-17",
-      "rank": 47
+      "rank": 40
     },
     {
       "date": "2026-08-18",
-      "rank": 17,
-      "price": 3.41,
-      "change_pct": 10.0
+      "rank": 52
+    },
+    {
+      "date": "2026-08-19",
+      "rank": 21,
+      "price": 3.29,
+      "change_pct": -3.5191
     }
   ],
   "continuous_days": 32,
   "monthly_count": 32,
-  "avg_rank": 497.9,
-  "best_rank": 17,
+  "avg_rank": 488.7,
+  "best_rank": 21,
   "trend": "stable"
 }

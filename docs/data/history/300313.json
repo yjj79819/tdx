@@ -1,0 +1,41 @@
+{
+  "code": "300313",
+  "name": "天山生物",
+  "history": [
+    {
+      "date": "2026-08-13",
+      "rank": 1988
+    },
+    {
+      "date": "2026-08-14",
+      "rank": 1972
+    },
+    {
+      "date": "2026-08-15",
+      "rank": 1333
+    },
+    {
+      "date": "2026-08-16",
+      "rank": 318
+    },
+    {
+      "date": "2026-08-17",
+      "rank": 139
+    },
+    {
+      "date": "2026-08-18",
+      "rank": 104
+    },
+    {
+      "date": "2026-08-19",
+      "rank": 83,
+      "price": 14.12,
+      "change_pct": 9.6273
+    }
+  ],
+  "continuous_days": 7,
+  "monthly_count": 7,
+  "avg_rank": 848.1,
+  "best_rank": 83,
+  "trend": "stable"
+}

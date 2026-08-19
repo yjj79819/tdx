@@ -3,10 +3,6 @@
   "name": "中石科技",
   "history": [
     {
-      "date": "2026-07-18",
-      "rank": 808
-    },
-    {
       "date": "2026-07-19",
       "rank": 974
     },
@@ -124,18 +120,22 @@
     },
     {
       "date": "2026-08-17",
-      "rank": 34
+      "rank": 27
     },
     {
       "date": "2026-08-18",
-      "rank": 28,
-      "price": 97.0,
-      "change_pct": 20.0
+      "rank": 41
+    },
+    {
+      "date": "2026-08-19",
+      "rank": 32,
+      "price": 86.17,
+      "change_pct": -11.1649
     }
   ],
   "continuous_days": 32,
   "monthly_count": 32,
-  "avg_rank": 908.5,
+  "avg_rank": 884.5,
   "best_rank": 25,
   "trend": "stable"
 }

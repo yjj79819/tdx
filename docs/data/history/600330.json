@@ -3,10 +3,6 @@
   "name": "天通股份",
   "history": [
     {
-      "date": "2026-07-18",
-      "rank": 472
-    },
-    {
       "date": "2026-07-19",
       "rank": 400
     },
@@ -124,18 +120,22 @@
     },
     {
       "date": "2026-08-17",
-      "rank": 74
+      "rank": 60
     },
     {
       "date": "2026-08-18",
-      "rank": 66,
-      "price": 29.39,
-      "change_pct": 6.95
+      "rank": 68
+    },
+    {
+      "date": "2026-08-19",
+      "rank": 63,
+      "price": 27.24,
+      "change_pct": -7.3154
     }
   ],
   "continuous_days": 32,
   "monthly_count": 32,
-  "avg_rank": 317.6,
-  "best_rank": 66,
+  "avg_rank": 304.5,
+  "best_rank": 60,
   "trend": "stable"
 }
