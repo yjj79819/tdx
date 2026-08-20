@@ -1,0 +1,21 @@
+{
+  "code": "688356",
+  "name": "键凯科技",
+  "history": [
+    {
+      "date": "2026-08-19",
+      "rank": 485
+    },
+    {
+      "date": "2026-08-20",
+      "rank": 74,
+      "price": 89.45,
+      "change_pct": 20.0027
+    }
+  ],
+  "continuous_days": 2,
+  "monthly_count": 2,
+  "avg_rank": 279.5,
+  "best_rank": 74,
+  "trend": "stable"
+}

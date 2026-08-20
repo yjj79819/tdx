@@ -3,10 +3,6 @@
   "name": "红四方",
   "history": [
     {
-      "date": "2026-07-19",
-      "rank": 1153
-    },
-    {
       "date": "2026-07-20",
       "rank": 1810
     },
@@ -48,18 +44,22 @@
     },
     {
       "date": "2026-08-18",
-      "rank": 82
+      "rank": 62
     },
     {
       "date": "2026-08-19",
-      "rank": 33,
-      "price": 29.0,
-      "change_pct": 10.02
+      "rank": 73
+    },
+    {
+      "date": "2026-08-20",
+      "rank": 41,
+      "price": 28.13,
+      "change_pct": -3.0
     }
   ],
   "continuous_days": 13,
   "monthly_count": 13,
-  "avg_rank": 1296.5,
-  "best_rank": 33,
+  "avg_rank": 1212.5,
+  "best_rank": 41,
   "trend": "stable"
 }

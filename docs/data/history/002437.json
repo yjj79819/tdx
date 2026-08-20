@@ -3,10 +3,6 @@
   "name": "誉衡药业",
   "history": [
     {
-      "date": "2026-07-19",
-      "rank": 1501
-    },
-    {
       "date": "2026-07-20",
       "rank": 1529
     },
@@ -100,18 +96,22 @@
     },
     {
       "date": "2026-08-18",
-      "rank": 47
+      "rank": 45
     },
     {
       "date": "2026-08-19",
-      "rank": 34,
-      "price": 4.3,
-      "change_pct": -9.66
+      "rank": 32
+    },
+    {
+      "date": "2026-08-20",
+      "rank": 35,
+      "price": 4.73,
+      "change_pct": 10.0
     }
   ],
   "continuous_days": 26,
   "monthly_count": 26,
-  "avg_rank": 790.9,
+  "avg_rank": 734.4,
   "best_rank": 23,
   "trend": "stable"
 }
