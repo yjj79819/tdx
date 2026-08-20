@@ -1,0 +1,37 @@
+{
+  "code": "301655",
+  "name": "绿控传动",
+  "history": [
+    {
+      "date": "2026-08-09",
+      "rank": 1284
+    },
+    {
+      "date": "2026-08-10",
+      "rank": 1286
+    },
+    {
+      "date": "2026-08-15",
+      "rank": 1722
+    },
+    {
+      "date": "2026-08-18",
+      "rank": 1863
+    },
+    {
+      "date": "2026-08-19",
+      "rank": 166
+    },
+    {
+      "date": "2026-08-20",
+      "rank": 76,
+      "price": 36.15,
+      "change_pct": 325.2941
+    }
+  ],
+  "continuous_days": 6,
+  "monthly_count": 6,
+  "avg_rank": 1066.2,
+  "best_rank": 76,
+  "trend": "stable"
+}
