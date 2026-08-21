@@ -93,8 +93,8 @@
     {
       "date": "2026-08-21",
       "rank": 1,
-      "price": 698.86,
-      "change_pct": 1.73
+      "price": 680.0,
+      "change_pct": -1.02
     }
   ],
   "continuous_days": 23,
