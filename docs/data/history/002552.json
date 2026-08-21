@@ -3,10 +3,6 @@
   "name": "宝鼎科技",
   "history": [
     {
-      "date": "2026-07-20",
-      "rank": 385
-    },
-    {
       "date": "2026-07-21",
       "rank": 671
     },
@@ -124,18 +120,22 @@
     },
     {
       "date": "2026-08-19",
-      "rank": 70
+      "rank": 47
     },
     {
       "date": "2026-08-20",
-      "rank": 99,
-      "price": 57.04,
-      "change_pct": 10.01
+      "rank": 50
+    },
+    {
+      "date": "2026-08-21",
+      "rank": 34,
+      "price": 54.4,
+      "change_pct": -4.6283
     }
   ],
   "continuous_days": 32,
   "monthly_count": 32,
-  "avg_rank": 400.2,
+  "avg_rank": 386.9,
   "best_rank": 24,
   "trend": "stable"
 }

@@ -3,10 +3,6 @@
   "name": "艾艾精工",
   "history": [
     {
-      "date": "2026-07-20",
-      "rank": 160
-    },
-    {
       "date": "2026-07-21",
       "rank": 98
     },
@@ -124,18 +120,22 @@
     },
     {
       "date": "2026-08-19",
-      "rank": 48
+      "rank": 46
     },
     {
       "date": "2026-08-20",
-      "rank": 61,
-      "price": 74.79,
-      "change_pct": 10.0
+      "rank": 36
+    },
+    {
+      "date": "2026-08-21",
+      "rank": 23,
+      "price": 80.56,
+      "change_pct": 7.7149
     }
   ],
   "continuous_days": 32,
   "monthly_count": 32,
-  "avg_rank": 155.2,
-  "best_rank": 30,
+  "avg_rank": 150.1,
+  "best_rank": 23,
   "trend": "stable"
 }

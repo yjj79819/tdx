@@ -3,10 +3,6 @@
   "name": "双鹭药业",
   "history": [
     {
-      "date": "2026-07-20",
-      "rank": 854
-    },
-    {
       "date": "2026-07-21",
       "rank": 1019
     },
@@ -124,18 +120,22 @@
     },
     {
       "date": "2026-08-19",
-      "rank": 329
+      "rank": 209
     },
     {
       "date": "2026-08-20",
-      "rank": 95,
-      "price": 6.44,
-      "change_pct": 10.09
+      "rank": 133
+    },
+    {
+      "date": "2026-08-21",
+      "rank": 17,
+      "price": 7.08,
+      "change_pct": 9.9379
     }
   ],
   "continuous_days": 32,
   "monthly_count": 32,
-  "avg_rank": 1274.3,
-  "best_rank": 95,
+  "avg_rank": 1245.6,
+  "best_rank": 17,
   "trend": "stable"
 }

@@ -4,18 +4,22 @@
   "history": [
     {
       "date": "2026-08-19",
-      "rank": 485
+      "rank": 286
     },
     {
       "date": "2026-08-20",
-      "rank": 74,
-      "price": 89.45,
+      "rank": 261
+    },
+    {
+      "date": "2026-08-21",
+      "rank": 66,
+      "price": 107.34,
       "change_pct": 20.0
     }
   ],
-  "continuous_days": 2,
-  "monthly_count": 2,
-  "avg_rank": 279.5,
-  "best_rank": 74,
+  "continuous_days": 3,
+  "monthly_count": 3,
+  "avg_rank": 204.3,
+  "best_rank": 66,
   "trend": "stable"
 }

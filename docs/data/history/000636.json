@@ -3,10 +3,6 @@
   "name": "风华高科",
   "history": [
     {
-      "date": "2026-07-20",
-      "rank": 33
-    },
-    {
       "date": "2026-07-21",
       "rank": 57
     },
@@ -124,18 +120,22 @@
     },
     {
       "date": "2026-08-19",
-      "rank": 16
+      "rank": 12
     },
     {
       "date": "2026-08-20",
-      "rank": 22,
-      "price": 53.09,
-      "change_pct": -5.38
+      "rank": 7
+    },
+    {
+      "date": "2026-08-21",
+      "rank": 12,
+      "price": 53.97,
+      "change_pct": 1.6576
     }
   ],
   "continuous_days": 32,
   "monthly_count": 32,
-  "avg_rank": 17.5,
+  "avg_rank": 16.2,
   "best_rank": 1,
   "trend": "stable"
 }

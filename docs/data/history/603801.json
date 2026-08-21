@@ -1,0 +1,37 @@
+{
+  "code": "603801",
+  "name": "志邦家居",
+  "history": [
+    {
+      "date": "2026-07-28",
+      "rank": 1232
+    },
+    {
+      "date": "2026-07-29",
+      "rank": 1742
+    },
+    {
+      "date": "2026-08-18",
+      "rank": 546
+    },
+    {
+      "date": "2026-08-19",
+      "rank": 251
+    },
+    {
+      "date": "2026-08-20",
+      "rank": 141
+    },
+    {
+      "date": "2026-08-21",
+      "rank": 39,
+      "price": 7.5,
+      "change_pct": 3.7344
+    }
+  ],
+  "continuous_days": 6,
+  "monthly_count": 6,
+  "avg_rank": 658.5,
+  "best_rank": 39,
+  "trend": "stable"
+}

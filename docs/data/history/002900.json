@@ -3,10 +3,6 @@
   "name": "哈三联",
   "history": [
     {
-      "date": "2026-07-20",
-      "rank": 1225
-    },
-    {
       "date": "2026-07-21",
       "rank": 302
     },
@@ -124,18 +120,22 @@
     },
     {
       "date": "2026-08-19",
-      "rank": 50
+      "rank": 43
     },
     {
       "date": "2026-08-20",
-      "rank": 23,
-      "price": 15.3,
-      "change_pct": -2.11
+      "rank": 79
+    },
+    {
+      "date": "2026-08-21",
+      "rank": 38,
+      "price": 13.77,
+      "change_pct": -10.0
     }
   ],
   "continuous_days": 32,
   "monthly_count": 32,
-  "avg_rank": 340.2,
-  "best_rank": 23,
+  "avg_rank": 304.6,
+  "best_rank": 38,
   "trend": "stable"
 }

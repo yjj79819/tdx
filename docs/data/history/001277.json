@@ -1,0 +1,29 @@
+{
+  "code": "001277",
+  "name": "速达股份",
+  "history": [
+    {
+      "date": "2026-08-18",
+      "rank": 1067
+    },
+    {
+      "date": "2026-08-19",
+      "rank": 422
+    },
+    {
+      "date": "2026-08-20",
+      "rank": 249
+    },
+    {
+      "date": "2026-08-21",
+      "rank": 87,
+      "price": 37.81,
+      "change_pct": 4.2459
+    }
+  ],
+  "continuous_days": 4,
+  "monthly_count": 4,
+  "avg_rank": 456.2,
+  "best_rank": 87,
+  "trend": "stable"
+}

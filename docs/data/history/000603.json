@@ -3,10 +3,6 @@
   "name": "盛达资源",
   "history": [
     {
-      "date": "2026-07-20",
-      "rank": 645
-    },
-    {
       "date": "2026-07-21",
       "rank": 228
     },
@@ -124,18 +120,22 @@
     },
     {
       "date": "2026-08-19",
-      "rank": 137
+      "rank": 114
     },
     {
       "date": "2026-08-20",
-      "rank": 56,
-      "price": 33.28,
-      "change_pct": 6.36
+      "rank": 111
+    },
+    {
+      "date": "2026-08-21",
+      "rank": 59,
+      "price": 35.33,
+      "change_pct": 6.1599
     }
   ],
   "continuous_days": 32,
   "monthly_count": 32,
-  "avg_rank": 211.6,
+  "avg_rank": 194.3,
   "best_rank": 27,
   "trend": "stable"
 }
