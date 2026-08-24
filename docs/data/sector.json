@@ -2,36 +2,36 @@
   {
     "sector": "通信设备",
     "count": 13,
-    "avg_change": -1.93,
+    "avg_change": -1.27,
     "stocks": [
       {
         "code": "300308",
         "name": "中际旭创",
-        "rank": 7,
-        "change_pct": -8.37
+        "rank": 5,
+        "change_pct": -7.72
       },
       {
         "code": "002491",
         "name": "通鼎互联",
-        "rank": 8,
-        "change_pct": -2.74
+        "rank": 9,
+        "change_pct": -1.84
       },
       {
         "code": "600487",
         "name": "亨通光电",
-        "rank": 14,
-        "change_pct": -3.33
+        "rank": 13,
+        "change_pct": -2.81
       },
       {
         "code": "003040",
         "name": "楚天龙",
-        "rank": 33,
+        "rank": 40,
         "change_pct": 10.01
       },
       {
         "code": "603118",
         "name": "共进股份",
-        "rank": 53,
+        "rank": 51,
         "change_pct": -10.01
       }
     ]
@@ -39,81 +39,155 @@
   {
     "sector": "半导体",
     "count": 8,
-    "avg_change": -4.41,
+    "avg_change": -3.76,
     "stocks": [
       {
         "code": "600460",
         "name": "士兰微",
         "rank": 4,
-        "change_pct": -1.87
+        "change_pct": -0.92
       },
       {
         "code": "688825",
         "name": "长鑫科技",
-        "rank": 11,
-        "change_pct": -2.83
+        "rank": 10,
+        "change_pct": -2.41
       },
       {
         "code": "603986",
         "name": "兆易创新",
-        "rank": 19,
-        "change_pct": -6.79
+        "rank": 16,
+        "change_pct": -6.7
       },
       {
         "code": "600584",
         "name": "长电科技",
         "rank": 22,
-        "change_pct": -6.47
+        "change_pct": -6.07
       },
       {
         "code": "600206",
         "name": "有研新材",
-        "rank": 27,
-        "change_pct": -4.37
+        "rank": 28,
+        "change_pct": -3.17
       }
     ]
   },
   {
     "sector": "贵金属",
-    "count": 6,
-    "avg_change": 5.18,
+    "count": 7,
+    "avg_change": 6.03,
     "stocks": [
       {
         "code": "002716",
         "name": "湖南白银",
-        "rank": 5,
-        "change_pct": 9.5
+        "rank": 7,
+        "change_pct": 9.98
       },
       {
         "code": "000603",
         "name": "盛达资源",
-        "rank": 26,
-        "change_pct": 8.55
+        "rank": 18,
+        "change_pct": 8.88
       },
       {
         "code": "000506",
         "name": "招金黄金",
-        "rank": 45,
-        "change_pct": 6.64
+        "rank": 26,
+        "change_pct": 7.56
       },
       {
         "code": "300139",
         "name": "晓程科技",
-        "rank": 54,
-        "change_pct": 9.18
+        "rank": 36,
+        "change_pct": 8.66
       },
       {
         "code": "600988",
         "name": "赤峰黄金",
-        "rank": 72,
-        "change_pct": -1.46
+        "rank": 48,
+        "change_pct": -1.34
+      }
+    ]
+  },
+  {
+    "sector": "电力",
+    "count": 5,
+    "avg_change": 2.9,
+    "stocks": [
+      {
+        "code": "002015",
+        "name": "协鑫能科",
+        "rank": 19,
+        "change_pct": 10.04
+      },
+      {
+        "code": "001258",
+        "name": "立新能源",
+        "rank": 23,
+        "change_pct": 2.95
+      },
+      {
+        "code": "600396",
+        "name": "华电辽能",
+        "rank": 52,
+        "change_pct": -0.77
+      },
+      {
+        "code": "601991",
+        "name": "大唐发电",
+        "rank": 81,
+        "change_pct": -0.34
+      },
+      {
+        "code": "600863",
+        "name": "华能蒙电",
+        "rank": 96,
+        "change_pct": 2.6
+      }
+    ]
+  },
+  {
+    "sector": "元件",
+    "count": 5,
+    "avg_change": -2.94,
+    "stocks": [
+      {
+        "code": "000636",
+        "name": "风华高科",
+        "rank": 29,
+        "change_pct": -5.05
+      },
+      {
+        "code": "002384",
+        "name": "东山精密",
+        "rank": 35,
+        "change_pct": -3.72
+      },
+      {
+        "code": "600183",
+        "name": "生益科技",
+        "rank": 79,
+        "change_pct": -4.89
+      },
+      {
+        "code": "002552",
+        "name": "宝鼎科技",
+        "rank": 90,
+        "change_pct": 4.91
+      },
+      {
+        "code": "002436",
+        "name": "兴森科技",
+        "rank": 97,
+        "change_pct": -5.97
       }
     ]
   },
   {
     "sector": "化学制药",
-    "count": 5,
-    "avg_change": -0.67,
+    "count": 4,
+    "avg_change": -1.56,
     "stocks": [
       {
         "code": "600613",
@@ -125,280 +199,244 @@
         "code": "600664",
         "name": "哈药股份",
         "rank": 3,
-        "change_pct": 0.0
+        "change_pct": 0.61
       },
       {
         "code": "002437",
         "name": "誉衡药业",
-        "rank": 56,
+        "rank": 54,
         "change_pct": -9.43
       },
       {
         "code": "603538",
         "name": "美诺华",
-        "rank": 84,
-        "change_pct": -6.7
-      },
-      {
-        "code": "002900",
-        "name": "哈三联",
-        "rank": 100,
-        "change_pct": 2.76
-      }
-    ]
-  },
-  {
-    "sector": "电力",
-    "count": 5,
-    "avg_change": 2.62,
-    "stocks": [
-      {
-        "code": "002015",
-        "name": "协鑫能科",
-        "rank": 15,
-        "change_pct": 10.04
-      },
-      {
-        "code": "001258",
-        "name": "立新能源",
-        "rank": 24,
-        "change_pct": 2.29
-      },
-      {
-        "code": "600396",
-        "name": "华电辽能",
-        "rank": 49,
-        "change_pct": -1.33
-      },
-      {
-        "code": "601991",
-        "name": "大唐发电",
-        "rank": 78,
-        "change_pct": -0.51
-      },
-      {
-        "code": "600863",
-        "name": "华能蒙电",
-        "rank": 91,
-        "change_pct": 2.6
-      }
-    ]
-  },
-  {
-    "sector": "电池",
-    "count": 4,
-    "avg_change": 3.41,
-    "stocks": [
-      {
-        "code": "002580",
-        "name": "圣阳股份",
-        "rank": 10,
-        "change_pct": 9.98
-      },
-      {
-        "code": "600110",
-        "name": "诺德股份",
-        "rank": 21,
-        "change_pct": 3.07
-      },
-      {
-        "code": "300390",
-        "name": "天华新能",
-        "rank": 95,
-        "change_pct": 2.17
-      },
-      {
-        "code": "002709",
-        "name": "天赐材料",
-        "rank": 98,
-        "change_pct": -1.58
-      }
-    ]
-  },
-  {
-    "sector": "小金属",
-    "count": 4,
-    "avg_change": -0.03,
-    "stocks": [
-      {
-        "code": "002428",
-        "name": "云南锗业",
-        "rank": 25,
-        "change_pct": -6.52
-      },
-      {
-        "code": "000657",
-        "name": "中钨高新",
-        "rank": 41,
-        "change_pct": -3.11
-      },
-      {
-        "code": "601958",
-        "name": "金钼股份",
-        "rank": 51,
-        "change_pct": 6.7
-      },
-      {
-        "code": "000831",
-        "name": "中国稀土",
-        "rank": 97,
-        "change_pct": 2.8
-      }
-    ]
-  },
-  {
-    "sector": "元件",
-    "count": 4,
-    "avg_change": -3.35,
-    "stocks": [
-      {
-        "code": "002384",
-        "name": "东山精密",
-        "rank": 28,
-        "change_pct": -4.94
-      },
-      {
-        "code": "000636",
-        "name": "风华高科",
-        "rank": 31,
-        "change_pct": -5.74
-      },
-      {
-        "code": "600183",
-        "name": "生益科技",
-        "rank": 79,
-        "change_pct": -6.02
-      },
-      {
-        "code": "002552",
-        "name": "宝鼎科技",
-        "rank": 86,
-        "change_pct": 3.28
+        "rank": 82,
+        "change_pct": -7.4
       }
     ]
   },
   {
     "sector": "能源金属",
     "count": 4,
-    "avg_change": 2.5,
+    "avg_change": 2.82,
     "stocks": [
       {
         "code": "002192",
         "name": "融捷股份",
-        "rank": 30,
-        "change_pct": 5.54
+        "rank": 34,
+        "change_pct": 5.99
       },
       {
         "code": "002466",
         "name": "天齐锂业",
-        "rank": 50,
-        "change_pct": 1.05
+        "rank": 56,
+        "change_pct": 1.49
       },
       {
         "code": "603399",
         "name": "永杉锂业",
-        "rank": 64,
+        "rank": 67,
         "change_pct": 1.0
       },
       {
         "code": "002460",
         "name": "赣锋锂业",
-        "rank": 67,
-        "change_pct": 2.4
+        "rank": 78,
+        "change_pct": 2.79
       }
     ]
   },
   {
     "sector": "消费电子",
     "count": 4,
-    "avg_change": -1.23,
+    "avg_change": -0.6,
     "stocks": [
       {
         "code": "002241",
         "name": "歌尔股份",
-        "rank": 36,
-        "change_pct": 0.0
+        "rank": 37,
+        "change_pct": 0.34
       },
       {
         "code": "603629",
         "name": "利通电子",
-        "rank": 39,
-        "change_pct": -5.02
+        "rank": 44,
+        "change_pct": -3.33
       },
       {
         "code": "603626",
         "name": "科森科技",
-        "rank": 69,
-        "change_pct": 4.83
+        "rank": 74,
+        "change_pct": 4.45
       },
       {
         "code": "601138",
         "name": "工业富联",
-        "rank": 87,
-        "change_pct": -4.74
+        "rank": 85,
+        "change_pct": -3.88
       }
     ]
   },
   {
     "sector": "工业金属",
     "count": 3,
-    "avg_change": 3.75,
+    "avg_change": 3.81,
     "stocks": [
       {
         "code": "601212",
         "name": "白银有色",
-        "rank": 6,
+        "rank": 8,
         "change_pct": 10.02
       },
       {
         "code": "601899",
         "name": "紫金矿业",
-        "rank": 32,
-        "change_pct": -0.66
+        "rank": 30,
+        "change_pct": -0.58
       },
       {
         "code": "603993",
         "name": "洛阳钼业",
-        "rank": 47,
-        "change_pct": 1.88
+        "rank": 53,
+        "change_pct": 1.99
+      }
+    ]
+  },
+  {
+    "sector": "电池",
+    "count": 3,
+    "avg_change": 5.25,
+    "stocks": [
+      {
+        "code": "002580",
+        "name": "圣阳股份",
+        "rank": 11,
+        "change_pct": 9.98
+      },
+      {
+        "code": "600110",
+        "name": "诺德股份",
+        "rank": 25,
+        "change_pct": 3.07
+      },
+      {
+        "code": "300390",
+        "name": "天华新能",
+        "rank": 100,
+        "change_pct": 2.69
+      }
+    ]
+  },
+  {
+    "sector": "医疗服务",
+    "count": 3,
+    "avg_change": 3.71,
+    "stocks": [
+      {
+        "code": "600721",
+        "name": "百花医药",
+        "rank": 12,
+        "change_pct": 7.09
+      },
+      {
+        "code": "603259",
+        "name": "药明康德",
+        "rank": 57,
+        "change_pct": -4.31
+      },
+      {
+        "code": "301520",
+        "name": "万邦医药",
+        "rank": 99,
+        "change_pct": 8.36
+      }
+    ]
+  },
+  {
+    "sector": "小金属",
+    "count": 3,
+    "avg_change": -0.45,
+    "stocks": [
+      {
+        "code": "002428",
+        "name": "云南锗业",
+        "rank": 33,
+        "change_pct": -5.46
+      },
+      {
+        "code": "000657",
+        "name": "中钨高新",
+        "rank": 42,
+        "change_pct": -2.03
+      },
+      {
+        "code": "601958",
+        "name": "金钼股份",
+        "rank": 60,
+        "change_pct": 6.15
+      }
+    ]
+  },
+  {
+    "sector": "化学制品",
+    "count": 3,
+    "avg_change": -3.28,
+    "stocks": [
+      {
+        "code": "002407",
+        "name": "多氟多",
+        "rank": 38,
+        "change_pct": -4.37
+      },
+      {
+        "code": "603823",
+        "name": "百合花",
+        "rank": 41,
+        "change_pct": -9.99
+      },
+      {
+        "code": "002165",
+        "name": "红宝丽",
+        "rank": 88,
+        "change_pct": 4.53
       }
     ]
   },
   {
     "sector": "自动化设备",
     "count": 2,
-    "avg_change": -9.41,
+    "avg_change": -9.25,
     "stocks": [
       {
         "code": "688836",
         "name": "宇树科技",
         "rank": 1,
-        "change_pct": -10.12
+        "change_pct": -10.31
       },
       {
         "code": "002747",
         "name": "埃斯顿",
-        "rank": 58,
-        "change_pct": -8.7
+        "rank": 62,
+        "change_pct": -8.19
       }
     ]
   },
   {
-    "sector": "医疗服务",
+    "sector": "电网设备",
     "count": 2,
-    "avg_change": 0.62,
+    "avg_change": 2.75,
     "stocks": [
       {
-        "code": "600721",
-        "name": "百花医药",
-        "rank": 12,
-        "change_pct": 6.34
+        "code": "601700",
+        "name": "风范股份",
+        "rank": 27,
+        "change_pct": 9.99
       },
       {
-        "code": "603259",
-        "name": "药明康德",
-        "rank": 55,
-        "change_pct": -5.1
+        "code": "600869",
+        "name": "远东股份",
+        "rank": 59,
+        "change_pct": -4.49
       }
     ]
   },
@@ -410,103 +448,65 @@
       {
         "code": "605179",
         "name": "一鸣食品",
-        "rank": 34,
+        "rank": 32,
         "change_pct": -9.98
       },
       {
         "code": "603156",
         "name": "养元饮品",
-        "rank": 99,
+        "rank": 98,
         "change_pct": -9.99
-      }
-    ]
-  },
-  {
-    "sector": "化学制品",
-    "count": 2,
-    "avg_change": -7.54,
-    "stocks": [
-      {
-        "code": "603823",
-        "name": "百合花",
-        "rank": 37,
-        "change_pct": -9.99
-      },
-      {
-        "code": "002407",
-        "name": "多氟多",
-        "rank": 38,
-        "change_pct": -5.09
-      }
-    ]
-  },
-  {
-    "sector": "汽车零部件",
-    "count": 2,
-    "avg_change": 4.12,
-    "stocks": [
-      {
-        "code": "002536",
-        "name": "飞龙股份",
-        "rank": 48,
-        "change_pct": 2.53
-      },
-      {
-        "code": "002703",
-        "name": "浙江世宝",
-        "rank": 65,
-        "change_pct": 5.71
       }
     ]
   },
   {
     "sector": "塑料",
     "count": 2,
-    "avg_change": 0.25,
+    "avg_change": 0.07,
     "stocks": [
       {
         "code": "603580",
         "name": "艾艾精工",
-        "rank": 52,
-        "change_pct": -9.54
+        "rank": 49,
+        "change_pct": -9.88
       },
       {
         "code": "603330",
         "name": "天洋新材",
-        "rank": 68,
+        "rank": 64,
         "change_pct": 10.03
       }
     ]
   },
   {
-    "sector": "电网设备",
+    "sector": "汽车零部件",
     "count": 2,
-    "avg_change": 1.92,
+    "avg_change": 4.8,
     "stocks": [
       {
-        "code": "600869",
-        "name": "远东股份",
-        "rank": 63,
-        "change_pct": -6.15
+        "code": "002536",
+        "name": "飞龙股份",
+        "rank": 58,
+        "change_pct": 3.9
       },
       {
-        "code": "601700",
-        "name": "风范股份",
+        "code": "002703",
+        "name": "浙江世宝",
         "rank": 76,
-        "change_pct": 9.99
+        "change_pct": 5.71
       }
     ]
   },
   {
     "sector": "化学原料",
     "count": 1,
-    "avg_change": 6.43,
+    "avg_change": 1.63,
     "stocks": [
       {
         "code": "600722",
         "name": "金牛化工",
-        "rank": 9,
-        "change_pct": 6.43
+        "rank": 6,
+        "change_pct": 1.63
       }
     ]
   },
@@ -518,7 +518,7 @@
       {
         "code": "000620",
         "name": "盈新发展",
-        "rank": 13,
+        "rank": 14,
         "change_pct": 10.16
       }
     ]
@@ -526,52 +526,52 @@
   {
     "sector": "光学光电子",
     "count": 1,
-    "avg_change": -4.67,
+    "avg_change": -4.17,
     "stocks": [
       {
         "code": "000725",
         "name": "京东方A",
-        "rank": 16,
-        "change_pct": -4.67
+        "rank": 15,
+        "change_pct": -4.17
       }
     ]
   },
   {
     "sector": "工程咨询服务Ⅱ",
     "count": 1,
-    "avg_change": -6.2,
+    "avg_change": -5.32,
     "stocks": [
       {
         "code": "600667",
         "name": "太极实业",
         "rank": 17,
-        "change_pct": -6.2
-      }
-    ]
-  },
-  {
-    "sector": "农产品加工",
-    "count": 1,
-    "avg_change": 2.8,
-    "stocks": [
-      {
-        "code": "600127",
-        "name": "金健米业",
-        "rank": 18,
-        "change_pct": 2.8
+        "change_pct": -5.32
       }
     ]
   },
   {
     "sector": "玻璃玻纤",
     "count": 1,
-    "avg_change": -6.66,
+    "avg_change": -5.16,
     "stocks": [
       {
         "code": "600176",
         "name": "中国巨石",
         "rank": 20,
-        "change_pct": -6.66
+        "change_pct": -5.16
+      }
+    ]
+  },
+  {
+    "sector": "农产品加工",
+    "count": 1,
+    "avg_change": 3.17,
+    "stocks": [
+      {
+        "code": "600127",
+        "name": "金健米业",
+        "rank": 21,
+        "change_pct": 3.17
       }
     ]
   },
@@ -583,8 +583,21 @@
       {
         "code": "002412",
         "name": "汉森制药",
-        "rank": 23,
+        "rank": 24,
         "change_pct": 10.01
+      }
+    ]
+  },
+  {
+    "sector": "装修装饰Ⅱ",
+    "count": 1,
+    "avg_change": -2.91,
+    "stocks": [
+      {
+        "code": "002081",
+        "name": "金螳螂",
+        "rank": 31,
+        "change_pct": -2.91
       }
     ]
   },
@@ -596,60 +609,47 @@
       {
         "code": "603958",
         "name": "哈森股份",
-        "rank": 29,
+        "rank": 39,
         "change_pct": 10.02
-      }
-    ]
-  },
-  {
-    "sector": "装修装饰Ⅱ",
-    "count": 1,
-    "avg_change": -4.85,
-    "stocks": [
-      {
-        "code": "002081",
-        "name": "金螳螂",
-        "rank": 35,
-        "change_pct": -4.85
-      }
-    ]
-  },
-  {
-    "sector": "光伏设备",
-    "count": 1,
-    "avg_change": 5.36,
-    "stocks": [
-      {
-        "code": "002506",
-        "name": "协鑫集成",
-        "rank": 40,
-        "change_pct": 5.36
       }
     ]
   },
   {
     "sector": "IT服务Ⅱ",
     "count": 1,
-    "avg_change": -5.9,
+    "avg_change": -5.35,
     "stocks": [
       {
         "code": "000938",
         "name": "紫光股份",
-        "rank": 42,
-        "change_pct": -5.9
+        "rank": 43,
+        "change_pct": -5.35
       }
     ]
   },
   {
-    "sector": "其他电子Ⅱ",
+    "sector": "光伏设备",
     "count": 1,
-    "avg_change": -3.94,
+    "avg_change": 6.51,
     "stocks": [
       {
-        "code": "600353",
-        "name": "旭光电子",
-        "rank": 43,
-        "change_pct": -3.94
+        "code": "002506",
+        "name": "协鑫集成",
+        "rank": 45,
+        "change_pct": 6.51
+      }
+    ]
+  },
+  {
+    "sector": "家居用品",
+    "count": 1,
+    "avg_change": 5.29,
+    "stocks": [
+      {
+        "code": "603221",
+        "name": "爱丽家居",
+        "rank": 46,
+        "change_pct": 5.29
       }
     ]
   },
@@ -661,47 +661,47 @@
       {
         "code": "600272",
         "name": "开开实业",
-        "rank": 44,
+        "rank": 47,
         "change_pct": 10.0
       }
     ]
   },
   {
-    "sector": "家居用品",
+    "sector": "其他电子Ⅱ",
     "count": 1,
-    "avg_change": 4.72,
+    "avg_change": -3.29,
     "stocks": [
       {
-        "code": "603221",
-        "name": "爱丽家居",
-        "rank": 46,
-        "change_pct": 4.72
+        "code": "600353",
+        "name": "旭光电子",
+        "rank": 50,
+        "change_pct": -3.29
       }
     ]
   },
   {
     "sector": "调味发酵品Ⅱ",
     "count": 1,
-    "avg_change": -3.1,
+    "avg_change": -2.5,
     "stocks": [
       {
         "code": "600186",
         "name": "莲花控股",
-        "rank": 59,
-        "change_pct": -3.1
+        "rank": 61,
+        "change_pct": -2.5
       }
     ]
   },
   {
     "sector": "通用设备",
     "count": 1,
-    "avg_change": -6.5,
+    "avg_change": -6.06,
     "stocks": [
       {
         "code": "600172",
         "name": "黄河旋风",
-        "rank": 62,
-        "change_pct": -6.5
+        "rank": 66,
+        "change_pct": -6.06
       }
     ]
   },
@@ -719,67 +719,80 @@
     ]
   },
   {
-    "sector": "电子化学品Ⅱ",
+    "sector": "农化制品",
     "count": 1,
-    "avg_change": -6.65,
+    "avg_change": 0.0,
     "stocks": [
       {
-        "code": "300285",
-        "name": "国瓷材料",
-        "rank": 80,
-        "change_pct": -6.65
-      }
-    ]
-  },
-  {
-    "sector": "生物制品",
-    "count": 1,
-    "avg_change": -7.76,
-    "stocks": [
-      {
-        "code": "300142",
-        "name": "沃森生物",
-        "rank": 81,
-        "change_pct": -7.76
+        "code": "600227",
+        "name": "赤天化",
+        "rank": 73,
+        "change_pct": 0.0
       }
     ]
   },
   {
     "sector": "风电设备",
     "count": 1,
-    "avg_change": -5.21,
+    "avg_change": -4.64,
     "stocks": [
       {
         "code": "002202",
         "name": "金风科技",
-        "rank": 85,
-        "change_pct": -5.21
+        "rank": 84,
+        "change_pct": -4.64
       }
     ]
   },
   {
-    "sector": "铁路公路",
+    "sector": "电子化学品Ⅱ",
     "count": 1,
-    "avg_change": 3.84,
+    "avg_change": -5.54,
     "stocks": [
       {
-        "code": "600611",
-        "name": "大众交通",
-        "rank": 89,
-        "change_pct": 3.84
+        "code": "300285",
+        "name": "国瓷材料",
+        "rank": 86,
+        "change_pct": -5.54
       }
     ]
   },
   {
     "sector": "教育",
     "count": 1,
-    "avg_change": -7.99,
+    "avg_change": -7.16,
     "stocks": [
       {
         "code": "003032",
         "name": "传智教育",
-        "rank": 90,
-        "change_pct": -7.99
+        "rank": 89,
+        "change_pct": -7.16
+      }
+    ]
+  },
+  {
+    "sector": "生物制品",
+    "count": 1,
+    "avg_change": -7.45,
+    "stocks": [
+      {
+        "code": "300142",
+        "name": "沃森生物",
+        "rank": 92,
+        "change_pct": -7.45
+      }
+    ]
+  },
+  {
+    "sector": "通信服务",
+    "count": 1,
+    "avg_change": -7.79,
+    "stocks": [
+      {
+        "code": "603881",
+        "name": "数据港",
+        "rank": 93,
+        "change_pct": -7.79
       }
     ]
   },
@@ -791,47 +804,21 @@
       {
         "code": "000017",
         "name": "深中华A",
-        "rank": 92,
+        "rank": 94,
         "change_pct": 9.99
       }
     ]
   },
   {
-    "sector": "农化制品",
+    "sector": "铁路公路",
     "count": 1,
-    "avg_change": 4.05,
+    "avg_change": 2.93,
     "stocks": [
       {
-        "code": "600227",
-        "name": "赤天化",
-        "rank": 93,
-        "change_pct": 4.05
-      }
-    ]
-  },
-  {
-    "sector": "通信服务",
-    "count": 1,
-    "avg_change": -6.59,
-    "stocks": [
-      {
-        "code": "603881",
-        "name": "数据港",
-        "rank": 94,
-        "change_pct": -6.59
-      }
-    ]
-  },
-  {
-    "sector": "多元金融",
-    "count": 1,
-    "avg_change": 5.39,
-    "stocks": [
-      {
-        "code": "603123",
-        "name": "翠微股份",
-        "rank": 96,
-        "change_pct": 5.39
+        "code": "600611",
+        "name": "大众交通",
+        "rank": 95,
+        "change_pct": 2.93
       }
     ]
   }
