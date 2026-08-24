@@ -3,14 +3,6 @@
   "name": "深中华A",
   "history": [
     {
-      "date": "2026-07-22",
-      "rank": 830
-    },
-    {
-      "date": "2026-07-23",
-      "rank": 918
-    },
-    {
       "date": "2026-07-24",
       "rank": 680
     },
@@ -40,18 +32,30 @@
     },
     {
       "date": "2026-08-20",
-      "rank": 256
+      "rank": 175
     },
     {
       "date": "2026-08-21",
-      "rank": 90,
-      "price": 7.11,
-      "change_pct": 10.06
+      "rank": 45
+    },
+    {
+      "date": "2026-08-22",
+      "rank": 29
+    },
+    {
+      "date": "2026-08-23",
+      "rank": 64
+    },
+    {
+      "date": "2026-08-24",
+      "rank": 76,
+      "price": 7.82,
+      "change_pct": 9.9859
     }
   ],
-  "continuous_days": 11,
-  "monthly_count": 11,
-  "avg_rank": 937.6,
-  "best_rank": 90,
+  "continuous_days": 12,
+  "monthly_count": 12,
+  "avg_rank": 717.4,
+  "best_rank": 29,
   "trend": "stable"
 }

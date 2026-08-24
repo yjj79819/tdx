@@ -3,18 +3,6 @@
   "name": "江钨装备",
   "history": [
     {
-      "date": "2026-07-21",
-      "rank": 810
-    },
-    {
-      "date": "2026-07-22",
-      "rank": 963
-    },
-    {
-      "date": "2026-07-23",
-      "rank": 1004
-    },
-    {
       "date": "2026-07-24",
       "rank": 788
     },
@@ -124,18 +112,30 @@
     },
     {
       "date": "2026-08-20",
-      "rank": 126
+      "rank": 102
     },
     {
       "date": "2026-08-21",
-      "rank": 97,
-      "price": 18.14,
-      "change_pct": 10.01
+      "rank": 79
+    },
+    {
+      "date": "2026-08-22",
+      "rank": 67
+    },
+    {
+      "date": "2026-08-23",
+      "rank": 131
+    },
+    {
+      "date": "2026-08-24",
+      "rank": 89,
+      "price": 17.54,
+      "change_pct": -3.3076
     }
   ],
   "continuous_days": 32,
   "monthly_count": 32,
-  "avg_rank": 447.6,
+  "avg_rank": 368.4,
   "best_rank": 59,
   "trend": "stable"
 }

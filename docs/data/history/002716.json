@@ -3,18 +3,6 @@
   "name": "湖南白银",
   "history": [
     {
-      "date": "2026-07-21",
-      "rank": 299
-    },
-    {
-      "date": "2026-07-22",
-      "rank": 327
-    },
-    {
-      "date": "2026-07-23",
-      "rank": 379
-    },
-    {
       "date": "2026-07-24",
       "rank": 444
     },
@@ -124,18 +112,30 @@
     },
     {
       "date": "2026-08-20",
-      "rank": 36
+      "rank": 29
     },
     {
       "date": "2026-08-21",
-      "rank": 45,
-      "price": 10.42,
-      "change_pct": 10.03
+      "rank": 7
+    },
+    {
+      "date": "2026-08-22",
+      "rank": 6
+    },
+    {
+      "date": "2026-08-23",
+      "rank": 4
+    },
+    {
+      "date": "2026-08-24",
+      "rank": 4,
+      "price": 11.31,
+      "change_pct": 8.5413
     }
   ],
   "continuous_days": 32,
   "monthly_count": 32,
-  "avg_rank": 326.1,
-  "best_rank": 36,
+  "avg_rank": 293.7,
+  "best_rank": 4,
   "trend": "stable"
 }

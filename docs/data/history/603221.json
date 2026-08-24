@@ -3,18 +3,6 @@
   "name": "爱丽家居",
   "history": [
     {
-      "date": "2026-07-21",
-      "rank": 482
-    },
-    {
-      "date": "2026-07-22",
-      "rank": 396
-    },
-    {
-      "date": "2026-07-23",
-      "rank": 241
-    },
-    {
       "date": "2026-07-24",
       "rank": 101
     },
@@ -124,18 +112,30 @@
     },
     {
       "date": "2026-08-20",
-      "rank": 23
+      "rank": 33
     },
     {
       "date": "2026-08-21",
-      "rank": 19,
-      "price": 26.26,
-      "change_pct": -8.18
+      "rank": 55
+    },
+    {
+      "date": "2026-08-22",
+      "rank": 76
+    },
+    {
+      "date": "2026-08-23",
+      "rank": 58
+    },
+    {
+      "date": "2026-08-24",
+      "rank": 45,
+      "price": 27.17,
+      "change_pct": 3.4653
     }
   ],
   "continuous_days": 32,
   "monthly_count": 32,
-  "avg_rank": 135.8,
+  "avg_rank": 107.9,
   "best_rank": 5,
   "trend": "stable"
 }

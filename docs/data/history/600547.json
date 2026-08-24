@@ -3,18 +3,6 @@
   "name": "山东黄金",
   "history": [
     {
-      "date": "2026-07-21",
-      "rank": 203
-    },
-    {
-      "date": "2026-07-22",
-      "rank": 278
-    },
-    {
-      "date": "2026-07-23",
-      "rank": 344
-    },
-    {
       "date": "2026-07-24",
       "rank": 372
     },
@@ -124,18 +112,30 @@
     },
     {
       "date": "2026-08-20",
-      "rank": 60
+      "rank": 61
     },
     {
       "date": "2026-08-21",
-      "rank": 73,
-      "price": 37.05,
-      "change_pct": 4.96
+      "rank": 48
+    },
+    {
+      "date": "2026-08-22",
+      "rank": 58
+    },
+    {
+      "date": "2026-08-23",
+      "rank": 47
+    },
+    {
+      "date": "2026-08-24",
+      "rank": 79,
+      "price": 36.39,
+      "change_pct": -1.7814
     }
   ],
   "continuous_days": 32,
   "monthly_count": 32,
-  "avg_rank": 329.9,
+  "avg_rank": 309.1,
   "best_rank": 42,
   "trend": "stable"
 }

@@ -3,18 +3,6 @@
   "name": "赤峰黄金",
   "history": [
     {
-      "date": "2026-07-21",
-      "rank": 77
-    },
-    {
-      "date": "2026-07-22",
-      "rank": 113
-    },
-    {
-      "date": "2026-07-23",
-      "rank": 214
-    },
-    {
       "date": "2026-07-24",
       "rank": 241
     },
@@ -124,18 +112,30 @@
     },
     {
       "date": "2026-08-20",
-      "rank": 53
+      "rank": 50
     },
     {
       "date": "2026-08-21",
-      "rank": 62,
-      "price": 49.43,
-      "change_pct": 7.22
+      "rank": 28
+    },
+    {
+      "date": "2026-08-22",
+      "rank": 41
+    },
+    {
+      "date": "2026-08-23",
+      "rank": 42
+    },
+    {
+      "date": "2026-08-24",
+      "rank": 73,
+      "price": 48.73,
+      "change_pct": -1.4161
     }
   ],
   "continuous_days": 32,
   "monthly_count": 32,
-  "avg_rank": 235.2,
-  "best_rank": 53,
+  "avg_rank": 226.2,
+  "best_rank": 28,
   "trend": "stable"
 }
