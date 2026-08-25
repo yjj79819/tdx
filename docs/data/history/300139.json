@@ -3,10 +3,6 @@
   "name": "晓程科技",
   "history": [
     {
-      "date": "2026-07-24",
-      "rank": 478
-    },
-    {
       "date": "2026-07-25",
       "rank": 501
     },
@@ -128,14 +124,18 @@
     },
     {
       "date": "2026-08-24",
-      "rank": 36,
-      "price": 58.33,
-      "change_pct": 8.66
+      "rank": 23
+    },
+    {
+      "date": "2026-08-25",
+      "rank": 55,
+      "price": 54.32,
+      "change_pct": -6.8747
     }
   ],
   "continuous_days": 32,
   "monthly_count": 32,
-  "avg_rank": 195.5,
+  "avg_rank": 181.8,
   "best_rank": 13,
   "trend": "stable"
 }

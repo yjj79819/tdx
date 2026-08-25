@@ -1,0 +1,33 @@
+{
+  "code": "600508",
+  "name": "上海能源",
+  "history": [
+    {
+      "date": "2026-08-21",
+      "rank": 1484
+    },
+    {
+      "date": "2026-08-22",
+      "rank": 1541
+    },
+    {
+      "date": "2026-08-23",
+      "rank": 294
+    },
+    {
+      "date": "2026-08-24",
+      "rank": 159
+    },
+    {
+      "date": "2026-08-25",
+      "rank": 41,
+      "price": 10.87,
+      "change_pct": 10.0202
+    }
+  ],
+  "continuous_days": 5,
+  "monthly_count": 5,
+  "avg_rank": 703.8,
+  "best_rank": 41,
+  "trend": "stable"
+}

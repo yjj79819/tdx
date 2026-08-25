@@ -1,0 +1,41 @@
+{
+  "code": "000931",
+  "name": "中关村",
+  "history": [
+    {
+      "date": "2026-08-19",
+      "rank": 644
+    },
+    {
+      "date": "2026-08-20",
+      "rank": 286
+    },
+    {
+      "date": "2026-08-21",
+      "rank": 147
+    },
+    {
+      "date": "2026-08-22",
+      "rank": 108
+    },
+    {
+      "date": "2026-08-23",
+      "rank": 91
+    },
+    {
+      "date": "2026-08-24",
+      "rank": 84
+    },
+    {
+      "date": "2026-08-25",
+      "rank": 53,
+      "price": 5.13,
+      "change_pct": -8.3929
+    }
+  ],
+  "continuous_days": 7,
+  "monthly_count": 7,
+  "avg_rank": 201.9,
+  "best_rank": 53,
+  "trend": "stable"
+}

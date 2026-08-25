@@ -1,0 +1,29 @@
+{
+  "code": "688835",
+  "name": "高凯技术",
+  "history": [
+    {
+      "date": "2026-08-15",
+      "rank": 1374
+    },
+    {
+      "date": "2026-08-22",
+      "rank": 1353
+    },
+    {
+      "date": "2026-08-24",
+      "rank": 254
+    },
+    {
+      "date": "2026-08-25",
+      "rank": 48,
+      "price": 249.0,
+      "change_pct": 305.8018
+    }
+  ],
+  "continuous_days": 4,
+  "monthly_count": 4,
+  "avg_rank": 757.2,
+  "best_rank": 48,
+  "trend": "stable"
+}
