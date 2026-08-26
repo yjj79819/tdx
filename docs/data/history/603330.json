@@ -3,10 +3,6 @@
   "name": "天洋新材",
   "history": [
     {
-      "date": "2026-07-25",
-      "rank": 1966
-    },
-    {
       "date": "2026-07-26",
       "rank": 747
     },
@@ -112,18 +108,22 @@
     },
     {
       "date": "2026-08-24",
-      "rank": 73
+      "rank": 86
     },
     {
       "date": "2026-08-25",
-      "rank": 86,
-      "price": 10.94,
-      "change_pct": -0.27
+      "rank": 109
+    },
+    {
+      "date": "2026-08-26",
+      "rank": 42,
+      "price": 10.98,
+      "change_pct": 0.3656
     }
   ],
   "continuous_days": 29,
   "monthly_count": 29,
-  "avg_rank": 746.1,
+  "avg_rank": 681.0,
   "best_rank": 19,
   "trend": "stable"
 }

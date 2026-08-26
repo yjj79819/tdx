@@ -3,10 +3,6 @@
   "name": "中毅达",
   "history": [
     {
-      "date": "2026-07-25",
-      "rank": 1197
-    },
-    {
       "date": "2026-07-26",
       "rank": 1458
     },
@@ -108,14 +104,18 @@
     },
     {
       "date": "2026-08-25",
-      "rank": 24,
-      "price": 8.74,
-      "change_pct": 0.92
+      "rank": 88
+    },
+    {
+      "date": "2026-08-26",
+      "rank": 59,
+      "price": 9.01,
+      "change_pct": 2.9748
     }
   ],
   "continuous_days": 27,
   "monthly_count": 27,
-  "avg_rank": 1179.8,
-  "best_rank": 24,
+  "avg_rank": 1140.0,
+  "best_rank": 44,
   "trend": "stable"
 }
