@@ -1,1 +1,222 @@
-[]
+[
+  {
+    "rank": 1,
+    "name": "证券",
+    "code": "881157",
+    "change_pct": 3.07,
+    "heat": "1208818.5",
+    "limit_up_tag": "2家涨停",
+    "hot_tag": "连续914天上榜",
+    "etf_name": "证券ETF",
+    "etf_code": "159016"
+  },
+  {
+    "rank": 2,
+    "name": "电力",
+    "code": "881145",
+    "change_pct": 1.56,
+    "heat": "464746.5",
+    "limit_up_tag": "3家涨停",
+    "hot_tag": "连续155天上榜",
+    "etf_name": "电力ETF",
+    "etf_code": "159611"
+  },
+  {
+    "rank": 3,
+    "name": "半导体",
+    "code": "881121",
+    "change_pct": 0.19,
+    "heat": "436883.0",
+    "limit_up_tag": "",
+    "hot_tag": "连续914天上榜",
+    "etf_name": "科创芯片ETF",
+    "etf_code": "588750"
+  },
+  {
+    "rank": 4,
+    "name": "工业金属",
+    "code": "881168",
+    "change_pct": 2.95,
+    "heat": "397241.0",
+    "limit_up_tag": "4家涨停",
+    "hot_tag": "7天6次上榜",
+    "etf_name": "工业有色ETF",
+    "etf_code": "560860"
+  },
+  {
+    "rank": 5,
+    "name": "银行",
+    "code": "881155",
+    "change_pct": 1.0,
+    "heat": "315330.5",
+    "limit_up_tag": "",
+    "hot_tag": "连续914天上榜",
+    "etf_name": "银行ETF",
+    "etf_code": "516310"
+  },
+  {
+    "rank": 6,
+    "name": "贵金属",
+    "code": "881169",
+    "change_pct": 0.04,
+    "heat": "208251.5",
+    "limit_up_tag": "",
+    "hot_tag": "连续28天上榜",
+    "etf_name": "黄金股ETF",
+    "etf_code": "517400"
+  },
+  {
+    "rank": 7,
+    "name": "通信设备",
+    "code": "881129",
+    "change_pct": 0.06,
+    "heat": "146274.5",
+    "limit_up_tag": "3家涨停",
+    "hot_tag": "连续138天上榜",
+    "etf_name": "通信ETF",
+    "etf_code": "159583"
+  },
+  {
+    "rank": 8,
+    "name": "电网设备",
+    "code": "881278",
+    "change_pct": 0.57,
+    "heat": "129585.0",
+    "limit_up_tag": "3家涨停",
+    "hot_tag": "连续155天上榜",
+    "etf_name": "电网设备ETF",
+    "etf_code": "561380"
+  },
+  {
+    "rank": 9,
+    "name": "元件",
+    "code": "881270",
+    "change_pct": 0.03,
+    "heat": "112630.0",
+    "limit_up_tag": "",
+    "hot_tag": "连续101天上榜",
+    "etf_name": "消费电子ETF",
+    "etf_code": "159178"
+  },
+  {
+    "rank": 10,
+    "name": "保险",
+    "code": "881156",
+    "change_pct": 2.25,
+    "heat": "104791.0",
+    "limit_up_tag": "",
+    "hot_tag": "7天6次上榜",
+    "etf_name": "证券保险ETF",
+    "etf_code": "512070"
+  },
+  {
+    "rank": 11,
+    "name": "电池",
+    "code": "881281",
+    "change_pct": 1.24,
+    "heat": "103451.0",
+    "limit_up_tag": "",
+    "hot_tag": "连续120天上榜",
+    "etf_name": "电池ETF",
+    "etf_code": "561160"
+  },
+  {
+    "rank": 12,
+    "name": "半导体设备",
+    "code": "884229",
+    "change_pct": 2.34,
+    "heat": "101256.5",
+    "limit_up_tag": "",
+    "hot_tag": "连续50天上榜",
+    "etf_name": "半导体设备ETF",
+    "etf_code": "159327"
+  },
+  {
+    "rank": 13,
+    "name": "煤炭开采加工",
+    "code": "881105",
+    "change_pct": 0.53,
+    "heat": "82228.0",
+    "limit_up_tag": "",
+    "hot_tag": "10天9次上榜",
+    "etf_name": "煤炭ETF",
+    "etf_code": "515220"
+  },
+  {
+    "rank": 14,
+    "name": "铜",
+    "code": "884054",
+    "change_pct": 5.38,
+    "heat": "77865.0",
+    "limit_up_tag": "",
+    "hot_tag": "5天3次上榜",
+    "etf_name": "工业有色ETF",
+    "etf_code": "159032"
+  },
+  {
+    "rank": 15,
+    "name": "化学制药",
+    "code": "881140",
+    "change_pct": 0.08,
+    "heat": "72643.5",
+    "limit_up_tag": "1家涨停",
+    "hot_tag": "连续47天上榜",
+    "etf_name": "科创创新药ETF",
+    "etf_code": "589120"
+  },
+  {
+    "rank": 16,
+    "name": "白酒",
+    "code": "881273",
+    "change_pct": 0.09,
+    "heat": "68983.5",
+    "limit_up_tag": "",
+    "hot_tag": "连续525天上榜",
+    "etf_name": "消费ETF",
+    "etf_code": "560680"
+  },
+  {
+    "rank": 17,
+    "name": "造纸",
+    "code": "881137",
+    "change_pct": 2.24,
+    "heat": "65484.0",
+    "limit_up_tag": "1家涨停",
+    "hot_tag": "首次上榜",
+    "etf_name": "化工ETF",
+    "etf_code": "516120"
+  },
+  {
+    "rank": 18,
+    "name": "中药",
+    "code": "881141",
+    "change_pct": 0.94,
+    "heat": "61877.5",
+    "limit_up_tag": "1家涨停",
+    "hot_tag": "10天9次上榜",
+    "etf_name": "中药ETF",
+    "etf_code": "560080"
+  },
+  {
+    "rank": 19,
+    "name": "旅游及酒店",
+    "code": "881160",
+    "change_pct": 1.29,
+    "heat": "60570.5",
+    "limit_up_tag": "1家涨停",
+    "hot_tag": "5天4次上榜",
+    "etf_name": "旅游ETF",
+    "etf_code": "159766"
+  },
+  {
+    "rank": 20,
+    "name": "小金属",
+    "code": "881170",
+    "change_pct": 0.78,
+    "heat": "54122.0",
+    "limit_up_tag": "",
+    "hot_tag": "10天9次上榜",
+    "etf_name": "工业有色ETF",
+    "etf_code": "560860"
+  }
+]
