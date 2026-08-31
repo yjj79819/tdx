@@ -1,0 +1,45 @@
+{
+  "code": "002855",
+  "name": "捷荣技术",
+  "history": [
+    {
+      "date": "2026-08-24",
+      "rank": 659
+    },
+    {
+      "date": "2026-08-25",
+      "rank": 232
+    },
+    {
+      "date": "2026-08-26",
+      "rank": 205
+    },
+    {
+      "date": "2026-08-27",
+      "rank": 171
+    },
+    {
+      "date": "2026-08-28",
+      "rank": 82
+    },
+    {
+      "date": "2026-08-29",
+      "rank": 64
+    },
+    {
+      "date": "2026-08-30",
+      "rank": 87
+    },
+    {
+      "date": "2026-08-31",
+      "rank": 61,
+      "price": 16.1,
+      "change_pct": 9.9727
+    }
+  ],
+  "continuous_days": 8,
+  "monthly_count": 8,
+  "avg_rank": 195.1,
+  "best_rank": 61,
+  "trend": "stable"
+}

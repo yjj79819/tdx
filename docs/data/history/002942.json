@@ -1,0 +1,41 @@
+{
+  "code": "002942",
+  "name": "新农股份",
+  "history": [
+    {
+      "date": "2026-08-25",
+      "rank": 827
+    },
+    {
+      "date": "2026-08-26",
+      "rank": 466
+    },
+    {
+      "date": "2026-08-27",
+      "rank": 183
+    },
+    {
+      "date": "2026-08-28",
+      "rank": 74
+    },
+    {
+      "date": "2026-08-29",
+      "rank": 53
+    },
+    {
+      "date": "2026-08-30",
+      "rank": 139
+    },
+    {
+      "date": "2026-08-31",
+      "rank": 74,
+      "price": 22.0,
+      "change_pct": 5.2128
+    }
+  ],
+  "continuous_days": 7,
+  "monthly_count": 7,
+  "avg_rank": 259.4,
+  "best_rank": 53,
+  "trend": "stable"
+}

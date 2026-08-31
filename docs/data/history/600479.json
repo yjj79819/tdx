@@ -1,0 +1,41 @@
+{
+  "code": "600479",
+  "name": "千金药业",
+  "history": [
+    {
+      "date": "2026-08-25",
+      "rank": 244
+    },
+    {
+      "date": "2026-08-26",
+      "rank": 93
+    },
+    {
+      "date": "2026-08-27",
+      "rank": 55
+    },
+    {
+      "date": "2026-08-28",
+      "rank": 27
+    },
+    {
+      "date": "2026-08-29",
+      "rank": 27
+    },
+    {
+      "date": "2026-08-30",
+      "rank": 67
+    },
+    {
+      "date": "2026-08-31",
+      "rank": 46,
+      "price": 12.15,
+      "change_pct": -8.8522
+    }
+  ],
+  "continuous_days": 7,
+  "monthly_count": 7,
+  "avg_rank": 79.9,
+  "best_rank": 27,
+  "trend": "stable"
+}

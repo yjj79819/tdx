@@ -3,26 +3,6 @@
   "name": "兆易创新",
   "history": [
     {
-      "date": "2026-07-26",
-      "rank": 2
-    },
-    {
-      "date": "2026-07-27",
-      "rank": 4
-    },
-    {
-      "date": "2026-07-28",
-      "rank": 2
-    },
-    {
-      "date": "2026-07-29",
-      "rank": 4
-    },
-    {
-      "date": "2026-07-30",
-      "rank": 3
-    },
-    {
       "date": "2026-07-31",
       "rank": 5
     },
@@ -124,18 +104,38 @@
     },
     {
       "date": "2026-08-25",
-      "rank": 18
+      "rank": 24
     },
     {
       "date": "2026-08-26",
-      "rank": 33,
-      "price": 392.5,
-      "change_pct": -0.76
+      "rank": 21
+    },
+    {
+      "date": "2026-08-27",
+      "rank": 31
+    },
+    {
+      "date": "2026-08-28",
+      "rank": 43
+    },
+    {
+      "date": "2026-08-29",
+      "rank": 56
+    },
+    {
+      "date": "2026-08-30",
+      "rank": 32
+    },
+    {
+      "date": "2026-08-31",
+      "rank": 45,
+      "price": 406.0,
+      "change_pct": 2.3134
     }
   ],
   "continuous_days": 32,
   "monthly_count": 32,
-  "avg_rank": 11.3,
-  "best_rank": 2,
+  "avg_rank": 17.2,
+  "best_rank": 4,
   "trend": "stable"
 }
