@@ -3,10 +3,6 @@
   "name": "风范股份",
   "history": [
     {
-      "date": "2026-07-31",
-      "rank": 1165
-    },
-    {
       "date": "2026-08-01",
       "rank": 835
     },
@@ -124,18 +120,22 @@
     },
     {
       "date": "2026-08-30",
-      "rank": 78
+      "rank": 84
     },
     {
       "date": "2026-08-31",
-      "rank": 68,
-      "price": 8.02,
-      "change_pct": -4.2959
+      "rank": 60
+    },
+    {
+      "date": "2026-09-01",
+      "rank": 64,
+      "price": 8.4,
+      "change_pct": 4.7382
     }
   ],
   "continuous_days": 32,
   "monthly_count": 32,
-  "avg_rank": 144.4,
+  "avg_rank": 109.9,
   "best_rank": 26,
   "trend": "stable"
 }

@@ -3,10 +3,6 @@
   "name": "黑芝麻",
   "history": [
     {
-      "date": "2026-07-31",
-      "rank": 1870
-    },
-    {
       "date": "2026-08-01",
       "rank": 1908
     },
@@ -84,18 +80,22 @@
     },
     {
       "date": "2026-08-30",
-      "rank": 83
+      "rank": 86
     },
     {
       "date": "2026-08-31",
-      "rank": 96,
-      "price": 5.87,
-      "change_pct": 3.5273
+      "rank": 123
+    },
+    {
+      "date": "2026-09-01",
+      "rank": 99,
+      "price": 5.91,
+      "change_pct": 0.6814
     }
   ],
   "continuous_days": 22,
   "monthly_count": 22,
-  "avg_rank": 617.0,
+  "avg_rank": 537.9,
   "best_rank": 33,
   "trend": "stable"
 }

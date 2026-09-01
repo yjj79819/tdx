@@ -3,10 +3,6 @@
   "name": "农发种业",
   "history": [
     {
-      "date": "2026-07-31",
-      "rank": 1722
-    },
-    {
       "date": "2026-08-01",
       "rank": 1751
     },
@@ -124,18 +120,22 @@
     },
     {
       "date": "2026-08-30",
-      "rank": 116
+      "rank": 119
     },
     {
       "date": "2026-08-31",
-      "rank": 80,
-      "price": 7.18,
-      "change_pct": -4.2667
+      "rank": 88
+    },
+    {
+      "date": "2026-09-01",
+      "rank": 32,
+      "price": 7.9,
+      "change_pct": 10.0279
     }
   ],
   "continuous_days": 32,
   "monthly_count": 32,
-  "avg_rank": 785.3,
+  "avg_rank": 732.9,
   "best_rank": 29,
   "trend": "stable"
 }

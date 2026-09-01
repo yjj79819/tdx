@@ -3,14 +3,6 @@
   "name": "新华百货",
   "history": [
     {
-      "date": "2026-07-25",
-      "rank": 1952
-    },
-    {
-      "date": "2026-07-28",
-      "rank": 1629
-    },
-    {
       "date": "2026-08-20",
       "rank": 290
     },
@@ -28,18 +20,46 @@
     },
     {
       "date": "2026-08-24",
-      "rank": 156
+      "rank": 92
     },
     {
       "date": "2026-08-25",
-      "rank": 69,
-      "price": 11.78,
-      "change_pct": 9.99
+      "rank": 122
+    },
+    {
+      "date": "2026-08-26",
+      "rank": 240
+    },
+    {
+      "date": "2026-08-27",
+      "rank": 134
+    },
+    {
+      "date": "2026-08-28",
+      "rank": 88
+    },
+    {
+      "date": "2026-08-29",
+      "rank": 67
+    },
+    {
+      "date": "2026-08-30",
+      "rank": 174
+    },
+    {
+      "date": "2026-08-31",
+      "rank": 145
+    },
+    {
+      "date": "2026-09-01",
+      "rank": 57,
+      "price": 12.66,
+      "change_pct": 9.9913
     }
   ],
-  "continuous_days": 8,
-  "monthly_count": 8,
-  "avg_rank": 582.4,
-  "best_rank": 69,
+  "continuous_days": 13,
+  "monthly_count": 13,
+  "avg_rank": 151.7,
+  "best_rank": 57,
   "trend": "stable"
 }

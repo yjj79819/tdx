@@ -1,0 +1,37 @@
+{
+  "code": "600551",
+  "name": "时代出版",
+  "history": [
+    {
+      "date": "2026-08-27",
+      "rank": 879
+    },
+    {
+      "date": "2026-08-28",
+      "rank": 301
+    },
+    {
+      "date": "2026-08-29",
+      "rank": 296
+    },
+    {
+      "date": "2026-08-30",
+      "rank": 301
+    },
+    {
+      "date": "2026-08-31",
+      "rank": 111
+    },
+    {
+      "date": "2026-09-01",
+      "rank": 89,
+      "price": 9.08,
+      "change_pct": 10.0606
+    }
+  ],
+  "continuous_days": 6,
+  "monthly_count": 6,
+  "avg_rank": 329.5,
+  "best_rank": 89,
+  "trend": "stable"
+}

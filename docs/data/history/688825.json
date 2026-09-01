@@ -3,10 +3,6 @@
   "name": "长鑫科技",
   "history": [
     {
-      "date": "2026-07-31",
-      "rank": 1
-    },
-    {
       "date": "2026-08-01",
       "rank": 2
     },
@@ -128,14 +124,18 @@
     },
     {
       "date": "2026-08-31",
-      "rank": 13,
-      "price": 58.01,
-      "change_pct": -1.0068
+      "rank": 10
+    },
+    {
+      "date": "2026-09-01",
+      "rank": 35,
+      "price": 56.5,
+      "change_pct": -2.603
     }
   ],
   "continuous_days": 32,
   "monthly_count": 32,
-  "avg_rank": 4.5,
+  "avg_rank": 5.5,
   "best_rank": 1,
   "trend": "stable"
 }

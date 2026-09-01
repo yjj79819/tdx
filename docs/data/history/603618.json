@@ -3,10 +3,6 @@
   "name": "杭电股份",
   "history": [
     {
-      "date": "2026-07-31",
-      "rank": 311
-    },
-    {
       "date": "2026-08-01",
       "rank": 346
     },
@@ -124,18 +120,22 @@
     },
     {
       "date": "2026-08-30",
-      "rank": 36
+      "rank": 37
     },
     {
       "date": "2026-08-31",
-      "rank": 23,
-      "price": 34.99,
-      "change_pct": -2.5891
+      "rank": 54
+    },
+    {
+      "date": "2026-09-01",
+      "rank": 49,
+      "price": 33.84,
+      "change_pct": -3.2867
     }
   ],
   "continuous_days": 32,
   "monthly_count": 32,
-  "avg_rank": 123.8,
+  "avg_rank": 116.6,
   "best_rank": 4,
   "trend": "stable"
 }

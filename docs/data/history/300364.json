@@ -3,10 +3,6 @@
   "name": "中文在线",
   "history": [
     {
-      "date": "2026-07-31",
-      "rank": 12
-    },
-    {
       "date": "2026-08-01",
       "rank": 13
     },
@@ -124,18 +120,22 @@
     },
     {
       "date": "2026-08-30",
-      "rank": 15
+      "rank": 13
     },
     {
       "date": "2026-08-31",
-      "rank": 69,
-      "price": 27.28,
-      "change_pct": 20.0176
+      "rank": 8
+    },
+    {
+      "date": "2026-09-01",
+      "rank": 16,
+      "price": 28.31,
+      "change_pct": 3.7757
     }
   ],
   "continuous_days": 32,
   "monthly_count": 32,
-  "avg_rank": 298.0,
-  "best_rank": 12,
+  "avg_rank": 296.2,
+  "best_rank": 8,
   "trend": "stable"
 }
