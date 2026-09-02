@@ -3,10 +3,6 @@
   "name": "浙江世宝",
   "history": [
     {
-      "date": "2026-08-01",
-      "rank": 271
-    },
-    {
       "date": "2026-08-02",
       "rank": 193
     },
@@ -124,18 +120,22 @@
     },
     {
       "date": "2026-08-31",
-      "rank": 66
+      "rank": 52
     },
     {
       "date": "2026-09-01",
-      "rank": 28,
-      "price": 18.24,
-      "change_pct": 10.0121
+      "rank": 78
+    },
+    {
+      "date": "2026-09-02",
+      "rank": 91,
+      "price": 17.62,
+      "change_pct": -3.3991
     }
   ],
   "continuous_days": 32,
   "monthly_count": 32,
-  "avg_rank": 209.0,
-  "best_rank": 28,
+  "avg_rank": 204.5,
+  "best_rank": 29,
   "trend": "stable"
 }

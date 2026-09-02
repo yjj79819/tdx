@@ -3,10 +3,6 @@
   "name": "金螳螂",
   "history": [
     {
-      "date": "2026-08-01",
-      "rank": 469
-    },
-    {
       "date": "2026-08-02",
       "rank": 518
     },
@@ -124,18 +120,22 @@
     },
     {
       "date": "2026-08-31",
-      "rank": 9
+      "rank": 13
     },
     {
       "date": "2026-09-01",
-      "rank": 8,
-      "price": 5.69,
-      "change_pct": -7.6299
+      "rank": 29
+    },
+    {
+      "date": "2026-09-02",
+      "rank": 29,
+      "price": 5.34,
+      "change_pct": -6.1511
     }
   ],
   "continuous_days": 32,
   "monthly_count": 32,
-  "avg_rank": 217.1,
+  "avg_rank": 204.2,
   "best_rank": 2,
   "trend": "stable"
 }

@@ -1,49 +1,49 @@
 {
-  "code": "600479",
-  "name": "千金药业",
+  "code": "605188",
+  "name": "国光连锁",
   "history": [
     {
-      "date": "2026-08-25",
-      "rank": 244
+      "date": "2026-08-02",
+      "rank": 1478
     },
     {
-      "date": "2026-08-26",
-      "rank": 93
+      "date": "2026-08-03",
+      "rank": 1649
     },
     {
       "date": "2026-08-27",
-      "rank": 55
+      "rank": 556
     },
     {
       "date": "2026-08-28",
-      "rank": 27
+      "rank": 221
     },
     {
       "date": "2026-08-29",
-      "rank": 27
+      "rank": 182
     },
     {
       "date": "2026-08-30",
-      "rank": 67
+      "rank": 367
     },
     {
       "date": "2026-08-31",
-      "rank": 43
+      "rank": 217
     },
     {
       "date": "2026-09-01",
-      "rank": 36
+      "rank": 136
     },
     {
       "date": "2026-09-02",
-      "rank": 27,
-      "price": 12.96,
-      "change_pct": -3.0666
+      "rank": 80,
+      "price": 15.17,
+      "change_pct": 1.2684
     }
   ],
   "continuous_days": 9,
   "monthly_count": 9,
-  "avg_rank": 68.8,
-  "best_rank": 27,
+  "avg_rank": 542.9,
+  "best_rank": 80,
   "trend": "stable"
 }

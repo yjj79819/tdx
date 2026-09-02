@@ -3,10 +3,6 @@
   "name": "国芳集团",
   "history": [
     {
-      "date": "2026-08-01",
-      "rank": 806
-    },
-    {
       "date": "2026-08-02",
       "rank": 1098
     },
@@ -68,18 +64,22 @@
     },
     {
       "date": "2026-08-31",
-      "rank": 84
+      "rank": 63
     },
     {
       "date": "2026-09-01",
-      "rank": 52,
-      "price": 10.09,
-      "change_pct": 10.0327
+      "rank": 20
+    },
+    {
+      "date": "2026-09-02",
+      "rank": 28,
+      "price": 11.1,
+      "change_pct": 10.0099
     }
   ],
   "continuous_days": 18,
   "monthly_count": 18,
-  "avg_rank": 1088.9,
-  "best_rank": 52,
+  "avg_rank": 1042.7,
+  "best_rank": 20,
   "trend": "stable"
 }

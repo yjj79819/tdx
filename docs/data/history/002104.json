@@ -3,10 +3,6 @@
   "name": "恒宝股份",
   "history": [
     {
-      "date": "2026-08-01",
-      "rank": 958
-    },
-    {
       "date": "2026-08-02",
       "rank": 791
     },
@@ -124,18 +120,22 @@
     },
     {
       "date": "2026-08-31",
-      "rank": 159
+      "rank": 136
     },
     {
       "date": "2026-09-01",
-      "rank": 70,
-      "price": 12.28,
-      "change_pct": 10.0358
+      "rank": 38
+    },
+    {
+      "date": "2026-09-02",
+      "rank": 77,
+      "price": 13.51,
+      "change_pct": 10.0163
     }
   ],
   "continuous_days": 32,
   "monthly_count": 32,
-  "avg_rank": 460.7,
-  "best_rank": 70,
+  "avg_rank": 431.4,
+  "best_rank": 38,
   "trend": "stable"
 }

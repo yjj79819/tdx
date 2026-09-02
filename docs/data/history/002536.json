@@ -3,14 +3,6 @@
   "name": "飞龙股份",
   "history": [
     {
-      "date": "2026-07-31",
-      "rank": 330
-    },
-    {
-      "date": "2026-08-01",
-      "rank": 435
-    },
-    {
       "date": "2026-08-02",
       "rank": 385
     },
@@ -124,18 +116,26 @@
     },
     {
       "date": "2026-08-30",
-      "rank": 105
+      "rank": 103
     },
     {
       "date": "2026-08-31",
-      "rank": 70,
-      "price": 54.9,
-      "change_pct": 2.9439
+      "rank": 178
+    },
+    {
+      "date": "2026-09-01",
+      "rank": 44
+    },
+    {
+      "date": "2026-09-02",
+      "rank": 16,
+      "price": 58.07,
+      "change_pct": 10.0019
     }
   ],
   "continuous_days": 32,
   "monthly_count": 32,
-  "avg_rank": 295.1,
-  "best_rank": 45,
+  "avg_rank": 276.4,
+  "best_rank": 16,
   "trend": "stable"
 }

@@ -3,10 +3,6 @@
   "name": "神农种业",
   "history": [
     {
-      "date": "2026-08-01",
-      "rank": 1563
-    },
-    {
       "date": "2026-08-02",
       "rank": 659
     },
@@ -124,18 +120,22 @@
     },
     {
       "date": "2026-08-31",
-      "rank": 23
+      "rank": 18
     },
     {
       "date": "2026-09-01",
-      "rank": 11,
-      "price": 7.55,
-      "change_pct": 20.0318
+      "rank": 25
+    },
+    {
+      "date": "2026-09-02",
+      "rank": 54,
+      "price": 6.69,
+      "change_pct": -11.3907
     }
   ],
   "continuous_days": 32,
   "monthly_count": 32,
-  "avg_rank": 457.6,
-  "best_rank": 11,
+  "avg_rank": 410.7,
+  "best_rank": 18,
   "trend": "stable"
 }

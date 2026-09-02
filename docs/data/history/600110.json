@@ -3,10 +3,6 @@
   "name": "诺德股份",
   "history": [
     {
-      "date": "2026-08-01",
-      "rank": 431
-    },
-    {
       "date": "2026-08-02",
       "rank": 398
     },
@@ -128,14 +124,18 @@
     },
     {
       "date": "2026-09-01",
-      "rank": 43,
-      "price": 11.91,
-      "change_pct": -0.9975
+      "rank": 67
+    },
+    {
+      "date": "2026-09-02",
+      "rank": 42,
+      "price": 11.65,
+      "change_pct": -2.183
     }
   ],
   "continuous_days": 32,
   "monthly_count": 32,
-  "avg_rank": 151.5,
+  "avg_rank": 140.1,
   "best_rank": 9,
   "trend": "stable"
 }
