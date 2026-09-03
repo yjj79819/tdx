@@ -3,10 +3,6 @@
   "name": "新赛股份",
   "history": [
     {
-      "date": "2026-08-02",
-      "rank": 601
-    },
-    {
       "date": "2026-08-03",
       "rank": 799
     },
@@ -112,18 +108,22 @@
     },
     {
       "date": "2026-09-01",
-      "rank": 32
+      "rank": 27
     },
     {
       "date": "2026-09-02",
-      "rank": 33,
-      "price": 6.73,
-      "change_pct": 9.9673
+      "rank": 50
+    },
+    {
+      "date": "2026-09-03",
+      "rank": 51,
+      "price": 6.06,
+      "change_pct": -9.9554
     }
   ],
   "continuous_days": 29,
   "monthly_count": 29,
-  "avg_rank": 1086.6,
-  "best_rank": 32,
+  "avg_rank": 1068.0,
+  "best_rank": 27,
   "trend": "stable"
 }

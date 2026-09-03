@@ -1,0 +1,33 @@
+{
+  "code": "002059",
+  "name": "云南旅游",
+  "history": [
+    {
+      "date": "2026-08-28",
+      "rank": 1795
+    },
+    {
+      "date": "2026-08-29",
+      "rank": 1608
+    },
+    {
+      "date": "2026-09-01",
+      "rank": 229
+    },
+    {
+      "date": "2026-09-02",
+      "rank": 103
+    },
+    {
+      "date": "2026-09-03",
+      "rank": 22,
+      "price": 5.78,
+      "change_pct": 10.0952
+    }
+  ],
+  "continuous_days": 5,
+  "monthly_count": 5,
+  "avg_rank": 751.4,
+  "best_rank": 22,
+  "trend": "stable"
+}

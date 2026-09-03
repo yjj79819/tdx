@@ -3,10 +3,6 @@
   "name": "建设工业",
   "history": [
     {
-      "date": "2026-08-02",
-      "rank": 701
-    },
-    {
       "date": "2026-08-03",
       "rank": 912
     },
@@ -124,18 +120,22 @@
     },
     {
       "date": "2026-09-01",
-      "rank": 151
+      "rank": 121
     },
     {
       "date": "2026-09-02",
-      "rank": 62,
-      "price": 21.44,
-      "change_pct": 10.0051
+      "rank": 130
+    },
+    {
+      "date": "2026-09-03",
+      "rank": 60,
+      "price": 20.97,
+      "change_pct": -2.1922
     }
   ],
   "continuous_days": 32,
   "monthly_count": 32,
-  "avg_rank": 993.1,
-  "best_rank": 62,
+  "avg_rank": 974.2,
+  "best_rank": 60,
   "trend": "stable"
 }

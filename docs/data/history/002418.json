@@ -3,10 +3,6 @@
   "name": "康盛股份",
   "history": [
     {
-      "date": "2026-08-02",
-      "rank": 1806
-    },
-    {
       "date": "2026-08-03",
       "rank": 1620
     },
@@ -124,18 +120,22 @@
     },
     {
       "date": "2026-09-01",
-      "rank": 22
+      "rank": 21
     },
     {
       "date": "2026-09-02",
-      "rank": 26,
-      "price": 5.81,
-      "change_pct": 2.2887
+      "rank": 32
+    },
+    {
+      "date": "2026-09-03",
+      "rank": 31,
+      "price": 5.62,
+      "change_pct": -3.2702
     }
   ],
   "continuous_days": 32,
   "monthly_count": 32,
-  "avg_rank": 690.2,
+  "avg_rank": 634.9,
   "best_rank": 20,
   "trend": "stable"
 }

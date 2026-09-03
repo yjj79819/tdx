@@ -1,0 +1,33 @@
+{
+  "code": "000635",
+  "name": "英力特",
+  "history": [
+    {
+      "date": "2026-08-29",
+      "rank": 867
+    },
+    {
+      "date": "2026-08-31",
+      "rank": 568
+    },
+    {
+      "date": "2026-09-01",
+      "rank": 319
+    },
+    {
+      "date": "2026-09-02",
+      "rank": 255
+    },
+    {
+      "date": "2026-09-03",
+      "rank": 88,
+      "price": 7.44,
+      "change_pct": -6.2972
+    }
+  ],
+  "continuous_days": 5,
+  "monthly_count": 5,
+  "avg_rank": 419.4,
+  "best_rank": 88,
+  "trend": "stable"
+}

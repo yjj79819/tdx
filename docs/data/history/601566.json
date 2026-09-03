@@ -1,0 +1,29 @@
+{
+  "code": "601566",
+  "name": "九牧王",
+  "history": [
+    {
+      "date": "2026-08-31",
+      "rank": 499
+    },
+    {
+      "date": "2026-09-01",
+      "rank": 153
+    },
+    {
+      "date": "2026-09-02",
+      "rank": 112
+    },
+    {
+      "date": "2026-09-03",
+      "rank": 75,
+      "price": 10.59,
+      "change_pct": 2.3166
+    }
+  ],
+  "continuous_days": 4,
+  "monthly_count": 4,
+  "avg_rank": 209.8,
+  "best_rank": 75,
+  "trend": "stable"
+}

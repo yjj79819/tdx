@@ -3,10 +3,6 @@
   "name": "莲花控股",
   "history": [
     {
-      "date": "2026-08-02",
-      "rank": 188
-    },
-    {
       "date": "2026-08-03",
       "rank": 59
     },
@@ -124,18 +120,22 @@
     },
     {
       "date": "2026-09-01",
-      "rank": 39
+      "rank": 33
     },
     {
       "date": "2026-09-02",
-      "rank": 60,
-      "price": 11.86,
-      "change_pct": 1.9776
+      "rank": 20
+    },
+    {
+      "date": "2026-09-03",
+      "rank": 46,
+      "price": 12.24,
+      "change_pct": 3.204
     }
   ],
   "continuous_days": 32,
   "monthly_count": 32,
-  "avg_rank": 65.8,
+  "avg_rank": 59.9,
   "best_rank": 3,
   "trend": "stable"
 }

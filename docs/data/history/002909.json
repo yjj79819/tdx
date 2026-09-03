@@ -1,0 +1,33 @@
+{
+  "code": "002909",
+  "name": "集泰股份",
+  "history": [
+    {
+      "date": "2026-08-30",
+      "rank": 591
+    },
+    {
+      "date": "2026-08-31",
+      "rank": 278
+    },
+    {
+      "date": "2026-09-01",
+      "rank": 143
+    },
+    {
+      "date": "2026-09-02",
+      "rank": 94
+    },
+    {
+      "date": "2026-09-03",
+      "rank": 42,
+      "price": 8.01,
+      "change_pct": 10.0275
+    }
+  ],
+  "continuous_days": 5,
+  "monthly_count": 5,
+  "avg_rank": 229.6,
+  "best_rank": 42,
+  "trend": "stable"
+}

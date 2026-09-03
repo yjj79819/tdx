@@ -1,0 +1,41 @@
+{
+  "code": "605577",
+  "name": "龙版传媒",
+  "history": [
+    {
+      "date": "2026-08-17",
+      "rank": 909
+    },
+    {
+      "date": "2026-08-18",
+      "rank": 1323
+    },
+    {
+      "date": "2026-08-30",
+      "rank": 651
+    },
+    {
+      "date": "2026-08-31",
+      "rank": 250
+    },
+    {
+      "date": "2026-09-01",
+      "rank": 131
+    },
+    {
+      "date": "2026-09-02",
+      "rank": 80
+    },
+    {
+      "date": "2026-09-03",
+      "rank": 45,
+      "price": 13.3,
+      "change_pct": 3.5019
+    }
+  ],
+  "continuous_days": 7,
+  "monthly_count": 7,
+  "avg_rank": 484.1,
+  "best_rank": 45,
+  "trend": "stable"
+}

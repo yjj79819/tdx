@@ -3,14 +3,6 @@
   "name": "汉森制药",
   "history": [
     {
-      "date": "2026-08-01",
-      "rank": 815
-    },
-    {
-      "date": "2026-08-02",
-      "rank": 1356
-    },
-    {
       "date": "2026-08-03",
       "rank": 948
     },
@@ -128,14 +120,22 @@
     },
     {
       "date": "2026-09-01",
-      "rank": 54,
-      "price": 11.16,
-      "change_pct": -5.5838
+      "rank": 104
+    },
+    {
+      "date": "2026-09-02",
+      "rank": 118
+    },
+    {
+      "date": "2026-09-03",
+      "rank": 92,
+      "price": 9.76,
+      "change_pct": -4.8733
     }
   ],
   "continuous_days": 32,
   "monthly_count": 32,
-  "avg_rank": 599.1,
+  "avg_rank": 539.4,
   "best_rank": 2,
   "trend": "stable"
 }

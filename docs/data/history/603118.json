@@ -3,14 +3,6 @@
   "name": "共进股份",
   "history": [
     {
-      "date": "2026-08-01",
-      "rank": 132
-    },
-    {
-      "date": "2026-08-02",
-      "rank": 89
-    },
-    {
       "date": "2026-08-03",
       "rank": 129
     },
@@ -124,18 +116,26 @@
     },
     {
       "date": "2026-08-31",
-      "rank": 100
+      "rank": 110
     },
     {
       "date": "2026-09-01",
-      "rank": 87,
-      "price": 17.91,
-      "change_pct": -3.7097
+      "rank": 148
+    },
+    {
+      "date": "2026-09-02",
+      "rank": 155
+    },
+    {
+      "date": "2026-09-03",
+      "rank": 79,
+      "price": 17.06,
+      "change_pct": -3.1782
     }
   ],
   "continuous_days": 32,
   "monthly_count": 32,
-  "avg_rank": 122.4,
+  "avg_rank": 125.0,
   "best_rank": 8,
   "trend": "stable"
 }

@@ -1,0 +1,29 @@
+{
+  "code": "600830",
+  "name": "香溢融通",
+  "history": [
+    {
+      "date": "2026-08-31",
+      "rank": 821
+    },
+    {
+      "date": "2026-09-01",
+      "rank": 276
+    },
+    {
+      "date": "2026-09-02",
+      "rank": 117
+    },
+    {
+      "date": "2026-09-03",
+      "rank": 74,
+      "price": 10.61,
+      "change_pct": 4.6305
+    }
+  ],
+  "continuous_days": 4,
+  "monthly_count": 4,
+  "avg_rank": 322.0,
+  "best_rank": 74,
+  "trend": "stable"
+}

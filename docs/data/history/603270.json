@@ -1,0 +1,41 @@
+{
+  "code": "603270",
+  "name": "金帝股份",
+  "history": [
+    {
+      "date": "2026-08-05",
+      "rank": 1379
+    },
+    {
+      "date": "2026-08-06",
+      "rank": 1914
+    },
+    {
+      "date": "2026-08-30",
+      "rank": 454
+    },
+    {
+      "date": "2026-08-31",
+      "rank": 728
+    },
+    {
+      "date": "2026-09-01",
+      "rank": 266
+    },
+    {
+      "date": "2026-09-02",
+      "rank": 136
+    },
+    {
+      "date": "2026-09-03",
+      "rank": 87,
+      "price": 34.95,
+      "change_pct": 10.0094
+    }
+  ],
+  "continuous_days": 7,
+  "monthly_count": 7,
+  "avg_rank": 709.1,
+  "best_rank": 87,
+  "trend": "stable"
+}
