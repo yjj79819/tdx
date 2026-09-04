@@ -3,10 +3,6 @@
   "name": "竞业达",
   "history": [
     {
-      "date": "2026-08-03",
-      "rank": 1635
-    },
-    {
       "date": "2026-08-04",
       "rank": 1096
     },
@@ -44,18 +40,22 @@
     },
     {
       "date": "2026-09-02",
-      "rank": 24
+      "rank": 26
     },
     {
       "date": "2026-09-03",
-      "rank": 11,
-      "price": 20.53,
-      "change_pct": 2.65
+      "rank": 56
+    },
+    {
+      "date": "2026-09-04",
+      "rank": 37,
+      "price": 18.48,
+      "change_pct": -9.9854
     }
   ],
   "continuous_days": 12,
   "monthly_count": 12,
-  "avg_rank": 639.8,
-  "best_rank": 11,
+  "avg_rank": 510.6,
+  "best_rank": 26,
   "trend": "stable"
 }

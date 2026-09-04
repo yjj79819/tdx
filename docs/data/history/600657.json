@@ -1,45 +1,45 @@
 {
-  "code": "605577",
-  "name": "龙版传媒",
+  "code": "600657",
+  "name": "信达地产",
   "history": [
     {
-      "date": "2026-08-17",
-      "rank": 909
+      "date": "2026-08-28",
+      "rank": 1300
     },
     {
-      "date": "2026-08-18",
-      "rank": 1323
+      "date": "2026-08-29",
+      "rank": 1036
     },
     {
       "date": "2026-08-30",
-      "rank": 651
+      "rank": 1517
     },
     {
       "date": "2026-08-31",
-      "rank": 250
+      "rank": 1888
     },
     {
       "date": "2026-09-01",
-      "rank": 131
+      "rank": 235
     },
     {
       "date": "2026-09-02",
-      "rank": 40
+      "rank": 140
     },
     {
       "date": "2026-09-03",
-      "rank": 29
+      "rank": 98
     },
     {
       "date": "2026-09-04",
-      "rank": 16,
-      "price": 15.55,
-      "change_pct": 9.9717
+      "rank": 100,
+      "price": 3.5,
+      "change_pct": 4.1667
     }
   ],
   "continuous_days": 8,
   "monthly_count": 8,
-  "avg_rank": 418.6,
-  "best_rank": 16,
+  "avg_rank": 789.2,
+  "best_rank": 98,
   "trend": "stable"
 }

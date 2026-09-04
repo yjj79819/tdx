@@ -3,10 +3,6 @@
   "name": "赤天化",
   "history": [
     {
-      "date": "2026-08-03",
-      "rank": 598
-    },
-    {
       "date": "2026-08-04",
       "rank": 683
     },
@@ -124,18 +120,22 @@
     },
     {
       "date": "2026-09-02",
-      "rank": 58
+      "rank": 59
     },
     {
       "date": "2026-09-03",
-      "rank": 39,
-      "price": 4.42,
-      "change_pct": -9.9796
+      "rank": 82
+    },
+    {
+      "date": "2026-09-04",
+      "rank": 33,
+      "price": 4.29,
+      "change_pct": -2.9412
     }
   ],
   "continuous_days": 32,
   "monthly_count": 32,
-  "avg_rank": 244.7,
+  "avg_rank": 228.4,
   "best_rank": 11,
   "trend": "stable"
 }

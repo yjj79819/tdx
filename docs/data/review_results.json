@@ -1,103 +1,5 @@
 [
   {
-    "review_date": "2026-07-07",
-    "target_date": "2026-07-06",
-    "results": [
-      {
-        "code": "600172",
-        "name": "黄河旋风",
-        "prev_rank": 12,
-        "prev_price": 18.55,
-        "today_rank": 9,
-        "today_price": 18.36,
-        "price_change": -1.02,
-        "still_in_top50": true,
-        "rank_change": 3
-      },
-      {
-        "code": "000566",
-        "name": "海南海药",
-        "prev_rank": 22,
-        "prev_price": 6.43,
-        "today_rank": "-",
-        "today_price": 6.43,
-        "price_change": 0.0,
-        "still_in_top50": false,
-        "rank_change": 0
-      },
-      {
-        "code": "601991",
-        "name": "大唐发电",
-        "prev_rank": 16,
-        "prev_price": 7.39,
-        "today_rank": "-",
-        "today_price": 7.39,
-        "price_change": 0.0,
-        "still_in_top50": false,
-        "rank_change": 0
-      },
-      {
-        "code": "000066",
-        "name": "中国长城",
-        "prev_rank": 9,
-        "prev_price": 18.82,
-        "today_rank": 41,
-        "today_price": 18.58,
-        "price_change": -1.28,
-        "still_in_top50": true,
-        "rank_change": -32
-      },
-      {
-        "code": "002141",
-        "name": "贤丰控股",
-        "prev_rank": 50,
-        "prev_price": 5.65,
-        "today_rank": 31,
-        "today_price": 5.85,
-        "price_change": 3.54,
-        "still_in_top50": true,
-        "rank_change": 19
-      },
-      {
-        "code": "002185",
-        "name": "华天科技",
-        "prev_rank": 25,
-        "prev_price": 19.94,
-        "today_rank": "-",
-        "today_price": 19.94,
-        "price_change": 0.0,
-        "still_in_top50": false,
-        "rank_change": 0
-      },
-      {
-        "code": "600601",
-        "name": "方正科技",
-        "prev_rank": 82,
-        "prev_price": 14.99,
-        "today_rank": 69,
-        "today_price": 14.7,
-        "price_change": -1.93,
-        "still_in_top50": true,
-        "rank_change": 13
-      },
-      {
-        "code": "000070",
-        "name": "特发信息",
-        "prev_rank": 66,
-        "prev_price": 18.79,
-        "today_rank": "-",
-        "today_price": 18.79,
-        "price_change": 0.0,
-        "still_in_top50": false,
-        "rank_change": 0
-      }
-    ],
-    "win_rate": 12.5,
-    "win_count": 1,
-    "total": 8,
-    "rank_improved": 3
-  },
-  {
     "review_date": "2026-07-08",
     "target_date": "2026-07-07",
     "results": [
@@ -8818,5 +8720,103 @@
     "win_count": 4,
     "total": 8,
     "rank_improved": 3
+  },
+  {
+    "review_date": "2026-09-04",
+    "target_date": "2026-09-03",
+    "results": [
+      {
+        "code": "002639",
+        "name": "雪人集团",
+        "prev_rank": 7,
+        "prev_price": 14.07,
+        "today_rank": 61,
+        "today_price": 14.32,
+        "price_change": 1.78,
+        "still_in_top50": true,
+        "rank_change": -54
+      },
+      {
+        "code": "600127",
+        "name": "金健米业",
+        "prev_rank": 2,
+        "prev_price": 12.67,
+        "today_rank": 5,
+        "today_price": 12.3,
+        "price_change": -2.92,
+        "still_in_top50": true,
+        "rank_change": -3
+      },
+      {
+        "code": "000892",
+        "name": "欢瑞世纪",
+        "prev_rank": 17,
+        "prev_price": 5.08,
+        "today_rank": 14,
+        "today_price": 5.59,
+        "price_change": 10.04,
+        "still_in_top50": true,
+        "rank_change": 3
+      },
+      {
+        "code": "600172",
+        "name": "黄河旋风",
+        "prev_rank": 10,
+        "prev_price": 15.92,
+        "today_rank": 8,
+        "today_price": 15.79,
+        "price_change": -0.82,
+        "still_in_top50": true,
+        "rank_change": 2
+      },
+      {
+        "code": "002104",
+        "name": "恒宝股份",
+        "prev_rank": 16,
+        "prev_price": 13.05,
+        "today_rank": 9,
+        "today_price": 14.05,
+        "price_change": 7.66,
+        "still_in_top50": true,
+        "rank_change": 7
+      },
+      {
+        "code": "601086",
+        "name": "国芳集团",
+        "prev_rank": 6,
+        "prev_price": 12.21,
+        "today_rank": 3,
+        "today_price": 12.65,
+        "price_change": 3.6,
+        "still_in_top50": true,
+        "rank_change": 3
+      },
+      {
+        "code": "600703",
+        "name": "三安光电",
+        "prev_rank": 8,
+        "prev_price": 13.89,
+        "today_rank": 54,
+        "today_price": 13.23,
+        "price_change": -4.75,
+        "still_in_top50": true,
+        "rank_change": -46
+      },
+      {
+        "code": "002300",
+        "name": "太阳电缆",
+        "prev_rank": 48,
+        "prev_price": 8.39,
+        "today_rank": "-",
+        "today_price": 8.39,
+        "price_change": 0.0,
+        "still_in_top50": false,
+        "rank_change": 0
+      }
+    ],
+    "win_rate": 50.0,
+    "win_count": 4,
+    "total": 8,
+    "rank_improved": 4
   }
 ]

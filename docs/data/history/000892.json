@@ -3,10 +3,6 @@
   "name": "欢瑞世纪",
   "history": [
     {
-      "date": "2026-08-03",
-      "rank": 207
-    },
-    {
       "date": "2026-08-04",
       "rank": 405
     },
@@ -112,18 +108,22 @@
     },
     {
       "date": "2026-09-02",
-      "rank": 14
+      "rank": 15
     },
     {
       "date": "2026-09-03",
-      "rank": 17,
-      "price": 5.08,
-      "change_pct": -2.3077
+      "rank": 20
+    },
+    {
+      "date": "2026-09-04",
+      "rank": 14,
+      "price": 5.59,
+      "change_pct": 10.0394
     }
   ],
   "continuous_days": 29,
   "monthly_count": 29,
-  "avg_rank": 892.1,
+  "avg_rank": 885.6,
   "best_rank": 14,
   "trend": "stable"
 }

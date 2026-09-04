@@ -3,10 +3,6 @@
   "name": "大众交通",
   "history": [
     {
-      "date": "2026-08-03",
-      "rank": 795
-    },
-    {
       "date": "2026-08-04",
       "rank": 160
     },
@@ -124,18 +120,22 @@
     },
     {
       "date": "2026-09-02",
-      "rank": 122
+      "rank": 88
     },
     {
       "date": "2026-09-03",
-      "rank": 80,
-      "price": 5.15,
-      "change_pct": 10.0427
+      "rank": 19
+    },
+    {
+      "date": "2026-09-04",
+      "rank": 25,
+      "price": 5.01,
+      "change_pct": -2.7184
     }
   ],
   "continuous_days": 32,
   "monthly_count": 32,
-  "avg_rank": 306.8,
-  "best_rank": 62,
+  "avg_rank": 279.7,
+  "best_rank": 19,
   "trend": "stable"
 }
