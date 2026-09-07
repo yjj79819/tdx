@@ -1,0 +1,37 @@
+{
+  "code": "002403",
+  "name": "爱仕达",
+  "history": [
+    {
+      "date": "2026-09-02",
+      "rank": 600
+    },
+    {
+      "date": "2026-09-03",
+      "rank": 248
+    },
+    {
+      "date": "2026-09-04",
+      "rank": 64
+    },
+    {
+      "date": "2026-09-05",
+      "rank": 41
+    },
+    {
+      "date": "2026-09-06",
+      "rank": 98
+    },
+    {
+      "date": "2026-09-07",
+      "rank": 94,
+      "price": 12.41,
+      "change_pct": 10.0177
+    }
+  ],
+  "continuous_days": 6,
+  "monthly_count": 6,
+  "avg_rank": 190.8,
+  "best_rank": 41,
+  "trend": "stable"
+}

@@ -1,0 +1,41 @@
+{
+  "code": "605580",
+  "name": "恒盛能源",
+  "history": [
+    {
+      "date": "2026-09-01",
+      "rank": 1368
+    },
+    {
+      "date": "2026-09-02",
+      "rank": 318
+    },
+    {
+      "date": "2026-09-03",
+      "rank": 181
+    },
+    {
+      "date": "2026-09-04",
+      "rank": 65
+    },
+    {
+      "date": "2026-09-05",
+      "rank": 55
+    },
+    {
+      "date": "2026-09-06",
+      "rank": 142
+    },
+    {
+      "date": "2026-09-07",
+      "rank": 89,
+      "price": 24.21,
+      "change_pct": 7.7437
+    }
+  ],
+  "continuous_days": 7,
+  "monthly_count": 7,
+  "avg_rank": 316.9,
+  "best_rank": 55,
+  "trend": "stable"
+}

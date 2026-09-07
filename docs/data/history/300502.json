@@ -3,18 +3,6 @@
   "name": "新易盛",
   "history": [
     {
-      "date": "2026-08-04",
-      "rank": 5
-    },
-    {
-      "date": "2026-08-05",
-      "rank": 26
-    },
-    {
-      "date": "2026-08-06",
-      "rank": 22
-    },
-    {
       "date": "2026-08-07",
       "rank": 57
     },
@@ -124,18 +112,30 @@
     },
     {
       "date": "2026-09-03",
-      "rank": 52
+      "rank": 50
     },
     {
       "date": "2026-09-04",
-      "rank": 98,
-      "price": 386.0,
-      "change_pct": 0.3223
+      "rank": 93
+    },
+    {
+      "date": "2026-09-05",
+      "rank": 115
+    },
+    {
+      "date": "2026-09-06",
+      "rank": 26
+    },
+    {
+      "date": "2026-09-07",
+      "rank": 75,
+      "price": 416.79,
+      "change_pct": 7.9663
     }
   ],
   "continuous_days": 32,
   "monthly_count": 32,
-  "avg_rank": 44.7,
-  "best_rank": 5,
+  "avg_rank": 49.6,
+  "best_rank": 10,
   "trend": "stable"
 }

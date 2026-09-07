@@ -3,14 +3,6 @@
   "name": "楚天龙",
   "history": [
     {
-      "date": "2026-08-05",
-      "rank": 353
-    },
-    {
-      "date": "2026-08-06",
-      "rank": 231
-    },
-    {
       "date": "2026-08-07",
       "rank": 364
     },
@@ -120,18 +112,30 @@
     },
     {
       "date": "2026-09-03",
-      "rank": 3
+      "rank": 2
     },
     {
       "date": "2026-09-04",
-      "rank": 1,
-      "price": 21.12,
-      "change_pct": 10.0
+      "rank": 3
+    },
+    {
+      "date": "2026-09-05",
+      "rank": 4
+    },
+    {
+      "date": "2026-09-06",
+      "rank": 4
+    },
+    {
+      "date": "2026-09-07",
+      "rank": 5,
+      "price": 21.91,
+      "change_pct": 3.7405
     }
   ],
-  "continuous_days": 31,
-  "monthly_count": 31,
-  "avg_rank": 410.8,
-  "best_rank": 1,
+  "continuous_days": 32,
+  "monthly_count": 32,
+  "avg_rank": 380.2,
+  "best_rank": 2,
   "trend": "stable"
 }

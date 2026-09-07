@@ -1,0 +1,41 @@
+{
+  "code": "603448",
+  "name": "天博智能",
+  "history": [
+    {
+      "date": "2026-08-26",
+      "rank": 1856
+    },
+    {
+      "date": "2026-08-28",
+      "rank": 1402
+    },
+    {
+      "date": "2026-08-29",
+      "rank": 1250
+    },
+    {
+      "date": "2026-09-04",
+      "rank": 897
+    },
+    {
+      "date": "2026-09-05",
+      "rank": 416
+    },
+    {
+      "date": "2026-09-06",
+      "rank": 87
+    },
+    {
+      "date": "2026-09-07",
+      "rank": 65,
+      "price": 90.56,
+      "change_pct": 44.5491
+    }
+  ],
+  "continuous_days": 7,
+  "monthly_count": 7,
+  "avg_rank": 853.3,
+  "best_rank": 65,
+  "trend": "stable"
+}

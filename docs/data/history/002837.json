@@ -3,18 +3,6 @@
   "name": "英维克",
   "history": [
     {
-      "date": "2026-08-04",
-      "rank": 166
-    },
-    {
-      "date": "2026-08-05",
-      "rank": 237
-    },
-    {
-      "date": "2026-08-06",
-      "rank": 166
-    },
-    {
       "date": "2026-08-07",
       "rank": 180
     },
@@ -124,18 +112,30 @@
     },
     {
       "date": "2026-09-03",
-      "rank": 31
+      "rank": 34
     },
     {
       "date": "2026-09-04",
-      "rank": 30,
-      "price": 63.91,
-      "change_pct": -6.6871
+      "rank": 78
+    },
+    {
+      "date": "2026-09-05",
+      "rank": 81
+    },
+    {
+      "date": "2026-09-06",
+      "rank": 58
+    },
+    {
+      "date": "2026-09-07",
+      "rank": 79,
+      "price": 65.49,
+      "change_pct": 2.4722
     }
   ],
   "continuous_days": 32,
   "monthly_count": 32,
-  "avg_rank": 148.7,
+  "avg_rank": 139.3,
   "best_rank": 10,
   "trend": "stable"
 }

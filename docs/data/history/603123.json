@@ -3,18 +3,6 @@
   "name": "翠微股份",
   "history": [
     {
-      "date": "2026-08-04",
-      "rank": 1067
-    },
-    {
-      "date": "2026-08-05",
-      "rank": 202
-    },
-    {
-      "date": "2026-08-06",
-      "rank": 304
-    },
-    {
       "date": "2026-08-07",
       "rank": 470
     },
@@ -124,18 +112,30 @@
     },
     {
       "date": "2026-09-03",
-      "rank": 58
+      "rank": 49
     },
     {
       "date": "2026-09-04",
-      "rank": 34,
-      "price": 11.18,
-      "change_pct": 10.0394
+      "rank": 19
+    },
+    {
+      "date": "2026-09-05",
+      "rank": 17
+    },
+    {
+      "date": "2026-09-06",
+      "rank": 15
+    },
+    {
+      "date": "2026-09-07",
+      "rank": 15,
+      "price": 11.85,
+      "change_pct": 5.9928
     }
   ],
   "continuous_days": 32,
   "monthly_count": 32,
-  "avg_rank": 554.6,
-  "best_rank": 34,
+  "avg_rank": 506.2,
+  "best_rank": 15,
   "trend": "stable"
 }

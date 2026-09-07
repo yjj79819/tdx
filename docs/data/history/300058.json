@@ -3,18 +3,6 @@
   "name": "蓝色光标",
   "history": [
     {
-      "date": "2026-08-04",
-      "rank": 15
-    },
-    {
-      "date": "2026-08-05",
-      "rank": 23
-    },
-    {
-      "date": "2026-08-06",
-      "rank": 15
-    },
-    {
       "date": "2026-08-07",
       "rank": 34
     },
@@ -124,18 +112,30 @@
     },
     {
       "date": "2026-09-03",
-      "rank": 7
+      "rank": 5
     },
     {
       "date": "2026-09-04",
-      "rank": 11,
-      "price": 13.97,
-      "change_pct": 5.9136
+      "rank": 20
+    },
+    {
+      "date": "2026-09-05",
+      "rank": 23
+    },
+    {
+      "date": "2026-09-06",
+      "rank": 28
+    },
+    {
+      "date": "2026-09-07",
+      "rank": 62,
+      "price": 13.94,
+      "change_pct": -0.2147
     }
   ],
   "continuous_days": 32,
   "monthly_count": 32,
-  "avg_rank": 50.8,
-  "best_rank": 7,
+  "avg_rank": 52.9,
+  "best_rank": 5,
   "trend": "stable"
 }
