@@ -1,103 +1,5 @@
 [
   {
-    "review_date": "2026-07-08",
-    "target_date": "2026-07-08",
-    "results": [
-      {
-        "code": "000725",
-        "name": "京东方A",
-        "prev_rank": 1,
-        "prev_price": 7.88,
-        "today_rank": 1,
-        "today_price": 7.63,
-        "price_change": -3.17,
-        "still_in_top50": true,
-        "rank_change": 0
-      },
-      {
-        "code": "000100",
-        "name": "TCL科技",
-        "prev_rank": 30,
-        "prev_price": 5.14,
-        "today_rank": 48,
-        "today_price": 5.04,
-        "price_change": -1.95,
-        "still_in_top50": true,
-        "rank_change": -18
-      },
-      {
-        "code": "601991",
-        "name": "大唐发电",
-        "prev_rank": 22,
-        "prev_price": 6.96,
-        "today_rank": 17,
-        "today_price": 6.95,
-        "price_change": -0.14,
-        "still_in_top50": true,
-        "rank_change": 5
-      },
-      {
-        "code": "600172",
-        "name": "黄河旋风",
-        "prev_rank": 8,
-        "prev_price": 18.73,
-        "today_rank": 11,
-        "today_price": 17.59,
-        "price_change": -6.09,
-        "still_in_top50": true,
-        "rank_change": -3
-      },
-      {
-        "code": "000066",
-        "name": "中国长城",
-        "prev_rank": 10,
-        "prev_price": 19.64,
-        "today_rank": 8,
-        "today_price": 19.31,
-        "price_change": -1.68,
-        "still_in_top50": true,
-        "rank_change": 2
-      },
-      {
-        "code": "603118",
-        "name": "共进股份",
-        "prev_rank": 58,
-        "prev_price": 14.32,
-        "today_rank": 62,
-        "today_price": 14.44,
-        "price_change": 0.84,
-        "still_in_top50": true,
-        "rank_change": -4
-      },
-      {
-        "code": "001896",
-        "name": "豫能控股",
-        "prev_rank": 79,
-        "prev_price": 14.89,
-        "today_rank": "-",
-        "today_price": 14.89,
-        "price_change": 0.0,
-        "still_in_top50": false,
-        "rank_change": 0
-      },
-      {
-        "code": "002137",
-        "name": "实益达",
-        "prev_rank": 80,
-        "prev_price": 11.99,
-        "today_rank": 36,
-        "today_price": 11.72,
-        "price_change": -2.25,
-        "still_in_top50": true,
-        "rank_change": 44
-      }
-    ],
-    "win_rate": 12.5,
-    "win_count": 1,
-    "total": 8,
-    "rank_improved": 3
-  },
-  {
     "review_date": "2026-07-09",
     "target_date": "2026-07-08",
     "results": [
@@ -8818,5 +8720,103 @@
     "win_count": 5,
     "total": 8,
     "rank_improved": 1
+  },
+  {
+    "review_date": "2026-09-07",
+    "target_date": "2026-09-07",
+    "results": [
+      {
+        "code": "601086",
+        "name": "国芳集团",
+        "prev_rank": 3,
+        "prev_price": 13.92,
+        "today_rank": 3,
+        "today_price": 13.92,
+        "price_change": 0.0,
+        "still_in_top50": true,
+        "rank_change": 0
+      },
+      {
+        "code": "600108",
+        "name": "亚盛集团",
+        "prev_rank": 6,
+        "prev_price": 4.8,
+        "today_rank": 25,
+        "today_price": 4.8,
+        "price_change": 0.0,
+        "still_in_top50": true,
+        "rank_change": -19
+      },
+      {
+        "code": "600127",
+        "name": "金健米业",
+        "prev_rank": 1,
+        "prev_price": 13.53,
+        "today_rank": 1,
+        "today_price": 13.53,
+        "price_change": 0.0,
+        "still_in_top50": true,
+        "rank_change": 0
+      },
+      {
+        "code": "600354",
+        "name": "敦煌种业",
+        "prev_rank": 17,
+        "prev_price": 9.53,
+        "today_rank": 30,
+        "today_price": 9.53,
+        "price_change": 0.0,
+        "still_in_top50": true,
+        "rank_change": -13
+      },
+      {
+        "code": "000592",
+        "name": "平潭发展",
+        "prev_rank": 2,
+        "prev_price": 7.86,
+        "today_rank": 2,
+        "today_price": 7.87,
+        "price_change": 0.13,
+        "still_in_top50": true,
+        "rank_change": 0
+      },
+      {
+        "code": "600371",
+        "name": "万向德农",
+        "prev_rank": 12,
+        "prev_price": 14.89,
+        "today_rank": 14,
+        "today_price": 15.07,
+        "price_change": 1.21,
+        "still_in_top50": true,
+        "rank_change": -2
+      },
+      {
+        "code": "002354",
+        "name": "天娱数科",
+        "prev_rank": 13,
+        "prev_price": 8.4,
+        "today_rank": 17,
+        "today_price": 8.43,
+        "price_change": 0.36,
+        "still_in_top50": true,
+        "rank_change": -4
+      },
+      {
+        "code": "002104",
+        "name": "恒宝股份",
+        "prev_rank": 29,
+        "prev_price": 13.43,
+        "today_rank": 51,
+        "today_price": 13.53,
+        "price_change": 0.74,
+        "still_in_top50": true,
+        "rank_change": -22
+      }
+    ],
+    "win_rate": 50.0,
+    "win_count": 4,
+    "total": 8,
+    "rank_improved": 0
   }
 ]
