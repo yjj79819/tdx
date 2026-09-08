@@ -3,10 +3,6 @@
   "name": "中国船舶",
   "history": [
     {
-      "date": "2026-08-07",
-      "rank": 275
-    },
-    {
       "date": "2026-08-08",
       "rank": 357
     },
@@ -124,18 +120,22 @@
     },
     {
       "date": "2026-09-06",
-      "rank": 45
+      "rank": 52
     },
     {
       "date": "2026-09-07",
-      "rank": 69,
-      "price": 38.38,
-      "change_pct": 2.4286
+      "rank": 72
+    },
+    {
+      "date": "2026-09-08",
+      "rank": 84,
+      "price": 39.08,
+      "change_pct": 1.8239
     }
   ],
   "continuous_days": 32,
   "monthly_count": 32,
-  "avg_rank": 244.1,
+  "avg_rank": 238.4,
   "best_rank": 7,
   "trend": "stable"
 }

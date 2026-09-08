@@ -3,10 +3,6 @@
   "name": "海欣食品",
   "history": [
     {
-      "date": "2026-08-07",
-      "rank": 1667
-    },
-    {
       "date": "2026-08-08",
       "rank": 1606
     },
@@ -100,18 +96,22 @@
     },
     {
       "date": "2026-09-06",
-      "rank": 111
+      "rank": 130
     },
     {
       "date": "2026-09-07",
-      "rank": 36,
-      "price": 6.17,
-      "change_pct": 9.98
+      "rank": 81
+    },
+    {
+      "date": "2026-09-08",
+      "rank": 65,
+      "price": 6.79,
+      "change_pct": 10.0486
     }
   ],
   "continuous_days": 26,
   "monthly_count": 26,
-  "avg_rank": 1177.7,
-  "best_rank": 36,
+  "avg_rank": 1118.6,
+  "best_rank": 46,
   "trend": "stable"
 }

@@ -3,10 +3,6 @@
   "name": "摩尔线程",
   "history": [
     {
-      "date": "2026-08-07",
-      "rank": 625
-    },
-    {
       "date": "2026-08-08",
       "rank": 100
     },
@@ -124,18 +120,22 @@
     },
     {
       "date": "2026-09-06",
-      "rank": 6
+      "rank": 4
     },
     {
       "date": "2026-09-07",
-      "rank": 5,
-      "price": 415.49,
-      "change_pct": -19.9981
+      "rank": 6
+    },
+    {
+      "date": "2026-09-08",
+      "rank": 20,
+      "price": 400.11,
+      "change_pct": -3.7017
     }
   ],
   "continuous_days": 32,
   "monthly_count": 32,
-  "avg_rank": 764.4,
-  "best_rank": 5,
+  "avg_rank": 745.5,
+  "best_rank": 4,
   "trend": "stable"
 }

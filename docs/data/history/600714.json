@@ -3,22 +3,6 @@
   "name": "金瑞矿业",
   "history": [
     {
-      "date": "2026-08-04",
-      "rank": 1730
-    },
-    {
-      "date": "2026-08-05",
-      "rank": 999
-    },
-    {
-      "date": "2026-08-06",
-      "rank": 1351
-    },
-    {
-      "date": "2026-08-07",
-      "rank": 1504
-    },
-    {
       "date": "2026-08-08",
       "rank": 1084
     },
@@ -96,18 +80,38 @@
     },
     {
       "date": "2026-09-02",
-      "rank": 128
+      "rank": 126
     },
     {
       "date": "2026-09-03",
-      "rank": 85,
-      "price": 20.97,
-      "change_pct": 8.3721
+      "rank": 167
+    },
+    {
+      "date": "2026-09-04",
+      "rank": 157
+    },
+    {
+      "date": "2026-09-05",
+      "rank": 142
+    },
+    {
+      "date": "2026-09-06",
+      "rank": 125
+    },
+    {
+      "date": "2026-09-07",
+      "rank": 133
+    },
+    {
+      "date": "2026-09-08",
+      "rank": 90,
+      "price": 22.6,
+      "change_pct": -1.7818
     }
   ],
-  "continuous_days": 25,
-  "monthly_count": 25,
-  "avg_rank": 824.1,
-  "best_rank": 85,
+  "continuous_days": 26,
+  "monthly_count": 26,
+  "avg_rank": 605.6,
+  "best_rank": 88,
   "trend": "stable"
 }

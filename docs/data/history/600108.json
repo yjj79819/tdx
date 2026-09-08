@@ -3,10 +3,6 @@
   "name": "亚盛集团",
   "history": [
     {
-      "date": "2026-08-07",
-      "rank": 1876
-    },
-    {
       "date": "2026-08-08",
       "rank": 1826
     },
@@ -112,18 +108,22 @@
     },
     {
       "date": "2026-09-06",
-      "rank": 16
+      "rank": 15
     },
     {
       "date": "2026-09-07",
-      "rank": 25,
-      "price": 4.8,
-      "change_pct": 10.0917
+      "rank": 13
+    },
+    {
+      "date": "2026-09-08",
+      "rank": 21,
+      "price": 5.28,
+      "change_pct": 10.0
     }
   ],
   "continuous_days": 29,
   "monthly_count": 29,
-  "avg_rank": 677.0,
+  "avg_rank": 612.6,
   "best_rank": 3,
   "trend": "stable"
 }

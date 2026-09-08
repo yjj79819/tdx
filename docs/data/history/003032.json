@@ -3,22 +3,6 @@
   "name": "传智教育",
   "history": [
     {
-      "date": "2026-08-04",
-      "rank": 19
-    },
-    {
-      "date": "2026-08-05",
-      "rank": 9
-    },
-    {
-      "date": "2026-08-06",
-      "rank": 21
-    },
-    {
-      "date": "2026-08-07",
-      "rank": 37
-    },
-    {
       "date": "2026-08-08",
       "rank": 39
     },
@@ -124,18 +108,34 @@
     },
     {
       "date": "2026-09-03",
-      "rank": 108
+      "rank": 109
     },
     {
       "date": "2026-09-04",
-      "rank": 72,
-      "price": 9.72,
-      "change_pct": -10.0
+      "rank": 82
+    },
+    {
+      "date": "2026-09-05",
+      "rank": 108
+    },
+    {
+      "date": "2026-09-06",
+      "rank": 239
+    },
+    {
+      "date": "2026-09-07",
+      "rank": 229
+    },
+    {
+      "date": "2026-09-08",
+      "rank": 80,
+      "price": 9.98,
+      "change_pct": 3.2058
     }
   ],
   "continuous_days": 32,
   "monthly_count": 32,
-  "avg_rank": 74.4,
-  "best_rank": 9,
+  "avg_rank": 92.6,
+  "best_rank": 19,
   "trend": "stable"
 }

@@ -3,22 +3,6 @@
   "name": "华盛昌",
   "history": [
     {
-      "date": "2026-08-04",
-      "rank": 524
-    },
-    {
-      "date": "2026-08-05",
-      "rank": 675
-    },
-    {
-      "date": "2026-08-06",
-      "rank": 772
-    },
-    {
-      "date": "2026-08-07",
-      "rank": 666
-    },
-    {
       "date": "2026-08-08",
       "rank": 670
     },
@@ -124,18 +108,34 @@
     },
     {
       "date": "2026-09-03",
-      "rank": 169
+      "rank": 185
     },
     {
       "date": "2026-09-04",
-      "rank": 97,
-      "price": 107.36,
-      "change_pct": 0.6563
+      "rank": 255
+    },
+    {
+      "date": "2026-09-05",
+      "rank": 270
+    },
+    {
+      "date": "2026-09-06",
+      "rank": 170
+    },
+    {
+      "date": "2026-09-07",
+      "rank": 96
+    },
+    {
+      "date": "2026-09-08",
+      "rank": 59,
+      "price": 129.91,
+      "change_pct": 10.0
     }
   ],
   "continuous_days": 32,
   "monthly_count": 32,
-  "avg_rank": 562.9,
-  "best_rank": 97,
+  "avg_rank": 504.5,
+  "best_rank": 59,
   "trend": "stable"
 }
