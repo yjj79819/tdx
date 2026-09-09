@@ -3,10 +3,6 @@
   "name": "天娱数科",
   "history": [
     {
-      "date": "2026-08-08",
-      "rank": 44
-    },
-    {
       "date": "2026-08-09",
       "rank": 27
     },
@@ -124,18 +120,22 @@
     },
     {
       "date": "2026-09-07",
-      "rank": 47
+      "rank": 50
     },
     {
       "date": "2026-09-08",
-      "rank": 71,
-      "price": 8.26,
-      "change_pct": -2.0166
+      "rank": 75
+    },
+    {
+      "date": "2026-09-09",
+      "rank": 65,
+      "price": 7.93,
+      "change_pct": -3.9952
     }
   ],
   "continuous_days": 32,
   "monthly_count": 32,
-  "avg_rank": 84.2,
+  "avg_rank": 85.1,
   "best_rank": 6,
   "trend": "stable"
 }

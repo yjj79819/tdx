@@ -1,0 +1,41 @@
+{
+  "code": "301699",
+  "name": "洛轴股份",
+  "history": [
+    {
+      "date": "2026-08-25",
+      "rank": 1936
+    },
+    {
+      "date": "2026-08-28",
+      "rank": 1372
+    },
+    {
+      "date": "2026-08-29",
+      "rank": 1279
+    },
+    {
+      "date": "2026-09-04",
+      "rank": 1579
+    },
+    {
+      "date": "2026-09-05",
+      "rank": 1009
+    },
+    {
+      "date": "2026-09-08",
+      "rank": 70
+    },
+    {
+      "date": "2026-09-09",
+      "rank": 88,
+      "price": 31.99,
+      "change_pct": 101.4484
+    }
+  ],
+  "continuous_days": 7,
+  "monthly_count": 7,
+  "avg_rank": 1047.6,
+  "best_rank": 70,
+  "trend": "stable"
+}

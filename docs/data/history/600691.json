@@ -1,77 +1,69 @@
 {
-  "code": "600479",
-  "name": "千金药业",
+  "code": "600691",
+  "name": "潞化科技",
   "history": [
     {
-      "date": "2026-08-25",
-      "rank": 244
-    },
-    {
-      "date": "2026-08-26",
-      "rank": 93
-    },
-    {
       "date": "2026-08-27",
-      "rank": 55
+      "rank": 566
     },
     {
       "date": "2026-08-28",
-      "rank": 27
+      "rank": 131
     },
     {
       "date": "2026-08-29",
-      "rank": 27
+      "rank": 96
     },
     {
       "date": "2026-08-30",
-      "rank": 67
+      "rank": 225
     },
     {
       "date": "2026-08-31",
-      "rank": 43
+      "rank": 222
     },
     {
       "date": "2026-09-01",
-      "rank": 44
+      "rank": 317
     },
     {
       "date": "2026-09-02",
-      "rank": 33
+      "rank": 461
     },
     {
       "date": "2026-09-03",
-      "rank": 56
+      "rank": 716
     },
     {
       "date": "2026-09-04",
-      "rank": 72
+      "rank": 609
     },
     {
       "date": "2026-09-05",
-      "rank": 100
+      "rank": 557
     },
     {
       "date": "2026-09-06",
-      "rank": 64
+      "rank": 769
     },
     {
       "date": "2026-09-07",
-      "rank": 32
+      "rank": 229
     },
     {
       "date": "2026-09-08",
-      "rank": 55
+      "rank": 128
     },
     {
       "date": "2026-09-09",
-      "rank": 39,
-      "price": 14.12,
-      "change_pct": -4.659
+      "rank": 89,
+      "price": 3.56,
+      "change_pct": 5.9524
     }
   ],
-  "continuous_days": 16,
-  "monthly_count": 16,
-  "avg_rank": 65.7,
-  "best_rank": 27,
+  "continuous_days": 14,
+  "monthly_count": 14,
+  "avg_rank": 365.4,
+  "best_rank": 89,
   "trend": "stable"
 }

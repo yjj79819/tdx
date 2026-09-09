@@ -3,10 +3,6 @@
   "name": "白银有色",
   "history": [
     {
-      "date": "2026-08-08",
-      "rank": 250
-    },
-    {
       "date": "2026-08-09",
       "rank": 201
     },
@@ -124,18 +120,22 @@
     },
     {
       "date": "2026-09-07",
-      "rank": 75
+      "rank": 70
     },
     {
       "date": "2026-09-08",
-      "rank": 41,
-      "price": 7.11,
-      "change_pct": 1.5714
+      "rank": 86
+    },
+    {
+      "date": "2026-09-09",
+      "rank": 93,
+      "price": 7.09,
+      "change_pct": -0.2813
     }
   ],
   "continuous_days": 32,
   "monthly_count": 32,
-  "avg_rank": 166.8,
+  "avg_rank": 163.2,
   "best_rank": 8,
   "trend": "stable"
 }

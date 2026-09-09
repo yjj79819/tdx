@@ -1,77 +1,89 @@
 {
-  "code": "600479",
-  "name": "千金药业",
+  "code": "000912",
+  "name": "泸天化",
   "history": [
     {
+      "date": "2026-08-09",
+      "rank": 1982
+    },
+    {
+      "date": "2026-08-21",
+      "rank": 1920
+    },
+    {
+      "date": "2026-08-24",
+      "rank": 1152
+    },
+    {
       "date": "2026-08-25",
-      "rank": 244
+      "rank": 1435
     },
     {
       "date": "2026-08-26",
-      "rank": 93
+      "rank": 1826
     },
     {
       "date": "2026-08-27",
-      "rank": 55
+      "rank": 361
     },
     {
       "date": "2026-08-28",
-      "rank": 27
+      "rank": 83
     },
     {
       "date": "2026-08-29",
-      "rank": 27
+      "rank": 79
     },
     {
       "date": "2026-08-30",
-      "rank": 67
+      "rank": 190
     },
     {
       "date": "2026-08-31",
-      "rank": 43
+      "rank": 284
     },
     {
       "date": "2026-09-01",
-      "rank": 44
+      "rank": 430
     },
     {
       "date": "2026-09-02",
-      "rank": 33
+      "rank": 665
     },
     {
       "date": "2026-09-03",
-      "rank": 56
+      "rank": 835
     },
     {
       "date": "2026-09-04",
-      "rank": 72
+      "rank": 934
     },
     {
       "date": "2026-09-05",
-      "rank": 100
+      "rank": 844
     },
     {
       "date": "2026-09-06",
-      "rank": 64
+      "rank": 796
     },
     {
       "date": "2026-09-07",
-      "rank": 32
+      "rank": 232
     },
     {
       "date": "2026-09-08",
-      "rank": 55
+      "rank": 93
     },
     {
       "date": "2026-09-09",
-      "rank": 39,
-      "price": 14.12,
-      "change_pct": -4.659
+      "rank": 72,
+      "price": 5.2,
+      "change_pct": 9.9366
     }
   ],
-  "continuous_days": 16,
-  "monthly_count": 16,
-  "avg_rank": 65.7,
-  "best_rank": 27,
+  "continuous_days": 19,
+  "monthly_count": 19,
+  "avg_rank": 748.1,
+  "best_rank": 72,
   "trend": "stable"
 }
