@@ -1,69 +1,73 @@
 {
-  "code": "600865",
-  "name": "百大集团",
+  "code": "600792",
+  "name": "云煤能源",
   "history": [
     {
-      "date": "2026-08-28",
-      "rank": 1317
+      "date": "2026-08-18",
+      "rank": 1024
     },
     {
-      "date": "2026-08-29",
-      "rank": 1329
+      "date": "2026-08-19",
+      "rank": 1874
+    },
+    {
+      "date": "2026-08-23",
+      "rank": 1841
     },
     {
       "date": "2026-08-31",
-      "rank": 1087
+      "rank": 531
     },
     {
       "date": "2026-09-01",
-      "rank": 1713
+      "rank": 278
     },
     {
       "date": "2026-09-02",
-      "rank": 263
+      "rank": 574
     },
     {
       "date": "2026-09-03",
-      "rank": 121
+      "rank": 1056
     },
     {
       "date": "2026-09-04",
-      "rank": 28
+      "rank": 1047
     },
     {
       "date": "2026-09-05",
-      "rank": 22
+      "rank": 1018
     },
     {
       "date": "2026-09-06",
-      "rank": 45
+      "rank": 1204
     },
     {
       "date": "2026-09-07",
-      "rank": 30
+      "rank": 338
     },
     {
       "date": "2026-09-08",
-      "rank": 17
+      "rank": 121
     },
     {
       "date": "2026-09-09",
-      "rank": 11
+      "rank": 35
     },
     {
       "date": "2026-09-10",
-      "rank": 49
+      "rank": 40
     },
     {
       "date": "2026-09-11",
-      "rank": 23,
-      "price": 13.19,
-      "change_pct": -9.9659
+      "rank": 25,
+      "price": 5.15,
+      "change_pct": -4.8059
     }
   ],
-  "continuous_days": 14,
-  "monthly_count": 14,
-  "avg_rank": 432.5,
-  "best_rank": 11,
+  "continuous_days": 15,
+  "monthly_count": 15,
+  "avg_rank": 733.7,
+  "best_rank": 25,
   "trend": "stable"
 }

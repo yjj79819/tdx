@@ -1,65 +1,65 @@
 {
-  "code": "002059",
-  "name": "云南旅游",
+  "code": "000993",
+  "name": "闽东电力",
   "history": [
     {
-      "date": "2026-08-28",
-      "rank": 1795
+      "date": "2026-08-12",
+      "rank": 1981
     },
     {
-      "date": "2026-08-29",
-      "rank": 1608
+      "date": "2026-08-13",
+      "rank": 1893
     },
     {
       "date": "2026-09-01",
-      "rank": 229
+      "rank": 1893
     },
     {
       "date": "2026-09-02",
-      "rank": 79
+      "rank": 980
     },
     {
       "date": "2026-09-03",
-      "rank": 65
+      "rank": 985
     },
     {
       "date": "2026-09-04",
-      "rank": 97
+      "rank": 899
     },
     {
       "date": "2026-09-05",
-      "rank": 87
+      "rank": 720
     },
     {
       "date": "2026-09-06",
-      "rank": 81
+      "rank": 1279
     },
     {
       "date": "2026-09-07",
-      "rank": 86
+      "rank": 1703
     },
     {
       "date": "2026-09-08",
-      "rank": 114
+      "rank": 219
     },
     {
       "date": "2026-09-09",
-      "rank": 40
+      "rank": 53
     },
     {
       "date": "2026-09-10",
-      "rank": 98
+      "rank": 12
     },
     {
       "date": "2026-09-11",
-      "rank": 43,
-      "price": 5.68,
-      "change_pct": -9.9842
+      "rank": 15,
+      "price": 13.88,
+      "change_pct": 9.9842
     }
   ],
   "continuous_days": 13,
   "monthly_count": 13,
-  "avg_rank": 340.2,
-  "best_rank": 40,
+  "avg_rank": 971.7,
+  "best_rank": 12,
   "trend": "stable"
 }

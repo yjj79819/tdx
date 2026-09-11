@@ -1,65 +1,57 @@
 {
-  "code": "002059",
-  "name": "云南旅游",
+  "code": "688801",
+  "name": "燧原科技",
   "history": [
     {
-      "date": "2026-08-28",
-      "rank": 1795
-    },
-    {
       "date": "2026-08-29",
-      "rank": 1608
+      "rank": 1937
     },
     {
       "date": "2026-09-01",
-      "rank": 229
+      "rank": 836
     },
     {
       "date": "2026-09-02",
-      "rank": 79
+      "rank": 837
     },
     {
       "date": "2026-09-03",
-      "rank": 65
+      "rank": 1872
     },
     {
       "date": "2026-09-04",
-      "rank": 97
+      "rank": 856
     },
     {
       "date": "2026-09-05",
-      "rank": 87
+      "rank": 683
     },
     {
       "date": "2026-09-06",
-      "rank": 81
-    },
-    {
-      "date": "2026-09-07",
-      "rank": 86
+      "rank": 1780
     },
     {
       "date": "2026-09-08",
-      "rank": 114
+      "rank": 1844
     },
     {
       "date": "2026-09-09",
-      "rank": 40
+      "rank": 998
     },
     {
       "date": "2026-09-10",
-      "rank": 98
+      "rank": 17
     },
     {
       "date": "2026-09-11",
-      "rank": 43,
-      "price": 5.68,
-      "change_pct": -9.9842
+      "rank": 27,
+      "price": 397.0,
+      "change_pct": 179.2235
     }
   ],
-  "continuous_days": 13,
-  "monthly_count": 13,
-  "avg_rank": 340.2,
-  "best_rank": 40,
+  "continuous_days": 11,
+  "monthly_count": 11,
+  "avg_rank": 1062.5,
+  "best_rank": 17,
   "trend": "stable"
 }
