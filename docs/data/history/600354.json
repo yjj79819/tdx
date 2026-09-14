@@ -3,18 +3,6 @@
   "name": "敦煌种业",
   "history": [
     {
-      "date": "2026-08-11",
-      "rank": 1402
-    },
-    {
-      "date": "2026-08-12",
-      "rank": 1595
-    },
-    {
-      "date": "2026-08-13",
-      "rank": 1819
-    },
-    {
       "date": "2026-08-14",
       "rank": 1885
     },
@@ -124,18 +112,30 @@
     },
     {
       "date": "2026-09-10",
-      "rank": 38
+      "rank": 39
     },
     {
       "date": "2026-09-11",
-      "rank": 17,
-      "price": 10.97,
-      "change_pct": -4.1921
+      "rank": 88
+    },
+    {
+      "date": "2026-09-12",
+      "rank": 103
+    },
+    {
+      "date": "2026-09-13",
+      "rank": 63
+    },
+    {
+      "date": "2026-09-14",
+      "rank": 55,
+      "price": 9.87,
+      "change_pct": -10.0273
     }
   ],
   "continuous_days": 32,
   "monthly_count": 32,
-  "avg_rank": 395.2,
-  "best_rank": 17,
+  "avg_rank": 253.8,
+  "best_rank": 22,
   "trend": "stable"
 }

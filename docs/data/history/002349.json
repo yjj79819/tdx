@@ -3,14 +3,6 @@
   "name": "精华制药",
   "history": [
     {
-      "date": "2026-08-12",
-      "rank": 1407
-    },
-    {
-      "date": "2026-08-13",
-      "rank": 1441
-    },
-    {
       "date": "2026-08-14",
       "rank": 1353
     },
@@ -104,18 +96,38 @@
     },
     {
       "date": "2026-09-08",
-      "rank": 78
+      "rank": 70
     },
     {
       "date": "2026-09-09",
-      "rank": 35,
-      "price": 9.26,
-      "change_pct": 9.9762
+      "rank": 87
+    },
+    {
+      "date": "2026-09-10",
+      "rank": 253
+    },
+    {
+      "date": "2026-09-11",
+      "rank": 231
+    },
+    {
+      "date": "2026-09-12",
+      "rank": 266
+    },
+    {
+      "date": "2026-09-13",
+      "rank": 86
+    },
+    {
+      "date": "2026-09-14",
+      "rank": 74,
+      "price": 8.63,
+      "change_pct": 7.7403
     }
   ],
-  "continuous_days": 27,
-  "monthly_count": 27,
-  "avg_rank": 942.6,
-  "best_rank": 35,
+  "continuous_days": 30,
+  "monthly_count": 30,
+  "avg_rank": 785.2,
+  "best_rank": 70,
   "trend": "stable"
 }
