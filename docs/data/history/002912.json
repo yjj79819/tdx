@@ -1,0 +1,41 @@
+{
+  "code": "002912",
+  "name": "中新赛克",
+  "history": [
+    {
+      "date": "2026-09-09",
+      "rank": 498
+    },
+    {
+      "date": "2026-09-10",
+      "rank": 217
+    },
+    {
+      "date": "2026-09-11",
+      "rank": 47
+    },
+    {
+      "date": "2026-09-12",
+      "rank": 29
+    },
+    {
+      "date": "2026-09-13",
+      "rank": 85
+    },
+    {
+      "date": "2026-09-14",
+      "rank": 25
+    },
+    {
+      "date": "2026-09-15",
+      "rank": 33,
+      "price": 28.45,
+      "change_pct": 10.0155
+    }
+  ],
+  "continuous_days": 7,
+  "monthly_count": 7,
+  "avg_rank": 133.4,
+  "best_rank": 25,
+  "trend": "stable"
+}

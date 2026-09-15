@@ -3,10 +3,6 @@
   "name": "太极实业",
   "history": [
     {
-      "date": "2026-08-14",
-      "rank": 12
-    },
-    {
       "date": "2026-08-15",
       "rank": 12
     },
@@ -124,18 +120,22 @@
     },
     {
       "date": "2026-09-13",
-      "rank": 20
+      "rank": 19
     },
     {
       "date": "2026-09-14",
-      "rank": 13,
-      "price": 18.73,
-      "change_pct": -3.9487
+      "rank": 15
+    },
+    {
+      "date": "2026-09-15",
+      "rank": 14,
+      "price": 18.91,
+      "change_pct": 0.961
     }
   ],
   "continuous_days": 32,
   "monthly_count": 32,
-  "avg_rank": 41.7,
+  "avg_rank": 41.8,
   "best_rank": 4,
   "trend": "stable"
 }

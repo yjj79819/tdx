@@ -1,0 +1,41 @@
+{
+  "code": "603439",
+  "name": "三力制药",
+  "history": [
+    {
+      "date": "2026-08-15",
+      "rank": 777
+    },
+    {
+      "date": "2026-09-10",
+      "rank": 814
+    },
+    {
+      "date": "2026-09-11",
+      "rank": 247
+    },
+    {
+      "date": "2026-09-12",
+      "rank": 244
+    },
+    {
+      "date": "2026-09-13",
+      "rank": 232
+    },
+    {
+      "date": "2026-09-14",
+      "rank": 83
+    },
+    {
+      "date": "2026-09-15",
+      "rank": 86,
+      "price": 14.14,
+      "change_pct": 2.5381
+    }
+  ],
+  "continuous_days": 7,
+  "monthly_count": 7,
+  "avg_rank": 354.7,
+  "best_rank": 83,
+  "trend": "stable"
+}

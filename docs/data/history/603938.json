@@ -3,10 +3,6 @@
   "name": "三孚股份",
   "history": [
     {
-      "date": "2026-08-14",
-      "rank": 472
-    },
-    {
       "date": "2026-08-15",
       "rank": 440
     },
@@ -124,18 +120,22 @@
     },
     {
       "date": "2026-09-13",
-      "rank": 74
+      "rank": 82
     },
     {
       "date": "2026-09-14",
-      "rank": 88,
-      "price": 49.96,
-      "change_pct": 0.8071
+      "rank": 51
+    },
+    {
+      "date": "2026-09-15",
+      "rank": 80,
+      "price": 53.17,
+      "change_pct": 6.4251
     }
   ],
   "continuous_days": 32,
   "monthly_count": 32,
-  "avg_rank": 514.8,
+  "avg_rank": 501.6,
   "best_rank": 32,
   "trend": "stable"
 }

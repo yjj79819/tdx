@@ -3,10 +3,6 @@
   "name": "华胜天成",
   "history": [
     {
-      "date": "2026-08-14",
-      "rank": 414
-    },
-    {
       "date": "2026-08-15",
       "rank": 407
     },
@@ -124,18 +120,22 @@
     },
     {
       "date": "2026-09-13",
-      "rank": 18
+      "rank": 21
     },
     {
       "date": "2026-09-14",
-      "rank": 19,
-      "price": 15.63,
-      "change_pct": 1.3619
+      "rank": 40
+    },
+    {
+      "date": "2026-09-15",
+      "rank": 25,
+      "price": 15.69,
+      "change_pct": 0.3839
     }
   ],
   "continuous_days": 32,
   "monthly_count": 32,
-  "avg_rank": 295.0,
+  "avg_rank": 283.6,
   "best_rank": 6,
   "trend": "stable"
 }

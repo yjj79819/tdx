@@ -3,10 +3,6 @@
   "name": "崇达技术",
   "history": [
     {
-      "date": "2026-08-14",
-      "rank": 997
-    },
-    {
       "date": "2026-08-15",
       "rank": 1008
     },
@@ -124,18 +120,22 @@
     },
     {
       "date": "2026-09-13",
-      "rank": 56
+      "rank": 57
     },
     {
       "date": "2026-09-14",
-      "rank": 64,
-      "price": 21.12,
-      "change_pct": 5.1793
+      "rank": 69
+    },
+    {
+      "date": "2026-09-15",
+      "rank": 65,
+      "price": 21.66,
+      "change_pct": 2.5568
     }
   ],
   "continuous_days": 32,
   "monthly_count": 32,
-  "avg_rank": 587.7,
+  "avg_rank": 558.8,
   "best_rank": 17,
   "trend": "stable"
 }

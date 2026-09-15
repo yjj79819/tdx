@@ -3,10 +3,6 @@
   "name": "博敏电子",
   "history": [
     {
-      "date": "2026-08-14",
-      "rank": 510
-    },
-    {
       "date": "2026-08-15",
       "rank": 520
     },
@@ -124,18 +120,22 @@
     },
     {
       "date": "2026-09-13",
-      "rank": 31
+      "rank": 32
     },
     {
       "date": "2026-09-14",
-      "rank": 30,
-      "price": 22.29,
-      "change_pct": 6.7529
+      "rank": 80
+    },
+    {
+      "date": "2026-09-15",
+      "rank": 66,
+      "price": 22.16,
+      "change_pct": -0.5832
     }
   ],
   "continuous_days": 32,
   "monthly_count": 32,
-  "avg_rank": 400.2,
+  "avg_rank": 387.9,
   "best_rank": 12,
   "trend": "stable"
 }

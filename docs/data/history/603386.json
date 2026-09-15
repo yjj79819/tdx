@@ -1,0 +1,41 @@
+{
+  "code": "603386",
+  "name": "骏亚科技",
+  "history": [
+    {
+      "date": "2026-09-09",
+      "rank": 1771
+    },
+    {
+      "date": "2026-09-10",
+      "rank": 331
+    },
+    {
+      "date": "2026-09-11",
+      "rank": 93
+    },
+    {
+      "date": "2026-09-12",
+      "rank": 77
+    },
+    {
+      "date": "2026-09-13",
+      "rank": 281
+    },
+    {
+      "date": "2026-09-14",
+      "rank": 138
+    },
+    {
+      "date": "2026-09-15",
+      "rank": 99,
+      "price": 18.65,
+      "change_pct": 8.1159
+    }
+  ],
+  "continuous_days": 7,
+  "monthly_count": 7,
+  "avg_rank": 398.6,
+  "best_rank": 77,
+  "trend": "stable"
+}

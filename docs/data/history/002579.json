@@ -3,10 +3,6 @@
   "name": "中京电子",
   "history": [
     {
-      "date": "2026-08-14",
-      "rank": 279
-    },
-    {
       "date": "2026-08-15",
       "rank": 286
     },
@@ -124,18 +120,22 @@
     },
     {
       "date": "2026-09-13",
-      "rank": 15
+      "rank": 12
     },
     {
       "date": "2026-09-14",
-      "rank": 11,
-      "price": 18.79,
-      "change_pct": 10.0117
+      "rank": 13
+    },
+    {
+      "date": "2026-09-15",
+      "rank": 9,
+      "price": 18.6,
+      "change_pct": -1.0112
     }
   ],
   "continuous_days": 32,
   "monthly_count": 32,
-  "avg_rank": 215.8,
-  "best_rank": 11,
+  "avg_rank": 207.4,
+  "best_rank": 9,
   "trend": "stable"
 }
