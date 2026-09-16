@@ -3,10 +3,6 @@
   "name": "中视传媒",
   "history": [
     {
-      "date": "2026-08-15",
-      "rank": 1777
-    },
-    {
       "date": "2026-09-02",
       "rank": 765
     },
@@ -52,18 +48,22 @@
     },
     {
       "date": "2026-09-14",
-      "rank": 38
+      "rank": 41
     },
     {
       "date": "2026-09-15",
-      "rank": 31,
-      "price": 14.44,
-      "change_pct": -2.0353
+      "rank": 86
+    },
+    {
+      "date": "2026-09-16",
+      "rank": 64,
+      "price": 15.05,
+      "change_pct": 4.2244
     }
   ],
   "continuous_days": 14,
   "monthly_count": 14,
-  "avg_rank": 797.4,
-  "best_rank": 31,
+  "avg_rank": 679.2,
+  "best_rank": 41,
   "trend": "stable"
 }

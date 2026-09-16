@@ -3,14 +3,6 @@
   "name": "剑桥科技",
   "history": [
     {
-      "date": "2026-08-14",
-      "rank": 33
-    },
-    {
-      "date": "2026-08-15",
-      "rank": 38
-    },
-    {
       "date": "2026-08-16",
       "rank": 84
     },
@@ -124,18 +116,26 @@
     },
     {
       "date": "2026-09-13",
-      "rank": 82
+      "rank": 88
     },
     {
       "date": "2026-09-14",
-      "rank": 78,
-      "price": 218.88,
-      "change_pct": -2.486
+      "rank": 109
+    },
+    {
+      "date": "2026-09-15",
+      "rank": 64
+    },
+    {
+      "date": "2026-09-16",
+      "rank": 86,
+      "price": 223.63,
+      "change_pct": 3.341
     }
   ],
   "continuous_days": 32,
   "monthly_count": 32,
-  "avg_rank": 128.9,
+  "avg_rank": 132.5,
   "best_rank": 12,
   "trend": "stable"
 }
