@@ -3,10 +3,6 @@
   "name": "中晶科技",
   "history": [
     {
-      "date": "2026-08-16",
-      "rank": 1336
-    },
-    {
       "date": "2026-08-17",
       "rank": 1122
     },
@@ -60,18 +56,22 @@
     },
     {
       "date": "2026-09-15",
-      "rank": 99
+      "rank": 86
     },
     {
       "date": "2026-09-16",
-      "rank": 60,
-      "price": 33.64,
-      "change_pct": 10.0065
+      "rank": 37
+    },
+    {
+      "date": "2026-09-17",
+      "rank": 41,
+      "price": 37.0,
+      "change_pct": 9.9881
     }
   ],
   "continuous_days": 16,
   "monthly_count": 16,
-  "avg_rank": 1395.0,
-  "best_rank": 60,
+  "avg_rank": 1311.8,
+  "best_rank": 37,
   "trend": "stable"
 }
