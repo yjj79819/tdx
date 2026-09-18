@@ -1,0 +1,37 @@
+{
+  "code": "000920",
+  "name": "沃顿科技",
+  "history": [
+    {
+      "date": "2026-08-20",
+      "rank": 1540
+    },
+    {
+      "date": "2026-08-21",
+      "rank": 1220
+    },
+    {
+      "date": "2026-08-22",
+      "rank": 1125
+    },
+    {
+      "date": "2026-09-16",
+      "rank": 344
+    },
+    {
+      "date": "2026-09-17",
+      "rank": 170
+    },
+    {
+      "date": "2026-09-18",
+      "rank": 100,
+      "price": 13.16,
+      "change_pct": 4.1964
+    }
+  ],
+  "continuous_days": 6,
+  "monthly_count": 6,
+  "avg_rank": 749.8,
+  "best_rank": 100,
+  "trend": "stable"
+}

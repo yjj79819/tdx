@@ -3,10 +3,6 @@
   "name": "众泰汽车",
   "history": [
     {
-      "date": "2026-08-17",
-      "rank": 1600
-    },
-    {
       "date": "2026-08-18",
       "rank": 1329
     },
@@ -124,18 +120,22 @@
     },
     {
       "date": "2026-09-16",
-      "rank": 29
+      "rank": 24
     },
     {
       "date": "2026-09-17",
-      "rank": 32,
-      "price": 2.37,
-      "change_pct": 10.2326
+      "rank": 48
+    },
+    {
+      "date": "2026-09-18",
+      "rank": 45,
+      "price": 2.29,
+      "change_pct": -3.3755
     }
   ],
   "continuous_days": 32,
   "monthly_count": 32,
-  "avg_rank": 805.5,
+  "avg_rank": 757.2,
   "best_rank": 9,
   "trend": "stable"
 }

@@ -3,18 +3,6 @@
   "name": "沪电股份",
   "history": [
     {
-      "date": "2026-08-15",
-      "rank": 147
-    },
-    {
-      "date": "2026-08-16",
-      "rank": 117
-    },
-    {
-      "date": "2026-08-17",
-      "rank": 160
-    },
-    {
       "date": "2026-08-18",
       "rank": 165
     },
@@ -124,18 +112,30 @@
     },
     {
       "date": "2026-09-14",
-      "rank": 72
+      "rank": 74
     },
     {
       "date": "2026-09-15",
-      "rank": 77,
-      "price": 125.82,
-      "change_pct": 0.0955
+      "rank": 90
+    },
+    {
+      "date": "2026-09-16",
+      "rank": 104
+    },
+    {
+      "date": "2026-09-17",
+      "rank": 81
+    },
+    {
+      "date": "2026-09-18",
+      "rank": 91,
+      "price": 123.5,
+      "change_pct": 0.0162
     }
   ],
   "continuous_days": 32,
   "monthly_count": 32,
-  "avg_rank": 108.7,
+  "avg_rank": 104.5,
   "best_rank": 26,
   "trend": "stable"
 }

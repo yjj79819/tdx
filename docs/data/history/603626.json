@@ -3,10 +3,6 @@
   "name": "科森科技",
   "history": [
     {
-      "date": "2026-08-17",
-      "rank": 1043
-    },
-    {
       "date": "2026-08-18",
       "rank": 986
     },
@@ -124,18 +120,22 @@
     },
     {
       "date": "2026-09-16",
-      "rank": 138
+      "rank": 122
     },
     {
       "date": "2026-09-17",
-      "rank": 70,
-      "price": 21.29,
-      "change_pct": 10.0258
+      "rank": 74
+    },
+    {
+      "date": "2026-09-18",
+      "rank": 43,
+      "price": 23.42,
+      "change_pct": 10.0047
     }
   ],
   "continuous_days": 32,
   "monthly_count": 32,
-  "avg_rank": 336.8,
+  "avg_rank": 305.1,
   "best_rank": 31,
   "trend": "stable"
 }

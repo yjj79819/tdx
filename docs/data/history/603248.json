@@ -1,33 +1,33 @@
 {
-  "code": "001216",
-  "name": "华瓷股份",
+  "code": "603248",
+  "name": "锡华科技",
   "history": [
     {
       "date": "2026-09-14",
-      "rank": 349
+      "rank": 451
     },
     {
       "date": "2026-09-15",
-      "rank": 125
+      "rank": 227
     },
     {
       "date": "2026-09-16",
-      "rank": 71
+      "rank": 114
     },
     {
       "date": "2026-09-17",
-      "rank": 44
+      "rank": 64
     },
     {
       "date": "2026-09-18",
-      "rank": 29,
-      "price": 21.87,
-      "change_pct": 10.0101
+      "rank": 46,
+      "price": 24.57,
+      "change_pct": 9.9821
     }
   ],
   "continuous_days": 5,
   "monthly_count": 5,
-  "avg_rank": 123.6,
-  "best_rank": 29,
+  "avg_rank": 180.4,
+  "best_rank": 46,
   "trend": "stable"
 }

@@ -3,10 +3,6 @@
   "name": "天融信",
   "history": [
     {
-      "date": "2026-08-17",
-      "rank": 719
-    },
-    {
       "date": "2026-08-18",
       "rank": 607
     },
@@ -124,18 +120,22 @@
     },
     {
       "date": "2026-09-16",
-      "rank": 82
+      "rank": 87
     },
     {
       "date": "2026-09-17",
-      "rank": 43,
-      "price": 7.14,
-      "change_pct": 2.1459
+      "rank": 149
+    },
+    {
+      "date": "2026-09-18",
+      "rank": 99,
+      "price": 7.07,
+      "change_pct": -0.9804
     }
   ],
   "continuous_days": 32,
   "monthly_count": 32,
-  "avg_rank": 474.5,
+  "avg_rank": 458.6,
   "best_rank": 16,
   "trend": "stable"
 }

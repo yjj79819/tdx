@@ -1,97 +1,93 @@
 {
-  "code": "605577",
-  "name": "龙版传媒",
+  "code": "603686",
+  "name": "福龙马",
   "history": [
     {
-      "date": "2026-08-18",
-      "rank": 1323
-    },
-    {
-      "date": "2026-08-30",
-      "rank": 651
+      "date": "2026-08-24",
+      "rank": 1630
     },
     {
       "date": "2026-08-31",
-      "rank": 250
+      "rank": 1567
     },
     {
       "date": "2026-09-01",
-      "rank": 131
+      "rank": 1558
     },
     {
       "date": "2026-09-02",
-      "rank": 40
+      "rank": 1493
     },
     {
       "date": "2026-09-03",
-      "rank": 29
+      "rank": 705
     },
     {
       "date": "2026-09-04",
-      "rank": 4
+      "rank": 390
     },
     {
       "date": "2026-09-05",
-      "rank": 2
+      "rank": 467
     },
     {
       "date": "2026-09-06",
-      "rank": 9
+      "rank": 915
     },
     {
       "date": "2026-09-07",
-      "rank": 3
+      "rank": 1077
     },
     {
       "date": "2026-09-08",
-      "rank": 47
+      "rank": 1280
     },
     {
       "date": "2026-09-09",
-      "rank": 201
+      "rank": 1243
     },
     {
       "date": "2026-09-10",
-      "rank": 256
+      "rank": 1516
     },
     {
       "date": "2026-09-11",
-      "rank": 41
+      "rank": 1145
     },
     {
       "date": "2026-09-12",
-      "rank": 33
+      "rank": 1290
     },
     {
       "date": "2026-09-13",
-      "rank": 24
+      "rank": 790
     },
     {
       "date": "2026-09-14",
-      "rank": 35
+      "rank": 211
     },
     {
       "date": "2026-09-15",
-      "rank": 57
+      "rank": 328
     },
     {
       "date": "2026-09-16",
-      "rank": 25
+      "rank": 435
     },
     {
       "date": "2026-09-17",
-      "rank": 40
+      "rank": 99
     },
     {
       "date": "2026-09-18",
-      "rank": 41,
-      "price": 15.72,
-      "change_pct": 4.8
+      "rank": 68,
+      "price": 15.47,
+      "change_pct": 10.0284
     }
   ],
-  "continuous_days": 21,
-  "monthly_count": 21,
-  "avg_rank": 154.4,
-  "best_rank": 2,
+  "continuous_days": 20,
+  "monthly_count": 20,
+  "avg_rank": 910.4,
+  "best_rank": 68,
   "trend": "stable"
 }

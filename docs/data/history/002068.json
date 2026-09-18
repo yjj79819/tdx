@@ -3,10 +3,6 @@
   "name": "黑猫股份",
   "history": [
     {
-      "date": "2026-08-17",
-      "rank": 1696
-    },
-    {
       "date": "2026-08-18",
       "rank": 1321
     },
@@ -124,18 +120,22 @@
     },
     {
       "date": "2026-09-16",
-      "rank": 59
+      "rank": 57
     },
     {
       "date": "2026-09-17",
-      "rank": 27,
-      "price": 10.04,
-      "change_pct": -0.9862
+      "rank": 156
+    },
+    {
+      "date": "2026-09-18",
+      "rank": 98,
+      "price": 9.98,
+      "change_pct": -0.5976
     }
   ],
   "continuous_days": 32,
   "monthly_count": 32,
-  "avg_rank": 1106.3,
-  "best_rank": 27,
+  "avg_rank": 1060.4,
+  "best_rank": 41,
   "trend": "stable"
 }
