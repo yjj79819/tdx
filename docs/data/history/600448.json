@@ -1,0 +1,37 @@
+{
+  "code": "600448",
+  "name": "华纺股份",
+  "history": [
+    {
+      "date": "2026-09-16",
+      "rank": 633
+    },
+    {
+      "date": "2026-09-17",
+      "rank": 293
+    },
+    {
+      "date": "2026-09-18",
+      "rank": 85
+    },
+    {
+      "date": "2026-09-19",
+      "rank": 41
+    },
+    {
+      "date": "2026-09-20",
+      "rank": 46
+    },
+    {
+      "date": "2026-09-21",
+      "rank": 47,
+      "price": 3.89,
+      "change_pct": 9.887
+    }
+  ],
+  "continuous_days": 6,
+  "monthly_count": 6,
+  "avg_rank": 190.8,
+  "best_rank": 41,
+  "trend": "stable"
+}

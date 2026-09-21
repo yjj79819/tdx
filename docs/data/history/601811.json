@@ -1,0 +1,37 @@
+{
+  "code": "601811",
+  "name": "新华文轩",
+  "history": [
+    {
+      "date": "2026-09-16",
+      "rank": 748
+    },
+    {
+      "date": "2026-09-17",
+      "rank": 331
+    },
+    {
+      "date": "2026-09-18",
+      "rank": 58
+    },
+    {
+      "date": "2026-09-19",
+      "rank": 32
+    },
+    {
+      "date": "2026-09-20",
+      "rank": 62
+    },
+    {
+      "date": "2026-09-21",
+      "rank": 46,
+      "price": 15.29,
+      "change_pct": 10.0
+    }
+  ],
+  "continuous_days": 6,
+  "monthly_count": 6,
+  "avg_rank": 212.8,
+  "best_rank": 32,
+  "trend": "stable"
+}

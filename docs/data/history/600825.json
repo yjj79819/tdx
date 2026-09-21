@@ -1,81 +1,77 @@
 {
-  "code": "603042",
-  "name": "华脉科技",
+  "code": "600825",
+  "name": "新华传媒",
   "history": [
     {
-      "date": "2026-08-26",
-      "rank": 1980
-    },
-    {
       "date": "2026-09-06",
-      "rank": 620
+      "rank": 565
     },
     {
       "date": "2026-09-07",
-      "rank": 256
+      "rank": 460
     },
     {
       "date": "2026-09-08",
-      "rank": 102
+      "rank": 1119
     },
     {
       "date": "2026-09-09",
-      "rank": 106
+      "rank": 1523
     },
     {
       "date": "2026-09-10",
-      "rank": 145
+      "rank": 1392
     },
     {
       "date": "2026-09-11",
-      "rank": 205
+      "rank": 637
     },
     {
       "date": "2026-09-12",
-      "rank": 193
+      "rank": 511
     },
     {
       "date": "2026-09-13",
-      "rank": 354
+      "rank": 1256
     },
     {
       "date": "2026-09-14",
-      "rank": 545
+      "rank": 1271
     },
     {
       "date": "2026-09-15",
-      "rank": 168
+      "rank": 1211
     },
     {
       "date": "2026-09-16",
-      "rank": 117
+      "rank": 720
     },
     {
       "date": "2026-09-17",
-      "rank": 315
+      "rank": 299
     },
     {
       "date": "2026-09-18",
-      "rank": 314
+      "rank": 3
     },
     {
       "date": "2026-09-19",
-      "rank": 279
+      "rank": 3
     },
     {
       "date": "2026-09-20",
-      "rank": 125
+      "rank": 5
     },
     {
       "date": "2026-09-21",
-      "rank": 84,
-      "price": 19.03,
-      "change_pct": 10.0
+      "rank": 7,
+      "price": 5.84,
+      "change_pct": 9.9812
     }
   ],
-  "continuous_days": 17,
-  "monthly_count": 17,
-  "avg_rank": 347.5,
-  "best_rank": 84,
+  "continuous_days": 16,
+  "monthly_count": 16,
+  "avg_rank": 686.4,
+  "best_rank": 3,
   "trend": "stable"
 }

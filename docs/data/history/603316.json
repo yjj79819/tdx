@@ -1,81 +1,73 @@
 {
-  "code": "603042",
-  "name": "华脉科技",
+  "code": "603316",
+  "name": "诚邦股份",
   "history": [
     {
-      "date": "2026-08-26",
-      "rank": 1980
-    },
-    {
-      "date": "2026-09-06",
-      "rank": 620
-    },
-    {
       "date": "2026-09-07",
-      "rank": 256
+      "rank": 658
     },
     {
       "date": "2026-09-08",
-      "rank": 102
+      "rank": 1368
     },
     {
       "date": "2026-09-09",
-      "rank": 106
+      "rank": 312
     },
     {
       "date": "2026-09-10",
-      "rank": 145
+      "rank": 538
     },
     {
       "date": "2026-09-11",
-      "rank": 205
+      "rank": 477
     },
     {
       "date": "2026-09-12",
-      "rank": 193
+      "rank": 455
     },
     {
       "date": "2026-09-13",
-      "rank": 354
+      "rank": 735
     },
     {
       "date": "2026-09-14",
-      "rank": 545
+      "rank": 333
     },
     {
       "date": "2026-09-15",
-      "rank": 168
+      "rank": 386
     },
     {
       "date": "2026-09-16",
-      "rank": 117
+      "rank": 609
     },
     {
       "date": "2026-09-17",
-      "rank": 315
+      "rank": 195
     },
     {
       "date": "2026-09-18",
-      "rank": 314
+      "rank": 66
     },
     {
       "date": "2026-09-19",
-      "rank": 279
+      "rank": 52
     },
     {
       "date": "2026-09-20",
-      "rank": 125
+      "rank": 119
     },
     {
       "date": "2026-09-21",
-      "rank": 84,
-      "price": 19.03,
-      "change_pct": 10.0
+      "rank": 60,
+      "price": 18.36,
+      "change_pct": 10.006
     }
   ],
-  "continuous_days": 17,
-  "monthly_count": 17,
-  "avg_rank": 347.5,
-  "best_rank": 84,
+  "continuous_days": 15,
+  "monthly_count": 15,
+  "avg_rank": 424.2,
+  "best_rank": 52,
   "trend": "stable"
 }

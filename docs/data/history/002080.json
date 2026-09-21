@@ -3,18 +3,6 @@
   "name": "中材科技",
   "history": [
     {
-      "date": "2026-08-18",
-      "rank": 276
-    },
-    {
-      "date": "2026-08-19",
-      "rank": 377
-    },
-    {
-      "date": "2026-08-20",
-      "rank": 405
-    },
-    {
       "date": "2026-08-21",
       "rank": 432
     },
@@ -124,18 +112,30 @@
     },
     {
       "date": "2026-09-17",
-      "rank": 21
+      "rank": 19
     },
     {
       "date": "2026-09-18",
-      "rank": 12,
-      "price": 60.22,
-      "change_pct": 2.6069
+      "rank": 49
+    },
+    {
+      "date": "2026-09-19",
+      "rank": 61
+    },
+    {
+      "date": "2026-09-20",
+      "rank": 18
+    },
+    {
+      "date": "2026-09-21",
+      "rank": 17,
+      "price": 66.24,
+      "change_pct": 9.9967
     }
   ],
   "continuous_days": 32,
   "monthly_count": 32,
-  "avg_rank": 367.3,
-  "best_rank": 12,
+  "avg_rank": 338.3,
+  "best_rank": 17,
   "trend": "stable"
 }

@@ -3,18 +3,6 @@
   "name": "澳洋健康",
   "history": [
     {
-      "date": "2026-08-18",
-      "rank": 113
-    },
-    {
-      "date": "2026-08-19",
-      "rank": 89
-    },
-    {
-      "date": "2026-08-20",
-      "rank": 158
-    },
-    {
       "date": "2026-08-21",
       "rank": 212
     },
@@ -124,18 +112,30 @@
     },
     {
       "date": "2026-09-17",
-      "rank": 82
+      "rank": 80
     },
     {
       "date": "2026-09-18",
-      "rank": 58,
-      "price": 5.28,
-      "change_pct": 4.9702
+      "rank": 91
+    },
+    {
+      "date": "2026-09-19",
+      "rank": 86
+    },
+    {
+      "date": "2026-09-20",
+      "rank": 72
+    },
+    {
+      "date": "2026-09-21",
+      "rank": 35,
+      "price": 5.81,
+      "change_pct": 10.0379
     }
   ],
   "continuous_days": 32,
   "monthly_count": 32,
-  "avg_rank": 183.4,
-  "best_rank": 55,
+  "avg_rank": 179.2,
+  "best_rank": 35,
   "trend": "stable"
 }

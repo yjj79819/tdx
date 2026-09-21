@@ -1,97 +1,85 @@
 {
-  "code": "000978",
-  "name": "桂林旅游",
+  "code": "603230",
+  "name": "内蒙新华",
   "history": [
     {
-      "date": "2026-09-01",
-      "rank": 1212
-    },
-    {
-      "date": "2026-09-02",
-      "rank": 1207
-    },
-    {
       "date": "2026-09-03",
-      "rank": 1403
+      "rank": 1446
     },
     {
       "date": "2026-09-04",
-      "rank": 1260
+      "rank": 809
     },
     {
       "date": "2026-09-05",
-      "rank": 981
+      "rank": 781
     },
     {
       "date": "2026-09-06",
-      "rank": 347
+      "rank": 1740
     },
     {
       "date": "2026-09-07",
-      "rank": 160
+      "rank": 927
     },
     {
       "date": "2026-09-08",
-      "rank": 52
-    },
-    {
-      "date": "2026-09-09",
-      "rank": 16
+      "rank": 1886
     },
     {
       "date": "2026-09-10",
-      "rank": 8
+      "rank": 1088
     },
     {
       "date": "2026-09-11",
-      "rank": 29
+      "rank": 1014
     },
     {
       "date": "2026-09-12",
-      "rank": 24
+      "rank": 847
     },
     {
       "date": "2026-09-13",
-      "rank": 8
+      "rank": 986
     },
     {
       "date": "2026-09-14",
-      "rank": 12
+      "rank": 1500
     },
     {
       "date": "2026-09-15",
-      "rank": 25
+      "rank": 498
     },
     {
       "date": "2026-09-16",
-      "rank": 11
+      "rank": 136
     },
     {
       "date": "2026-09-17",
-      "rank": 21
+      "rank": 52
     },
     {
       "date": "2026-09-18",
-      "rank": 54
+      "rank": 13
     },
     {
       "date": "2026-09-19",
-      "rank": 74
+      "rank": 10
     },
     {
       "date": "2026-09-20",
-      "rank": 68
+      "rank": 27
     },
     {
       "date": "2026-09-21",
-      "rank": 38,
-      "price": 8.39,
-      "change_pct": 0.3589
+      "rank": 23,
+      "price": 14.83,
+      "change_pct": 10.0148
     }
   ],
-  "continuous_days": 21,
-  "monthly_count": 21,
-  "avg_rank": 333.8,
-  "best_rank": 8,
+  "continuous_days": 18,
+  "monthly_count": 18,
+  "avg_rank": 765.7,
+  "best_rank": 10,
   "trend": "stable"
 }
