@@ -3,10 +3,6 @@
   "name": "瑞康医药",
   "history": [
     {
-      "date": "2026-08-21",
-      "rank": 636
-    },
-    {
       "date": "2026-08-22",
       "rank": 689
     },
@@ -124,18 +120,22 @@
     },
     {
       "date": "2026-09-20",
-      "rank": 155
+      "rank": 144
     },
     {
       "date": "2026-09-21",
-      "rank": 85,
-      "price": 3.6,
-      "change_pct": 10.0917
+      "rank": 99
+    },
+    {
+      "date": "2026-09-22",
+      "rank": 53,
+      "price": 3.59,
+      "change_pct": -0.2778
     }
   ],
   "continuous_days": 32,
   "monthly_count": 32,
-  "avg_rank": 840.2,
-  "best_rank": 85,
+  "avg_rank": 822.1,
+  "best_rank": 53,
   "trend": "stable"
 }
