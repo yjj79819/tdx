@@ -1,0 +1,41 @@
+{
+  "code": "600503",
+  "name": "华丽家族",
+  "history": [
+    {
+      "date": "2026-08-28",
+      "rank": 1652
+    },
+    {
+      "date": "2026-08-29",
+      "rank": 1694
+    },
+    {
+      "date": "2026-08-30",
+      "rank": 1982
+    },
+    {
+      "date": "2026-09-20",
+      "rank": 496
+    },
+    {
+      "date": "2026-09-21",
+      "rank": 315
+    },
+    {
+      "date": "2026-09-22",
+      "rank": 61
+    },
+    {
+      "date": "2026-09-23",
+      "rank": 73,
+      "price": 2.94,
+      "change_pct": 10.1124
+    }
+  ],
+  "continuous_days": 7,
+  "monthly_count": 7,
+  "avg_rank": 896.1,
+  "best_rank": 61,
+  "trend": "stable"
+}
