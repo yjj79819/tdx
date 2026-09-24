@@ -3,10 +3,6 @@
   "name": "一鸣食品",
   "history": [
     {
-      "date": "2026-08-23",
-      "rank": 33
-    },
-    {
       "date": "2026-08-24",
       "rank": 31
     },
@@ -124,18 +120,22 @@
     },
     {
       "date": "2026-09-22",
-      "rank": 59
+      "rank": 62
     },
     {
       "date": "2026-09-23",
-      "rank": 54,
-      "price": 27.09,
-      "change_pct": -9.8202
+      "rank": 105
+    },
+    {
+      "date": "2026-09-24",
+      "rank": 74,
+      "price": 24.38,
+      "change_pct": -10.0037
     }
   ],
   "continuous_days": 32,
   "monthly_count": 32,
-  "avg_rank": 114.0,
+  "avg_rank": 117.0,
   "best_rank": 15,
   "trend": "stable"
 }

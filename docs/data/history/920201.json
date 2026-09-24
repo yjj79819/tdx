@@ -1,17 +1,17 @@
 {
-  "code": "920025",
-  "name": "凯达重工",
+  "code": "920201",
+  "name": "百瑞吉",
   "history": [
     {
       "date": "2026-09-24",
-      "rank": 90,
+      "rank": 68,
       "price": 0,
-      "change_pct": -30.0
+      "change_pct": 331.4252
     }
   ],
   "continuous_days": 1,
   "monthly_count": 1,
-  "avg_rank": 90.0,
-  "best_rank": 90,
+  "avg_rank": 68.0,
+  "best_rank": 68,
   "trend": "stable"
 }

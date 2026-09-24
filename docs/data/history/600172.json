@@ -3,10 +3,6 @@
   "name": "黄河旋风",
   "history": [
     {
-      "date": "2026-08-23",
-      "rank": 82
-    },
-    {
       "date": "2026-08-24",
       "rank": 24
     },
@@ -124,18 +120,22 @@
     },
     {
       "date": "2026-09-22",
-      "rank": 22
+      "rank": 23
     },
     {
       "date": "2026-09-23",
-      "rank": 21,
-      "price": 16.74,
-      "change_pct": 4.2341
+      "rank": 15
+    },
+    {
+      "date": "2026-09-24",
+      "rank": 15,
+      "price": 16.89,
+      "change_pct": 0.8961
     }
   ],
   "continuous_days": 32,
   "monthly_count": 32,
-  "avg_rank": 40.2,
+  "avg_rank": 37.9,
   "best_rank": 3,
   "trend": "stable"
 }

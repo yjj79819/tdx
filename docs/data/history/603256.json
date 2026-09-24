@@ -3,14 +3,6 @@
   "name": "宏和科技",
   "history": [
     {
-      "date": "2026-08-22",
-      "rank": 218
-    },
-    {
-      "date": "2026-08-23",
-      "rank": 376
-    },
-    {
       "date": "2026-08-24",
       "rank": 418
     },
@@ -124,18 +116,26 @@
     },
     {
       "date": "2026-09-21",
-      "rank": 52
+      "rank": 50
     },
     {
       "date": "2026-09-22",
-      "rank": 19,
-      "price": 159.22,
-      "change_pct": 6.9165
+      "rank": 120
+    },
+    {
+      "date": "2026-09-23",
+      "rank": 129
+    },
+    {
+      "date": "2026-09-24",
+      "rank": 79,
+      "price": 152.0,
+      "change_pct": -3.0612
     }
   ],
   "continuous_days": 32,
   "monthly_count": 32,
-  "avg_rank": 243.9,
-  "best_rank": 19,
+  "avg_rank": 234.9,
+  "best_rank": 45,
   "trend": "stable"
 }

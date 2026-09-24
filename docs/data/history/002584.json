@@ -3,18 +3,6 @@
   "name": "西陇科学",
   "history": [
     {
-      "date": "2026-08-21",
-      "rank": 1842
-    },
-    {
-      "date": "2026-08-22",
-      "rank": 1725
-    },
-    {
-      "date": "2026-08-23",
-      "rank": 1470
-    },
-    {
       "date": "2026-08-24",
       "rank": 1632
     },
@@ -124,18 +112,30 @@
     },
     {
       "date": "2026-09-20",
-      "rank": 70
+      "rank": 73
     },
     {
       "date": "2026-09-21",
-      "rank": 48,
-      "price": 9.76,
-      "change_pct": 0.1026
+      "rank": 127
+    },
+    {
+      "date": "2026-09-22",
+      "rank": 200
+    },
+    {
+      "date": "2026-09-23",
+      "rank": 172
+    },
+    {
+      "date": "2026-09-24",
+      "rank": 72,
+      "price": 8.79,
+      "change_pct": -2.5499
     }
   ],
   "continuous_days": 32,
   "monthly_count": 32,
-  "avg_rank": 1172.5,
+  "avg_rank": 1031.5,
   "best_rank": 13,
   "trend": "stable"
 }
