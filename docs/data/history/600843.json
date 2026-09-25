@@ -1,0 +1,29 @@
+{
+  "code": "600843",
+  "name": "上工申贝",
+  "history": [
+    {
+      "date": "2026-09-22",
+      "rank": 323
+    },
+    {
+      "date": "2026-09-23",
+      "rank": 126
+    },
+    {
+      "date": "2026-09-24",
+      "rank": 56
+    },
+    {
+      "date": "2026-09-25",
+      "rank": 72,
+      "price": 8.37,
+      "change_pct": 9.9869
+    }
+  ],
+  "continuous_days": 4,
+  "monthly_count": 4,
+  "avg_rank": 144.2,
+  "best_rank": 56,
+  "trend": "stable"
+}

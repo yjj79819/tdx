@@ -3,10 +3,6 @@
   "name": "我爱我家",
   "history": [
     {
-      "date": "2026-08-24",
-      "rank": 208
-    },
-    {
       "date": "2026-08-25",
       "rank": 373
     },
@@ -128,14 +124,18 @@
     },
     {
       "date": "2026-09-24",
-      "rank": 7,
+      "rank": 32
+    },
+    {
+      "date": "2026-09-25",
+      "rank": 39,
       "price": 3.66,
       "change_pct": -5.1813
     }
   ],
   "continuous_days": 32,
   "monthly_count": 32,
-  "avg_rank": 121.6,
+  "avg_rank": 117.1,
   "best_rank": 1,
   "trend": "stable"
 }

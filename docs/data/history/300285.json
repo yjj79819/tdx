@@ -3,10 +3,6 @@
   "name": "国瓷材料",
   "history": [
     {
-      "date": "2026-08-24",
-      "rank": 80
-    },
-    {
       "date": "2026-08-25",
       "rank": 66
     },
@@ -128,14 +124,18 @@
     },
     {
       "date": "2026-09-24",
-      "rank": 13,
+      "rank": 42
+    },
+    {
+      "date": "2026-09-25",
+      "rank": 71,
       "price": 70.0,
       "change_pct": 1.4493
     }
   ],
   "continuous_days": 32,
   "monthly_count": 32,
-  "avg_rank": 88.8,
+  "avg_rank": 89.5,
   "best_rank": 9,
   "trend": "stable"
 }
