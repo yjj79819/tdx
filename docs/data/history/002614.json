@@ -3,14 +3,6 @@
   "name": "奥佳华",
   "history": [
     {
-      "date": "2026-08-25",
-      "rank": 1081
-    },
-    {
-      "date": "2026-08-26",
-      "rank": 1638
-    },
-    {
       "date": "2026-09-20",
       "rank": 592
     },
@@ -28,18 +20,30 @@
     },
     {
       "date": "2026-09-24",
-      "rank": 18
+      "rank": 15
     },
     {
       "date": "2026-09-25",
-      "rank": 11,
-      "price": 8.33,
-      "change_pct": 10.0396
+      "rank": 9
+    },
+    {
+      "date": "2026-09-26",
+      "rank": 4
+    },
+    {
+      "date": "2026-09-27",
+      "rank": 24
+    },
+    {
+      "date": "2026-09-28",
+      "rank": 39,
+      "price": 8.5,
+      "change_pct": 2.0408
     }
   ],
-  "continuous_days": 8,
-  "monthly_count": 8,
-  "avg_rank": 478.5,
-  "best_rank": 11,
+  "continuous_days": 9,
+  "monthly_count": 9,
+  "avg_rank": 130.1,
+  "best_rank": 4,
   "trend": "stable"
 }

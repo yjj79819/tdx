@@ -36,14 +36,30 @@
     },
     {
       "date": "2026-09-24",
-      "rank": 24,
-      "price": 258.08,
-      "change_pct": -8.9665
+      "rank": 80
+    },
+    {
+      "date": "2026-09-25",
+      "rank": 125
+    },
+    {
+      "date": "2026-09-26",
+      "rank": 140
+    },
+    {
+      "date": "2026-09-27",
+      "rank": 59
+    },
+    {
+      "date": "2026-09-28",
+      "rank": 94,
+      "price": 231.67,
+      "change_pct": -10.2333
     }
   ],
-  "continuous_days": 9,
-  "monthly_count": 9,
-  "avg_rank": 653.6,
+  "continuous_days": 13,
+  "monthly_count": 13,
+  "avg_rank": 488.9,
   "best_rank": 2,
   "trend": "stable"
 }

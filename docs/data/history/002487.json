@@ -3,18 +3,6 @@
   "name": "大金重工",
   "history": [
     {
-      "date": "2026-08-25",
-      "rank": 858
-    },
-    {
-      "date": "2026-08-26",
-      "rank": 919
-    },
-    {
-      "date": "2026-08-27",
-      "rank": 987
-    },
-    {
       "date": "2026-08-28",
       "rank": 1014
     },
@@ -124,18 +112,30 @@
     },
     {
       "date": "2026-09-24",
-      "rank": 47
+      "rank": 38
     },
     {
       "date": "2026-09-25",
-      "rank": 28,
-      "price": 39.77,
-      "change_pct": 4.9617
+      "rank": 38
+    },
+    {
+      "date": "2026-09-26",
+      "rank": 31
+    },
+    {
+      "date": "2026-09-27",
+      "rank": 42
+    },
+    {
+      "date": "2026-09-28",
+      "rank": 57,
+      "price": 41.38,
+      "change_pct": 4.0483
     }
   ],
   "continuous_days": 32,
   "monthly_count": 32,
-  "avg_rank": 537.1,
+  "avg_rank": 454.8,
   "best_rank": 27,
   "trend": "stable"
 }

@@ -3,18 +3,6 @@
   "name": "三羊马",
   "history": [
     {
-      "date": "2026-08-25",
-      "rank": 610
-    },
-    {
-      "date": "2026-08-26",
-      "rank": 922
-    },
-    {
-      "date": "2026-08-27",
-      "rank": 1066
-    },
-    {
       "date": "2026-08-28",
       "rank": 878
     },
@@ -124,18 +112,30 @@
     },
     {
       "date": "2026-09-24",
-      "rank": 37
+      "rank": 42
     },
     {
       "date": "2026-09-25",
-      "rank": 37,
-      "price": 65.3,
-      "change_pct": 10.0067
+      "rank": 40
+    },
+    {
+      "date": "2026-09-26",
+      "rank": 36
+    },
+    {
+      "date": "2026-09-27",
+      "rank": 61
+    },
+    {
+      "date": "2026-09-28",
+      "rank": 42,
+      "price": 64.3,
+      "change_pct": -1.5314
     }
   ],
   "continuous_days": 32,
   "monthly_count": 32,
-  "avg_rank": 657.4,
-  "best_rank": 37,
+  "avg_rank": 580.8,
+  "best_rank": 36,
   "trend": "stable"
 }

@@ -3,10 +3,6 @@
   "name": "吉鑫科技",
   "history": [
     {
-      "date": "2026-08-25",
-      "rank": 1943
-    },
-    {
       "date": "2026-09-09",
       "rank": 1578
     },
@@ -68,18 +64,30 @@
     },
     {
       "date": "2026-09-24",
-      "rank": 52
+      "rank": 49
     },
     {
       "date": "2026-09-25",
-      "rank": 57,
-      "price": 5.5,
+      "rank": 47
+    },
+    {
+      "date": "2026-09-26",
+      "rank": 35
+    },
+    {
+      "date": "2026-09-27",
+      "rank": 41
+    },
+    {
+      "date": "2026-09-28",
+      "rank": 66,
+      "price": 6.05,
       "change_pct": 10.0
     }
   ],
-  "continuous_days": 18,
-  "monthly_count": 18,
-  "avg_rank": 450.0,
-  "best_rank": 43,
+  "continuous_days": 20,
+  "monthly_count": 20,
+  "avg_rank": 314.3,
+  "best_rank": 35,
   "trend": "stable"
 }
