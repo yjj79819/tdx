@@ -3,10 +3,6 @@
   "name": "电科思仪",
   "history": [
     {
-      "date": "2026-08-28",
-      "rank": 1859
-    },
-    {
       "date": "2026-08-29",
       "rank": 982
     },
@@ -84,18 +80,34 @@
     },
     {
       "date": "2026-09-24",
-      "rank": 16
+      "rank": 17
     },
     {
       "date": "2026-09-25",
-      "rank": 34,
-      "price": 83.88,
-      "change_pct": 20.0
+      "rank": 17
+    },
+    {
+      "date": "2026-09-26",
+      "rank": 17
+    },
+    {
+      "date": "2026-09-27",
+      "rank": 29
+    },
+    {
+      "date": "2026-09-28",
+      "rank": 59
+    },
+    {
+      "date": "2026-09-29",
+      "rank": 98,
+      "price": 77.51,
+      "change_pct": -8.9189
     }
   ],
-  "continuous_days": 22,
-  "monthly_count": 22,
-  "avg_rank": 447.7,
+  "continuous_days": 25,
+  "monthly_count": 25,
+  "avg_rank": 327.1,
   "best_rank": 14,
   "trend": "stable"
 }

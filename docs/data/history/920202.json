@@ -1,0 +1,17 @@
+{
+  "code": "920202",
+  "name": "安达股份",
+  "history": [
+    {
+      "date": "2026-09-29",
+      "rank": 42,
+      "price": 0,
+      "change_pct": 246.4901
+    }
+  ],
+  "continuous_days": 1,
+  "monthly_count": 1,
+  "avg_rank": 42.0,
+  "best_rank": 42,
+  "trend": "stable"
+}

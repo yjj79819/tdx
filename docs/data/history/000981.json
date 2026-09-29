@@ -3,10 +3,6 @@
   "name": "山子高科",
   "history": [
     {
-      "date": "2026-08-28",
-      "rank": 499
-    },
-    {
       "date": "2026-08-29",
       "rank": 528
     },
@@ -128,14 +124,18 @@
     },
     {
       "date": "2026-09-28",
-      "rank": 60,
-      "price": 2.69,
-      "change_pct": -1.8248
+      "rank": 71
+    },
+    {
+      "date": "2026-09-29",
+      "rank": 86,
+      "price": 2.76,
+      "change_pct": 2.6022
     }
   ],
   "continuous_days": 32,
   "monthly_count": 32,
-  "avg_rank": 224.4,
+  "avg_rank": 211.8,
   "best_rank": 2,
   "trend": "stable"
 }

@@ -1,141 +1,133 @@
 {
-  "code": "688836",
-  "name": "宇树科技",
+  "code": "000011",
+  "name": "深物业A",
   "history": [
     {
       "date": "2026-08-29",
-      "rank": 8
+      "rank": 51
     },
     {
       "date": "2026-08-30",
-      "rank": 1
+      "rank": 153
     },
     {
       "date": "2026-08-31",
-      "rank": 1
+      "rank": 212
     },
     {
       "date": "2026-09-01",
-      "rank": 2
+      "rank": 464
     },
     {
       "date": "2026-09-02",
-      "rank": 5
+      "rank": 775
     },
     {
       "date": "2026-09-03",
-      "rank": 4
+      "rank": 989
     },
     {
       "date": "2026-09-04",
-      "rank": 2
+      "rank": 734
     },
     {
       "date": "2026-09-05",
-      "rank": 10
+      "rank": 784
     },
     {
       "date": "2026-09-06",
-      "rank": 7
+      "rank": 1332
     },
     {
       "date": "2026-09-07",
-      "rank": 10
+      "rank": 391
     },
     {
       "date": "2026-09-08",
-      "rank": 8
+      "rank": 799
     },
     {
       "date": "2026-09-09",
-      "rank": 5
+      "rank": 1185
     },
     {
       "date": "2026-09-10",
-      "rank": 4
+      "rank": 1651
     },
     {
       "date": "2026-09-11",
-      "rank": 2
+      "rank": 1061
     },
     {
       "date": "2026-09-12",
-      "rank": 10
+      "rank": 1004
     },
     {
       "date": "2026-09-13",
-      "rank": 7
+      "rank": 1749
     },
     {
       "date": "2026-09-14",
-      "rank": 8
-    },
-    {
-      "date": "2026-09-15",
-      "rank": 15
+      "rank": 1556
     },
     {
       "date": "2026-09-16",
-      "rank": 4
+      "rank": 990
     },
     {
       "date": "2026-09-17",
-      "rank": 9
+      "rank": 1619
     },
     {
       "date": "2026-09-18",
-      "rank": 5
+      "rank": 1385
     },
     {
       "date": "2026-09-19",
-      "rank": 12
+      "rank": 1478
     },
     {
       "date": "2026-09-20",
-      "rank": 11
+      "rank": 1325
     },
     {
       "date": "2026-09-21",
-      "rank": 23
+      "rank": 1985
     },
     {
       "date": "2026-09-22",
-      "rank": 31
-    },
-    {
-      "date": "2026-09-23",
-      "rank": 22
+      "rank": 1642
     },
     {
       "date": "2026-09-24",
-      "rank": 16
+      "rank": 1723
     },
     {
       "date": "2026-09-25",
-      "rank": 18
+      "rank": 1389
     },
     {
       "date": "2026-09-26",
-      "rank": 40
+      "rank": 1527
     },
     {
       "date": "2026-09-27",
-      "rank": 10
+      "rank": 209
     },
     {
       "date": "2026-09-28",
-      "rank": 22
+      "rank": 84
     },
     {
       "date": "2026-09-29",
-      "rank": 57,
-      "price": 451.02,
-      "change_pct": -1.8775
+      "rank": 83,
+      "price": 11.13,
+      "change_pct": 9.9802
     }
   ],
-  "continuous_days": 32,
-  "monthly_count": 32,
-  "avg_rank": 12.2,
-  "best_rank": 1,
+  "continuous_days": 30,
+  "monthly_count": 30,
+  "avg_rank": 1011.0,
+  "best_rank": 51,
   "trend": "stable"
 }

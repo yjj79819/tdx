@@ -3,10 +3,6 @@
   "name": "雷科防务",
   "history": [
     {
-      "date": "2026-08-28",
-      "rank": 859
-    },
-    {
       "date": "2026-08-29",
       "rank": 918
     },
@@ -124,18 +120,22 @@
     },
     {
       "date": "2026-09-27",
-      "rank": 25
+      "rank": 27
     },
     {
       "date": "2026-09-28",
-      "rank": 18,
-      "price": 9.18,
-      "change_pct": 2.3411
+      "rank": 96
+    },
+    {
+      "date": "2026-09-29",
+      "rank": 95,
+      "price": 8.78,
+      "change_pct": -4.3573
     }
   ],
   "continuous_days": 32,
   "monthly_count": 32,
-  "avg_rank": 606.0,
+  "avg_rank": 584.7,
   "best_rank": 5,
   "trend": "stable"
 }
