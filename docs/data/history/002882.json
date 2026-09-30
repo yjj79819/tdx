@@ -3,10 +3,6 @@
   "name": "金龙羽",
   "history": [
     {
-      "date": "2026-08-29",
-      "rank": 956
-    },
-    {
       "date": "2026-08-30",
       "rank": 1280
     },
@@ -124,18 +120,22 @@
     },
     {
       "date": "2026-09-28",
-      "rank": 114
+      "rank": 104
     },
     {
       "date": "2026-09-29",
-      "rank": 69,
-      "price": 24.51,
-      "change_pct": 10.009
+      "rank": 87
+    },
+    {
+      "date": "2026-09-30",
+      "rank": 58,
+      "price": 24.98,
+      "change_pct": 1.9176
     }
   ],
   "continuous_days": 32,
   "monthly_count": 32,
-  "avg_rank": 703.2,
-  "best_rank": 69,
+  "avg_rank": 675.4,
+  "best_rank": 58,
   "trend": "stable"
 }

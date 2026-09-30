@@ -1,73 +1,69 @@
 {
-  "code": "000504",
-  "name": "南华生物",
+  "code": "001246",
+  "name": "力勤资源",
   "history": [
     {
-      "date": "2026-09-16",
-      "rank": 511
-    },
-    {
       "date": "2026-09-17",
-      "rank": 237
+      "rank": 717
     },
     {
       "date": "2026-09-18",
-      "rank": 76
+      "rank": 195
     },
     {
       "date": "2026-09-19",
-      "rank": 57
+      "rank": 186
     },
     {
       "date": "2026-09-20",
-      "rank": 118
+      "rank": 545
     },
     {
       "date": "2026-09-21",
-      "rank": 88
+      "rank": 381
     },
     {
       "date": "2026-09-22",
-      "rank": 42
+      "rank": 700
     },
     {
       "date": "2026-09-23",
-      "rank": 21
+      "rank": 889
     },
     {
       "date": "2026-09-24",
-      "rank": 34
+      "rank": 210
     },
     {
       "date": "2026-09-25",
-      "rank": 29
+      "rank": 159
     },
     {
       "date": "2026-09-26",
-      "rank": 28
+      "rank": 126
     },
     {
       "date": "2026-09-27",
-      "rank": 137
+      "rank": 696
     },
     {
       "date": "2026-09-28",
-      "rank": 125
+      "rank": 327
     },
     {
       "date": "2026-09-29",
-      "rank": 80
+      "rank": 2
     },
     {
       "date": "2026-09-30",
-      "rank": 29,
-      "price": 12.42,
-      "change_pct": 10.0089
+      "rank": 1,
+      "price": 65.09,
+      "change_pct": 206.5944
     }
   ],
-  "continuous_days": 15,
-  "monthly_count": 15,
-  "avg_rank": 107.5,
-  "best_rank": 21,
+  "continuous_days": 14,
+  "monthly_count": 14,
+  "avg_rank": 366.7,
+  "best_rank": 1,
   "trend": "stable"
 }

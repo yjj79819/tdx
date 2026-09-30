@@ -3,10 +3,6 @@
   "name": "彩虹股份",
   "history": [
     {
-      "date": "2026-08-29",
-      "rank": 419
-    },
-    {
       "date": "2026-08-30",
       "rank": 430
     },
@@ -124,18 +120,22 @@
     },
     {
       "date": "2026-09-28",
-      "rank": 35
+      "rank": 37
     },
     {
       "date": "2026-09-29",
-      "rank": 28,
-      "price": 9.57,
-      "change_pct": -7.8035
+      "rank": 26
+    },
+    {
+      "date": "2026-09-30",
+      "rank": 12,
+      "price": 10.08,
+      "change_pct": 5.3292
     }
   ],
   "continuous_days": 32,
   "monthly_count": 32,
-  "avg_rank": 315.5,
-  "best_rank": 13,
+  "avg_rank": 302.8,
+  "best_rank": 12,
   "trend": "stable"
 }

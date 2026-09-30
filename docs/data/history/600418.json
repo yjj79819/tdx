@@ -3,10 +3,6 @@
   "name": "江淮汽车",
   "history": [
     {
-      "date": "2026-08-29",
-      "rank": 559
-    },
-    {
       "date": "2026-08-30",
       "rank": 488
     },
@@ -128,14 +124,18 @@
     },
     {
       "date": "2026-09-29",
-      "rank": 17,
-      "price": 26.04,
-      "change_pct": 3.2514
+      "rank": 4
+    },
+    {
+      "date": "2026-09-30",
+      "rank": 3,
+      "price": 27.47,
+      "change_pct": 5.4916
     }
   ],
   "continuous_days": 32,
   "monthly_count": 32,
-  "avg_rank": 305.2,
-  "best_rank": 5,
+  "avg_rank": 287.5,
+  "best_rank": 3,
   "trend": "stable"
 }

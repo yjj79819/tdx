@@ -1,113 +1,93 @@
 {
-  "code": "600825",
-  "name": "新华传媒",
+  "code": "605366",
+  "name": "宏柏新材",
   "history": [
     {
-      "date": "2026-09-06",
-      "rank": 565
-    },
-    {
-      "date": "2026-09-07",
-      "rank": 460
-    },
-    {
       "date": "2026-09-08",
-      "rank": 1119
-    },
-    {
-      "date": "2026-09-09",
-      "rank": 1523
-    },
-    {
-      "date": "2026-09-10",
-      "rank": 1392
+      "rank": 1455
     },
     {
       "date": "2026-09-11",
-      "rank": 637
+      "rank": 1417
     },
     {
       "date": "2026-09-12",
-      "rank": 511
+      "rank": 1329
     },
     {
       "date": "2026-09-13",
-      "rank": 1256
+      "rank": 1911
     },
     {
       "date": "2026-09-14",
-      "rank": 1271
+      "rank": 1926
     },
     {
       "date": "2026-09-15",
-      "rank": 1211
+      "rank": 1006
     },
     {
       "date": "2026-09-16",
-      "rank": 720
+      "rank": 1412
     },
     {
       "date": "2026-09-17",
-      "rank": 299
+      "rank": 1845
     },
     {
       "date": "2026-09-18",
-      "rank": 3
+      "rank": 1669
     },
     {
       "date": "2026-09-19",
-      "rank": 3
-    },
-    {
-      "date": "2026-09-20",
-      "rank": 5
+      "rank": 1777
     },
     {
       "date": "2026-09-21",
-      "rank": 8
+      "rank": 1399
     },
     {
       "date": "2026-09-22",
-      "rank": 15
+      "rank": 996
     },
     {
       "date": "2026-09-23",
-      "rank": 7
+      "rank": 455
     },
     {
       "date": "2026-09-24",
-      "rank": 7
+      "rank": 231
     },
     {
       "date": "2026-09-25",
-      "rank": 8
+      "rank": 95
     },
     {
       "date": "2026-09-26",
-      "rank": 7
+      "rank": 109
     },
     {
       "date": "2026-09-27",
-      "rank": 4
+      "rank": 118
     },
     {
       "date": "2026-09-28",
-      "rank": 4
+      "rank": 171
     },
     {
       "date": "2026-09-29",
-      "rank": 6
+      "rank": 130
     },
     {
       "date": "2026-09-30",
-      "rank": 10,
-      "price": 10.35,
-      "change_pct": 9.9894
+      "rank": 96,
+      "price": 10.41,
+      "change_pct": 6.7692
     }
   ],
-  "continuous_days": 25,
-  "monthly_count": 25,
-  "avg_rank": 442.0,
-  "best_rank": 3,
+  "continuous_days": 20,
+  "monthly_count": 20,
+  "avg_rank": 977.4,
+  "best_rank": 95,
   "trend": "stable"
 }

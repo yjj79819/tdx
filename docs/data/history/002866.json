@@ -1,0 +1,33 @@
+{
+  "code": "002866",
+  "name": "传艺科技",
+  "history": [
+    {
+      "date": "2026-09-13",
+      "rank": 1481
+    },
+    {
+      "date": "2026-09-14",
+      "rank": 1915
+    },
+    {
+      "date": "2026-09-28",
+      "rank": 255
+    },
+    {
+      "date": "2026-09-29",
+      "rank": 78
+    },
+    {
+      "date": "2026-09-30",
+      "rank": 52,
+      "price": 16.9,
+      "change_pct": 10.026
+    }
+  ],
+  "continuous_days": 5,
+  "monthly_count": 5,
+  "avg_rank": 756.2,
+  "best_rank": 52,
+  "trend": "stable"
+}

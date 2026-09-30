@@ -3,10 +3,6 @@
   "name": "巨力索具",
   "history": [
     {
-      "date": "2026-08-29",
-      "rank": 983
-    },
-    {
       "date": "2026-08-30",
       "rank": 828
     },
@@ -124,18 +120,22 @@
     },
     {
       "date": "2026-09-28",
-      "rank": 63
+      "rank": 71
     },
     {
       "date": "2026-09-29",
-      "rank": 71,
-      "price": 8.45,
-      "change_pct": -2.6498
+      "rank": 133
+    },
+    {
+      "date": "2026-09-30",
+      "rank": 73,
+      "price": 8.25,
+      "change_pct": -2.3669
     }
   ],
   "continuous_days": 32,
   "monthly_count": 32,
-  "avg_rank": 559.3,
+  "avg_rank": 533.1,
   "best_rank": 31,
   "trend": "stable"
 }
