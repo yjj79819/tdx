@@ -1,0 +1,33 @@
+{
+  "code": "600241",
+  "name": "时代万恒",
+  "history": [
+    {
+      "date": "2026-09-27",
+      "rank": 593
+    },
+    {
+      "date": "2026-09-28",
+      "rank": 162
+    },
+    {
+      "date": "2026-09-29",
+      "rank": 111
+    },
+    {
+      "date": "2026-09-30",
+      "rank": 42
+    },
+    {
+      "date": "2026-10-01",
+      "rank": 37,
+      "price": 9.72,
+      "change_pct": 9.9548
+    }
+  ],
+  "continuous_days": 5,
+  "monthly_count": 5,
+  "avg_rank": 189.0,
+  "best_rank": 37,
+  "trend": "stable"
+}

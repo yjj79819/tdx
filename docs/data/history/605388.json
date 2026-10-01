@@ -3,23 +3,39 @@
   "name": "均瑶健康",
   "history": [
     {
-      "date": "2026-07-28",
-      "rank": 403
+      "date": "2026-09-05",
+      "rank": 1937
     },
     {
-      "date": "2026-07-29",
-      "rank": 198
+      "date": "2026-09-06",
+      "rank": 1570
     },
     {
-      "date": "2026-07-30",
-      "rank": 77,
-      "price": 6.12,
-      "change_pct": 10.07
+      "date": "2026-09-21",
+      "rank": 1364
+    },
+    {
+      "date": "2026-09-28",
+      "rank": 615
+    },
+    {
+      "date": "2026-09-29",
+      "rank": 203
+    },
+    {
+      "date": "2026-09-30",
+      "rank": 77
+    },
+    {
+      "date": "2026-10-01",
+      "rank": 76,
+      "price": 7.39,
+      "change_pct": 9.9702
     }
   ],
-  "continuous_days": 3,
-  "monthly_count": 3,
-  "avg_rank": 226.0,
-  "best_rank": 77,
+  "continuous_days": 7,
+  "monthly_count": 7,
+  "avg_rank": 834.6,
+  "best_rank": 76,
   "trend": "stable"
 }

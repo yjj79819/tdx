@@ -3,10 +3,6 @@
   "name": "近岸蛋白",
   "history": [
     {
-      "date": "2026-08-30",
-      "rank": 777
-    },
-    {
       "date": "2026-08-31",
       "rank": 588
     },
@@ -124,18 +120,22 @@
     },
     {
       "date": "2026-09-29",
-      "rank": 22
+      "rank": 20
     },
     {
       "date": "2026-09-30",
-      "rank": 50,
+      "rank": 14
+    },
+    {
+      "date": "2026-10-01",
+      "rank": 25,
       "price": 160.39,
       "change_pct": 13.4701
     }
   ],
   "continuous_days": 32,
   "monthly_count": 32,
-  "avg_rank": 496.7,
-  "best_rank": 22,
+  "avg_rank": 472.0,
+  "best_rank": 14,
   "trend": "stable"
 }

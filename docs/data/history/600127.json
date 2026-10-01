@@ -3,10 +3,6 @@
   "name": "金健米业",
   "history": [
     {
-      "date": "2026-08-30",
-      "rank": 3
-    },
-    {
       "date": "2026-08-31",
       "rank": 2
     },
@@ -124,18 +120,22 @@
     },
     {
       "date": "2026-09-29",
-      "rank": 8
+      "rank": 9
     },
     {
       "date": "2026-09-30",
-      "rank": 7,
+      "rank": 12
+    },
+    {
+      "date": "2026-10-01",
+      "rank": 11,
       "price": 13.14,
       "change_pct": -1.6467
     }
   ],
   "continuous_days": 32,
   "monthly_count": 32,
-  "avg_rank": 6.0,
+  "avg_rank": 6.4,
   "best_rank": 1,
   "trend": "stable"
 }

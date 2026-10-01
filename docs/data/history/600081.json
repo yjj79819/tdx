@@ -1,0 +1,41 @@
+{
+  "code": "600081",
+  "name": "东风科技",
+  "history": [
+    {
+      "date": "2026-09-24",
+      "rank": 1328
+    },
+    {
+      "date": "2026-09-25",
+      "rank": 1214
+    },
+    {
+      "date": "2026-09-26",
+      "rank": 1258
+    },
+    {
+      "date": "2026-09-28",
+      "rank": 1905
+    },
+    {
+      "date": "2026-09-29",
+      "rank": 379
+    },
+    {
+      "date": "2026-09-30",
+      "rank": 121
+    },
+    {
+      "date": "2026-10-01",
+      "rank": 95,
+      "price": 11.89,
+      "change_pct": 9.9907
+    }
+  ],
+  "continuous_days": 7,
+  "monthly_count": 7,
+  "avg_rank": 900.0,
+  "best_rank": 95,
+  "trend": "stable"
+}

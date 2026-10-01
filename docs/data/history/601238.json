@@ -3,10 +3,6 @@
   "name": "广汽集团",
   "history": [
     {
-      "date": "2026-08-30",
-      "rank": 1530
-    },
-    {
       "date": "2026-08-31",
       "rank": 1806
     },
@@ -108,18 +104,22 @@
     },
     {
       "date": "2026-09-29",
-      "rank": 50
+      "rank": 53
     },
     {
       "date": "2026-09-30",
-      "rank": 32,
+      "rank": 72
+    },
+    {
+      "date": "2026-10-01",
+      "rank": 73,
       "price": 5.84,
       "change_pct": 4.2857
     }
   ],
   "continuous_days": 28,
   "monthly_count": 28,
-  "avg_rank": 1041.1,
-  "best_rank": 32,
+  "avg_rank": 990.6,
+  "best_rank": 53,
   "trend": "stable"
 }

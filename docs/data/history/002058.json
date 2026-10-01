@@ -1,0 +1,29 @@
+{
+  "code": "002058",
+  "name": "紫竹高科",
+  "history": [
+    {
+      "date": "2026-09-28",
+      "rank": 531
+    },
+    {
+      "date": "2026-09-29",
+      "rank": 212
+    },
+    {
+      "date": "2026-09-30",
+      "rank": 54
+    },
+    {
+      "date": "2026-10-01",
+      "rank": 45,
+      "price": 20.2,
+      "change_pct": 10.0218
+    }
+  ],
+  "continuous_days": 4,
+  "monthly_count": 4,
+  "avg_rank": 210.5,
+  "best_rank": 45,
+  "trend": "stable"
+}

@@ -3,10 +3,6 @@
   "name": "均胜电子",
   "history": [
     {
-      "date": "2026-08-30",
-      "rank": 906
-    },
-    {
       "date": "2026-08-31",
       "rank": 553
     },
@@ -124,18 +120,22 @@
     },
     {
       "date": "2026-09-29",
-      "rank": 52
+      "rank": 50
     },
     {
       "date": "2026-09-30",
-      "rank": 31,
+      "rank": 52
+    },
+    {
+      "date": "2026-10-01",
+      "rank": 46,
       "price": 23.46,
       "change_pct": 3.1209
     }
   ],
   "continuous_days": 32,
   "monthly_count": 32,
-  "avg_rank": 408.3,
+  "avg_rank": 382.1,
   "best_rank": 1,
   "trend": "stable"
 }

@@ -1,0 +1,41 @@
+{
+  "code": "603188",
+  "name": "亚邦股份",
+  "history": [
+    {
+      "date": "2026-08-31",
+      "rank": 1453
+    },
+    {
+      "date": "2026-09-12",
+      "rank": 1083
+    },
+    {
+      "date": "2026-09-13",
+      "rank": 1840
+    },
+    {
+      "date": "2026-09-28",
+      "rank": 652
+    },
+    {
+      "date": "2026-09-29",
+      "rank": 299
+    },
+    {
+      "date": "2026-09-30",
+      "rank": 85
+    },
+    {
+      "date": "2026-10-01",
+      "rank": 81,
+      "price": 5.4,
+      "change_pct": 9.9796
+    }
+  ],
+  "continuous_days": 7,
+  "monthly_count": 7,
+  "avg_rank": 784.7,
+  "best_rank": 81,
+  "trend": "stable"
+}

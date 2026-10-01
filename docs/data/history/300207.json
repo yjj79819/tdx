@@ -3,10 +3,6 @@
   "name": "欣旺达",
   "history": [
     {
-      "date": "2026-08-30",
-      "rank": 597
-    },
-    {
       "date": "2026-08-31",
       "rank": 780
     },
@@ -128,14 +124,18 @@
     },
     {
       "date": "2026-09-30",
-      "rank": 46,
+      "rank": 36
+    },
+    {
+      "date": "2026-10-01",
+      "rank": 42,
       "price": 22.0,
       "change_pct": 2.3256
     }
   ],
   "continuous_days": 32,
   "monthly_count": 32,
-  "avg_rank": 237.8,
+  "avg_rank": 220.1,
   "best_rank": 12,
   "trend": "stable"
 }

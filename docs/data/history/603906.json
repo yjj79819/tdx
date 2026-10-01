@@ -3,10 +3,6 @@
   "name": "龙蟠科技",
   "history": [
     {
-      "date": "2026-08-30",
-      "rank": 972
-    },
-    {
       "date": "2026-08-31",
       "rank": 944
     },
@@ -124,18 +120,22 @@
     },
     {
       "date": "2026-09-29",
-      "rank": 143
+      "rank": 136
     },
     {
       "date": "2026-09-30",
-      "rank": 90,
+      "rank": 62
+    },
+    {
+      "date": "2026-10-01",
+      "rank": 56,
       "price": 19.04,
       "change_pct": 9.9942
     }
   ],
   "continuous_days": 32,
   "monthly_count": 32,
-  "avg_rank": 963.4,
-  "best_rank": 90,
+  "avg_rank": 933.7,
+  "best_rank": 56,
   "trend": "stable"
 }
