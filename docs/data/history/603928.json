@@ -3,10 +3,6 @@
   "name": "兴业股份",
   "history": [
     {
-      "date": "2026-08-31",
-      "rank": 1965
-    },
-    {
       "date": "2026-09-04",
       "rank": 1153
     },
@@ -88,18 +84,22 @@
     },
     {
       "date": "2026-09-30",
-      "rank": 102
+      "rank": 98
     },
     {
       "date": "2026-10-01",
-      "rank": 94,
+      "rank": 115
+    },
+    {
+      "date": "2026-10-02",
+      "rank": 97,
       "price": 13.07,
       "change_pct": 10.0168
     }
   ],
   "continuous_days": 23,
   "monthly_count": 23,
-  "avg_rank": 1300.9,
-  "best_rank": 94,
+  "avg_rank": 1220.4,
+  "best_rank": 97,
   "trend": "stable"
 }

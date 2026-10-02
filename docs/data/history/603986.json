@@ -3,10 +3,6 @@
   "name": "兆易创新",
   "history": [
     {
-      "date": "2026-08-31",
-      "rank": 41
-    },
-    {
       "date": "2026-09-01",
       "rank": 47
     },
@@ -128,14 +124,18 @@
     },
     {
       "date": "2026-10-01",
-      "rank": 52,
+      "rank": 11
+    },
+    {
+      "date": "2026-10-02",
+      "rank": 29,
       "price": 353.9,
       "change_pct": -3.719
     }
   ],
   "continuous_days": 32,
   "monthly_count": 32,
-  "avg_rank": 44.5,
-  "best_rank": 18,
+  "avg_rank": 42.8,
+  "best_rank": 11,
   "trend": "stable"
 }

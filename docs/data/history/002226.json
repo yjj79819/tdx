@@ -3,10 +3,6 @@
   "name": "江南化工",
   "history": [
     {
-      "date": "2026-08-31",
-      "rank": 1733
-    },
-    {
       "date": "2026-09-20",
       "rank": 1263
     },
@@ -24,18 +20,22 @@
     },
     {
       "date": "2026-09-30",
-      "rank": 94
+      "rank": 90
     },
     {
       "date": "2026-10-01",
-      "rank": 88,
+      "rank": 103
+    },
+    {
+      "date": "2026-10-02",
+      "rank": 98,
       "price": 5.34,
       "change_pct": 10.1031
     }
   ],
   "continuous_days": 7,
   "monthly_count": 7,
-  "avg_rank": 960.7,
-  "best_rank": 88,
+  "avg_rank": 728.7,
+  "best_rank": 90,
   "trend": "stable"
 }

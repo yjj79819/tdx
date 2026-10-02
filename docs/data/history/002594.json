@@ -3,10 +3,6 @@
   "name": "比亚迪",
   "history": [
     {
-      "date": "2026-08-31",
-      "rank": 143
-    },
-    {
       "date": "2026-09-01",
       "rank": 151
     },
@@ -124,18 +120,22 @@
     },
     {
       "date": "2026-09-30",
-      "rank": 64
+      "rank": 50
     },
     {
       "date": "2026-10-01",
-      "rank": 36,
+      "rank": 24
+    },
+    {
+      "date": "2026-10-02",
+      "rank": 43,
       "price": 83.31,
       "change_pct": 1.5728
     }
   ],
   "continuous_days": 32,
   "monthly_count": 32,
-  "avg_rank": 141.9,
-  "best_rank": 36,
+  "avg_rank": 138.0,
+  "best_rank": 24,
   "trend": "stable"
 }
