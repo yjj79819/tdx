@@ -3,18 +3,6 @@
   "name": "近岸蛋白",
   "history": [
     {
-      "date": "2026-09-01",
-      "rank": 579
-    },
-    {
-      "date": "2026-09-02",
-      "rank": 587
-    },
-    {
-      "date": "2026-09-03",
-      "rank": 1084
-    },
-    {
       "date": "2026-09-04",
       "rank": 1439
     },
@@ -124,18 +112,30 @@
     },
     {
       "date": "2026-10-01",
-      "rank": 28
+      "rank": 29
     },
     {
       "date": "2026-10-02",
-      "rank": 58,
+      "rank": 43
+    },
+    {
+      "date": "2026-10-03",
+      "rank": 41
+    },
+    {
+      "date": "2026-10-04",
+      "rank": 51
+    },
+    {
+      "date": "2026-10-05",
+      "rank": 87,
       "price": 160.39,
       "change_pct": 13.4701
     }
   ],
   "continuous_days": 32,
   "monthly_count": 32,
-  "avg_rank": 455.6,
+  "avg_rank": 390.4,
   "best_rank": 15,
   "trend": "stable"
 }

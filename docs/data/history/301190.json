@@ -3,14 +3,6 @@
   "name": "善水科技",
   "history": [
     {
-      "date": "2026-09-01",
-      "rank": 1492
-    },
-    {
-      "date": "2026-09-02",
-      "rank": 1412
-    },
-    {
       "date": "2026-09-12",
       "rank": 1979
     },
@@ -48,14 +40,26 @@
     },
     {
       "date": "2026-10-02",
-      "rank": 31,
+      "rank": 14
+    },
+    {
+      "date": "2026-10-03",
+      "rank": 13
+    },
+    {
+      "date": "2026-10-04",
+      "rank": 26
+    },
+    {
+      "date": "2026-10-05",
+      "rank": 27,
       "price": 35.93,
       "change_pct": 20.0067
     }
   ],
-  "continuous_days": 12,
-  "monthly_count": 12,
-  "avg_rank": 819.7,
-  "best_rank": 14,
+  "continuous_days": 13,
+  "monthly_count": 13,
+  "avg_rank": 537.0,
+  "best_rank": 13,
   "trend": "stable"
 }

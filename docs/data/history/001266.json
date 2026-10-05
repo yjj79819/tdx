@@ -1,69 +1,73 @@
 {
-  "code": "603949",
-  "name": "雪龙集团",
+  "code": "001266",
+  "name": "宏英智能",
   "history": [
     {
+      "date": "2026-09-21",
+      "rank": 672
+    },
+    {
       "date": "2026-09-22",
-      "rank": 580
+      "rank": 799
     },
     {
       "date": "2026-09-23",
-      "rank": 204
+      "rank": 1446
     },
     {
       "date": "2026-09-24",
-      "rank": 87
+      "rank": 1238
     },
     {
       "date": "2026-09-25",
-      "rank": 86
+      "rank": 1168
     },
     {
       "date": "2026-09-26",
-      "rank": 70
+      "rank": 1137
     },
     {
       "date": "2026-09-27",
-      "rank": 69
+      "rank": 1179
     },
     {
       "date": "2026-09-28",
-      "rank": 58
+      "rank": 1714
     },
     {
       "date": "2026-09-29",
-      "rank": 44
+      "rank": 470
     },
     {
       "date": "2026-09-30",
-      "rank": 45
+      "rank": 152
     },
     {
       "date": "2026-10-01",
-      "rank": 71
+      "rank": 161
     },
     {
       "date": "2026-10-02",
-      "rank": 63
+      "rank": 149
     },
     {
       "date": "2026-10-03",
-      "rank": 77
+      "rank": 135
     },
     {
       "date": "2026-10-04",
-      "rank": 95
+      "rank": 135
     },
     {
       "date": "2026-10-05",
-      "rank": 69,
-      "price": 18.41,
-      "change_pct": -9.9756
+      "rank": 100,
+      "price": 39.96,
+      "change_pct": 9.9917
     }
   ],
-  "continuous_days": 14,
-  "monthly_count": 14,
-  "avg_rank": 115.6,
-  "best_rank": 44,
+  "continuous_days": 15,
+  "monthly_count": 15,
+  "avg_rank": 710.3,
+  "best_rank": 100,
   "trend": "stable"
 }

@@ -3,10 +3,6 @@
   "name": "福建水泥",
   "history": [
     {
-      "date": "2026-09-03",
-      "rank": 574
-    },
-    {
       "date": "2026-09-04",
       "rank": 253
     },
@@ -116,18 +112,30 @@
     },
     {
       "date": "2026-10-01",
-      "rank": 92
+      "rank": 101
     },
     {
       "date": "2026-10-02",
-      "rank": 71,
+      "rank": 84
+    },
+    {
+      "date": "2026-10-03",
+      "rank": 88
+    },
+    {
+      "date": "2026-10-04",
+      "rank": 120
+    },
+    {
+      "date": "2026-10-05",
+      "rank": 93,
       "price": 7.24,
       "change_pct": 4.3228
     }
   ],
-  "continuous_days": 30,
-  "monthly_count": 30,
-  "avg_rank": 462.3,
+  "continuous_days": 32,
+  "monthly_count": 32,
+  "avg_rank": 425.6,
   "best_rank": 14,
   "trend": "stable"
 }

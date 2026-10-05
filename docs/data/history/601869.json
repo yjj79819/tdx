@@ -3,18 +3,6 @@
   "name": "长飞光纤",
   "history": [
     {
-      "date": "2026-09-01",
-      "rank": 50
-    },
-    {
-      "date": "2026-09-02",
-      "rank": 71
-    },
-    {
-      "date": "2026-09-03",
-      "rank": 117
-    },
-    {
       "date": "2026-09-04",
       "rank": 140
     },
@@ -124,18 +112,30 @@
     },
     {
       "date": "2026-10-01",
-      "rank": 36
+      "rank": 30
     },
     {
       "date": "2026-10-02",
-      "rank": 66,
+      "rank": 118
+    },
+    {
+      "date": "2026-10-03",
+      "rank": 121
+    },
+    {
+      "date": "2026-10-04",
+      "rank": 25
+    },
+    {
+      "date": "2026-10-05",
+      "rank": 81,
       "price": 411.16,
       "change_pct": 0.7869
     }
   ],
   "continuous_days": 32,
   "monthly_count": 32,
-  "avg_rank": 70.4,
+  "avg_rank": 71.5,
   "best_rank": 7,
   "trend": "stable"
 }

@@ -3,18 +3,6 @@
   "name": "平潭发展",
   "history": [
     {
-      "date": "2026-09-01",
-      "rank": 115
-    },
-    {
-      "date": "2026-09-02",
-      "rank": 147
-    },
-    {
-      "date": "2026-09-03",
-      "rank": 26
-    },
-    {
       "date": "2026-09-04",
       "rank": 1
     },
@@ -124,18 +112,30 @@
     },
     {
       "date": "2026-10-01",
-      "rank": 45
+      "rank": 44
     },
     {
       "date": "2026-10-02",
-      "rank": 21,
+      "rank": 28
+    },
+    {
+      "date": "2026-10-03",
+      "rank": 20
+    },
+    {
+      "date": "2026-10-04",
+      "rank": 30
+    },
+    {
+      "date": "2026-10-05",
+      "rank": 14,
       "price": 8.53,
       "change_pct": -2.4027
     }
   ],
   "continuous_days": 32,
   "monthly_count": 32,
-  "avg_rank": 27.4,
+  "avg_rank": 20.6,
   "best_rank": 1,
   "trend": "stable"
 }

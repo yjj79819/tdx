@@ -3,10 +3,6 @@
   "name": "古越龙山",
   "history": [
     {
-      "date": "2026-09-03",
-      "rank": 301
-    },
-    {
       "date": "2026-09-04",
       "rank": 87
     },
@@ -120,14 +116,26 @@
     },
     {
       "date": "2026-10-02",
-      "rank": 46,
+      "rank": 21
+    },
+    {
+      "date": "2026-10-03",
+      "rank": 31
+    },
+    {
+      "date": "2026-10-04",
+      "rank": 39
+    },
+    {
+      "date": "2026-10-05",
+      "rank": 40,
       "price": 12.27,
       "change_pct": 10.0448
     }
   ],
-  "continuous_days": 30,
-  "monthly_count": 30,
-  "avg_rank": 325.8,
-  "best_rank": 30,
+  "continuous_days": 32,
+  "monthly_count": 32,
+  "avg_rank": 298.7,
+  "best_rank": 21,
   "trend": "stable"
 }

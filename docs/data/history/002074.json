@@ -3,18 +3,6 @@
   "name": "国轩高科",
   "history": [
     {
-      "date": "2026-09-01",
-      "rank": 689
-    },
-    {
-      "date": "2026-09-02",
-      "rank": 800
-    },
-    {
-      "date": "2026-09-03",
-      "rank": 815
-    },
-    {
       "date": "2026-09-04",
       "rank": 681
     },
@@ -124,18 +112,30 @@
     },
     {
       "date": "2026-10-01",
-      "rank": 23
+      "rank": 24
     },
     {
       "date": "2026-10-02",
-      "rank": 16,
+      "rank": 19
+    },
+    {
+      "date": "2026-10-03",
+      "rank": 21
+    },
+    {
+      "date": "2026-10-04",
+      "rank": 28
+    },
+    {
+      "date": "2026-10-05",
+      "rank": 20,
       "price": 29.5,
       "change_pct": 2.8591
     }
   ],
   "continuous_days": 32,
   "monthly_count": 32,
-  "avg_rank": 474.2,
+  "avg_rank": 404.5,
   "best_rank": 13,
   "trend": "stable"
 }
