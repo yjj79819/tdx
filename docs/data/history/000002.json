@@ -3,14 +3,6 @@
   "name": "万科A",
   "history": [
     {
-      "date": "2026-09-04",
-      "rank": 265
-    },
-    {
-      "date": "2026-09-05",
-      "rank": 328
-    },
-    {
       "date": "2026-09-06",
       "rank": 440
     },
@@ -128,14 +120,22 @@
     },
     {
       "date": "2026-10-05",
-      "rank": 7,
+      "rank": 4
+    },
+    {
+      "date": "2026-10-06",
+      "rank": 6
+    },
+    {
+      "date": "2026-10-07",
+      "rank": 10,
       "price": 4.26,
       "change_pct": 4.4118
     }
   ],
   "continuous_days": 32,
   "monthly_count": 32,
-  "avg_rank": 220.6,
+  "avg_rank": 202.4,
   "best_rank": 1,
   "trend": "stable"
 }

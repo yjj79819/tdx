@@ -3,14 +3,6 @@
   "name": "内蒙新华",
   "history": [
     {
-      "date": "2026-09-04",
-      "rank": 809
-    },
-    {
-      "date": "2026-09-05",
-      "rank": 781
-    },
-    {
       "date": "2026-09-06",
       "rank": 1740
     },
@@ -120,18 +112,26 @@
     },
     {
       "date": "2026-10-04",
-      "rank": 108
+      "rank": 107
     },
     {
       "date": "2026-10-05",
-      "rank": 90,
+      "rank": 106
+    },
+    {
+      "date": "2026-10-06",
+      "rank": 94
+    },
+    {
+      "date": "2026-10-07",
+      "rank": 81,
       "price": 14.01,
       "change_pct": -8.4912
     }
   ],
   "continuous_days": 31,
   "monthly_count": 31,
-  "avg_rank": 420.4,
+  "avg_rank": 375.2,
   "best_rank": 8,
   "trend": "stable"
 }

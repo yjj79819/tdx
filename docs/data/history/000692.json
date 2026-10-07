@@ -3,31 +3,47 @@
   "name": "惠天热电",
   "history": [
     {
-      "date": "2026-09-01",
-      "rank": 948
-    },
-    {
-      "date": "2026-09-02",
-      "rank": 1792
-    },
-    {
       "date": "2026-09-29",
       "rank": 398
     },
     {
       "date": "2026-09-30",
-      "rank": 103
+      "rank": 97
     },
     {
       "date": "2026-10-01",
-      "rank": 91,
+      "rank": 115
+    },
+    {
+      "date": "2026-10-02",
+      "rank": 93
+    },
+    {
+      "date": "2026-10-03",
+      "rank": 95
+    },
+    {
+      "date": "2026-10-04",
+      "rank": 124
+    },
+    {
+      "date": "2026-10-05",
+      "rank": 124
+    },
+    {
+      "date": "2026-10-06",
+      "rank": 115
+    },
+    {
+      "date": "2026-10-07",
+      "rank": 92,
       "price": 4.59,
       "change_pct": 10.0719
     }
   ],
-  "continuous_days": 5,
-  "monthly_count": 5,
-  "avg_rank": 666.4,
-  "best_rank": 91,
+  "continuous_days": 9,
+  "monthly_count": 9,
+  "avg_rank": 139.2,
+  "best_rank": 92,
   "trend": "stable"
 }

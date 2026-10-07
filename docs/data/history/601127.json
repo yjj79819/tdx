@@ -3,14 +3,6 @@
   "name": "赛力斯",
   "history": [
     {
-      "date": "2026-09-04",
-      "rank": 70
-    },
-    {
-      "date": "2026-09-05",
-      "rank": 151
-    },
-    {
       "date": "2026-09-06",
       "rank": 297
     },
@@ -128,14 +120,22 @@
     },
     {
       "date": "2026-10-05",
-      "rank": 10,
+      "rank": 7
+    },
+    {
+      "date": "2026-10-06",
+      "rank": 14
+    },
+    {
+      "date": "2026-10-07",
+      "rank": 38,
       "price": 46.94,
       "change_pct": 0.2777
     }
   ],
   "continuous_days": 32,
   "monthly_count": 32,
-  "avg_rank": 96.4,
+  "avg_rank": 91.1,
   "best_rank": 1,
   "trend": "stable"
 }

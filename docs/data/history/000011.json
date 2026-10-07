@@ -3,14 +3,6 @@
   "name": "深物业A",
   "history": [
     {
-      "date": "2026-09-04",
-      "rank": 734
-    },
-    {
-      "date": "2026-09-05",
-      "rank": 784
-    },
-    {
       "date": "2026-09-06",
       "rank": 1332
     },
@@ -116,18 +108,26 @@
     },
     {
       "date": "2026-10-04",
-      "rank": 22
+      "rank": 23
     },
     {
       "date": "2026-10-05",
-      "rank": 22,
+      "rank": 33
+    },
+    {
+      "date": "2026-10-06",
+      "rank": 23
+    },
+    {
+      "date": "2026-10-07",
+      "rank": 17,
       "price": 12.24,
       "change_pct": 9.973
     }
   ],
   "continuous_days": 30,
   "monthly_count": 30,
-  "avg_rank": 923.6,
+  "avg_rank": 874.7,
   "best_rank": 8,
   "trend": "stable"
 }
