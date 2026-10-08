@@ -3,10 +3,6 @@
   "name": "襄阳轴承",
   "history": [
     {
-      "date": "2026-09-06",
-      "rank": 1503
-    },
-    {
       "date": "2026-09-07",
       "rank": 1724
     },
@@ -88,18 +84,22 @@
     },
     {
       "date": "2026-10-06",
-      "rank": 9
+      "rank": 8
     },
     {
       "date": "2026-10-07",
-      "rank": 3,
-      "price": 12.89,
-      "change_pct": 9.9829
+      "rank": 11
+    },
+    {
+      "date": "2026-10-08",
+      "rank": 5,
+      "price": 12.24,
+      "change_pct": -5.0427
     }
   ],
   "continuous_days": 23,
   "monthly_count": 23,
-  "avg_rank": 599.8,
+  "avg_rank": 535.0,
   "best_rank": 3,
   "trend": "stable"
 }
