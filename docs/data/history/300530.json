@@ -1,65 +1,65 @@
 {
-  "code": "600241",
-  "name": "时代万恒",
+  "code": "300530",
+  "name": "领湃科技",
   "history": [
     {
-      "date": "2026-09-27",
-      "rank": 593
+      "date": "2026-09-15",
+      "rank": 1679
     },
     {
       "date": "2026-09-28",
-      "rank": 162
+      "rank": 1083
     },
     {
       "date": "2026-09-29",
-      "rank": 111
+      "rank": 1075
     },
     {
       "date": "2026-09-30",
-      "rank": 41
+      "rank": 1410
     },
     {
       "date": "2026-10-01",
-      "rank": 49
+      "rank": 1586
     },
     {
       "date": "2026-10-02",
-      "rank": 33
+      "rank": 1450
     },
     {
       "date": "2026-10-03",
-      "rank": 27
+      "rank": 1347
     },
     {
       "date": "2026-10-04",
-      "rank": 56
+      "rank": 1522
     },
     {
       "date": "2026-10-05",
-      "rank": 46
+      "rank": 1734
     },
     {
       "date": "2026-10-06",
-      "rank": 26
+      "rank": 1402
     },
     {
       "date": "2026-10-07",
-      "rank": 40
+      "rank": 136
     },
     {
       "date": "2026-10-08",
-      "rank": 19
+      "rank": 59
     },
     {
       "date": "2026-10-09",
-      "rank": 19,
-      "price": 11.76,
-      "change_pct": 10.0094
+      "rank": 60,
+      "price": 28.9,
+      "change_pct": 20.0166
     }
   ],
   "continuous_days": 13,
   "monthly_count": 13,
-  "avg_rank": 94.0,
-  "best_rank": 19,
+  "avg_rank": 1118.7,
+  "best_rank": 59,
   "trend": "stable"
 }

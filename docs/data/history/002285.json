@@ -3,10 +3,6 @@
   "name": "世联行",
   "history": [
     {
-      "date": "2026-09-07",
-      "rank": 499
-    },
-    {
       "date": "2026-09-08",
       "rank": 783
     },
@@ -120,18 +116,22 @@
     },
     {
       "date": "2026-10-07",
-      "rank": 126
+      "rank": 123
     },
     {
       "date": "2026-10-08",
-      "rank": 67,
-      "price": 3.21,
-      "change_pct": 6.2914
+      "rank": 118
+    },
+    {
+      "date": "2026-10-09",
+      "rank": 72,
+      "price": 3.27,
+      "change_pct": 1.8692
     }
   ],
   "continuous_days": 31,
   "monthly_count": 31,
-  "avg_rank": 395.7,
+  "avg_rank": 383.5,
   "best_rank": 45,
   "trend": "stable"
 }

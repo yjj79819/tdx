@@ -1,103 +1,5 @@
 [
   {
-    "review_date": "2026-07-28",
-    "target_date": "2026-07-28",
-    "results": [
-      {
-        "code": "000533",
-        "name": "顺钠股份",
-        "prev_rank": 11,
-        "prev_price": 11.56,
-        "today_rank": 13,
-        "today_price": 11.56,
-        "price_change": 0.0,
-        "still_in_top50": true,
-        "rank_change": -2
-      },
-      {
-        "code": "600664",
-        "name": "哈药股份",
-        "prev_rank": 16,
-        "prev_price": 5.55,
-        "today_rank": 9,
-        "today_price": 5.74,
-        "price_change": 3.42,
-        "still_in_top50": true,
-        "rank_change": 7
-      },
-      {
-        "code": "002309",
-        "name": "中利集团",
-        "prev_rank": 29,
-        "prev_price": 3.37,
-        "today_rank": 32,
-        "today_price": 3.37,
-        "price_change": 0.0,
-        "still_in_top50": true,
-        "rank_change": -3
-      },
-      {
-        "code": "600396",
-        "name": "华电辽能",
-        "prev_rank": 19,
-        "prev_price": 16.42,
-        "today_rank": 15,
-        "today_price": 16.58,
-        "price_change": 0.97,
-        "still_in_top50": true,
-        "rank_change": 4
-      },
-      {
-        "code": "001248",
-        "name": "华润新能源",
-        "prev_rank": 30,
-        "prev_price": 14.37,
-        "today_rank": 33,
-        "today_price": 14.27,
-        "price_change": -0.7,
-        "still_in_top50": true,
-        "rank_change": -3
-      },
-      {
-        "code": "002580",
-        "name": "圣阳股份",
-        "prev_rank": 13,
-        "prev_price": 17.16,
-        "today_rank": 26,
-        "today_price": 16.92,
-        "price_change": -1.4,
-        "still_in_top50": true,
-        "rank_change": -13
-      },
-      {
-        "code": "002549",
-        "name": "凯美特气",
-        "prev_rank": 21,
-        "prev_price": 13.94,
-        "today_rank": 31,
-        "today_price": 14.01,
-        "price_change": 0.5,
-        "still_in_top50": true,
-        "rank_change": -10
-      },
-      {
-        "code": "600667",
-        "name": "太极实业",
-        "prev_rank": 3,
-        "prev_price": 18.16,
-        "today_rank": 3,
-        "today_price": 18.37,
-        "price_change": 1.16,
-        "still_in_top50": true,
-        "rank_change": 0
-      }
-    ],
-    "win_rate": 50.0,
-    "win_count": 4,
-    "total": 8,
-    "rank_improved": 2
-  },
-  {
     "review_date": "2026-07-29",
     "target_date": "2026-07-28",
     "results": [
@@ -8818,5 +8720,103 @@
     "win_count": 2,
     "total": 8,
     "rank_improved": 1
+  },
+  {
+    "review_date": "2026-10-09",
+    "target_date": "2026-10-08",
+    "results": [
+      {
+        "code": "600825",
+        "name": "新华传媒",
+        "prev_rank": 9,
+        "prev_price": 11.39,
+        "today_rank": 4,
+        "today_price": 12.53,
+        "price_change": 10.01,
+        "still_in_top50": true,
+        "rank_change": 5
+      },
+      {
+        "code": "600664",
+        "name": "哈药股份",
+        "prev_rank": 7,
+        "prev_price": 7.24,
+        "today_rank": 21,
+        "today_price": 7.39,
+        "price_change": 2.07,
+        "still_in_top50": true,
+        "rank_change": -14
+      },
+      {
+        "code": "000560",
+        "name": "我爱我家",
+        "prev_rank": 12,
+        "prev_price": 3.65,
+        "today_rank": 50,
+        "today_price": 3.68,
+        "price_change": 0.82,
+        "still_in_top50": true,
+        "rank_change": -38
+      },
+      {
+        "code": "000002",
+        "name": "万科A",
+        "prev_rank": 11,
+        "prev_price": 4.06,
+        "today_rank": 34,
+        "today_price": 4.06,
+        "price_change": 0.0,
+        "still_in_top50": true,
+        "rank_change": -23
+      },
+      {
+        "code": "000011",
+        "name": "深物业A",
+        "prev_rank": 18,
+        "prev_price": 12.12,
+        "today_rank": 48,
+        "today_price": 12.59,
+        "price_change": 3.88,
+        "still_in_top50": true,
+        "rank_change": -30
+      },
+      {
+        "code": "002242",
+        "name": "九阳股份",
+        "prev_rank": 13,
+        "prev_price": 13.75,
+        "today_rank": 3,
+        "today_price": 15.13,
+        "price_change": 10.04,
+        "still_in_top50": true,
+        "rank_change": 10
+      },
+      {
+        "code": "600127",
+        "name": "金健米业",
+        "prev_rank": 3,
+        "prev_price": 13.8,
+        "today_rank": 2,
+        "today_price": 15.18,
+        "price_change": 10.0,
+        "still_in_top50": true,
+        "rank_change": 1
+      },
+      {
+        "code": "600241",
+        "name": "时代万恒",
+        "prev_rank": 40,
+        "prev_price": 10.69,
+        "today_rank": 19,
+        "today_price": 11.76,
+        "price_change": 10.01,
+        "still_in_top50": true,
+        "rank_change": 21
+      }
+    ],
+    "win_rate": 87.5,
+    "win_count": 7,
+    "total": 8,
+    "rank_improved": 4
   }
 ]

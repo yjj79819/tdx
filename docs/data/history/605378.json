@@ -1,109 +1,93 @@
 {
-  "code": "601811",
-  "name": "新华文轩",
+  "code": "605378",
+  "name": "野马电池",
   "history": [
     {
+      "date": "2026-09-15",
+      "rank": 448
+    },
+    {
       "date": "2026-09-16",
-      "rank": 748
+      "rank": 804
     },
     {
       "date": "2026-09-17",
-      "rank": 331
+      "rank": 1396
     },
     {
       "date": "2026-09-18",
-      "rank": 58
+      "rank": 1267
     },
     {
       "date": "2026-09-19",
-      "rank": 32
+      "rank": 1451
     },
     {
       "date": "2026-09-20",
-      "rank": 50
+      "rank": 1936
     },
     {
       "date": "2026-09-21",
-      "rank": 49
-    },
-    {
-      "date": "2026-09-22",
-      "rank": 37
-    },
-    {
-      "date": "2026-09-23",
-      "rank": 16
-    },
-    {
-      "date": "2026-09-24",
-      "rank": 3
-    },
-    {
-      "date": "2026-09-25",
-      "rank": 6
-    },
-    {
-      "date": "2026-09-26",
-      "rank": 6
+      "rank": 1685
     },
     {
       "date": "2026-09-27",
-      "rank": 6
+      "rank": 942
     },
     {
       "date": "2026-09-28",
-      "rank": 8
+      "rank": 248
     },
     {
       "date": "2026-09-29",
-      "rank": 14
+      "rank": 489
     },
     {
       "date": "2026-09-30",
-      "rank": 21
+      "rank": 606
     },
     {
       "date": "2026-10-01",
-      "rank": 27
+      "rank": 710
     },
     {
       "date": "2026-10-02",
-      "rank": 25
+      "rank": 677
     },
     {
       "date": "2026-10-03",
-      "rank": 25
+      "rank": 727
     },
     {
       "date": "2026-10-04",
-      "rank": 37
+      "rank": 802
     },
     {
       "date": "2026-10-05",
-      "rank": 43
+      "rank": 843
     },
     {
       "date": "2026-10-06",
-      "rank": 38
+      "rank": 728
     },
     {
       "date": "2026-10-07",
-      "rank": 43
+      "rank": 171
     },
     {
       "date": "2026-10-08",
-      "rank": 24
+      "rank": 95
     },
     {
       "date": "2026-10-09",
-      "rank": 16,
-      "price": 20.91,
-      "change_pct": 9.9947
+      "rank": 63,
+      "price": 18.08,
+      "change_pct": 4.6902
     }
   ],
-  "continuous_days": 24,
-  "monthly_count": 24,
-  "avg_rank": 69.3,
-  "best_rank": 3,
+  "continuous_days": 20,
+  "monthly_count": 20,
+  "avg_rank": 804.4,
+  "best_rank": 63,
   "trend": "stable"
 }

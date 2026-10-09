@@ -3,10 +3,6 @@
   "name": "先导智能",
   "history": [
     {
-      "date": "2026-09-07",
-      "rank": 634
-    },
-    {
       "date": "2026-09-08",
       "rank": 702
     },
@@ -124,18 +120,22 @@
     },
     {
       "date": "2026-10-07",
-      "rank": 22
+      "rank": 21
     },
     {
       "date": "2026-10-08",
-      "rank": 27,
-      "price": 37.59,
-      "change_pct": 7.5844
+      "rank": 30
+    },
+    {
+      "date": "2026-10-09",
+      "rank": 56,
+      "price": 36.73,
+      "change_pct": -2.2878
     }
   ],
   "continuous_days": 32,
   "monthly_count": 32,
-  "avg_rank": 318.8,
-  "best_rank": 22,
+  "avg_rank": 300.8,
+  "best_rank": 21,
   "trend": "stable"
 }
