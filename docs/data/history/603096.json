@@ -1,0 +1,33 @@
+{
+  "code": "603096",
+  "name": "新经典",
+  "history": [
+    {
+      "date": "2026-10-08",
+      "rank": 907
+    },
+    {
+      "date": "2026-10-09",
+      "rank": 158
+    },
+    {
+      "date": "2026-10-10",
+      "rank": 101
+    },
+    {
+      "date": "2026-10-11",
+      "rank": 154
+    },
+    {
+      "date": "2026-10-12",
+      "rank": 33,
+      "price": 19.06,
+      "change_pct": 9.9827
+    }
+  ],
+  "continuous_days": 5,
+  "monthly_count": 5,
+  "avg_rank": 270.6,
+  "best_rank": 33,
+  "trend": "stable"
+}

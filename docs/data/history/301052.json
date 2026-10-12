@@ -1,0 +1,33 @@
+{
+  "code": "301052",
+  "name": "果麦文化",
+  "history": [
+    {
+      "date": "2026-10-08",
+      "rank": 1818
+    },
+    {
+      "date": "2026-10-09",
+      "rank": 848
+    },
+    {
+      "date": "2026-10-10",
+      "rank": 807
+    },
+    {
+      "date": "2026-10-11",
+      "rank": 76
+    },
+    {
+      "date": "2026-10-12",
+      "rank": 70,
+      "price": 30.47,
+      "change_pct": 20.0079
+    }
+  ],
+  "continuous_days": 5,
+  "monthly_count": 5,
+  "avg_rank": 723.8,
+  "best_rank": 70,
+  "trend": "stable"
+}

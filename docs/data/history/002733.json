@@ -3,10 +3,6 @@
   "name": "雄韬股份",
   "history": [
     {
-      "date": "2026-09-08",
-      "rank": 1873
-    },
-    {
       "date": "2026-09-14",
       "rank": 1583
     },
@@ -48,14 +44,26 @@
     },
     {
       "date": "2026-10-09",
-      "rank": 28,
-      "price": 20.78,
-      "change_pct": 10.0053
+      "rank": 38
+    },
+    {
+      "date": "2026-10-10",
+      "rank": 15
+    },
+    {
+      "date": "2026-10-11",
+      "rank": 47
+    },
+    {
+      "date": "2026-10-12",
+      "rank": 61,
+      "price": 21.22,
+      "change_pct": 2.1174
     }
   ],
-  "continuous_days": 12,
-  "monthly_count": 12,
-  "avg_rank": 1243.4,
-  "best_rank": 28,
+  "continuous_days": 14,
+  "monthly_count": 14,
+  "avg_rank": 941.5,
+  "best_rank": 15,
   "trend": "stable"
 }

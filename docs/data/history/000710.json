@@ -3,14 +3,6 @@
   "name": "贝瑞基因",
   "history": [
     {
-      "date": "2026-09-07",
-      "rank": 1791
-    },
-    {
-      "date": "2026-09-11",
-      "rank": 1597
-    },
-    {
       "date": "2026-09-13",
       "rank": 1853
     },
@@ -100,18 +92,34 @@
     },
     {
       "date": "2026-10-07",
-      "rank": 63
+      "rank": 66
     },
     {
       "date": "2026-10-08",
-      "rank": 76,
-      "price": 10.27,
-      "change_pct": -5.5198
+      "rank": 114
+    },
+    {
+      "date": "2026-10-09",
+      "rank": 54
+    },
+    {
+      "date": "2026-10-10",
+      "rank": 50
+    },
+    {
+      "date": "2026-10-11",
+      "rank": 90
+    },
+    {
+      "date": "2026-10-12",
+      "rank": 85,
+      "price": 11.7,
+      "change_pct": 3.5398
     }
   ],
-  "continuous_days": 26,
-  "monthly_count": 26,
-  "avg_rank": 487.8,
+  "continuous_days": 28,
+  "monthly_count": 28,
+  "avg_rank": 343.4,
   "best_rank": 28,
   "trend": "stable"
 }

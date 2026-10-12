@@ -1,0 +1,37 @@
+{
+  "code": "001300",
+  "name": "三柏硕",
+  "history": [
+    {
+      "date": "2026-10-07",
+      "rank": 761
+    },
+    {
+      "date": "2026-10-08",
+      "rank": 283
+    },
+    {
+      "date": "2026-10-09",
+      "rank": 89
+    },
+    {
+      "date": "2026-10-10",
+      "rank": 69
+    },
+    {
+      "date": "2026-10-11",
+      "rank": 77
+    },
+    {
+      "date": "2026-10-12",
+      "rank": 55,
+      "price": 13.39,
+      "change_pct": -9.8923
+    }
+  ],
+  "continuous_days": 6,
+  "monthly_count": 6,
+  "avg_rank": 222.3,
+  "best_rank": 55,
+  "trend": "stable"
+}

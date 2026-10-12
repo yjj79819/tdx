@@ -3,22 +3,6 @@
   "name": "会稽山",
   "history": [
     {
-      "date": "2026-09-08",
-      "rank": 139
-    },
-    {
-      "date": "2026-09-09",
-      "rank": 271
-    },
-    {
-      "date": "2026-09-10",
-      "rank": 495
-    },
-    {
-      "date": "2026-09-11",
-      "rank": 489
-    },
-    {
       "date": "2026-09-12",
       "rank": 472
     },
@@ -124,18 +108,30 @@
     },
     {
       "date": "2026-10-08",
-      "rank": 65
+      "rank": 66
     },
     {
       "date": "2026-10-09",
-      "rank": 69,
-      "price": 40.28,
-      "change_pct": 1.7172
+      "rank": 84
+    },
+    {
+      "date": "2026-10-10",
+      "rank": 87
+    },
+    {
+      "date": "2026-10-11",
+      "rank": 82
+    },
+    {
+      "date": "2026-10-12",
+      "rank": 77,
+      "price": 36.25,
+      "change_pct": -10.005
     }
   ],
-  "continuous_days": 32,
-  "monthly_count": 32,
-  "avg_rank": 115.6,
+  "continuous_days": 31,
+  "monthly_count": 31,
+  "avg_rank": 82.8,
   "best_rank": 8,
   "trend": "stable"
 }
