@@ -1,0 +1,25 @@
+{
+  "code": "601188",
+  "name": "龙江交通",
+  "history": [
+    {
+      "date": "2026-10-12",
+      "rank": 459
+    },
+    {
+      "date": "2026-10-13",
+      "rank": 102
+    },
+    {
+      "date": "2026-10-14",
+      "rank": 63,
+      "price": 3.53,
+      "change_pct": 9.9688
+    }
+  ],
+  "continuous_days": 3,
+  "monthly_count": 3,
+  "avg_rank": 208.0,
+  "best_rank": 63,
+  "trend": "stable"
+}

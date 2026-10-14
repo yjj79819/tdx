@@ -3,10 +3,6 @@
   "name": "博纳影业",
   "history": [
     {
-      "date": "2026-09-12",
-      "rank": 248
-    },
-    {
       "date": "2026-09-13",
       "rank": 364
     },
@@ -124,14 +120,22 @@
     },
     {
       "date": "2026-10-12",
-      "rank": 10,
-      "price": 7.67,
-      "change_pct": 10.043
+      "rank": 22
+    },
+    {
+      "date": "2026-10-13",
+      "rank": 31
+    },
+    {
+      "date": "2026-10-14",
+      "rank": 37,
+      "price": 7.52,
+      "change_pct": 1.6216
     }
   ],
-  "continuous_days": 31,
-  "monthly_count": 31,
-  "avg_rank": 262.8,
-  "best_rank": 10,
+  "continuous_days": 32,
+  "monthly_count": 32,
+  "avg_rank": 249.3,
+  "best_rank": 15,
   "trend": "stable"
 }

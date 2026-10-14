@@ -3,10 +3,6 @@
   "name": "亚邦股份",
   "history": [
     {
-      "date": "2026-09-12",
-      "rank": 1083
-    },
-    {
       "date": "2026-09-13",
       "rank": 1840
     },
@@ -44,18 +40,46 @@
     },
     {
       "date": "2026-10-06",
-      "rank": 83
+      "rank": 72
     },
     {
       "date": "2026-10-07",
-      "rank": 53,
-      "price": 5.4,
-      "change_pct": 9.9796
+      "rank": 322
+    },
+    {
+      "date": "2026-10-08",
+      "rank": 735
+    },
+    {
+      "date": "2026-10-09",
+      "rank": 597
+    },
+    {
+      "date": "2026-10-10",
+      "rank": 489
+    },
+    {
+      "date": "2026-10-11",
+      "rank": 792
+    },
+    {
+      "date": "2026-10-12",
+      "rank": 195
+    },
+    {
+      "date": "2026-10-13",
+      "rank": 75
+    },
+    {
+      "date": "2026-10-14",
+      "rank": 44,
+      "price": 5.15,
+      "change_pct": -5.6777
     }
   ],
-  "continuous_days": 12,
-  "monthly_count": 12,
-  "avg_rank": 379.8,
-  "best_rank": 53,
+  "continuous_days": 18,
+  "monthly_count": 18,
+  "avg_rank": 370.0,
+  "best_rank": 44,
   "trend": "stable"
 }

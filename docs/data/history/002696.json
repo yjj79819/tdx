@@ -3,10 +3,6 @@
   "name": "百洋股份",
   "history": [
     {
-      "date": "2026-09-12",
-      "rank": 1217
-    },
-    {
       "date": "2026-09-13",
       "rank": 1587
     },
@@ -72,18 +68,26 @@
     },
     {
       "date": "2026-10-11",
-      "rank": 226
+      "rank": 221
     },
     {
       "date": "2026-10-12",
-      "rank": 76,
-      "price": 8.05,
-      "change_pct": 9.9727
+      "rank": 71
+    },
+    {
+      "date": "2026-10-13",
+      "rank": 45
+    },
+    {
+      "date": "2026-10-14",
+      "rank": 59,
+      "price": 9.75,
+      "change_pct": 10.0451
     }
   ],
-  "continuous_days": 19,
-  "monthly_count": 19,
-  "avg_rank": 1203.1,
-  "best_rank": 76,
+  "continuous_days": 20,
+  "monthly_count": 20,
+  "avg_rank": 1086.8,
+  "best_rank": 45,
   "trend": "stable"
 }
