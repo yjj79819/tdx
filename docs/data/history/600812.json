@@ -3,10 +3,6 @@
   "name": "华北制药",
   "history": [
     {
-      "date": "2026-09-13",
-      "rank": 616
-    },
-    {
       "date": "2026-09-14",
       "rank": 769
     },
@@ -124,18 +120,22 @@
     },
     {
       "date": "2026-10-13",
-      "rank": 26
+      "rank": 25
     },
     {
       "date": "2026-10-14",
-      "rank": 39,
-      "price": 5.97,
-      "change_pct": 0.0
+      "rank": 16
+    },
+    {
+      "date": "2026-10-15",
+      "rank": 20,
+      "price": 6.57,
+      "change_pct": 10.0503
     }
   ],
   "continuous_days": 32,
   "monthly_count": 32,
-  "avg_rank": 720.0,
+  "avg_rank": 700.7,
   "best_rank": 7,
   "trend": "stable"
 }

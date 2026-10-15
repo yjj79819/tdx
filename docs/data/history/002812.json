@@ -3,10 +3,6 @@
   "name": "恩捷股份",
   "history": [
     {
-      "date": "2026-09-13",
-      "rank": 600
-    },
-    {
       "date": "2026-09-14",
       "rank": 727
     },
@@ -124,18 +120,22 @@
     },
     {
       "date": "2026-10-13",
-      "rank": 62
+      "rank": 63
     },
     {
       "date": "2026-10-14",
-      "rank": 29,
-      "price": 46.4,
-      "change_pct": 4.4575
+      "rank": 82
+    },
+    {
+      "date": "2026-10-15",
+      "rank": 94,
+      "price": 48.39,
+      "change_pct": 4.2888
     }
   ],
   "continuous_days": 32,
   "monthly_count": 32,
-  "avg_rank": 542.5,
-  "best_rank": 29,
+  "avg_rank": 528.3,
+  "best_rank": 63,
   "trend": "stable"
 }

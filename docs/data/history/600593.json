@@ -3,10 +3,6 @@
   "name": "大连圣亚",
   "history": [
     {
-      "date": "2026-09-13",
-      "rank": 876
-    },
-    {
       "date": "2026-09-14",
       "rank": 1101
     },
@@ -124,18 +120,22 @@
     },
     {
       "date": "2026-10-13",
-      "rank": 52
+      "rank": 59
     },
     {
       "date": "2026-10-14",
-      "rank": 46,
-      "price": 53.1,
-      "change_pct": 6.5623
+      "rank": 153
+    },
+    {
+      "date": "2026-10-15",
+      "rank": 99,
+      "price": 48.69,
+      "change_pct": -8.3051
     }
   ],
   "continuous_days": 32,
   "monthly_count": 32,
-  "avg_rank": 379.7,
-  "best_rank": 46,
+  "avg_rank": 358.9,
+  "best_rank": 59,
   "trend": "stable"
 }

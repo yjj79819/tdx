@@ -3,10 +3,6 @@
   "name": "上海洗霸",
   "history": [
     {
-      "date": "2026-09-13",
-      "rank": 838
-    },
-    {
       "date": "2026-09-14",
       "rank": 199
     },
@@ -124,18 +120,22 @@
     },
     {
       "date": "2026-10-13",
-      "rank": 101
+      "rank": 107
     },
     {
       "date": "2026-10-14",
-      "rank": 49,
-      "price": 48.5,
-      "change_pct": -2.0202
+      "rank": 39
+    },
+    {
+      "date": "2026-10-15",
+      "rank": 76,
+      "price": 53.35,
+      "change_pct": 10.0
     }
   ],
   "continuous_days": 32,
   "monthly_count": 32,
-  "avg_rank": 468.8,
+  "avg_rank": 444.8,
   "best_rank": 16,
   "trend": "stable"
 }

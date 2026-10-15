@@ -3,10 +3,6 @@
   "name": "景旺电子",
   "history": [
     {
-      "date": "2026-09-13",
-      "rank": 117
-    },
-    {
       "date": "2026-09-14",
       "rank": 131
     },
@@ -124,18 +120,22 @@
     },
     {
       "date": "2026-10-13",
-      "rank": 128
+      "rank": 135
     },
     {
       "date": "2026-10-14",
+      "rank": 144
+    },
+    {
+      "date": "2026-10-15",
       "rank": 86,
-      "price": 94.66,
-      "change_pct": -3.9082
+      "price": 90.21,
+      "change_pct": -4.701
     }
   ],
   "continuous_days": 32,
   "monthly_count": 32,
-  "avg_rank": 188.8,
+  "avg_rank": 189.8,
   "best_rank": 22,
   "trend": "stable"
 }
