@@ -3,10 +3,6 @@
   "name": "新华传媒",
   "history": [
     {
-      "date": "2026-09-14",
-      "rank": 1271
-    },
-    {
       "date": "2026-09-15",
       "rank": 1211
     },
@@ -124,18 +120,22 @@
     },
     {
       "date": "2026-10-14",
-      "rank": 57
+      "rank": 47
     },
     {
       "date": "2026-10-15",
-      "rank": 73,
-      "price": 13.78,
-      "change_pct": 0.0
+      "rank": 1
+    },
+    {
+      "date": "2026-10-16",
+      "rank": 2,
+      "price": 15.16,
+      "change_pct": 10.0145
     }
   ],
   "continuous_days": 32,
   "monthly_count": 32,
-  "avg_rank": 119.9,
-  "best_rank": 2,
+  "avg_rank": 77.7,
+  "best_rank": 1,
   "trend": "stable"
 }

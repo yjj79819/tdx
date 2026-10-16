@@ -1,0 +1,25 @@
+{
+  "code": "600668",
+  "name": "尖峰集团",
+  "history": [
+    {
+      "date": "2026-10-14",
+      "rank": 336
+    },
+    {
+      "date": "2026-10-15",
+      "rank": 125
+    },
+    {
+      "date": "2026-10-16",
+      "rank": 92,
+      "price": 8.79,
+      "change_pct": 10.0125
+    }
+  ],
+  "continuous_days": 3,
+  "monthly_count": 3,
+  "avg_rank": 184.3,
+  "best_rank": 92,
+  "trend": "stable"
+}
