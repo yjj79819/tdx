@@ -1,0 +1,37 @@
+{
+  "code": "603197",
+  "name": "保隆科技",
+  "history": [
+    {
+      "date": "2026-10-13",
+      "rank": 1904
+    },
+    {
+      "date": "2026-10-15",
+      "rank": 231
+    },
+    {
+      "date": "2026-10-16",
+      "rank": 31
+    },
+    {
+      "date": "2026-10-17",
+      "rank": 6
+    },
+    {
+      "date": "2026-10-18",
+      "rank": 31
+    },
+    {
+      "date": "2026-10-19",
+      "rank": 41,
+      "price": 32.33,
+      "change_pct": 10.0034
+    }
+  ],
+  "continuous_days": 6,
+  "monthly_count": 6,
+  "avg_rank": 374.0,
+  "best_rank": 6,
+  "trend": "stable"
+}

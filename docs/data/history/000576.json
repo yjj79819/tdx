@@ -1,0 +1,33 @@
+{
+  "code": "000576",
+  "name": "甘化科工",
+  "history": [
+    {
+      "date": "2026-10-15",
+      "rank": 487
+    },
+    {
+      "date": "2026-10-16",
+      "rank": 153
+    },
+    {
+      "date": "2026-10-17",
+      "rank": 86
+    },
+    {
+      "date": "2026-10-18",
+      "rank": 90
+    },
+    {
+      "date": "2026-10-19",
+      "rank": 54,
+      "price": 9.65,
+      "change_pct": 10.0342
+    }
+  ],
+  "continuous_days": 5,
+  "monthly_count": 5,
+  "avg_rank": 174.0,
+  "best_rank": 54,
+  "trend": "stable"
+}

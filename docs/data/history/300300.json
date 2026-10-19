@@ -3,18 +3,6 @@
   "name": "海峡创新",
   "history": [
     {
-      "date": "2026-09-15",
-      "rank": 91
-    },
-    {
-      "date": "2026-09-16",
-      "rank": 188
-    },
-    {
-      "date": "2026-09-17",
-      "rank": 132
-    },
-    {
       "date": "2026-09-18",
       "rank": 270
     },
@@ -124,18 +112,30 @@
     },
     {
       "date": "2026-10-15",
-      "rank": 45
+      "rank": 40
     },
     {
       "date": "2026-10-16",
-      "rank": 27,
-      "price": 11.43,
-      "change_pct": 7.2233
+      "rank": 109
+    },
+    {
+      "date": "2026-10-17",
+      "rank": 105
+    },
+    {
+      "date": "2026-10-18",
+      "rank": 93
+    },
+    {
+      "date": "2026-10-19",
+      "rank": 83,
+      "price": 10.96,
+      "change_pct": -4.112
     }
   ],
   "continuous_days": 32,
   "monthly_count": 32,
-  "avg_rank": 130.2,
+  "avg_rank": 128.6,
   "best_rank": 10,
   "trend": "stable"
 }

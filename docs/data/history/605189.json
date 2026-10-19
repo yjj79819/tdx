@@ -3,14 +3,6 @@
   "name": "富春染织",
   "history": [
     {
-      "date": "2026-09-16",
-      "rank": 1848
-    },
-    {
-      "date": "2026-09-17",
-      "rank": 1950
-    },
-    {
       "date": "2026-09-18",
       "rank": 1953
     },
@@ -60,18 +52,30 @@
     },
     {
       "date": "2026-10-15",
-      "rank": 77
+      "rank": 92
     },
     {
       "date": "2026-10-16",
-      "rank": 75,
-      "price": 16.31,
-      "change_pct": -8.6275
+      "rank": 114
+    },
+    {
+      "date": "2026-10-17",
+      "rank": 101
+    },
+    {
+      "date": "2026-10-18",
+      "rank": 119
+    },
+    {
+      "date": "2026-10-19",
+      "rank": 59,
+      "price": 17.2,
+      "change_pct": 5.4568
     }
   ],
-  "continuous_days": 16,
-  "monthly_count": 16,
-  "avg_rank": 1214.8,
-  "best_rank": 67,
+  "continuous_days": 17,
+  "monthly_count": 17,
+  "avg_rank": 939.5,
+  "best_rank": 59,
   "trend": "stable"
 }

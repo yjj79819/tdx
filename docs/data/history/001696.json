@@ -3,18 +3,6 @@
   "name": "宗申动力",
   "history": [
     {
-      "date": "2026-09-15",
-      "rank": 476
-    },
-    {
-      "date": "2026-09-16",
-      "rank": 585
-    },
-    {
-      "date": "2026-09-17",
-      "rank": 604
-    },
-    {
       "date": "2026-09-18",
       "rank": 740
     },
@@ -124,18 +112,30 @@
     },
     {
       "date": "2026-10-15",
-      "rank": 74
+      "rank": 61
     },
     {
       "date": "2026-10-16",
-      "rank": 100,
-      "price": 15.87,
-      "change_pct": 9.9792
+      "rank": 19
+    },
+    {
+      "date": "2026-10-17",
+      "rank": 13
+    },
+    {
+      "date": "2026-10-18",
+      "rank": 16
+    },
+    {
+      "date": "2026-10-19",
+      "rank": 13,
+      "price": 15.91,
+      "change_pct": 0.252
     }
   ],
   "continuous_days": 32,
   "monthly_count": 32,
-  "avg_rank": 496.3,
-  "best_rank": 74,
+  "avg_rank": 442.7,
+  "best_rank": 13,
   "trend": "stable"
 }

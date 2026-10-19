@@ -1,0 +1,45 @@
+{
+  "code": "002917",
+  "name": "金奥博",
+  "history": [
+    {
+      "date": "2026-10-12",
+      "rank": 386
+    },
+    {
+      "date": "2026-10-13",
+      "rank": 165
+    },
+    {
+      "date": "2026-10-14",
+      "rank": 238
+    },
+    {
+      "date": "2026-10-15",
+      "rank": 203
+    },
+    {
+      "date": "2026-10-16",
+      "rank": 62
+    },
+    {
+      "date": "2026-10-17",
+      "rank": 32
+    },
+    {
+      "date": "2026-10-18",
+      "rank": 92
+    },
+    {
+      "date": "2026-10-19",
+      "rank": 46,
+      "price": 11.98,
+      "change_pct": 0.0
+    }
+  ],
+  "continuous_days": 8,
+  "monthly_count": 8,
+  "avg_rank": 153.0,
+  "best_rank": 32,
+  "trend": "stable"
+}
