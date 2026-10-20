@@ -1,0 +1,41 @@
+{
+  "code": "002889",
+  "name": "东方嘉盛",
+  "history": [
+    {
+      "date": "2026-10-14",
+      "rank": 396
+    },
+    {
+      "date": "2026-10-15",
+      "rank": 167
+    },
+    {
+      "date": "2026-10-16",
+      "rank": 55
+    },
+    {
+      "date": "2026-10-17",
+      "rank": 37
+    },
+    {
+      "date": "2026-10-18",
+      "rank": 47
+    },
+    {
+      "date": "2026-10-19",
+      "rank": 34
+    },
+    {
+      "date": "2026-10-20",
+      "rank": 22,
+      "price": 14.69,
+      "change_pct": -6.6709
+    }
+  ],
+  "continuous_days": 7,
+  "monthly_count": 7,
+  "avg_rank": 108.3,
+  "best_rank": 22,
+  "trend": "stable"
+}

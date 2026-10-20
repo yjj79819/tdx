@@ -1,0 +1,45 @@
+{
+  "code": "600860",
+  "name": "京城股份",
+  "history": [
+    {
+      "date": "2026-09-19",
+      "rank": 1004
+    },
+    {
+      "date": "2026-09-20",
+      "rank": 1491
+    },
+    {
+      "date": "2026-10-15",
+      "rank": 506
+    },
+    {
+      "date": "2026-10-16",
+      "rank": 146
+    },
+    {
+      "date": "2026-10-17",
+      "rank": 95
+    },
+    {
+      "date": "2026-10-18",
+      "rank": 154
+    },
+    {
+      "date": "2026-10-19",
+      "rank": 52
+    },
+    {
+      "date": "2026-10-20",
+      "rank": 33,
+      "price": 9.57,
+      "change_pct": 10.0
+    }
+  ],
+  "continuous_days": 8,
+  "monthly_count": 8,
+  "avg_rank": 435.1,
+  "best_rank": 33,
+  "trend": "stable"
+}

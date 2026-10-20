@@ -3,10 +3,6 @@
   "name": "长城军工",
   "history": [
     {
-      "date": "2026-09-18",
-      "rank": 362
-    },
-    {
       "date": "2026-09-19",
       "rank": 356
     },
@@ -128,14 +124,18 @@
     },
     {
       "date": "2026-10-19",
-      "rank": 7,
-      "price": 33.52,
-      "change_pct": 5.0125
+      "rank": 33
+    },
+    {
+      "date": "2026-10-20",
+      "rank": 37,
+      "price": 31.97,
+      "change_pct": -4.6241
     }
   ],
   "continuous_days": 32,
   "monthly_count": 32,
-  "avg_rank": 325.8,
-  "best_rank": 7,
+  "avg_rank": 316.4,
+  "best_rank": 8,
   "trend": "stable"
 }

@@ -3,10 +3,6 @@
   "name": "跨境通",
   "history": [
     {
-      "date": "2026-09-18",
-      "rank": 240
-    },
-    {
       "date": "2026-09-19",
       "rank": 226
     },
@@ -124,18 +120,22 @@
     },
     {
       "date": "2026-10-18",
-      "rank": 136
+      "rank": 143
     },
     {
       "date": "2026-10-19",
-      "rank": 95,
-      "price": 3.8,
-      "change_pct": -2.8133
+      "rank": 114
+    },
+    {
+      "date": "2026-10-20",
+      "rank": 65,
+      "price": 3.93,
+      "change_pct": 3.4211
     }
   ],
   "continuous_days": 32,
   "monthly_count": 32,
-  "avg_rank": 165.0,
+  "avg_rank": 160.3,
   "best_rank": 14,
   "trend": "stable"
 }

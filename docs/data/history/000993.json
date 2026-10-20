@@ -3,10 +3,6 @@
   "name": "闽东电力",
   "history": [
     {
-      "date": "2026-09-18",
-      "rank": 6
-    },
-    {
       "date": "2026-09-19",
       "rank": 8
     },
@@ -128,14 +124,18 @@
     },
     {
       "date": "2026-10-19",
-      "rank": 18,
-      "price": 16.38,
-      "change_pct": -10.0
+      "rank": 42
+    },
+    {
+      "date": "2026-10-20",
+      "rank": 21,
+      "price": 14.74,
+      "change_pct": -10.0122
     }
   ],
   "continuous_days": 32,
   "monthly_count": 32,
-  "avg_rank": 27.4,
+  "avg_rank": 28.6,
   "best_rank": 4,
   "trend": "stable"
 }
