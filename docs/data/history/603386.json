@@ -3,10 +3,6 @@
   "name": "骏亚科技",
   "history": [
     {
-      "date": "2026-09-19",
-      "rank": 918
-    },
-    {
       "date": "2026-09-20",
       "rank": 1172
     },
@@ -120,18 +116,22 @@
     },
     {
       "date": "2026-10-19",
-      "rank": 60
+      "rank": 56
     },
     {
       "date": "2026-10-20",
-      "rank": 24,
-      "price": 21.71,
-      "change_pct": 9.9797
+      "rank": 77
+    },
+    {
+      "date": "2026-10-21",
+      "rank": 85,
+      "price": 19.71,
+      "change_pct": -9.2123
     }
   ],
   "continuous_days": 31,
   "monthly_count": 31,
-  "avg_rank": 969.5,
-  "best_rank": 24,
+  "avg_rank": 944.2,
+  "best_rank": 56,
   "trend": "stable"
 }

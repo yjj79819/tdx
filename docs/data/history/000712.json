@@ -3,10 +3,6 @@
   "name": "锦龙股份",
   "history": [
     {
-      "date": "2026-09-19",
-      "rank": 730
-    },
-    {
       "date": "2026-09-20",
       "rank": 368
     },
@@ -124,18 +120,22 @@
     },
     {
       "date": "2026-10-19",
-      "rank": 86
+      "rank": 80
     },
     {
       "date": "2026-10-20",
-      "rank": 70,
-      "price": 10.78,
-      "change_pct": 2.3742
+      "rank": 73
+    },
+    {
+      "date": "2026-10-21",
+      "rank": 99,
+      "price": 9.7,
+      "change_pct": -10.0186
     }
   ],
   "continuous_days": 32,
   "monthly_count": 32,
-  "avg_rank": 632.7,
+  "avg_rank": 612.9,
   "best_rank": 58,
   "trend": "stable"
 }

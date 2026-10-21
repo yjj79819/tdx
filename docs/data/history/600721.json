@@ -3,14 +3,6 @@
   "name": "百花医药",
   "history": [
     {
-      "date": "2026-09-18",
-      "rank": 70
-    },
-    {
-      "date": "2026-09-19",
-      "rank": 75
-    },
-    {
       "date": "2026-09-20",
       "rank": 33
     },
@@ -124,18 +116,26 @@
     },
     {
       "date": "2026-10-18",
-      "rank": 124
+      "rank": 129
     },
     {
       "date": "2026-10-19",
-      "rank": 42,
-      "price": 10.63,
-      "change_pct": -3.539
+      "rank": 191
+    },
+    {
+      "date": "2026-10-20",
+      "rank": 211
+    },
+    {
+      "date": "2026-10-21",
+      "rank": 82,
+      "price": 10.67,
+      "change_pct": -0.0936
     }
   ],
   "continuous_days": 32,
   "monthly_count": 32,
-  "avg_rank": 89.8,
+  "avg_rank": 99.2,
   "best_rank": 12,
   "trend": "stable"
 }

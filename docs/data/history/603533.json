@@ -3,10 +3,6 @@
   "name": "掌阅科技",
   "history": [
     {
-      "date": "2026-09-19",
-      "rank": 680
-    },
-    {
       "date": "2026-09-20",
       "rank": 639
     },
@@ -124,18 +120,22 @@
     },
     {
       "date": "2026-10-19",
-      "rank": 70
+      "rank": 82
     },
     {
       "date": "2026-10-20",
-      "rank": 85,
-      "price": 28.71,
-      "change_pct": -0.4853
+      "rank": 98
+    },
+    {
+      "date": "2026-10-21",
+      "rank": 93,
+      "price": 28.1,
+      "change_pct": -2.1247
     }
   ],
   "continuous_days": 32,
   "monthly_count": 32,
-  "avg_rank": 282.8,
+  "avg_rank": 265.2,
   "best_rank": 14,
   "trend": "stable"
 }

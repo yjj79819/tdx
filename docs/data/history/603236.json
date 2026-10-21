@@ -3,10 +3,6 @@
   "name": "移远通信",
   "history": [
     {
-      "date": "2026-09-19",
-      "rank": 671
-    },
-    {
       "date": "2026-09-20",
       "rank": 691
     },
@@ -124,18 +120,22 @@
     },
     {
       "date": "2026-10-19",
-      "rank": 107
+      "rank": 94
     },
     {
       "date": "2026-10-20",
-      "rank": 88,
-      "price": 76.11,
-      "change_pct": 10.0014
+      "rank": 42
+    },
+    {
+      "date": "2026-10-21",
+      "rank": 37,
+      "price": 83.72,
+      "change_pct": 9.9987
     }
   ],
   "continuous_days": 32,
   "monthly_count": 32,
-  "avg_rank": 753.9,
-  "best_rank": 88,
+  "avg_rank": 732.2,
+  "best_rank": 37,
   "trend": "stable"
 }

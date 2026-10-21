@@ -3,10 +3,6 @@
   "name": "冰山冷热",
   "history": [
     {
-      "date": "2026-09-19",
-      "rank": 636
-    },
-    {
       "date": "2026-09-20",
       "rank": 1395
     },
@@ -84,14 +80,18 @@
     },
     {
       "date": "2026-10-20",
-      "rank": 7,
-      "price": 8.17,
-      "change_pct": 4.7436
+      "rank": 4
+    },
+    {
+      "date": "2026-10-21",
+      "rank": 4,
+      "price": 8.63,
+      "change_pct": 5.6304
     }
   ],
   "continuous_days": 21,
   "monthly_count": 21,
-  "avg_rank": 930.8,
+  "avg_rank": 900.6,
   "best_rank": 2,
   "trend": "stable"
 }

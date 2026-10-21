@@ -3,10 +3,6 @@
   "name": "京城股份",
   "history": [
     {
-      "date": "2026-09-19",
-      "rank": 1004
-    },
-    {
       "date": "2026-09-20",
       "rank": 1491
     },
@@ -28,18 +24,22 @@
     },
     {
       "date": "2026-10-19",
-      "rank": 52
+      "rank": 48
     },
     {
       "date": "2026-10-20",
-      "rank": 33,
-      "price": 9.57,
-      "change_pct": 10.0
+      "rank": 62
+    },
+    {
+      "date": "2026-10-21",
+      "rank": 73,
+      "price": 8.85,
+      "change_pct": -7.5235
     }
   ],
   "continuous_days": 8,
   "monthly_count": 8,
-  "avg_rank": 435.1,
-  "best_rank": 33,
+  "avg_rank": 321.9,
+  "best_rank": 48,
   "trend": "stable"
 }

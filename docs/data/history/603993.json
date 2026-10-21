@@ -3,10 +3,6 @@
   "name": "洛阳钼业",
   "history": [
     {
-      "date": "2026-09-19",
-      "rank": 283
-    },
-    {
       "date": "2026-09-20",
       "rank": 218
     },
@@ -124,18 +120,22 @@
     },
     {
       "date": "2026-10-19",
-      "rank": 32
+      "rank": 28
     },
     {
       "date": "2026-10-20",
-      "rank": 39,
-      "price": 14.35,
-      "change_pct": -6.9994
+      "rank": 63
+    },
+    {
+      "date": "2026-10-21",
+      "rank": 66,
+      "price": 14.15,
+      "change_pct": -1.3937
     }
   ],
   "continuous_days": 32,
   "monthly_count": 32,
-  "avg_rank": 180.4,
-  "best_rank": 32,
+  "avg_rank": 174.2,
+  "best_rank": 28,
   "trend": "stable"
 }
