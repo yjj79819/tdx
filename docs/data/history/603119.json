@@ -3,14 +3,6 @@
   "name": "浙江荣泰",
   "history": [
     {
-      "date": "2026-09-19",
-      "rank": 870
-    },
-    {
-      "date": "2026-09-20",
-      "rank": 759
-    },
-    {
       "date": "2026-09-21",
       "rank": 1046
     },
@@ -124,18 +116,26 @@
     },
     {
       "date": "2026-10-19",
-      "rank": 131
+      "rank": 122
     },
     {
       "date": "2026-10-20",
-      "rank": 84,
-      "price": 50.46,
-      "change_pct": 10.0065
+      "rank": 244
+    },
+    {
+      "date": "2026-10-21",
+      "rank": 165
+    },
+    {
+      "date": "2026-10-22",
+      "rank": 71,
+      "price": 53.9,
+      "change_pct": 4.7009
     }
   ],
   "continuous_days": 32,
   "monthly_count": 32,
-  "avg_rank": 1214.7,
-  "best_rank": 84,
+  "avg_rank": 1175.9,
+  "best_rank": 71,
   "trend": "stable"
 }

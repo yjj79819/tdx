@@ -3,10 +3,6 @@
   "name": "郑中设计",
   "history": [
     {
-      "date": "2026-09-20",
-      "rank": 1301
-    },
-    {
       "date": "2026-09-21",
       "rank": 1561
     },
@@ -116,18 +112,22 @@
     },
     {
       "date": "2026-10-20",
-      "rank": 171
+      "rank": 148
     },
     {
       "date": "2026-10-21",
-      "rank": 88,
-      "price": 24.16,
-      "change_pct": 10.0182
+      "rank": 132
+    },
+    {
+      "date": "2026-10-22",
+      "rank": 83,
+      "price": 24.65,
+      "change_pct": 2.0281
     }
   ],
   "continuous_days": 30,
   "monthly_count": 30,
-  "avg_rank": 961.5,
-  "best_rank": 88,
+  "avg_rank": 921.6,
+  "best_rank": 83,
   "trend": "stable"
 }

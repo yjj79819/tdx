@@ -3,10 +3,6 @@
   "name": "新华文轩",
   "history": [
     {
-      "date": "2026-09-20",
-      "rank": 50
-    },
-    {
       "date": "2026-09-21",
       "rank": 49
     },
@@ -128,14 +124,18 @@
     },
     {
       "date": "2026-10-21",
-      "rank": 23,
-      "price": 22.6,
-      "change_pct": -1.6964
+      "rank": 21
+    },
+    {
+      "date": "2026-10-22",
+      "rank": 36,
+      "price": 21.35,
+      "change_pct": -5.531
     }
   ],
   "continuous_days": 32,
   "monthly_count": 32,
-  "avg_rank": 19.3,
+  "avg_rank": 18.8,
   "best_rank": 1,
   "trend": "stable"
 }

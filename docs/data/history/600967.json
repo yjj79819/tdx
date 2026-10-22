@@ -3,14 +3,6 @@
   "name": "内蒙一机",
   "history": [
     {
-      "date": "2026-09-19",
-      "rank": 303
-    },
-    {
-      "date": "2026-09-20",
-      "rank": 209
-    },
-    {
       "date": "2026-09-21",
       "rank": 290
     },
@@ -124,18 +116,26 @@
     },
     {
       "date": "2026-10-19",
-      "rank": 96
+      "rank": 106
     },
     {
       "date": "2026-10-20",
-      "rank": 83,
-      "price": 13.74,
-      "change_pct": -5.2414
+      "rank": 162
+    },
+    {
+      "date": "2026-10-21",
+      "rank": 61
+    },
+    {
+      "date": "2026-10-22",
+      "rank": 51,
+      "price": 14.15,
+      "change_pct": 4.5052
     }
   ],
   "continuous_days": 32,
   "monthly_count": 32,
-  "avg_rank": 308.3,
-  "best_rank": 56,
+  "avg_rank": 298.6,
+  "best_rank": 51,
   "trend": "stable"
 }

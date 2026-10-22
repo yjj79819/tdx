@@ -3,10 +3,6 @@
   "name": "东百集团",
   "history": [
     {
-      "date": "2026-09-20",
-      "rank": 273
-    },
-    {
       "date": "2026-09-21",
       "rank": 434
     },
@@ -124,18 +120,22 @@
     },
     {
       "date": "2026-10-20",
-      "rank": 82
+      "rank": 85
     },
     {
       "date": "2026-10-21",
-      "rank": 41,
-      "price": 8.97,
-      "change_pct": 2.2805
+      "rank": 141
+    },
+    {
+      "date": "2026-10-22",
+      "rank": 84,
+      "price": 8.38,
+      "change_pct": -6.5775
     }
   ],
   "continuous_days": 32,
   "monthly_count": 32,
-  "avg_rank": 268.7,
+  "avg_rank": 266.0,
   "best_rank": 2,
   "trend": "stable"
 }
