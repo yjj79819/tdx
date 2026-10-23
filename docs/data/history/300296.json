@@ -3,10 +3,6 @@
   "name": "利亚德",
   "history": [
     {
-      "date": "2026-09-21",
-      "rank": 1504
-    },
-    {
       "date": "2026-09-22",
       "rank": 1647
     },
@@ -92,18 +88,22 @@
     },
     {
       "date": "2026-10-21",
-      "rank": 27
+      "rank": 32
     },
     {
       "date": "2026-10-22",
-      "rank": 49,
-      "price": 6.1,
-      "change_pct": 8.3481
+      "rank": 28
+    },
+    {
+      "date": "2026-10-23",
+      "rank": 78,
+      "price": 7.32,
+      "change_pct": 20.0
     }
   ],
   "continuous_days": 24,
   "monthly_count": 24,
-  "avg_rank": 1496.5,
-  "best_rank": 27,
+  "avg_rank": 1436.4,
+  "best_rank": 28,
   "trend": "stable"
 }

@@ -3,10 +3,6 @@
   "name": "长盈精密",
   "history": [
     {
-      "date": "2026-09-21",
-      "rank": 834
-    },
-    {
       "date": "2026-09-22",
       "rank": 920
     },
@@ -124,18 +120,22 @@
     },
     {
       "date": "2026-10-21",
-      "rank": 67
+      "rank": 71
     },
     {
       "date": "2026-10-22",
-      "rank": 86,
-      "price": 25.78,
-      "change_pct": -2.3855
+      "rank": 33
+    },
+    {
+      "date": "2026-10-23",
+      "rank": 81,
+      "price": 29.6,
+      "change_pct": 14.8177
     }
   ],
   "continuous_days": 32,
   "monthly_count": 32,
-  "avg_rank": 787.8,
+  "avg_rank": 762.8,
   "best_rank": 20,
   "trend": "stable"
 }

@@ -3,10 +3,6 @@
   "name": "出版传媒",
   "history": [
     {
-      "date": "2026-09-21",
-      "rank": 674
-    },
-    {
       "date": "2026-09-22",
       "rank": 933
     },
@@ -120,18 +116,22 @@
     },
     {
       "date": "2026-10-21",
-      "rank": 51
+      "rank": 47
     },
     {
       "date": "2026-10-22",
-      "rank": 33,
-      "price": 8.58,
-      "change_pct": 10.0
+      "rank": 92
+    },
+    {
+      "date": "2026-10-23",
+      "rank": 95,
+      "price": 7.95,
+      "change_pct": -7.3427
     }
   ],
   "continuous_days": 31,
   "monthly_count": 31,
-  "avg_rank": 932.1,
-  "best_rank": 33,
+  "avg_rank": 915.2,
+  "best_rank": 47,
   "trend": "stable"
 }

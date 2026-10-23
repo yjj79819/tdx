@@ -3,10 +3,6 @@
   "name": "澳弘电子",
   "history": [
     {
-      "date": "2026-09-21",
-      "rank": 40
-    },
-    {
       "date": "2026-09-22",
       "rank": 24
     },
@@ -124,18 +120,22 @@
     },
     {
       "date": "2026-10-21",
-      "rank": 46
+      "rank": 49
     },
     {
       "date": "2026-10-22",
+      "rank": 67
+    },
+    {
+      "date": "2026-10-23",
       "rank": 34,
-      "price": 65.3,
-      "change_pct": -2.8129
+      "price": 59.96,
+      "change_pct": -8.1776
     }
   ],
   "continuous_days": 32,
   "monthly_count": 32,
-  "avg_rank": 45.0,
+  "avg_rank": 45.9,
   "best_rank": 9,
   "trend": "stable"
 }

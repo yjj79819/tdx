@@ -3,10 +3,6 @@
   "name": "慈文传媒",
   "history": [
     {
-      "date": "2026-09-21",
-      "rank": 1937
-    },
-    {
       "date": "2026-09-26",
       "rank": 1928
     },
@@ -64,18 +60,22 @@
     },
     {
       "date": "2026-10-21",
-      "rank": 28
+      "rank": 30
     },
     {
       "date": "2026-10-22",
-      "rank": 35,
-      "price": 9.9,
-      "change_pct": -6.1611
+      "rank": 13
+    },
+    {
+      "date": "2026-10-23",
+      "rank": 3,
+      "price": 10.89,
+      "change_pct": 10.0
     }
   ],
   "continuous_days": 17,
   "monthly_count": 17,
-  "avg_rank": 324.4,
-  "best_rank": 7,
+  "avg_rank": 209.4,
+  "best_rank": 3,
   "trend": "stable"
 }

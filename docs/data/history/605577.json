@@ -3,10 +3,6 @@
   "name": "龙版传媒",
   "history": [
     {
-      "date": "2026-09-21",
-      "rank": 55
-    },
-    {
       "date": "2026-09-22",
       "rank": 77
     },
@@ -124,18 +120,22 @@
     },
     {
       "date": "2026-10-21",
-      "rank": 74
+      "rank": 81
     },
     {
       "date": "2026-10-22",
-      "rank": 77,
-      "price": 15.03,
-      "change_pct": -10.0
+      "rank": 145
+    },
+    {
+      "date": "2026-10-23",
+      "rank": 70,
+      "price": 14.04,
+      "change_pct": -6.5868
     }
   ],
   "continuous_days": 32,
   "monthly_count": 32,
-  "avg_rank": 54.8,
+  "avg_rank": 57.7,
   "best_rank": 1,
   "trend": "stable"
 }

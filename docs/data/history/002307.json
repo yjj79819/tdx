@@ -1,0 +1,37 @@
+{
+  "code": "002307",
+  "name": "北新路桥",
+  "history": [
+    {
+      "date": "2026-10-11",
+      "rank": 1437
+    },
+    {
+      "date": "2026-10-12",
+      "rank": 1989
+    },
+    {
+      "date": "2026-10-20",
+      "rank": 1864
+    },
+    {
+      "date": "2026-10-21",
+      "rank": 169
+    },
+    {
+      "date": "2026-10-22",
+      "rank": 71
+    },
+    {
+      "date": "2026-10-23",
+      "rank": 33,
+      "price": 3.46,
+      "change_pct": 2.0649
+    }
+  ],
+  "continuous_days": 6,
+  "monthly_count": 6,
+  "avg_rank": 927.2,
+  "best_rank": 33,
+  "trend": "stable"
+}

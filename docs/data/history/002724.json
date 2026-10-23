@@ -3,10 +3,6 @@
   "name": "海洋王",
   "history": [
     {
-      "date": "2026-09-21",
-      "rank": 576
-    },
-    {
       "date": "2026-09-22",
       "rank": 880
     },
@@ -128,14 +124,18 @@
     },
     {
       "date": "2026-10-22",
-      "rank": 14,
-      "price": 11.21,
-      "change_pct": 10.0098
+      "rank": 9
+    },
+    {
+      "date": "2026-10-23",
+      "rank": 11,
+      "price": 12.33,
+      "change_pct": 9.9911
     }
   ],
   "continuous_days": 32,
   "monthly_count": 32,
-  "avg_rank": 656.2,
+  "avg_rank": 638.3,
   "best_rank": 9,
   "trend": "stable"
 }

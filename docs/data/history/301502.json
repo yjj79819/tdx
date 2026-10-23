@@ -1,0 +1,29 @@
+{
+  "code": "301502",
+  "name": "华阳智能",
+  "history": [
+    {
+      "date": "2026-10-19",
+      "rank": 1852
+    },
+    {
+      "date": "2026-10-21",
+      "rank": 171
+    },
+    {
+      "date": "2026-10-22",
+      "rank": 87
+    },
+    {
+      "date": "2026-10-23",
+      "rank": 60,
+      "price": 64.8,
+      "change_pct": 20.0
+    }
+  ],
+  "continuous_days": 4,
+  "monthly_count": 4,
+  "avg_rank": 542.5,
+  "best_rank": 60,
+  "trend": "stable"
+}

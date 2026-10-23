@@ -3,10 +3,6 @@
   "name": "三峡新材",
   "history": [
     {
-      "date": "2026-09-21",
-      "rank": 954
-    },
-    {
       "date": "2026-09-22",
       "rank": 179
     },
@@ -124,18 +120,22 @@
     },
     {
       "date": "2026-10-21",
-      "rank": 32
+      "rank": 34
     },
     {
       "date": "2026-10-22",
-      "rank": 37,
-      "price": 5.23,
-      "change_pct": 10.1053
+      "rank": 14
+    },
+    {
+      "date": "2026-10-23",
+      "rank": 5,
+      "price": 4.91,
+      "change_pct": -6.1185
     }
   ],
   "continuous_days": 32,
   "monthly_count": 32,
-  "avg_rank": 386.4,
-  "best_rank": 30,
+  "avg_rank": 356.1,
+  "best_rank": 5,
   "trend": "stable"
 }
