@@ -1,0 +1,29 @@
+{
+  "code": "603933",
+  "name": "睿能科技",
+  "history": [
+    {
+      "date": "2026-10-21",
+      "rank": 516
+    },
+    {
+      "date": "2026-10-22",
+      "rank": 198
+    },
+    {
+      "date": "2026-10-23",
+      "rank": 47
+    },
+    {
+      "date": "2026-10-24",
+      "rank": 34,
+      "price": 20.94,
+      "change_pct": 9.979
+    }
+  ],
+  "continuous_days": 4,
+  "monthly_count": 4,
+  "avg_rank": 198.8,
+  "best_rank": 34,
+  "trend": "stable"
+}

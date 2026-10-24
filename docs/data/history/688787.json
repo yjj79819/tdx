@@ -1,0 +1,41 @@
+{
+  "code": "688787",
+  "name": "海天瑞声",
+  "history": [
+    {
+      "date": "2026-10-18",
+      "rank": 1280
+    },
+    {
+      "date": "2026-10-19",
+      "rank": 485
+    },
+    {
+      "date": "2026-10-20",
+      "rank": 319
+    },
+    {
+      "date": "2026-10-21",
+      "rank": 462
+    },
+    {
+      "date": "2026-10-22",
+      "rank": 222
+    },
+    {
+      "date": "2026-10-23",
+      "rank": 66
+    },
+    {
+      "date": "2026-10-24",
+      "rank": 91,
+      "price": 141.0,
+      "change_pct": 20.0
+    }
+  ],
+  "continuous_days": 7,
+  "monthly_count": 7,
+  "avg_rank": 417.9,
+  "best_rank": 66,
+  "trend": "stable"
+}

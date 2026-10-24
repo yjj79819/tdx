@@ -1,0 +1,25 @@
+{
+  "code": "603081",
+  "name": "大丰实业",
+  "history": [
+    {
+      "date": "2026-10-22",
+      "rank": 610
+    },
+    {
+      "date": "2026-10-23",
+      "rank": 136
+    },
+    {
+      "date": "2026-10-24",
+      "rank": 62,
+      "price": 10.65,
+      "change_pct": 10.0207
+    }
+  ],
+  "continuous_days": 3,
+  "monthly_count": 3,
+  "avg_rank": 269.3,
+  "best_rank": 62,
+  "trend": "stable"
+}
