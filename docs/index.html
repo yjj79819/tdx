@@ -566,7 +566,7 @@
             } else if (tab === 'review') {
                 if (!data || data.length === 0) { content.innerHTML = '<div class="loading">暂无复盘数据</div>'; return; }
                 var html = '<div style="margin-bottom:16px"><h3 style="color:var(--accent-primary);margin-bottom:8px">📋 每日复盘</h3>';
-                data.forEach(function(review) {
+                data.slice().reverse().forEach(function(review) { // 最新复盘排最前
                     html += '<div style="background:var(--bg-card);border-radius:8px;padding:15px;margin-bottom:15px;">';
                     html += '<div style="display:flex;justify-content:space-between;align-items:center;margin-bottom:10px;">';
                     html += '<h4 style="color:var(--accent-primary)">' + review.review_date + ' 复盘</h4>';
