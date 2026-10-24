@@ -69,6 +69,8 @@ jobs:
           git config --local user.email "github-actions[bot]@users.noreply.github.com"
           git config --local user.name "github-actions[bot]"
           git commit -m "chore(data): 更新热度排名数据 $(date +'%Y-%m-%d %H:%M')"
+          # 股价工作流每5分钟也在push，先rebase远端防 fetch-first 冲突
+          git pull --rebase origin ${GITHUB_REF_NAME}
           git push
 
       - name: 部署 Pages
