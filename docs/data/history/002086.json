@@ -48,7 +48,7 @@
     },
     {
       "date": "2026-10-23",
-      "rank": 241
+      "rank": 232
     },
     {
       "date": "2026-10-24",
@@ -59,7 +59,7 @@
   ],
   "continuous_days": 13,
   "monthly_count": 13,
-  "avg_rank": 673.7,
+  "avg_rank": 673.0,
   "best_rank": 99,
   "trend": "stable"
 }

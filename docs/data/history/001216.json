@@ -3,10 +3,6 @@
   "name": "华瓷股份",
   "history": [
     {
-      "date": "2026-09-23",
-      "rank": 19
-    },
-    {
       "date": "2026-09-24",
       "rank": 26
     },
@@ -133,9 +129,9 @@
       "change_pct": 10.0156
     }
   ],
-  "continuous_days": 32,
-  "monthly_count": 32,
-  "avg_rank": 50.5,
+  "continuous_days": 31,
+  "monthly_count": 31,
+  "avg_rank": 51.5,
   "best_rank": 16,
   "trend": "stable"
 }
