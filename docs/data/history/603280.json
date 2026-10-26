@@ -3,10 +3,6 @@
   "name": "南方路机",
   "history": [
     {
-      "date": "2026-09-24",
-      "rank": 615
-    },
-    {
       "date": "2026-09-25",
       "rank": 575
     },
@@ -68,14 +64,22 @@
     },
     {
       "date": "2026-10-24",
-      "rank": 45,
-      "price": 31.97,
-      "change_pct": 10.0138
+      "rank": 52
+    },
+    {
+      "date": "2026-10-25",
+      "rank": 111
+    },
+    {
+      "date": "2026-10-26",
+      "rank": 69,
+      "price": 33.04,
+      "change_pct": 3.3469
     }
   ],
-  "continuous_days": 17,
-  "monthly_count": 17,
-  "avg_rank": 1197.1,
-  "best_rank": 45,
+  "continuous_days": 18,
+  "monthly_count": 18,
+  "avg_rank": 1106.8,
+  "best_rank": 52,
   "trend": "stable"
 }

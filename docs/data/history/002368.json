@@ -3,10 +3,6 @@
   "name": "太极股份",
   "history": [
     {
-      "date": "2026-09-24",
-      "rank": 1880
-    },
-    {
       "date": "2026-09-25",
       "rank": 1906
     },
@@ -40,18 +36,34 @@
     },
     {
       "date": "2026-10-21",
-      "rank": 36
+      "rank": 40
     },
     {
       "date": "2026-10-22",
-      "rank": 18,
-      "price": 15.33,
-      "change_pct": 4.499
+      "rank": 157
+    },
+    {
+      "date": "2026-10-23",
+      "rank": 215
+    },
+    {
+      "date": "2026-10-24",
+      "rank": 198
+    },
+    {
+      "date": "2026-10-25",
+      "rank": 151
+    },
+    {
+      "date": "2026-10-26",
+      "rank": 64,
+      "price": 14.76,
+      "change_pct": 1.7229
     }
   ],
-  "continuous_days": 11,
-  "monthly_count": 11,
-  "avg_rank": 1027.6,
-  "best_rank": 18,
+  "continuous_days": 14,
+  "monthly_count": 14,
+  "avg_rank": 728.2,
+  "best_rank": 40,
   "trend": "stable"
 }

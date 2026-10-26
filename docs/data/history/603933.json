@@ -16,14 +16,22 @@
     },
     {
       "date": "2026-10-24",
-      "rank": 34,
-      "price": 20.94,
-      "change_pct": 9.979
+      "rank": 34
+    },
+    {
+      "date": "2026-10-25",
+      "rank": 89
+    },
+    {
+      "date": "2026-10-26",
+      "rank": 79,
+      "price": 20.37,
+      "change_pct": -2.7221
     }
   ],
-  "continuous_days": 4,
-  "monthly_count": 4,
-  "avg_rank": 198.8,
+  "continuous_days": 6,
+  "monthly_count": 6,
+  "avg_rank": 160.5,
   "best_rank": 34,
   "trend": "stable"
 }

@@ -3,10 +3,6 @@
   "name": "东安动力",
   "history": [
     {
-      "date": "2026-09-24",
-      "rank": 1308
-    },
-    {
       "date": "2026-09-25",
       "rank": 1323
     },
@@ -108,14 +104,22 @@
     },
     {
       "date": "2026-10-24",
-      "rank": 66,
-      "price": 11.54,
-      "change_pct": -6.1025
+      "rank": 88
+    },
+    {
+      "date": "2026-10-25",
+      "rank": 90
+    },
+    {
+      "date": "2026-10-26",
+      "rank": 72,
+      "price": 10.39,
+      "change_pct": -9.9653
     }
   ],
-  "continuous_days": 27,
-  "monthly_count": 27,
-  "avg_rank": 914.2,
+  "continuous_days": 28,
+  "monthly_count": 28,
+  "avg_rank": 841.4,
   "best_rank": 14,
   "trend": "stable"
 }

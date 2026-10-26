@@ -3,10 +3,6 @@
   "name": "中广天择",
   "history": [
     {
-      "date": "2026-09-24",
-      "rank": 1562
-    },
-    {
       "date": "2026-09-25",
       "rank": 1660
     },
@@ -120,14 +116,22 @@
     },
     {
       "date": "2026-10-24",
-      "rank": 82,
-      "price": 21.77,
-      "change_pct": 10.0051
+      "rank": 79
+    },
+    {
+      "date": "2026-10-25",
+      "rank": 109
+    },
+    {
+      "date": "2026-10-26",
+      "rank": 53,
+      "price": 21.6,
+      "change_pct": -0.7809
     }
   ],
-  "continuous_days": 30,
-  "monthly_count": 30,
-  "avg_rank": 1161.8,
-  "best_rank": 79,
+  "continuous_days": 31,
+  "monthly_count": 31,
+  "avg_rank": 1079.1,
+  "best_rank": 53,
   "trend": "stable"
 }

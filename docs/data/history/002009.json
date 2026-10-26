@@ -3,10 +3,6 @@
   "name": "天奇股份",
   "history": [
     {
-      "date": "2026-09-24",
-      "rank": 1811
-    },
-    {
       "date": "2026-09-25",
       "rank": 1993
     },
@@ -124,14 +120,22 @@
     },
     {
       "date": "2026-10-24",
-      "rank": 48,
-      "price": 17.3,
-      "change_pct": 9.9809
+      "rank": 39
+    },
+    {
+      "date": "2026-10-25",
+      "rank": 35
+    },
+    {
+      "date": "2026-10-26",
+      "rank": 32,
+      "price": 17.17,
+      "change_pct": -0.7514
     }
   ],
-  "continuous_days": 31,
-  "monthly_count": 31,
-  "avg_rank": 1355.5,
-  "best_rank": 48,
+  "continuous_days": 32,
+  "monthly_count": 32,
+  "avg_rank": 1258.4,
+  "best_rank": 32,
   "trend": "stable"
 }

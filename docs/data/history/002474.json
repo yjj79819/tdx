@@ -3,10 +3,6 @@
   "name": "榕基软件",
   "history": [
     {
-      "date": "2026-09-24",
-      "rank": 1793
-    },
-    {
       "date": "2026-09-25",
       "rank": 1834
     },
@@ -120,14 +116,22 @@
     },
     {
       "date": "2026-10-24",
-      "rank": 41,
-      "price": 7.11,
-      "change_pct": 10.0619
+      "rank": 31
+    },
+    {
+      "date": "2026-10-25",
+      "rank": 41
+    },
+    {
+      "date": "2026-10-26",
+      "rank": 48,
+      "price": 7.01,
+      "change_pct": -1.4065
     }
   ],
-  "continuous_days": 30,
-  "monthly_count": 30,
-  "avg_rank": 1152.7,
-  "best_rank": 41,
+  "continuous_days": 31,
+  "monthly_count": 31,
+  "avg_rank": 1060.3,
+  "best_rank": 31,
   "trend": "stable"
 }
