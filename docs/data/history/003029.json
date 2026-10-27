@@ -3,10 +3,6 @@
   "name": "吉大正元",
   "history": [
     {
-      "date": "2026-09-25",
-      "rank": 1954
-    },
-    {
       "date": "2026-09-26",
       "rank": 1627
     },
@@ -80,18 +76,22 @@
     },
     {
       "date": "2026-10-25",
-      "rank": 92
+      "rank": 90
     },
     {
       "date": "2026-10-26",
-      "rank": 43,
-      "price": 20.75,
-      "change_pct": -9.9783
+      "rank": 107
+    },
+    {
+      "date": "2026-10-27",
+      "rank": 81,
+      "price": 18.81,
+      "change_pct": -9.3494
     }
   ],
   "continuous_days": 21,
   "monthly_count": 21,
-  "avg_rank": 632.7,
+  "avg_rank": 546.4,
   "best_rank": 7,
   "trend": "stable"
 }

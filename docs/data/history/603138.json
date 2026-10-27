@@ -3,10 +3,6 @@
   "name": "海量数据",
   "history": [
     {
-      "date": "2026-09-25",
-      "rank": 692
-    },
-    {
       "date": "2026-09-26",
       "rank": 701
     },
@@ -124,18 +120,22 @@
     },
     {
       "date": "2026-10-25",
-      "rank": 74
+      "rank": 65
     },
     {
       "date": "2026-10-26",
-      "rank": 57,
-      "price": 17.0,
-      "change_pct": 10.0324
+      "rank": 50
+    },
+    {
+      "date": "2026-10-27",
+      "rank": 40,
+      "price": 16.71,
+      "change_pct": -1.7059
     }
   ],
   "continuous_days": 32,
   "monthly_count": 32,
-  "avg_rank": 719.3,
-  "best_rank": 45,
+  "avg_rank": 698.4,
+  "best_rank": 40,
   "trend": "stable"
 }
