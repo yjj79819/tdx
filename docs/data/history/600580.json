@@ -3,10 +3,6 @@
   "name": "卧龙电驱",
   "history": [
     {
-      "date": "2026-09-26",
-      "rank": 567
-    },
-    {
       "date": "2026-09-27",
       "rank": 423
     },
@@ -124,18 +120,22 @@
     },
     {
       "date": "2026-10-26",
-      "rank": 124
+      "rank": 127
     },
     {
       "date": "2026-10-27",
-      "rank": 87,
-      "price": 25.25,
-      "change_pct": -2.1697
+      "rank": 70
+    },
+    {
+      "date": "2026-10-28",
+      "rank": 48,
+      "price": 26.41,
+      "change_pct": 4.5941
     }
   ],
   "continuous_days": 32,
   "monthly_count": 32,
-  "avg_rank": 399.5,
-  "best_rank": 87,
+  "avg_rank": 382.8,
+  "best_rank": 48,
   "trend": "stable"
 }

@@ -1,0 +1,29 @@
+{
+  "code": "001219",
+  "name": "青岛食品",
+  "history": [
+    {
+      "date": "2026-10-25",
+      "rank": 412
+    },
+    {
+      "date": "2026-10-26",
+      "rank": 119
+    },
+    {
+      "date": "2026-10-27",
+      "rank": 80
+    },
+    {
+      "date": "2026-10-28",
+      "rank": 83,
+      "price": 16.48,
+      "change_pct": 10.0134
+    }
+  ],
+  "continuous_days": 4,
+  "monthly_count": 4,
+  "avg_rank": 173.5,
+  "best_rank": 80,
+  "trend": "stable"
+}

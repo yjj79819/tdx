@@ -3,10 +3,6 @@
   "name": "模塑科技",
   "history": [
     {
-      "date": "2026-09-26",
-      "rank": 413
-    },
-    {
       "date": "2026-09-27",
       "rank": 713
     },
@@ -124,18 +120,22 @@
     },
     {
       "date": "2026-10-26",
-      "rank": 56
+      "rank": 64
     },
     {
       "date": "2026-10-27",
-      "rank": 44,
-      "price": 13.58,
-      "change_pct": 3.9021
+      "rank": 88
+    },
+    {
+      "date": "2026-10-28",
+      "rank": 61,
+      "price": 14.32,
+      "change_pct": 5.4492
     }
   ],
   "continuous_days": 32,
   "monthly_count": 32,
-  "avg_rank": 679.4,
-  "best_rank": 44,
+  "avg_rank": 670.1,
+  "best_rank": 61,
   "trend": "stable"
 }

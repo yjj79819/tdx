@@ -3,14 +3,6 @@
   "name": "兆威机电",
   "history": [
     {
-      "date": "2026-09-25",
-      "rank": 1777
-    },
-    {
-      "date": "2026-09-26",
-      "rank": 1068
-    },
-    {
       "date": "2026-09-27",
       "rank": 1754
     },
@@ -96,18 +88,26 @@
     },
     {
       "date": "2026-10-25",
-      "rank": 29
+      "rank": 33
     },
     {
       "date": "2026-10-26",
-      "rank": 37,
-      "price": 96.26,
-      "change_pct": 4.9384
+      "rank": 122
+    },
+    {
+      "date": "2026-10-27",
+      "rank": 50
+    },
+    {
+      "date": "2026-10-28",
+      "rank": 75,
+      "price": 97.41,
+      "change_pct": 5.3081
     }
   ],
   "continuous_days": 25,
   "monthly_count": 25,
-  "avg_rank": 1007.7,
+  "avg_rank": 902.4,
   "best_rank": 17,
   "trend": "stable"
 }
