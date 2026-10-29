@@ -3,10 +3,6 @@
   "name": "宁波东力",
   "history": [
     {
-      "date": "2026-09-27",
-      "rank": 293
-    },
-    {
       "date": "2026-09-28",
       "rank": 579
     },
@@ -124,18 +120,22 @@
     },
     {
       "date": "2026-10-27",
-      "rank": 76
+      "rank": 67
     },
     {
       "date": "2026-10-28",
-      "rank": 38,
-      "price": 16.9,
-      "change_pct": 10.026
+      "rank": 38
+    },
+    {
+      "date": "2026-10-29",
+      "rank": 21,
+      "price": 17.99,
+      "change_pct": 6.4497
     }
   ],
   "continuous_days": 32,
   "monthly_count": 32,
-  "avg_rank": 231.0,
-  "best_rank": 38,
+  "avg_rank": 222.2,
+  "best_rank": 21,
   "trend": "stable"
 }

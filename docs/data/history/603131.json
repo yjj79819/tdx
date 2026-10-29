@@ -1,0 +1,37 @@
+{
+  "code": "603131",
+  "name": "上海沪工",
+  "history": [
+    {
+      "date": "2026-10-20",
+      "rank": 1576
+    },
+    {
+      "date": "2026-10-21",
+      "rank": 1740
+    },
+    {
+      "date": "2026-10-26",
+      "rank": 1976
+    },
+    {
+      "date": "2026-10-27",
+      "rank": 469
+    },
+    {
+      "date": "2026-10-28",
+      "rank": 61
+    },
+    {
+      "date": "2026-10-29",
+      "rank": 60,
+      "price": 15.95,
+      "change_pct": 10.0
+    }
+  ],
+  "continuous_days": 6,
+  "monthly_count": 6,
+  "avg_rank": 980.3,
+  "best_rank": 60,
+  "trend": "stable"
+}

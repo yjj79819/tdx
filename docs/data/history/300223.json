@@ -3,10 +3,6 @@
   "name": "君正股份",
   "history": [
     {
-      "date": "2026-09-27",
-      "rank": 308
-    },
-    {
       "date": "2026-09-28",
       "rank": 298
     },
@@ -128,14 +124,18 @@
     },
     {
       "date": "2026-10-28",
-      "rank": 25,
-      "price": 111.98,
-      "change_pct": 18.3721
+      "rank": 39
+    },
+    {
+      "date": "2026-10-29",
+      "rank": 69,
+      "price": 111.65,
+      "change_pct": -0.2947
     }
   ],
   "continuous_days": 32,
   "monthly_count": 32,
-  "avg_rank": 325.2,
+  "avg_rank": 318.2,
   "best_rank": 15,
   "trend": "stable"
 }
