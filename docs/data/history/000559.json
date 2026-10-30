@@ -3,10 +3,6 @@
   "name": "万向钱潮",
   "history": [
     {
-      "date": "2026-09-28",
-      "rank": 435
-    },
-    {
       "date": "2026-09-29",
       "rank": 280
     },
@@ -124,18 +120,22 @@
     },
     {
       "date": "2026-10-28",
-      "rank": 18
+      "rank": 20
     },
     {
       "date": "2026-10-29",
-      "rank": 13,
-      "price": 13.02,
-      "change_pct": -1.214
+      "rank": 47
+    },
+    {
+      "date": "2026-10-30",
+      "rank": 41,
+      "price": 12.6,
+      "change_pct": -3.2258
     }
   ],
   "continuous_days": 32,
   "monthly_count": 32,
-  "avg_rank": 362.1,
-  "best_rank": 13,
+  "avg_rank": 350.9,
+  "best_rank": 16,
   "trend": "stable"
 }

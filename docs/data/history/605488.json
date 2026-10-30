@@ -3,10 +3,6 @@
   "name": "福莱新材",
   "history": [
     {
-      "date": "2026-09-28",
-      "rank": 1583
-    },
-    {
       "date": "2026-09-29",
       "rank": 1562
     },
@@ -52,18 +48,22 @@
     },
     {
       "date": "2026-10-28",
-      "rank": 52
+      "rank": 59
     },
     {
       "date": "2026-10-29",
-      "rank": 66,
-      "price": 47.65,
-      "change_pct": -1.9749
+      "rank": 99
+    },
+    {
+      "date": "2026-10-30",
+      "rank": 81,
+      "price": 46.8,
+      "change_pct": -1.7838
     }
   ],
   "continuous_days": 14,
   "monthly_count": 14,
-  "avg_rank": 306.6,
+  "avg_rank": 202.1,
   "best_rank": 24,
   "trend": "stable"
 }
