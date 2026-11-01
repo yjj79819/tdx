@@ -69,9 +69,20 @@ jobs:
           git config --local user.email "github-actions[bot]@users.noreply.github.com"
           git config --local user.name "github-actions[bot]"
           git commit -m "chore(data): 更新热度排名数据 $(date +'%Y-%m-%d %H:%M')"
-          # 股价工作流每5分钟也在push，先rebase远端防 fetch-first 冲突
-          git pull --rebase origin ${GITHUB_REF_NAME}
-          git push
+          # 定时触发的 checkout 拿到的是「入队那一刻」的 SHA（GitHub 定时任务常延迟 10-50min），
+          # 本作业跑完时远端已被 update_prices 推送过；直接 rebase 会在同一文件 content conflict。
+          # 注意：rebase 语义下 -X theirs 的 theirs = 本次提交，ours = 上游新 tip（与 merge 相反），
+          #       写成 ours 会把刚生成的数据退回旧值。
+          for i in 1 2 3 4 5; do
+            if git pull --rebase -X theirs origin "${GITHUB_REF_NAME}" && git push; then
+              echo "pushed (attempt $i)"
+              exit 0
+            fi
+            git rebase --abort || true
+            sleep $((i * 5))
+          done
+          echo "::error::push failed after 5 attempts"
+          exit 1
 
       - name: 部署 Pages
         uses: actions/configure-pages@v4
