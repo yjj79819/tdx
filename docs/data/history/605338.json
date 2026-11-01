@@ -1,0 +1,33 @@
+{
+  "code": "605338",
+  "name": "巴比食品",
+  "history": [
+    {
+      "date": "2026-10-28",
+      "rank": 488
+    },
+    {
+      "date": "2026-10-29",
+      "rank": 285
+    },
+    {
+      "date": "2026-10-30",
+      "rank": 89
+    },
+    {
+      "date": "2026-10-31",
+      "rank": 69
+    },
+    {
+      "date": "2026-11-01",
+      "rank": 38,
+      "price": 20.88,
+      "change_pct": 10.0105
+    }
+  ],
+  "continuous_days": 5,
+  "monthly_count": 5,
+  "avg_rank": 193.8,
+  "best_rank": 38,
+  "trend": "stable"
+}

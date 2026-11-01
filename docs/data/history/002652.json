@@ -1,0 +1,29 @@
+{
+  "code": "002652",
+  "name": "扬子新材",
+  "history": [
+    {
+      "date": "2026-10-29",
+      "rank": 563
+    },
+    {
+      "date": "2026-10-30",
+      "rank": 149
+    },
+    {
+      "date": "2026-10-31",
+      "rank": 111
+    },
+    {
+      "date": "2026-11-01",
+      "rank": 53,
+      "price": 3.91,
+      "change_pct": 10.1408
+    }
+  ],
+  "continuous_days": 4,
+  "monthly_count": 4,
+  "avg_rank": 219.0,
+  "best_rank": 53,
+  "trend": "stable"
+}

@@ -1,0 +1,33 @@
+{
+  "code": "002275",
+  "name": "桂林三金",
+  "history": [
+    {
+      "date": "2026-10-28",
+      "rank": 460
+    },
+    {
+      "date": "2026-10-29",
+      "rank": 199
+    },
+    {
+      "date": "2026-10-30",
+      "rank": 37
+    },
+    {
+      "date": "2026-10-31",
+      "rank": 22
+    },
+    {
+      "date": "2026-11-01",
+      "rank": 13,
+      "price": 14.98,
+      "change_pct": 9.9853
+    }
+  ],
+  "continuous_days": 5,
+  "monthly_count": 5,
+  "avg_rank": 146.2,
+  "best_rank": 13,
+  "trend": "stable"
+}

@@ -1,0 +1,29 @@
+{
+  "code": "000897",
+  "name": "津滨发展",
+  "history": [
+    {
+      "date": "2026-10-29",
+      "rank": 592
+    },
+    {
+      "date": "2026-10-30",
+      "rank": 167
+    },
+    {
+      "date": "2026-10-31",
+      "rank": 131
+    },
+    {
+      "date": "2026-11-01",
+      "rank": 80,
+      "price": 1.84,
+      "change_pct": 10.1796
+    }
+  ],
+  "continuous_days": 4,
+  "monthly_count": 4,
+  "avg_rank": 242.5,
+  "best_rank": 80,
+  "trend": "stable"
+}
