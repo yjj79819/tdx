@@ -8763,22 +8763,22 @@
         "name": "冰山冷热",
         "prev_rank": 13,
         "prev_price": 7.92,
-        "today_rank": 29,
+        "today_rank": 28,
         "today_price": 7.92,
         "price_change": 0.0,
         "still_in_top50": true,
-        "rank_change": -16
+        "rank_change": -15
       },
       {
         "code": "002185",
         "name": "华天科技",
         "prev_rank": 10,
         "prev_price": 15.0,
-        "today_rank": 44,
+        "today_rank": 45,
         "today_price": 15.0,
         "price_change": 0.0,
         "still_in_top50": true,
-        "rank_change": -34
+        "rank_change": -35
       },
       {
         "code": "002172",
