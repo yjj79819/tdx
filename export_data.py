@@ -40,8 +40,26 @@ THS_COOKIE = os.environ.get('THS_COOKIE', '')
 
 # ============ 工具函数 ============
 
-def safe_json_dump(data, filepath, indent=2):
-    """安全地写入JSON文件"""
+def safe_json_dump(data, filepath, indent=2, skip_if_empty=False):
+    """安全地写入JSON文件。
+
+    skip_if_empty=True 时：若本次 data 为空（[] / {} / None）而磁盘上已有非空旧版，
+    则跳过写入并告警——一次抓取失败不该抹掉上一版好数据。
+    """
+    if skip_if_empty and not data:
+        prev = None
+        try:
+            with open(filepath, encoding='utf-8') as f:
+                prev = json.load(f)
+        except Exception:
+            prev = None
+        if prev:
+            try:
+                n = len(prev)
+            except TypeError:
+                n = '?'
+            print(f"  SKIP 写入 {filepath}: 本次结果为空，保留上一版 {n} 条")
+            return False
     try:
         with open(filepath, 'w', encoding='utf-8') as f:
             json.dump(data, f, ensure_ascii=False, indent=indent)
@@ -1038,6 +1056,9 @@ def main():
     # 2. 获取板块信息
     print("\n[2/6] 获取板块信息...")
     sector_map = fetch_sector_info(codes)
+    if not sector_map:
+        print("  WARNING: 板块信息全空（东财 push2delay 常见超时）——"
+              "本次保留上一版 sector.json / concept.json，不覆盖")
     
     # 3. 获取实时价格
     print("\n[3/6] 获取实时价格...")
@@ -1057,11 +1078,11 @@ def main():
     
     # 5b. 板块分析
     sector_data = build_sector_data(stocks, sector_map, price_map)
-    safe_json_dump(sector_data, DATA_DIR / 'sector.json')
+    safe_json_dump(sector_data, DATA_DIR / 'sector.json', skip_if_empty=True)
     
     # 5c. 概念分析
     concept_data = build_concept_data(stocks, sector_map)
-    safe_json_dump(concept_data, DATA_DIR / 'concept.json')
+    safe_json_dump(concept_data, DATA_DIR / 'concept.json', skip_if_empty=True)
     
     # 5d. 概念热榜
     safe_json_dump(concept_hot_data, DATA_DIR / 'concept_hot.json')
