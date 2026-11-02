@@ -3,10 +3,6 @@
   "name": "西部材料",
   "history": [
     {
-      "date": "2026-10-01",
-      "rank": 1044
-    },
-    {
       "date": "2026-10-02",
       "rank": 801
     },
@@ -124,18 +120,22 @@
     },
     {
       "date": "2026-10-31",
-      "rank": 79
+      "rank": 78
     },
     {
       "date": "2026-11-01",
-      "rank": 55,
-      "price": 33.57,
-      "change_pct": 3.8997
+      "rank": 99
+    },
+    {
+      "date": "2026-11-02",
+      "rank": 50,
+      "price": 34.66,
+      "change_pct": 3.2469
     }
   ],
   "continuous_days": 32,
   "monthly_count": 32,
-  "avg_rank": 598.6,
+  "avg_rank": 568.8,
   "best_rank": 34,
   "trend": "stable"
 }

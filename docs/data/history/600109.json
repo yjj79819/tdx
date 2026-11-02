@@ -1,0 +1,33 @@
+{
+  "code": "600109",
+  "name": "国金证券",
+  "history": [
+    {
+      "date": "2026-10-08",
+      "rank": 1906
+    },
+    {
+      "date": "2026-10-30",
+      "rank": 1953
+    },
+    {
+      "date": "2026-10-31",
+      "rank": 1975
+    },
+    {
+      "date": "2026-11-01",
+      "rank": 104
+    },
+    {
+      "date": "2026-11-02",
+      "rank": 44,
+      "price": 8.45,
+      "change_pct": 10.026
+    }
+  ],
+  "continuous_days": 5,
+  "monthly_count": 5,
+  "avg_rank": 1196.4,
+  "best_rank": 44,
+  "trend": "stable"
+}

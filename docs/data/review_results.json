@@ -1,104 +1,6 @@
 [
   {
     "review_date": "2026-08-11",
-    "target_date": "2026-08-10",
-    "results": [
-      {
-        "code": "600664",
-        "name": "哈药股份",
-        "prev_rank": 2,
-        "prev_price": 7.52,
-        "today_rank": 1,
-        "today_price": 8.27,
-        "price_change": 9.97,
-        "still_in_top50": true,
-        "rank_change": 1
-      },
-      {
-        "code": "600396",
-        "name": "华电辽能",
-        "prev_rank": 7,
-        "prev_price": 17.21,
-        "today_rank": 34,
-        "today_price": 17.27,
-        "price_change": 0.35,
-        "still_in_top50": true,
-        "rank_change": -27
-      },
-      {
-        "code": "001258",
-        "name": "立新能源",
-        "prev_rank": 4,
-        "prev_price": 14.48,
-        "today_rank": 5,
-        "today_price": 15.41,
-        "price_change": 6.42,
-        "still_in_top50": true,
-        "rank_change": -1
-      },
-      {
-        "code": "600721",
-        "name": "百花医药",
-        "prev_rank": 15,
-        "prev_price": 11.59,
-        "today_rank": 2,
-        "today_price": 12.75,
-        "price_change": 10.01,
-        "still_in_top50": true,
-        "rank_change": 13
-      },
-      {
-        "code": "000566",
-        "name": "海南海药",
-        "prev_rank": 18,
-        "prev_price": 6.05,
-        "today_rank": 83,
-        "today_price": 6.03,
-        "price_change": -0.33,
-        "still_in_top50": true,
-        "rank_change": -65
-      },
-      {
-        "code": "002141",
-        "name": "贤丰控股",
-        "prev_rank": 19,
-        "prev_price": 6.72,
-        "today_rank": 35,
-        "today_price": 7.1,
-        "price_change": 5.65,
-        "still_in_top50": true,
-        "rank_change": -16
-      },
-      {
-        "code": "601700",
-        "name": "风范股份",
-        "prev_rank": 27,
-        "prev_price": 7.08,
-        "today_rank": 56,
-        "today_price": 7.03,
-        "price_change": -0.71,
-        "still_in_top50": true,
-        "rank_change": -29
-      },
-      {
-        "code": "000725",
-        "name": "京东方A",
-        "prev_rank": 12,
-        "prev_price": 5.89,
-        "today_rank": 42,
-        "today_price": 5.97,
-        "price_change": 1.36,
-        "still_in_top50": true,
-        "rank_change": -30
-      }
-    ],
-    "win_rate": 75.0,
-    "win_count": 6,
-    "total": 8,
-    "rank_improved": 2
-  },
-  {
-    "review_date": "2026-08-11",
     "target_date": "2026-08-11",
     "results": [
       {
@@ -8818,5 +8720,103 @@
     "win_count": 0,
     "total": 8,
     "rank_improved": 2
+  },
+  {
+    "review_date": "2026-11-02",
+    "target_date": "2026-11-01",
+    "results": [
+      {
+        "code": "002724",
+        "name": "海洋王",
+        "prev_rank": 5,
+        "prev_price": 14.72,
+        "today_rank": "-",
+        "today_price": 14.72,
+        "price_change": 0.0,
+        "still_in_top50": false,
+        "rank_change": 0
+      },
+      {
+        "code": "002086",
+        "name": "东方海洋",
+        "prev_rank": 1,
+        "prev_price": 2.83,
+        "today_rank": 2,
+        "today_price": 3.11,
+        "price_change": 9.89,
+        "still_in_top50": true,
+        "rank_change": -1
+      },
+      {
+        "code": "600261",
+        "name": "阳光照明",
+        "prev_rank": 3,
+        "prev_price": 4.09,
+        "today_rank": 13,
+        "today_price": 4.5,
+        "price_change": 10.02,
+        "still_in_top50": true,
+        "rank_change": -10
+      },
+      {
+        "code": "002172",
+        "name": "澳洋健康",
+        "prev_rank": 4,
+        "prev_price": 5.91,
+        "today_rank": 1,
+        "today_price": 6.5,
+        "price_change": 9.98,
+        "still_in_top50": true,
+        "rank_change": 3
+      },
+      {
+        "code": "603278",
+        "name": "大业股份",
+        "prev_rank": 8,
+        "prev_price": 19.52,
+        "today_rank": "-",
+        "today_price": 19.52,
+        "price_change": 0.0,
+        "still_in_top50": false,
+        "rank_change": 0
+      },
+      {
+        "code": "000530",
+        "name": "冰山冷热",
+        "prev_rank": 28,
+        "prev_price": 7.92,
+        "today_rank": 17,
+        "today_price": 8.71,
+        "price_change": 9.97,
+        "still_in_top50": true,
+        "rank_change": 11
+      },
+      {
+        "code": "603330",
+        "name": "天洋新材",
+        "prev_rank": 18,
+        "prev_price": 10.25,
+        "today_rank": 74,
+        "today_price": 10.37,
+        "price_change": 1.17,
+        "still_in_top50": true,
+        "rank_change": -56
+      },
+      {
+        "code": "000678",
+        "name": "襄阳轴承",
+        "prev_rank": 11,
+        "prev_price": 18.08,
+        "today_rank": 3,
+        "today_price": 19.89,
+        "price_change": 10.01,
+        "still_in_top50": true,
+        "rank_change": 8
+      }
+    ],
+    "win_rate": 75.0,
+    "win_count": 6,
+    "total": 8,
+    "rank_improved": 3
   }
 ]

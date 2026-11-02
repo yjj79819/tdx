@@ -3,10 +3,6 @@
   "name": "泸州老窖",
   "history": [
     {
-      "date": "2026-10-01",
-      "rank": 176
-    },
-    {
       "date": "2026-10-02",
       "rank": 176
     },
@@ -128,14 +124,18 @@
     },
     {
       "date": "2026-11-01",
-      "rank": 46,
-      "price": 77.07,
-      "change_pct": 10.0057
+      "rank": 71
+    },
+    {
+      "date": "2026-11-02",
+      "rank": 95,
+      "price": 79.77,
+      "change_pct": 3.5033
     }
   ],
   "continuous_days": 32,
   "monthly_count": 32,
-  "avg_rank": 334.3,
+  "avg_rank": 332.6,
   "best_rank": 16,
   "trend": "stable"
 }
