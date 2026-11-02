@@ -1,0 +1,33 @@
+{
+  "code": "603587",
+  "name": "地素时尚",
+  "history": [
+    {
+      "date": "2026-10-29",
+      "rank": 947
+    },
+    {
+      "date": "2026-10-30",
+      "rank": 284
+    },
+    {
+      "date": "2026-10-31",
+      "rank": 225
+    },
+    {
+      "date": "2026-11-01",
+      "rank": 331
+    },
+    {
+      "date": "2026-11-02",
+      "rank": 75,
+      "price": 14.19,
+      "change_pct": 10.0
+    }
+  ],
+  "continuous_days": 5,
+  "monthly_count": 5,
+  "avg_rank": 372.4,
+  "best_rank": 75,
+  "trend": "stable"
+}

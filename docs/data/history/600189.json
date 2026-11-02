@@ -3,10 +3,6 @@
   "name": "泉阳泉",
   "history": [
     {
-      "date": "2026-10-02",
-      "rank": 445
-    },
-    {
       "date": "2026-10-03",
       "rank": 401
     },
@@ -124,18 +120,18 @@
     },
     {
       "date": "2026-11-01",
-      "rank": 64
+      "rank": 63
     },
     {
       "date": "2026-11-02",
-      "rank": 30,
+      "rank": 16,
       "price": 9.72,
-      "change_pct": 9.95
+      "change_pct": 9.9548
     }
   ],
-  "continuous_days": 32,
-  "monthly_count": 32,
-  "avg_rank": 974.1,
-  "best_rank": 30,
+  "continuous_days": 31,
+  "monthly_count": 31,
+  "avg_rank": 990.7,
+  "best_rank": 16,
   "trend": "stable"
 }

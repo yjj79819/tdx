@@ -3,14 +3,6 @@
   "name": "中国石油",
   "history": [
     {
-      "date": "2026-10-01",
-      "rank": 190
-    },
-    {
-      "date": "2026-10-02",
-      "rank": 198
-    },
-    {
       "date": "2026-10-03",
       "rank": 171
     },
@@ -124,18 +116,22 @@
     },
     {
       "date": "2026-10-31",
-      "rank": 33
+      "rank": 35
     },
     {
       "date": "2026-11-01",
-      "rank": 56,
-      "price": 13.84,
-      "change_pct": 1.0957
+      "rank": 79
+    },
+    {
+      "date": "2026-11-02",
+      "rank": 88,
+      "price": 14.02,
+      "change_pct": 1.3006
     }
   ],
-  "continuous_days": 32,
-  "monthly_count": 32,
-  "avg_rank": 150.1,
+  "continuous_days": 31,
+  "monthly_count": 31,
+  "avg_rank": 146.1,
   "best_rank": 21,
   "trend": "stable"
 }

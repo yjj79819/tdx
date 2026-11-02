@@ -3,10 +3,6 @@
   "name": "阳光照明",
   "history": [
     {
-      "date": "2026-10-02",
-      "rank": 982
-    },
-    {
       "date": "2026-10-03",
       "rank": 1183
     },
@@ -88,18 +84,18 @@
     },
     {
       "date": "2026-11-01",
-      "rank": 21
+      "rank": 25
     },
     {
       "date": "2026-11-02",
-      "rank": 13,
+      "rank": 8,
       "price": 4.5,
-      "change_pct": 10.02
+      "change_pct": 10.0244
     }
   ],
-  "continuous_days": 23,
-  "monthly_count": 23,
-  "avg_rank": 801.9,
+  "continuous_days": 22,
+  "monthly_count": 22,
+  "avg_rank": 793.6,
   "best_rank": 3,
   "trend": "stable"
 }

@@ -1,0 +1,41 @@
+{
+  "code": "601599",
+  "name": "浙文影业",
+  "history": [
+    {
+      "date": "2026-10-09",
+      "rank": 1697
+    },
+    {
+      "date": "2026-10-10",
+      "rank": 1775
+    },
+    {
+      "date": "2026-10-11",
+      "rank": 1752
+    },
+    {
+      "date": "2026-10-13",
+      "rank": 1735
+    },
+    {
+      "date": "2026-10-28",
+      "rank": 1980
+    },
+    {
+      "date": "2026-11-01",
+      "rank": 527
+    },
+    {
+      "date": "2026-11-02",
+      "rank": 59,
+      "price": 3.47,
+      "change_pct": 10.1587
+    }
+  ],
+  "continuous_days": 7,
+  "monthly_count": 7,
+  "avg_rank": 1360.7,
+  "best_rank": 59,
+  "trend": "stable"
+}

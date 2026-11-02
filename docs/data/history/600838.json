@@ -3,10 +3,6 @@
   "name": "上海九百",
   "history": [
     {
-      "date": "2026-10-02",
-      "rank": 1797
-    },
-    {
       "date": "2026-10-03",
       "rank": 1830
     },
@@ -112,18 +108,18 @@
     },
     {
       "date": "2026-11-01",
-      "rank": 31
+      "rank": 33
     },
     {
       "date": "2026-11-02",
-      "rank": 22,
+      "rank": 31,
       "price": 11.75,
-      "change_pct": -4.24
+      "change_pct": -4.238
     }
   ],
-  "continuous_days": 29,
-  "monthly_count": 29,
-  "avg_rank": 802.1,
+  "continuous_days": 28,
+  "monthly_count": 28,
+  "avg_rank": 767.0,
   "best_rank": 4,
   "trend": "stable"
 }
