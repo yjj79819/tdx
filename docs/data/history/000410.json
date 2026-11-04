@@ -3,10 +3,6 @@
   "name": "沈阳机床",
   "history": [
     {
-      "date": "2026-10-03",
-      "rank": 1273
-    },
-    {
       "date": "2026-10-04",
       "rank": 1332
     },
@@ -108,18 +104,22 @@
     },
     {
       "date": "2026-11-02",
-      "rank": 43
+      "rank": 53
     },
     {
       "date": "2026-11-03",
-      "rank": 31,
-      "price": 5.83,
-      "change_pct": -1.35
+      "rank": 116
+    },
+    {
+      "date": "2026-11-04",
+      "rank": 89,
+      "price": 5.45,
+      "change_pct": -6.518
     }
   ],
   "continuous_days": 28,
   "monthly_count": 28,
-  "avg_rank": 1191.6,
+  "avg_rank": 1152.8,
   "best_rank": 27,
   "trend": "stable"
 }
