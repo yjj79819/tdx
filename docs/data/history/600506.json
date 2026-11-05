@@ -3,10 +3,6 @@
   "name": "统一股份",
   "history": [
     {
-      "date": "2026-10-04",
-      "rank": 1091
-    },
-    {
       "date": "2026-10-05",
       "rank": 1182
     },
@@ -124,18 +120,22 @@
     },
     {
       "date": "2026-11-03",
-      "rank": 108
+      "rank": 165
     },
     {
       "date": "2026-11-04",
-      "rank": 87,
-      "price": 18.18,
-      "change_pct": -6.86
+      "rank": 138
+    },
+    {
+      "date": "2026-11-05",
+      "rank": 73,
+      "price": 19.0,
+      "change_pct": 4.5105
     }
   ],
   "continuous_days": 32,
   "monthly_count": 32,
-  "avg_rank": 794.0,
+  "avg_rank": 765.6,
   "best_rank": 48,
   "trend": "stable"
 }

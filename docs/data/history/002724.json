@@ -3,10 +3,6 @@
   "name": "海洋王",
   "history": [
     {
-      "date": "2026-10-04",
-      "rank": 975
-    },
-    {
       "date": "2026-10-05",
       "rank": 1051
     },
@@ -124,18 +120,22 @@
     },
     {
       "date": "2026-11-03",
-      "rank": 16
+      "rank": 28
     },
     {
       "date": "2026-11-04",
-      "rank": 15,
-      "price": 11.66,
-      "change_pct": -8.62
+      "rank": 32
+    },
+    {
+      "date": "2026-11-05",
+      "rank": 22,
+      "price": 11.79,
+      "change_pct": 1.1149
     }
   ],
   "continuous_days": 32,
   "monthly_count": 32,
-  "avg_rank": 362.8,
+  "avg_rank": 333.9,
   "best_rank": 2,
   "trend": "stable"
 }

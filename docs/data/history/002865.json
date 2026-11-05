@@ -3,14 +3,6 @@
   "name": "钧达股份",
   "history": [
     {
-      "date": "2026-10-03",
-      "rank": 1029
-    },
-    {
-      "date": "2026-10-04",
-      "rank": 928
-    },
-    {
       "date": "2026-10-05",
       "rank": 699
     },
@@ -124,18 +116,26 @@
     },
     {
       "date": "2026-11-02",
-      "rank": 132
+      "rank": 136
     },
     {
       "date": "2026-11-03",
-      "rank": 81,
-      "price": 38.8,
-      "change_pct": -1.92
+      "rank": 179
+    },
+    {
+      "date": "2026-11-04",
+      "rank": 89
+    },
+    {
+      "date": "2026-11-05",
+      "rank": 26,
+      "price": 43.67,
+      "change_pct": 10.0
     }
   ],
   "continuous_days": 32,
   "monthly_count": 32,
-  "avg_rank": 835.1,
-  "best_rank": 81,
+  "avg_rank": 780.7,
+  "best_rank": 26,
   "trend": "stable"
 }

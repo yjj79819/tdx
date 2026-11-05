@@ -1,0 +1,29 @@
+{
+  "code": "603381",
+  "name": "永臻股份",
+  "history": [
+    {
+      "date": "2026-11-02",
+      "rank": 628
+    },
+    {
+      "date": "2026-11-03",
+      "rank": 198
+    },
+    {
+      "date": "2026-11-04",
+      "rank": 105
+    },
+    {
+      "date": "2026-11-05",
+      "rank": 56,
+      "price": 18.85,
+      "change_pct": 9.9767
+    }
+  ],
+  "continuous_days": 4,
+  "monthly_count": 4,
+  "avg_rank": 246.8,
+  "best_rank": 56,
+  "trend": "stable"
+}

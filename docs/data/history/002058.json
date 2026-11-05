@@ -3,10 +3,6 @@
   "name": "紫竹高科",
   "history": [
     {
-      "date": "2026-10-04",
-      "rank": 73
-    },
-    {
       "date": "2026-10-05",
       "rank": 72
     },
@@ -124,18 +120,22 @@
     },
     {
       "date": "2026-11-03",
-      "rank": 59
+      "rank": 61
     },
     {
       "date": "2026-11-04",
-      "rank": 22,
-      "price": 23.24,
-      "change_pct": 9.99
+      "rank": 82
+    },
+    {
+      "date": "2026-11-05",
+      "rank": 82,
+      "price": 21.88,
+      "change_pct": -5.852
     }
   ],
   "continuous_days": 32,
   "monthly_count": 32,
-  "avg_rank": 282.0,
-  "best_rank": 22,
+  "avg_rank": 284.2,
+  "best_rank": 24,
   "trend": "stable"
 }

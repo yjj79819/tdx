@@ -3,10 +3,6 @@
   "name": "引力传媒",
   "history": [
     {
-      "date": "2026-10-04",
-      "rank": 484
-    },
-    {
       "date": "2026-10-05",
       "rank": 460
     },
@@ -124,18 +120,22 @@
     },
     {
       "date": "2026-11-03",
-      "rank": 125
+      "rank": 116
     },
     {
       "date": "2026-11-04",
-      "rank": 36,
-      "price": 19.69,
-      "change_pct": 10.0
+      "rank": 92
+    },
+    {
+      "date": "2026-11-05",
+      "rank": 41,
+      "price": 21.66,
+      "change_pct": 10.0051
     }
   ],
   "continuous_days": 32,
   "monthly_count": 32,
-  "avg_rank": 310.2,
-  "best_rank": 36,
+  "avg_rank": 297.8,
+  "best_rank": 41,
   "trend": "stable"
 }

@@ -3,10 +3,6 @@
   "name": "莱美药业",
   "history": [
     {
-      "date": "2026-10-04",
-      "rank": 910
-    },
-    {
       "date": "2026-10-05",
       "rank": 809
     },
@@ -120,18 +116,22 @@
     },
     {
       "date": "2026-11-03",
-      "rank": 78
+      "rank": 88
     },
     {
       "date": "2026-11-04",
-      "rank": 48,
-      "price": 9.53,
-      "change_pct": 4.38
+      "rank": 66
+    },
+    {
+      "date": "2026-11-05",
+      "rank": 53,
+      "price": 10.24,
+      "change_pct": 7.4502
     }
   ],
   "continuous_days": 31,
   "monthly_count": 31,
-  "avg_rank": 264.7,
+  "avg_rank": 238.0,
   "best_rank": 21,
   "trend": "stable"
 }
