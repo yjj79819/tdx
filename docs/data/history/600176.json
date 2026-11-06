@@ -3,10 +3,6 @@
   "name": "中国巨石",
   "history": [
     {
-      "date": "2026-10-05",
-      "rank": 65
-    },
-    {
       "date": "2026-10-06",
       "rank": 81
     },
@@ -124,18 +120,22 @@
     },
     {
       "date": "2026-11-04",
-      "rank": 63
+      "rank": 78
     },
     {
       "date": "2026-11-05",
-      "rank": 89,
-      "price": 29.03,
-      "change_pct": 0.35
+      "rank": 97
+    },
+    {
+      "date": "2026-11-06",
+      "rank": 72,
+      "price": 27.45,
+      "change_pct": -5.4426
     }
   ],
   "continuous_days": 32,
   "monthly_count": 32,
-  "avg_rank": 63.9,
+  "avg_rank": 64.9,
   "best_rank": 13,
   "trend": "stable"
 }

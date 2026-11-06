@@ -3,14 +3,6 @@
   "name": "太阳电缆",
   "history": [
     {
-      "date": "2026-10-04",
-      "rank": 485
-    },
-    {
-      "date": "2026-10-05",
-      "rank": 555
-    },
-    {
       "date": "2026-10-06",
       "rank": 579
     },
@@ -124,18 +116,26 @@
     },
     {
       "date": "2026-11-03",
-      "rank": 73
+      "rank": 99
     },
     {
       "date": "2026-11-04",
-      "rank": 57,
-      "price": 8.18,
-      "change_pct": -6.19
+      "rank": 195
+    },
+    {
+      "date": "2026-11-05",
+      "rank": 69
+    },
+    {
+      "date": "2026-11-06",
+      "rank": 71,
+      "price": 8.53,
+      "change_pct": 3.0193
     }
   ],
   "continuous_days": 32,
   "monthly_count": 32,
-  "avg_rank": 395.2,
-  "best_rank": 57,
+  "avg_rank": 372.2,
+  "best_rank": 69,
   "trend": "stable"
 }

@@ -3,18 +3,6 @@
   "name": "百大集团",
   "history": [
     {
-      "date": "2026-10-03",
-      "rank": 479
-    },
-    {
-      "date": "2026-10-04",
-      "rank": 572
-    },
-    {
-      "date": "2026-10-05",
-      "rank": 565
-    },
-    {
       "date": "2026-10-06",
       "rank": 735
     },
@@ -124,18 +112,30 @@
     },
     {
       "date": "2026-11-02",
-      "rank": 190
+      "rank": 234
     },
     {
       "date": "2026-11-03",
-      "rank": 74,
-      "price": 11.54,
-      "change_pct": -2.04
+      "rank": 441
+    },
+    {
+      "date": "2026-11-04",
+      "rank": 188
+    },
+    {
+      "date": "2026-11-05",
+      "rank": 118
+    },
+    {
+      "date": "2026-11-06",
+      "rank": 70,
+      "price": 12.09,
+      "change_pct": -3.742
     }
   ],
   "continuous_days": 32,
   "monthly_count": 32,
-  "avg_rank": 350.1,
+  "avg_rank": 324.2,
   "best_rank": 59,
   "trend": "stable"
 }
