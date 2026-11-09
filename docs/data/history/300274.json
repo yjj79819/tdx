@@ -3,18 +3,6 @@
   "name": "阳光电源",
   "history": [
     {
-      "date": "2026-10-06",
-      "rank": 170
-    },
-    {
-      "date": "2026-10-07",
-      "rank": 119
-    },
-    {
-      "date": "2026-10-08",
-      "rank": 110
-    },
-    {
       "date": "2026-10-09",
       "rank": 67
     },
@@ -124,18 +112,30 @@
     },
     {
       "date": "2026-11-05",
-      "rank": 9
+      "rank": 11
     },
     {
       "date": "2026-11-06",
-      "rank": 10,
-      "price": 81.97,
-      "change_pct": -3.72
+      "rank": 29
+    },
+    {
+      "date": "2026-11-07",
+      "rank": 29
+    },
+    {
+      "date": "2026-11-08",
+      "rank": 22
+    },
+    {
+      "date": "2026-11-09",
+      "rank": 66,
+      "price": 77.85,
+      "change_pct": -5.0262
     }
   ],
   "continuous_days": 32,
   "monthly_count": 32,
-  "avg_rank": 96.2,
+  "avg_rank": 88.0,
   "best_rank": 3,
   "trend": "stable"
 }

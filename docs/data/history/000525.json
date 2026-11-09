@@ -3,10 +3,6 @@
   "name": "红太阳",
   "history": [
     {
-      "date": "2026-10-07",
-      "rank": 1764
-    },
-    {
       "date": "2026-10-12",
       "rank": 1433
     },
@@ -56,18 +52,38 @@
     },
     {
       "date": "2026-11-03",
-      "rank": 110
+      "rank": 177
     },
     {
       "date": "2026-11-04",
-      "rank": 61,
-      "price": 4.52,
-      "change_pct": -9.96
+      "rank": 292
+    },
+    {
+      "date": "2026-11-05",
+      "rank": 97
+    },
+    {
+      "date": "2026-11-06",
+      "rank": 18
+    },
+    {
+      "date": "2026-11-07",
+      "rank": 20
+    },
+    {
+      "date": "2026-11-08",
+      "rank": 47
+    },
+    {
+      "date": "2026-11-09",
+      "rank": 87,
+      "price": 5.52,
+      "change_pct": 9.9602
     }
   ],
-  "continuous_days": 15,
-  "monthly_count": 15,
-  "avg_rank": 933.0,
-  "best_rank": 24,
+  "continuous_days": 19,
+  "monthly_count": 19,
+  "avg_rank": 673.6,
+  "best_rank": 18,
   "trend": "stable"
 }

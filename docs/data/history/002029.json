@@ -3,18 +3,6 @@
   "name": "七匹狼",
   "history": [
     {
-      "date": "2026-10-06",
-      "rank": 782
-    },
-    {
-      "date": "2026-10-07",
-      "rank": 412
-    },
-    {
-      "date": "2026-10-08",
-      "rank": 265
-    },
-    {
       "date": "2026-10-09",
       "rank": 286
     },
@@ -124,18 +112,30 @@
     },
     {
       "date": "2026-11-05",
-      "rank": 39
+      "rank": 42
     },
     {
       "date": "2026-11-06",
-      "rank": 67,
-      "price": 8.9,
-      "change_pct": 0.45
+      "rank": 59
+    },
+    {
+      "date": "2026-11-07",
+      "rank": 92
+    },
+    {
+      "date": "2026-11-08",
+      "rank": 68
+    },
+    {
+      "date": "2026-11-09",
+      "rank": 81,
+      "price": 9.05,
+      "change_pct": 1.6854
     }
   ],
   "continuous_days": 32,
   "monthly_count": 32,
-  "avg_rank": 265.7,
+  "avg_rank": 227.4,
   "best_rank": 5,
   "trend": "stable"
 }
