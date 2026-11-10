@@ -3,14 +3,6 @@
   "name": "上海九百",
   "history": [
     {
-      "date": "2026-10-08",
-      "rank": 923
-    },
-    {
-      "date": "2026-10-09",
-      "rank": 729
-    },
-    {
       "date": "2026-10-10",
       "rank": 629
     },
@@ -112,18 +104,34 @@
     },
     {
       "date": "2026-11-05",
-      "rank": 103
+      "rank": 98
     },
     {
       "date": "2026-11-06",
-      "rank": 80,
-      "price": 10.45,
-      "change_pct": -9.99
+      "rank": 69
+    },
+    {
+      "date": "2026-11-07",
+      "rank": 78
+    },
+    {
+      "date": "2026-11-08",
+      "rank": 57
+    },
+    {
+      "date": "2026-11-09",
+      "rank": 61
+    },
+    {
+      "date": "2026-11-10",
+      "rank": 55,
+      "price": 11.92,
+      "change_pct": 3.6522
     }
   ],
-  "continuous_days": 29,
-  "monthly_count": 29,
-  "avg_rank": 559.6,
+  "continuous_days": 31,
+  "monthly_count": 31,
+  "avg_rank": 477.8,
   "best_rank": 4,
   "trend": "stable"
 }

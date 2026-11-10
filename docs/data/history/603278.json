@@ -3,10 +3,6 @@
   "name": "大业股份",
   "history": [
     {
-      "date": "2026-10-09",
-      "rank": 573
-    },
-    {
       "date": "2026-10-10",
       "rank": 525
     },
@@ -124,18 +120,22 @@
     },
     {
       "date": "2026-11-08",
-      "rank": 63
+      "rank": 68
     },
     {
       "date": "2026-11-09",
-      "rank": 36,
-      "price": 13.73,
-      "change_pct": 1.18
+      "rank": 38
+    },
+    {
+      "date": "2026-11-10",
+      "rank": 53,
+      "price": 15.1,
+      "change_pct": 9.9782
     }
   ],
   "continuous_days": 32,
   "monthly_count": 32,
-  "avg_rank": 181.5,
+  "avg_rank": 165.5,
   "best_rank": 2,
   "trend": "stable"
 }

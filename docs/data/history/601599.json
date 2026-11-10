@@ -3,10 +3,6 @@
   "name": "浙文影业",
   "history": [
     {
-      "date": "2026-10-09",
-      "rank": 1697
-    },
-    {
       "date": "2026-10-10",
       "rank": 1775
     },
@@ -52,18 +48,22 @@
     },
     {
       "date": "2026-11-08",
-      "rank": 12
+      "rank": 8
     },
     {
       "date": "2026-11-09",
-      "rank": 10,
-      "price": 5.38,
-      "change_pct": 5.91
+      "rank": 13
+    },
+    {
+      "date": "2026-11-10",
+      "rank": 15,
+      "price": 5.6,
+      "change_pct": 4.0892
     }
   ],
   "continuous_days": 14,
   "monthly_count": 14,
-  "avg_rank": 696.5,
+  "avg_rank": 576.3,
   "best_rank": 7,
   "trend": "stable"
 }

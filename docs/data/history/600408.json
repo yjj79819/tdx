@@ -3,10 +3,6 @@
   "name": "安泰集团",
   "history": [
     {
-      "date": "2026-10-09",
-      "rank": 63
-    },
-    {
       "date": "2026-10-10",
       "rank": 49
     },
@@ -124,18 +120,22 @@
     },
     {
       "date": "2026-11-08",
-      "rank": 242
+      "rank": 188
     },
     {
       "date": "2026-11-09",
-      "rank": 86,
-      "price": 3.32,
-      "change_pct": 9.93
+      "rank": 109
+    },
+    {
+      "date": "2026-11-10",
+      "rank": 46,
+      "price": 3.65,
+      "change_pct": 9.9398
     }
   ],
   "continuous_days": 32,
   "monthly_count": 32,
-  "avg_rank": 377.4,
-  "best_rank": 49,
+  "avg_rank": 375.9,
+  "best_rank": 46,
   "trend": "stable"
 }

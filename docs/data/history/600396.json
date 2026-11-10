@@ -3,10 +3,6 @@
   "name": "华电辽能",
   "history": [
     {
-      "date": "2026-10-09",
-      "rank": 258
-    },
-    {
       "date": "2026-10-10",
       "rank": 253
     },
@@ -124,18 +120,22 @@
     },
     {
       "date": "2026-11-08",
-      "rank": 131
+      "rank": 140
     },
     {
       "date": "2026-11-09",
-      "rank": 46,
-      "price": 9.94,
-      "change_pct": -1.39
+      "rank": 209
+    },
+    {
+      "date": "2026-11-10",
+      "rank": 98,
+      "price": 10.09,
+      "change_pct": 1.5091
     }
   ],
   "continuous_days": 32,
   "monthly_count": 32,
-  "avg_rank": 344.8,
+  "avg_rank": 345.1,
   "best_rank": 46,
   "trend": "stable"
 }
