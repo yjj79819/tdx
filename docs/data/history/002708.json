@@ -3,10 +3,6 @@
   "name": "光洋股份",
   "history": [
     {
-      "date": "2026-10-10",
-      "rank": 1058
-    },
-    {
       "date": "2026-10-11",
       "rank": 1128
     },
@@ -124,18 +120,22 @@
     },
     {
       "date": "2026-11-09",
-      "rank": 34
+      "rank": 33
     },
     {
       "date": "2026-11-10",
-      "rank": 24,
-      "price": 24.17,
-      "change_pct": 10.01
+      "rank": 18
+    },
+    {
+      "date": "2026-11-11",
+      "rank": 11,
+      "price": 26.59,
+      "change_pct": 10.0124
     }
   ],
   "continuous_days": 32,
   "monthly_count": 32,
-  "avg_rank": 480.5,
+  "avg_rank": 447.5,
   "best_rank": 6,
   "trend": "stable"
 }

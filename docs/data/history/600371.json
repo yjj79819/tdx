@@ -3,10 +3,6 @@
   "name": "万向德农",
   "history": [
     {
-      "date": "2026-10-10",
-      "rank": 53
-    },
-    {
       "date": "2026-10-11",
       "rank": 54
     },
@@ -124,18 +120,22 @@
     },
     {
       "date": "2026-11-09",
-      "rank": 63
+      "rank": 78
     },
     {
       "date": "2026-11-10",
-      "rank": 51,
-      "price": 13.21,
-      "change_pct": -2.22
+      "rank": 119
+    },
+    {
+      "date": "2026-11-11",
+      "rank": 70,
+      "price": 12.84,
+      "change_pct": -2.8009
     }
   ],
   "continuous_days": 32,
   "monthly_count": 32,
-  "avg_rank": 384.6,
+  "avg_rank": 387.7,
   "best_rank": 24,
   "trend": "stable"
 }

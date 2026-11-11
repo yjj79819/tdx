@@ -1,0 +1,41 @@
+{
+  "code": "002160",
+  "name": "常铝股份",
+  "history": [
+    {
+      "date": "2026-11-05",
+      "rank": 731
+    },
+    {
+      "date": "2026-11-06",
+      "rank": 552
+    },
+    {
+      "date": "2026-11-07",
+      "rank": 542
+    },
+    {
+      "date": "2026-11-08",
+      "rank": 1313
+    },
+    {
+      "date": "2026-11-09",
+      "rank": 354
+    },
+    {
+      "date": "2026-11-10",
+      "rank": 101
+    },
+    {
+      "date": "2026-11-11",
+      "rank": 30,
+      "price": 4.4,
+      "change_pct": 10.0
+    }
+  ],
+  "continuous_days": 7,
+  "monthly_count": 7,
+  "avg_rank": 517.6,
+  "best_rank": 30,
+  "trend": "stable"
+}
