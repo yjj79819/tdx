@@ -3,10 +3,6 @@
   "name": "润建股份",
   "history": [
     {
-      "date": "2026-10-11",
-      "rank": 1631
-    },
-    {
       "date": "2026-10-12",
       "rank": 1495
     },
@@ -128,14 +124,18 @@
     },
     {
       "date": "2026-11-11",
-      "rank": 86,
-      "price": 60.05,
-      "change_pct": 2.47
+      "rank": 112
+    },
+    {
+      "date": "2026-11-12",
+      "rank": 68,
+      "price": 56.5,
+      "change_pct": -5.9117
     }
   ],
   "continuous_days": 32,
   "monthly_count": 32,
-  "avg_rank": 336.8,
+  "avg_rank": 288.7,
   "best_rank": 14,
   "trend": "stable"
 }

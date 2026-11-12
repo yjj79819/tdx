@@ -3,10 +3,6 @@
   "name": "先导基电",
   "history": [
     {
-      "date": "2026-10-11",
-      "rank": 283
-    },
-    {
       "date": "2026-10-12",
       "rank": 176
     },
@@ -124,18 +120,22 @@
     },
     {
       "date": "2026-11-10",
-      "rank": 64
+      "rank": 56
     },
     {
       "date": "2026-11-11",
-      "rank": 40,
-      "price": 35.92,
-      "change_pct": 7.32
+      "rank": 46
+    },
+    {
+      "date": "2026-11-12",
+      "rank": 46,
+      "price": 36.66,
+      "change_pct": 2.0601
     }
   ],
   "continuous_days": 32,
   "monthly_count": 32,
-  "avg_rank": 280.1,
-  "best_rank": 40,
+  "avg_rank": 272.7,
+  "best_rank": 45,
   "trend": "stable"
 }

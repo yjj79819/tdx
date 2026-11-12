@@ -3,14 +3,6 @@
   "name": "大洋电机",
   "history": [
     {
-      "date": "2026-10-10",
-      "rank": 1410
-    },
-    {
-      "date": "2026-10-11",
-      "rank": 1206
-    },
-    {
       "date": "2026-10-12",
       "rank": 1075
     },
@@ -124,18 +116,26 @@
     },
     {
       "date": "2026-11-09",
-      "rank": 90
+      "rank": 94
     },
     {
       "date": "2026-11-10",
-      "rank": 83,
-      "price": 7.84,
-      "change_pct": 3.43
+      "rank": 99
+    },
+    {
+      "date": "2026-11-11",
+      "rank": 111
+    },
+    {
+      "date": "2026-11-12",
+      "rank": 86,
+      "price": 7.66,
+      "change_pct": -3.2828
     }
   ],
   "continuous_days": 32,
   "monthly_count": 32,
-  "avg_rank": 387.3,
+  "avg_rank": 312.3,
   "best_rank": 6,
   "trend": "stable"
 }

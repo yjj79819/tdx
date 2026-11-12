@@ -3,10 +3,6 @@
   "name": "大晟文化",
   "history": [
     {
-      "date": "2026-10-11",
-      "rank": 1011
-    },
-    {
       "date": "2026-10-12",
       "rank": 1204
     },
@@ -124,18 +120,22 @@
     },
     {
       "date": "2026-11-10",
-      "rank": 25
+      "rank": 31
     },
     {
       "date": "2026-11-11",
-      "rank": 43,
-      "price": 5.81,
-      "change_pct": 3.75
+      "rank": 79
+    },
+    {
+      "date": "2026-11-12",
+      "rank": 49,
+      "price": 5.45,
+      "change_pct": -6.1962
     }
   ],
   "continuous_days": 32,
   "monthly_count": 32,
-  "avg_rank": 544.1,
-  "best_rank": 25,
+  "avg_rank": 515.3,
+  "best_rank": 31,
   "trend": "stable"
 }
