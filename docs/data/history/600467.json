@@ -1,0 +1,29 @@
+{
+  "code": "600467",
+  "name": "好当家",
+  "history": [
+    {
+      "date": "2026-11-02",
+      "rank": 1998
+    },
+    {
+      "date": "2026-11-11",
+      "rank": 281
+    },
+    {
+      "date": "2026-11-12",
+      "rank": 75
+    },
+    {
+      "date": "2026-11-13",
+      "rank": 40,
+      "price": 2.73,
+      "change_pct": 10.0806
+    }
+  ],
+  "continuous_days": 4,
+  "monthly_count": 4,
+  "avg_rank": 598.5,
+  "best_rank": 40,
+  "trend": "stable"
+}

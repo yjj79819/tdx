@@ -3,10 +3,6 @@
   "name": "亚玛顿",
   "history": [
     {
-      "date": "2026-10-12",
-      "rank": 634
-    },
-    {
       "date": "2026-10-13",
       "rank": 575
     },
@@ -116,18 +112,26 @@
     },
     {
       "date": "2026-11-10",
-      "rank": 190
+      "rank": 180
     },
     {
       "date": "2026-11-11",
-      "rank": 98,
-      "price": 23.33,
-      "change_pct": 10.0
+      "rank": 147
+    },
+    {
+      "date": "2026-11-12",
+      "rank": 89
+    },
+    {
+      "date": "2026-11-13",
+      "rank": 92,
+      "price": 26.25,
+      "change_pct": 2.2993
     }
   ],
-  "continuous_days": 30,
-  "monthly_count": 30,
-  "avg_rank": 1003.0,
-  "best_rank": 98,
+  "continuous_days": 31,
+  "monthly_count": 31,
+  "avg_rank": 957.3,
+  "best_rank": 89,
   "trend": "stable"
 }

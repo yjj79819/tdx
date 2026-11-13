@@ -3,10 +3,6 @@
   "name": "超声电子",
   "history": [
     {
-      "date": "2026-10-12",
-      "rank": 14
-    },
-    {
       "date": "2026-10-13",
       "rank": 9
     },
@@ -124,18 +120,22 @@
     },
     {
       "date": "2026-11-11",
-      "rank": 66
+      "rank": 71
     },
     {
       "date": "2026-11-12",
-      "rank": 70,
-      "price": 19.04,
-      "change_pct": 0.21
+      "rank": 94
+    },
+    {
+      "date": "2026-11-13",
+      "rank": 72,
+      "price": 17.41,
+      "change_pct": -8.5609
     }
   ],
   "continuous_days": 32,
   "monthly_count": 32,
-  "avg_rank": 80.3,
+  "avg_rank": 83.0,
   "best_rank": 2,
   "trend": "stable"
 }

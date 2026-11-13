@@ -1,0 +1,33 @@
+{
+  "code": "002148",
+  "name": "北纬科技",
+  "history": [
+    {
+      "date": "2026-10-21",
+      "rank": 1610
+    },
+    {
+      "date": "2026-11-10",
+      "rank": 434
+    },
+    {
+      "date": "2026-11-11",
+      "rank": 121
+    },
+    {
+      "date": "2026-11-12",
+      "rank": 57
+    },
+    {
+      "date": "2026-11-13",
+      "rank": 29,
+      "price": 7.95,
+      "change_pct": 9.9585
+    }
+  ],
+  "continuous_days": 5,
+  "monthly_count": 5,
+  "avg_rank": 450.2,
+  "best_rank": 29,
+  "trend": "stable"
+}

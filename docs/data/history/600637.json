@@ -3,18 +3,6 @@
   "name": "东方明珠",
   "history": [
     {
-      "date": "2026-10-10",
-      "rank": 858
-    },
-    {
-      "date": "2026-10-11",
-      "rank": 1059
-    },
-    {
-      "date": "2026-10-12",
-      "rank": 1215
-    },
-    {
       "date": "2026-10-13",
       "rank": 852
     },
@@ -124,18 +112,30 @@
     },
     {
       "date": "2026-11-09",
-      "rank": 98
+      "rank": 118
     },
     {
       "date": "2026-11-10",
-      "rank": 97,
-      "price": 8.37,
-      "change_pct": -3.13
+      "rank": 215
+    },
+    {
+      "date": "2026-11-11",
+      "rank": 302
+    },
+    {
+      "date": "2026-11-12",
+      "rank": 132
+    },
+    {
+      "date": "2026-11-13",
+      "rank": 71,
+      "price": 8.11,
+      "change_pct": 1.5019
     }
   ],
   "continuous_days": 32,
   "monthly_count": 32,
-  "avg_rank": 927.2,
+  "avg_rank": 849.4,
   "best_rank": 31,
   "trend": "stable"
 }
