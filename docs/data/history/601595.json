@@ -3,18 +3,6 @@
   "name": "上海电影",
   "history": [
     {
-      "date": "2026-10-13",
-      "rank": 123
-    },
-    {
-      "date": "2026-10-14",
-      "rank": 314
-    },
-    {
-      "date": "2026-10-15",
-      "rank": 483
-    },
-    {
       "date": "2026-10-16",
       "rank": 431
     },
@@ -124,18 +112,30 @@
     },
     {
       "date": "2026-11-12",
-      "rank": 37
+      "rank": 39
     },
     {
       "date": "2026-11-13",
-      "rank": 15,
-      "price": 41.2,
-      "change_pct": -2.25
+      "rank": 62
+    },
+    {
+      "date": "2026-11-14",
+      "rank": 62
+    },
+    {
+      "date": "2026-11-15",
+      "rank": 78
+    },
+    {
+      "date": "2026-11-16",
+      "rank": 73,
+      "price": 37.67,
+      "change_pct": -8.568
     }
   ],
   "continuous_days": 32,
   "monthly_count": 32,
-  "avg_rank": 397.8,
-  "best_rank": 15,
+  "avg_rank": 377.2,
+  "best_rank": 26,
   "trend": "stable"
 }

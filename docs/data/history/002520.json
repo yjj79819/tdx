@@ -3,22 +3,6 @@
   "name": "日发精机",
   "history": [
     {
-      "date": "2026-10-12",
-      "rank": 1641
-    },
-    {
-      "date": "2026-10-13",
-      "rank": 1640
-    },
-    {
-      "date": "2026-10-14",
-      "rank": 1680
-    },
-    {
-      "date": "2026-10-15",
-      "rank": 1667
-    },
-    {
       "date": "2026-10-16",
       "rank": 1942
     },
@@ -124,18 +108,34 @@
     },
     {
       "date": "2026-11-11",
-      "rank": 56
+      "rank": 64
     },
     {
       "date": "2026-11-12",
-      "rank": 65,
-      "price": 7.0,
-      "change_pct": -3.58
+      "rank": 43
+    },
+    {
+      "date": "2026-11-13",
+      "rank": 20
+    },
+    {
+      "date": "2026-11-14",
+      "rank": 18
+    },
+    {
+      "date": "2026-11-15",
+      "rank": 38
+    },
+    {
+      "date": "2026-11-16",
+      "rank": 43,
+      "price": 7.61,
+      "change_pct": -1.1688
     }
   ],
   "continuous_days": 32,
   "monthly_count": 32,
-  "avg_rank": 816.0,
-  "best_rank": 56,
+  "avg_rank": 612.2,
+  "best_rank": 18,
   "trend": "stable"
 }

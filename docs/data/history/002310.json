@@ -3,18 +3,6 @@
   "name": "东方新能",
   "history": [
     {
-      "date": "2026-10-13",
-      "rank": 1901
-    },
-    {
-      "date": "2026-10-14",
-      "rank": 1852
-    },
-    {
-      "date": "2026-10-15",
-      "rank": 1980
-    },
-    {
       "date": "2026-10-18",
       "rank": 1871
     },
@@ -88,18 +76,30 @@
     },
     {
       "date": "2026-11-12",
-      "rank": 25
+      "rank": 27
     },
     {
       "date": "2026-11-13",
-      "rank": 21,
-      "price": 2.73,
-      "change_pct": -9.9
+      "rank": 38
+    },
+    {
+      "date": "2026-11-14",
+      "rank": 55
+    },
+    {
+      "date": "2026-11-15",
+      "rank": 37
+    },
+    {
+      "date": "2026-11-16",
+      "rank": 34,
+      "price": 2.68,
+      "change_pct": -1.8315
     }
   ],
   "continuous_days": 23,
   "monthly_count": 23,
-  "avg_rank": 1125.0,
+  "avg_rank": 882.1,
   "best_rank": 6,
   "trend": "stable"
 }

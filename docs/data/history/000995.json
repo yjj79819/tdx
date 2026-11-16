@@ -3,18 +3,6 @@
   "name": "皇台酒业",
   "history": [
     {
-      "date": "2026-10-13",
-      "rank": 111
-    },
-    {
-      "date": "2026-10-14",
-      "rank": 53
-    },
-    {
-      "date": "2026-10-15",
-      "rank": 37
-    },
-    {
       "date": "2026-10-16",
       "rank": 61
     },
@@ -124,18 +112,30 @@
     },
     {
       "date": "2026-11-12",
-      "rank": 14
+      "rank": 17
     },
     {
       "date": "2026-11-13",
-      "rank": 33,
-      "price": 18.37,
-      "change_pct": 0.27
+      "rank": 44
+    },
+    {
+      "date": "2026-11-14",
+      "rank": 60
+    },
+    {
+      "date": "2026-11-15",
+      "rank": 30
+    },
+    {
+      "date": "2026-11-16",
+      "rank": 29,
+      "price": 18.79,
+      "change_pct": 2.2863
     }
   ],
   "continuous_days": 32,
   "monthly_count": 32,
-  "avg_rank": 85.8,
+  "avg_rank": 83.7,
   "best_rank": 12,
   "trend": "stable"
 }

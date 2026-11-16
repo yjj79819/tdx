@@ -3,14 +3,6 @@
   "name": "国统股份",
   "history": [
     {
-      "date": "2026-10-13",
-      "rank": 1989
-    },
-    {
-      "date": "2026-10-15",
-      "rank": 1444
-    },
-    {
       "date": "2026-10-16",
       "rank": 1497
     },
@@ -72,18 +64,30 @@
     },
     {
       "date": "2026-11-12",
-      "rank": 155
+      "rank": 142
     },
     {
       "date": "2026-11-13",
-      "rank": 93,
-      "price": 12.93,
-      "change_pct": 10.04
+      "rank": 56
+    },
+    {
+      "date": "2026-11-14",
+      "rank": 50
+    },
+    {
+      "date": "2026-11-15",
+      "rank": 61
+    },
+    {
+      "date": "2026-11-16",
+      "rank": 32,
+      "price": 14.22,
+      "change_pct": 9.9768
     }
   ],
-  "continuous_days": 19,
-  "monthly_count": 19,
-  "avg_rank": 1159.2,
-  "best_rank": 93,
+  "continuous_days": 20,
+  "monthly_count": 20,
+  "avg_rank": 934.2,
+  "best_rank": 32,
   "trend": "stable"
 }

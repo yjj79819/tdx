@@ -3,18 +3,6 @@
   "name": "龙建股份",
   "history": [
     {
-      "date": "2026-10-13",
-      "rank": 460
-    },
-    {
-      "date": "2026-10-14",
-      "rank": 1052
-    },
-    {
-      "date": "2026-10-15",
-      "rank": 283
-    },
-    {
       "date": "2026-10-16",
       "rank": 235
     },
@@ -124,18 +112,30 @@
     },
     {
       "date": "2026-11-12",
-      "rank": 55
+      "rank": 60
     },
     {
       "date": "2026-11-13",
-      "rank": 32,
-      "price": 4.18,
-      "change_pct": -0.71
+      "rank": 96
+    },
+    {
+      "date": "2026-11-14",
+      "rank": 105
+    },
+    {
+      "date": "2026-11-15",
+      "rank": 56
+    },
+    {
+      "date": "2026-11-16",
+      "rank": 35,
+      "price": 4.44,
+      "change_pct": 6.2201
     }
   ],
   "continuous_days": 32,
   "monthly_count": 32,
-  "avg_rank": 689.4,
-  "best_rank": 32,
+  "avg_rank": 641.6,
+  "best_rank": 35,
   "trend": "stable"
 }
