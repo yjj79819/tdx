@@ -3,10 +3,6 @@
   "name": "阳光乳业",
   "history": [
     {
-      "date": "2026-10-16",
-      "rank": 29
-    },
-    {
       "date": "2026-10-17",
       "rank": 40
     },
@@ -124,18 +120,22 @@
     },
     {
       "date": "2026-11-15",
-      "rank": 89
+      "rank": 68
     },
     {
       "date": "2026-11-16",
-      "rank": 93,
-      "price": 14.62,
-      "change_pct": 10.01
+      "rank": 65
+    },
+    {
+      "date": "2026-11-17",
+      "rank": 35,
+      "price": 14.16,
+      "change_pct": -3.1464
     }
   ],
   "continuous_days": 32,
   "monthly_count": 32,
-  "avg_rank": 146.2,
-  "best_rank": 29,
+  "avg_rank": 144.9,
+  "best_rank": 35,
   "trend": "stable"
 }

@@ -3,10 +3,6 @@
   "name": "凯撒文化",
   "history": [
     {
-      "date": "2026-10-16",
-      "rank": 1103
-    },
-    {
       "date": "2026-10-17",
       "rank": 1052
     },
@@ -124,18 +120,22 @@
     },
     {
       "date": "2026-11-15",
-      "rank": 11
+      "rank": 12
     },
     {
       "date": "2026-11-16",
-      "rank": 6,
-      "price": 4.36,
-      "change_pct": 10.1
+      "rank": 7
+    },
+    {
+      "date": "2026-11-17",
+      "rank": 17,
+      "price": 4.65,
+      "change_pct": 6.6514
     }
   ],
   "continuous_days": 32,
   "monthly_count": 32,
-  "avg_rank": 949.0,
+  "avg_rank": 915.2,
   "best_rank": 1,
   "trend": "stable"
 }

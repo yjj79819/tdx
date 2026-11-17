@@ -3,10 +3,6 @@
   "name": "蓝色光标",
   "history": [
     {
-      "date": "2026-10-16",
-      "rank": 162
-    },
-    {
       "date": "2026-10-17",
       "rank": 192
     },
@@ -128,14 +124,18 @@
     },
     {
       "date": "2026-11-16",
-      "rank": 22,
-      "price": 13.05,
-      "change_pct": -4.26
+      "rank": 21
+    },
+    {
+      "date": "2026-11-17",
+      "rank": 32,
+      "price": 11.99,
+      "change_pct": -8.1226
     }
   ],
   "continuous_days": 32,
   "monthly_count": 32,
-  "avg_rank": 82.8,
+  "avg_rank": 78.8,
   "best_rank": 6,
   "trend": "stable"
 }

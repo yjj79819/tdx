@@ -1,0 +1,25 @@
+{
+  "code": "002451",
+  "name": "摩恩电气",
+  "history": [
+    {
+      "date": "2026-11-10",
+      "rank": 1862
+    },
+    {
+      "date": "2026-11-16",
+      "rank": 258
+    },
+    {
+      "date": "2026-11-17",
+      "rank": 98,
+      "price": 7.13,
+      "change_pct": 10.0309
+    }
+  ],
+  "continuous_days": 3,
+  "monthly_count": 3,
+  "avg_rank": 739.3,
+  "best_rank": 98,
+  "trend": "stable"
+}

@@ -3,10 +3,6 @@
   "name": "东方海洋",
   "history": [
     {
-      "date": "2026-10-16",
-      "rank": 1228
-    },
-    {
       "date": "2026-10-17",
       "rank": 1027
     },
@@ -124,18 +120,22 @@
     },
     {
       "date": "2026-11-15",
-      "rank": 4
+      "rank": 5
     },
     {
       "date": "2026-11-16",
-      "rank": 3,
-      "price": 4.34,
-      "change_pct": -9.96
+      "rank": 4
+    },
+    {
+      "date": "2026-11-17",
+      "rank": 11,
+      "price": 4.14,
+      "change_pct": -4.6083
     }
   ],
   "continuous_days": 32,
   "monthly_count": 32,
-  "avg_rank": 164.5,
+  "avg_rank": 126.5,
   "best_rank": 1,
   "trend": "stable"
 }

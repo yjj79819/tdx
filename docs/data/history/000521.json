@@ -1,0 +1,25 @@
+{
+  "code": "000521",
+  "name": "长虹美菱",
+  "history": [
+    {
+      "date": "2026-11-15",
+      "rank": 369
+    },
+    {
+      "date": "2026-11-16",
+      "rank": 119
+    },
+    {
+      "date": "2026-11-17",
+      "rank": 75,
+      "price": 4.74,
+      "change_pct": 9.9768
+    }
+  ],
+  "continuous_days": 3,
+  "monthly_count": 3,
+  "avg_rank": 187.7,
+  "best_rank": 75,
+  "trend": "stable"
+}

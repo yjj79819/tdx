@@ -3,10 +3,6 @@
   "name": "果麦文化",
   "history": [
     {
-      "date": "2026-10-16",
-      "rank": 160
-    },
-    {
       "date": "2026-10-17",
       "rank": 156
     },
@@ -124,18 +120,22 @@
     },
     {
       "date": "2026-11-15",
-      "rank": 28
+      "rank": 33
     },
     {
       "date": "2026-11-16",
-      "rank": 33,
-      "price": 48.01,
-      "change_pct": 4.17
+      "rank": 57
+    },
+    {
+      "date": "2026-11-17",
+      "rank": 94,
+      "price": 45.0,
+      "change_pct": -6.2695
     }
   ],
   "continuous_days": 32,
   "monthly_count": 32,
-  "avg_rank": 138.2,
+  "avg_rank": 137.0,
   "best_rank": 25,
   "trend": "stable"
 }

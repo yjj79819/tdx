@@ -3,10 +3,6 @@
   "name": "宇树科技",
   "history": [
     {
-      "date": "2026-10-16",
-      "rank": 14
-    },
-    {
       "date": "2026-10-17",
       "rank": 22
     },
@@ -124,18 +120,22 @@
     },
     {
       "date": "2026-11-15",
-      "rank": 10
+      "rank": 9
     },
     {
       "date": "2026-11-16",
-      "rank": 26,
-      "price": 703.99,
-      "change_pct": 1.15
+      "rank": 10
+    },
+    {
+      "date": "2026-11-17",
+      "rank": 21,
+      "price": 619.73,
+      "change_pct": -11.9689
     }
   ],
   "continuous_days": 32,
   "monthly_count": 32,
-  "avg_rank": 11.4,
+  "avg_rank": 11.1,
   "best_rank": 1,
   "trend": "stable"
 }
