@@ -3,10 +3,6 @@
   "name": "天虹股份",
   "history": [
     {
-      "date": "2026-10-17",
-      "rank": 1241
-    },
-    {
       "date": "2026-10-18",
       "rank": 1849
     },
@@ -112,18 +108,22 @@
     },
     {
       "date": "2026-11-16",
-      "rank": 42
+      "rank": 46
     },
     {
       "date": "2026-11-17",
-      "rank": 16,
-      "price": 5.34,
-      "change_pct": -1.11
+      "rank": 110
+    },
+    {
+      "date": "2026-11-18",
+      "rank": 48,
+      "price": 4.87,
+      "change_pct": -8.8015
     }
   ],
   "continuous_days": 29,
   "monthly_count": 29,
-  "avg_rank": 1166.7,
-  "best_rank": 16,
+  "avg_rank": 1129.0,
+  "best_rank": 46,
   "trend": "stable"
 }

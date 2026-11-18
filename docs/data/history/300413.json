@@ -3,10 +3,6 @@
   "name": "芒果超媒",
   "history": [
     {
-      "date": "2026-10-17",
-      "rank": 116
-    },
-    {
       "date": "2026-10-18",
       "rank": 62
     },
@@ -128,14 +124,18 @@
     },
     {
       "date": "2026-11-17",
-      "rank": 48,
-      "price": 29.06,
-      "change_pct": -6.02
+      "rank": 54
+    },
+    {
+      "date": "2026-11-18",
+      "rank": 57,
+      "price": 28.2,
+      "change_pct": -2.9594
     }
   ],
   "continuous_days": 32,
   "monthly_count": 32,
-  "avg_rank": 78.5,
+  "avg_rank": 76.9,
   "best_rank": 6,
   "trend": "stable"
 }

@@ -3,10 +3,6 @@
   "name": "雪人集团",
   "history": [
     {
-      "date": "2026-10-17",
-      "rank": 36
-    },
-    {
       "date": "2026-10-18",
       "rank": 31
     },
@@ -124,18 +120,22 @@
     },
     {
       "date": "2026-11-16",
-      "rank": 54
+      "rank": 60
     },
     {
       "date": "2026-11-17",
-      "rank": 57,
-      "price": 14.38,
-      "change_pct": -2.77
+      "rank": 51
+    },
+    {
+      "date": "2026-11-18",
+      "rank": 34,
+      "price": 14.52,
+      "change_pct": 0.9736
     }
   ],
   "continuous_days": 32,
   "monthly_count": 32,
-  "avg_rank": 71.0,
+  "avg_rank": 70.9,
   "best_rank": 10,
   "trend": "stable"
 }

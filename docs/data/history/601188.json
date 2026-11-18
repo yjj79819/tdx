@@ -3,10 +3,6 @@
   "name": "龙江交通",
   "history": [
     {
-      "date": "2026-10-17",
-      "rank": 203
-    },
-    {
       "date": "2026-10-18",
       "rank": 287
     },
@@ -124,18 +120,22 @@
     },
     {
       "date": "2026-11-16",
-      "rank": 14
+      "rank": 15
     },
     {
       "date": "2026-11-17",
-      "rank": 10,
-      "price": 4.74,
-      "change_pct": 0.21
+      "rank": 9
+    },
+    {
+      "date": "2026-11-18",
+      "rank": 4,
+      "price": 5.08,
+      "change_pct": 7.173
     }
   ],
   "continuous_days": 32,
   "monthly_count": 32,
-  "avg_rank": 215.8,
-  "best_rank": 9,
+  "avg_rank": 209.6,
+  "best_rank": 4,
   "trend": "stable"
 }

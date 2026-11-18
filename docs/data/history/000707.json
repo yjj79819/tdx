@@ -1,0 +1,25 @@
+{
+  "code": "000707",
+  "name": "双环科技",
+  "history": [
+    {
+      "date": "2026-11-16",
+      "rank": 336
+    },
+    {
+      "date": "2026-11-17",
+      "rank": 143
+    },
+    {
+      "date": "2026-11-18",
+      "rank": 51,
+      "price": 5.05,
+      "change_pct": 10.0218
+    }
+  ],
+  "continuous_days": 3,
+  "monthly_count": 3,
+  "avg_rank": 176.7,
+  "best_rank": 51,
+  "trend": "stable"
+}

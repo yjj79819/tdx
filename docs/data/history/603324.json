@@ -1,0 +1,25 @@
+{
+  "code": "603324",
+  "name": "盛剑科技",
+  "history": [
+    {
+      "date": "2026-11-16",
+      "rank": 383
+    },
+    {
+      "date": "2026-11-17",
+      "rank": 174
+    },
+    {
+      "date": "2026-11-18",
+      "rank": 68,
+      "price": 22.9,
+      "change_pct": 9.9904
+    }
+  ],
+  "continuous_days": 3,
+  "monthly_count": 3,
+  "avg_rank": 208.3,
+  "best_rank": 68,
+  "trend": "stable"
+}

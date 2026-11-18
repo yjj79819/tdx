@@ -1,0 +1,29 @@
+{
+  "code": "300824",
+  "name": "北鼎股份",
+  "history": [
+    {
+      "date": "2026-11-15",
+      "rank": 169
+    },
+    {
+      "date": "2026-11-16",
+      "rank": 86
+    },
+    {
+      "date": "2026-11-17",
+      "rank": 101
+    },
+    {
+      "date": "2026-11-18",
+      "rank": 93,
+      "price": 9.9,
+      "change_pct": -0.8016
+    }
+  ],
+  "continuous_days": 4,
+  "monthly_count": 4,
+  "avg_rank": 112.2,
+  "best_rank": 86,
+  "trend": "stable"
+}

@@ -1,0 +1,25 @@
+{
+  "code": "603030",
+  "name": "全筑股份",
+  "history": [
+    {
+      "date": "2026-11-16",
+      "rank": 451
+    },
+    {
+      "date": "2026-11-17",
+      "rank": 193
+    },
+    {
+      "date": "2026-11-18",
+      "rank": 94,
+      "price": 2.13,
+      "change_pct": 9.7938
+    }
+  ],
+  "continuous_days": 3,
+  "monthly_count": 3,
+  "avg_rank": 246.0,
+  "best_rank": 94,
+  "trend": "stable"
+}

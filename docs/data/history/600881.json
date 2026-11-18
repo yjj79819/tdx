@@ -3,10 +3,6 @@
   "name": "亚泰集团",
   "history": [
     {
-      "date": "2026-10-17",
-      "rank": 1474
-    },
-    {
       "date": "2026-10-18",
       "rank": 1676
     },
@@ -44,18 +40,22 @@
     },
     {
       "date": "2026-11-16",
-      "rank": 263
+      "rank": 188
     },
     {
       "date": "2026-11-17",
-      "rank": 88,
-      "price": 1.73,
-      "change_pct": 10.19
+      "rank": 158
+    },
+    {
+      "date": "2026-11-18",
+      "rank": 70,
+      "price": 1.76,
+      "change_pct": 1.7341
     }
   ],
   "continuous_days": 12,
   "monthly_count": 12,
-  "avg_rank": 1465.5,
-  "best_rank": 88,
+  "avg_rank": 1348.1,
+  "best_rank": 70,
   "trend": "stable"
 }
