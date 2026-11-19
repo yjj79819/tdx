@@ -3,39 +3,31 @@
   "name": "证通电子",
   "history": [
     {
-      "date": "2026-07-14",
-      "rank": 1979
+      "date": "2026-11-13",
+      "rank": 1161
     },
     {
-      "date": "2026-07-19",
-      "rank": 427
+      "date": "2026-11-14",
+      "rank": 1167
     },
     {
-      "date": "2026-07-20",
-      "rank": 327
+      "date": "2026-11-17",
+      "rank": 236
     },
     {
-      "date": "2026-07-21",
-      "rank": 143
+      "date": "2026-11-18",
+      "rank": 95
     },
     {
-      "date": "2026-07-22",
-      "rank": 51
-    },
-    {
-      "date": "2026-07-23",
-      "rank": 74
-    },
-    {
-      "date": "2026-07-24",
-      "rank": 51,
-      "price": 6.9,
-      "change_pct": -10.04
+      "date": "2026-11-19",
+      "rank": 47,
+      "price": 6.15,
+      "change_pct": 0.6547
     }
   ],
-  "continuous_days": 7,
-  "monthly_count": 7,
-  "avg_rank": 436.0,
-  "best_rank": 51,
+  "continuous_days": 5,
+  "monthly_count": 5,
+  "avg_rank": 541.2,
+  "best_rank": 47,
   "trend": "stable"
 }

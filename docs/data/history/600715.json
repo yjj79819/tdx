@@ -3,10 +3,6 @@
   "name": "文投控股",
   "history": [
     {
-      "date": "2026-10-18",
-      "rank": 1222
-    },
-    {
       "date": "2026-10-19",
       "rank": 1380
     },
@@ -124,18 +120,22 @@
     },
     {
       "date": "2026-11-17",
-      "rank": 8
+      "rank": 10
     },
     {
       "date": "2026-11-18",
-      "rank": 5,
-      "price": 3.03,
-      "change_pct": -10.09
+      "rank": 12
+    },
+    {
+      "date": "2026-11-19",
+      "rank": 9,
+      "price": 2.73,
+      "change_pct": -9.901
     }
   ],
   "continuous_days": 32,
   "monthly_count": 32,
-  "avg_rank": 240.8,
+  "avg_rank": 203.2,
   "best_rank": 1,
   "trend": "stable"
 }

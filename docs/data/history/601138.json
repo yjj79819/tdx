@@ -3,10 +3,6 @@
   "name": "工业富联",
   "history": [
     {
-      "date": "2026-10-18",
-      "rank": 72
-    },
-    {
       "date": "2026-10-19",
       "rank": 58
     },
@@ -124,18 +120,22 @@
     },
     {
       "date": "2026-11-17",
-      "rank": 22
+      "rank": 21
     },
     {
       "date": "2026-11-18",
-      "rank": 21,
-      "price": 37.94,
-      "change_pct": 5.68
+      "rank": 48
+    },
+    {
+      "date": "2026-11-19",
+      "rank": 54,
+      "price": 37.71,
+      "change_pct": -0.6062
     }
   ],
   "continuous_days": 32,
   "monthly_count": 32,
-  "avg_rank": 54.9,
+  "avg_rank": 55.2,
   "best_rank": 18,
   "trend": "stable"
 }

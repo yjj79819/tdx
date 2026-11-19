@@ -3,10 +3,6 @@
   "name": "中国稀土",
   "history": [
     {
-      "date": "2026-10-18",
-      "rank": 230
-    },
-    {
       "date": "2026-10-19",
       "rank": 451
     },
@@ -124,18 +120,22 @@
     },
     {
       "date": "2026-11-17",
-      "rank": 35
+      "rank": 37
     },
     {
       "date": "2026-11-18",
-      "rank": 46,
-      "price": 40.34,
-      "change_pct": -10.0
+      "rank": 51
+    },
+    {
+      "date": "2026-11-19",
+      "rank": 41,
+      "price": 40.7,
+      "change_pct": 0.8924
     }
   ],
   "continuous_days": 32,
   "monthly_count": 32,
-  "avg_rank": 408.4,
+  "avg_rank": 402.7,
   "best_rank": 15,
   "trend": "stable"
 }
