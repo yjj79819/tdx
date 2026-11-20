@@ -3,10 +3,6 @@
   "name": "吉视传媒",
   "history": [
     {
-      "date": "2026-10-19",
-      "rank": 440
-    },
-    {
       "date": "2026-10-20",
       "rank": 328
     },
@@ -124,18 +120,22 @@
     },
     {
       "date": "2026-11-18",
-      "rank": 103
+      "rank": 110
     },
     {
       "date": "2026-11-19",
-      "rank": 81,
-      "price": 2.23,
-      "change_pct": -10.08
+      "rank": 79
+    },
+    {
+      "date": "2026-11-20",
+      "rank": 70,
+      "price": 2.25,
+      "change_pct": 0.8969
     }
   ],
   "continuous_days": 32,
   "monthly_count": 32,
-  "avg_rank": 343.7,
+  "avg_rank": 332.2,
   "best_rank": 19,
   "trend": "stable"
 }

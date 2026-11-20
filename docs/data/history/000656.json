@@ -3,10 +3,6 @@
   "name": "金科股份",
   "history": [
     {
-      "date": "2026-10-19",
-      "rank": 1462
-    },
-    {
       "date": "2026-10-20",
       "rank": 1338
     },
@@ -124,18 +120,22 @@
     },
     {
       "date": "2026-11-18",
-      "rank": 100
+      "rank": 85
     },
     {
       "date": "2026-11-19",
-      "rank": 92,
-      "price": 1.02,
-      "change_pct": 9.68
+      "rank": 81
+    },
+    {
+      "date": "2026-11-20",
+      "rank": 46,
+      "price": 1.04,
+      "change_pct": 1.9608
     }
   ],
   "continuous_days": 32,
   "monthly_count": 32,
-  "avg_rank": 1161.8,
-  "best_rank": 92,
+  "avg_rank": 1116.7,
+  "best_rank": 46,
   "trend": "stable"
 }

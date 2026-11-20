@@ -1,0 +1,33 @@
+{
+  "code": "603931",
+  "name": "格林达",
+  "history": [
+    {
+      "date": "2026-11-16",
+      "rank": 550
+    },
+    {
+      "date": "2026-11-17",
+      "rank": 709
+    },
+    {
+      "date": "2026-11-18",
+      "rank": 134
+    },
+    {
+      "date": "2026-11-19",
+      "rank": 92
+    },
+    {
+      "date": "2026-11-20",
+      "rank": 44,
+      "price": 28.78,
+      "change_pct": -1.2693
+    }
+  ],
+  "continuous_days": 5,
+  "monthly_count": 5,
+  "avg_rank": 305.8,
+  "best_rank": 44,
+  "trend": "stable"
+}

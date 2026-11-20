@@ -1,0 +1,25 @@
+{
+  "code": "300812",
+  "name": "易天股份",
+  "history": [
+    {
+      "date": "2026-11-18",
+      "rank": 727
+    },
+    {
+      "date": "2026-11-19",
+      "rank": 110
+    },
+    {
+      "date": "2026-11-20",
+      "rank": 96,
+      "price": 18.0,
+      "change_pct": 20.0
+    }
+  ],
+  "continuous_days": 3,
+  "monthly_count": 3,
+  "avg_rank": 311.0,
+  "best_rank": 96,
+  "trend": "stable"
+}

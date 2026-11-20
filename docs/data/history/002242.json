@@ -3,10 +3,6 @@
   "name": "九阳股份",
   "history": [
     {
-      "date": "2026-10-19",
-      "rank": 3
-    },
-    {
       "date": "2026-10-20",
       "rank": 2
     },
@@ -128,9 +124,13 @@
     },
     {
       "date": "2026-11-19",
+      "rank": 1
+    },
+    {
+      "date": "2026-11-20",
       "rank": 1,
-      "price": 31.21,
-      "change_pct": 10.01
+      "price": 28.96,
+      "change_pct": -7.2092
     }
   ],
   "continuous_days": 32,

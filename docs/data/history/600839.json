@@ -3,10 +3,6 @@
   "name": "四川长虹",
   "history": [
     {
-      "date": "2026-10-19",
-      "rank": 380
-    },
-    {
       "date": "2026-10-20",
       "rank": 534
     },
@@ -128,14 +124,18 @@
     },
     {
       "date": "2026-11-19",
-      "rank": 12,
-      "price": 5.76,
-      "change_pct": 1.41
+      "rank": 58
+    },
+    {
+      "date": "2026-11-20",
+      "rank": 54,
+      "price": 5.29,
+      "change_pct": -8.1597
     }
   ],
   "continuous_days": 32,
   "monthly_count": 32,
-  "avg_rank": 428.9,
-  "best_rank": 12,
+  "avg_rank": 420.2,
+  "best_rank": 15,
   "trend": "stable"
 }

@@ -3,14 +3,6 @@
   "name": "海立股份",
   "history": [
     {
-      "date": "2026-10-18",
-      "rank": 1473
-    },
-    {
-      "date": "2026-10-19",
-      "rank": 1515
-    },
-    {
       "date": "2026-10-20",
       "rank": 1512
     },
@@ -116,18 +108,26 @@
     },
     {
       "date": "2026-11-17",
-      "rank": 53
+      "rank": 57
     },
     {
       "date": "2026-11-18",
-      "rank": 47,
-      "price": 13.7,
-      "change_pct": 4.58
+      "rank": 27
+    },
+    {
+      "date": "2026-11-19",
+      "rank": 55
+    },
+    {
+      "date": "2026-11-20",
+      "rank": 55,
+      "price": 13.81,
+      "change_pct": -8.361
     }
   ],
   "continuous_days": 30,
   "monthly_count": 30,
-  "avg_rank": 1324.0,
-  "best_rank": 47,
+  "avg_rank": 1227.5,
+  "best_rank": 27,
   "trend": "stable"
 }
