@@ -3,18 +3,6 @@
   "name": "京蓝科技",
   "history": [
     {
-      "date": "2026-10-20",
-      "rank": 1169
-    },
-    {
-      "date": "2026-10-21",
-      "rank": 1213
-    },
-    {
-      "date": "2026-10-22",
-      "rank": 1279
-    },
-    {
       "date": "2026-10-23",
       "rank": 1551
     },
@@ -124,18 +112,30 @@
     },
     {
       "date": "2026-11-19",
-      "rank": 66
+      "rank": 80
     },
     {
       "date": "2026-11-20",
-      "rank": 48,
-      "price": 3.86,
-      "change_pct": 0.78
+      "rank": 112
+    },
+    {
+      "date": "2026-11-21",
+      "rank": 50
+    },
+    {
+      "date": "2026-11-22",
+      "rank": 63
+    },
+    {
+      "date": "2026-11-23",
+      "rank": 73,
+      "price": 4.25,
+      "change_pct": 10.1036
     }
   ],
   "continuous_days": 32,
   "monthly_count": 32,
-  "avg_rank": 1262.8,
-  "best_rank": 48,
+  "avg_rank": 1156.6,
+  "best_rank": 50,
   "trend": "stable"
 }

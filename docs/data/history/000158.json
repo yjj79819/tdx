@@ -3,18 +3,6 @@
   "name": "常山北明",
   "history": [
     {
-      "date": "2026-10-20",
-      "rank": 247
-    },
-    {
-      "date": "2026-10-21",
-      "rank": 385
-    },
-    {
-      "date": "2026-10-22",
-      "rank": 349
-    },
-    {
       "date": "2026-10-23",
       "rank": 528
     },
@@ -124,18 +112,30 @@
     },
     {
       "date": "2026-11-19",
-      "rank": 12
+      "rank": 17
     },
     {
       "date": "2026-11-20",
-      "rank": 20,
-      "price": 13.52,
-      "change_pct": 3.76
+      "rank": 31
+    },
+    {
+      "date": "2026-11-21",
+      "rank": 23
+    },
+    {
+      "date": "2026-11-22",
+      "rank": 25
+    },
+    {
+      "date": "2026-11-23",
+      "rank": 28,
+      "price": 13.35,
+      "change_pct": -1.2574
     }
   ],
   "continuous_days": 32,
   "monthly_count": 32,
-  "avg_rank": 457.2,
+  "avg_rank": 429.4,
   "best_rank": 9,
   "trend": "stable"
 }

@@ -3,10 +3,6 @@
   "name": "北纬科技",
   "history": [
     {
-      "date": "2026-10-21",
-      "rank": 1610
-    },
-    {
       "date": "2026-11-10",
       "rank": 434
     },
@@ -44,18 +40,30 @@
     },
     {
       "date": "2026-11-19",
-      "rank": 8
+      "rank": 7
     },
     {
       "date": "2026-11-20",
-      "rank": 10,
-      "price": 10.06,
-      "change_pct": 8.17
+      "rank": 7
+    },
+    {
+      "date": "2026-11-21",
+      "rank": 1
+    },
+    {
+      "date": "2026-11-22",
+      "rank": 6
+    },
+    {
+      "date": "2026-11-23",
+      "rank": 4,
+      "price": 11.07,
+      "change_pct": 10.0398
     }
   ],
-  "continuous_days": 12,
-  "monthly_count": 12,
-  "avg_rank": 191.2,
-  "best_rank": 5,
+  "continuous_days": 14,
+  "monthly_count": 14,
+  "avg_rank": 49.4,
+  "best_rank": 1,
   "trend": "stable"
 }

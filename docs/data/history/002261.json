@@ -3,18 +3,6 @@
   "name": "拓维信息",
   "history": [
     {
-      "date": "2026-10-20",
-      "rank": 336
-    },
-    {
-      "date": "2026-10-21",
-      "rank": 482
-    },
-    {
-      "date": "2026-10-22",
-      "rank": 320
-    },
-    {
       "date": "2026-10-23",
       "rank": 452
     },
@@ -124,18 +112,30 @@
     },
     {
       "date": "2026-11-19",
-      "rank": 53
+      "rank": 61
     },
     {
       "date": "2026-11-20",
-      "rank": 58,
-      "price": 20.34,
-      "change_pct": -8.79
+      "rank": 133
+    },
+    {
+      "date": "2026-11-21",
+      "rank": 131
+    },
+    {
+      "date": "2026-11-22",
+      "rank": 90
+    },
+    {
+      "date": "2026-11-23",
+      "rank": 94,
+      "price": 20.01,
+      "change_pct": -1.6224
     }
   ],
   "continuous_days": 32,
   "monthly_count": 32,
-  "avg_rank": 364.7,
+  "avg_rank": 341.5,
   "best_rank": 17,
   "trend": "stable"
 }
