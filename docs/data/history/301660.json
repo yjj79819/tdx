@@ -3,10 +3,6 @@
   "name": "粤芯半导体",
   "history": [
     {
-      "date": "2026-10-23",
-      "rank": 33
-    },
-    {
       "date": "2026-10-24",
       "rank": 36
     },
@@ -124,18 +120,22 @@
     },
     {
       "date": "2026-11-22",
-      "rank": 49
+      "rank": 54
     },
     {
       "date": "2026-11-23",
-      "rank": 76,
-      "price": 32.0,
-      "change_pct": 4.54
+      "rank": 43
+    },
+    {
+      "date": "2026-11-24",
+      "rank": 53,
+      "price": 30.71,
+      "change_pct": -4.0313
     }
   ],
   "continuous_days": 32,
   "monthly_count": 32,
-  "avg_rank": 130.3,
+  "avg_rank": 130.1,
   "best_rank": 25,
   "trend": "stable"
 }

@@ -3,10 +3,6 @@
   "name": "锋龙股份",
   "history": [
     {
-      "date": "2026-10-23",
-      "rank": 145
-    },
-    {
       "date": "2026-10-24",
       "rank": 140
     },
@@ -124,18 +120,22 @@
     },
     {
       "date": "2026-11-22",
-      "rank": 114
+      "rank": 105
     },
     {
       "date": "2026-11-23",
-      "rank": 32,
-      "price": 42.46,
-      "change_pct": 10.0
+      "rank": 104
+    },
+    {
+      "date": "2026-11-24",
+      "rank": 69,
+      "price": 46.71,
+      "change_pct": 10.0094
     }
   ],
   "continuous_days": 32,
   "monthly_count": 32,
-  "avg_rank": 246.2,
+  "avg_rank": 245.8,
   "best_rank": 20,
   "trend": "stable"
 }

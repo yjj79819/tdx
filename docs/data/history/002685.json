@@ -3,10 +3,6 @@
   "name": "华东重机",
   "history": [
     {
-      "date": "2026-10-23",
-      "rank": 1778
-    },
-    {
       "date": "2026-10-24",
       "rank": 1901
     },
@@ -68,14 +64,18 @@
     },
     {
       "date": "2026-11-23",
-      "rank": 8,
-      "price": 8.14,
-      "change_pct": 10.0
+      "rank": 6
+    },
+    {
+      "date": "2026-11-24",
+      "rank": 6,
+      "price": 8.95,
+      "change_pct": 9.9509
     }
   ],
   "continuous_days": 17,
   "monthly_count": 17,
-  "avg_rank": 444.6,
+  "avg_rank": 340.2,
   "best_rank": 4,
   "trend": "stable"
 }

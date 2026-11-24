@@ -3,10 +3,6 @@
   "name": "宁德时代",
   "history": [
     {
-      "date": "2026-10-23",
-      "rank": 7
-    },
-    {
       "date": "2026-10-24",
       "rank": 14
     },
@@ -124,18 +120,22 @@
     },
     {
       "date": "2026-11-22",
-      "rank": 42
+      "rank": 45
     },
     {
       "date": "2026-11-23",
-      "rank": 77,
-      "price": 227.39,
-      "change_pct": -0.17
+      "rank": 45
+    },
+    {
+      "date": "2026-11-24",
+      "rank": 99,
+      "price": 227.37,
+      "change_pct": -0.0088
     }
   ],
   "continuous_days": 32,
   "monthly_count": 32,
-  "avg_rank": 31.8,
-  "best_rank": 7,
+  "avg_rank": 33.8,
+  "best_rank": 10,
   "trend": "stable"
 }
