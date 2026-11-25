@@ -3,10 +3,6 @@
   "name": "利通电子",
   "history": [
     {
-      "date": "2026-10-24",
-      "rank": 178
-    },
-    {
       "date": "2026-10-25",
       "rank": 152
     },
@@ -128,14 +124,18 @@
     },
     {
       "date": "2026-11-24",
-      "rank": 38,
-      "price": 60.49,
-      "change_pct": -4.24
+      "rank": 81
+    },
+    {
+      "date": "2026-11-25",
+      "rank": 64,
+      "price": 56.5,
+      "change_pct": -6.5961
     }
   ],
   "continuous_days": 32,
   "monthly_count": 32,
-  "avg_rank": 148.1,
+  "avg_rank": 145.9,
   "best_rank": 14,
   "trend": "stable"
 }

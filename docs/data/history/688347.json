@@ -3,10 +3,6 @@
   "name": "华虹宏力",
   "history": [
     {
-      "date": "2026-10-24",
-      "rank": 1161
-    },
-    {
       "date": "2026-10-25",
       "rank": 638
     },
@@ -124,18 +120,22 @@
     },
     {
       "date": "2026-11-23",
-      "rank": 58
+      "rank": 51
     },
     {
       "date": "2026-11-24",
-      "rank": 86,
-      "price": 209.39,
-      "change_pct": 10.36
+      "rank": 40
+    },
+    {
+      "date": "2026-11-25",
+      "rank": 57,
+      "price": 180.3,
+      "change_pct": -13.8927
     }
   ],
   "continuous_days": 32,
   "monthly_count": 32,
-  "avg_rank": 338.2,
+  "avg_rank": 302.1,
   "best_rank": 23,
   "trend": "stable"
 }

@@ -3,18 +3,6 @@
   "name": "闽发铝业",
   "history": [
     {
-      "date": "2026-10-22",
-      "rank": 1601
-    },
-    {
-      "date": "2026-10-23",
-      "rank": 1006
-    },
-    {
-      "date": "2026-10-24",
-      "rank": 1078
-    },
-    {
       "date": "2026-10-25",
       "rank": 444
     },
@@ -100,18 +88,38 @@
     },
     {
       "date": "2026-11-19",
-      "rank": 119
+      "rank": 127
     },
     {
       "date": "2026-11-20",
-      "rank": 83,
-      "price": 3.88,
-      "change_pct": -1.02
+      "rank": 141
+    },
+    {
+      "date": "2026-11-21",
+      "rank": 126
+    },
+    {
+      "date": "2026-11-22",
+      "rank": 122
+    },
+    {
+      "date": "2026-11-23",
+      "rank": 64
+    },
+    {
+      "date": "2026-11-24",
+      "rank": 102
+    },
+    {
+      "date": "2026-11-25",
+      "rank": 85,
+      "price": 3.97,
+      "change_pct": -7.8886
     }
   ],
-  "continuous_days": 26,
-  "monthly_count": 26,
-  "avg_rank": 338.5,
+  "continuous_days": 28,
+  "monthly_count": 28,
+  "avg_rank": 202.9,
   "best_rank": 5,
   "trend": "stable"
 }

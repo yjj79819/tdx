@@ -3,10 +3,6 @@
   "name": "红宝丽",
   "history": [
     {
-      "date": "2026-10-24",
-      "rank": 1373
-    },
-    {
       "date": "2026-10-25",
       "rank": 1324
     },
@@ -124,18 +120,22 @@
     },
     {
       "date": "2026-11-23",
-      "rank": 71
+      "rank": 69
     },
     {
       "date": "2026-11-24",
-      "rank": 71,
-      "price": 6.91,
-      "change_pct": 4.22
+      "rank": 63
+    },
+    {
+      "date": "2026-11-25",
+      "rank": 44,
+      "price": 6.95,
+      "change_pct": 0.5789
     }
   ],
   "continuous_days": 32,
   "monthly_count": 32,
-  "avg_rank": 948.2,
-  "best_rank": 71,
+  "avg_rank": 906.3,
+  "best_rank": 44,
   "trend": "stable"
 }

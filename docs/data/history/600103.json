@@ -3,10 +3,6 @@
   "name": "青山纸业",
   "history": [
     {
-      "date": "2026-10-24",
-      "rank": 771
-    },
-    {
       "date": "2026-10-25",
       "rank": 810
     },
@@ -124,18 +120,22 @@
     },
     {
       "date": "2026-11-23",
-      "rank": 24
+      "rank": 25
     },
     {
       "date": "2026-11-24",
-      "rank": 16,
-      "price": 3.44,
-      "change_pct": -2.55
+      "rank": 16
+    },
+    {
+      "date": "2026-11-25",
+      "rank": 7,
+      "price": 3.78,
+      "change_pct": 9.8837
     }
   ],
   "continuous_days": 32,
   "monthly_count": 32,
-  "avg_rank": 468.2,
-  "best_rank": 16,
+  "avg_rank": 444.3,
+  "best_rank": 7,
   "trend": "stable"
 }
