@@ -3,10 +3,6 @@
   "name": "工商银行",
   "history": [
     {
-      "date": "2026-10-25",
-      "rank": 29
-    },
-    {
       "date": "2026-10-26",
       "rank": 24
     },
@@ -128,14 +124,18 @@
     },
     {
       "date": "2026-11-25",
-      "rank": 36,
-      "price": 9.2,
-      "change_pct": -0.22
+      "rank": 28
+    },
+    {
+      "date": "2026-11-26",
+      "rank": 38,
+      "price": 9.23,
+      "change_pct": 0.3261
     }
   ],
   "continuous_days": 32,
   "monthly_count": 32,
-  "avg_rank": 47.4,
+  "avg_rank": 47.5,
   "best_rank": 1,
   "trend": "stable"
 }

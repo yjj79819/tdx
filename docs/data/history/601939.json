@@ -3,18 +3,6 @@
   "name": "建设银行",
   "history": [
     {
-      "date": "2026-10-23",
-      "rank": 300
-    },
-    {
-      "date": "2026-10-24",
-      "rank": 412
-    },
-    {
-      "date": "2026-10-25",
-      "rank": 241
-    },
-    {
       "date": "2026-10-26",
       "rank": 142
     },
@@ -124,18 +112,30 @@
     },
     {
       "date": "2026-11-22",
-      "rank": 76
+      "rank": 87
     },
     {
       "date": "2026-11-23",
-      "rank": 71,
-      "price": 12.39,
-      "change_pct": -2.9
+      "rank": 146
+    },
+    {
+      "date": "2026-11-24",
+      "rank": 80
+    },
+    {
+      "date": "2026-11-25",
+      "rank": 105
+    },
+    {
+      "date": "2026-11-26",
+      "rank": 98,
+      "price": 12.73,
+      "change_pct": 1.112
     }
   ],
   "continuous_days": 32,
   "monthly_count": 32,
-  "avg_rank": 229.9,
+  "avg_rank": 211.7,
   "best_rank": 20,
   "trend": "stable"
 }

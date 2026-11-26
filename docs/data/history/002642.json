@@ -3,10 +3,6 @@
   "name": "荣联科技",
   "history": [
     {
-      "date": "2026-10-25",
-      "rank": 1205
-    },
-    {
       "date": "2026-10-26",
       "rank": 1684
     },
@@ -68,18 +64,22 @@
     },
     {
       "date": "2026-11-24",
-      "rank": 28
+      "rank": 27
     },
     {
       "date": "2026-11-25",
-      "rank": 21,
-      "price": 8.54,
-      "change_pct": 10.05
+      "rank": 36
+    },
+    {
+      "date": "2026-11-26",
+      "rank": 51,
+      "price": 8.33,
+      "change_pct": -2.459
     }
   ],
   "continuous_days": 18,
   "monthly_count": 18,
-  "avg_rank": 989.7,
-  "best_rank": 21,
+  "avg_rank": 926.3,
+  "best_rank": 27,
   "trend": "stable"
 }

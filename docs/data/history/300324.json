@@ -3,14 +3,6 @@
   "name": "旋极信息",
   "history": [
     {
-      "date": "2026-10-24",
-      "rank": 1366
-    },
-    {
-      "date": "2026-10-25",
-      "rank": 1440
-    },
-    {
       "date": "2026-10-26",
       "rank": 1518
     },
@@ -104,18 +96,26 @@
     },
     {
       "date": "2026-11-23",
-      "rank": 63
+      "rank": 59
     },
     {
       "date": "2026-11-24",
-      "rank": 60,
-      "price": 4.77,
-      "change_pct": 6.24
+      "rank": 89
+    },
+    {
+      "date": "2026-11-25",
+      "rank": 29
+    },
+    {
+      "date": "2026-11-26",
+      "rank": 71,
+      "price": 5.04,
+      "change_pct": 20.0
     }
   ],
   "continuous_days": 27,
   "monthly_count": 27,
-  "avg_rank": 894.8,
-  "best_rank": 39,
+  "avg_rank": 795.5,
+  "best_rank": 29,
   "trend": "stable"
 }

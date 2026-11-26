@@ -3,10 +3,6 @@
   "name": "风语筑",
   "history": [
     {
-      "date": "2026-10-25",
-      "rank": 27
-    },
-    {
       "date": "2026-10-26",
       "rank": 93
     },
@@ -124,18 +120,22 @@
     },
     {
       "date": "2026-11-24",
-      "rank": 72
+      "rank": 75
     },
     {
       "date": "2026-11-25",
-      "rank": 45,
-      "price": 15.2,
-      "change_pct": 0.53
+      "rank": 42
+    },
+    {
+      "date": "2026-11-26",
+      "rank": 94,
+      "price": 16.08,
+      "change_pct": 5.7895
     }
   ],
   "continuous_days": 32,
   "monthly_count": 32,
-  "avg_rank": 106.8,
+  "avg_rank": 108.8,
   "best_rank": 24,
   "trend": "stable"
 }

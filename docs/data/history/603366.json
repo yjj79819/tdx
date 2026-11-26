@@ -3,10 +3,6 @@
   "name": "日出东方",
   "history": [
     {
-      "date": "2026-10-25",
-      "rank": 632
-    },
-    {
       "date": "2026-10-26",
       "rank": 231
     },
@@ -124,18 +120,22 @@
     },
     {
       "date": "2026-11-24",
-      "rank": 35
+      "rank": 36
     },
     {
       "date": "2026-11-25",
-      "rank": 37,
-      "price": 9.64,
-      "change_pct": -9.99
+      "rank": 51
+    },
+    {
+      "date": "2026-11-26",
+      "rank": 46,
+      "price": 9.0,
+      "change_pct": -6.639
     }
   ],
   "continuous_days": 32,
   "monthly_count": 32,
-  "avg_rank": 110.4,
+  "avg_rank": 92.6,
   "best_rank": 1,
   "trend": "stable"
 }

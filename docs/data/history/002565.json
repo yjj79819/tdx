@@ -3,14 +3,6 @@
   "name": "顺灏股份",
   "history": [
     {
-      "date": "2026-10-24",
-      "rank": 431
-    },
-    {
-      "date": "2026-10-25",
-      "rank": 429
-    },
-    {
       "date": "2026-10-26",
       "rank": 438
     },
@@ -124,18 +116,26 @@
     },
     {
       "date": "2026-11-23",
-      "rank": 168
+      "rank": 184
     },
     {
       "date": "2026-11-24",
-      "rank": 83,
-      "price": 8.24,
-      "change_pct": 1.85
+      "rank": 261
+    },
+    {
+      "date": "2026-11-25",
+      "rank": 37
+    },
+    {
+      "date": "2026-11-26",
+      "rank": 22,
+      "price": 8.43,
+      "change_pct": 10.0522
     }
   ],
   "continuous_days": 32,
   "monthly_count": 32,
-  "avg_rank": 171.2,
+  "avg_rank": 152.3,
   "best_rank": 7,
   "trend": "stable"
 }
