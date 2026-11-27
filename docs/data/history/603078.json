@@ -3,14 +3,6 @@
   "name": "江化微",
   "history": [
     {
-      "date": "2026-10-25",
-      "rank": 1856
-    },
-    {
-      "date": "2026-10-26",
-      "rank": 1624
-    },
-    {
       "date": "2026-10-27",
       "rank": 1581
     },
@@ -120,18 +112,26 @@
     },
     {
       "date": "2026-11-24",
-      "rank": 96
+      "rank": 101
     },
     {
       "date": "2026-11-25",
-      "rank": 92,
-      "price": 24.61,
-      "change_pct": -9.99
+      "rank": 81
+    },
+    {
+      "date": "2026-11-26",
+      "rank": 91
+    },
+    {
+      "date": "2026-11-27",
+      "rank": 71,
+      "price": 28.85,
+      "change_pct": 9.9886
     }
   ],
   "continuous_days": 31,
   "monthly_count": 31,
-  "avg_rank": 1177.1,
+  "avg_rank": 1069.9,
   "best_rank": 50,
   "trend": "stable"
 }

@@ -1,103 +1,5 @@
 [
   {
-    "review_date": "2026-08-19",
-    "target_date": "2026-08-19",
-    "results": [
-      {
-        "code": "600313",
-        "name": "农发种业",
-        "prev_rank": 17,
-        "prev_price": 7.26,
-        "today_rank": 13,
-        "today_price": 7.08,
-        "price_change": -2.48,
-        "still_in_top50": true,
-        "rank_change": 4
-      },
-      {
-        "code": "002361",
-        "name": "神剑股份",
-        "prev_rank": 7,
-        "prev_price": 12.35,
-        "today_rank": "-",
-        "today_price": 12.35,
-        "price_change": 0.0,
-        "still_in_top50": false,
-        "rank_change": 0
-      },
-      {
-        "code": "600127",
-        "name": "金健米业",
-        "prev_rank": 10,
-        "prev_price": 7.82,
-        "today_rank": 9,
-        "today_price": 7.82,
-        "price_change": 0.0,
-        "still_in_top50": true,
-        "rank_change": 1
-      },
-      {
-        "code": "600664",
-        "name": "哈药股份",
-        "prev_rank": 16,
-        "prev_price": 8.97,
-        "today_rank": 18,
-        "today_price": 9.04,
-        "price_change": 0.78,
-        "still_in_top50": true,
-        "rank_change": -2
-      },
-      {
-        "code": "000620",
-        "name": "盈新发展",
-        "prev_rank": 21,
-        "prev_price": 3.25,
-        "today_rank": 25,
-        "today_price": 3.54,
-        "price_change": 8.92,
-        "still_in_top50": true,
-        "rank_change": -4
-      },
-      {
-        "code": "600354",
-        "name": "敦煌种业",
-        "prev_rank": 88,
-        "prev_price": 7.06,
-        "today_rank": 89,
-        "today_price": 6.86,
-        "price_change": -2.83,
-        "still_in_top50": true,
-        "rank_change": -1
-      },
-      {
-        "code": "000998",
-        "name": "隆平高科",
-        "prev_rank": 94,
-        "prev_price": 9.13,
-        "today_rank": "-",
-        "today_price": 9.13,
-        "price_change": 0.0,
-        "still_in_top50": false,
-        "rank_change": 0
-      },
-      {
-        "code": "300189",
-        "name": "神农种业",
-        "prev_rank": 34,
-        "prev_price": 6.28,
-        "today_rank": 30,
-        "today_price": 6.05,
-        "price_change": -3.66,
-        "still_in_top50": true,
-        "rank_change": 4
-      }
-    ],
-    "win_rate": 25.0,
-    "win_count": 2,
-    "total": 8,
-    "rank_improved": 3
-  },
-  {
     "review_date": "2026-08-20",
     "target_date": "2026-08-19",
     "results": [
@@ -8818,5 +8720,103 @@
     "win_count": 6,
     "total": 8,
     "rank_improved": 2
+  },
+  {
+    "review_date": "2026-11-27",
+    "target_date": "2026-11-26",
+    "results": [
+      {
+        "code": "000530",
+        "name": "冰山冷热",
+        "prev_rank": 2,
+        "prev_price": 16.17,
+        "today_rank": 4,
+        "today_price": 15.45,
+        "price_change": -4.45,
+        "still_in_top50": true,
+        "rank_change": -2
+      },
+      {
+        "code": "600410",
+        "name": "华胜天成",
+        "prev_rank": 5,
+        "prev_price": 19.0,
+        "today_rank": "-",
+        "today_price": 19.0,
+        "price_change": 0.0,
+        "still_in_top50": false,
+        "rank_change": 0
+      },
+      {
+        "code": "002086",
+        "name": "东方海洋",
+        "prev_rank": 3,
+        "prev_price": 4.77,
+        "today_rank": "-",
+        "today_price": 4.77,
+        "price_change": 0.0,
+        "still_in_top50": false,
+        "rank_change": 0
+      },
+      {
+        "code": "000158",
+        "name": "常山北明",
+        "prev_rank": 9,
+        "prev_price": 13.88,
+        "today_rank": 6,
+        "today_price": 15.27,
+        "price_change": 10.01,
+        "still_in_top50": true,
+        "rank_change": 3
+      },
+      {
+        "code": "600814",
+        "name": "杭州解百",
+        "prev_rank": 12,
+        "prev_price": 9.19,
+        "today_rank": 30,
+        "today_price": 9.53,
+        "price_change": 3.7,
+        "still_in_top50": true,
+        "rank_change": -18
+      },
+      {
+        "code": "002579",
+        "name": "中京电子",
+        "prev_rank": 4,
+        "prev_price": 19.23,
+        "today_rank": "-",
+        "today_price": 19.23,
+        "price_change": 0.0,
+        "still_in_top50": false,
+        "rank_change": 0
+      },
+      {
+        "code": "600103",
+        "name": "青山纸业",
+        "prev_rank": 7,
+        "prev_price": 4.16,
+        "today_rank": 14,
+        "today_price": 4.06,
+        "price_change": -2.4,
+        "still_in_top50": true,
+        "rank_change": -7
+      },
+      {
+        "code": "600467",
+        "name": "好当家",
+        "prev_rank": 8,
+        "prev_price": 3.96,
+        "today_rank": 16,
+        "today_price": 3.8,
+        "price_change": -4.04,
+        "still_in_top50": true,
+        "rank_change": -8
+      }
+    ],
+    "win_rate": 25.0,
+    "win_count": 2,
+    "total": 8,
+    "rank_improved": 1
   }
 ]

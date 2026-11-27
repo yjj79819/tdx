@@ -1,0 +1,17 @@
+{
+  "code": "600567",
+  "name": "山鹰国际",
+  "history": [
+    {
+      "date": "2026-11-27",
+      "rank": 83,
+      "price": 1.11,
+      "change_pct": 9.901
+    }
+  ],
+  "continuous_days": 1,
+  "monthly_count": 1,
+  "avg_rank": 83.0,
+  "best_rank": 83,
+  "trend": "stable"
+}
